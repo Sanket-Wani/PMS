@@ -1,0 +1,143 @@
+{
+  "_id": "6a86cc115953b1dd0a17cd54",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FREE ANDROGEN INDEX",
+  "code": "1757",
+  "cost": 0,
+  "interpretation": "<p data-start=\"57\" data-end=\"330\"><strong data-start=\"57\" data-end=\"86\">Free Androgen Index (FAI)</strong> is a calculated ratio that estimates the amount of <strong data-start=\"138\" data-end=\"168\">biologically active (free)</strong> testosterone in the blood. It is especially useful in evaluating <strong data-start=\"234\" data-end=\"262\">androgen status in women</strong>, where direct measurement of free testosterone is often unreliable.</p>\n<p data-start=\"1429\" data-end=\"1460\"><strong data-start=\"1433\" data-end=\"1460\">FAI in Clinical Context</strong></p>\n<ul data-start=\"1462\" data-end=\"1853\">\n<li data-start=\"1462\" data-end=\"1705\">\n<p data-start=\"1464\" data-end=\"1477\"><strong data-start=\"1464\" data-end=\"1476\">In Women</strong>:</p>\n<ul data-start=\"1480\" data-end=\"1705\">\n<li data-start=\"1480\" data-end=\"1531\">\n<p data-start=\"1482\" data-end=\"1531\">FAI is a <strong data-start=\"1491\" data-end=\"1530\">screening tool for hyperandrogenism</strong>.</p>\n</li>\n<li data-start=\"1534\" data-end=\"1641\">\n<p data-start=\"1536\" data-end=\"1641\">Elevated FAI is often seen in <strong data-start=\"1566\" data-end=\"1574\">PCOS</strong>, especially if SHBG is low (due to obesity or insulin resistance).</p>\n</li>\n<li data-start=\"1644\" data-end=\"1705\">\n<p data-start=\"1646\" data-end=\"1705\">A high FAI is more sensitive than total testosterone alone.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1707\" data-end=\"1853\">\n<p data-start=\"1709\" data-end=\"1720\"><strong data-start=\"1709\" data-end=\"1719\">In Men</strong>:</p>\n<ul data-start=\"1723\" data-end=\"1853\">\n<li data-start=\"1723\" data-end=\"1853\">\n<p data-start=\"1725\" data-end=\"1853\">Used less frequently, but low FAI may indicate <strong data-start=\"1772\" data-end=\"1795\">androgen deficiency</strong>, especially if SHBG is high (e.g., aging, liver disease).</p>\n</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>\n<table>\n<thead>\n<tr>\n<th><strong>FAI</strong> Level</th>\n<th><strong>Possible Interpretation</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Low FAI</strong></td>\n<td>- Hypogonadism (in men) - Androgen deficiency - Elevated SHBG (e.g., from liver disease, estrogen therapy)</td>\n</tr>\n<tr>\n<td><strong>Normal FAI</strong></td>\n<td>- Normal androgen status</td>\n</tr>\n<tr>\n<td><strong>High FAI (especially in women)</strong></td>\n<td>- <strong>Polycystic Ovary Syndrome (PCOS)</strong> - <strong>Hirsutism</strong>, <strong>acne</strong>, <strong>infertility</strong> - Androgen-secreting tumor - <strong>Congenital adrenal hyperplasia (CAH)</strong> - <strong>Insulin resistance / obesity</strong></td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"57\" data-end=\"330\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TESTOSTERONE TOTAL",
+        "field": "numeric",
+        "units": "ng/dl",
+        "range": {
+          "default": {
+            "male-range-min": "12.09",
+            "male-range-max": "59.46",
+            "female-range-max": "59.46",
+            "female-range-min": "12.09",
+            "child-range-max": "59.46",
+            "child-range-min": "12.09"
+          }
+        },
+        "test_method": "clia",
+        "formulaId": "6ab4a43d-02b5-4eba-8c3f-013874189c29",
+        "flabsCode": "FLP2048"
+      },
+      "_id": "678cbc69af0b85d849fff0bf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SEX HORMONE BINDING GLOBULIN (SHBG)",
+        "field": "numeric",
+        "test_method": "clia",
+        "units": "nmol/L",
+        "range": {
+          "default": {
+            "male-range-min": "13",
+            "male-range-max": "71",
+            "female-range-max": "71",
+            "female-range-min": "13",
+            "child-range-max": "71",
+            "child-range-min": "13"
+          }
+        },
+        "formulaId": "fb946147-9c90-4d8c-b81f-69b8a847a92d",
+        "flabsCode": "FLP1906"
+      },
+      "_id": "678cbc69af0b85d849fff0c0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free Androgen Index (FAI)",
+        "field": "multiple_ranges",
+        "test_method": "calculated",
+        "range": {
+          "default": {
+            "male-range": "Oral contraceptives : Upto\n3.4~Postmenopausal, untreated\n: Upto 6.6~Hirsute : 1.7 - 20.6\nMenstrual Cycle : Entire cycle :\n0.8 - 10~Follicular phase : 0.8 -\n9.3~Mid cycle : 1.3 - 17~Luteal\nphase : 0.8 - 11~Male :30 to 150",
+            "female-range": "Oral contraceptives : Upto\n3.4~Postmenopausal, untreated\n: Upto 6.6~Hirsute : 1.7 - 20.6\nMenstrual Cycle : Entire cycle :\n0.8 - 10~Follicular phase : 0.8 -\n9.3~Mid cycle : 1.3 - 17~Luteal\nphase : 0.8 - 11~Male :30 to 150",
+            "child-range": "Oral contraceptives : Upto\n3.4~Postmenopausal, untreated\n: Upto 6.6~Hirsute : 1.7 - 20.6\nMenstrual Cycle : Entire cycle :\n0.8 - 10~Follicular phase : 0.8 -\n9.3~Mid cycle : 1.3 - 17~Luteal\nphase : 0.8 - 11~Male :30 to 150"
+          }
+        },
+        "formulaId": "2038fad8-a83e-40b0-9262-e262d0a5c848",
+        "flabsCode": "FLP0960"
+      },
+      "_id": "678cbc69af0b85d849fff0c1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c33c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0671",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.467Z",
+  "updatedAt": "2025-07-21T19:17:54.467Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

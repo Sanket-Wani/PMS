@@ -1,0 +1,136 @@
+{
+  "_id": "6a86cd2c92e2891d94905be9",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "RA-IgA RHEUMATOID ARTHRITIS",
+  "code": "2831",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1059\" data-end=\"1139\">\n<p data-start=\"1061\" data-end=\"1088\"><span style=\"font-size: 10px;\"><strong data-start=\"1061\" data-end=\"1086\">&lt;20 IU/mL (Negative):</strong></span></p>\n<ul data-start=\"1091\" data-end=\"1139\">\n<li style=\"font-size: 10px;\" data-start=\"1091\" data-end=\"1139\">\n<p data-start=\"1093\" data-end=\"1139\"><span style=\"font-size: 10px;\">No significant IgA rheumatoid factor detected.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1141\" data-end=\"1325\">\n<p data-start=\"1143\" data-end=\"1187\"><span style=\"font-size: 10px;\"><strong data-start=\"1143\" data-end=\"1185\">20&ndash;40 IU/mL (Borderline/Low Positive):</strong></span></p>\n<ul data-start=\"1190\" data-end=\"1325\">\n<li style=\"font-size: 10px;\" data-start=\"1190\" data-end=\"1274\">\n<p data-start=\"1192\" data-end=\"1274\"><span style=\"font-size: 10px;\">May be seen in <strong data-start=\"1207\" data-end=\"1271\">early RA, chronic infections, or other autoimmune conditions</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1277\" data-end=\"1325\">\n<p data-start=\"1279\" data-end=\"1325\"><span style=\"font-size: 10px;\">Correlate with anti-CCP and clinical features.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1327\" data-end=\"1562\">\n<p data-start=\"1329\" data-end=\"1356\"><span style=\"font-size: 10px;\"><strong data-start=\"1329\" data-end=\"1354\">&gt;40 IU/mL (Positive):</strong></span></p>\n<ul data-start=\"1359\" data-end=\"1562\">\n<li style=\"font-size: 10px;\" data-start=\"1359\" data-end=\"1461\">\n<p data-start=\"1361\" data-end=\"1461\"><span style=\"font-size: 10px;\">Suggestive of <strong data-start=\"1375\" data-end=\"1399\">Rheumatoid Arthritis</strong>, especially if anti-CCP is positive and symptoms correlate.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1464\" data-end=\"1562\">\n<p data-start=\"1466\" data-end=\"1562\"><span style=\"font-size: 10px;\">Higher titers may be associated with <strong data-start=\"1503\" data-end=\"1537\">extra-articular manifestations</strong> and more severe disease.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RA-IgA (Rheumatoid Factor – IgA)",
+        "field": "numeric_unbound",
+        "units": "IU/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "20"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "20"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "20"
+            }
+          }
+        },
+        "rangeReport": "<20 IU/mL (Negative)",
+        "formulaId": "befcd861-51fc-4314-a001-ebedb3e3f868",
+        "flabsCode": "FLP1814"
+      },
+      "_id": "68853e7e4c9e1585202da78a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Analytical Sensitivity",
+        "field": "numeric_unbound",
+        "units": "IU/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "5"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "5"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "d1d85495-595a-437c-9d15-bc30abea7169",
+        "flabsCode": "FLP0214"
+      },
+      "_id": "68853e7e4c9e1585202da78b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c66d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1596",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.321Z",
+  "updatedAt": "2025-07-21T19:17:58.321Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

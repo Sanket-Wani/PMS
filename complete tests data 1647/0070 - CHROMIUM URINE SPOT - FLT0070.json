@@ -1,0 +1,146 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b56f",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHROMIUM URINE SPOT",
+  "code": "1059",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1235\" data-end=\"1310\">\n<p data-start=\"120\" data-end=\"258\">The <strong data-start=\"124\" data-end=\"147\">Chromium Urine Spot</strong> test measures the amount of chromium excreted in a single (non-24-hour) urine sample. It is commonly used for:</p>\n<ul data-start=\"260\" data-end=\"584\">\n<li data-start=\"260\" data-end=\"350\">\n<p data-start=\"262\" data-end=\"350\"><strong data-start=\"262\" data-end=\"292\">Monitoring recent exposure</strong> to chromium, especially <strong data-start=\"317\" data-end=\"350\">occupational or environmental</strong></p>\n</li>\n<li data-start=\"351\" data-end=\"434\">\n<p data-start=\"353\" data-end=\"434\"><strong data-start=\"353\" data-end=\"396\">Assessing implant-related metal release</strong> (e.g., metal-on-metal hip prostheses)</p>\n</li>\n<li data-start=\"435\" data-end=\"492\">\n<p data-start=\"437\" data-end=\"492\"><strong data-start=\"437\" data-end=\"492\">Evaluating excessive dietary or supplemental intake</strong></p>\n</li>\n<li data-start=\"493\" data-end=\"584\">\n<p data-start=\"495\" data-end=\"584\"><strong data-start=\"495\" data-end=\"527\">Screening industrial workers</strong> (e.g., welders, electroplaters) for chromium VI exposure</p>\n</li>\n</ul>\n<p data-start=\"586\" data-end=\"709\">Since chromium is excreted through the kidneys, urine levels reflect <strong data-start=\"655\" data-end=\"674\">recent exposure</strong> more accurately than serum levels.</p>\n</li>\n</ul>\n<p>Elevated Levels &ndash; Clinical Implications</p>\n<table>\n<thead>\n<tr>\n<th><strong>Cause / Condition</strong></th>\n<th><strong>Clinical Insight</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Occupational or environmental exposure</strong></td>\n<td>Inhalation or skin contact with chromium compounds (especially Cr⁶⁺) elevates levels</td>\n</tr>\n<tr>\n<td><strong>Corrosion of chromium-containing implants</strong></td>\n<td>Such as metal-on-metal hip or knee replacements</td>\n</tr>\n<tr>\n<td><strong>High-dose chromium supplementation</strong></td>\n<td>Can increase urinary excretion</td>\n</tr>\n<tr>\n<td><strong>Acute dietary intake</strong></td>\n<td>Temporary rise may occur after meals high in chromium</td>\n</tr>\n<tr>\n<td><strong>Renal function</strong></td>\n<td>Though chromium is renally excreted, impaired function may reduce excretion slightly</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromium (Urine)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "1"
+            },
+            "female-range": "< 1.0 µg/L (normal, non-exposed)",
+            "child-range": "< 1.0 µg/L (normal, non-exposed)"
+          }
+        },
+        "units": "µg/L",
+        "formulaId": "cc4fbf46-837f-41ec-9b35-625043c88329",
+        "rangeReport": "< 1.0 µg/L (normal, non-exposed)",
+        "flabsCode": "FLP0582"
+      },
+      "_id": "6884084435738384e796c98b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Creatinine (Urine)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range": "30 – 300 mg/dL",
+            "female-range": "30 – 300 mg/dL",
+            "child-range": "30 – 300 mg/dL",
+            "male-range-min": "30",
+            "male-range-max": "300"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "2dd8be7d-3bf7-4a89-a0d4-840a002812e8",
+        "rangeReport": "30 – 300 mg/dL",
+        "flabsCode": "FLP0689"
+      },
+      "_id": "6884084435738384e796c98c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromium / Creatinine Ratio",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "1.5"
+            },
+            "female-range": "< 1.5 µg/g (normal background level)",
+            "child-range": "< 1.5 µg/g (normal background level)"
+          }
+        },
+        "units": "µg/g creatinine",
+        "formulaId": "c2e08afc-614e-4412-a4db-c36a6eef8014",
+        "rangeReport": "< 1.5 µg/g (normal background level)",
+        "flabsCode": "FLP0584"
+      },
+      "_id": "6884084435738384e796c98d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c15a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0070",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.295Z",
+  "updatedAt": "2025-07-21T19:17:52.295Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

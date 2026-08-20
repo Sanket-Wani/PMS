@@ -1,0 +1,210 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b1e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Coagulation Profile",
+  "code": "COAG",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Parameter</div></th><th><div>Normal Range</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Prothrombin Time (PT)</div></td><td><div>10-16 seconds</div></td><td><div>- PT value longer than the normal range may indicate bleeding risk, and shorter than the normal range may indicate clotting risk.<br>- INR value greater than 1.2 may indicate bleeding risk<br></div></td></tr><tr><td><div>Activated Partial Thromboplastin Time (aPTT)<br></div></td><td><div>22-40 seconds<br></div></td><td><div>- aPTT value longer than normal range may indicate bleeding risk, shorter than normal range may indicate clotting risk<br></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "sodium citrate 3.2 % plasma specimen",
+  "department": "6414fbfbf02dc1ebb6a097a3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "Minute",
+        "range": {
+          "default": {
+            "female-range-min": "2",
+            "female-range-max": "7",
+            "child-range-min": "2",
+            "child-range-max": "7",
+            "male-range-max": "7",
+            "male-range-min": "2"
+          }
+        },
+        "formulaId": "1636a581-972a-4d20-9de3-ee16dd29f626",
+        "name": "Bleeding Time"
+      },
+      "_id": "641a4478ebe595f57b4ffa34"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clotting Time",
+        "field": "numeric",
+        "units": "Minute",
+        "range": {
+          "default": {
+            "male-range-max": "9",
+            "male-range-min": "4",
+            "female-range-min": "4",
+            "female-range-max": "9",
+            "child-range-min": "4",
+            "child-range-max": "9"
+          }
+        },
+        "formulaId": "568df3df-9316-4e6c-a62c-19af550cb16d"
+      },
+      "_id": "641a4478ebe595f57b4ffa35"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "categories": [
+          {
+            "units": "seconds",
+            "range": {
+              "default": {
+                "male-range-max": "16",
+                "male-range-min": "10",
+                "female-range-max": "16",
+                "female-range-min": "10",
+                "child-range-max": "16",
+                "child-range-min": "10"
+              }
+            },
+            "key": 0,
+            "formulaId": "db43ba4e-1657-466b-a538-9c4f77d5f19a",
+            "field": "numeric",
+            "name": "Patient Value "
+          },
+          {
+            "units": "seconds",
+            "key": 1,
+            "formulaId": "417aef6f-d69f-400c-ab8b-2acba8c93775",
+            "field": "numeric",
+            "name": "Control Value "
+          },
+          {
+            "name": "INR Value",
+            "male-range-min": "",
+            "male-range-max": "",
+            "female-range-max": "",
+            "child-range-max": "",
+            "formulaChecked": true,
+            "field": "numeric",
+            "units": "",
+            "female-range-min": "",
+            "child-range-min": "",
+            "formula": "{db43ba4e-1657-466b-a538-9c4f77d5f19a}/ {417aef6f-d69f-400c-ab8b-2acba8c93775}",
+            "key": 2
+          },
+          {
+            "field": "numeric",
+            "name": "Index",
+            "formula": "({417aef6f-d69f-400c-ab8b-2acba8c93775}/ {db43ba4e-1657-466b-a538-9c4f77d5f19a}) * 100",
+            "key": 3,
+            "formulaChecked": true
+          }
+        ],
+        "name": "Prothrombin time"
+      },
+      "_id": "641a4722ebe595f57b4ffaa4"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Activated partial thromboplastin time (APTT)",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "APTT Patient Value",
+            "units": "seconds",
+            "range": {
+              "default": {
+                "male-range-max": "40",
+                "male-range-min": "22",
+                "female-range-max": "39",
+                "female-range-min": "22",
+                "child-range-max": "39",
+                "child-range-min": "22"
+              }
+            },
+            "key": 0,
+            "formulaId": "c8b324ae-1a44-4ac8-8e92-f60ca2256fb8"
+          },
+          {
+            "units": "seconds",
+            "key": 1,
+            "formulaId": "f78b8908-2f49-45fd-ae80-ac772554afb0",
+            "field": "numeric",
+            "name": "APTT Control Value"
+          }
+        ]
+      },
+      "_id": "641a4e0aebe595f57b4ffbf2"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641a4478ebe595f57b4ffa33",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1644",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.274Z",
+  "updatedAt": "2026-08-14T17:59:51.274Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

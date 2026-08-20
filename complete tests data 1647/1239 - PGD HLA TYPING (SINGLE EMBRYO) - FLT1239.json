@@ -1,0 +1,177 @@
+{
+  "_id": "6a86ccccba46c74c6d459b83",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PGD HLA TYPING (SINGLE EMBRYO)",
+  "code": "2481",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1558\" data-end=\"1845\">\n<li data-start=\"1558\" data-end=\"1702\">\n<p data-start=\"1560\" data-end=\"1702\">The embryo shows <strong data-start=\"1577\" data-end=\"1603\">full HLA compatibility</strong> with the affected sibling and is suitable for potential hematopoietic stem cell transplantation.</p>\n</li>\n<li data-start=\"1703\" data-end=\"1786\">\n<p data-start=\"1705\" data-end=\"1786\">The embryo <strong data-start=\"1716\" data-end=\"1757\">does not share full HLA compatibility</strong> with the affected sibling.</p>\n</li>\n<li data-start=\"1787\" data-end=\"1845\">\n<p data-start=\"1789\" data-end=\"1845\">Additional embryos may be tested for a compatible match.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "HLA Class I Typing (A, B, C)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "HLA-A",
+            "formulaId": "dd213607-e3b1-468e-b761-5fdca77c0bd6",
+            "flabsCode": "FLP1109"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "HLA-B",
+            "formulaId": "e0c61a51-143e-4626-b3ac-7762b8ad460f",
+            "flabsCode": "FLP1113"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "HLA-C",
+            "formulaId": "21656a96-802f-4b31-b54e-c39fc7919cc8",
+            "flabsCode": "FLP1118"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "HLA-DRB1",
+            "formulaId": "01bfa70e-dea9-42a7-a173-cf8c4d17f54f",
+            "flabsCode": "FLP1126"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "HLA-DQB1",
+            "formulaId": "650c6bc4-45e2-45fa-a24b-6cdeabc3e164",
+            "flabsCode": "FLP1122"
+          }
+        ]
+      },
+      "_id": "6883df2b35738384e796011f"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "HLA Class II Typing (DRB1, DQB1)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "HLA-DRB1",
+            "formulaId": "01bfa70e-dea9-42a7-a173-cf8c4d17f54f",
+            "flabsCode": "FLP1126"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "HLA-DQB1",
+            "formulaId": "650c6bc4-45e2-45fa-a24b-6cdeabc3e164",
+            "flabsCode": "FLP1122"
+          }
+        ]
+      },
+      "_id": "6883df2b35738384e7960120"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Compatibility with Sibling",
+        "field": "custom",
+        "options": [
+          "Not- Compatibile",
+          "Compatible"
+        ],
+        "formulaId": "2b024608-50af-4d1a-870a-65328c87f63c",
+        "flabsCode": "FLP0642"
+      },
+      "_id": "6883df2b35738384e7960121"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Allelic Match",
+        "field": "custom",
+        "options": [
+          "Full Match",
+          "Partial Match",
+          "No Match"
+        ],
+        "formulaId": "9088197f-070f-46ec-9f75-caf9487248a4",
+        "flabsCode": "FLP0181"
+      },
+      "_id": "6883df2b35738384e7960122"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c535",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1239",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.055Z",
+  "updatedAt": "2025-07-21T19:17:57.055Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

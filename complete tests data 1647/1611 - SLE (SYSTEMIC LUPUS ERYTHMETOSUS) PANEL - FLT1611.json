@@ -1,0 +1,231 @@
+{
+  "_id": "6a86cd3a92e2891d94907412",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SLE (SYSTEMIC LUPUS ERYTHMETOSUS) PANEL",
+  "code": "2846",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1778\" data-end=\"2063\">\n<li data-start=\"1778\" data-end=\"1859\">\n<p data-start=\"1780\" data-end=\"1859\">Positive ANA with positive anti-dsDNA and/or anti-Sm suggests active SLE.</p>\n</li>\n<li data-start=\"1860\" data-end=\"1920\">\n<p data-start=\"1862\" data-end=\"1920\">Low complement levels (C3, C4) support disease activity.</p>\n</li>\n<li data-start=\"1921\" data-end=\"1976\">\n<p data-start=\"1923\" data-end=\"1976\">Anti-Ro and Anti-La may indicate overlap syndromes.</p>\n</li>\n<li data-start=\"1977\" data-end=\"2063\">\n<p data-start=\"1979\" data-end=\"2063\">Negative panel does not completely rule out lupus; clinical correlation is required.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Antinuclear Antibody (ANA)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "0e8ae896-a30f-406a-9429-6026043f7111",
+        "flabsCode": "FLP0261"
+      },
+      "_id": "6883e12c35738384e796133a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Anti-dsDNA Antibody",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "0481ea74-e1d7-4363-8823-7929a6429735",
+        "flabsCode": "FLP0254"
+      },
+      "_id": "6883e12c35738384e796133b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Anti-Smith (Anti-Sm) Antibody",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "7ae5646a-fe8b-48ee-af19-eaaaff2212de",
+        "flabsCode": "FLP0252"
+      },
+      "_id": "6883e12c35738384e796133c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Anti-Ro (SSA) Antibody",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "885b755e-d938-45f1-b5c8-ca83f6d166ba",
+        "flabsCode": "FLP0250"
+      },
+      "_id": "6883e12c35738384e796133d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "custom",
+        "rangeReport": "N",
+        "name": "Anti-La (SSB) Antibody",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "b01af2f3-762d-45ea-aef4-50d51d58faec",
+        "flabsCode": "FLP0248"
+      },
+      "_id": "6883e12c35738384e796133e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Complement C3",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "90",
+            "male-range-max": "180",
+            "female-range-max": "180",
+            "female-range-min": "90",
+            "child-range-max": "180",
+            "child-range-min": "90"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "9ab4a4db-3674-4d01-a69a-066586e724e7",
+        "flabsCode": "FLP0643"
+      },
+      "_id": "6883e12c35738384e796133f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Complement C4",
+        "field": "numeric",
+        "options": [],
+        "range": {
+          "default": {
+            "male-range": "",
+            "male-range-min": "10",
+            "male-range-max": "40",
+            "female-range-max": "40",
+            "female-range-min": "10",
+            "child-range-max": "40",
+            "child-range-min": "10"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "3cc51703-13ce-49ef-b1d1-bd5ae1afe1bc",
+        "flabsCode": "FLP0645"
+      },
+      "_id": "6883e12c35738384e7961340"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c67c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1611",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.377Z",
+  "updatedAt": "2025-07-21T19:17:58.377Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

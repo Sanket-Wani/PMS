@@ -1,0 +1,177 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175c84",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MLL (AML/ ALL)BY FISH",
+  "code": "1438",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1544\" data-end=\"1808\">\n<p data-start=\"1546\" data-end=\"1585\"><span style=\"font-size: 10px;\"><strong data-start=\"1546\" data-end=\"1583\">MLL/KMT2A Rearrangement Detected:</strong></span></p>\n<ul data-start=\"1588\" data-end=\"1808\">\n<li style=\"font-size: 10px;\" data-start=\"1588\" data-end=\"1705\">\n<p data-start=\"1590\" data-end=\"1705\"><span style=\"font-size: 10px;\">Indicates <strong data-start=\"1600\" data-end=\"1621\">11q23 abnormality</strong> commonly seen in <strong data-start=\"1639\" data-end=\"1702\">infant ALL, therapy-related AML, and some de novo leukemias</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1708\" data-end=\"1808\">\n<p data-start=\"1710\" data-end=\"1808\"><span style=\"font-size: 10px;\">Associated with <strong data-start=\"1726\" data-end=\"1747\">adverse prognosis</strong>; genetic counseling and targeted treatment planning advised.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1810\" data-end=\"1950\">\n<p data-start=\"1812\" data-end=\"1841\"><span style=\"font-size: 10px;\"><strong data-start=\"1812\" data-end=\"1839\">MLL/KMT2A Not Detected:</strong></span></p>\n<ul data-start=\"1844\" data-end=\"1950\">\n<li style=\"font-size: 10px;\" data-start=\"1844\" data-end=\"1883\">\n<p data-start=\"1846\" data-end=\"1883\"><span style=\"font-size: 10px;\">No evidence of 11q23 rearrangement.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1886\" data-end=\"1950\">\n<p data-start=\"1888\" data-end=\"1950\"><span style=\"font-size: 10px;\">Correlate with other cytogenetics, NGS, and clinical features.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1952\" data-end=\"2084\">\n<p data-start=\"1954\" data-end=\"1974\"><span style=\"font-size: 10px;\"><strong data-start=\"1954\" data-end=\"1972\">Clinical Note:</strong></span></p>\n<ul data-start=\"1977\" data-end=\"2084\">\n<li style=\"font-size: 10px;\" data-start=\"1977\" data-end=\"2084\">\n<p data-start=\"1979\" data-end=\"2084\"><span style=\"font-size: 10px;\">Should be interpreted with <strong data-start=\"2006\" data-end=\"2083\">morphology, immunophenotyping, cytogenetics, and other molecular findings</strong>.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cells Analyzed (Nuclei)",
+        "field": "numeric_unbound",
+        "units": "Count",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "200"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "200"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "200"
+            }
+          }
+        },
+        "formulaId": "abfc978f-ded6-4189-853e-a7583153687f",
+        "flabsCode": "FLP0562"
+      },
+      "_id": "688544554c9e1585202daf1d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH Probe Used",
+        "field": "text",
+        "formulaId": "17821c74-ebf9-42e5-a7b6-6edda969792e",
+        "flabsCode": "FLP0882"
+      },
+      "_id": "688544554c9e1585202daf1e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MLL (KMT2A) Rearrangement",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "ce0b1da3-2e66-4e49-be36-0008e1640159",
+        "flabsCode": "FLP1401"
+      },
+      "_id": "688544554c9e1585202daf1f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "a5f78eb8-5269-41ec-bfbc-7e56f4e9387f",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "688544554c9e1585202daf20"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensitivity of the Assay",
+        "field": "text",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": "Detects rearrangements at ≥1–5% level (assay dependent)",
+            "female-range": "Detects rearrangements at ≥1–5% level (assay dependent)",
+            "child-range": "Detects rearrangements at ≥1–5% level (assay dependent)"
+          }
+        },
+        "formulaId": "cb6b1a37-cae4-4ee9-933d-9985db6718ee",
+        "flabsCode": "FLP0215"
+      },
+      "_id": "688544554c9e1585202daf21"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c257",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0394",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.449Z",
+  "updatedAt": "2025-07-21T19:17:53.449Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

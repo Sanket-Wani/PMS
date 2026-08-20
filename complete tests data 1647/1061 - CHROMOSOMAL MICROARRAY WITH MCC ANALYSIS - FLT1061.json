@@ -1,0 +1,143 @@
+{
+  "_id": "6a86cc825953b1dd0a18a0dc",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHROMOSOMAL MICROARRAY WITH MCC ANALYSIS",
+  "code": "2301",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Parameter</strong></th>\n<th><strong>Result</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MCC Status</td>\n<td>Present / Absent</td>\n</tr>\n<tr>\n<td>Estimated % of Maternal Contamination</td>\n<td>______ %</td>\n</tr>\n<tr>\n<td>Interpretation</td>\n<td>Acceptable / Not Acceptable for Analysis</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Copy Number Variations (CNVs) Detected",
+        "field": "custom",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "formulaId": "264f6347-bf0e-4ee4-ad4b-c335c638e7bf",
+        "flabsCode": "FLP0668"
+      },
+      "_id": "68850c040a49ec91807ea8a0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Regions of Homozygosity (ROH)",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "29c87c0b-4a27-4f01-a7d2-85e56aece735",
+        "flabsCode": "FLP1848"
+      },
+      "_id": "68850c040a49ec91807ea8a1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aneuploidy",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "17f9603e-e503-4f70-87f2-3b789fd4cfeb",
+        "flabsCode": "FLP0217"
+      },
+      "_id": "68850c040a49ec91807ea8a2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Segmental Duplications / Deletions",
+        "field": "text",
+        "formulaId": "e96b20e1-99da-4954-89d4-30f0eaee0852",
+        "flabsCode": "FLP1952"
+      },
+      "_id": "68850c040a49ec91807ea8a3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Genome Build",
+        "field": "text",
+        "formulaId": "0cf74209-f497-4df0-918b-b492df6a11c2",
+        "flabsCode": "FLP1020"
+      },
+      "_id": "68850c040a49ec91807ea8a4"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c488",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1061",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.256Z",
+  "updatedAt": "2025-07-21T19:17:56.256Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

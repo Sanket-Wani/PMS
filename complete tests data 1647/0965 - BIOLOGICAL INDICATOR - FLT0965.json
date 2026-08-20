@@ -1,0 +1,151 @@
+{
+  "_id": "6a86cc68ba46c74c6d44d598",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BIOLOGICAL INDICATOR",
+  "code": "2182",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1735\" data-end=\"1935\">\n<p data-start=\"1737\" data-end=\"1774\"><span style=\"font-size: 11px;\"><strong data-start=\"1737\" data-end=\"1772\">Pass (Sterilization Effective):</strong></span></p>\n<ul data-start=\"1777\" data-end=\"1935\">\n<li style=\"font-size: 11px;\" data-start=\"1777\" data-end=\"1822\">\n<p data-start=\"1779\" data-end=\"1822\"><span style=\"font-size: 11px;\">Control shows <strong data-start=\"1793\" data-end=\"1803\">growth</strong> (spores viable).</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"1825\" data-end=\"1881\">\n<p data-start=\"1827\" data-end=\"1881\"><span style=\"font-size: 11px;\">Test indicator shows <strong data-start=\"1848\" data-end=\"1861\">no growth</strong> after incubation.</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"1884\" data-end=\"1935\">\n<p data-start=\"1886\" data-end=\"1935\"><span style=\"font-size: 11px;\">Indicates sterilization parameters were adequate.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"1937\" data-end=\"2103\">\n<p data-start=\"1939\" data-end=\"1978\"><span style=\"font-size: 11px;\"><strong data-start=\"1939\" data-end=\"1976\">Fail (Sterilization Ineffective):</strong></span></p>\n<ul data-start=\"1981\" data-end=\"2103\">\n<li style=\"font-size: 11px;\" data-start=\"1981\" data-end=\"2017\">\n<p data-start=\"1983\" data-end=\"2017\"><span style=\"font-size: 11px;\">Test indicator shows <strong data-start=\"2004\" data-end=\"2014\">growth</strong>.</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"2020\" data-end=\"2103\">\n<p data-start=\"2022\" data-end=\"2103\"><span style=\"font-size: 11px;\">Sterilizer cycle must be investigated; load should not be used until reprocessed.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"2105\" data-end=\"2185\">\n<p data-start=\"2107\" data-end=\"2185\"><span style=\"font-size: 11px;\">Must be recorded as part of <strong data-start=\"2135\" data-end=\"2182\">Quality Control and NABH/NABL documentation</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sterilization Cycle Details",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "As per standard cycle (121–134°C, ≥15 minutes)",
+            "female-range": "As per standard cycle (121–134°C, ≥15 minutes)",
+            "child-range": "As per standard cycle (121–134°C, ≥15 minutes)"
+          }
+        },
+        "formulaId": "cf7703aa-2fbf-4801-a770-7fed48bb6a83",
+        "flabsCode": "FLP2036"
+      },
+      "_id": "688557fc4c9e1585202dca2d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Control Indicator Growth",
+        "field": "custom",
+        "options": [
+          "Growth ",
+          "No Growth"
+        ],
+        "formulaId": "d75f0d74-7a06-4990-911d-1df7161a4e7f",
+        "flabsCode": "FLP0661"
+      },
+      "_id": "688557fc4c9e1585202dca2e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "est Indicator Growth (Post-Sterilization)",
+        "field": "custom",
+        "options": [
+          "Growth ",
+          "No Growth"
+        ],
+        "range": {
+          "default": {
+            "male-range": "No Growth = Pass; Growth = Fail (sterilization ineffective)",
+            "female-range": "No Growth = Pass; Growth = Fail (sterilization ineffective)",
+            "child-range": "No Growth = Pass; Growth = Fail (sterilization ineffective)"
+          }
+        },
+        "formulaId": "244f63cf-1d0a-411b-ad82-874943e8bf71",
+        "flabsCode": "FLP2318"
+      },
+      "_id": "688557fc4c9e1585202dca2f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Incubation Period",
+        "field": "text",
+        "units": "Hours / Days\t",
+        "range": {
+          "default": {
+            "male-range": "Typically 24–48 hours at 55–60°C (as per BI instructions)",
+            "female-range": "Typically 24–48 hours at 55–60°C (as per BI instructions)",
+            "child-range": "Typically 24–48 hours at 55–60°C (as per BI instructions)"
+          }
+        },
+        "formulaId": "2d25ec87-be31-425e-bc19-40873e204275",
+        "flabsCode": "FLP1250"
+      },
+      "_id": "688557fc4c9e1585202dca30"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c438",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0965",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.929Z",
+  "updatedAt": "2025-07-21T19:17:55.929Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

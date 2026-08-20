@@ -1,0 +1,213 @@
+{
+  "_id": "6a86cc7692e2891d948dfd8e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ACUTE MYELOID LEUKEMIA (AML) - MOLECULAR PANEL (7 MARKERS)",
+  "code": "2259",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 15px;\"><strong>CLINICAL BACKGROUND:</strong></span></p>\n<ul>\n<li style=\"font-size: 15px;\"><span style=\"font-size: 15px;\">The presence of PML-RARA fusion, characterized by the presence of t(15;17)(q24;q21) translocation, is a </span><span style=\"font-size: 15px;\">diagnostic marker of APL, a subtype of AML. PML-RARA gene rearrangement has a favorable prognosis on&nbsp;standard therapy with tretinoin and arsenic trioxide.</span></li>\n<li style=\"font-size: 15px;\"><span style=\"font-size: 15px;\">AML1-ETO gene rearrangement t(8;21)(q22;q22); RUNX1:RUNX1T1) has a favorable long term</span><br><span style=\"font-size: 15px;\">outcome. RUNX1-RUNX1T1 fusion and is observed in 5-10% of AML.</span></li>\n<li style=\"font-size: 15px;\"><span style=\"font-size: 15px;\">The inv(16)(p13.1;q22) or t(16;16)(p13.1;q22) translocation results in the CBFB-MYH11 fusion and is </span><span style=\"font-size: 15px;\">observed in over 5% of AML cases. CBFB&ndash;MYH11 gene rearrangement inv(16)(p13;q22) has a favorable </span><span style=\"font-size: 15px;\">long term outcome.</span></li>\n<li style=\"font-size: 15px;\"><span style=\"font-size: 15px;\">BCR-ABL1 fusions are reported in more than 90% of chronic myeloid leukemia (CML) cases, 25-35% of </span><span style=\"font-size: 15px;\">adult acute lymphoblastic leukemia (ALL) cases, and 3-5% of childhood ALL cases. BCR-ABL gene </span><span style=\"font-size: 15px;\">rearrangement is associated with aggressive disease and poor response to standard AML therapy.</span></li>\n<li style=\"font-size: 15px;\"><span style=\"font-size: 15px;\">The most common activating FLT3 mutations are internal tandem duplications (ITD) in the juxtamembrane </span><span style=\"font-size: 15px;\">(JM) domain. The second most frequent mutation is within the tyrosine kinase domain (TKD;D835). </span><span style=\"font-size: 15px;\">Somatic mutations occur in approximately 30% of AML cases. FLT3-ITD is associated with high blast </span><span style=\"font-size: 15px;\">counts, increased risk of relapse and decreased survival. Normal karyotype and absence of FLT3-ITD </span><span style=\"font-size: 15px;\">mutations have favorable prognosis. Similarly, the FLT3 TKD mutation D835 confers poor prognosis.</span></li>\n<li style=\"font-size: 15px;\"><span style=\"font-size: 15px;\">NPM1 mutations are observed in 45-60% of AML with a normal karyotype (NK-AML). NPM1 mutations are </span><span style=\"font-size: 15px;\">associated with better outcomes, increased complete remission, improved overall survival, and favorable </span><span style=\"font-size: 15px;\">risk in AML in the absence of FLT3-ITD mutation.</span></li>\n<li style=\"font-size: 15px;\"><span style=\"font-size: 15px;\">c-KIT gene mutation in core binding factor leukemia is generally associated with worse prognosis.</span></li>\n</ul>\n<p><span style=\"font-size: 15px;\"><strong>Limitations and Disclaimers:</strong></span></p>\n<ul>\n<li><span style=\"font-size: 15px;\">For fusion genes (PML- RARA, AML1-ETO, CBFB &ndash; MYH11, BCR-ABL) the LOD is equal to 10 copies of&nbsp;fusion transcript and for (NPM1, FLT3-ITD, FLT3-D835, NPM1), the LOD is equal to 2% mutant allele in&nbsp;background of 98% wild type allele. For FLT3-ITD, the kit can detect upto 20bp of ITD.</span></li>\n<li><span style=\"font-size: 15px;\">This assay detects only the above mentioned mutations.</span></li>\n<li><span style=\"font-size: 15px;\">Although molecular testing is highly accurate, rarely false-positive &amp; false-negative diagnostic errors may&nbsp;occur.</span></li>\n<li><span style=\"font-size: 15px;\">In transported sample, there are chances to miss low-level fusions if there is suboptimal RNA quantity and&nbsp;quality.</span></li>\n<li><span style=\"font-size: 15px;\">All laboratory tests are associated with an error rate of ~1%. These could be due to sample mismatch,&nbsp;inappropriate labelling, processing or technological limitations. Please correlate with clinical features and&nbsp;other investigations for final conclusion and send a repeat sample for analysis if necessary</span></li>\n<li><span style=\"font-size: 15px;\">For test performed on specimens received or collected, it is presumed that the specimen belongs to the&nbsp;patient named or identified as labeled on the container/test request and such verification has been carried&nbsp;out at the point of generation of the said specimen by the sender.</span></li>\n</ul>\n<p><strong><span style=\"font-size: 15px;\">References:</span></strong></p>\n<ul>\n<li><span style=\"font-size: 15px;\">Liegel J, et al. Use of Sorafenib for relapse posttransplant in FLT3/ITD+ acute myelogenous leukemia:maturation induction and cytotoxic effect. Haematologica. 2014 Jul 11</span></li>\n<li><span style=\"font-size: 15px;\">Ma R, et al. Immunophenotypic features in leukemia of NK cell series], Zhongguo Shi Van Xue YeXueZaZhi.&nbsp;2006 Feb; 14(1): 35-8.</span></li>\n<li><span style=\"font-size: 15px;\">Lagunas-Rangel et al. AcuteMyeloid Leukemia-Genetic Alterations and Their Clinical Prognosis. Int J&nbsp;Hematol Oncol Stem Cell Res. 2017 Oct 1;11(4):328-339</span></li>\n<li><span style=\"font-size: 15px;\">Estey E and Dohner H. Acute myeloid leukaemia. Lancet. 2006; 368(9550):1894 - 907.</span></li>\n<li><span style=\"font-size: 15px;\">LiesveldJL and Lichtman MA. Acute myelogenous leukemia. In: Kaushansky K, Lichtman MA, Prchal JT, et&nbsp;al., Eds. Williams Hematology. 9th ed. United States of America:McGraw - Hill Education; 2016.</span></li>\n<li><span style=\"font-size: 15px;\">Speck NA and Gilliland DG. Core - binding factors in haematopoiesis and leukaemia. Nat Rev Cancer. 2002;&nbsp;2(7):502 -13</span></li>\n<li><span style=\"font-size: 15px;\">Puccetti E and Ruthardt M. Acute promyelocytic leukemia: PML/RARa and the leukemicstem cell. Leukemia.&nbsp;2004; 18(7):1169 -1175.</span></li>\n<li><span style=\"font-size: 15px;\">De Braekeleer E, et al. RARA fusion genes in acutepromyelocytic leukemia: A review. Expert Rev Hematol.&nbsp;2014; 7(3]:347 - 57.</span></li>\n<li><span style=\"font-size: 15px;\">Parcells BW, et al, FMS - like tyrosine kinase 3 in normalhematopoiesis and acute myeloid leukemia. Stem&nbsp;Cells. 2006; 24(5):1174 - 84.</span></li>\n<li><span style=\"font-size: 15px;\">Levis M. FLT3 mutations in acute myeloid leukemia: What is the best approach in 2013? Hematology Am&nbsp;See HematolEduc Program. 2013; 2013: 220 - 6.</span></li>\n<li><span style=\"font-size: 15px;\">Chan PM. Differential signaling of Flt3 activating mutations in acute myeloid leukemia: Aworking mode I.&nbsp;protein Cell. 2011; 2(2):108 &ndash;15</span></li>\n<li><span style=\"font-size: 15px;\">Griffith J, et al. The structural basis for autoinhibition of FLT3 bythe juxtamembranedomain. Mol Cell.&nbsp;2004; 13(2):169 - 78.</span></li>\n<li><span style=\"font-size: 15px;\">Grisendi S, et al .Nucleophosmin and cancer. Nat Rev Cancer. 2006; 6(7):493 - 505.</span></li>\n<li><span style=\"font-size: 15px;\">Sophia Yohe. Molecular Genetic Markers in Acute Myeloid Leukemia. J. Clin. Med. 2015 ,4, 460-478.</span></li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "ACUTE MYELOID LEUKEMIA (AML) - MOLECULAR PANEL (7 MARKERS)",
+        "test_method": "real time pcr (rt-pcr)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "RESULT AND INTERPRETATION:",
+            "range": {
+              "default": {
+                "male-range": "No targeted fusion/mutation was detected in the sample.",
+                "female-range": "No targeted fusion/mutation was detected in the sample.",
+                "child-range": "No targeted fusion/mutation was detected in the sample."
+              }
+            },
+            "formulaId": "5a9942e8-0f8c-4220-9ef5-5603250c5e87",
+            "flabsCode": "FLP2289"
+          }
+        ]
+      },
+      "_id": "6766acb5a725a5d90b388a9c"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "GENE VARIANT",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "PML- RARA gene rearrangement (BCR1, BCR2, BCR3)",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "95fa0af7-c0a1-43e8-bd0f-2b0343d13aa8",
+            "flabsCode": "FLP1653"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "AML1-ETO gene rearrangement t(8;21)(q22;q22); (RUNX1:RUNX1T1)",
+            "options": [
+              "NOT-DETECTED",
+              "DETECTED"
+            ],
+            "formulaId": "ddee1b96-4b17-4102-adce-5322a39d9b97",
+            "flabsCode": "FLP0113"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "CBFB – MYH11 gene rearrangement inv(16)(p13;q22)/t(16;16)p(13;q22)",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "5968aa1d-8ab0-4755-ab3a-974cfd0fbde6",
+            "flabsCode": "FLP0426"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "BCR-ABL1 gene rearrangement (p210)-major",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "54c0f813-37b0-410a-8106-bf20b92d9cb9",
+            "flabsCode": "FLP0310"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "BCR-ABL1 gene rearrangement (p190)-minor",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "582f083d-f898-4c6e-a595-d7d2e9756885",
+            "flabsCode": "FLP0309"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "FLT3 gene mutation [FLT3-ITD]",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "165b1dff-8cb9-4e72-8b41-0d0643c7af8d",
+            "flabsCode": "FLP0890"
+          },
+          {
+            "key": 6,
+            "field": "custom",
+            "name": "FLT3 gene mutation [FLT3-TKD (D835)]",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "67510828-07ca-4a2c-af2c-f89163ade50a",
+            "flabsCode": "FLP0891"
+          },
+          {
+            "key": 7,
+            "field": "custom",
+            "name": "NPM1 gene mutation (Type A, Type B)",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "6ec21f9d-e37e-4c7c-970e-b5ab223439f0",
+            "flabsCode": "FLP1539"
+          },
+          {
+            "key": 8,
+            "field": "custom",
+            "name": "C-KIT gene mutation (D816V)",
+            "options": [
+              "DETECTED",
+              "NOT-DETECTED"
+            ],
+            "formulaId": "d96b4c68-8f90-49d0-86db-742ddb186473",
+            "flabsCode": "FLP0397"
+          }
+        ]
+      },
+      "_id": "6766acb5a725a5d90b388a9d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c45f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1020",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.080Z",
+  "updatedAt": "2025-07-21T19:17:56.080Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

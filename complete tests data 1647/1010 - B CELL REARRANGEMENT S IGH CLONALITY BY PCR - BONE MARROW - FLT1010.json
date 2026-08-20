@@ -1,0 +1,195 @@
+{
+  "_id": "6a86cc7692e2891d948dfd4b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "B CELL REARRANGEMENT S IGH CLONALITY BY PCR - BONE MARROW",
+  "code": "BCR_IGH_PCR",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"201\" data-end=\"322\">\n<p data-start=\"203\" data-end=\"322\">This test detects <strong data-start=\"221\" data-end=\"277\">immunoglobulin heavy chain (IGH) gene rearrangements</strong> using <strong data-start=\"284\" data-end=\"319\">Polymerase Chain Reaction (PCR)</strong>.</p>\n</li>\n<li data-start=\"323\" data-end=\"424\">\n<p data-start=\"325\" data-end=\"424\">Normal B-cells undergo gene rearrangements during maturation, leading to <strong data-start=\"398\" data-end=\"421\">polyclonal patterns</strong>.</p>\n</li>\n<li data-start=\"425\" data-end=\"568\">\n<p data-start=\"427\" data-end=\"568\">In <strong data-start=\"430\" data-end=\"479\">B-cell neoplasms (e.g., lymphomas, leukemias)</strong>, a single abnormal clone proliferates, resulting in a <strong data-start=\"534\" data-end=\"565\">clonal (monoclonal) pattern</strong>.</p>\n</li>\n<li data-start=\"569\" data-end=\"683\">\n<p data-start=\"571\" data-end=\"683\">Used to differentiate between <strong data-start=\"601\" data-end=\"645\">reactive (benign) lymphoid proliferation</strong> and <strong data-start=\"650\" data-end=\"680\">malignant B-cell disorders</strong>.</p>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th><strong>Result</strong></th>\n<th><strong>Meaning</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Polyclonal IGH rearrangement</strong></td>\n<td>Indicates a mixture of different B-cell populations. Suggests <strong>reactive/benign lymphoid proliferation</strong> (e.g., infection, autoimmune disease).</td>\n</tr>\n<tr>\n<td><strong>Monoclonal IGH rearrangement</strong></td>\n<td>Indicates a single B-cell clone. Strongly suggests <strong>B-cell malignancy</strong> such as Non-Hodgkin&rsquo;s lymphoma, Chronic Lymphocytic Leukemia (CLL), Multiple Myeloma, or other B-cell neoplasms.</td>\n</tr>\n<tr>\n<td><strong>Oligoclonal pattern</strong></td>\n<td>Sometimes seen in chronic immune stimulation or evolving clonal process. Requires correlation with clinical and pathological findings.</td>\n</tr>\n<tr>\n<td><strong>Negative / No detectable rearrangement</strong></td>\n<td>May occur if clonal population is too small to detect or if there are technical issues. Does not rule out malignancy&mdash;clinical and histopathological correlation essential.</td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"1573\" data-end=\"1604\"><strong data-start=\"1577\" data-end=\"1602\">Clinical Significance</strong></p>\n<ul data-start=\"1605\" data-end=\"1908\">\n<li data-start=\"1605\" data-end=\"1701\">\n<p data-start=\"1607\" data-end=\"1701\"><strong data-start=\"1607\" data-end=\"1629\">Helps in diagnosis</strong>: Distinguishes reactive lymphoid hyperplasia from malignant lymphoma.</p>\n</li>\n<li data-start=\"1702\" data-end=\"1804\">\n<p data-start=\"1704\" data-end=\"1804\"><strong data-start=\"1704\" data-end=\"1723\">Prognostic role</strong>: Confirms clonal nature of disease in suspected lymphoproliferative disorders.</p>\n</li>\n<li data-start=\"1805\" data-end=\"1908\">\n<p data-start=\"1807\" data-end=\"1908\"><strong data-start=\"1807\" data-end=\"1841\">Minimal Residual Disease (MRD)</strong>: Can be used to track clonal populations during/after treatment.</p>\n</li>\n</ul>",
+  "showInterpretation": true,
+  "sampleType": "bone marrow",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IGHV-IGHD-IGHJ Rearrangement",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Polyclonal",
+          "Clonal",
+          "Indeterminate"
+        ],
+        "defaultOption": "Polyclonal",
+        "rangeReport": "",
+        "formulaId": "c42398d4-4943-4ae1-a97b-7fbf3cd7e128",
+        "flabsCode": "FLP1200"
+      },
+      "_id": "68a8c36244053e7482c536e5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PCR Product Size",
+        "field": "numeric",
+        "units": "bp",
+        "range": {
+          "default": {
+            "male-range-max": "500",
+            "male-range-min": "100",
+            "female-range-max": "500",
+            "female-range-min": "100",
+            "child-range-max": "500",
+            "child-range-min": "100"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "100-500",
+        "formulaId": "4fd9542c-ddae-40b0-9005-416d0137fa42"
+      },
+      "_id": "68a8c36244053e7482c536e6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clonality Index",
+        "field": "numeric",
+        "units": "",
+        "range": {
+          "default": {
+            "male-range-max": "1.0",
+            "male-range-min": "0.1",
+            "female-range-max": "1.0",
+            "female-range-min": "0.1",
+            "child-range-max": "1.0",
+            "child-range-min": "0.1"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0.1-1.0",
+        "formulaId": "c9426018-d717-4bac-9bd6-557b3546c573",
+        "flabsCode": "FLP1200"
+      },
+      "_id": "68a8c36244053e7482c536e7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IGHV Gene Usage",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Normal",
+          "Abnormal"
+        ],
+        "defaultOption": "Normal",
+        "rangeReport": "",
+        "formulaId": "b687d8cc-b111-4caf-a841-5e8e72083695",
+        "flabsCode": "FLP1200"
+      },
+      "_id": "68a8c36244053e7482c536e8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PCR Efficiency",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-max": "120",
+            "male-range-min": "80",
+            "female-range-max": "120",
+            "female-range-min": "80",
+            "child-range-max": "120",
+            "child-range-min": "80"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "80-120",
+        "formulaId": "4457ff5e-2b44-4092-82bb-85da4b3d473d"
+      },
+      "_id": "68a8c36244053e7482c536e9"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a8c36244053e7482c536e4",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FFFF00",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT1010",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-22T19:22:10.945Z",
+  "updatedAt": "2025-08-22T19:22:10.945Z",
+  "__v": 0
+}

@@ -1,0 +1,160 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e156",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HOMA -IR2 (INSULIN RESISTANCE INDEX)",
+  "code": "1765",
+  "cost": 0,
+  "interpretation": "<p>Note<br>This assay cannot be used to assess beta cell function in those taking exogenous insulin. In such Patients HOMA-IR, Cpeptide Model is recommended.</p>\n<p><br>Comment</p>\n<p><br>Homeostatic model assessment (HOMA) is a method for assessing beta cell function (%B)and insulin sensitivity (%S) from&nbsp;fasting glucose and insulin concentrations. HOMA can be used to track changes in insulin sensitivity and beta cell function to&nbsp;examine natural history of diabetes. Insulin sensitivity is reduced in normal subjects having first degree relative with type 2&nbsp;diabetes compared with control subjects. Changes in beta cell sensitivity in subjects on insulin secretagogues may be useful&nbsp;in determining beta cell function over a period.<br>Usage</p>\n<p><br>To assess risk of developing diabetes<br>To assess response to treatment</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Plasma Glucose Fasting",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "60",
+            "male-range-max": "110",
+            "female-range-max": "110",
+            "female-range-min": "60",
+            "child-range-max": "110",
+            "child-range-min": "60"
+          }
+        },
+        "units": "mg/dl",
+        "test_method": "glucose oxidase/peroxidase hexokinase",
+        "flabsCode": "FLP1735"
+      },
+      "_id": "678a20dfc79665e2687e3e90"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "INSULIN - FASTING",
+        "field": "numeric",
+        "units": "ulU/mL",
+        "range": {
+          "default": {
+            "male-range-min": "1.9",
+            "male-range-max": "23.0",
+            "female-range-max": "23.0",
+            "female-range-min": "1.9",
+            "child-range-max": "23.0",
+            "child-range-min": "1.9"
+          }
+        },
+        "test_method": "clia",
+        "flabsCode": "FLP1217"
+      },
+      "_id": "678a20dfc79665e2687e3e91"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Beta Cell Function",
+        "field": "numeric",
+        "units": "%",
+        "flabsCode": "FLP0360"
+      },
+      "_id": "678a20dfc79665e2687e3e92"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Insulin Sensitivity",
+        "field": "numeric",
+        "units": "%",
+        "flabsCode": "FLP1265"
+      },
+      "_id": "678a20dfc79665e2687e3e93"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Homa IR2 Index",
+        "field": "multiple_ranges",
+        "units": "Index",
+        "range": {
+          "default": {
+            "male-range": "Normal  <1.4\n~Insulin resistance >= 1.4",
+            "female-range": "Normal  <1.4\n~Insulin resistance >= 1.4",
+            "child-range": "Normal  <1.4\n~Insulin resistance >= 1.4"
+          }
+        },
+        "flabsCode": "FLP1186"
+      },
+      "_id": "678a20dfc79665e2687e3e94"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c344",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0684",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.503Z",
+  "updatedAt": "2025-07-21T19:17:54.503Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

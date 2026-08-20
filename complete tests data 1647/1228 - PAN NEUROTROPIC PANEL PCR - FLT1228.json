@@ -1,0 +1,206 @@
+{
+  "_id": "6a86ccbf5953b1dd0a199147",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PAN NEUROTROPIC PANEL PCR",
+  "code": "2466",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1537\" data-end=\"1641\">\n<p data-start=\"1539\" data-end=\"1641\"><strong data-start=\"1539\" data-end=\"1552\">Detected:</strong> Indicates presence of viral DNA/RNA in the sample. Suggest active or recent infection.</p>\n</li>\n<li data-start=\"1642\" data-end=\"1754\">\n<p data-start=\"1644\" data-end=\"1754\"><strong data-start=\"1644\" data-end=\"1661\">Not Detected:</strong> No viral genome detected in the sample (does not rule out infection in early/late stages).</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Herpes Simplex Virus-1 (HSV-1)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "4adda54f-1cfc-4c5d-8209-d164edae23cf",
+        "flabsCode": "FLP1177"
+      },
+      "_id": "688502db0a49ec91807cc815"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Herpes Simplex Virus-2 (HSV-2)",
+        "field": "custom",
+        "options": [
+          "Non - Detected",
+          "Detected"
+        ],
+        "formulaId": "e0365d28-9664-40f1-acda-f70384bad07e",
+        "flabsCode": "FLP1178"
+      },
+      "_id": "6885057d0a49ec91807d0af1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Varicella Zoster Virus (VZV)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "929c0aea-e4af-421e-9dd7-ef37495a751e",
+        "flabsCode": "FLP2266"
+      },
+      "_id": "6885057d0a49ec91807d0af2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cytomegalovirus (CMV)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "c7aaba6d-9c68-4faa-85fa-1e1d7240a850",
+        "flabsCode": "FLP0715"
+      },
+      "_id": "6885057d0a49ec91807d0af3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Epstein Barr Virus (EBV)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "a18dda46-4a3e-4c12-acb6-f462b61da56c",
+        "flabsCode": "FLP0831"
+      },
+      "_id": "6885057d0a49ec91807d0af4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Enterovirus",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "5c5d94ae-5964-48d0-ae28-1f49e001f68d",
+        "flabsCode": "FLP0822"
+      },
+      "_id": "6885057d0a49ec91807d0af5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Parechovirus",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "d89053b4-9e28-4823-8168-e498b8cb3968"
+      },
+      "_id": "6885057d0a49ec91807d0af6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Japanese Encephalitis Virus (JEV)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non-Detected"
+        ],
+        "formulaId": "d894b64f-cce9-4633-bed0-9026de6800db",
+        "flabsCode": "FLP1292"
+      },
+      "_id": "6885057d0a49ec91807d0af7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rabies Virus",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "28b9bf63-7254-4042-96c8-2114c6441970",
+        "flabsCode": "FLP1837"
+      },
+      "_id": "6885057d0a49ec91807d0af8"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c52a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1228",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.010Z",
+  "updatedAt": "2025-07-21T19:17:57.010Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

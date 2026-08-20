@@ -1,0 +1,348 @@
+{
+  "_id": "6a86cc68ba46c74c6d44d59e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BLOOD CULTURE & SENSITIVITY RAPID - AUTOMATED",
+  "code": "Blood CS",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Test Result</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Blood Culture</div></td><td><div><br></div></td></tr><tr><td><div>Positive</div></td><td><div>Bacteria or fungi are detected in the blood, indicating a bloodstream infection (bacteremia or fungemia). Further identification of the specific pathogen is necessary for appropriate treatment.</div></td></tr><tr><td><div>Negative</div></td><td><div>No bacteria or fungi are detected in the blood culture, suggesting no bloodstream infection. However, it does not rule out the possibility of localized infection elsewhere in the body.</div></td></tr><tr><td><div>Sensitivity Test</div></td><td><div><br></div></td></tr><tr><td><div>Susceptible</div></td><td><div>The pathogen is susceptible to specific antibiotics or antifungal agents tested. These antibiotics or antifungals are likely to be effective in treating the infection.</div></td></tr><tr><td><div>Resistant</div></td><td><div>The pathogen is resistant to specific antibiotics or antifungal agents tested. These antibiotics or antifungals are unlikely to be effective in treating the infection.</div></td></tr><tr><td><div>Intermediate</div></td><td><div>The pathogen shows intermediate sensitivity to specific antibiotics or antifungals. The use of these antibiotics or antifungals may still be effective, depending on other factors such as the patient's immune status.</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "wb in culture bottle",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Culture, Anaerobic , Blood",
+        "field": "text",
+        "formulaId": "b1a3e7c8-0e2c-4924-a849-257182a5255a",
+        "flabsCode": "FLP0701"
+      },
+      "_id": "64b96e23f48dacc91bb1a25b"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Antibiotics",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "CO-CRIMAXAZOLE",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++"
+            ],
+            "formulaId": "2a0d2d4c-3601-4d57-b880-09620e422096",
+            "flabsCode": "FLP0484"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "CEPHALEXIN",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++"
+            ],
+            "formulaId": "93f9b568-47a5-4d13-947b-47c412ae7672",
+            "flabsCode": "FLP0455"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "TETRACYCLINE",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Sensitive+",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++"
+            ],
+            "formulaId": "c779ff2a-b4ba-47ed-8177-3acb22c7f87d",
+            "flabsCode": "FLP2049"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "CEFUROXIME",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++"
+            ],
+            "formulaId": "e4cd1c57-d84a-46f8-8a0c-e8fd10465579",
+            "flabsCode": "FLP0452"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "CIPROFLOXACIN",
+            "options": [
+              "sensitive",
+              "resistant",
+              "Resistant+",
+              "Resistant++",
+              "Sensitive+",
+              "Sensitive+++",
+              "Resistant+++",
+              "Sensitive++"
+            ],
+            "formulaId": "0e9761a3-9cac-4409-b337-e8016fbc42f2",
+            "flabsCode": "FLP0469"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "MEROPENAM",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++"
+            ],
+            "formulaId": "6cfb918d-1ce8-4d3e-8342-16bab3a7b8bd",
+            "flabsCode": "FLP1394"
+          },
+          {
+            "key": 6,
+            "field": "custom",
+            "name": "LEVOFLOXACIN",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Resistant+",
+              "Resistant++",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+++"
+            ],
+            "formulaId": "58c1cc95-9594-488b-aa5e-af8efbf34a18",
+            "flabsCode": "FLP1327"
+          },
+          {
+            "key": 7,
+            "field": "custom",
+            "name": "LINEZOLID",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++"
+            ],
+            "formulaId": "f76b527c-0613-4168-b848-2db8ebf9ed6c",
+            "flabsCode": "FLP1332"
+          },
+          {
+            "key": 8,
+            "field": "custom",
+            "name": "CLOXACILLIN",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++"
+            ],
+            "formulaId": "25087560-50a3-4dee-af33-7bcfdf1dc78d",
+            "flabsCode": "FLP0472"
+          },
+          {
+            "key": 9,
+            "field": "custom",
+            "name": "CLARITHROMYCIN",
+            "options": [
+              "sensitive",
+              "resistant",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+",
+              "Resistant++",
+              "intermediate",
+              "Resistant+++"
+            ],
+            "formulaId": "e057cd34-97df-4b3a-bf48-27c4d1412631",
+            "flabsCode": "FLP0471"
+          },
+          {
+            "key": 10,
+            "field": "custom",
+            "name": "PIPERACILIN/TAZOBCTEM",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Resistant+",
+              "Resistant++",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+++"
+            ],
+            "formulaId": "a6f2421b-6cda-402f-a23e-943e1d7f09f9",
+            "flabsCode": "FLP1643"
+          },
+          {
+            "key": 11,
+            "field": "custom",
+            "name": "DOXYCYCLINE",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++"
+            ],
+            "formulaId": "3dc78762-6335-4013-ba20-0a994123fb28",
+            "flabsCode": "FLP0744"
+          },
+          {
+            "key": 12,
+            "field": "custom",
+            "name": "LINCOMYCIN",
+            "options": [
+              "sensitive",
+              "resistant",
+              "Sensitive+",
+              "Sensitive++",
+              "Sensitive+++",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++",
+              "intermediate"
+            ],
+            "formulaId": "da628b9d-3b5b-446d-910d-6eb52f6d755a",
+            "flabsCode": "FLP1331"
+          },
+          {
+            "key": 13,
+            "field": "custom",
+            "name": "GENTAMICIN",
+            "options": [
+              "sensitive",
+              "resistant",
+              "intermediate",
+              "Resistant+",
+              "Resistant++",
+              "Resistant+++",
+              "Sensitive++",
+              "Sensitive+++"
+            ],
+            "formulaId": "8d5bc005-cde9-47b9-b2e3-154768d92d76",
+            "flabsCode": "FLP0992"
+          }
+        ]
+      },
+      "_id": "670faabf95ff14d5ec6e5465"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68926227f0aa1d75825e80a4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0966",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-05T19:57:27.140Z",
+  "updatedAt": "2025-08-05T19:57:27.140Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

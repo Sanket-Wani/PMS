@@ -1,0 +1,159 @@
+{
+  "_id": "6a86cbd892e2891d948cbf34",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CD 34 (STEM CELLS)",
+  "code": "1506",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1751\" data-end=\"1833\">\n<p data-start=\"1753\" data-end=\"1833\"><strong data-start=\"1753\" data-end=\"1791\">Adequate for Stem Cell Collection:</strong> &ge;10 CD34+ cells/&micro;L in peripheral blood.</p>\n</li>\n<li data-start=\"1834\" data-end=\"1915\">\n<p data-start=\"1836\" data-end=\"1915\"><strong data-start=\"1836\" data-end=\"1856\">Low CD34+ Count:</strong> May require additional mobilization or delay collection.</p>\n</li>\n<li data-start=\"1916\" data-end=\"1978\">\n<p data-start=\"1918\" data-end=\"1978\"><strong data-start=\"1918\" data-end=\"1943\">High Viability (&ge;90%)</strong> is essential for transplant use.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "67631e3524f8fa88510fdb69",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total WBC Count",
+        "field": "text",
+        "units": "/µL",
+        "formulaId": "f69119da-689f-4351-b9bb-f292d2eca76e",
+        "flabsCode": "FLP2144"
+      },
+      "_id": "68850a590a49ec91807e71ad"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥10 /µL (adequate for collection)",
+            "female-range": "≥10 /µL (adequate for collection)",
+            "child-range": "≥10 /µL (adequate for collection)"
+          }
+        },
+        "name": "CD34+ Cells (Absolute Count)",
+        "units": "/µL",
+        "formulaId": "e4b63496-5bfe-4bfa-a962-ae6dce450f1d",
+        "flabsCode": "FLP0445"
+      },
+      "_id": "68850a590a49ec91807e71ae"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD34+ Cells (% of WBC)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "0.01",
+            "male-range-max": "0.1",
+            "female-range-max": "0.1",
+            "female-range-min": "0.01",
+            "child-range-max": "0.1",
+            "child-range-min": "0.01"
+          }
+        },
+        "units": "%",
+        "formulaId": "15f689dd-c208-4cc5-b119-0745361014bd",
+        "flabsCode": "FLP0444"
+      },
+      "_id": "68850a590a49ec91807e71af"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Viability (7-AAD Negative)\t",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥90%",
+            "female-range": "≥90%",
+            "child-range": "≥90%"
+          }
+        },
+        "units": "%",
+        "formulaId": "df4bf55a-6958-4db5-b08e-4a42ec785f94",
+        "flabsCode": "FLP2268"
+      },
+      "_id": "68850a590a49ec91807e71b0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD45 vs SSC Gating – CD34+ Population",
+        "field": "numeric",
+        "formulaId": "5f1738d3-d639-4a7f-8555-1e2e83fcde6e",
+        "flabsCode": "FLP0447"
+      },
+      "_id": "68850a590a49ec91807e71b1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c297",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0460",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.737Z",
+  "updatedAt": "2025-07-21T19:17:53.737Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

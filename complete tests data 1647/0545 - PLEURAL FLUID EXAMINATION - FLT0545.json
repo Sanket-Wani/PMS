@@ -1,0 +1,163 @@
+{
+  "_id": "6a86cbf692e2891d948d2124",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PLEURAL FLUID EXAMINATION",
+  "code": "PFE",
+  "cost": 0,
+  "showInterpretation": true,
+  "sampleType": "body fluid",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "PHYSICAL EXAMINATION",
+        "categories": [
+          {
+            "name": "VOLUME",
+            "field": "numeric",
+            "units": "mL",
+            "formulaId": "6ef23dec-f84f-480d-bb3b-8da77a877745",
+            "key": 0,
+            "flabsCode": "FLP2194"
+          },
+          {
+            "name": "COLOUR",
+            "field": "text",
+            "key": 1,
+            "flabsCode": "FLP0516"
+          },
+          {
+            "name": "APPEARANCE",
+            "field": "text",
+            "key": 2,
+            "flabsCode": "FLP2158"
+          },
+          {
+            "name": "COAGULUM",
+            "field": "custom",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "key": 3,
+            "flabsCode": "FLP0485"
+          },
+          {
+            "name": "BLOOD",
+            "field": "text",
+            "key": 4,
+            "flabsCode": "FLP0380"
+          }
+        ]
+      },
+      "_id": "68b491f9db822428f14b3e66"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CHEMICAL ANALYSIS\t",
+        "categories": [
+          {
+            "name": "PROTEIN",
+            "field": "text",
+            "units": "g/dL",
+            "key": 0,
+            "flabsCode": "FLP1672"
+          },
+          {
+            "name": "SUGAR",
+            "field": "text",
+            "units": "g/dL",
+            "key": 1,
+            "flabsCode": "FLP1937"
+          }
+        ]
+      },
+      "_id": "68b491f9db822428f14b3e67"
+    },
+    {
+      "type": "textEditor",
+      "data": {
+        "name": "CYTOLOGY",
+        "templates": [
+          {
+            "templateName": "Default",
+            "height": 500,
+            "value": "<p>&nbsp;</p>\n<p>TLC :</p>\n<p>DLC :</p>\n<ul>\n<li style=\"line-height: 2;\">POLYMORPH :&nbsp;</li>\n<li style=\"line-height: 2;\">LYMPHOCYTES :&nbsp;</li>\n</ul>",
+            "default": true
+          }
+        ]
+      },
+      "_id": "68b491f9db822428f14b3e68"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a65535a2dcc291a91b8921",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT0545",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-20T23:07:33.893Z",
+  "updatedAt": "2025-08-20T23:07:33.893Z",
+  "__v": 0
+}

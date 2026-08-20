@@ -1,0 +1,149 @@
+{
+  "_id": "6a86cbae5953b1dd0a16fab0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "DRUG ABUSE TEST (URINE)",
+  "code": "1348",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "DRUG ABUSE TEST (URINE)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "AMPHETAMINES",
+            "options": [
+              "positive",
+              "negative"
+            ],
+            "flabsCode": "FLP0115"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "BARBITURATES",
+            "options": [
+              "positive",
+              "negative"
+            ],
+            "flabsCode": "FLP0301"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "COCAINE",
+            "options": [
+              "positive",
+              "negative"
+            ],
+            "flabsCode": "FLP0486"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "BENZODIAZEPINE",
+            "options": [
+              "positive",
+              "negative"
+            ],
+            "flabsCode": "FLP0311"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "MORPHINE /OPIATIES",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "flabsCode": "FLP1407"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "MARIJUANA / HARSHISH",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "flabsCode": "FLP1388"
+          }
+        ]
+      },
+      "_id": "678b53fd00b1e4b2832d5aac"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c204",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0297",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.089Z",
+  "updatedAt": "2025-07-21T19:17:53.089Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,170 @@
+{
+  "_id": "6a86cc91ba46c74c6d453227",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FEVER PANEL MULTIPLEX - PCR",
+  "code": "2339",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 12px;\">The results are inconclusive. A repeat sample is required for further processing the test. Kindly provide blood sample in two EDTA vials.</span></p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RESULT",
+        "field": "text",
+        "formulaId": "2a2c1053-a4a6-480f-a997-e2c572a656ff"
+      },
+      "_id": "678c8bb6e698bd793c0e192e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chikungunya virus",
+        "field": "text",
+        "formulaId": "a2005c94-941a-43a4-a7e1-b895ab09e4af",
+        "flabsCode": "FLP0575"
+      },
+      "_id": "678c8bb6e698bd793c0e192f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Plasmodium spp.",
+        "field": "text",
+        "formulaId": "bf689237-038b-4d95-8e01-f74213b957c8",
+        "flabsCode": "FLP1740"
+      },
+      "_id": "678c8bb6e698bd793c0e1930"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rickettsia spp",
+        "field": "text",
+        "formulaId": "917fbfe1-ea64-475d-97be-1af8025eeb7a",
+        "flabsCode": "FLP1860"
+      },
+      "_id": "678c8bb6e698bd793c0e1931"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Dengue Virus",
+        "field": "text",
+        "formulaId": "2d68ce13-31cd-4f52-95ad-8c626475bdcb",
+        "flabsCode": "FLP0751"
+      },
+      "_id": "678c8bb6e698bd793c0e1932"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Salmonella spp.",
+        "field": "text",
+        "formulaId": "735952e0-f569-4a25-8192-f39d382c97aa",
+        "flabsCode": "FLP1940"
+      },
+      "_id": "678c8bb6e698bd793c0e1933"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Leptospira spp.",
+        "field": "text",
+        "formulaId": "e0856db1-f85a-40e5-9ec5-05e14d402a9d",
+        "flabsCode": "FLP1357"
+      },
+      "_id": "678c8bb6e698bd793c0e1934"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "West Nile virus",
+        "field": "text",
+        "formulaId": "b3f695e8-85eb-4cd3-b401-ba3a86940f5b",
+        "flabsCode": "FLP2288"
+      },
+      "_id": "678c8bb6e698bd793c0e1935"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zika Virus",
+        "field": "text",
+        "formulaId": "a9417d3d-a260-4e31-a42e-5f0c8114160c",
+        "flabsCode": "FLP2302"
+      },
+      "_id": "678c8bb6e698bd793c0e1936"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4ac",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1097",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.425Z",
+  "updatedAt": "2025-07-21T19:17:56.425Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

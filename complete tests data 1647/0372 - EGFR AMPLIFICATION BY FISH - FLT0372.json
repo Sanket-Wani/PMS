@@ -1,0 +1,159 @@
+{
+  "_id": "6a86cbbbba46c74c6d43613d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "EGFR AMPLIFICATION BY FISH",
+  "code": "1416",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1999\" data-end=\"2069\">\n<p data-start=\"2001\" data-end=\"2069\"><strong data-start=\"2001\" data-end=\"2015\">Amplified:</strong> EGFR/CEP7 ratio &ge; 2.0 or presence of gene clusters.</p>\n</li>\n<li data-start=\"2070\" data-end=\"2115\">\n<p data-start=\"2072\" data-end=\"2115\"><strong data-start=\"2072\" data-end=\"2090\">Not Amplified:</strong> EGFR/CEP7 ratio &lt; 2.0.</p>\n</li>\n<li data-start=\"2116\" data-end=\"2203\">\n<p data-start=\"2118\" data-end=\"2203\"><strong data-start=\"2118\" data-end=\"2132\">Equivocal:</strong> Ratio between 1.8 and 2.0 &ndash; repeat or correlate with other findings.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "EGFR Signals per Nucleus (Average)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 2 (Normal), ≥ 2 (Amplified)",
+            "female-range": "< 2 (Normal), ≥ 2 (Amplified)",
+            "child-range": "< 2 (Normal), ≥ 2 (Amplified)"
+          }
+        },
+        "formulaId": "759495ee-166a-44e4-aaf4-de82e0bc1359",
+        "flabsCode": "FLP0790"
+      },
+      "_id": "68850b340a49ec91807e8ead"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CEP7 Signals per Nucleus (Average)",
+        "field": "text",
+        "formulaId": "e74ec32a-462f-418e-84a0-133808f3c04d",
+        "flabsCode": "FLP0454"
+      },
+      "_id": "68850b340a49ec91807e8eae"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "EGFR/CEP7 Ratio",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "> 2.0 indicates amplification",
+            "female-range": "> 2.0 indicates amplification",
+            "child-range": "> 2.0 indicates amplification"
+          }
+        },
+        "formulaId": "0083686f-9721-4d4a-a599-284ed0338215",
+        "flabsCode": "FLP0791"
+      },
+      "_id": "68850b340a49ec91807e8eaf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Cells with EGFR Clusters",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Presence of gene clusters indicates high-level amplification",
+            "female-range": "Presence of gene clusters indicates high-level amplification",
+            "child-range": "Presence of gene clusters indicates high-level amplification"
+          }
+        },
+        "formulaId": "6a059619-823b-4db1-8bdd-e8024dc3d6a9",
+        "flabsCode": "FLP1710"
+      },
+      "_id": "68850b340a49ec91807e8eb0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Cells Counted",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Minimum 50 nuclei",
+            "female-range": "Minimum 50 nuclei",
+            "child-range": "Minimum 50 nuclei"
+          }
+        },
+        "formulaId": "025880b9-8418-49c3-bbab-44e487d734c5",
+        "flabsCode": "FLP1573"
+      },
+      "_id": "68850b340a49ec91807e8eb1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c241",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0372",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.362Z",
+  "updatedAt": "2025-07-21T19:17:53.362Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

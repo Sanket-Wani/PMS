@@ -1,0 +1,197 @@
+{
+  "_id": "6a86cbf692e2891d948d21a1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "VON WILLEBRAND DISEASE (VWD) PANEL",
+  "code": "1632",
+  "cost": 0,
+  "interpretation": "<table style=\"width: 84.5424%; height: 200px;\">\n<thead>\n<tr style=\"height: 34px;\">\n<th style=\"width: 43.7436%;\"><span style=\"font-size: 10px;\"><strong>Finding</strong></span></th>\n<th style=\"width: 56.4598%;\"><span style=\"font-size: 10px;\"><strong>Possible Interpretation</strong></span></th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 43.7436%;\"><span style=\"font-size: 10px;\">&darr; VWF:Ag &amp; &darr; VWF Activity</span></td>\n<td style=\"width: 56.4598%;\"><span style=\"font-size: 10px;\">Suggestive of VWD Type 1 or Type 3</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 43.7436%;\"><span style=\"font-size: 10px;\">&darr; VWF Activity with Normal VWF:Ag</span></td>\n<td style=\"width: 56.4598%;\"><span style=\"font-size: 10px;\">Suggestive of VWD Type 2 (Qualitative defect)</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 43.7436%;\"><span style=\"font-size: 10px;\">&darr; Factor VIII</span></td>\n<td style=\"width: 56.4598%;\"><span style=\"font-size: 10px;\">May occur in VWD or Hemophilia A</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 43.7436%;\"><span style=\"font-size: 10px;\">Abnormal Multimer Pattern</span></td>\n<td style=\"width: 56.4598%;\"><span style=\"font-size: 10px;\">Further subtyping of VWD (e.g., Type 2A, 2B)</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 43.7436%;\"><span style=\"font-size: 10px;\">Ratio (VWF Activity/Antigen) &lt; 0.7</span></td>\n<td style=\"width: 56.4598%;\"><span style=\"font-size: 10px;\">Suggests Type 2 VWD</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<h3 data-start=\"2888\" data-end=\"2901\"><span style=\"font-size: 10px;\"><strong data-start=\"2892\" data-end=\"2900\">Note</strong>:</span></h3>\n<ul data-start=\"2902\" data-end=\"3112\">\n<li style=\"font-size: 10px;\" data-start=\"2902\" data-end=\"3027\">\n<p data-start=\"2904\" data-end=\"3027\"><span style=\"font-size: 10px;\">Results may be affected by <strong data-start=\"2931\" data-end=\"2941\">stress</strong>, <strong data-start=\"2943\" data-end=\"2955\">exercise</strong>, <strong data-start=\"2957\" data-end=\"2970\">pregnancy</strong>, or <strong data-start=\"2975\" data-end=\"3026\">blood group (Group O may have lower VWF levels)</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"3028\" data-end=\"3112\">\n<p data-start=\"3030\" data-end=\"3112\"><span style=\"font-size: 10px;\">For accurate subtyping, <strong data-start=\"3054\" data-end=\"3070\">VWF multimer</strong> and <strong data-start=\"3075\" data-end=\"3094\">genetic testing</strong> may be indicated.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Von Willebrand Factor Antigen (VWF:Ag)",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "50",
+            "male-range-max": "150",
+            "female-range-max": "150",
+            "female-range-min": "50",
+            "child-range-max": "150",
+            "child-range-min": "50"
+          }
+        },
+        "formulaId": "8e660b1d-090a-4376-9c64-0b6624f9deac",
+        "flabsCode": "FLP2282"
+      },
+      "_id": "6883c0ab35738384e7934872"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "VWF:GPIbM",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "50",
+            "male-range-max": "150",
+            "female-range-max": "150",
+            "female-range-min": "50",
+            "child-range-max": "150",
+            "child-range-min": "50"
+          }
+        },
+        "formulaId": "6e95894e-1265-413e-bb6e-8d2776bf729c",
+        "flabsCode": "FLP2249"
+      },
+      "_id": "6883c0ab35738384e7934873"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Factor VIII Activity",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "50",
+            "male-range-max": "150",
+            "female-range-max": "150",
+            "female-range-min": "50",
+            "child-range-max": "150",
+            "child-range-min": "50"
+          }
+        },
+        "formulaId": "2e395116-abb6-4fdd-96b3-5d420e3159e5",
+        "flabsCode": "FLP0924"
+      },
+      "_id": "6883c0ab35738384e7934874"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "VWF:Ag to VWF Activity Ratio",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "0.7"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "0.7"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "0.7"
+            }
+          }
+        },
+        "units": "Ratio",
+        "formulaId": "3ef73e88-187a-458d-af44-8d2c568f1aee",
+        "flabsCode": "FLP2248"
+      },
+      "_id": "6883c0ab35738384e7934875"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "VWF Multimer Analysis",
+        "field": "text",
+        "formulaId": "fe77a10d-2312-4d87-998d-7685129d2a8d",
+        "flabsCode": "FLP2247"
+      },
+      "_id": "6883c0ab35738384e7934876"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ABO Blood Group",
+        "field": "custom",
+        "options": [
+          "A",
+          "B",
+          "AB",
+          "O"
+        ],
+        "formulaId": "fac9c204-edf1-47c8-a393-25ab94dda425",
+        "flabsCode": "FLP0058"
+      },
+      "_id": "6883c0ab35738384e7934877"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2e9",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0569",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.086Z",
+  "updatedAt": "2025-07-21T19:17:54.086Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "6a86ccbf5953b1dd0a1990cd",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NEUROVIRUSES PANEL QUALITATIVE PCR",
+  "code": "2449",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1976\" data-end=\"2212\">\n<li data-start=\"1976\" data-end=\"2056\">\n<p data-start=\"1978\" data-end=\"2056\"><strong data-start=\"1978\" data-end=\"1992\">\"Detected\"</strong>: Indicates presence of viral DNA/RNA in CSF &rarr; active infection.</p>\n</li>\n<li data-start=\"2057\" data-end=\"2130\">\n<p data-start=\"2059\" data-end=\"2130\"><strong data-start=\"2059\" data-end=\"2077\">\"Not Detected\"</strong>: No viral genetic material found at time of testing.</p>\n</li>\n<li data-start=\"2131\" data-end=\"2212\">\n<p data-start=\"2133\" data-end=\"2212\">Helps identify <strong data-start=\"2148\" data-end=\"2170\">viral encephalitis</strong>, <strong data-start=\"2172\" data-end=\"2186\">meningitis</strong>, or <strong data-start=\"2191\" data-end=\"2211\">CNS inflammation</strong>.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HSV-1",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "a171b8f7-cebd-4093-bca3-bfb86c126b1b",
+        "flabsCode": "FLP1141"
+      },
+      "_id": "68827df1100272a75a6639c5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HSV-2",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not \tDetected"
+        ],
+        "formulaId": "9a0b7554-934b-4af1-8d5a-eea074a064c7",
+        "flabsCode": "FLP1145"
+      },
+      "_id": "68827df1100272a75a6639c6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "VZV",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "1a5e5f97-14f1-4f1f-b0a5-07ab461574b1",
+        "flabsCode": "FLP2250"
+      },
+      "_id": "68827df1100272a75a6639c7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CMV",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "c38e9c00-8b10-4ab9-8257-a93f38206d65",
+        "flabsCode": "FLP0477"
+      },
+      "_id": "68827df1100272a75a6639c8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "EBV",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "902dc19e-7dd2-4483-81fc-db28a994f059",
+        "flabsCode": "FLP0787"
+      },
+      "_id": "68827df1100272a75a6639c9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Enterovirus",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "08520084-b419-4dc3-b06d-04980a902f2b",
+        "flabsCode": "FLP0822"
+      },
+      "_id": "68827df1100272a75a6639ca"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HHV-6",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "f28286c2-9d33-44af-ad66-493e033d9c5a",
+        "flabsCode": "FLP1095"
+      },
+      "_id": "68827df1100272a75a6639cb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "JC Virus",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "units": "",
+        "formulaId": "1711d854-0a78-43e9-940c-b02a5bab9675",
+        "flabsCode": "FLP1290"
+      },
+      "_id": "68827df1100272a75a6639cc"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c519",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1211",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.920Z",
+  "updatedAt": "2025-07-21T19:17:56.920Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

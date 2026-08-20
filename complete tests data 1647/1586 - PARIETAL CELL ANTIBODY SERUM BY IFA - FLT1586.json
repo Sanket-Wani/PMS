@@ -1,0 +1,126 @@
+{
+  "_id": "6a86cd2c92e2891d94905b97",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PARIETAL CELL ANTIBODY SERUM BY IFA",
+  "code": "2823",
+  "cost": 0,
+  "interpretation": "<p>Autoimmune reactivities are not by themselves diagnostic, but must be correlated&nbsp;with other laboratory &amp; clinical findings.</p>\n<p><strong>Comments</strong><br>Parietal cell antibodies (APCA) are found predominantly in patients with&nbsp;Pernicious anemia (90%) and Autoimmune gastritis Type A (Chronic atrophic&nbsp;gastritis - 50%). These antibodies have also been found in patients with<br>associated organ specific diseases like Insulin Dependent Diabetes mellitus,&nbsp;Hypothyroidism &amp; Addison&rsquo;s disease. 2-15% of healthy individuals may also show these&nbsp;antibodies in low titres.</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Titer",
+        "field": "text",
+        "formulaId": "a43cfbab-e102-4112-8312-45c2e5798d90",
+        "flabsCode": "FLP2110"
+      },
+      "_id": "67989987773a1372473dcf61"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Result",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Absent",
+            "female-range": "Absent",
+            "child-range": "Absent"
+          }
+        },
+        "test_method": "standard guaiac",
+        "formulaId": "bcfa282f-0e9e-468b-8bea-e998b3f6ff33"
+      },
+      "_id": "67989987773a1372473dcf62"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fluorescence Intensity",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "+: Weak,~++: Moderate,~+++:\nStrong,~++++: Very Strong",
+            "female-range": "+: Weak,~++: Moderate,~+++:\nStrong,~++++: Very Strong",
+            "child-range": "+: Weak,~++: Moderate,~+++:\nStrong,~++++: Very Strong"
+          }
+        },
+        "test_method": "by indirect immunofluorescence assay (iifa)",
+        "formulaId": "7ed69716-2ade-48cf-8c65-fbc14bb5f7a3",
+        "flabsCode": "FLP0952"
+      },
+      "_id": "67989987773a1372473dcf63"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c665",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1586",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.289Z",
+  "updatedAt": "2025-07-21T19:17:58.289Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

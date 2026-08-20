@@ -1,0 +1,315 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381afc",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LIVER FUNCTION TEST (LFT)",
+  "code": "LFT",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th>\n<div>Test</div>\n</th>\n<th>\n<div>Interpretation</div>\n</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<div>Total protein</div>\n</td>\n<td>\n<div>Total protein measures the total amount of protein in the blood, including albumin and globulin. Abnormal results may indicate liver or kidney disease, malnutrition, or inflammation.</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Albumin</div>\n</td>\n<td>\n<div>Albumin is a protein produced by the liver. Abnormal results may indicate liver or kidney disease, malnutrition, or inflammation.</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Bilirubin</div>\n</td>\n<td>\n<div>Bilirubin is a substance produced by the breakdown of red blood cells. Abnormal results may indicate liver disease or other conditions affecting the liver or gallbladder.</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Alkaline phosphatase (ALP)</div>\n</td>\n<td>\n<div>ALP is an enzyme produced by the liver and other organs. Abnormal results may indicate liver or bone disease, or certain medications.</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Alanine transaminase (ALT)/ SGPT</div>\n</td>\n<td>\n<div>ALT is an enzyme primarily produced by the liver. Abnormal results may indicate liver damage or disease.</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Aspartate transaminase (AST)/ SGOT</div>\n</td>\n<td>\n<div>AST is an enzyme produced by the liver and other organs. Abnormal results may indicate liver damage or disease.</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BILIRUBIN TOTAL",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-max": "1.2",
+            "male-range-min": "0.1",
+            "female-range-min": "0.1",
+            "female-range-max": "1.2",
+            "child-range-min": "0.1",
+            "child-range-max": "1.2"
+          }
+        }
+      },
+      "_id": "6425110e4ae0b2aab378f76c"
+    },
+    {
+      "_id": "6425110e4ae0b2aab378f76d",
+      "type": "testDetails",
+      "data": {
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-max": "0.4",
+            "male-range-min": "0.0",
+            "female-range-min": "0.0",
+            "female-range-max": "0.4",
+            "child-range-min": "0.0",
+            "child-range-max": "0.4"
+          }
+        },
+        "name": "BILIRUBIN DIRECT",
+        "field": "numeric"
+      }
+    },
+    {
+      "_id": "642512ef4ae0b2aab378fc4e",
+      "type": "testDetails",
+      "data": {
+        "name": "BILIRUBIN INDIRECT",
+        "field": "numeric",
+        "units": " mg/dL",
+        "formula": "{BILIRUBIN_TOTAL}-{BILIRUBIN_DIRECT}",
+        "range": {
+          "default": {
+            "male-range-max": "1.0",
+            "male-range-min": "0.1",
+            "female-range-min": "0.1",
+            "female-range-max": "1.0",
+            "child-range-min": "0.1",
+            "child-range-max": "1.0"
+          }
+        }
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "units": " IU/L",
+        "range": {
+          "default": {
+            "child-range-min": "7",
+            "child-range-max": "55",
+            "male-range-max": "55",
+            "male-range-min": "7",
+            "female-range-min": "7",
+            "female-range-max": "55"
+          }
+        },
+        "name": "SGPT",
+        "field": "numeric"
+      },
+      "_id": "642512ef4ae0b2aab378fc4f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SGOT",
+        "field": "numeric",
+        "units": " IU/L",
+        "range": {
+          "default": {
+            "child-range-max": "48",
+            "male-range-max": "48",
+            "male-range-min": "8",
+            "female-range-min": "8",
+            "female-range-max": "48",
+            "child-range-min": "8"
+          }
+        }
+      },
+      "_id": "642512ef4ae0b2aab378fc50"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SGOT/SGPT RATIO",
+        "field": "numeric",
+        "units": "RATIO ",
+        "formula": "{SGOT}/{SGPT}",
+        "range": {
+          "default": {
+            "male-range-max": "46",
+            "male-range-min": "0",
+            "female-range-min": "0",
+            "female-range-max": "46",
+            "child-range-min": "0",
+            "child-range-max": "46"
+          }
+        }
+      },
+      "_id": "642512ef4ae0b2aab378fc51"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ALKALINE PHOSPHATASE",
+        "field": "numeric",
+        "units": "U/L ",
+        "range": {
+          "default": {
+            "child-range-min": "35",
+            "child-range-max": "140",
+            "male-range-max": "140",
+            "male-range-min": "35",
+            "female-range-min": "35",
+            "female-range-max": "140"
+          }
+        }
+      },
+      "_id": "642512ef4ae0b2aab378fc52"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "GAMMA GLUTAMYL TRANSFERASE (GGT)",
+        "field": "numeric",
+        "units": " U/L",
+        "range": {
+          "default": {
+            "male-range-max": "55",
+            "male-range-min": "0",
+            "female-range-min": "0",
+            "female-range-max": "55",
+            "child-range-min": "0",
+            "child-range-max": "55"
+          }
+        }
+      },
+      "_id": "642512ef4ae0b2aab378fc53"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TOTAL PROTEINS",
+        "field": "numeric",
+        "units": "gm/dL",
+        "range": {
+          "default": {
+            "male-range-min": "6.2",
+            "female-range-min": "6.2",
+            "female-range-max": "8.0",
+            "child-range-min": "6.2",
+            "child-range-max": "8.0",
+            "male-range-max": "8.0"
+          }
+        }
+      },
+      "_id": "642512ef4ae0b2aab378fc54"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": " gm/dL",
+        "range": {
+          "default": {
+            "male-range-max": "5.5",
+            "male-range-min": "3.5",
+            "female-range-min": "3.5",
+            "female-range-max": "5.5",
+            "child-range-min": "3.5",
+            "child-range-max": "5.5"
+          }
+        },
+        "name": "ALBUMIN"
+      },
+      "_id": "642512ef4ae0b2aab378fc55"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "GLOBULIN",
+        "field": "numeric",
+        "units": " gm/dL",
+        "formula": "{TOTAL_PROTEINS}-{ALBUMIN}",
+        "range": {
+          "default": {
+            "male-range-max": "3.5",
+            "male-range-min": "2.3",
+            "female-range-min": "2.3",
+            "female-range-max": "3.5",
+            "child-range-min": "2.3",
+            "child-range-max": "3.5"
+          }
+        }
+      },
+      "_id": "642512ef4ae0b2aab378fc56"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "A : G RATIO",
+        "field": "numeric",
+        "units": " RATIO",
+        "formula": "{ALBUMIN}/({TOTAL_PROTEINS}-{ALBUMIN})",
+        "range": {
+          "default": {
+            "male-range-max": "1.2",
+            "male-range-min": "1.0",
+            "female-range-min": "1.0",
+            "female-range-max": "1.2",
+            "child-range-min": "1.0",
+            "child-range-max": "1.2"
+          }
+        }
+      },
+      "_id": "642512ef4ae0b2aab378fc57"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "6418a7cdebe595f57b4fda27",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0157",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.235Z",
+  "updatedAt": "2026-08-14T17:59:51.235Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

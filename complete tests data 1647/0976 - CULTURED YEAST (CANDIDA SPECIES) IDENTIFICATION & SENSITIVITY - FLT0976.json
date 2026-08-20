@@ -1,0 +1,243 @@
+{
+  "_id": "6a86cc7692e2891d948dfca2",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CULTURED YEAST (CANDIDA SPECIES) IDENTIFICATION & SENSITIVITY",
+  "code": "2195",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><span style=\"font-size: 10px;\"><strong>Finding</strong></span></th>\n<th><span style=\"font-size: 10px;\"><strong>Interpretation</strong></span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\">Candida species isolated</span></td>\n<td><span style=\"font-size: 10px;\">Suggests fungal infection; treat as per sensitivity report</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">No growth</span></td>\n<td><span style=\"font-size: 10px;\">No yeast growth; possible non-candidal etiology or prior antifungal use</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Fluconazole resistance</span></td>\n<td><span style=\"font-size: 10px;\">Consider alternative antifungal (e.g., Amphotericin B, Echinocandins)</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Sensitive to first-line antifungals</span></td>\n<td><span style=\"font-size: 10px;\">Suitable for standard treatment</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopy",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Yeast Cells",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "b8d5339e-932c-4694-85fa-adf66e0dc378",
+            "flabsCode": "FLP2296"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Pseudohyphae",
+            "options": [
+              "Present",
+              "Absent"
+            ],
+            "formulaId": "c8cbcc5d-8d80-40f5-837b-c404735ed3c3",
+            "flabsCode": "FLP1801"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Bacterial Flora",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "84fc4c7d-4f83-4761-ac41-d35048d1919b",
+            "flabsCode": "FLP0339"
+          }
+        ]
+      },
+      "_id": "6883cbbe35738384e7943f19"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Organism Isolated",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Growth",
+            "formulaId": "ea95fd8d-07f9-4808-a438-c9f5490d6d71",
+            "options": [
+              "Detected",
+              "No Growth"
+            ],
+            "flabsCode": "FLP0699"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Identified Species",
+            "options": [
+              "Candida albicans",
+              "Candida glabrata",
+              "Candida tropicalis"
+            ],
+            "formulaId": "fedf8b3d-ba89-48c2-9483-c9fe6d9b1f85",
+            "flabsCode": "FLP1227"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Method of Identification",
+            "formulaId": "800b7fc6-6814-4d7e-9729-efa0bce439d6",
+            "flabsCode": "FLP1464"
+          }
+        ]
+      },
+      "_id": "6883cbbe35738384e7943f1a"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Antibiotic Sensitivity",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Fluconazole",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "3fdd4c87-e36a-41f9-8715-f4ef86421c34",
+            "flabsCode": "FLP0945"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Itraconazole",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "13945293-da62-4bd9-a78e-f97348fa7717",
+            "flabsCode": "FLP1284"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Voriconazole",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "08f86fc0-d25c-4656-be7b-58a8c603b237",
+            "flabsCode": "FLP2283"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Amphotericin B",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "9fda5d81-0064-460b-94d0-a1041976b1dd",
+            "flabsCode": "FLP0203"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Caspofungin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "e4d3e05d-4c26-4cb1-9106-d50a2f601a89",
+            "flabsCode": "FLP0550"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Micafungin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "501f1cde-78b6-4903-86e3-d6c033563b5c",
+            "flabsCode": "FLP1471"
+          }
+        ]
+      },
+      "_id": "6883cc9f35738384e7945ac1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c442",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0976",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.969Z",
+  "updatedAt": "2025-07-21T19:17:55.969Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

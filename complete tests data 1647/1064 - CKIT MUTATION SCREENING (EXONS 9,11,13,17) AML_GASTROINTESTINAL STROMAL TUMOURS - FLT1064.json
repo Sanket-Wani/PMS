@@ -1,0 +1,180 @@
+{
+  "_id": "6a86cc825953b1dd0a18a0f1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CKIT MUTATION SCREENING (EXONS 9,11,13,17) AML/GASTROINTESTINAL STROMAL TUMOURS",
+  "code": "2304",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive (Pathogenic Mutation)</span></td>\n<td><span style=\"font-size: 10px;\">KIT mutation detected (Exon 9, 11, 13, or 17); guides therapy (e.g., imatinib sensitivity for Exon 11, possible resistance for Exon 17).</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative</span></td>\n<td><span style=\"font-size: 10px;\">No significant KIT mutation detected; other genes (e.g., PDGFRA, FLT3) may need evaluation depending on cancer type.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Variant of Uncertain Significance (VUS)</span></td>\n<td><span style=\"font-size: 10px;\">Mutation detected but unclear clinical impact; may need correlation with literature and functional data.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 9 Mutation (e.g., AY502-503 duplication)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "d3d9c1a3-5560-4224-8270-0303a753c070",
+        "flabsCode": "FLP0862"
+      },
+      "_id": "6883d2c435738384e794f39e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 11 Mutation (e.g., deletions/insertions)\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "d948b74e-b034-4d1d-a9a3-c61a7a91a659",
+        "flabsCode": "FLP0847"
+      },
+      "_id": "6883d2c435738384e794f39f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 13 Mutation (e.g., K642E)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "b5ecf945-44f5-4379-b6fc-c2ced02ba691",
+        "flabsCode": "FLP0849"
+      },
+      "_id": "6883d2c435738384e794f3a0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 17 Mutation (e.g., D816V/H)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "f20b0da7-5844-46ed-ba9a-eb267d062dc6",
+        "flabsCode": "FLP0852"
+      },
+      "_id": "6883d2c435738384e794f3a1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variant Allele Frequency",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "2",
+              "op": ">"
+            },
+            "female-range": {
+              "value": "2",
+              "op": ">"
+            },
+            "child-range": {
+              "value": "2",
+              "op": ">"
+            }
+          }
+        },
+        "units": "%",
+        "formulaId": "4c2226d4-dd35-4f6b-b3a9-140e38d98bbc",
+        "flabsCode": "FLP2256"
+      },
+      "_id": "6883d2c435738384e794f3a2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pathogenicity Classification",
+        "field": "custom",
+        "options": [
+          "Pathogenic ",
+          "Likely Pathogenic",
+          "VUS ",
+          "Benign"
+        ],
+        "formulaId": "aff6e42e-56ff-49de-94f4-a5a4dd10db53",
+        "flabsCode": "FLP1696"
+      },
+      "_id": "6883d2c435738384e794f3a3"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c48b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1064",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.269Z",
+  "updatedAt": "2025-07-21T19:17:56.269Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

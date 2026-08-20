@@ -1,0 +1,132 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175c38",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MET AMPLIFICATION BY FISH (NSCLC)",
+  "code": "1432",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2032\" data-end=\"2217\">\n<p data-start=\"2034\" data-end=\"2065\"><span style=\"font-size: 10px;\"><strong data-start=\"2034\" data-end=\"2063\">MET Amplified (Positive):</strong></span></p>\n<ul data-start=\"2068\" data-end=\"2217\">\n<li style=\"font-size: 10px;\" data-start=\"2068\" data-end=\"2149\">\n<p data-start=\"2070\" data-end=\"2149\"><span style=\"font-size: 10px;\"><strong data-start=\"2070\" data-end=\"2096\">&ge;5 MET copies per cell</strong> OR <strong data-start=\"2100\" data-end=\"2123\">MET/CEP7 ratio &ge;2.0</strong> confirms amplification.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2152\" data-end=\"2217\">\n<p data-start=\"2154\" data-end=\"2217\"><span style=\"font-size: 10px;\">Indicates eligibility for <strong data-start=\"2180\" data-end=\"2205\">MET inhibitor therapy</strong> in NSCLC.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2219\" data-end=\"2387\">\n<p data-start=\"2221\" data-end=\"2252\"><span style=\"font-size: 10px;\"><strong data-start=\"2221\" data-end=\"2250\">Not Amplified (Negative):</strong></span></p>\n<ul data-start=\"2255\" data-end=\"2387\">\n<li style=\"font-size: 10px;\" data-start=\"2255\" data-end=\"2307\">\n<p data-start=\"2257\" data-end=\"2307\"><span style=\"font-size: 10px;\">No significant increase in MET gene copy number.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2310\" data-end=\"2387\">\n<p data-start=\"2312\" data-end=\"2387\"><span style=\"font-size: 10px;\">Standard treatment pathway unless other actionable mutations are present.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2389\" data-end=\"2494\">\n<p data-start=\"2391\" data-end=\"2420\"><span style=\"font-size: 10px;\"><strong data-start=\"2391\" data-end=\"2418\">Equivocal (Borderline):</strong></span></p>\n<ul data-start=\"2423\" data-end=\"2494\">\n<li style=\"font-size: 10px;\" data-start=\"2423\" data-end=\"2494\">\n<p data-start=\"2425\" data-end=\"2494\"><span style=\"font-size: 10px;\">If results are near threshold, repeat testing or confirm via <strong data-start=\"2486\" data-end=\"2493\">NGS</strong>.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Average MET Copy Number per Cell",
+        "field": "numeric_unbound",
+        "units": "Copies/Cell",
+        "rangeReport": "<4 copies/cell: Negative\n≥5 copies/cell or MET/CEP7 ratio ≥2.0: Positive (Amplified)",
+        "formulaId": "f072cc24-06d1-4280-86ac-4efa72da49ab",
+        "flabsCode": "FLP0296"
+      },
+      "_id": "6885e57e236c87794ab04392"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MET/CEP7 Ratio",
+        "field": "numeric_unbound",
+        "units": "Ratio",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">",
+              "value": "2.0"
+            },
+            "female-range": {
+              "op": ">",
+              "value": "2.0"
+            },
+            "child-range": {
+              "op": ">",
+              "value": "2.0"
+            }
+          }
+        },
+        "rangeReport": "≥2.0: Consistent with MET gene amplification",
+        "formulaId": "ce7f9ca4-e7f7-4f0f-964d-014b57f34fa1",
+        "flabsCode": "FLP1395"
+      },
+      "_id": "6885e57e236c87794ab04393"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "% Tumor Cells Evaluated",
+        "field": "text",
+        "units": "%",
+        "formulaId": "74356a9d-559e-4c4b-98a2-54ea7f1d3b6e",
+        "flabsCode": "FLP0012"
+      },
+      "_id": "6885e57e236c87794ab04394"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c251",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0388",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.427Z",
+  "updatedAt": "2025-07-21T19:17:53.427Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

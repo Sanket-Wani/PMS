@@ -1,0 +1,122 @@
+{
+  "_id": "6a86cd01ba46c74c6d4617c5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ASMA (ANTI SMOOTH MUSCLE ANTIBODY) BY  IFA",
+  "code": "2686",
+  "cost": 0,
+  "interpretation": "<p>Anti-smooth muscle antibodies (ASMA) are found at high titre in 70% patients with chronic active hepatitis.</p>\n<p><br>Low titre antibodies may be found in the sera of patients with viral infections, malignancies and in the normal population.</p>\n<p><br>ASMA show discrete staining of the muscularis layers of roden stomach and be seen on the inner muscular layer of blood vessels in&nbsp;rodents kidney.</p>\n<p>Other factors Including the clinical history and serological results must be taken into account for diagnosis. Auto Antibodies can be activated by a wide range of drugs including oral contraceptives and antibiotics.</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DILUTION TITRE FOR THE TEST PROCEDURE",
+        "field": "text",
+        "formulaId": "7aaf27c5-be4e-4512-ba4a-ca96dd4aa52a",
+        "flabsCode": "FLP0735"
+      },
+      "_id": "678b626fa377266200cc43f2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Result",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "44ede172-674d-4414-9ffa-c75615b080c5"
+      },
+      "_id": "678b626fa377266200cc43f3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fluorescence Intensity",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "+: Weak,~++: Moderate,~+++:\nStrong,~++++: Very Strong",
+            "female-range": "+: Weak,~++: Moderate,~+++:\nStrong,~++++: Very Strong",
+            "child-range": "+: Weak,~++: Moderate,~+++:\nStrong,~++++: Very Strong"
+          }
+        },
+        "test_method": "by indirect immunofluorescence assay (iifa)",
+        "formulaId": "b46591f9-89f8-4046-831b-b5b4afa1d380",
+        "flabsCode": "FLP0952"
+      },
+      "_id": "678b626fa377266200cc43f4"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5df",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1431",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.766Z",
+  "updatedAt": "2025-07-21T19:17:57.766Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

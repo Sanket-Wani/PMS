@@ -1,0 +1,123 @@
+{
+  "_id": "6a86ccb292e2891d948ee817",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HR HLA A B DRB1",
+  "code": "2392",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"777\" data-end=\"1173\">\n<li data-start=\"777\" data-end=\"988\">\n<p data-start=\"779\" data-end=\"832\"><span style=\"font-size: 9px;\">High-resolution (allele-level) HLA typing is used in:</span></p>\n<ul data-start=\"835\" data-end=\"988\">\n<li style=\"font-size: 9px;\" data-start=\"835\" data-end=\"890\">\n<p data-start=\"837\" data-end=\"890\"><span style=\"font-size: 9px;\"><strong data-start=\"837\" data-end=\"890\">Organ and stem cell transplantation compatibility</strong></span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"893\" data-end=\"954\">\n<p data-start=\"895\" data-end=\"954\"><span style=\"font-size: 9px;\"><strong data-start=\"895\" data-end=\"926\">Disease association studies</strong> (e.g. autoimmune disorders)</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"957\" data-end=\"988\">\n<p data-start=\"959\" data-end=\"988\"><span style=\"font-size: 9px;\"><strong data-start=\"959\" data-end=\"988\">Pharmacogenetic screening</strong></span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"989\" data-end=\"1072\">\n<p data-start=\"991\" data-end=\"1072\"><span style=\"font-size: 9px;\">Matching HLA-A, B, and DRB1 alleles is crucial for reducing graft rejection risk.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1073\" data-end=\"1173\">\n<p data-start=\"1075\" data-end=\"1173\"><span style=\"font-size: 9px;\"><strong data-start=\"1075\" data-end=\"1093\">HLA mismatches</strong> may increase chances of transplant failure or graft-versus-host disease (GVHD).</span></p>\n</li>\n</ul>\n<p data-start=\"1175\" data-end=\"1351\"><span style=\"font-size: 9px;\"><strong data-start=\"1177\" data-end=\"1195\">Fully Matched:</strong> Ideal scenario for donor-recipient matching</span><br data-start=\"1239\" data-end=\"1242\"><span style=\"font-size: 9px;\"><strong data-start=\"1245\" data-end=\"1281\">Partially Matched or Mismatched:</strong> May require additional immunosuppression or alternative donor options</span></p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-A (High Res.)",
+        "field": "custom",
+        "options": [
+          "01:01",
+          "02:01"
+        ],
+        "formulaId": "28cfe44e-7ae9-479a-8d26-cb93c82c9c7c",
+        "flabsCode": "FLP1112"
+      },
+      "_id": "688515e90a49ec918080b768"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-B (High Res.)",
+        "field": "custom",
+        "options": [
+          "07:02",
+          "35:01"
+        ],
+        "formulaId": "87a0b4e4-7d0d-4131-9512-75d760507933",
+        "flabsCode": "FLP1116"
+      },
+      "_id": "688515e90a49ec918080b769"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-DRB1 (High Res.)",
+        "field": "custom",
+        "options": [
+          "15:01",
+          "04:01"
+        ],
+        "formulaId": "836478b0-5690-4d20-a562-35d839696bd9",
+        "flabsCode": "FLP1129"
+      },
+      "_id": "688515e90a49ec918080b76a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4e0",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1153",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.653Z",
+  "updatedAt": "2025-07-21T19:17:56.653Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

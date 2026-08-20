@@ -1,0 +1,1758 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c03",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY COMPREHENSIVE PANEL",
+  "code": "ALLCP",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "isDefault": false,
+  "parentTest": "690f392dd1970f854581e3d7",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "ALLERGY",
+  "flabsID": "FLT1332",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergyCategory": [
+    {
+      "isRequired": false,
+      "_id": "68b19c820400db716490d961",
+      "allergenType": "ALLERGY VEG",
+      "unit": "IU/mL",
+      "ranges": [
+        {
+          "type": "numeric_unbound",
+          "name": "Normal",
+          "range": {
+            "operator": "<",
+            "value": "0.24"
+          },
+          "flag": false,
+          "key": 1
+        },
+        {
+          "name": "BorderLine",
+          "range": "0.24-0.30",
+          "flag": false,
+          "key": 3,
+          "type": "numeric"
+        },
+        {
+          "name": "High",
+          "range": {
+            "operator": ">",
+            "value": "0.30"
+          },
+          "flag": true,
+          "key": 4,
+          "type": "numeric_unbound"
+        }
+      ],
+      "data": [
+        {
+          "isRequired": false,
+          "_id": "3e77780b4dff44309cf72ff5",
+          "name": "Pea",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-3e77780b4dff44309cf72ff5.jpeg",
+          "secondName": "मटर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "ff2b614cf6bd4801ad649e86",
+          "name": "Spinach",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-ff2b614cf6bd4801ad649e86.jpeg",
+          "secondName": "पालक",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "eaea913ea3ef48f088c946b3",
+          "name": " Orange",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-eaea913ea3ef48f088c946b3.jpeg",
+          "secondName": " संतरे",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "94fd337ab00a47fa94b5efdd",
+          "name": "Brinjal",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-94fd337ab00a47fa94b5efdd.jpeg",
+          "secondName": "बैगन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "29aa103405d540e081be1a6e",
+          "name": "Capsicum",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-29aa103405d540e081be1a6e.jpeg",
+          "secondName": "शिमला मिर्च",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b1a69269390344c9b880c6a3",
+          "name": " Straw Berry",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-b1a69269390344c9b880c6a3.jpeg",
+          "secondName": " स्ट्रॉ बेरी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "7d0f4e1cff9f446c825a7365",
+          "name": "Tomato",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-7d0f4e1cff9f446c825a7365.jpeg",
+          "secondName": "टमाटर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "6da3eae67f1c4dc2a59740ce",
+          "name": "Cucumbers",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-6da3eae67f1c4dc2a59740ce.jpeg",
+          "secondName": "खीरा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "d6daf52987f3402e86481264",
+          "name": "Apple",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-d6daf52987f3402e86481264.jpeg",
+          "secondName": "सेब",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "6f8ca6a9a179444481e6680c",
+          "name": "Carrot",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-6f8ca6a9a179444481e6680c.jpeg",
+          "secondName": "गाजर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "ee3571292349483088d08865",
+          "name": "Cauliflowers",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-ee3571292349483088d08865.jpeg",
+          "secondName": "फूलगोभी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "910c4a2b681e45298d702ffb",
+          "name": "Melons",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-910c4a2b681e45298d702ffb.jpeg",
+          "secondName": "ख़रबूज़े",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "da9a610697e045c7a4942a6b",
+          "name": "Potato",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-da9a610697e045c7a4942a6b.jpeg",
+          "secondName": "आलू",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "78f96a1865b4474e933e36c1",
+          "name": "Lady's Finger",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-78f96a1865b4474e933e36c1.jpeg",
+          "secondName": "लेडीज़ फिंगर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a25381b057db4c1f88e090df",
+          "name": "Mango",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-a25381b057db4c1f88e090df.jpeg",
+          "secondName": "आम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "f551df9908c64bd5b7dd9913",
+          "name": "Tamarind",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-f551df9908c64bd5b7dd9913.jpeg",
+          "secondName": "इमली",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "dd7ce1ac97364895b30cce3a",
+          "name": "Radishes",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-dd7ce1ac97364895b30cce3a.jpeg",
+          "secondName": "मूली",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "6441c07eed4c44df89647f51",
+          "name": "Bananas",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-6441c07eed4c44df89647f51.jpeg",
+          "secondName": "केले",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "43fae5e3a3774b08a8254617",
+          "name": "Onion",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-43fae5e3a3774b08a8254617.jpeg",
+          "secondName": "प्याज़",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "f03949a7230841dda721b984",
+          "name": "Corianders",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-f03949a7230841dda721b984.jpeg",
+          "secondName": "धनिया",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "c1aad715bb9b4b42a0cd6c12",
+          "name": "Guavas",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-c1aad715bb9b4b42a0cd6c12.jpeg",
+          "secondName": "अमरूद",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "53aaa39fe74b4b11931fcc56",
+          "name": "Mushroom",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-53aaa39fe74b4b11931fcc56.jpeg",
+          "secondName": "मशरुम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "d88ae153f48840e4b37b8b7a",
+          "name": "Lemons",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-d88ae153f48840e4b37b8b7a.jpeg",
+          "secondName": "नीबू",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b1957a420f42402d8c8382eb",
+          "name": "Lettuce",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-b1957a420f42402d8c8382eb.jpeg",
+          "secondName": "लेट्यूस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "e9f8cff2b9ba491daeee8d5f",
+          "name": "Beans",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-e9f8cff2b9ba491daeee8d5f.jpeg",
+          "secondName": "बीन्स",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "81eb4ef56dc24297ac9651b0",
+          "name": "Papaya",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-81eb4ef56dc24297ac9651b0.jpeg",
+          "secondName": "पपीता",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "635968d2c37e4fcf8a449ab8",
+          "name": "Cabbage",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-635968d2c37e4fcf8a449ab8.jpeg",
+          "secondName": "पत्तागोभी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "51bb517436c148e580bff69e",
+          "name": "Chilly",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-51bb517436c148e580bff69e.jpeg",
+          "secondName": "मिर्च",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "05f35965764b4c36ae42dfcc",
+          "name": "Grapes",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-05f35965764b4c36ae42dfcc.jpeg",
+          "secondName": "अंगूर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "31b5cf4af2264849b140b3de",
+          "name": "Bitter Guard",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-31b5cf4af2264849b140b3de.jpeg",
+          "secondName": "बिटर गार्ड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "1bdec5c56cc74a8cb22f79b2",
+          "name": "Pineapple",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-1bdec5c56cc74a8cb22f79b2.jpeg",
+          "secondName": "अनन्नास",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a6756ec0023244fea83b188b",
+          "name": "Pear",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-a6756ec0023244fea83b188b.jpeg",
+          "secondName": "नाशपाती",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "4c8c03b8bc2045a3b9a8b727",
+          "name": "Kiwi",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-4c8c03b8bc2045a3b9a8b727.jpeg",
+          "secondName": "कीवी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "75cd1476f4ee49469ba4eb85",
+          "name": "Pumpkin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-75cd1476f4ee49469ba4eb85.jpeg",
+          "secondName": "कद्दू",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "54abb5d110f54401bfa51c81",
+          "name": "Milk",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-54abb5d110f54401bfa51c81.jpeg",
+          "secondName": "दूध",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "bf9a3aff0be840cc8bc13da1",
+          "name": "Toor Dal",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-bf9a3aff0be840cc8bc13da1.jpeg",
+          "secondName": "तूर दाल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "e3df089763774ef488166910",
+          "name": "Coconut",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-e3df089763774ef488166910.jpeg",
+          "secondName": "नारियल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3940242736ed472facf54580",
+          "name": "Cheese",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-3940242736ed472facf54580.jpeg",
+          "secondName": "चीज़",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "1861fb30b9c34c5c9e18e16d",
+          "name": "Moong Dal",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-1861fb30b9c34c5c9e18e16d.jpeg",
+          "secondName": "मूंग दाल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a8fdebd668bc4d888b726e99",
+          "name": "Ground Nut",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-a8fdebd668bc4d888b726e99.jpeg",
+          "secondName": "ग्राउंड नट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a88c1f13768e45278388899a",
+          "name": "Curd",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-a88c1f13768e45278388899a.jpeg",
+          "secondName": "दही",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "98eb9477cc4f40869db868a9",
+          "name": "Chana Dal",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-98eb9477cc4f40869db868a9.jpeg",
+          "secondName": "चना दाल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "1f26f8c4ca0b4baaa6fad6bc",
+          "name": "Walnut",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-1f26f8c4ca0b4baaa6fad6bc.jpeg",
+          "secondName": "अखरोट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "01adf2d7678940b18207c292",
+          "name": "Ghee",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-01adf2d7678940b18207c292.jpeg",
+          "secondName": "घी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a12c7d6e3bc249f7b00384a5",
+          "name": "Rajma Dal",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-a12c7d6e3bc249f7b00384a5.jpeg",
+          "secondName": "राजमा दाल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "70eeda9405ac413ea6710e76",
+          "name": "Butter",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-70eeda9405ac413ea6710e76.jpeg",
+          "secondName": "बटर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "d40f6fc4ba8f44ceb6ab6940",
+          "name": "Urad Dal",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-d40f6fc4ba8f44ceb6ab6940.jpeg",
+          "secondName": "उड़द दाल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3d2c97b88749441898799d00",
+          "name": "Wheat Flour",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-3d2c97b88749441898799d00.jpeg",
+          "secondName": "गेहूँ का आटा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "afe3b873b86a4416a9914b1d",
+          "name": "Salt",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-afe3b873b86a4416a9914b1d.jpeg",
+          "secondName": "नमक",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "31c61dd9d043466d8dff3228",
+          "name": "Maize",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-31c61dd9d043466d8dff3228.jpeg",
+          "secondName": "मक्का",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "9e4b4a36f8a24c1886bf805a",
+          "name": "Cinnamons",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-9e4b4a36f8a24c1886bf805a.jpeg",
+          "secondName": "दालचीनी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "8b6089bdf0b74a2ba03892ed",
+          "name": "Barley",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-8b6089bdf0b74a2ba03892ed.jpeg",
+          "secondName": "जौ",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "2630e6b40c664bedb756b902",
+          "name": "Garlic",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-2630e6b40c664bedb756b902.jpeg",
+          "secondName": "लहसुन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "c0542aae496f4322ac675948",
+          "name": "Tea",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-c0542aae496f4322ac675948.jpeg",
+          "secondName": "चाय",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "c8b78b42bb9e405ebc12cca8",
+          "name": "Rye",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-c8b78b42bb9e405ebc12cca8.jpeg",
+          "secondName": "राई",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "0070573fd3e344198ae3580e",
+          "name": "Ginger",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-0070573fd3e344198ae3580e.jpeg",
+          "secondName": "अदरक",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "8d6bd5927593469590c1a0a9",
+          "name": "Coffee",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-8d6bd5927593469590c1a0a9.jpeg",
+          "secondName": "कॉफ़ी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3bdec105fc3248f2bf3e7556",
+          "name": "Oat",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-3bdec105fc3248f2bf3e7556.jpeg",
+          "secondName": "ओट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b72d4f8df5c64358aa2f3e7e",
+          "name": "Elaichi",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-b72d4f8df5c64358aa2f3e7e.jpeg",
+          "secondName": "इलाइची",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "502fdb177436459c8bf3df83",
+          "name": "Vinegar",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-502fdb177436459c8bf3df83.jpeg",
+          "secondName": "विनेगर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "765d3ae2529e436099212cd9",
+          "name": "Rice",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-765d3ae2529e436099212cd9.jpeg",
+          "secondName": "राईस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "129725b2ff49457984205935",
+          "name": "Poppy",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-129725b2ff49457984205935.jpeg",
+          "secondName": "खसखस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "014c1dd18f404369b934f5bc",
+          "name": "Yeast",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-014c1dd18f404369b934f5bc.jpeg",
+          "secondName": "यीस्ट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "0aef5cf41185453e951231f2",
+          "name": "Bajari",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-0aef5cf41185453e951231f2.jpeg",
+          "secondName": "बजरी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "202ab8a14b384ae9802f692c",
+          "name": "Black Pepper",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-202ab8a14b384ae9802f692c.jpeg",
+          "secondName": "काली मिर्च",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "cb59ac684621462aa849d7db",
+          "name": "pistachio",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY VEG-cb59ac684621462aa849d7db.jpeg",
+          "secondName": "पिस्ता",
+          "showSecondName": true
+        }
+      ]
+    },
+    {
+      "isRequired": false,
+      "_id": "68b584d3db822428f1bf276f",
+      "allergenType": "NON VEG",
+      "unit": "IU/mL",
+      "ranges": [
+        {
+          "type": "numeric_unbound",
+          "name": "Normal",
+          "range": {
+            "value": "0.24",
+            "operator": "<"
+          },
+          "flag": false,
+          "key": 1
+        },
+        {
+          "type": "numeric",
+          "name": "BorderLine",
+          "range": "0.24-0.30",
+          "flag": false,
+          "key": 2
+        },
+        {
+          "type": "numeric_unbound",
+          "name": "High",
+          "range": {
+            "operator": ">",
+            "value": "0.30"
+          },
+          "flag": true,
+          "key": 3
+        }
+      ],
+      "data": [
+        {
+          "isRequired": false,
+          "_id": "e1c34a64573340a18099142f",
+          "name": "Egg",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-e1c34a64573340a18099142f.jpeg",
+          "secondName": "अंडा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "5e5144f30bc947059a11835f",
+          "name": "Shrimp",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-5e5144f30bc947059a11835f.jpeg",
+          "secondName": "झींगा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "1fdb1532ec454bb6b053f2bf",
+          "name": "Lobster",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-1fdb1532ec454bb6b053f2bf.jpeg",
+          "secondName": "झींगा मछली",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "312eeee48de04c8caa07f234",
+          "name": "Chicken",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-312eeee48de04c8caa07f234.jpeg",
+          "secondName": "चिकन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a986a2f943b44b53bfb61f3d",
+          "name": "Rabbit Meat",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-a986a2f943b44b53bfb61f3d.jpeg",
+          "secondName": "खरगोश का मांस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "9d163c156cb34ed29055cf66",
+          "name": "Fish (cod)",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-9d163c156cb34ed29055cf66.jpeg",
+          "secondName": "मछली (कॉड)",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b17cd2f627e8406897e23015",
+          "name": "Tuna",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-b17cd2f627e8406897e23015.jpeg",
+          "secondName": "टूना",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "e5f40fc039ea4ff4af361436",
+          "name": "Pork",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-e5f40fc039ea4ff4af361436.jpeg",
+          "secondName": "पोर्क",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "73325f2ac5c24b1fba316245",
+          "name": "Mutton",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-73325f2ac5c24b1fba316245.jpeg",
+          "secondName": "मटन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "003c13ae199c4146ae15eacb",
+          "name": "Turkey",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-003c13ae199c4146ae15eacb.jpeg",
+          "secondName": "तुर्की",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "1b3cfd7de6bf402da7bf6fde",
+          "name": "Crab",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-1b3cfd7de6bf402da7bf6fde.jpeg",
+          "secondName": "केकड़ा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "22c1c33cfa264d15bd539c41",
+          "name": "Salmon",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-22c1c33cfa264d15bd539c41.jpeg",
+          "secondName": "सैल्मन",
+          "showSecondName": true
+        }
+      ]
+    },
+    {
+      "isRequired": false,
+      "_id": "68b58cb399e090eb354ae66b",
+      "allergenType": "ALLERGY INHALANTS",
+      "unit": "IU/mL",
+      "ranges": [
+        {
+          "name": "Normal",
+          "range": {
+            "operator": "<",
+            "value": "0.24"
+          },
+          "flag": false,
+          "key": 1,
+          "type": "numeric_unbound"
+        },
+        {
+          "type": "numeric",
+          "name": "BorderLine",
+          "range": "0.24-0.30",
+          "flag": false,
+          "key": 2
+        },
+        {
+          "type": "numeric_unbound",
+          "name": "High",
+          "range": {
+            "operator": ">",
+            "value": "0.30"
+          },
+          "flag": true,
+          "key": 3
+        }
+      ],
+      "data": [
+        {
+          "isRequired": false,
+          "_id": "f29ea7afba1b45da9cc79ebc",
+          "name": "Cat Epithelium",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-f29ea7afba1b45da9cc79ebc.jpeg",
+          "secondName": "कैट एपिथेलियम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "e4ef6bbd7c264d9a8d558998",
+          "name": "Cow Danderuff",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-e4ef6bbd7c264d9a8d558998.jpeg",
+          "secondName": "गाय का डैंडरफ",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "e6f2ebc2deb0453c8a39e059",
+          "name": "Dog Epithelium",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-e6f2ebc2deb0453c8a39e059.jpeg",
+          "secondName": "डॉग एपिथेलियम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "879c3606b61a45f090bb34f3",
+          "name": "Dog Danderuff",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-879c3606b61a45f090bb34f3.jpeg",
+          "secondName": "डॉग डैंडरफ",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "10f2b3481b744de3a69c902d",
+          "name": "Horse Danderuff",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-10f2b3481b744de3a69c902d.jpeg",
+          "secondName": "हॉर्स डैंडरफ",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "5258b596cb2a4b1188122408",
+          "name": "Rabbit Epithelium",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-5258b596cb2a4b1188122408.jpeg",
+          "secondName": "रैबिट एपिथेलियम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "be79cfa7c3ff49529e39c7b4",
+          "name": "Pig  Epithelium",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-be79cfa7c3ff49529e39c7b4.jpeg",
+          "secondName": "पिग एपिथेलियम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "711a4fb42a4c48f0a4cb144f",
+          "name": "Powder",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-711a4fb42a4c48f0a4cb144f.jpeg",
+          "secondName": "पाउडर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "4d1629dbde7e416595e5f4c8",
+          "name": "Perfume",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-4d1629dbde7e416595e5f4c8.jpeg",
+          "secondName": "परफ्यूम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "2e4dca9413754e59b8bd555f",
+          "name": "Soap",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-2e4dca9413754e59b8bd555f.jpeg",
+          "secondName": "सोप",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "87180b0db41a45f6896b34cd",
+          "name": "Shampoo",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-87180b0db41a45f6896b34cd.jpeg",
+          "secondName": "शैम्पू",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "eb783373992b4ba99242c643",
+          "name": "Hair Dye",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-eb783373992b4ba99242c643.jpeg",
+          "secondName": "हेयर डाई",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "8f85308e8e914a79bc22bf21",
+          "name": "Lip Stick",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-8f85308e8e914a79bc22bf21.jpeg",
+          "secondName": "लिप स्टिक",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "0d9631050c884b7c90bd2327",
+          "name": "Deodorant",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-0d9631050c884b7c90bd2327.jpeg",
+          "secondName": "डिओडोरेंट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "74f0355be14346f992aaf414",
+          "name": "Sun Creams",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-74f0355be14346f992aaf414.jpeg",
+          "secondName": "सन क्रीम्स",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "939c2a3a0a02492aa2265f3c",
+          "name": "House Dust",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-939c2a3a0a02492aa2265f3c.jpeg",
+          "secondName": "हाउस डस्ट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "6db3ec24f9024976a7555557",
+          "name": "Woods saw Dust",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-6db3ec24f9024976a7555557.jpeg",
+          "secondName": "वुड्स ने डस्ट देखा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "408a3592262c49b4a5880e13",
+          "name": "Wheat Dust",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-408a3592262c49b4a5880e13.jpeg",
+          "secondName": "गेहूँ की धूल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "d9a33de7470a4e079889dae3",
+          "name": "Straw Dust",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-d9a33de7470a4e079889dae3.jpeg",
+          "secondName": "स्ट्रॉ डस्ट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "ea90731c724342ef84debf88",
+          "name": "Cotton Dust",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-ea90731c724342ef84debf88.jpeg",
+          "secondName": "कॉटन डस्ट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a3e8e885f7044a6a865c980f",
+          "name": "Jute Dust",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-a3e8e885f7044a6a865c980f.jpeg",
+          "secondName": "जूट डस्ट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "f22d99aefb754c439d0a71be",
+          "name": "Sweet vernal Grass",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-f22d99aefb754c439d0a71be.jpeg",
+          "secondName": "स्वीट वर्नल ग्रास",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "c5bb033fe41d4224af89a32b",
+          "name": "Bermuda Grass",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-c5bb033fe41d4224af89a32b.jpeg",
+          "secondName": "बरमूडा ग्रास",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "8846463e77094ec098a958da",
+          "name": "Cocks Foot",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-8846463e77094ec098a958da.jpeg",
+          "secondName": "कॉक्स फुट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "7369c31ba27a4448ac5b3682",
+          "name": "Meadow Fescue",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-7369c31ba27a4448ac5b3682.jpeg",
+          "secondName": "मीडो फेस्क्यू",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "055c3b0d335b4e508d0a4a97",
+          "name": "Rye Grass",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-055c3b0d335b4e508d0a4a97.jpeg",
+          "secondName": "राई ग्रास",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "545df842648943d4a1df1fc8",
+          "name": "Timothy",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-545df842648943d4a1df1fc8.jpeg",
+          "secondName": "टिमोथी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "327f9b95a2c441c8ba5bf8fe",
+          "name": "Reed Common",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-327f9b95a2c441c8ba5bf8fe.jpeg",
+          "secondName": "रीड कॉमन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "800f9a7a94fe494db153568b",
+          "name": "Blue Grass, kentusky",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-800f9a7a94fe494db153568b.jpeg",
+          "secondName": "ब्लू ग्रास, केंटुस्की",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "acd39d746d2b46ec84215782",
+          "name": "Red Top, Bent Grass",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-acd39d746d2b46ec84215782.jpeg",
+          "secondName": "रेड टॉप, बेंट ग्रास",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "7afa265c0cbe4a30b311db2f",
+          "name": "Jhonson Grass",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-7afa265c0cbe4a30b311db2f.jpeg",
+          "secondName": "जॉनसन ग्रास",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "df96a669528649579086b007",
+          "name": "Dermatophagoides",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-df96a669528649579086b007.jpeg",
+          "secondName": "डर्माटोफैगोइड्स",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "fee70a55c6574b0b91331ecb",
+          "name": "Dermatophagoides farinae",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-fee70a55c6574b0b91331ecb.jpeg",
+          "secondName": "डर्माटोफैगोइड्स फ़ारिने",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "c9636f9498c04f12a4b203a8",
+          "name": "Chicken Feathers",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-c9636f9498c04f12a4b203a8.jpeg",
+          "secondName": "चिकन के पंख",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3f2268db4f8946268c8c9e23",
+          "name": "Duck Feathers",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-3f2268db4f8946268c8c9e23.jpeg",
+          "secondName": "बत्तख के पंख",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "93616cbf24034b0e932b9075",
+          "name": "Goose Feathers",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-93616cbf24034b0e932b9075.jpeg",
+          "secondName": "हंस के पंख",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "438fd81b42a14038bb6d6ad5",
+          "name": "Papain",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-438fd81b42a14038bb6d6ad5.jpeg",
+          "secondName": "पापेन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "663c2cb2312c481f96b7b529",
+          "name": "Plaster of Paris",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-663c2cb2312c481f96b7b529.jpeg",
+          "secondName": "प्लास्टर ऑफ पेरिस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "207594ab8b6d45ffa08b5e74",
+          "name": "Paints",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-207594ab8b6d45ffa08b5e74.jpeg",
+          "secondName": "पेंट्स",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "7e2c6a139fd249b4aa8cb651",
+          "name": "Budgerigar Feathers",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-7e2c6a139fd249b4aa8cb651.jpeg",
+          "secondName": "बुडगेरीगर पंख",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "6bf3477b96514b0988cbe0fe",
+          "name": "Pencillium notatum",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-6bf3477b96514b0988cbe0fe.jpeg",
+          "secondName": "पेंसिलियम नोटेटम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3476294c8a4942758e9e027a",
+          "name": "Cladosporium herbarum",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-3476294c8a4942758e9e027a.jpeg",
+          "secondName": "क्लैडोस्पोरियम हर्बरम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "d7b77cc13d304a02b89e392b",
+          "name": "Aspergillus fumigatus",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-d7b77cc13d304a02b89e392b.jpeg",
+          "secondName": "एस्परगिलस फ्यूमिगेटस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b6f255bda4c8429caaac0872",
+          "name": "Mucor racemosus",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-b6f255bda4c8429caaac0872.jpeg",
+          "secondName": "म्यूकोर रेसमोसस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "9df97b736e9f4fd3b8ce9bef",
+          "name": "Candida albicans",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-9df97b736e9f4fd3b8ce9bef.jpeg",
+          "secondName": "कैंडिडा अल्बिकन्स",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "db77fdf41fba49eebe585a8e",
+          "name": "Alternaria alternata",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-db77fdf41fba49eebe585a8e.jpeg",
+          "secondName": "अल्टरनेरिया अल्टरनेटा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "9d4e3a2a0b7d40d1857ce733",
+          "name": "Silk",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-9d4e3a2a0b7d40d1857ce733.jpeg",
+          "secondName": "सिल्क",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "4ab9b338d497478895d1148d",
+          "name": "Latex",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-4ab9b338d497478895d1148d.jpeg",
+          "secondName": "लाटेकस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "1de1229b9d3c4c8f9f5c9854",
+          "name": "Plastic",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-1de1229b9d3c4c8f9f5c9854.jpeg",
+          "secondName": "प्लास्टिक",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "8592df5905034f8ca2385dea",
+          "name": "Smoke",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-8592df5905034f8ca2385dea.jpeg",
+          "secondName": "धुआं",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "248360a13a13488aaaa6fd65",
+          "name": "Ant",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-248360a13a13488aaaa6fd65.jpeg",
+          "secondName": "चींटी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3fd997039cfe42b0ba613553",
+          "name": "Mosquito",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-3fd997039cfe42b0ba613553.jpeg",
+          "secondName": "मच्छर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "aec2013f92014440a7bbe5b1",
+          "name": "Honey Bee",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-aec2013f92014440a7bbe5b1.jpeg",
+          "secondName": "हनी बी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b7f6b3400f3a4af1a0f0b288",
+          "name": "Wasp",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-b7f6b3400f3a4af1a0f0b288.jpeg",
+          "secondName": "ततैया",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "2e5a8e15bd0e4ae9ab83645e",
+          "name": "Cockroach",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-2e5a8e15bd0e4ae9ab83645e.jpeg",
+          "secondName": "कॉकरोच",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "ab94aac5bf7e42c2a1b86e59",
+          "name": "House fly",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-ab94aac5bf7e42c2a1b86e59.jpeg",
+          "secondName": "हाउस फ्लाई",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "f2b47b394bd040d39bb75647",
+          "name": "Short Rag Weed",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-f2b47b394bd040d39bb75647.jpeg",
+          "secondName": "शॉर्ट रैग वीड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "0c1a2ae1cf624e27819f5866",
+          "name": "Western Rag Weed",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-0c1a2ae1cf624e27819f5866.jpeg",
+          "secondName": "वेस्टर्न रैग वीड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "94eecbd44b3149b9971f7b83",
+          "name": "Mugwort",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-94eecbd44b3149b9971f7b83.jpeg",
+          "secondName": "मुगवॉर्ट",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "dfa1e6dd79ba4990aca07131",
+          "name": "Daisy, Ox Eye",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-dfa1e6dd79ba4990aca07131.jpeg",
+          "secondName": "डेज़ी, ऑक्स आई",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "f06424801534427fb45659f1",
+          "name": "Tobaccos",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-f06424801534427fb45659f1.jpeg",
+          "secondName": "तम्बाकू",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "06758d541ebd483197ded816",
+          "name": "Dandelion",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-06758d541ebd483197ded816.jpeg",
+          "secondName": "डंडेलियन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "fdd7f4562fd0450e86831c6e",
+          "name": "Pigeon",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-fdd7f4562fd0450e86831c6e.jpeg",
+          "secondName": "कबूतर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a3c87a9f701a46299e5865b2",
+          "name": "Pig Weed",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-a3c87a9f701a46299e5865b2.jpeg",
+          "secondName": "पिग वीड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "bc5abd854b384feda1f8912c",
+          "name": "Plantago Lanceolata",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-bc5abd854b384feda1f8912c.jpeg",
+          "secondName": "प्लांटैगो लांसोलाटा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "48705896172242df98d9f012",
+          "name": "Sunflower",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-48705896172242df98d9f012.jpeg",
+          "secondName": "सूरजमुखी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "ee8468b60fbc47bd899f4d99",
+          "name": "Chenopodium album",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-ee8468b60fbc47bd899f4d99.jpeg",
+          "secondName": "चेनोपोडियम एल्बम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68fac5a7cd384c60b53bcf36",
+          "name": "Parietaria Officinalis",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-68fac5a7cd384c60b53bcf36.jpeg",
+          "secondName": "पेरिएटेरिया ऑफ़िसिनैलिस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "cdf8ce2b95994b69be5f7203",
+          "name": "Insects",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY INHALANTS-cdf8ce2b95994b69be5f7203.jpeg",
+          "secondName": "कीड़े",
+          "showSecondName": true
+        }
+      ]
+    },
+    {
+      "isRequired": false,
+      "_id": "68b6d50ddb4684ce63a95f2e",
+      "allergenType": "ALLERGY DRUGS",
+      "unit": "IU/mL",
+      "ranges": [
+        {
+          "type": "numeric_unbound",
+          "name": "Normal",
+          "range": {
+            "operator": "<",
+            "value": "0.24"
+          },
+          "flag": false,
+          "key": 1
+        },
+        {
+          "type": "numeric",
+          "name": "BorderLine",
+          "range": "0.24-0.30",
+          "flag": false,
+          "key": 2
+        },
+        {
+          "type": "numeric_unbound",
+          "name": "High",
+          "range": {
+            "operator": ">",
+            "value": "0.30"
+          },
+          "flag": false,
+          "key": 3
+        }
+      ],
+      "data": [
+        {
+          "isRequired": false,
+          "_id": "5649e66408bd469c9cb060e5",
+          "name": "Penicillin G",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-5649e66408bd469c9cb060e5.jpeg",
+          "secondName": "पेनिसिलिन जी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "09c8620ceae84640ac857639",
+          "name": "Analgin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-09c8620ceae84640ac857639.jpeg",
+          "secondName": "एनालगिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "0f3f7b78ead148648b74405b",
+          "name": "Streptomycin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-0f3f7b78ead148648b74405b.jpeg",
+          "secondName": "स्ट्रेप्टोमाइसिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "740e992d2c0d428abe6abf21",
+          "name": "Tetanus Toxoid",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-740e992d2c0d428abe6abf21.jpeg",
+          "secondName": "टेटनस टोक्सोइड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "0a82e58d28d342e9bd98f2f8",
+          "name": "Amoxicillin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-0a82e58d28d342e9bd98f2f8.jpeg",
+          "secondName": "अमोक्सिसिलिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "eaa941ef6f20497fa582ff26",
+          "name": "Dexomethazole",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-eaa941ef6f20497fa582ff26.jpeg",
+          "secondName": "डेक्सोमेथाज़ोल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "5ad94bb1173640499944b0a5",
+          "name": "Cephalexin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-5ad94bb1173640499944b0a5.jpeg",
+          "secondName": "सेफैलेक्सिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "30c0e897e7444c628b708973",
+          "name": "Paracetamol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-30c0e897e7444c628b708973.jpeg",
+          "secondName": "पेरासिटामोल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "2e99a5deea0b4ce08f14ad3c",
+          "name": "Ceprofloxacilin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-2e99a5deea0b4ce08f14ad3c.jpeg",
+          "secondName": "सेप्रोफ्लॉक्सासिलिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b4a2cc573a1e4b49848fdaa7",
+          "name": "Metamizol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b4a2cc573a1e4b49848fdaa7.jpeg",
+          "secondName": "मेटामिज़ोल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "29089b26f6804373b58c45f5",
+          "name": "Penicillin V",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-29089b26f6804373b58c45f5.jpeg",
+          "secondName": "पेनिसिलिन V",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "a2b3da7eac314532a80fdcc8",
+          "name": "Human Insulin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-a2b3da7eac314532a80fdcc8.jpeg",
+          "secondName": "ह्यूमन इंसुलिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "2f91b381a0cb4e3aa36bf391",
+          "name": "Ofloxacin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-2f91b381a0cb4e3aa36bf391.jpeg",
+          "secondName": "ओफ़्लॉक्सासिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "37d4d5c477a440a0867f310e",
+          "name": "Succinylcholine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-37d4d5c477a440a0867f310e.jpeg",
+          "secondName": "Succinylcholine",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "8a32a6be0e774138a5354259",
+          "name": "Tetracycline",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-8a32a6be0e774138a5354259.jpeg",
+          "secondName": "टेट्रासाइक्लिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "cfee1cfccd954d4eb05042b0",
+          "name": "Sulpha",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-cfee1cfccd954d4eb05042b0.jpeg",
+          "secondName": "सुलफा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "57e667e2530f442aa35ec946",
+          "name": "Tetrazine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-57e667e2530f442aa35ec946.jpeg",
+          "secondName": "टेट्राज़िन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3287f4c98efc449ea30fba9f",
+          "name": "Levofloxacin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-3287f4c98efc449ea30fba9f.jpeg",
+          "secondName": "लेवोफ़्लॉक्सासिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b1615afcb5f34650ad1d2937",
+          "name": "Trimethoprim",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b1615afcb5f34650ad1d2937.jpeg",
+          "secondName": "त्रिमेथोप्रिम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "c7754fca9ada4249ade1466b",
+          "name": "Brufen",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-c7754fca9ada4249ade1466b.jpeg",
+          "secondName": "ब्रूफेन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "999e5522cede42ce80b58c52",
+          "name": "Chloroquine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-999e5522cede42ce80b58c52.jpeg",
+          "secondName": "क्लोरोक्विन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "aa59e269eda542c382149bfa",
+          "name": "Phenacetin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-aa59e269eda542c382149bfa.jpeg",
+          "secondName": "फेनासेटिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "582a6f739325414c9486c178",
+          "name": "Ampicillin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-582a6f739325414c9486c178.jpeg",
+          "secondName": "एम्पीसिलीन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "193b58883ccc4a368d5bb15e",
+          "name": "Cephalosporin C",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-193b58883ccc4a368d5bb15e.jpeg",
+          "secondName": "Translation error",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "662c62041b0a4a6daaa165c6",
+          "name": "Aspirin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-662c62041b0a4a6daaa165c6.jpeg",
+          "secondName": "एस्पिरिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "82203b7a0edc464a9bcc61c8",
+          "name": "Erythromycin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-82203b7a0edc464a9bcc61c8.jpeg",
+          "secondName": "इरिथ्रोमाइसिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "320e6b63ad574ab3afe7f9a9",
+          "name": "Pyrozolone",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-320e6b63ad574ab3afe7f9a9.jpeg",
+          "secondName": "पायरोज़ोलोन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "d8d29edae91c450d92a983ce",
+          "name": "Diclofenac",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-d8d29edae91c450d92a983ce.jpeg",
+          "secondName": "डिक्लोफेनाक",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "44dad784a8c5414cb2ecf4b9",
+          "name": "Mefenemic acid",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-44dad784a8c5414cb2ecf4b9.jpeg",
+          "secondName": "मेफेनेमिक एसिड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "d32dc03a34d84bb983811376",
+          "name": "Naproxen",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-d32dc03a34d84bb983811376.jpeg",
+          "secondName": "नेपरोक्सन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "062a0660e24e4db98075cae5",
+          "name": "Etoricoxib",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-062a0660e24e4db98075cae5.jpeg",
+          "secondName": "एटोरिकॉक्सीब",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "417ead7af9714de1a8c685bc",
+          "name": "Prednisone",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-417ead7af9714de1a8c685bc.jpeg",
+          "secondName": "प्रेडनिसोन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "1647245e787b492ca424dd94",
+          "name": "Zenflox OZ",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-1647245e787b492ca424dd94.jpeg",
+          "secondName": "ज़ेनफ्लॉक्स ओजेड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "9ed41eb48c2b4981b26ab353",
+          "name": "Pantoprozone",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-9ed41eb48c2b4981b26ab353.jpeg",
+          "secondName": "पैंटोप्रोज़ोन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "f7a03d0e3d8b40ecb0e96e80",
+          "name": "Doxycyclin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-f7a03d0e3d8b40ecb0e96e80.jpeg",
+          "secondName": "डोक्सीसाइक्लिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "85aa6c3015cd462a962d42a9",
+          "name": "Intagesic MR",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-85aa6c3015cd462a962d42a9.jpeg",
+          "secondName": "इंटैजेसिक एमआर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b5fbfcb920d94a439beb37ba",
+          "name": "Xylocaine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b5fbfcb920d94a439beb37ba.jpeg",
+          "secondName": "जाइलोकेन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "3438af1915f14e0db97ab992",
+          "name": "Ambroxol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-3438af1915f14e0db97ab992.jpeg",
+          "secondName": "Ambroxol",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "0fd4227d238f41b0bf743ec0",
+          "name": "Acetylcystein",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-0fd4227d238f41b0bf743ec0.jpeg",
+          "secondName": "एसिटाइलसिस्टीन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "986edbab4f1e40f389626341",
+          "name": "Gentamycin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-986edbab4f1e40f389626341.jpeg",
+          "secondName": "जेंटामाइसिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "7dc8c05511564150a883de30",
+          "name": "Piroxicam",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-7dc8c05511564150a883de30.jpeg",
+          "secondName": "पिरॉक्सिकैम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "b5457e33595a4c28af419d7d",
+          "name": "Nimuslide",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b5457e33595a4c28af419d7d.jpeg",
+          "secondName": "निमुस्लाइड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "35df4f5f3b3a4773b87244c4",
+          "name": "Ondestron",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-35df4f5f3b3a4773b87244c4.jpeg",
+          "secondName": "ऑनडेस्ट्रॉन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "76048f3ff60843a0a5bb8c81",
+          "name": "Tinidazol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-76048f3ff60843a0a5bb8c81.jpeg",
+          "secondName": "टिनिडाज़ोल",
+          "showSecondName": true
+        }
+      ]
+    }
+  ],
+  "allergy_show_second_name": true,
+  "allergy_second_name_language": "hi",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.522Z",
+  "updatedAt": "2026-08-14T17:59:51.522Z",
+  "testCategory": [],
+  "comment": [],
+  "ageRanges": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

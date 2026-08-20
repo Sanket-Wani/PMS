@@ -1,0 +1,161 @@
+{
+  "_id": "6a86cc7692e2891d948dfcf4",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PERICARDIAL FLUID CULTURE & SENSITIVITY",
+  "code": "2211",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">No Growth</span></td>\n<td><span style=\"font-size: 10px;\">No pathogenic organism isolated; sterile sample (infection unlikely, unless prior antibiotics given).</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Pathogen Identified</span></td>\n<td><span style=\"font-size: 10px;\">Specific bacterial or fungal growth; report organism and susceptibility for targeted therapy.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Contaminant / Commensal</span></td>\n<td><span style=\"font-size: 10px;\">Growth of likely contaminant (e.g., skin flora); interpret cautiously with clinical data.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Appearance of Fluid",
+        "field": "custom",
+        "options": [
+          "Clear ",
+          "Turbid ",
+          "Bloody ",
+          "Purulent"
+        ],
+        "formulaId": "e4f384a5-53a9-41b7-8a67-32ed92e50b94",
+        "flabsCode": "FLP0270"
+      },
+      "_id": "6883ca0035738384e7942a6b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gram Stain",
+        "field": "custom",
+        "options": [
+          "No organisms",
+          "Organism seen"
+        ],
+        "formulaId": "542ae929-f8cc-4a8e-a400-3919a5ca09c8",
+        "flabsCode": "FLP1047"
+      },
+      "_id": "6883ca0035738384e7942a6c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Culture Result",
+        "field": "custom",
+        "options": [
+          "No growth",
+          "Growth of organism"
+        ],
+        "formulaId": "716219dc-7ae7-4c9d-b19a-f84769e240ff",
+        "flabsCode": "FLP0700"
+      },
+      "_id": "6883ca0035738384e7942a6d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Identified Organism",
+        "field": "text",
+        "formulaId": "04170348-0783-4d83-bcfa-beaf245dce63",
+        "flabsCode": "FLP1226"
+      },
+      "_id": "6883ca0035738384e7942a6e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Colony Count",
+        "field": "text",
+        "units": "CFU/mL",
+        "formulaId": "231f8cc0-6400-41a0-b0cd-5d030c2cbbd6",
+        "flabsCode": "FLP2119"
+      },
+      "_id": "6883ca0035738384e7942a6f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Antimicrobial Susceptibility Profile",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Intermediate ",
+          "Resistant "
+        ],
+        "formulaId": "77694f4f-ad34-43ec-9a5a-49e2585cf724",
+        "flabsCode": "FLP0260"
+      },
+      "_id": "6883ca0035738384e7942a70"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c44f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0990",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.018Z",
+  "updatedAt": "2025-07-21T19:17:56.018Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,186 @@
+{
+  "_id": "6a86cbf692e2891d948d216a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TOTAL RED CELL COUNT WITH MCV,MCH,MCHC,RDW",
+  "code": "1590",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Pattern</strong></th>\n<th><strong>Possible Diagnosis</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Low RBC, Low MCV, Low MCH, High RDW</td>\n<td>Iron deficiency anemia</td>\n</tr>\n<tr>\n<td>Low RBC, Low MCV, Normal RDW</td>\n<td>Thalassemia trait</td>\n</tr>\n<tr>\n<td>Low RBC, High MCV, High MCH</td>\n<td>Vitamin B12/Folate deficiency</td>\n</tr>\n<tr>\n<td>Normal RBC indices, High RDW</td>\n<td>Early mixed deficiency or recovery phase of anemia</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Red Blood Cell Count (RBC)",
+        "field": "numeric",
+        "units": "million/cumm",
+        "range": {
+          "default": {
+            "male-range-min": "4.5",
+            "male-range-max": "5.5",
+            "female-range-max": "5.5",
+            "female-range-min": "4.5",
+            "child-range-max": "5.5",
+            "child-range-min": "4.5"
+          }
+        },
+        "formulaId": "a9c77c26-0348-443c-97a0-cd44b1a30ef3",
+        "flabsCode": "FLP1817"
+      },
+      "_id": "687fc4efab7ae7de0ec05105"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mean Corpuscular Volume (MCV)",
+        "field": "numeric",
+        "units": "fL",
+        "range": {
+          "default": {
+            "male-range-min": "81",
+            "male-range-max": "101",
+            "female-range-max": "101",
+            "female-range-min": "81",
+            "child-range-max": "101",
+            "child-range-min": "81"
+          }
+        },
+        "formulaId": "03d4ad50-d010-4951-b9b2-98f71870a45c",
+        "flabsCode": "FLP1443"
+      },
+      "_id": "687fc4efab7ae7de0ec05106"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mean Corpuscular Hemoglobin (MCH)",
+        "field": "numeric",
+        "units": "pg",
+        "range": {
+          "default": {
+            "male-range-min": "27",
+            "male-range-max": "32",
+            "female-range-max": "32",
+            "female-range-min": "27",
+            "child-range-max": "32",
+            "child-range-min": "27"
+          }
+        },
+        "formulaId": "d6b6f637-b872-4f51-8f0d-5dcaad1994fc",
+        "flabsCode": "FLP1441"
+      },
+      "_id": "687fc4efab7ae7de0ec05107"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mean Corpuscular Hemoglobin Concentration (MCHC)",
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "male-range-min": "31.5",
+            "male-range-max": "34.5",
+            "female-range-max": "34.5",
+            "female-range-min": "31.5",
+            "child-range-max": "34.5",
+            "child-range-min": "31.5"
+          }
+        },
+        "formulaId": "ce2546dc-2198-4d8e-9996-5c1ed96753ff",
+        "flabsCode": "FLP1392"
+      },
+      "_id": "687fc4efab7ae7de0ec05108"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Red Cell Distribution Width (RDW) - CV",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "11.6",
+            "male-range-max": "14.0",
+            "female-range-max": "14.0",
+            "female-range-min": "11.6",
+            "child-range-max": "16.0",
+            "child-range-min": "11.6"
+          }
+        },
+        "formulaId": "5a4005c2-4b9c-4e90-9b05-9d3e2ceab1fa",
+        "flabsCode": "FLP1847"
+      },
+      "_id": "687fc4efab7ae7de0ec05109"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2e7",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0565",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.075Z",
+  "updatedAt": "2025-07-21T19:17:54.075Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

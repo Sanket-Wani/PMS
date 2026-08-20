@@ -1,0 +1,235 @@
+{
+  "_id": "6a86ccd95953b1dd0a19b287",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ELECTRO ENCEPHALOGRAPH",
+  "code": "2546",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"2643\" data-end=\"2961\">\n<li data-start=\"2643\" data-end=\"2747\">\n<p data-start=\"2645\" data-end=\"2747\"><span style=\"font-size: 10px;\"><strong data-start=\"2645\" data-end=\"2660\">Normal EEG:</strong> Symmetrical background activity, no epileptiform discharges, appropriate reactivity.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2748\" data-end=\"2860\">\n<p data-start=\"2750\" data-end=\"2860\"><span style=\"font-size: 10px;\"><strong data-start=\"2750\" data-end=\"2767\">Abnormal EEG:</strong> Presence of slowing, focal abnormalities, epileptiform discharges, or abnormal reactivity.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2861\" data-end=\"2961\">\n<p data-start=\"2863\" data-end=\"2961\"><span style=\"font-size: 10px;\"><strong data-start=\"2863\" data-end=\"2897\">Clinical Correlation Required:</strong> EEG findings must be correlated with clinical and imaging data.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Recording Duration",
+        "field": "numeric_unbound",
+        "units": "Minutes",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "20",
+              "op": ">="
+            },
+            "female-range": {
+              "value": "20",
+              "op": ">="
+            },
+            "child-range": {
+              "value": "20",
+              "op": ">="
+            }
+          }
+        },
+        "formulaId": "5783bcbd-7930-4d35-a581-004562ff6a61",
+        "flabsCode": "FLP1844"
+      },
+      "_id": "688532e04c9e1585202d1ee6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Background Rhythm (Alpha Rhythm)",
+        "field": "numeric",
+        "units": "Hz",
+        "range": {
+          "default": {
+            "male-range-min": "8",
+            "male-range-max": "13",
+            "female-range-max": "13",
+            "female-range-min": "8",
+            "child-range-max": "13",
+            "child-range-min": "8"
+          }
+        },
+        "formulaId": "8de1fb43-f26f-4e2f-a78c-ecf3a4c75713"
+      },
+      "_id": "688532e04c9e1585202d1ee7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Beta Activity",
+        "field": "numeric",
+        "units": "Hz",
+        "range": {
+          "default": {
+            "male-range-min": "13",
+            "male-range-max": "30",
+            "female-range-max": "30",
+            "female-range-min": "13",
+            "child-range-max": "30",
+            "child-range-min": "13"
+          }
+        },
+        "formulaId": "b70f1629-2a06-4907-b2f2-4600fa12af23",
+        "flabsCode": "FLP0358"
+      },
+      "_id": "688532e04c9e1585202d1ee8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Theta Activity",
+        "field": "numeric",
+        "units": "Hz",
+        "range": {
+          "default": {
+            "male-range-min": "4",
+            "male-range-max": "7",
+            "female-range-max": "7",
+            "female-range-min": "4",
+            "child-range-max": "7",
+            "child-range-min": "4"
+          }
+        },
+        "formulaId": "002b7ef9-50f8-455a-9918-c7c6e4653ebd",
+        "flabsCode": "FLP2098"
+      },
+      "_id": "688532e04c9e1585202d1ee9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Delta Activity",
+        "field": "numeric",
+        "units": "Hz",
+        "range": {
+          "default": {
+            "male-range-min": "0.5",
+            "male-range-max": "4",
+            "female-range-max": "4",
+            "female-range-min": "0.5",
+            "child-range-max": "4",
+            "child-range-min": "0.5"
+          }
+        },
+        "formulaId": "d7a8b337-55d5-4eda-83a1-45f21d767e5b",
+        "flabsCode": "FLP0749"
+      },
+      "_id": "688532e04c9e1585202d1eea"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Epileptiform Discharges (Spikes/Sharp Waves)",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "ca0ad6f2-1657-4529-9987-1126d17dec30",
+        "flabsCode": "FLP0826"
+      },
+      "_id": "688532e04c9e1585202d1eeb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sleep Activation (Stage II/REM)",
+        "field": "text",
+        "formulaId": "b9532796-aa49-4ab3-a069-d0300ef543f8",
+        "flabsCode": "FLP2010"
+      },
+      "_id": "688532e04c9e1585202d1eec"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Hyperventilation / Photic Response\t",
+        "field": "text",
+        "formulaId": "d0fef621-36fd-40b5-943c-f2f63d73b500",
+        "flabsCode": "FLP1193"
+      },
+      "_id": "688532e04c9e1585202d1eed"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Artefacts (Eye, Muscle, Technical)",
+        "field": "text",
+        "formulaId": "656f6ac8-bb0d-4a1a-a83b-d8e7267d0daf",
+        "flabsCode": "FLP0279"
+      },
+      "_id": "688532e04c9e1585202d1eee"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c571",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1299",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.334Z",
+  "updatedAt": "2025-07-21T19:17:57.334Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

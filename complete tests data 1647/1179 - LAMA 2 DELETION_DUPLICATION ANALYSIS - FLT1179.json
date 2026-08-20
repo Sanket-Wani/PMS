@@ -1,0 +1,126 @@
+{
+  "_id": "6a86ccb392e2891d948ee89c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LAMA 2 DELETION/DUPLICATION ANALYSIS",
+  "code": "2418",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1811\" data-end=\"2371\">\n<li data-start=\"1811\" data-end=\"2018\">\n<p data-start=\"1813\" data-end=\"1852\"><strong data-start=\"1813\" data-end=\"1850\">No Deletion/Duplication Detected:</strong></p>\n<ul data-start=\"1855\" data-end=\"2018\">\n<li data-start=\"1855\" data-end=\"1908\">\n<p data-start=\"1857\" data-end=\"1908\">No large exon-level copy number changes in LAMA2.</p>\n</li>\n<li data-start=\"1911\" data-end=\"2018\">\n<p data-start=\"1913\" data-end=\"2018\">Does not rule out <strong data-start=\"1931\" data-end=\"1966\">point mutations or small indels</strong> (consider full sequencing if clinically indicated).</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2020\" data-end=\"2209\">\n<p data-start=\"2022\" data-end=\"2069\"><strong data-start=\"2022\" data-end=\"2067\">Pathogenic Deletion/Duplication Detected:</strong></p>\n<ul data-start=\"2072\" data-end=\"2209\">\n<li data-start=\"2072\" data-end=\"2154\">\n<p data-start=\"2074\" data-end=\"2154\">Supports diagnosis of <strong data-start=\"2096\" data-end=\"2151\">LAMA2-related Congenital Muscular Dystrophy (MDC1A)</strong>.</p>\n</li>\n<li data-start=\"2157\" data-end=\"2209\">\n<p data-start=\"2159\" data-end=\"2209\">Genetic counseling for family testing recommended.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2211\" data-end=\"2371\">\n<p data-start=\"2213\" data-end=\"2260\"><strong data-start=\"2213\" data-end=\"2258\">Variants of Uncertain Significance (VUS):</strong></p>\n<ul data-start=\"2263\" data-end=\"2371\">\n<li data-start=\"2263\" data-end=\"2371\">\n<p data-start=\"2265\" data-end=\"2371\">Should be correlated with <strong data-start=\"2291\" data-end=\"2370\">clinical findings, CK levels, muscle biopsy (if done), and parental testing</strong>.</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exons Analyzed",
+        "field": "text",
+        "formulaId": "c20a6767-1b1e-45a3-8721-0ba606913388",
+        "flabsCode": "FLP0864"
+      },
+      "_id": "688558834c9e1585202dcaab"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Deletion/Duplication Detected",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Normal: No pathogenic deletion or duplication detected",
+            "female-range": "Normal: No pathogenic deletion or duplication detected",
+            "child-range": "Normal: No pathogenic deletion or duplication detected"
+          }
+        },
+        "formulaId": "9c1700b9-e4bb-4c17-81a3-69d9f18fac8f",
+        "flabsCode": "FLP0748"
+      },
+      "_id": "688558834c9e1585202dcaac"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zygosity",
+        "field": "custom",
+        "options": [
+          "Heterozygous ",
+          "Homozygous"
+        ],
+        "formulaId": "99a224b2-676c-497b-b81d-806547a12f56",
+        "flabsCode": "FLP2306"
+      },
+      "_id": "688558834c9e1585202dcaad"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4fa",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1179",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.778Z",
+  "updatedAt": "2025-07-21T19:17:56.778Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

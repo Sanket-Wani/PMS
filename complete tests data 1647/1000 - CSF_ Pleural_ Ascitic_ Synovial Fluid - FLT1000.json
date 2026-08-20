@@ -1,0 +1,229 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381bd4",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CSF/ Pleural/ Ascitic/ Synovial Fluid",
+  "code": "CSF",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Parameter</div></th><th><div>Normal Range</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Appearance</div></td><td><div>Clear and colorless</div></td><td><div>Turbid (cloudy) appearance indicates inflammation or infection</div></td></tr><tr><td><div>Pressure</div></td><td><div>70-180 mmH2O</div></td><td><div>Elevated pressure may indicate a blockage in the flow of CSF or other conditions</div></td></tr><tr><td><div>Glucose</div></td><td><div>50-80 mg/dL</div></td><td><div>Decreased glucose levels may indicate bacterial or fungal infection</div></td></tr><tr><td><div>Protein</div></td><td><div>&lt;45 mg/dL</div></td><td><div>Elevated protein levels may indicate inflammation, infection, or other conditions</div></td></tr><tr><td><div>Cell count (WBCs)</div></td><td><div>0-5 cells/mm3</div></td><td><div>Elevated white blood cell (WBC) count indicates inflammation or infection</div></td></tr><tr><td><div>Cell count (RBCs)</div></td><td><div>0/mm3</div></td><td><div>Presence of red blood cells (RBCs) may indicate bleeding into the CSF</div></td></tr><tr><td><div>Culture</div></td><td><div>No growth</div></td><td><div>Growth of bacteria or fungi indicates infection</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fc96f02dc1ebb6a097d0",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "data": {
+        "name": "Physical Examination",
+        "categories": [
+          {
+            "field": "text",
+            "name": "Colour"
+          },
+          {
+            "field": "numeric",
+            "name": "Quantity",
+            "units": "ml"
+          },
+          {
+            "field": "text",
+            "name": "Appearance"
+          },
+          {
+            "name": "Coagulum/ Clot",
+            "field": "text"
+          },
+          {
+            "field": "text",
+            "name": "Blood"
+          },
+          {
+            "name": "Pus",
+            "field": "text"
+          }
+        ]
+      },
+      "_id": "64226018152ef77257ee1151",
+      "type": "testDetailsCategory"
+    },
+    {
+      "data": {
+        "name": "Chemical Examination",
+        "categories": [
+          {
+            "name": "Sugar",
+            "units": "mg/dL",
+            "range": {
+              "default": {
+                "female-range-min": "70",
+                "child-range-max": "160",
+                "child-range-min": "70",
+                "male-range-max": "80",
+                "male-range-min": "50",
+                "female-range-max": "160"
+              }
+            },
+            "field": "numeric"
+          },
+          {
+            "field": "numeric",
+            "name": "Protein",
+            "units": "mg/dL",
+            "range": {
+              "default": {
+                "male-range-min": "30",
+                "female-range-max": "90",
+                "female-range-min": "30",
+                "child-range-max": "90",
+                "child-range-min": "30",
+                "male-range-max": "90"
+              }
+            }
+          }
+        ]
+      },
+      "_id": "642264f0152ef77257ee1159",
+      "type": "testDetailsCategory"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopic Examination",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "Total Count",
+            "units": "cells/cumm"
+          }
+        ]
+      },
+      "_id": "642264f0152ef77257ee115a"
+    },
+    {
+      "_id": "642264f0152ef77257ee115b",
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Differential Count",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "Polymorphonuclear cells",
+            "units": "%"
+          },
+          {
+            "field": "numeric",
+            "name": "Lymphocytes",
+            "units": "%"
+          },
+          {
+            "field": "numeric",
+            "name": "Eosinophils",
+            "units": "%"
+          },
+          {
+            "field": "numeric",
+            "name": "Macrophages",
+            "units": "%"
+          },
+          {
+            "field": "numeric",
+            "name": "Mesothelial cells",
+            "units": "%"
+          },
+          {
+            "field": "numeric",
+            "name": "Epithelial cells",
+            "units": "%"
+          },
+          {
+            "units": "%",
+            "field": "numeric",
+            "name": "Atypical cells"
+          },
+          {
+            "units": "%",
+            "field": "numeric",
+            "name": "Malignant cells"
+          },
+          {
+            "field": "numeric",
+            "name": "RBCs",
+            "units": "%"
+          },
+          {
+            "field": "numeric",
+            "name": "Others",
+            "units": "%"
+          }
+        ]
+      }
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64226018152ef77257ee1150",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1000",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.470Z",
+  "updatedAt": "2026-08-14T17:59:51.470Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

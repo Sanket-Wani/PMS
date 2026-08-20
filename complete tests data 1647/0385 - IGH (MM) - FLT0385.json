@@ -1,0 +1,193 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175bd6",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IGH (MM)",
+  "code": "IGHMM",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"414\" data-end=\"687\">\n<li data-start=\"414\" data-end=\"532\">\n<p data-start=\"416\" data-end=\"532\"><strong data-start=\"416\" data-end=\"428\">Purpose:</strong> Detects clonal B-cell populations by analyzing rearrangements in the immunoglobulin heavy chain gene.</p>\n</li>\n<li data-start=\"533\" data-end=\"687\">\n<p data-start=\"535\" data-end=\"687\"><strong data-start=\"535\" data-end=\"552\">Clinical Use:</strong> Helps diagnose <strong data-start=\"568\" data-end=\"600\">B-cell lymphomas / leukemias</strong> and distinguish between reactive (polyclonal) and malignant (clonal) proliferations.</p>\n</li>\n</ul>\n<div class=\"_tableContainer_sk2ct_1\">\n<div class=\"_tableWrapper_sk2ct_13 group flex w-fit flex-col-reverse\" tabindex=\"-1\">\n<table class=\"w-fit min-w-(--thread-content-width)\" data-start=\"689\" data-end=\"1191\">\n<thead data-start=\"689\" data-end=\"716\">\n<tr data-start=\"689\" data-end=\"716\">\n<th data-start=\"689\" data-end=\"698\" data-col-size=\"md\">Result</th>\n<th data-start=\"698\" data-end=\"716\" data-col-size=\"lg\">Interpretation</th>\n</tr>\n</thead>\n<tbody data-start=\"745\" data-end=\"1191\">\n<tr data-start=\"745\" data-end=\"859\">\n<td data-start=\"745\" data-end=\"795\" data-col-size=\"md\"><strong data-start=\"747\" data-end=\"794\">Polyclonal pattern (negative for clonality)</strong></td>\n<td data-col-size=\"lg\" data-start=\"795\" data-end=\"859\">Suggests a reactive process (e.g., infection, inflammation).</td>\n</tr>\n<tr data-start=\"860\" data-end=\"1060\">\n<td data-start=\"860\" data-end=\"911\" data-col-size=\"md\"><strong data-start=\"862\" data-end=\"910\">Monoclonal rearrangement detected (positive)</strong></td>\n<td data-col-size=\"lg\" data-start=\"911\" data-end=\"1060\">Supports diagnosis of a clonal B-cell malignancy (e.g., non-Hodgkin lymphoma, CLL). Must be correlated with histopathology and immunophenotyping.</td>\n</tr>\n<tr data-start=\"1061\" data-end=\"1191\">\n<td data-start=\"1061\" data-end=\"1093\" data-col-size=\"md\"><strong data-start=\"1063\" data-end=\"1092\">Indeterminate / Equivocal</strong></td>\n<td data-col-size=\"lg\" data-start=\"1093\" data-end=\"1191\">Test inconclusive, may require repeat analysis or additional studies (flow cytometry, biopsy).</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>\n<p>&nbsp;</p>",
+  "showInterpretation": true,
+  "sampleType": "blood",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mutation Status",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Mutated",
+          "Unmutated"
+        ],
+        "defaultOption": "Unmutated",
+        "rangeReport": "",
+        "formulaId": "f4d8a4eb-e4b6-40da-a83f-8e57d7f1f417",
+        "flabsCode": "FLP0585"
+      },
+      "_id": "68a8b12d44053e7482c4174d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IGHV Mutation Percentage",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-max": "100",
+            "male-range-min": "0",
+            "female-range-max": "100",
+            "female-range-min": "0",
+            "child-range-max": "100",
+            "child-range-min": "0"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0-100",
+        "formulaId": "bbbbe025-0997-49ef-a872-11dd5b5bf40b"
+      },
+      "_id": "68a8b12d44053e7482c4174e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IGHV Gene Usage",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "IGHV1-2",
+          "IGHV3-23",
+          "Other"
+        ],
+        "defaultOption": "Other",
+        "rangeReport": "",
+        "formulaId": "0624fd52-6f7c-4e3c-84b7-b9f75bb40924",
+        "flabsCode": "FLP1200"
+      },
+      "_id": "68a8b12d44053e7482c4174f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clonality",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Clonal",
+          "Polyclonal"
+        ],
+        "defaultOption": "Polyclonal",
+        "rangeReport": "",
+        "formulaId": "266560c0-e70c-4da0-aeda-1bc464bd9791",
+        "flabsCode": "FLP1200"
+      },
+      "_id": "68a8b12d44053e7482c41750"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Parcentage of Clonal Cells",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-max": "100",
+            "male-range-min": "0",
+            "female-range-max": "100",
+            "female-range-min": "0",
+            "child-range-max": "100",
+            "child-range-min": "0"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0-100",
+        "formulaId": "3bd14414-8d1a-4f3a-abbb-f2c7c1c0dd97",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "68a8b12d44053e7482c41751"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a8b12d44053e7482c4174c",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FFFF00",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT0385",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-22T18:04:29.582Z",
+  "updatedAt": "2025-08-22T18:04:29.582Z",
+  "__v": 0
+}

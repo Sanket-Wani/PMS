@@ -1,0 +1,141 @@
+{
+  "_id": "6a86cd1f5953b1dd0a1a64e1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "KAPPA & LAMBDA FREE - FREELITE",
+  "code": "2793",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free Kappa (Light Chain)",
+        "field": "numeric",
+        "test_method": " immunoturbidimetry",
+        "units": "mg/L",
+        "range": {
+          "default": {
+            "male-range-min": "4.78",
+            "male-range-max": "18.22",
+            "female-range-max": "18.22",
+            "female-range-min": "4.78",
+            "child-range-max": "18.22",
+            "child-range-min": "4.78"
+          }
+        },
+        "flabsCode": "FLP0962"
+      },
+      "_id": "67b8682268c798e68b21aa59"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free Lambda (Light Chain)",
+        "field": "numeric",
+        "test_method": "immunoturbidimetry",
+        "units": "mg/L",
+        "range": {
+          "default": {
+            "male-range-min": "3.71",
+            "male-range-max": "31.07",
+            "female-range-max": "31.07",
+            "female-range-min": "3.71",
+            "child-range-max": "31.07",
+            "child-range-min": "3.71"
+          }
+        },
+        "flabsCode": "FLP0965"
+      },
+      "_id": "67b8682268c798e68b21aa5a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free Kappa/Lambda Ratio",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "0.24",
+            "male-range-max": "1.73",
+            "female-range-max": "1.73",
+            "female-range-min": "0.24",
+            "child-range-max": "1.73",
+            "child-range-min": "0.24"
+          }
+        },
+        "flabsCode": "FLP0964"
+      },
+      "_id": "67b8682268c798e68b21aa5b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c648",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1551",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.178Z",
+  "updatedAt": "2025-07-21T19:17:58.178Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

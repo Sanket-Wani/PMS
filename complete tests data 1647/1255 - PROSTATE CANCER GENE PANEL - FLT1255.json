@@ -1,0 +1,197 @@
+{
+  "_id": "6a86ccccba46c74c6d459bc5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PROSTATE CANCER GENE PANEL",
+  "code": "2497",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1071\" data-end=\"1321\">\n<li data-start=\"1071\" data-end=\"1238\">\n<p data-start=\"1073\" data-end=\"1238\"><span style=\"font-size: 9px;\"><strong data-start=\"1073\" data-end=\"1117\">Pathogenic or likely pathogenic variants</strong> in genes such as <strong data-start=\"1135\" data-end=\"1174\">BRCA1, BRCA2, ATM, CHEK2, or HOXB13</strong> may indicate <strong data-start=\"1188\" data-end=\"1217\">increased hereditary risk</strong> for prostate cancer.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1239\" data-end=\"1321\">\n<p data-start=\"1241\" data-end=\"1321\"><span style=\"font-size: 9px;\">Helps guide <strong data-start=\"1253\" data-end=\"1278\">therapeutic decisions</strong>, including <strong data-start=\"1290\" data-end=\"1320\">PARP inhibitor eligibility</strong>.</span></p>\n</li>\n</ul>\n<h3 data-start=\"1328\" data-end=\"1356\"><span style=\"font-size: 9px;\"><strong data-start=\"1335\" data-end=\"1356\">Clinical Utility:</strong></span></h3>\n<ul data-start=\"1358\" data-end=\"1627\">\n<li style=\"font-size: 9px;\" data-start=\"1358\" data-end=\"1415\">\n<p data-start=\"1360\" data-end=\"1415\"><span style=\"font-size: 9px;\">Assesses <strong data-start=\"1369\" data-end=\"1395\">genetic predisposition</strong> to prostate cancer.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1416\" data-end=\"1574\">\n<p data-start=\"1418\" data-end=\"1440\"><span style=\"font-size: 9px;\">Important in cases of:</span></p>\n<ul data-start=\"1443\" data-end=\"1574\">\n<li style=\"font-size: 9px;\" data-start=\"1443\" data-end=\"1472\">\n<p data-start=\"1445\" data-end=\"1472\"><span style=\"font-size: 9px;\">Early onset prostate cancer</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1475\" data-end=\"1537\">\n<p data-start=\"1477\" data-end=\"1537\"><span style=\"font-size: 9px;\">Strong family history of prostate, breast, or ovarian cancer</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1540\" data-end=\"1574\">\n<p data-start=\"1542\" data-end=\"1574\"><span style=\"font-size: 9px;\">Aggressive or metastatic disease</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1575\" data-end=\"1627\">\n<p data-start=\"1577\" data-end=\"1627\"><span style=\"font-size: 9px;\">Aids in family counseling and <strong data-start=\"1607\" data-end=\"1626\">cascade testing</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BRCA1 Mutation\t",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "No Pathogenic Mutation",
+            "female-range": "No Pathogenic Mutation",
+            "child-range": "No Pathogenic Mutation"
+          }
+        },
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "42fad87f-063e-4697-ae48-c8095b47ecd6",
+        "flabsCode": "FLP0331"
+      },
+      "_id": "688526950a49ec9180828c4a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BRCA2 Mutation\t",
+        "field": "custom",
+        "rangeReport": "No Pathogenic Mutation",
+        "range": {
+          "default": {
+            "male-range": "No Pathogenic Mutation",
+            "female-range": "No Pathogenic Mutation",
+            "child-range": "No Pathogenic Mutation"
+          }
+        },
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "ee76ad92-3dac-4639-9408-43bb5d0bc2d4",
+        "flabsCode": "FLP0334"
+      },
+      "_id": "688526950a49ec9180828c4b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ATM Mutation\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "No Pathogenic Mutation",
+            "female-range": "No Pathogenic Mutation",
+            "child-range": "No Pathogenic Mutation"
+          }
+        },
+        "formulaId": "7edff24d-3446-4495-8d90-c1e340433c0c",
+        "flabsCode": "FLP0140"
+      },
+      "_id": "688526950a49ec9180828c4c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CHEK2 Mutation\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "No Pathogenic Mutation",
+            "female-range": "No Pathogenic Mutation",
+            "child-range": "No Pathogenic Mutation"
+          }
+        },
+        "formulaId": "a116853d-7c3b-41a5-88ed-bf6bf4409665",
+        "flabsCode": "FLP0458"
+      },
+      "_id": "688526950a49ec9180828c4d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HOXB13 Mutation\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "No Pathogenic Mutation",
+            "female-range": "No Pathogenic Mutation",
+            "child-range": "No Pathogenic Mutation"
+          }
+        },
+        "formulaId": "b83e1ab7-237e-465c-90e2-603ed79a48b4",
+        "flabsCode": "FLP1134"
+      },
+      "_id": "688526950a49ec9180828c4e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Additional Genes (as per panel)\t",
+        "field": "numeric",
+        "formulaId": "122dc8fe-e659-43fc-bb26-1abc12aec939",
+        "flabsCode": "FLP0154"
+      },
+      "_id": "688526950a49ec9180828c4f"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c545",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1255",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.131Z",
+  "updatedAt": "2025-07-21T19:17:57.131Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

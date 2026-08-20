@@ -1,0 +1,133 @@
+{
+  "_id": "6a86cb87ba46c74c6d43107f",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CALCIUM CREATNINE RATIO URINE",
+  "code": "1226",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Calcium Total",
+        "field": "numeric",
+        "units": "mg/dl",
+        "test_method": "jaffe, alkaline picrate, kinetic with blank rate correction",
+        "flabsCode": "FLP0538"
+      },
+      "_id": "679b39a8f6dcbdbf631557ac"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Creatinine",
+        "field": "numeric",
+        "test_method": "jaffe, alkaline picrate, kinetic with blank rate correction",
+        "range": {
+          "default": {
+            "male-range-min": "0.55",
+            "male-range-max": "1.2",
+            "female-range-max": "1.2",
+            "female-range-min": "0.55",
+            "child-range-max": "1.2",
+            "child-range-min": "0.55"
+          }
+        },
+        "units": "mg/dl",
+        "flabsCode": "FLP0688"
+      },
+      "_id": "679b39a8f6dcbdbf631557ad"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Calcium/Creatinine -Ratio",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "12",
+            "male-range-max": "244",
+            "female-range-max": "244",
+            "female-range-min": "12",
+            "child-range-max": "244",
+            "child-range-min": "12"
+          }
+        },
+        "units": "mg/g",
+        "test_method": "jaffe, alkaline picrate, kinetic with blank rate correction",
+        "flabsCode": "FLP0540"
+      },
+      "_id": "679b39a8f6dcbdbf631557ae"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1ed",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0260",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.978Z",
+  "updatedAt": "2025-07-21T19:17:52.978Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

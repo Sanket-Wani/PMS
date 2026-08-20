@@ -1,0 +1,143 @@
+{
+  "_id": "6a86cc7692e2891d948dfc87",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NTM CULTURE - NON TUBERCULOUS MYCOBACTERIUM (NTM)",
+  "code": "2188",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"990\" data-end=\"1367\">\n<li data-start=\"990\" data-end=\"1118\">\n<p data-start=\"992\" data-end=\"1118\"><span style=\"font-size: 8px;\"><strong data-start=\"992\" data-end=\"1030\">Non-Tuberculous Mycobacteria (NTM)</strong> are a group of mycobacterial species <em data-start=\"1068\" data-end=\"1080\">other than</em> <em data-start=\"1081\" data-end=\"1109\">Mycobacterium tuberculosis</em> complex.</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1119\" data-end=\"1262\">\n<p data-start=\"1121\" data-end=\"1262\"><span style=\"font-size: 8px;\">Isolation may indicate <strong data-start=\"1144\" data-end=\"1170\">chronic lung infection</strong>, <strong data-start=\"1172\" data-end=\"1202\">skin/soft tissue infection</strong>, or <strong data-start=\"1207\" data-end=\"1231\">disseminated disease</strong> in immunocompromised patients.</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1263\" data-end=\"1367\">\n<p data-start=\"1265\" data-end=\"1298\"><span style=\"font-size: 8px;\">Clinical significance depends on:</span></p>\n<ul data-start=\"1301\" data-end=\"1367\">\n<li style=\"font-size: 8px;\" data-start=\"1301\" data-end=\"1311\">\n<p data-start=\"1303\" data-end=\"1311\"><span style=\"font-size: 8px;\">Symptoms</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1314\" data-end=\"1337\">\n<p data-start=\"1316\" data-end=\"1337\"><span style=\"font-size: 8px;\">Radiological findings</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1340\" data-end=\"1367\">\n<p data-start=\"1342\" data-end=\"1367\"><span style=\"font-size: 8px;\">Repeat culture positivity</span></p>\n</li>\n</ul>\n</li>\n</ul>\n<p data-start=\"1369\" data-end=\"1393\"><span style=\"font-size: 8px;\">Common species isolated:</span></p>\n<ul data-start=\"1394\" data-end=\"1502\">\n<li style=\"font-size: 8px;\" data-start=\"1394\" data-end=\"1446\">\n<p data-start=\"1396\" data-end=\"1446\"><span style=\"font-size: 8px;\"><em data-start=\"1396\" data-end=\"1446\">Mycobacterium avium-intracellulare complex (MAC)</em></span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1447\" data-end=\"1474\">\n<p data-start=\"1449\" data-end=\"1474\"><span style=\"font-size: 8px;\"><em data-start=\"1449\" data-end=\"1474\">Mycobacterium abscessus</em></span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1475\" data-end=\"1502\">\n<p data-start=\"1477\" data-end=\"1502\"><span style=\"font-size: 8px;\"><em data-start=\"1477\" data-end=\"1502\">Mycobacterium fortuitum</em></span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "sputum",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "NTM Culture Result",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "No growth after 8 weeks",
+            "female-range": "No growth after 8 weeks",
+            "child-range": "No growth after 8 weeks"
+          }
+        },
+        "formulaId": "f3d6f5b1-0846-474c-8e8a-97443842257e",
+        "flabsCode": "FLP0079"
+      },
+      "_id": "688511fb0a49ec91807fb68f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gram Stain/ZN Stain",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "1bbcf08c-0a99-40c4-aab5-9820d8c21850",
+        "flabsCode": "FLP1048"
+      },
+      "_id": "688511fb0a49ec91807fb690"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Time to Positivity\t",
+        "field": "text",
+        "units": "Days",
+        "formulaId": "b8da2ed7-0e18-4f9e-a26a-4f78e6988dc1",
+        "flabsCode": "FLP2108"
+      },
+      "_id": "688511fb0a49ec91807fb691"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Species Identification\t",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Not detected",
+            "female-range": "Not detected",
+            "child-range": "Not detected"
+          }
+        },
+        "formulaId": "b689e9c2-a6c1-430e-9b40-5f185e75487f",
+        "flabsCode": "FLP2019"
+      },
+      "_id": "688511fb0a49ec91807fb692"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c43e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0972",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.954Z",
+  "updatedAt": "2025-07-21T19:17:55.954Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

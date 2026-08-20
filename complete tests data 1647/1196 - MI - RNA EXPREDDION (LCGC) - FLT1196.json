@@ -1,0 +1,165 @@
+{
+  "_id": "6a86ccbf5953b1dd0a199082",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MI - RNA EXPREDDION (LCGC)",
+  "code": "2435",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1993\" data-end=\"2224\">\n<p data-start=\"1995\" data-end=\"2054\"><strong data-start=\"1995\" data-end=\"2052\">Upregulated Oncogenic miRNAs (e.g., miR-21, miR-155):</strong></p>\n<ul data-start=\"2057\" data-end=\"2224\">\n<li data-start=\"2057\" data-end=\"2129\">\n<p data-start=\"2059\" data-end=\"2129\">May indicate <strong data-start=\"2072\" data-end=\"2126\">tumor progression, inflammation, or active disease</strong>.</p>\n</li>\n<li data-start=\"2132\" data-end=\"2224\">\n<p data-start=\"2134\" data-end=\"2224\">Used as <strong data-start=\"2142\" data-end=\"2179\">prognostic and diagnostic markers</strong> in various cancers (lung, GI, breast, etc.).</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2226\" data-end=\"2388\">\n<p data-start=\"2228\" data-end=\"2304\"><strong data-start=\"2228\" data-end=\"2302\">Downregulated Tumor Suppressor miRNAs (e.g., miR-34a, miR-200 family):</strong></p>\n<ul data-start=\"2307\" data-end=\"2388\">\n<li data-start=\"2307\" data-end=\"2388\">\n<p data-start=\"2309\" data-end=\"2388\">Suggests <strong data-start=\"2318\" data-end=\"2348\">loss of regulatory control</strong>; can correlate with <strong data-start=\"2369\" data-end=\"2387\">poor prognosis</strong>.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2390\" data-end=\"2545\">\n<p data-start=\"2392\" data-end=\"2411\"><strong data-start=\"2392\" data-end=\"2409\">Clinical Use:</strong></p>\n<ul data-start=\"2414\" data-end=\"2545\">\n<li data-start=\"2414\" data-end=\"2545\">\n<p data-start=\"2416\" data-end=\"2545\">To aid in <strong data-start=\"2426\" data-end=\"2481\">diagnosis, prognosis, treatment response monitoring</strong> (must be interpreted with clinical and pathological context).</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total miRNA Yield",
+        "field": "numeric_unbound",
+        "units": "ng/µL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "2"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "2"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "2"
+            }
+          }
+        },
+        "formulaId": "56a4e8c7-40d6-44ef-9e4c-adcd7e4fa319",
+        "flabsCode": "FLP2147"
+      },
+      "_id": "6885544a4c9e1585202dc6c4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of miRNAs Analyzed",
+        "field": "numeric",
+        "units": "Count",
+        "range": {
+          "default": {
+            "male-range-min": "10",
+            "male-range-max": "500",
+            "female-range-max": "500",
+            "female-range-min": "10",
+            "child-range-max": "500",
+            "child-range-min": "10"
+          }
+        },
+        "formulaId": "402c2a35-377d-45aa-88f2-92f42a5857eb",
+        "flabsCode": "FLP1581"
+      },
+      "_id": "6885544a4c9e1585202dc6c5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Differentially Expressed miRNAs",
+        "field": "text",
+        "units": "Fold Change",
+        "range": {
+          "default": {
+            "male-range": "Significant if ≥2-fold up/down-regulation (p<0.05)",
+            "female-range": "Significant if ≥2-fold up/down-regulation (p<0.05)",
+            "child-range": "Significant if ≥2-fold up/down-regulation (p<0.05)"
+          }
+        },
+        "formulaId": "4c940292-85c0-4885-bd66-8a781c2ac82a",
+        "flabsCode": "FLP0762"
+      },
+      "_id": "6885544a4c9e1585202dc6c6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Key Biomarkers Identified",
+        "field": "text",
+        "rangeReport": "",
+        "range": {
+          "default": {
+            "male-range": "e.g., miR-21, miR-155 (oncogenic); miR-34a, miR-200 (tumor suppressive)",
+            "female-range": "e.g., miR-21, miR-155 (oncogenic); miR-34a, miR-200 (tumor suppressive)",
+            "child-range": "e.g., miR-21, miR-155 (oncogenic); miR-34a, miR-200 (tumor suppressive)"
+          }
+        },
+        "formulaId": "7779c9de-cec3-4121-a74e-59d11d7d432d",
+        "flabsCode": "FLP1306"
+      },
+      "_id": "6885544a4c9e1585202dc6c7"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c50b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1196",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.861Z",
+  "updatedAt": "2025-07-21T19:17:56.861Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

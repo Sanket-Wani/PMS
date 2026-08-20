@@ -1,0 +1,144 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b59d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "24HR URINARY COPPER BY ICPMS",
+  "code": "1065",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1096\" data-end=\"1169\">\n<p data-start=\"1098\" data-end=\"1128\"><span style=\"font-size: 10px;\"><strong data-start=\"1098\" data-end=\"1126\">Normal Copper Excretion:</strong></span></p>\n<ul data-start=\"1131\" data-end=\"1169\">\n<li style=\"font-size: 10px;\" data-start=\"1131\" data-end=\"1169\">\n<p data-start=\"1133\" data-end=\"1169\"><span style=\"font-size: 10px;\">15 &ndash; 60 &micro;g/24 hrs in healthy adults.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1171\" data-end=\"1420\">\n<p data-start=\"1173\" data-end=\"1212\"><span style=\"font-size: 10px;\"><strong data-start=\"1173\" data-end=\"1210\">Elevated Levels (&gt;100 &micro;g/24 hrs):</strong></span></p>\n<ul data-start=\"1215\" data-end=\"1420\">\n<li style=\"font-size: 10px;\" data-start=\"1215\" data-end=\"1320\">\n<p data-start=\"1217\" data-end=\"1320\"><span style=\"font-size: 10px;\">May indicate <strong data-start=\"1230\" data-end=\"1317\">Wilson&rsquo;s disease, cholestatic liver disease, copper toxicity, or excessive exposure</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1323\" data-end=\"1420\">\n<p data-start=\"1325\" data-end=\"1420\"><span style=\"font-size: 10px;\">Should be correlated with <strong data-start=\"1351\" data-end=\"1419\">serum ceruloplasmin, liver function tests, and clinical findings</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1422\" data-end=\"1528\">\n<p data-start=\"1424\" data-end=\"1441\"><span style=\"font-size: 10px;\"><strong data-start=\"1424\" data-end=\"1439\">Low Levels:</strong></span></p>\n<ul data-start=\"1444\" data-end=\"1528\">\n<li style=\"font-size: 10px;\" data-start=\"1444\" data-end=\"1528\">\n<p data-start=\"1446\" data-end=\"1528\"><span style=\"font-size: 10px;\">May be seen in <strong data-start=\"1461\" data-end=\"1527\">malnutrition, malabsorption, or excessive zinc supplementation</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1530\" data-end=\"1632\">\n<p data-start=\"1532\" data-end=\"1560\"><span style=\"font-size: 10px;\"><strong data-start=\"1532\" data-end=\"1558\">Creatinine Correction:</strong></span></p>\n<ul data-start=\"1563\" data-end=\"1632\">\n<li style=\"font-size: 10px;\" data-start=\"1563\" data-end=\"1632\">\n<p data-start=\"1565\" data-end=\"1632\"><span style=\"font-size: 10px;\">Ensures proper 24-hour urine collection and helps validate results.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Copper (Cu) – 24 Hour Urine",
+        "field": "numeric",
+        "units": "µg/24 hrs",
+        "range": {
+          "default": {
+            "male-range-min": "15",
+            "male-range-max": "60",
+            "female-range-max": "60",
+            "female-range-min": "15",
+            "child-range-max": "60",
+            "child-range-min": "15"
+          }
+        },
+        "formulaId": "cce04761-0839-4d50-9696-f4a16aec919b",
+        "flabsCode": "FLP0664"
+      },
+      "_id": "688555674c9e1585202dc7ec"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine Volume Collected",
+        "field": "numeric",
+        "units": "mL",
+        "range": {
+          "default": {
+            "male-range-min": "800",
+            "male-range-max": "2000",
+            "female-range-max": "2000",
+            "female-range-min": "800",
+            "child-range-max": "2000",
+            "child-range-min": "800"
+          }
+        },
+        "formulaId": "06326340-4840-4e3f-add4-74a04e1415a3",
+        "flabsCode": "FLP2223"
+      },
+      "_id": "688555674c9e1585202dc7ed"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urinary Creatinine (for QC)\t",
+        "field": "numeric",
+        "units": "g/24 hrs",
+        "range": {
+          "default": {
+            "male-range-min": " 0.8",
+            "male-range-max": "2.0",
+            "female-range-max": "1.8",
+            "female-range-min": " 0.6",
+            "child-range-max": "2.0",
+            "child-range-min": " 0.8"
+          }
+        },
+        "formulaId": "8d8bb5d6-b2cd-47ac-9274-71feb07d53c2",
+        "flabsCode": "FLP2207"
+      },
+      "_id": "688555674c9e1585202dc7ee"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c160",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0076",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.324Z",
+  "updatedAt": "2025-07-21T19:17:52.324Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

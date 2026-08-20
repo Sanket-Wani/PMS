@@ -1,0 +1,185 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c2c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PAP SMEAR (GYNEC CYTOLOGY)",
+  "code": "GYNEC",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>General Categorization</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Negative for intraepithelial lesion or malignancy</div></td><td><div>No abnormal cells were detected. This is a normal result.</div></td></tr><tr><td><div>Epithelial cell abnormality</div></td><td><div>Abnormal cells were detected. This may indicate a precancerous or cancerous condition, or it may be due to other factors such as infection.</div></td></tr><tr><td><div>- Atypical Squamous Cells of Undetermined Significance</div></td><td><div>Abnormal cells were detected, but it is unclear if they are precancerous. Further testing may be necessary.</div></td></tr><tr><td><div>- Low-Grade Squamous Intraepithelial Lesion (LSIL)</div></td><td><div>Mild changes were detected in the cells. This may indicate a precancerous condition. Further testing and/or monitoring may be necessary.</div></td></tr><tr><td><div>- High-Grade Squamous Intraepithelial Lesion (HSIL)</div></td><td><div>Significant changes were detected in the cells. This may indicate a precancerous or cancerous condition. Further testing and/or treatment is necessary.</div></td></tr><tr><td><div>- Squamous Cell Carcinoma</div></td><td><div>Cancerous cells were detected. Treatment is necessary.</div></td></tr><tr><td><div>- Atypical Glandular Cells</div></td><td><div>Abnormal cells were detected in the glandular cells of the cervix. Further testing and/or treatment is necessary.</div></td></tr><tr><td><div>Unsatisfactory</div></td><td><div>The sample collected was inadequate for evaluation, and the test will need to be repeated.</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "department": "6414fc0ef02dc1ebb6a097a7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Smears from (Sample Source)",
+        "field": "text"
+      },
+      "_id": "645b72ba3b41076dd2aceb89"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specimen Adequacy",
+        "field": "custom",
+        "options": [
+          "Adequate for evaluation",
+          "Inadequate"
+        ],
+        "defaultOption": "Adequate for evaluation"
+      },
+      "_id": "645b72ba3b41076dd2aceb8a"
+    },
+    {
+      "data": {
+        "options": [
+          "Negative for intraepithelial lesion or malignancy",
+          "Epithelial cell abnormality",
+          "Atypical Squamous Cells of Undetermined Significance",
+          "Low-Grade Squamous Intraepithelial Lesion (LSIL)",
+          "High-Grade Squamous Intraepithelial Lesion (HSIL)",
+          "Squamous Cell Carcinoma",
+          "Atypical Glandular Cells",
+          "Unsatisfactory"
+        ],
+        "name": "General Categorization",
+        "field": "custom"
+      },
+      "_id": "645b72ba3b41076dd2aceb8b",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Result",
+        "field": "text"
+      },
+      "_id": "645b72ba3b41076dd2aceb8c"
+    },
+    {
+      "data": {
+        "name": "Squamous Cells",
+        "field": "custom",
+        "options": [
+          "absent",
+          "present"
+        ]
+      },
+      "_id": "645b72ba3b41076dd2aceb8d",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Endocervical Cells",
+        "field": "custom",
+        "options": [
+          "absent",
+          "present"
+        ]
+      },
+      "_id": "645b72ba3b41076dd2aceb8e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Other Cell Types",
+        "field": "custom",
+        "options": [
+          "absent",
+          "present"
+        ]
+      },
+      "_id": "645b72ba3b41076dd2aceb8f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "custom",
+        "options": [
+          "absent",
+          "present"
+        ],
+        "name": "Microorganisms"
+      },
+      "_id": "645b72ba3b41076dd2aceb90"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "text",
+        "name": "Microorganisms detected"
+      },
+      "_id": "645b72ba3b41076dd2aceb91"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "645b72ba3b41076dd2aceb88",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0432",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.634Z",
+  "updatedAt": "2026-08-14T17:59:51.634Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

@@ -1,0 +1,194 @@
+{
+  "_id": "6a86cbae5953b1dd0a16fb14",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "STOOL BY CONCENTRATION METHOD",
+  "code": "1362",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2072\" data-end=\"2191\">\n<p data-start=\"2074\" data-end=\"2191\">Positive: Parasitic elements detected &ndash; suggestive of parasitic infection. Treatment advised based on findings.</p>\n</li>\n<li data-start=\"2192\" data-end=\"2314\">\n<p data-start=\"2194\" data-end=\"2314\">Negative: No ova, cysts, or larvae found &ndash; does not rule out infection; may require repeat sample or alternate test.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "stool",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Consistency of Sample",
+        "field": "custom",
+        "options": [
+          "Formed",
+          "Semi- Formed",
+          "Watery"
+        ],
+        "formulaId": "92828217-13d3-47f4-9f26-c92ab76a807b"
+      },
+      "_id": "6883b56c854b0c2c69b5f192"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Color",
+        "field": "custom",
+        "options": [
+          "Yellow",
+          "Greenish",
+          "Brown"
+        ],
+        "formulaId": "3522050f-3c36-4644-95d9-af2ddb604edb",
+        "flabsCode": "FLP0516"
+      },
+      "_id": "6883b56c854b0c2c69b5f193"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mucus",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "958ebda9-bea1-4158-9993-3692293fa47e",
+        "flabsCode": "FLP1503"
+      },
+      "_id": "6883b56c854b0c2c69b5f194"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Blood",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "9a890146-d060-4a48-a475-480283352b0a",
+        "flabsCode": "FLP0380"
+      },
+      "_id": "6883b56c854b0c2c69b5f195"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ova (Helminths)",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "5c20fe4c-3d2a-4361-824b-4f6f483e7eab",
+        "flabsCode": "FLP1601"
+      },
+      "_id": "6883b56c854b0c2c69b5f196"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cysts (Protozoa)",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "19be44c0-c1a3-4f1d-98cd-a7c08f8c34f9",
+        "flabsCode": "FLP0710"
+      },
+      "_id": "6883b56c854b0c2c69b5f197"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Trophozoites (Protozoa)",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "8d3431cd-8684-471f-a7ad-aac05d1e4c48",
+        "flabsCode": "FLP2169"
+      },
+      "_id": "6883b56c854b0c2c69b5f198"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Larvae",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "8b19e1d3-83e3-4e5d-8484-ae7c8145ad3d",
+        "flabsCode": "FLP1339"
+      },
+      "_id": "6883b56c854b0c2c69b5f199"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c212",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0315",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.149Z",
+  "updatedAt": "2025-07-21T19:17:53.149Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

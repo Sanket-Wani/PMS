@@ -1,0 +1,279 @@
+{
+  "_id": "6a86cb445953b1dd0a155c63",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AMINO ACID QUALITATIVE SCREEN (URINE)",
+  "code": "1026",
+  "cost": 0,
+  "interpretation": "<p>Amino Acids are basic structural units that comprise proteins and are found throughout the body. Amino acid disorders are caused by impaired metabolism or transport of proteins and acids which results in accumulation or deficiency of one or more amino acids in biological fluids. Inborn errors of amino acid metabolism usually manifest in infancy &amp; childhood. Affected patients may have failure to thrive, neurological symptoms, digestive broblems, locomotor retardation, developmental delays &amp; mental retardation. As essential amino acids are obtained through an individuals diet, treatment for amino acid disorders involves very specific dietary modifications which have to be very closely monitored by periodic amino acid analysi.</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "AMINO ACID QUALITATIVE SCREEN (URINE)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Alanine ",
+            "formulaId": "0ac3e598-6026-4679-bf5a-8bb5d418b635",
+            "flabsCode": "FLP0167"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Arginine ",
+            "formulaId": "fe153f71-2fac-462e-9e8e-6396437f724a",
+            "flabsCode": "FLP0272"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Asparagine",
+            "formulaId": "f92e16a4-fa82-4481-9e41-99091372d8c0",
+            "flabsCode": "FLP0282"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Aspartic Acid",
+            "formulaId": "f51f6303-693b-4d23-b23f-7f48a2d68c14",
+            "flabsCode": "FLP0283"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Beta Aminoisobutyric acid",
+            "formulaId": "6e24c739-59a0-4586-969d-e7cd360038f7",
+            "flabsCode": "FLP0359"
+          },
+          {
+            "key": 5,
+            "field": "text",
+            "name": "Citrulline",
+            "formulaId": "6181b0a2-24f1-4c97-8754-659794de8c22",
+            "flabsCode": "FLP0607"
+          },
+          {
+            "key": 6,
+            "field": "text",
+            "name": "Cystine",
+            "formulaId": "9ea7e047-af8b-4862-97f0-7a65be64425b",
+            "flabsCode": "FLP0708"
+          },
+          {
+            "key": 7,
+            "field": "text",
+            "name": "Ethanolamine",
+            "formulaId": "0df4627a-892f-4018-8254-5a850f5e2bbb",
+            "flabsCode": "FLP0841"
+          },
+          {
+            "key": 8,
+            "field": "text",
+            "name": "Glutamic Acid ",
+            "formulaId": "7c208e0b-8915-4325-a5ff-8494a5ab4f46",
+            "flabsCode": "FLP1035"
+          },
+          {
+            "key": 9,
+            "field": "text",
+            "name": "Glutamine",
+            "formulaId": "f5a369fa-c830-4371-814e-db541dff943e",
+            "flabsCode": "FLP1036"
+          },
+          {
+            "key": 10,
+            "field": "text",
+            "name": "Glycine",
+            "formulaId": "b1557a15-0aaf-4adb-bf68-b0e20fe740f0",
+            "flabsCode": "FLP1038"
+          },
+          {
+            "key": 11,
+            "field": "text",
+            "name": "Histidine",
+            "formulaId": "c629cb65-8b89-4c7e-a142-cc0f583ce616",
+            "flabsCode": "FLP1182"
+          },
+          {
+            "key": 12,
+            "field": "text",
+            "name": "Homocystine",
+            "formulaId": "89e52179-028e-4d0d-af56-23040323e87d",
+            "flabsCode": "FLP1187"
+          },
+          {
+            "key": 13,
+            "field": "text",
+            "name": "Hydroxproline",
+            "formulaId": "efdd7265-4414-45cf-bbf1-b13b7e358525",
+            "flabsCode": "FLP1192"
+          },
+          {
+            "key": 14,
+            "field": "text",
+            "name": "Isoleucine",
+            "formulaId": "bb4b3e04-c11c-400a-9159-a4d1aad78133",
+            "flabsCode": "FLP1280"
+          },
+          {
+            "key": 15,
+            "field": "text",
+            "name": "Leucine",
+            "formulaId": "877235a6-27dc-4b5c-bddf-0db5455098f5",
+            "flabsCode": "FLP1358"
+          },
+          {
+            "key": 16,
+            "field": "text",
+            "name": "Lysine",
+            "formulaId": "28a54ccc-21bd-4644-8d32-cd429c7a080b",
+            "flabsCode": "FLP1385"
+          },
+          {
+            "key": 17,
+            "field": "text",
+            "name": "Methionine",
+            "formulaId": "34ac5a16-b586-4e66-9052-af33dbef0d92",
+            "flabsCode": "FLP1463"
+          },
+          {
+            "key": 18,
+            "field": "text",
+            "name": "Ornithine",
+            "formulaId": "7fd1409d-4b00-4d75-9cfb-0b8b3077745b",
+            "flabsCode": "FLP1597"
+          },
+          {
+            "key": 19,
+            "field": "text",
+            "name": "Phenylalanine",
+            "formulaId": "959c9ef5-77c1-4ba8-9644-bc1f4535f177",
+            "flabsCode": "FLP1720"
+          },
+          {
+            "key": 20,
+            "field": "text",
+            "name": "Proline",
+            "formulaId": "67c3d73e-f3cc-410a-b86c-912f25c0f731",
+            "flabsCode": "FLP1792"
+          },
+          {
+            "key": 21,
+            "field": "text",
+            "name": "Serine",
+            "formulaId": "8402f879-e072-483a-85a5-f2e5b58f1d12",
+            "flabsCode": "FLP1971"
+          },
+          {
+            "key": 22,
+            "field": "text",
+            "name": "Taurine",
+            "formulaId": "e0f68d29-54ac-475f-be2b-105639f8fc70",
+            "flabsCode": "FLP2090"
+          },
+          {
+            "key": 23,
+            "field": "text",
+            "name": "Threonine",
+            "formulaId": "d1c1be66-ac90-4c11-be5f-f73f2a7d3969",
+            "flabsCode": "FLP2100"
+          },
+          {
+            "key": 24,
+            "field": "text",
+            "name": "Tryptophan",
+            "formulaId": "1f6b4f01-2f3c-4304-9ef9-2dd84f73fbdc",
+            "flabsCode": "FLP2171"
+          },
+          {
+            "key": 25,
+            "field": "text",
+            "name": "Tyrosine",
+            "formulaId": "5b1fd97d-95a1-43ed-8b64-e70eff7e488f",
+            "flabsCode": "FLP2174"
+          },
+          {
+            "key": 26,
+            "field": "text",
+            "name": "Valine",
+            "formulaId": "b24ab4de-bab4-446f-9629-e4fa89ae60bd",
+            "flabsCode": "FLP2251"
+          }
+        ]
+      },
+      "_id": "676e5ffd016686e0f81a8819"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c13a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0032",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.129Z",
+  "updatedAt": "2025-07-21T19:17:52.129Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

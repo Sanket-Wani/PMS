@@ -1,0 +1,224 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381bc2",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Hb TLC DLC & ESR",
+  "code": "HBESR",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Test</div></th><th><div>Normal Range</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>TLC (Total Leukocyte Count)</div></td><td><div>4,000-11,000 cells/μL</div></td><td><div>Normal range of total white blood cell count. Abnormal results may indicate an infection or inflammatory response.</div></td></tr><tr><td><div>DLC (Differential Leukocyte Count)</div></td><td><div>Neutrophils: 40-60% Lymphocytes: 20-40% Monocytes: 2-8% Eosinophils: 1-4% Basophils: 0.5-1%</div></td><td><div>DLC provides the percentage distribution of different types of white blood cells. Abnormal results may indicate specific types of infections or medical conditions. For example, an increase in neutrophils may indicate a bacterial infection, while an increase in eosinophils may indicate allergies or parasitic infections.</div></td></tr><tr><td><div>Haemoglobin</div></td><td><div>13-18 g/dL</div></td><td><div>Low levels may indicate anemia<br></div></td></tr><tr><td><div>ESR</div></td><td><div>0-15 Male<br>0-20 Female</div></td><td><div>An elevated ESR can indicate the presence of inflammation or infection in the body. This can be caused by a variety of conditions, including infections, autoimmune disorders, and some types of cancer.</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Haemoglobin (Hb)",
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "male-range-max": "17.5",
+            "male-range-min": "13.5",
+            "female-range-min": "13.5",
+            "female-range-max": "17.5",
+            "child-range-min": "13.5",
+            "child-range-max": "17.5"
+          }
+        }
+      },
+      "_id": "641a2d45ebe595f57b4ff520"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "/cumm",
+        "range": {
+          "default": {
+            "male-range-max": "11000",
+            "male-range-min": "4000",
+            "female-range-min": "4000",
+            "female-range-max": "11000",
+            "child-range-min": "4000",
+            "child-range-max": "11000"
+          }
+        },
+        "name": "Total Leucocyte Count (TLC)"
+      },
+      "_id": "641a348aebe595f57b4ff9af"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Differential Leucocyte Count",
+        "categories": [
+          {
+            "units": "%",
+            "range": {
+              "default": {
+                "child-range-min": "40",
+                "male-range-max": "80",
+                "male-range-min": "40",
+                "female-range-max": "80",
+                "female-range-min": "40",
+                "child-range-max": "80"
+              }
+            },
+            "field": "numeric",
+            "name": "Neutrophils"
+          },
+          {
+            "name": "Lymphocytes",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "20",
+                "female-range-max": "45",
+                "female-range-min": "20",
+                "child-range-max": "45",
+                "child-range-min": "20",
+                "male-range-max": "45"
+              }
+            },
+            "field": "numeric"
+          },
+          {
+            "field": "numeric",
+            "name": "Eosinophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "child-range-min": "1",
+                "male-range-max": "6",
+                "male-range-min": "1",
+                "female-range-max": "6",
+                "female-range-min": "1",
+                "child-range-max": "6"
+              }
+            }
+          },
+          {
+            "field": "numeric",
+            "name": "Monocytes",
+            "units": "%",
+            "range": {
+              "default": {
+                "female-range-max": "8",
+                "female-range-min": "2",
+                "child-range-max": "8",
+                "child-range-min": "2",
+                "male-range-max": "8",
+                "male-range-min": "2"
+              }
+            }
+          },
+          {
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "0",
+                "female-range-max": "1",
+                "female-range-min": "0",
+                "child-range-max": "1",
+                "child-range-min": "0.1",
+                "male-range-max": "1"
+              }
+            },
+            "field": "numeric",
+            "name": "Basophils"
+          }
+        ]
+      },
+      "_id": "641a348aebe595f57b4ff9b0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Erythrocyte Sedimentation Rate (ESR)",
+        "field": "numeric",
+        "units": "mm/h",
+        "range": {
+          "default": {
+            "female-range-min": "0",
+            "female-range-max": "20",
+            "child-range-min": "0",
+            "child-range-max": "20",
+            "male-range-max": "15",
+            "male-range-min": "0"
+          }
+        }
+      },
+      "_id": "641a348aebe595f57b4ff9b4"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64201ed656867e2be547b241",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1671",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.453Z",
+  "updatedAt": "2026-08-14T17:59:51.453Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

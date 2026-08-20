@@ -1,0 +1,141 @@
+{
+  "_id": "6a86cc045953b1dd0a17b770",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - PITITUARY LESION HORMONES (PROLACTIN, GROWTH HORMONA, LH, FSH, ACTH,TSH)",
+  "code": "1693",
+  "cost": 0,
+  "interpretation": "<p data-start=\"947\" data-end=\"971\"><span style=\"font-size: 9px;\"><strong data-start=\"947\" data-end=\"969\"> Interpretation:</strong></span></p>\n<ul data-start=\"972\" data-end=\"1324\">\n<li style=\"font-size: 9px;\" data-start=\"972\" data-end=\"1088\">\n<p data-start=\"974\" data-end=\"1088\"><span style=\"font-size: 9px;\">This panel is used in the <strong data-start=\"1000\" data-end=\"1054\">histopathological evaluation of pituitary adenomas</strong> to determine hormonal activity.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1089\" data-end=\"1189\">\n<p data-start=\"1091\" data-end=\"1189\"><span style=\"font-size: 9px;\">Helps in <strong data-start=\"1100\" data-end=\"1132\">classifying pituitary tumors</strong> as functioning (hormone-producing) or non-functioning.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1190\" data-end=\"1269\">\n<p data-start=\"1192\" data-end=\"1269\"><span style=\"font-size: 9px;\">Positive staining indicates expression of specific hormones by tumor cells.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1270\" data-end=\"1324\">\n<p data-start=\"1272\" data-end=\"1324\"><span style=\"font-size: 9px;\">Aids in treatment planning and prognosis assessment</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Prolactin ",
+        "field": "text",
+        "formulaId": "542f3b85-7dcf-4860-aeea-29c5897d2818",
+        "flabsCode": "FLP1790"
+      },
+      "_id": "68850117678ad801f5b2c865"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Growth Hormone (GH)\t",
+        "field": "text",
+        "formulaId": "96ed6d58-0af0-46a9-9ae0-481f463ed8f0",
+        "flabsCode": "FLP1055"
+      },
+      "_id": "68850117678ad801f5b2c866"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Luteinizing Hormone (LH)",
+        "field": "text",
+        "formulaId": "aefed12d-d29a-49f0-b123-2e75284d115a",
+        "flabsCode": "FLP1380"
+      },
+      "_id": "68850117678ad801f5b2c867"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Follicle Stimulating Hormone (FSH)\t",
+        "field": "text",
+        "formulaId": "9be8ef2b-17a2-491e-8158-c8f8f44fe479",
+        "flabsCode": "FLP0956"
+      },
+      "_id": "68850117678ad801f5b2c868"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Adrenocorticotropic Hormone (ACTH)\t",
+        "field": "text",
+        "formulaId": "d442dc70-2729-4d39-b036-d2989ec891a9",
+        "flabsCode": "FLP0165"
+      },
+      "_id": "68850117678ad801f5b2c869"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Thyroid Stimulating Hormone (TSH)\t",
+        "field": "text",
+        "formulaId": "169e4782-7c40-45e7-9623-d58cc605511a",
+        "flabsCode": "FLP2102"
+      },
+      "_id": "68850117678ad801f5b2c86a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c304",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0596",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.224Z",
+  "updatedAt": "2025-07-21T19:17:54.224Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,190 @@
+{
+  "_id": "6a86cc4d92e2891d948dcd85",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - SOFT TISSUE TUMOUR",
+  "code": "1952",
+  "cost": 0,
+  "interpretation": "<table class=\"w-fit min-w-(--thread-content-width)\" data-start=\"296\" data-end=\"1581\">\n<thead data-start=\"296\" data-end=\"416\">\n<tr data-start=\"296\" data-end=\"416\">\n<th data-start=\"296\" data-end=\"316\" data-col-size=\"sm\"><strong data-start=\"298\" data-end=\"312\">IHC Marker</strong></th>\n<th data-start=\"316\" data-end=\"338\" data-col-size=\"sm\"><strong data-start=\"318\" data-end=\"337\">Possible Result</strong></th>\n<th data-start=\"338\" data-end=\"416\" data-col-size=\"md\"><strong data-start=\"340\" data-end=\"378\">Interpretation / Tumor Association</strong></th>\n</tr>\n</thead>\n<tbody data-start=\"539\" data-end=\"1581\">\n<tr data-start=\"539\" data-end=\"662\">\n<td data-start=\"539\" data-end=\"559\" data-col-size=\"sm\"><strong data-start=\"541\" data-end=\"553\">Vimentin</strong></td>\n<td data-col-size=\"sm\" data-start=\"559\" data-end=\"582\">Positive</td>\n<td data-col-size=\"md\" data-start=\"582\" data-end=\"662\">Indicates mesenchymal (soft tissue) origin &mdash; seen in most soft tissue tumors</td>\n</tr>\n<tr data-start=\"663\" data-end=\"786\">\n<td data-start=\"663\" data-end=\"683\" data-col-size=\"sm\"><strong data-start=\"665\" data-end=\"675\">Desmin</strong></td>\n<td data-col-size=\"sm\" data-start=\"683\" data-end=\"706\">Positive</td>\n<td data-col-size=\"md\" data-start=\"706\" data-end=\"786\">Suggests muscle origin &mdash; seen in <strong data-start=\"741\" data-end=\"761\">rhabdomyosarcoma</strong>, <strong data-start=\"763\" data-end=\"781\">leiomyosarcoma</strong></td>\n</tr>\n<tr data-start=\"787\" data-end=\"913\">\n<td data-start=\"787\" data-end=\"807\" data-col-size=\"sm\"><strong data-start=\"789\" data-end=\"801\">Myogenin</strong></td>\n<td data-col-size=\"sm\" data-start=\"807\" data-end=\"830\">Positive</td>\n<td data-col-size=\"md\" data-start=\"830\" data-end=\"913\">Highly specific for <strong data-start=\"852\" data-end=\"878\">skeletal muscle tumors</strong>, especially <strong data-start=\"891\" data-end=\"911\">rhabdomyosarcoma</strong></td>\n</tr>\n<tr data-start=\"914\" data-end=\"1037\">\n<td data-start=\"914\" data-end=\"934\" data-col-size=\"sm\"><strong data-start=\"916\" data-end=\"923\">SMA</strong></td>\n<td data-col-size=\"sm\" data-start=\"934\" data-end=\"957\">Positive</td>\n<td data-col-size=\"md\" data-start=\"957\" data-end=\"1037\">Indicates <strong data-start=\"969\" data-end=\"1002\">smooth muscle differentiation</strong> &mdash; seen in <strong data-start=\"1013\" data-end=\"1031\">leiomyosarcoma</strong></td>\n</tr>\n<tr data-start=\"1038\" data-end=\"1174\">\n<td data-start=\"1038\" data-end=\"1058\" data-col-size=\"sm\"><strong data-start=\"1040\" data-end=\"1049\">S-100</strong></td>\n<td data-col-size=\"sm\" data-start=\"1058\" data-end=\"1081\">Positive</td>\n<td data-col-size=\"md\" data-start=\"1081\" data-end=\"1174\">Seen in <strong data-start=\"1091\" data-end=\"1114\">nerve sheath tumors</strong> (e.g., <strong data-start=\"1122\" data-end=\"1136\">schwannoma</strong>, <strong data-start=\"1138\" data-end=\"1154\">neurofibroma</strong>) and <strong data-start=\"1160\" data-end=\"1172\">melanoma</strong></td>\n</tr>\n<tr data-start=\"1175\" data-end=\"1326\">\n<td data-start=\"1175\" data-end=\"1195\" data-col-size=\"sm\"><strong data-start=\"1177\" data-end=\"1185\">CD34</strong></td>\n<td data-col-size=\"sm\" data-start=\"1195\" data-end=\"1218\">Positive</td>\n<td data-col-size=\"md\" data-start=\"1218\" data-end=\"1326\">Positive in <strong data-start=\"1232\" data-end=\"1251\">vascular tumors</strong>, <strong data-start=\"1253\" data-end=\"1295\">dermatofibrosarcoma protuberans (DFSP)</strong>, and some soft tissue tumors</td>\n</tr>\n<tr data-start=\"1327\" data-end=\"1450\">\n<td data-start=\"1327\" data-end=\"1347\" data-col-size=\"sm\"><strong data-start=\"1329\" data-end=\"1337\">CD99</strong></td>\n<td data-col-size=\"sm\" data-start=\"1347\" data-end=\"1370\">Positive</td>\n<td data-col-size=\"md\" data-start=\"1370\" data-end=\"1450\">Seen in <strong data-start=\"1380\" data-end=\"1399\">Ewing's sarcoma</strong>, <strong data-start=\"1401\" data-end=\"1409\">PNET</strong>, and some <strong data-start=\"1420\" data-end=\"1441\">synovial sarcomas</strong></td>\n</tr>\n<tr data-start=\"1451\" data-end=\"1581\">\n<td data-start=\"1451\" data-end=\"1471\" data-col-size=\"sm\"><strong data-start=\"1453\" data-end=\"1470\">Ki-67 (Index)</strong></td>\n<td data-col-size=\"sm\" data-start=\"1471\" data-end=\"1494\">e.g., 5% / 30%</td>\n<td data-col-size=\"md\" data-start=\"1494\" data-end=\"1581\">Indicates tumor proliferation: &lt;10% = low grade; &gt;20% = high-grade/aggressive tumor</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Vimentin",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "e7e8346e-d617-4954-8127-ca7ba63e02f3",
+        "flabsCode": "FLP2271"
+      },
+      "_id": "6883c34735738384e7938914"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Desmin",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "d37fb3ca-61f7-4f07-82e5-9b707edbfdaa",
+        "flabsCode": "FLP0756"
+      },
+      "_id": "6883c34735738384e7938915"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Myogenin",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "0b2533d9-2d17-4ab2-a233-33885e57250e",
+        "flabsCode": "FLP1521"
+      },
+      "_id": "6883c34735738384e7938916"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SMA (Smooth Muscle Actin)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "d9d26ffd-357c-4817-ac29-55de005dfd7e",
+        "flabsCode": "FLP1914"
+      },
+      "_id": "6883c34735738384e7938917"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "S-100 Protein",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "fccbbf31-8cba-4271-aa00-70dbfee8052e",
+        "flabsCode": "FLP1876"
+      },
+      "_id": "6883c34735738384e7938918"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD34",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "22dedd7b-443d-4347-bde4-09e7c106f510",
+        "flabsCode": "FLP0443"
+      },
+      "_id": "6883c34735738384e7938919"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD99",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "7285403b-3075-4f93-8a9c-09d7be1add74",
+        "flabsCode": "FLP0450"
+      },
+      "_id": "6883c34735738384e793891a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ki-67 (Proliferation Index)",
+        "field": "text",
+        "units": "%",
+        "formulaId": "55f14359-92c7-4aa5-9a2e-e10f3c24e0bf",
+        "flabsCode": "FLP1307"
+      },
+      "_id": "6883c34735738384e793891b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c3d3",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0841",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.459Z",
+  "updatedAt": "2025-07-21T19:17:55.459Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

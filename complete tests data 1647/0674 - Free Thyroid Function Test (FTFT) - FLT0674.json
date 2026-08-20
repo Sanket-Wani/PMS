@@ -1,0 +1,139 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b3e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Free Thyroid Function Test (FTFT)",
+  "code": "FTFT",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div><span style=\"font-size: 10px;\">Free Thyroid Function Test</span></div></th><th><div><span style=\"font-size: 10px;\">Normal Range</span></div></th><th><div><span style=\"font-size: 10px;\">Interpretation</span></div></th></tr></thead><tbody><tr><td><div><span style=\"font-size: 10px;\">FT4</span></div></td><td><div><span style=\"font-size: 10px;\">0.8-1.8 ng/dL</span></div></td><td><div><span style=\"font-size: 10px;\">High levels may indicate hyperthyroidism. Low levels may indicate hypothyroidism.</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">FT3</span></div></td><td><div><span style=\"font-size: 10px;\">2.3-4.2 pg/mL</span></div></td><td><div><span style=\"font-size: 10px;\">High levels may indicate hyperthyroidism. Low levels may indicate hypothyroidism.</span></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "department": "6414fc53f02dc1ebb6a097b9",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "data": {
+        "field": "numeric",
+        "units": "pg/mL",
+        "range": {
+          "default": {
+            "male-range-max": "4.2",
+            "male-range-min": "2.3",
+            "female-range-min": "2.3",
+            "female-range-max": "4.2",
+            "child-range-min": "2.3",
+            "child-range-max": "4.2"
+          }
+        },
+        "name": "Free Triiodothyronine l, FT3"
+      },
+      "_id": "641a6e00063818086a8ce0c3",
+      "type": "testDetails"
+    },
+    {
+      "data": {
+        "name": "Free Thyroxine, FT4",
+        "field": "numeric",
+        "units": "ng/dL",
+        "range": {
+          "default": {
+            "male-range-max": "1.8",
+            "male-range-min": "0.8",
+            "female-range-min": "0.8",
+            "female-range-max": "1.8",
+            "child-range-min": "0.8",
+            "child-range-max": "1.8"
+          }
+        }
+      },
+      "_id": "641a6e00063818086a8ce0c4",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "female-range-max": "4.5",
+            "child-range-min": "0.3",
+            "child-range-max": "4.5",
+            "male-range-max": "4.5",
+            "male-range-min": "0.3",
+            "female-range-min": "0.3"
+          }
+        },
+        "name": "Thyroid-Stimulating Hormone, TSH",
+        "field": "numeric",
+        "units": "µIU/mL"
+      },
+      "_id": "641a6e00063818086a8ce0c5"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641a6c74063818086a8ce0ad",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0674",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.311Z",
+  "updatedAt": "2026-08-14T17:59:51.311Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

@@ -1,0 +1,164 @@
+{
+  "_id": "6a86cbf692e2891d948d20c3",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LUPUS ANTICOUGLANT - I",
+  "code": "1564",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative</span></td>\n<td><span style=\"font-size: 10px;\">Normal screen and confirm; no evidence of Lupus Anticoagulant.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Borderline</span></td>\n<td><span style=\"font-size: 10px;\">Slightly elevated dRVVT ratio (1.2-1.4); repeat testing in 12 weeks recommended.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive</span></td>\n<td><span style=\"font-size: 10px;\">dRVVT ratio &gt; 1.4 and no correction on mixing; consistent with Lupus Anticoagulant.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "sodium citrate 3.2 % plasma specimen",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Screening Test (dRVVT Screen)",
+        "field": "numeric_unbound",
+        "units": "seconds",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "40"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "40"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "40"
+            }
+          }
+        },
+        "formulaId": "63a6a31f-68a0-48aa-989b-b0eca9cbffe6",
+        "flabsCode": "FLP1949"
+      },
+      "_id": "6883b71535738384e7905052"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Confirmatory Test (dRVVT Confirm)\t",
+        "field": "text",
+        "units": "seconds",
+        "formulaId": "4819d329-6cdc-47c9-a421-95710c6ae2f0",
+        "flabsCode": "FLP0650"
+      },
+      "_id": "6883b71535738384e7905053"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "dRVVT Ratio (Screen / Confirm)",
+        "field": "multiple_ranges",
+        "units": "Ratio",
+        "range": {
+          "default": {
+            "male-range": "Normal: <1.2\nBorderline: 1.2 – 1.4\nPositive: >1.4",
+            "female-range": "Normal: <1.2\nBorderline: 1.2 – 1.4\nPositive: >1.4",
+            "child-range": "Normal: <1.2\nBorderline: 1.2 – 1.4\nPositive: >1.4"
+          }
+        },
+        "formulaId": "8089443d-531d-45e4-92db-f4dc0a59b857",
+        "flabsCode": "FLP2313"
+      },
+      "_id": "6883b71535738384e7905054"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "APTT-LA",
+        "field": "numeric_unbound",
+        "units": "seconds",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "45"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "45"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "45"
+            }
+          }
+        },
+        "formulaId": "c69aa0b0-0bfc-401c-b95f-1895df9b666f",
+        "flabsCode": "FLP0132"
+      },
+      "_id": "6883b71535738384e7905055"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c2ce",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0530",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.964Z",
+  "updatedAt": "2025-07-21T19:17:53.964Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

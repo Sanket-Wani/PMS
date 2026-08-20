@@ -1,0 +1,179 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e133",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "GROWTH HORMONE STIMULATION TEST - CLONIDIN",
+  "code": "1763",
+  "cost": 0,
+  "interpretation": "<p>Normal Levels Of growth hormone are as below:</p>\n<table style=\"width: 94.9933%; height: 253.783px;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\" data-cke-table-faked-selection-table=\"\">\n<tbody>\n<tr style=\"height: 24px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 46.2279%;\"><strong>Reference Group</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"width: 53.6244%;\"><strong>Reference Range in</strong><br><strong>ng/mL</strong></td>\n</tr>\n<tr style=\"height: 20.3993px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 46.2279%;\"><strong>0-7 years</strong>&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 53.6244%;\">1.0-13.6</td>\n</tr>\n<tr style=\"height: 20.3993px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 46.2279%;\"><strong>8-11 years</strong>&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 53.6244%;\">1.0-16.4</td>\n</tr>\n<tr style=\"height: 20.3993px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 46.2279%;\"><strong>12-15 years</strong>&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 53.6244%;\">1.0-14.4</td>\n</tr>\n<tr style=\"height: 20.3993px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 46.2279%;\"><strong>16-19 years</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"width: 53.6244%;\">1.0-13.4</td>\n</tr>\n<tr style=\"height: 59.592px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 46.2279%;\"><strong>20-60 years</strong><br><strong>Males</strong><br><strong>Females</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"width: 53.6244%;\">&nbsp;<br>0.0-4.0<br>0.0-18.0</td>\n</tr>\n<tr style=\"height: 88.5938px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 46.2279%;\"><strong>&gt;60 years</strong><br><strong>Males</strong><br><strong>Females</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"width: 53.6244%;\">&nbsp;<br>1.0-9.0<br>1.0-16.0</td>\n</tr>\n</tbody>\n</table>\n<p>1.&nbsp; Recommended stimulating agents are :</p>\n<p>&nbsp;</p>\n<div>&nbsp; a. Vigorous physical Exercise like running orcalisthenics performed for 20 minutes.</div>\n<div>&nbsp; b. Clonidine 300 ug maximum or 5 ug/Kg body weight orally.</div>\n<div>&nbsp; c. Insulin 0.10-0.15 U/Kg body weight IV.</div>\n<div><br>2&nbsp; &nbsp;To diagnose Growth hormone (GH) deficiency as a cause of growth retardation, at least 2 different provocative stimulants should be used on different days for confirmation.<br><br></div>\n<div>&nbsp; &nbsp; a. If post stimulation GH level is &gt; 7 ng/mL (If stimulating agent is Clonidine OR Exercise) / &gt; 10 ng/mL (If stimulating agent is Insulin),deficiency is unlikely</div>\n<div>&nbsp; &nbsp; b. An intermediate response (GH 3-6 ng/mL) should be considered suspect and further testing performed if clinically indicated</div>\n<div>&nbsp; &nbsp; c. Subnormal response is not diagnostic for GH deficiency and should be confirmed with another provocative test</div>\n<div>&nbsp;</div>\n<div><strong>Clinical Use</strong></div>\n<div>&nbsp;</div>\n<div>To demonstrate GH deficiency in cases of growth retardation, short stature and dwarfism</div>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "value": "<table style=\"height: 283.4px; width: 92.2304%;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\" data-cke-table-faked-selection-table=\"\">\n<tbody>\n<tr style=\"height: 79.2px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 99.9731%;\" colspan=\"3\">\n<div><strong>GROWTH HORMONE (GH)</strong></div>\n<div><strong>STIMULATION TEST, SERUM</strong></div>\n<strong>METHOD- (CLIA)</strong><br><strong>RESULTS:-</strong></td>\n</tr>\n<tr style=\"height: 40px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 50.4886%;\"><br>&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 32.9767%;\">&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 16.5079%;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 40px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 50.4886%;\">GH Post Stimulation<br>&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 32.9767%;\">&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 16.5079%;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 20.4px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 50.4886%;\">30 minutes&nbsp; 10:25 Am</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 32.9767%;\">&lt; 0.02 ng/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 16.5079%;\">---</td>\n</tr>\n<tr style=\"height: 20.4px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 50.4886%;\">60 minutes&nbsp; 11:00 Am</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 32.9767%;\">&lt; 0.02 ng/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 16.5079%;\">---</td>\n</tr>\n<tr style=\"height: 20.4px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 50.4886%;\">90 minutes&nbsp; 11:30 Am</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 32.9767%;\">&lt; 0.02 ng/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 16.5079%;\">---</td>\n</tr>\n<tr style=\"height: 63px;\">\n<td class=\"cke_table-faked-selection\" style=\"width: 50.4886%;\">GH Post Stimulation 120 Minutes 12:00 Pm</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 32.9767%;\">&lt; 0.02 ng/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"width: 16.5079%;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+        "name": "GH Post Simulation",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric_unbound",
+            "name": "30 mins",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "0.02"
+                }
+              }
+            },
+            "units": "ng/mL"
+          },
+          {
+            "key": 1,
+            "field": "numeric_unbound",
+            "name": "60 mins",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "0.02"
+                }
+              }
+            },
+            "units": "ng/mL"
+          },
+          {
+            "key": 2,
+            "field": "numeric_unbound",
+            "name": "90 mins",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "0.02"
+                }
+              }
+            },
+            "units": "ng/mL"
+          },
+          {
+            "key": 3,
+            "field": "numeric_unbound",
+            "name": "120 mins",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "0.02"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "0.02"
+                }
+              }
+            },
+            "units": "ng/mL"
+          }
+        ]
+      },
+      "_id": "678b824000b1e4b28350bb75"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c342",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0682",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.494Z",
+  "updatedAt": "2025-07-21T19:17:54.494Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

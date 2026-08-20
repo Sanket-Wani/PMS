@@ -1,0 +1,139 @@
+{
+  "_id": "6a86cc3e5953b1dd0a181b8e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - IgM",
+  "code": "1914",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1433\" data-end=\"1727\">\n<p data-start=\"1435\" data-end=\"1463\"><span style=\"font-size: 10px;\"><strong data-start=\"1435\" data-end=\"1461\">Positive IgM Staining:</strong></span></p>\n<ul data-start=\"1466\" data-end=\"1727\">\n<li style=\"font-size: 10px;\" data-start=\"1466\" data-end=\"1621\">\n<p data-start=\"1468\" data-end=\"1621\"><span style=\"font-size: 10px;\">Supports presence of <strong data-start=\"1489\" data-end=\"1519\">IgM-secreting plasma cells</strong> (e.g., <strong data-start=\"1527\" data-end=\"1617\">Waldenstr&ouml;m&rsquo;s Macroglobulinemia, Lymphoplasmacytic Lymphoma, or reactive plasmacytosis</strong>).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1624\" data-end=\"1727\">\n<p data-start=\"1626\" data-end=\"1727\"><span style=\"font-size: 10px;\">Must be interpreted along with <strong data-start=\"1657\" data-end=\"1726\">clinical findings, serum electrophoresis, and bone marrow studies</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1729\" data-end=\"1810\">\n<p data-start=\"1731\" data-end=\"1759\"><span style=\"font-size: 10px;\"><strong data-start=\"1731\" data-end=\"1757\">Negative IgM Staining:</strong></span></p>\n<ul data-start=\"1762\" data-end=\"1810\">\n<li style=\"font-size: 10px;\" data-start=\"1762\" data-end=\"1810\">\n<p data-start=\"1764\" data-end=\"1810\"><span style=\"font-size: 10px;\">No significant IgM-producing cells identified.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgM Expression (Tissue Section)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative",
+          "Focal"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Positive: Cytoplasmic/membranous staining in plasma cells or lymphoid cells\nNegative: No staining",
+            "female-range": "Positive: Cytoplasmic/membranous staining in plasma cells or lymphoid cells\nNegative: No staining",
+            "child-range": "Positive: Cytoplasmic/membranous staining in plasma cells or lymphoid cells\nNegative: No staining"
+          }
+        },
+        "formulaId": "5f080835-d743-4ccb-97d5-27bf2ae0a3b7",
+        "flabsCode": "FLP1240"
+      },
+      "_id": "6885ed7c3661fb0120db7b6b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Intensity",
+        "field": "custom",
+        "options": [
+          "Weak ",
+          "Moderate ",
+          "Strong"
+        ],
+        "formulaId": "ae4905a1-35a4-4f31-976a-5979b62a3154",
+        "flabsCode": "FLP2032"
+      },
+      "_id": "6885ed7c3661fb0120db7b6c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "0",
+            "child-range-max": "100",
+            "child-range-min": "0"
+          }
+        },
+        "formulaId": "febb2ee2-d460-4a96-bd27-7fca0d33cd06",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "6885ed7c3661fb0120db7b6d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c3ad",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0803",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.194Z",
+  "updatedAt": "2025-07-21T19:17:55.194Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

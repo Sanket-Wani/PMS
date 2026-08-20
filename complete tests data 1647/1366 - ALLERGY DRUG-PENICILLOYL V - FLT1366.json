@@ -1,0 +1,129 @@
+{
+  "_id": "6a86ccf2ba46c74c6d45f30d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY DRUG-PENICILLOYL V",
+  "code": "2640",
+  "cost": 0,
+  "interpretation": "<table class=\"cke_show_border\" cellspacing=\"0\">\n<tbody>\n<tr>\n<td><strong>Concentration of IgE, IU/mL</strong></td>\n<td><strong>Class</strong></td>\n<td colspan=\"2\"><strong>&nbsp;Specific IgE levels</strong></td>\n</tr>\n<tr>\n<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; 0.36</td>\n<td>0</td>\n<td colspan=\"2\">&nbsp;Clinically insignificant</td>\n</tr>\n<tr>\n<td>0.36 - 0.71</td>\n<td>1</td>\n<td colspan=\"2\">Very Low</td>\n</tr>\n<tr>\n<td>0.72 - 3.59</td>\n<td>2</td>\n<td colspan=\"2\">Low</td>\n</tr>\n<tr>\n<td>&nbsp;3.60 - 17.99</td>\n<td>3</td>\n<td colspan=\"2\">Medium</td>\n</tr>\n<tr>\n<td>&nbsp;18.00 - 49.99</td>\n<td>4</td>\n<td colspan=\"2\">High</td>\n</tr>\n<tr>\n<td>50.00 - 100</td>\n<td>5</td>\n<td colspan=\"2\">Very high</td>\n</tr>\n<tr>\n<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt; 100</td>\n<td>6</td>\n<td colspan=\"2\">Extremely high</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Clinical Significance:</strong><br>This allergy&nbsp;test is used to detect IgE mediated allergy to a particular drug.&nbsp;In general,&nbsp;the level of serum IgE rises during childhood and reaches adult levels during the teens. IgE is the mediator of the allergic response. Patients with atopic disease, including allergic asthama, allergic rhinitis, and atopic dermatitis commonly have moderately elevated serum IgE levels. Total serum IgE levels may also be elevated in the presence of some clinical conditions that are not related to allergy. These include parasitic infections, immunodeficiency states, autoimmune diseases, Hodgkins disease, bronchopulmonary aspergillosis, IgE myeloma, and Sezary syndrome.&nbsp;</p>\n<p><strong>Comments:</strong></p>\n<p>Presence of small amount of IgE antibody to allergen in body may give false positive results. One may contact the Allergen and experience no allergic reaction at all. Cross Reactivity is reported in food proteins and similar proteins in environmental allergens like Tree Pollens. False Positive results may occur in such scenario. Intake of steroids and antihistaminic Drugs may result in false Negative results. Assay results shall be correlated clinically.</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TOTAL IgE",
+        "field": "numeric",
+        "units": "IU/mL",
+        "range": {
+          "default": {
+            "male-range-min": "00",
+            "male-range-max": "158.0",
+            "female-range-max": "158.0",
+            "female-range-min": "00",
+            "child-range-max": "158.0",
+            "child-range-min": "00"
+          }
+        },
+        "formulaId": "7a85affc-ddbf-4d2e-8328-9ab81d7b16f2",
+        "flabsCode": "FLP2065"
+      },
+      "_id": "679b15ef9bcb2428d81c8510"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ALLERGY DRUG-PENICILLOYL V",
+        "field": "numeric_unbound",
+        "units": "IU/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.35"
+            }
+          }
+        },
+        "formulaId": "700c4859-97d3-4adb-8633-6cac896caf89",
+        "flabsCode": "FLP0106"
+      },
+      "_id": "679b15ef9bcb2428d81c8511"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5b2",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1366",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.585Z",
+  "updatedAt": "2025-07-21T19:17:57.585Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

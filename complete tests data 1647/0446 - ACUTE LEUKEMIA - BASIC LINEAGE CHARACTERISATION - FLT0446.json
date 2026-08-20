@@ -1,0 +1,251 @@
+{
+  "_id": "6a86cbd892e2891d948cbf00",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ACUTE LEUKEMIA - BASIC LINEAGE CHARACTERISATION",
+  "code": "1492",
+  "cost": 0,
+  "interpretation": "<h3 data-start=\"2654\" data-end=\"2672\"><span style=\"font-size: 10px;\"><strong data-start=\"2658\" data-end=\"2670\">Comments</strong></span></h3>\n<ul data-start=\"2673\" data-end=\"2881\">\n<li style=\"font-size: 10px;\" data-start=\"2673\" data-end=\"2800\">\n<p data-start=\"2675\" data-end=\"2800\"><span style=\"font-size: 10px;\">Further correlation with <strong data-start=\"2700\" data-end=\"2714\">morphology</strong>, <strong data-start=\"2716\" data-end=\"2732\">cytogenetics</strong>, and <strong data-start=\"2738\" data-end=\"2759\">molecular studies</strong> is recommended for complete diagnosis.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2801\" data-end=\"2881\">\n<p data-start=\"2803\" data-end=\"2881\"><span style=\"font-size: 10px;\">Marker expression may vary depending on treatment status or disease evolution.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "67631e3524f8fa88510fdb69",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD45",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Dim",
+          "Negative"
+        ],
+        "flabsCode": "FLP0446"
+      },
+      "_id": "6892df3826e73d5947fe8570"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD34",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0443"
+      },
+      "_id": "6892df3826e73d5947fe8571"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-DR",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP1125"
+      },
+      "_id": "6892df3826e73d5947fe8572"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD19",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0436"
+      },
+      "_id": "6892df3826e73d5947fe8573"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD10",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0430"
+      },
+      "_id": "6892df3826e73d5947fe8574"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD20",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "flabsCode": "FLP0437"
+      },
+      "_id": "6892df3826e73d5947fe8575"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD3 (Surface/Cyto) ",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0438"
+      },
+      "_id": "6892df3826e73d5947fe8576"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD7",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0448"
+      },
+      "_id": "6892df3826e73d5947fe8577"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD13",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0433"
+      },
+      "_id": "6892df3826e73d5947fe8578"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD33",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0442"
+      },
+      "_id": "6892df3826e73d5947fe8579"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MPO (Cytoplasmic)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP1410"
+      },
+      "_id": "6892df3826e73d5947fe857a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TdT",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "flabsCode": "FLP2091"
+      },
+      "_id": "6892df3826e73d5947fe857b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD117",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "flabsCode": "FLP0431"
+      },
+      "_id": "6892df3826e73d5947fe857c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c289",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0446",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.679Z",
+  "updatedAt": "2025-07-21T19:17:53.679Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

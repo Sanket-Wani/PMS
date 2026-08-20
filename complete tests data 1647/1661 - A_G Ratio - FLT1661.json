@@ -1,0 +1,171 @@
+{
+  "_id": "6a86cd475953b1dd0a1aad00",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "A/G Ratio",
+  "code": "AG_RATIO",
+  "cost": 0,
+  "showInterpretation": true,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Albumin",
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "male-range-max": "5.5",
+            "male-range-min": "3.5",
+            "female-range-max": "5.5",
+            "female-range-min": "3.5",
+            "child-range-max": "5.0",
+            "child-range-min": "3.0"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "3.5-5.5",
+        "flabsCode": "FLP0087"
+      },
+      "_id": "68c4872ed2fcda19564d29a5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Globulin",
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "male-range-max": "4.0",
+            "male-range-min": "2.0",
+            "female-range-max": "4.0",
+            "female-range-min": "2.0",
+            "child-range-max": "3.5",
+            "child-range-min": "1.5"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "2.0-4.0",
+        "flabsCode": "FLP1030"
+      },
+      "_id": "68c4872ed2fcda19564d29a6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Albumin to Globulin Ratio",
+        "field": "numeric",
+        "units": "",
+        "range": {
+          "default": {
+            "male-range-max": "2.0",
+            "male-range-min": "0.8",
+            "female-range-max": "2.0",
+            "female-range-min": "0.8",
+            "child-range-max": "1.9",
+            "child-range-min": "0.7"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0.8-2.0"
+      },
+      "_id": "68c4872ed2fcda19564d29a7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Protein",
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "male-range-max": "8.0",
+            "male-range-min": "6.0",
+            "female-range-max": "8.0",
+            "female-range-min": "6.0",
+            "child-range-max": "7.5",
+            "child-range-min": "5.5"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "6.0-8.0"
+      },
+      "_id": "68c4872ed2fcda19564d29a8"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68c4872ed2fcda19564d29a4",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FF0000",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT1661",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-09-12T20:48:46.010Z",
+  "updatedAt": "2025-09-12T20:48:46.010Z",
+  "__v": 0
+}

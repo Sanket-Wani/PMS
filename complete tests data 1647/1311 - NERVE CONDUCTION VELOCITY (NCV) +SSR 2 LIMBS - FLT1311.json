@@ -1,0 +1,234 @@
+{
+  "_id": "6a86cce55953b1dd0a19c1a1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NERVE CONDUCTION VELOCITY (NCV) +SSR 2 LIMBS",
+  "code": "2558",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Normal</span></td>\n<td><span style=\"font-size: 10px;\">All conduction velocities, amplitudes, latencies, and SSR are within reference limits.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Peripheral Neuropathy</span></td>\n<td><span style=\"font-size: 10px;\">Reduced velocities/amplitudes, prolonged latencies, absent SSR; suggestive of neuropathy.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Demyelinating Neuropathy</span></td>\n<td><span style=\"font-size: 10px;\">Markedly slowed conduction, prolonged F-wave/H-reflex; conduction block may be present.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Axonal Neuropathy</span></td>\n<td><span style=\"font-size: 10px;\">Reduced amplitudes with relatively preserved velocities; SSR may be absent.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Autonomic Dysfunction</span></td>\n<td><span style=\"font-size: 10px;\">SSR absent or significantly delayed despite near-normal NCV.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Motor Nerve Conduction Velocity",
+        "field": "multiple_ranges",
+        "units": "m/s",
+        "range": {
+          "default": {
+            "male-range": "Upper Limb: >50\nLower Limb: >40",
+            "female-range": "Upper Limb: >50\nLower Limb: >40",
+            "child-range": "Upper Limb: >50\nLower Limb: >40"
+          }
+        },
+        "formulaId": "33cdd2e8-a565-427c-9070-bfaa277e9b15",
+        "flabsCode": "FLP1499"
+      },
+      "_id": "6883b43435738384e78f5744"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Distal Latency (Motor)",
+        "field": "multiple_ranges",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": "Upper Limb: <4.2\nLower Limb: <6.0",
+            "female-range": "Upper Limb: <4.2\nLower Limb: <6.0",
+            "child-range": "Upper Limb: <4.2\nLower Limb: <6.0"
+          }
+        },
+        "formulaId": "86f25bb3-b473-4dd9-98db-6d831aff94c9",
+        "flabsCode": "FLP0772"
+      },
+      "_id": "6883b43435738384e78f5745"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Compound Muscle Action Potential",
+        "field": "numeric",
+        "units": "mV",
+        "rangeReport": ">4 mV (upper limb median/ulnar) >2 mV (peroneal/tibial)",
+        "formulaId": "5e615b80-cb25-49a8-bcf8-be565c041f62",
+        "flabsCode": "FLP0647"
+      },
+      "_id": "6883b43435738384e78f5746"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ensory Nerve Conduction Velocity",
+        "field": "multiple_ranges",
+        "units": "m/s",
+        "range": {
+          "default": {
+            "male-range": "Upper Limb: >50 m/s\nLower Limb: >40 m/s",
+            "female-range": "Upper Limb: >50 m/s\nLower Limb: >40 m/s",
+            "child-range": "Upper Limb: >50 m/s\nLower Limb: >40 m/s"
+          }
+        },
+        "formulaId": "df3ee2c2-f9b1-4499-a013-dd57ea79857d",
+        "flabsCode": "FLP2317"
+      },
+      "_id": "6883b43435738384e78f5747"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensory Nerve Action Potential",
+        "field": "multiple_ranges",
+        "units": "µV",
+        "range": {
+          "default": {
+            "male-range": ">10 µV (upper limb)\n >6 µV (lower limb)\n",
+            "female-range": ">10 µV (upper limb)\n >6 µV (lower limb)\n",
+            "child-range": ">10 µV (upper limb)\n >6 µV (lower limb)\n"
+          }
+        },
+        "formulaId": "df1889f6-a1dd-4531-9aa2-cf1270dc96b0",
+        "flabsCode": "FLP1961"
+      },
+      "_id": "6883b43435738384e78f5748"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "F-Wave Latency",
+        "field": "multiple_ranges",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": "Upper Limb: <32 ms\nLower Limb: <56 ms",
+            "female-range": "Upper Limb: <32 ms\nLower Limb: <56 ms",
+            "child-range": "Upper Limb: <32 ms\nLower Limb: <56 ms"
+          }
+        },
+        "formulaId": "2e4163b9-7277-432b-b5f7-3e4f649d072b",
+        "flabsCode": "FLP0866"
+      },
+      "_id": "6883b43435738384e78f5749"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "H-Reflex",
+        "field": "multiple_ranges",
+        "units": "ms",
+        "rangeReport": "",
+        "range": {
+          "default": {
+            "male-range": "Soleus: <34 ms\n (side to side difference ≤1.5 ms)",
+            "female-range": "Soleus: <34 ms\n (side to side difference ≤1.5 ms)",
+            "child-range": "Soleus: <34 ms\n (side to side difference ≤1.5 ms)"
+          }
+        },
+        "formulaId": "b015555d-73cf-4ac4-91a8-4b36ff076e4a",
+        "flabsCode": "FLP1060"
+      },
+      "_id": "6883b43435738384e78f574a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sympathetic Skin Response (SSR)\t",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "55069954-700a-4f6f-8bd4-37957a2308f4",
+        "flabsCode": "FLP2043"
+      },
+      "_id": "6883b43435738384e78f574b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SSR Latency",
+        "field": "multiple_ranges",
+        "units": "seconds",
+        "range": {
+          "default": {
+            "male-range": "Typically <1.5 sec (upper limb)\n<2.0 sec (lower limb)",
+            "female-range": "Typically <1.5 sec (upper limb)\n<2.0 sec (lower limb)",
+            "child-range": "Typically <1.5 sec (upper limb)\n<2.0 sec (lower limb)"
+          }
+        },
+        "formulaId": "938f0d6b-cb52-4865-97f1-1040b84e7508",
+        "flabsCode": "FLP1935"
+      },
+      "_id": "6883b43435738384e78f574c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c57d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1311",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.375Z",
+  "updatedAt": "2025-07-21T19:17:57.375Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

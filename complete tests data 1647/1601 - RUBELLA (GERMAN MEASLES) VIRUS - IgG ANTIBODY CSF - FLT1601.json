@@ -1,0 +1,130 @@
+{
+  "_id": "6a86cd2c92e2891d94905c46",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "RUBELLA (GERMAN MEASLES) VIRUS - IgG ANTIBODY CSF",
+  "code": "2836",
+  "cost": 0,
+  "interpretation": "<p>Test Interpretation :<br>1. An intrathecal humoral immune response in most CNS infections are characterized by delayed oligoclonal or polyclonal response with IgG predominance given by memory B cells.</p>\n<p>2. In order to diagnose this intrathecal immunoglobulin synthesis, clear discrimination between blood derived &amp; brain derived proteins in CSF is required &amp; hence simultaneous estimation of proteins in the paired serum &amp; CSF samples is necessary. The concept used in the assay to discriminate between blood-derived &amp; CSFderived proteins is based on nonlinear (hyperbolic) functional relationship as described by Reiber &amp; Lange (1991), which takes into account the Molecular flux CSF flow rate, IgG(Total &amp; pathogen specific) &amp; Albumin quotient across the Blood-Brain barrier.</p>\n<p>3. Measles specific IgG in serum(dilution 1:808) &amp; CSF (dilution 1:4) is tested using Measles specific IgG ELISA kit having higher sensitivity(measuring range 5 to 100 U/ml) for which there are no established reference ranges. The results reported are further to be multiplied by the dilution factor as mentioned above followed by calculation of CSF/Serum Measles specific IgG quotient (Q IgG Measles specific).</p>\n<p>4. Total IgG in serum &amp; CSF is tested separately by nephlometry &amp; CSF/Serum IgG quotient (Q IgG) is calculated.</p>\n<p>5. CSF/Serum Quotient reference (CSFQ ref) is the ratio between CSF/serum Measles specific IgG quotient and CSF/serum Total IgG quotient or CSF/Serum albumin quotient is used for interpretation as mentioned in the reference interval. CSF/Serum Quotient reference (CSFQ ref) more than 1.5 is considered to be indicative of Measles specific antibody production in CNS.</p>\n<p>6. Intrathecal immune responses are also noted with subacute(encephalopathy), acute(meningoenphalitis) inflammatory &amp; chronic Autoimmune diseases, hence correlation with CSF cell counts, Clinical &amp; Radiological findings is suggested for specific diagnosis.</p>\n<p>Reference:</p>\n<p>1. Neuroimmunology: immunoglobulinsand the intrathecal polyspecific immune response in acute, subacute and chronic neurological diseases.Prof. H Reiber, IFCC vol 15 No 3<br>2. Guidelines on cerebrospinal fluid analysis. EFNS task force. F. Deisenhammer et al. European Journal of Neurology 200</p>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum IgG Measles",
+        "field": "multiple_ranges",
+        "units": "U/mL",
+        "range": {
+          "default": {
+            "male-range": "REFER INTERPREATATIOM",
+            "female-range": "REFER INTERPREATATIOM",
+            "child-range": "REFER INTERPREATATIOM"
+          }
+        },
+        "flabsCode": "FLP1983"
+      },
+      "_id": "67b861a76fbf219df13e4339"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CSF IgG Measles.",
+        "field": "multiple_ranges",
+        "units": "U/mL",
+        "range": {
+          "default": {
+            "male-range": "REFER INTERPREATATION",
+            "female-range": "REFER INTERPREATATION",
+            "child-range": "REFER INTERPREATATION"
+          }
+        }
+      },
+      "_id": "67b861a76fbf219df13e433a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CSF/Serum Quotient reference",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "CSFQ ref Normal :< 1.3~CSFQ ref\nEquivocal :1.3 - 1.5~CSFQ ref\nPositive : > 1.5",
+            "female-range": "CSFQ ref Normal :< 1.3~CSFQ ref\nEquivocal :1.3 - 1.5~CSFQ ref\nPositive : > 1.5",
+            "child-range": "CSFQ ref Normal :< 1.3~CSFQ ref\nEquivocal :1.3 - 1.5~CSFQ ref\nPositive : > 1.5"
+          }
+        },
+        "flabsCode": "FLP0521"
+      },
+      "_id": "67b861a76fbf219df13e433b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c672",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1601",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.340Z",
+  "updatedAt": "2025-07-21T19:17:58.340Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,144 @@
+{
+  "_id": "6a86cbe9ba46c74c6d43a6d4",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ABSOLUTE LYMPHOCYTE COUNT",
+  "code": "1524",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"962\" data-end=\"1152\">\n<p data-start=\"964\" data-end=\"992\"><span style=\"font-size: 10px;\"><strong data-start=\"964\" data-end=\"990\">Lymphocytosis (&uarr; ALC):</strong></span></p>\n<ul data-start=\"995\" data-end=\"1152\">\n<li style=\"font-size: 10px;\" data-start=\"995\" data-end=\"1022\">\n<p data-start=\"997\" data-end=\"1022\"><span style=\"font-size: 10px;\">Adults: &gt;4,800 cells/&micro;L</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1025\" data-end=\"1152\">\n<p data-start=\"1027\" data-end=\"1152\"><span style=\"font-size: 10px;\">May indicate <strong data-start=\"1040\" data-end=\"1151\">viral infections (EBV, CMV, hepatitis), chronic lymphocytic leukemia (CLL), pertussis, autoimmune disorders</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1154\" data-end=\"1327\">\n<p data-start=\"1156\" data-end=\"1186\"><span style=\"font-size: 10px;\"><strong data-start=\"1156\" data-end=\"1184\">Lymphocytopenia (&darr; ALC):</strong></span></p>\n<ul data-start=\"1189\" data-end=\"1327\">\n<li style=\"font-size: 10px;\" data-start=\"1189\" data-end=\"1216\">\n<p data-start=\"1191\" data-end=\"1216\"><span style=\"font-size: 10px;\">Adults: &lt;1,000 cells/&micro;L</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1219\" data-end=\"1327\">\n<p data-start=\"1221\" data-end=\"1327\"><span style=\"font-size: 10px;\">May occur in <strong data-start=\"1234\" data-end=\"1326\">HIV infection, bone marrow suppression, chemotherapy, severe stress, autoimmune diseases</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1329\" data-end=\"1431\">\n<p data-start=\"1331\" data-end=\"1431\"><span style=\"font-size: 10px;\">Should be correlated with <strong data-start=\"1357\" data-end=\"1430\">clinical context, differential count, and other hematology parameters</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Absolute Lymphocyte Count",
+        "field": "numeric",
+        "units": "cells/µL",
+        "range": {
+          "default": {
+            "male-range-min": "1000",
+            "male-range-max": "4800",
+            "female-range-max": "4800",
+            "female-range-min": "1000",
+            "child-range-max": "4800",
+            "child-range-min": "1000"
+          }
+        },
+        "formulaId": "a658da16-5c68-4a9b-9e0a-9a5d532afd53",
+        "flabsCode": "FLP0146"
+      },
+      "_id": "688549924c9e1585202dbcab"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total WBC Count (for calculation)",
+        "field": "numeric",
+        "units": "cells/µL",
+        "range": {
+          "default": {
+            "male-range-min": "4000",
+            "male-range-max": "11000",
+            "female-range-max": "11000",
+            "female-range-min": "4000",
+            "child-range-max": "11000",
+            "child-range-min": "4000"
+          }
+        },
+        "formulaId": "99f2d42e-7ce4-44eb-8076-afeabf0b31c9",
+        "flabsCode": "FLP2144"
+      },
+      "_id": "688549924c9e1585202dbcac"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Lymphocytes",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "20",
+            "male-range-max": "40",
+            "female-range-max": "40",
+            "female-range-min": "20",
+            "child-range-max": "40",
+            "child-range-min": "20"
+          }
+        },
+        "formulaId": "a40f0bf2-a172-4042-b858-5e9983f17838",
+        "flabsCode": "FLP1711"
+      },
+      "_id": "688549924c9e1585202dbcad"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c2a9",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0478",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.812Z",
+  "updatedAt": "2025-07-21T19:17:53.812Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

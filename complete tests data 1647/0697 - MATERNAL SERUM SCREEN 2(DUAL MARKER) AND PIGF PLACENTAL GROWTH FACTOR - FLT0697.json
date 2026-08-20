@@ -1,0 +1,171 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e1c9",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MATERNAL SERUM SCREEN 2(DUAL MARKER) AND PIGF PLACENTAL GROWTH FACTOR",
+  "code": "1776",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2159\" data-end=\"2317\">\n<p data-start=\"2161\" data-end=\"2317\"><span style=\"font-size: 11px;\"><strong data-start=\"2161\" data-end=\"2184\">Dual Marker Result:</strong></span><br data-start=\"2184\" data-end=\"2187\"><span style=\"font-size: 11px;\">Indicates <strong data-start=\"2199\" data-end=\"2229\">screen negative / positive</strong> for Trisomy 21 and Trisomy 18.</span><br data-start=\"2260\" data-end=\"2263\"><span style=\"font-size: 11px;\">(If screen positive, consider confirmatory testing.)</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"2319\" data-end=\"2475\">\n<p data-start=\"2321\" data-end=\"2475\"><span style=\"font-size: 11px;\"><strong data-start=\"2321\" data-end=\"2337\">PLGF Result:</strong></span><br data-start=\"2337\" data-end=\"2340\"><span style=\"font-size: 11px;\">PLGF level is <strong data-start=\"2356\" data-end=\"2385\">within normal / decreased</strong>.</span><br data-start=\"2386\" data-end=\"2389\"><span style=\"font-size: 11px;\">Low PLGF may indicate risk for <strong data-start=\"2422\" data-end=\"2461\">placental dysfunction, preeclampsia</strong>, or <strong data-start=\"2466\" data-end=\"2474\">IUGR</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free β-hCG (IU/L)",
+        "field": "numeric",
+        "rangeReport": "0.5–2.5",
+        "range": {
+          "default": {
+            "male-range-min": "0.5",
+            "male-range-max": "2.5",
+            "female-range-max": "2.5",
+            "female-range-min": "0.5",
+            "child-range-max": "2.5",
+            "child-range-min": "0.5"
+          }
+        },
+        "units": "MoM",
+        "formulaId": "d248f63d-8349-441a-bcc7-6a3f44d06aa6",
+        "flabsCode": "FLP0969"
+      },
+      "_id": "68836227d92e738f2693b4f4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PAPP-A (mIU/mL)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "0.5",
+            "male-range-max": "2.5",
+            "female-range-max": "2.5",
+            "female-range-min": "0.5",
+            "child-range-max": "2.5",
+            "child-range-min": "0.5"
+          }
+        },
+        "units": "MoM",
+        "formulaId": "3684410f-e85c-4730-a6f1-f960334f134c",
+        "flabsCode": "FLP1621"
+      },
+      "_id": "68836227d92e738f2693b4f5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PLGF (Placental Growth Factor)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">",
+              "value": "100"
+            },
+            "female-range": {
+              "op": ">",
+              "value": "100"
+            },
+            "child-range": {
+              "op": ">",
+              "value": "100"
+            }
+          }
+        },
+        "units": "pg/mL",
+        "formulaId": "6bee2041-166a-4ff8-940e-693195dcf992",
+        "flabsCode": "FLP1650"
+      },
+      "_id": "68836227d92e738f2693b4f6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Trisomy 21 (Down Syndrome)",
+        "field": "text",
+        "formulaId": "ea80c23b-d93e-4c85-a416-9fb2ad8ce439",
+        "flabsCode": "FLP2165"
+      },
+      "_id": "68836227d92e738f2693b4f7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Trisomy 18 (Edwards Syndrome)",
+        "field": "text",
+        "formulaId": "e6657921-4c9c-4252-9106-cb24deb305bf",
+        "flabsCode": "FLP2164"
+      },
+      "_id": "68836227d92e738f2693b4f8"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c34f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0697",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.548Z",
+  "updatedAt": "2025-07-21T19:17:54.548Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

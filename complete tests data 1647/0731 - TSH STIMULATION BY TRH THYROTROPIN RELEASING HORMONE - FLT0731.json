@@ -1,0 +1,135 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e298",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TSH STIMULATION BY TRH THYROTROPIN RELEASING HORMONE",
+  "code": "1801",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1250\" data-end=\"1371\">\n<p data-start=\"1252\" data-end=\"1371\"><strong data-start=\"1252\" data-end=\"1272\">Normal response:</strong> TSH rises at least 2&ndash;5 times baseline by 20 minutes, then returns toward baseline by 60 minutes.</p>\n</li>\n<li data-start=\"1372\" data-end=\"1502\">\n<p data-start=\"1374\" data-end=\"1502\"><strong data-start=\"1374\" data-end=\"1409\">Blunted or absent TSH response:</strong> May indicate secondary or tertiary hypothyroidism (pituitary or hypothalamic dysfunction).</p>\n</li>\n<li data-start=\"1503\" data-end=\"1594\">\n<p data-start=\"1505\" data-end=\"1594\"><strong data-start=\"1505\" data-end=\"1534\">Exaggerated TSH response:</strong> Possible hypothyroidism or resistance to thyroid hormone.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Baseline (0 min)",
+        "field": "numeric",
+        "units": "µIU/mL",
+        "range": {
+          "default": {
+            "male-range-min": "0.4",
+            "male-range-max": "4.0",
+            "female-range-max": "4.0",
+            "female-range-min": "0.4",
+            "child-range-max": "4.0",
+            "child-range-min": "0.4"
+          }
+        },
+        "formulaId": "1f8fb514-dec0-45ac-a825-f86f43e0081a",
+        "flabsCode": "FLP0348"
+      },
+      "_id": "6883ffe135738384e796af65"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "20 minutes",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Expected rise: > baseline",
+            "female-range": "Expected rise: > baseline",
+            "child-range": "Expected rise: > baseline"
+          }
+        },
+        "formulaId": "95fe8539-7cfb-43e1-bf74-d697b2f24fab"
+      },
+      "_id": "6883ffe135738384e796af66"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "60 minutes",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Usually return toward baseline",
+            "female-range": "Usually return toward baseline",
+            "child-range": "Usually return toward baseline"
+          }
+        },
+        "formulaId": "dfca98d8-bc17-4a73-9eb2-2b93124c75bb",
+        "flabsCode": "FLP0051"
+      },
+      "_id": "6883ffe135738384e796af67"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c366",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0731",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.663Z",
+  "updatedAt": "2025-07-21T19:17:54.663Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

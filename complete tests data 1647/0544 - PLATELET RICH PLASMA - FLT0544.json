@@ -1,0 +1,145 @@
+{
+  "_id": "6a86cbf692e2891d948d211a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PLATELET RICH PLASMA",
+  "code": "1574",
+  "cost": 0,
+  "interpretation": "<p data-start=\"61\" data-end=\"287\">The <strong data-start=\"65\" data-end=\"95\">Platelet-Rich Plasma (PRP)</strong> test is not a diagnostic test like most blood tests but rather a <strong data-start=\"161\" data-end=\"188\">therapeutic preparation</strong> used in <strong data-start=\"197\" data-end=\"222\">regenerative medicine</strong>, <strong data-start=\"224\" data-end=\"239\">orthopedics</strong>, <strong data-start=\"241\" data-end=\"256\">dermatology</strong>, and <strong data-start=\"262\" data-end=\"286\">aesthetic treatments</strong>.</p>\n<p data-start=\"289\" data-end=\"464\">However, when <strong data-start=\"303\" data-end=\"356\">lab values or platelet counts in PRP preparations</strong> are reported, the interpretation is about the <strong data-start=\"403\" data-end=\"445\">quality and concentration of platelets</strong> in the PRP sample.</p>\n<p data-start=\"1719\" data-end=\"1749\">Role of Platelets in PRP</p>\n<p data-start=\"1751\" data-end=\"1793\">Platelets release <strong data-start=\"1769\" data-end=\"1787\">growth factors</strong> like:</p>\n<ul data-start=\"1794\" data-end=\"1904\">\n<li data-start=\"1794\" data-end=\"1837\">\n<p data-start=\"1796\" data-end=\"1837\"><strong data-start=\"1796\" data-end=\"1804\">PDGF</strong> (Platelet-Derived Growth Factor)</p>\n</li>\n<li data-start=\"1838\" data-end=\"1878\">\n<p data-start=\"1840\" data-end=\"1878\"><strong data-start=\"1840\" data-end=\"1849\">TGF-&beta;</strong> (Transforming Growth Factor)</p>\n</li>\n<li data-start=\"1879\" data-end=\"1904\">\n<p data-start=\"1881\" data-end=\"1904\"><strong data-start=\"1881\" data-end=\"1889\">VEGF</strong>, <strong data-start=\"1891\" data-end=\"1898\">EGF</strong>, etc.</p>\n</li>\n</ul>\n<p data-start=\"1906\" data-end=\"1920\">These promote:</p>\n<ul data-start=\"1921\" data-end=\"2031\">\n<li data-start=\"1921\" data-end=\"1940\">\n<p data-start=\"1923\" data-end=\"1940\"><strong data-start=\"1923\" data-end=\"1940\">Tissue repair</strong></p>\n</li>\n<li data-start=\"1941\" data-end=\"1965\">\n<p data-start=\"1943\" data-end=\"1965\"><strong data-start=\"1943\" data-end=\"1965\">Collagen formation</strong></p>\n</li>\n<li data-start=\"1966\" data-end=\"1984\">\n<p data-start=\"1968\" data-end=\"1984\"><strong data-start=\"1968\" data-end=\"1984\">Angiogenesis</strong></p>\n</li>\n<li data-start=\"1985\" data-end=\"2004\">\n<p data-start=\"1987\" data-end=\"2004\"><strong data-start=\"1987\" data-end=\"2004\">Hair regrowth</strong></p>\n</li>\n<li data-start=\"2005\" data-end=\"2031\">\n<p data-start=\"2007\" data-end=\"2031\"><strong data-start=\"2007\" data-end=\"2031\">Joint/tendon healing</strong></p>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Component</th>\n<th>What It Means</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>High PRP platelet count</strong></td>\n<td>Good-quality PRP : likely to be therapeutically effective</td>\n</tr>\n<tr>\n<td><strong>Low PRP platelet count</strong></td>\n<td>Poor concentration : may not give desired clinical results</td>\n</tr>\n<tr>\n<td><strong>No count provided</strong></td>\n<td>Depends on technique used; difficult to verify quality without measurement</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Volume of Blood Collected",
+        "field": "numeric",
+        "units": "ml",
+        "formulaId": "71a278e6-7be4-46a0-bd8f-d62e7da5bfec",
+        "flabsCode": "FLP2280"
+      },
+      "_id": "688274d8124d8484d88b5e24"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Volume of PRP Prepared",
+        "field": "numeric",
+        "units": "ml",
+        "formulaId": "17d4383c-1bd5-4073-a083-fe07eb708c96",
+        "flabsCode": "FLP2281"
+      },
+      "_id": "688274d8124d8484d88b5e25"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Method Used",
+        "field": "text",
+        "formulaId": "4ec1e608-1e5a-4265-aabd-869632c5adba",
+        "flabsCode": "FLP2092"
+      },
+      "_id": "688274d8124d8484d88b5e26"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Centrifuge Speed (RPM)",
+        "field": "numeric",
+        "units": "RPM",
+        "formulaId": "61b2909f-f6e4-4250-a04e-5781b0e06e9f",
+        "flabsCode": "FLP0564"
+      },
+      "_id": "688274d8124d8484d88b5e27"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Centrifuge Time",
+        "field": "numeric",
+        "units": "Minutes",
+        "formulaId": "1c704285-8cfb-48c4-8907-ddad54f0e13a",
+        "flabsCode": "FLP0565"
+      },
+      "_id": "688274d8124d8484d88b5e28"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Activation Used",
+        "field": "text",
+        "formulaId": "055a06d5-b431-4336-a679-18f70eea4e83",
+        "flabsCode": "FLP0153"
+      },
+      "_id": "688274d8124d8484d88b5e29"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2d7",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0544",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.004Z",
+  "updatedAt": "2025-07-21T19:17:54.004Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

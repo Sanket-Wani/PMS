@@ -1,0 +1,132 @@
+{
+  "_id": "6a86ccf3ba46c74c6d45f4dc",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ANCA ANTI NEUTROPHIL CYTOPLASMIC ANTIBODIES BY IFA",
+  "code": "2664",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 99.9535%; height: 344.792px;\" border=\"1\"><colgroup><col style=\"width: 26.7009%;\"><col style=\"width: 40.09%;\"><col style=\"width: 33.3954%;\"></colgroup>\n<tbody>\n<tr style=\"height: 33.7083px;\">\n<td><strong>Pattern&nbsp;&nbsp;</strong></td>\n<td><strong>Type of Antibody / Antigenic determinants</strong></td>\n<td><strong>Disease Associations</strong></td>\n</tr>\n<tr style=\"height: 131.625px;\">\n<td>pANCA&nbsp;</td>\n<td>MPO, Elastase, Cathepsin G, Lactoferrin, Lysozyme, catalase,<br>Others</td>\n<td>MPO &ndash; Microscopic Polyangitis (Generally), Wegener&rsquo;s<br>Granulomatisis (less commonly), Drug Induced<br>SLE/Vasculitis, Churg Strauss Syndrome</td>\n</tr>\n<tr style=\"height: 112.042px;\">\n<td>cANCA</td>\n<td>PR3, BPI, Cathepsin G, Others</td>\n<td>PR3 &ndash; Wegener&rsquo;s Granulomatosis (Generally), Churg<br>Strauss Syndrome, Microscopic Polyangitis (less<br>commonly</td>\n</tr>\n<tr style=\"height: 33.7083px;\">\n<td>Other Atypical ANCA&nbsp;</td>\n<td>Lactoferrin, Cathepsin G?</td>\n<td>Ulcerative Colitis, SLE, chronic infections, Drug Induced<br>Vasculitis</td>\n</tr>\n<tr style=\"height: 33.7083px;\">\n<td>ANA interference &ndash; Cannot<br>report ANCA</td>\n<td>Anti Nuclear Antibodies</td>\n<td>Connective Tissue Diseases, Autoimmune Hepatitis</td>\n</tr>\n</tbody>\n</table>\n<p><strong>COMMENTS:</strong><br>-ANCA by IIF using ANCA-L Slides (Immunoconcepts, USA) is a special substrate slide containing Human neutrophils with lymphocytes stabilized and fixed directly on test wells. ---The inclusion<br>of lymphocytes allows detection of ANA interference commonly seen on standard ethanol fixed ANCA slides.<br>-The ANCA-L is able to pickup such an interference using Lymphocytes. A PR3 and MPO ANCA tests are recommended on all ANA interference reported ANCA results. ANCA results should only<br>be interpreted by the clinician in light of patient&rsquo;s clinical information. MPO/PR3 ANCA tests are strongly recommended for ANCA positive patients, and are ideally recommended to be<br>performed on all ANCA requested samples. The decision on treatment should not be based solely on the ANCA results.</p>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DILUTION TITRE FOR THE TEST PROCEDURE",
+        "field": "text",
+        "formulaId": "4e4ea3dd-97ad-4274-b142-3a25035ce263",
+        "flabsCode": "FLP0735"
+      },
+      "_id": "6788ee97a0756033952d1bd9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PATTERN OBSERVED ",
+        "field": "text",
+        "formulaId": "257809c3-0922-43e8-b9f3-0a7c8f60a6bf",
+        "flabsCode": "FLP1628"
+      },
+      "_id": "6788ee97a0756033952d1bda"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Result ",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "3d059c2c-9938-4c16-a9c7-66907ab853e0"
+      },
+      "_id": "6788ee97a0756033952d1bdb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fluorescence Intensity",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "+: Weak, ~++: Moderate,~+++:\nStrong,~++++: Very Strong",
+            "female-range": "+: Weak, ~++: Moderate,~+++:\nStrong,~++++: Very Strong",
+            "child-range": "+: Weak, ~++: Moderate,~+++:\nStrong,~++++: Very Strong"
+          }
+        },
+        "test_method": "indirect immunofluorescence assay, hep-2000 methodology",
+        "formulaId": "84c1bf5b-8a07-4985-93a1-1d9ce0c64965",
+        "flabsCode": "FLP0952"
+      },
+      "_id": "6788ee97a0756033952d1bdc"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5c9",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1399",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.677Z",
+  "updatedAt": "2025-07-21T19:17:57.677Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

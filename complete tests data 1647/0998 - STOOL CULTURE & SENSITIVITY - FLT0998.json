@@ -1,0 +1,292 @@
+{
+  "_id": "6a86cc7692e2891d948dfd38",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "STOOL CULTURE & SENSITIVITY",
+  "code": "SC",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div><span style=\"font-size: 10px;\">Results</span></div></th><th><div><span style=\"font-size: 10px;\">Remarks</span></div></th></tr></thead><tbody><tr><td><div><span style=\"font-size: 10px;\">Positive&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div></td><td><div><span style=\"font-size: 10px;\">Indicate organisms detected and identified&nbsp;as likely causing signs and symptoms of&nbsp;gastrointestinal disease. Co-Infection by more than one organism is not uncommon.<br></span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Negative</span></div></td><td><div><span style=\"font-size: 10px;\">Indicates that the organisms tested were not detected and the signs &amp; symptoms may be caused by a condition other than an infection or a pathogen that was not tested for. Also, a negative result does not rule out the presence of PCR inhibitors in the specimen or nucleic acid of pathogens may be in concentrations below the level of detection by this assay, or organisms that are not included in this panel. \n<br>​</span><br></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "stool",
+  "department": "6414fd62f02dc1ebb6a09803",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Bacteria",
+        "categories": [
+          {
+            "field": "custom",
+            "name": "Campylobacter (jejuni, coli and upsaliensis)",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Clostridium difficile (Toxin A/B",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Plesiomonas shigelloides",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Salmonella ",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Vibrio",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Vibrio cholerae",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Yersinia enterocolitica",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Diarrheagenic E. coli / Shigella",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "E.coli O 157",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Enteroaggregative E. coli (EAEC)",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Enteropathogenic E. coli (EPEC)",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Shiga toxin-producing E. coli (STEC)",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Enteroinvasive Escherichia coli (EIEC)",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Enterotoxigenic E. coli (ETEC)",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          }
+        ]
+      },
+      "_id": "641ca7c4063818086a8d1a31"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Parasites",
+        "categories": [
+          {
+            "field": "custom",
+            "name": "Cryptosporidium",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Cyclospora cayetanensis ",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Entamoeba histolytica",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Giardia lamblia",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          }
+        ]
+      },
+      "_id": "641ca7c4063818086a8d1a32"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Viruses",
+        "categories": [
+          {
+            "field": "custom",
+            "name": "Adenovirus F 40/41",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Astrovirus",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Norovirus GI/GII",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Rotavirus",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Sapovirus (I, II, IV,V)",
+            "options": [
+              "positive",
+              "negative"
+            ]
+          }
+        ]
+      },
+      "_id": "641cabef063818086a8d1d8b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68926226f0aa1d75825e8042",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0998",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-05T19:57:26.663Z",
+  "updatedAt": "2025-08-05T19:57:26.663Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

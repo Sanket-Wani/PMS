@@ -1,0 +1,132 @@
+{
+  "_id": "6a86cc2b5953b1dd0a17fc56",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - BCl-6",
+  "code": "1855",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"977\" data-end=\"1136\">\n<p data-start=\"979\" data-end=\"1136\"><strong data-start=\"979\" data-end=\"1008\">Positive BCL-6 Expression</strong> is commonly associated with germinal center B-cell origin lymphomas (e.g. follicular lymphoma, DLBCL &ndash; germinal center type).</p>\n</li>\n<li data-start=\"1137\" data-end=\"1207\">\n<p data-start=\"1139\" data-end=\"1207\"><strong data-start=\"1139\" data-end=\"1157\">Negative BCL-6</strong> may indicate non-germinal center B-cell origin.</p>\n</li>\n<li data-start=\"1208\" data-end=\"1341\">\n<p data-start=\"1210\" data-end=\"1341\">Interpretation should be made in conjunction with other IHC markers (e.g. CD10, MUM1, BCL-2) and clinical-pathological correlation.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BCL-6 Expression",
+        "field": "custom",
+        "options": [
+          "Focally Positive",
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "ea25a322-ef7b-41c6-8555-bfde1fd71104",
+        "flabsCode": "FLP0304"
+      },
+      "_id": "6883f9a235738384e7968a30"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Pattern",
+        "field": "text",
+        "formulaId": "2012ade8-dae1-4a4d-8af1-45fe78cfcaee",
+        "flabsCode": "FLP2033"
+      },
+      "_id": "6883f9a235738384e7968a31"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Intensity",
+        "field": "custom",
+        "options": [
+          "Weak",
+          "Moderate",
+          "Strong"
+        ],
+        "formulaId": "78f8a012-cdb8-4b1c-b981-3ebbba10b324",
+        "flabsCode": "FLP2032"
+      },
+      "_id": "6883f9a235738384e7968a32"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "text",
+        "units": "%",
+        "formulaId": "d113fe67-1807-448a-9a1d-f31c1d3b5259",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "6883f9a235738384e7968a33"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c372",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0744",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.743Z",
+  "updatedAt": "2025-07-21T19:17:54.743Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

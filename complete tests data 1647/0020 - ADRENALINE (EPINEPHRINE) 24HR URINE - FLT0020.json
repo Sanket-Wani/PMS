@@ -1,0 +1,120 @@
+{
+  "_id": "6a86cb445953b1dd0a155c2d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ADRENALINE (EPINEPHRINE) 24HR URINE",
+  "code": "1014",
+  "cost": 0,
+  "interpretation": "<p data-start=\"175\" data-end=\"496\">The <strong data-start=\"179\" data-end=\"223\">24-hour urinary adrenaline (epinephrine)</strong> test measures the total amount of <strong data-start=\"258\" data-end=\"273\">epinephrine</strong> excreted in the urine over a day. Epinephrine is a <strong data-start=\"325\" data-end=\"342\">catecholamine</strong> produced by the <strong data-start=\"359\" data-end=\"378\">adrenal medulla</strong> and plays a vital role in the <strong data-start=\"409\" data-end=\"439\">&ldquo;fight or flight&rdquo; response</strong>, influencing heart rate, blood pressure, and metabolism.</p>\n<p data-start=\"498\" data-end=\"589\">This test is primarily used to help <strong data-start=\"534\" data-end=\"577\">diagnose catecholamine-secreting tumors</strong>, such as:</p>\n<ul data-start=\"590\" data-end=\"703\">\n<li data-start=\"590\" data-end=\"637\">\n<p data-start=\"592\" data-end=\"637\"><strong data-start=\"592\" data-end=\"612\">Pheochromocytoma</strong> (tumor of adrenal gland)</p>\n</li>\n<li data-start=\"638\" data-end=\"703\">\n<p data-start=\"640\" data-end=\"703\"><strong data-start=\"640\" data-end=\"657\">Paraganglioma</strong> (extra-adrenal catecholamine-secreting tumor)</p>\n</li>\n</ul>\n<p data-start=\"705\" data-end=\"880\">It may also be used to investigate causes of <strong data-start=\"750\" data-end=\"778\">unexplained hypertension</strong>, <strong data-start=\"780\" data-end=\"808\">episodes of palpitations</strong>, <strong data-start=\"810\" data-end=\"821\">anxiety</strong>, <strong data-start=\"823\" data-end=\"835\">sweating</strong>, or <strong data-start=\"840\" data-end=\"853\">headaches</strong>, especially when episodic.</p>\n<p data-start=\"936\" data-end=\"986\">High levels of urinary epinephrine may indicate:</p>\n<ul data-start=\"987\" data-end=\"1382\">\n<li data-start=\"987\" data-end=\"1085\">\n<p data-start=\"989\" data-end=\"1085\"><strong data-start=\"989\" data-end=\"1009\">Pheochromocytoma</strong> &ndash; often shows significantly elevated catecholamines and their metabolites</p>\n</li>\n<li data-start=\"1086\" data-end=\"1176\">\n<p data-start=\"1088\" data-end=\"1176\"><strong data-start=\"1088\" data-end=\"1105\">Paraganglioma</strong> &ndash; similar presentation, though may be located outside adrenal glands</p>\n</li>\n<li data-start=\"1177\" data-end=\"1213\">\n<p data-start=\"1179\" data-end=\"1213\"><strong data-start=\"1179\" data-end=\"1213\">Acute stress or severe anxiety</strong></p>\n</li>\n<li data-start=\"1214\" data-end=\"1234\">\n<p data-start=\"1216\" data-end=\"1234\"><strong data-start=\"1216\" data-end=\"1232\">Hypoglycemia</strong></p>\n</li>\n<li data-start=\"1235\" data-end=\"1294\">\n<p data-start=\"1237\" data-end=\"1294\"><strong data-start=\"1237\" data-end=\"1266\">Intense physical exercise</strong>, trauma, or acute illness</p>\n</li>\n<li data-start=\"1295\" data-end=\"1382\">\n<p data-start=\"1297\" data-end=\"1382\"><strong data-start=\"1297\" data-end=\"1320\">Certain medications</strong> (e.g., MAO inhibitors, levodopa, tricyclic antidepressants)</p>\n</li>\n</ul>\n<p data-start=\"1384\" data-end=\"1586\">In the right clinical setting, persistently elevated levels support the diagnosis of <strong data-start=\"1469\" data-end=\"1503\">catecholamine-producing tumors</strong>. Further confirmation is often done with plasma metanephrines and imaging studies.</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Adrenaline (Epinephrine)",
+        "field": "numeric_unbound",
+        "units": "µg/24h",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "20"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "20"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "20"
+            }
+          }
+        },
+        "rangeReport": "Up to 20µg/24h",
+        "formulaId": "4c796df8-ed8b-4c9c-ab07-b317dce5e490",
+        "flabsCode": "FLP0164"
+      },
+      "_id": "687fd394ab7ae7de0ec41558"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "24-Hour Urine Volume",
+        "field": "text",
+        "units": "mL",
+        "formulaId": "a0207502-1932-4ca6-b14d-41d8ef5f6b86",
+        "flabsCode": "FLP0034"
+      },
+      "_id": "687fd394ab7ae7de0ec41559"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c12e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0020",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.061Z",
+  "updatedAt": "2025-07-21T19:17:52.061Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

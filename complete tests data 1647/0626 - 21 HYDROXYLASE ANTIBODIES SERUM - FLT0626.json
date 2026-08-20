@@ -1,0 +1,184 @@
+{
+  "_id": "6a86cc105953b1dd0a17cca9",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "21 HYDROXYLASE ANTIBODIES SERUM",
+  "code": "1730",
+  "cost": 0,
+  "interpretation": "<p>The <strong data-start=\"68\" data-end=\"95\">21-hydroxylase antibody</strong> test is used to detect <strong data-start=\"119\" data-end=\"171\">autoantibodies against the enzyme 21-hydroxylase</strong>, primarily in the context of <strong data-start=\"201\" data-end=\"237\">autoimmune adrenal insufficiency</strong>, most notably <strong data-start=\"252\" data-end=\"284\">Autoimmune Addison's disease</strong></p>\n<p data-start=\"292\" data-end=\"316\"><strong data-start=\"296\" data-end=\"316\">Clinical Purpose</strong></p>\n<ul data-start=\"317\" data-end=\"627\">\n<li data-start=\"317\" data-end=\"456\">\n<p data-start=\"319\" data-end=\"456\">To aid in the <strong data-start=\"333\" data-end=\"372\">diagnosis of autoimmune adrenalitis</strong>, the most common cause of <strong data-start=\"399\" data-end=\"432\">primary adrenal insufficiency</strong> in developed countries.</p>\n</li>\n<li data-start=\"457\" data-end=\"627\">\n<p data-start=\"459\" data-end=\"627\">To evaluate patients with <strong data-start=\"485\" data-end=\"522\">unexplained adrenal insufficiency</strong>, <strong data-start=\"524\" data-end=\"568\">polyglandular autoimmune syndromes (APS)</strong>, or a <strong data-start=\"575\" data-end=\"593\">family history</strong> of autoimmune endocrine diseases.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "17 Alpha hydroxyprogesterone ",
+        "field": "numeric",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range-min": "0.20",
+            "male-range-max": "2.20",
+            "female-range-max": "2.20",
+            "female-range-min": "0.20",
+            "child-range-max": "2.20",
+            "child-range-min": "0.20"
+          }
+        },
+        "test_method": "lc-ms/ms ",
+        "formulaId": "4e877ae8-3c68-4f11-9424-bec6731f2b3f",
+        "flabsCode": "FLP0022"
+      },
+      "_id": "67640bd800d4fe0c50691e6b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ANDROSTENEDIONE ",
+        "field": "numeric",
+        "units": "ng/L",
+        "formulaId": "547d3a5d-0cce-48ac-a4ee-47d842c8e94d",
+        "flabsCode": "FLP0119"
+      },
+      "_id": "67640bd800d4fe0c50691e6c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cortisol",
+        "field": "numeric",
+        "units": "µg/L",
+        "formulaId": "49280bdf-c6b5-465d-8c3d-877daf6da55d",
+        "flabsCode": "FLP0669"
+      },
+      "_id": "67640bd800d4fe0c50691e6d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "21-DEOXYCORTISOL",
+        "field": "numeric",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range-min": "0.02",
+            "male-range-max": "0.15",
+            "female-range-max": "0.15",
+            "female-range-min": "0.02",
+            "child-range-max": "0.15",
+            "child-range-min": "0.02"
+          }
+        },
+        "formulaId": "fc046047-ec07-4bd4-8331-71aa7e273c18",
+        "flabsCode": "FLP0028"
+      },
+      "_id": "67640bd800d4fe0c50691e6e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "17-OHP +21-DEOXYCORTISOL: CORTISOL RATIO",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "0.53",
+              "op": "<"
+            },
+            "female-range": {
+              "value": "0.53",
+              "op": "<"
+            },
+            "child-range": {
+              "value": "0.53",
+              "op": "<"
+            }
+          }
+        },
+        "formulaId": "d290f5ec-7f31-40fd-9209-697904cad2b7",
+        "flabsCode": "FLP0025"
+      },
+      "_id": "67640bd800d4fe0c50691e6f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Result",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ]
+      },
+      "_id": "68929c9f841a10838c77f761"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c321",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0626",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.353Z",
+  "updatedAt": "2025-07-21T19:17:54.353Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

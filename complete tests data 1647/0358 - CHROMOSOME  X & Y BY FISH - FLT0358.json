@@ -1,0 +1,151 @@
+{
+  "_id": "6a86cbbbba46c74c6d436038",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHROMOSOME  X & Y BY FISH",
+  "code": "1402",
+  "cost": 0,
+  "interpretation": "<p><strong data-start=\"1405\" data-end=\"1429\">Normal Male (46,XY):</strong> 1 green signal (X) + 1 red signal (Y)<br data-start=\"1467\" data-end=\"1470\"><strong data-start=\"1472\" data-end=\"1498\">Normal Female (46,XX):</strong> 2 green signals (X), no red (Y)<br data-start=\"1530\" data-end=\"1533\"><strong data-start=\"1536\" data-end=\"1558\">Abnormal Patterns:</strong> May indicate Turner (45,X), Klinefelter (47,XXY), etc.<br data-start=\"1613\" data-end=\"1616\"><strong data-start=\"1619\" data-end=\"1656\">Clinical correlation recommended.</strong></p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Cells Analyzed",
+        "field": "multiple_ranges",
+        "units": "Cells",
+        "range": {
+          "default": {
+            "male-range": "≥ 100 cells",
+            "female-range": "≥ 100 cells",
+            "child-range": "≥ 100 cells"
+          }
+        },
+        "formulaId": "8bfe72e9-db68-4877-b393-84cef91fd2f7",
+        "flabsCode": "FLP1572"
+      },
+      "_id": "6884066835738384e796c835"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "X Chromosome Signals (DXZ1)",
+        "field": "multiple_ranges",
+        "units": "Signals/cell",
+        "range": {
+          "default": {
+            "male-range": "1 in males, 2 in females",
+            "female-range": "1 in males, 2 in females",
+            "child-range": "1 in males, 2 in females"
+          }
+        },
+        "formulaId": "356e02e6-fbc1-4334-9fba-5c50f15dbb44",
+        "flabsCode": "FLP2292"
+      },
+      "_id": "6884066835738384e796c836"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Y Chromosome Signals (DYZ3)",
+        "field": "multiple_ranges",
+        "units": "Signals/cell",
+        "range": {
+          "default": {
+            "male-range": "1 in males, 0 in females",
+            "female-range": "1 in males, 0 in females",
+            "child-range": "1 in males, 0 in females"
+          }
+        },
+        "formulaId": "0f91ff63-a8ad-47ca-ab42-3926d0b1d859",
+        "flabsCode": "FLP2294"
+      },
+      "_id": "6884066835738384e796c837"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Signal Pattern Interpretation",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "46,XX (female), 46,XY (male)",
+            "female-range": "46,XX (female), 46,XY (male)",
+            "child-range": "46,XX (female), 46,XY (male)"
+          }
+        },
+        "formulaId": "95e8dbda-d40f-4c9d-9173-7d921e8bb54d"
+      },
+      "_id": "6884066835738384e796c838"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c233",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0358",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.304Z",
+  "updatedAt": "2025-07-21T19:17:53.304Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

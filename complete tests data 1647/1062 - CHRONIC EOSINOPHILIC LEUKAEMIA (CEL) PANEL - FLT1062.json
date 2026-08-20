@@ -1,0 +1,186 @@
+{
+  "_id": "6a86cc825953b1dd0a18a0e3",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHRONIC EOSINOPHILIC LEUKAEMIA (CEL) PANEL",
+  "code": "2302",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1277\" data-end=\"1396\">\n<p data-start=\"1279\" data-end=\"1396\"><strong data-start=\"1279\" data-end=\"1315\">If FIP1L1-PDGFRA fusion detected</strong>: Suggestive of CEL with tyrosine kinase fusion, likely to respond to imatinib.</p>\n</li>\n<li data-start=\"1397\" data-end=\"1522\">\n<p data-start=\"1399\" data-end=\"1522\"><strong data-start=\"1399\" data-end=\"1443\">If PDGFRB or FGFR1 rearrangement present</strong>: Indicates CEL or myeloid neoplasm with eosinophilia and gene rearrangement.</p>\n</li>\n<li data-start=\"1523\" data-end=\"1641\">\n<p data-start=\"1525\" data-end=\"1641\"><strong data-start=\"1525\" data-end=\"1554\">If JAK2/KIT/ABL1 detected</strong>: May suggest alternative myeloproliferative neoplasm (MPN) or systemic mastocytosis.</p>\n</li>\n<li data-start=\"1642\" data-end=\"1762\">\n<p data-start=\"1644\" data-end=\"1762\"><strong data-start=\"1644\" data-end=\"1675\">If all markers are negative</strong>: Consider idiopathic hypereosinophilic syndrome (HES) or further NGS-based assessment.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FIP1L1-PDGFRA fusion",
+        "field": "custom",
+        "test_method": "rt-pcr/fish",
+        "formulaId": "5e63270b-f428-4f19-8b69-724939e2bf7b",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "flabsCode": "FLP0880"
+      },
+      "_id": "6883cc5035738384e794510c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PDGFRB rearrangement",
+        "field": "custom",
+        "test_method": "FISH",
+        "formulaId": "f29dd4e8-9344-4c62-b002-6a4404c5975c",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "flabsCode": "FLP1636"
+      },
+      "_id": "6883cc5035738384e794510d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FGFR1 rearrangement (8p11 syndrome)",
+        "field": "custom",
+        "test_method": "fish",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "7d6b314b-5cb0-43e9-ba86-e32e136821b0",
+        "flabsCode": "FLP0875"
+      },
+      "_id": "6883cc5035738384e794510e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "JAK2 V617F mutation",
+        "field": "custom",
+        "test_method": "rt-pcr",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "00387dc2-dde3-45b0-ac2c-77d656846095",
+        "flabsCode": "FLP1289"
+      },
+      "_id": "6883cc5035738384e794510f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ABL1 rearrangement (BCR-ABL1)",
+        "field": "custom",
+        "test_method": "rt-pcr",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "46fba82c-3f5d-410e-8d69-7188325f670e",
+        "flabsCode": "FLP0057"
+      },
+      "_id": "6883cc5035738384e7945110"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "KIT D816V mutation",
+        "field": "custom",
+        "test_method": "PCR / NGS",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "01851f56-e666-4b72-afc9-ab348b1e412e",
+        "flabsCode": "FLP1298"
+      },
+      "_id": "6883cc5035738384e7945111"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ETV6 rearrangement",
+        "field": "custom",
+        "test_method": "fish",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "06eb6e14-80ff-45b9-9d3b-5948e69f4f46",
+        "flabsCode": "FLP0808"
+      },
+      "_id": "6883cc5035738384e7945112"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c489",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1062",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.260Z",
+  "updatedAt": "2025-07-21T19:17:56.260Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

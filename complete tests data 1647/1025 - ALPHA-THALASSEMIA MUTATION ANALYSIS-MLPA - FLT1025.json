@@ -1,0 +1,148 @@
+{
+  "_id": "6a86cc7692e2891d948dfda7",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALPHA-THALASSEMIA MUTATION ANALYSIS-MLPA",
+  "code": "2264",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1848\" data-end=\"1947\">\n<p data-start=\"1851\" data-end=\"1899\"><span style=\"font-size: 10px;\"><strong data-start=\"1851\" data-end=\"1897\">Normal (&alpha;&alpha;/&alpha;&alpha; &ndash; 4 functional alpha genes):</strong></span></p>\n<ul data-start=\"1903\" data-end=\"1947\">\n<li style=\"font-size: 10px;\" data-start=\"1903\" data-end=\"1947\">\n<p data-start=\"1905\" data-end=\"1947\"><span style=\"font-size: 10px;\">No evidence of alpha-thalassemia mutation.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1949\" data-end=\"2063\">\n<p data-start=\"1952\" data-end=\"2002\"><span style=\"font-size: 10px;\"><strong data-start=\"1952\" data-end=\"2000\">Silent Carrier (&ndash;&alpha;/&alpha;&alpha; &ndash; 3 functional genes):</strong></span></p>\n<ul data-start=\"2006\" data-end=\"2063\">\n<li style=\"font-size: 10px;\" data-start=\"2006\" data-end=\"2063\">\n<p data-start=\"2008\" data-end=\"2063\"><span style=\"font-size: 10px;\">Usually asymptomatic; may show borderline microcytosis.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2065\" data-end=\"2216\">\n<p data-start=\"2068\" data-end=\"2136\"><span style=\"font-size: 10px;\"><strong data-start=\"2068\" data-end=\"2134\">Alpha-Thalassemia Trait (&ndash;&alpha;/&ndash;&alpha; or &ndash;&ndash;/&alpha;&alpha; &ndash; 2 functional genes):</strong></span></p>\n<ul data-start=\"2140\" data-end=\"2216\">\n<li style=\"font-size: 10px;\" data-start=\"2140\" data-end=\"2216\">\n<p data-start=\"2142\" data-end=\"2216\"><span style=\"font-size: 10px;\">Mild hypochromic microcytic anemia; important for reproductive counseling.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2218\" data-end=\"2318\">\n<p data-start=\"2221\" data-end=\"2276\"><span style=\"font-size: 10px;\"><strong data-start=\"2221\" data-end=\"2274\">Hemoglobin H Disease (&ndash;&ndash;/&ndash;&alpha; &ndash; 1 functional gene):</strong></span></p>\n<ul data-start=\"2280\" data-end=\"2318\">\n<li style=\"font-size: 10px;\" data-start=\"2280\" data-end=\"2318\">\n<p data-start=\"2282\" data-end=\"2318\"><span style=\"font-size: 10px;\">Moderate to severe hemolytic anemia.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2320\" data-end=\"2415\">\n<p data-start=\"2323\" data-end=\"2374\"><span style=\"font-size: 10px;\"><strong data-start=\"2323\" data-end=\"2372\">Hydrops Fetalis (&ndash;&ndash;/&ndash;&ndash; &ndash; 0 functional genes):</strong></span></p>\n<ul data-start=\"2378\" data-end=\"2415\">\n<li style=\"font-size: 10px;\" data-start=\"2378\" data-end=\"2415\">\n<p data-start=\"2380\" data-end=\"2415\"><span style=\"font-size: 10px;\">Usually fatal in utero or at birth.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Common Alpha-Globin Gene Deletions (–α³·⁷, –α⁴·², ––SEA, ––MED, etc.)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "f97240ea-d9c9-44bc-9b3d-3502a6c01cbc",
+        "flabsCode": "FLP0641"
+      },
+      "_id": "68853b934c9e1585202da3aa"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Functional Alpha Genes",
+        "field": "numeric",
+        "units": "Copies",
+        "formulaId": "4db77c2b-ac06-4cc7-84d9-0bd843e7f26e",
+        "flabsCode": "FLP1574"
+      },
+      "_id": "68853b934c9e1585202da3ab"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zygosity (if mutation detected)",
+        "field": "custom",
+        "options": [
+          "Heterozygous ",
+          "Homozygous"
+        ],
+        "formulaId": "5a14699c-792f-45ec-b922-6e75783c6612",
+        "flabsCode": "FLP2308"
+      },
+      "_id": "68853b934c9e1585202da3ac"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensitivity of Assay",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "99",
+              "op": ">"
+            },
+            "female-range": {
+              "value": "99",
+              "op": ">"
+            },
+            "child-range": {
+              "value": "99",
+              "op": ">"
+            }
+          }
+        },
+        "rangeReport": "Detects single-gene deletions, duplications, and large rearrangements (>99%)",
+        "formulaId": "dcbb41b5-8fdc-471e-aa26-bec19efa2467",
+        "flabsCode": "FLP0215"
+      },
+      "_id": "68853b934c9e1585202da3ad"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c464",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1025",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.104Z",
+  "updatedAt": "2025-07-21T19:17:56.104Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

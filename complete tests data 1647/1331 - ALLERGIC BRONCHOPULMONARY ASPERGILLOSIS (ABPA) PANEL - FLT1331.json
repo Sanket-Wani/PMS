@@ -1,0 +1,172 @@
+{
+  "_id": "6a86cce55953b1dd0a19c243",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGIC BRONCHOPULMONARY ASPERGILLOSIS (ABPA) PANEL",
+  "code": "2604",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"2558\" data-end=\"2754\">\n<li data-start=\"2558\" data-end=\"2672\">\n<p data-start=\"2560\" data-end=\"2672\"><span style=\"font-size: 11px;\">ABPA is a <strong data-start=\"2570\" data-end=\"2599\">hypersensitivity reaction</strong> to Aspergillus species in patients with <strong data-start=\"2640\" data-end=\"2669\">asthma or cystic fibrosis</strong>.</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"2673\" data-end=\"2754\">\n<p data-start=\"2675\" data-end=\"2754\"><span style=\"font-size: 11px;\">Further <strong data-start=\"2683\" data-end=\"2713\">pulmonologist consultation</strong> is advised for treatment and monitoring.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total IgE",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "100"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "100"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "100"
+            }
+          }
+        },
+        "rangeReport": "",
+        "units": "IU/mL",
+        "formulaId": "6c654024-03fc-4de1-a88a-af06ddf9fab3",
+        "flabsCode": "FLP2123"
+      },
+      "_id": "6883b27535738384e78f1476"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aspergillus-specific IgE",
+        "field": "numeric_unbound",
+        "units": "kUA/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.35"
+            }
+          }
+        },
+        "formulaId": "b745ca0c-7de9-4bdb-ba68-0403bc26edfc",
+        "flabsCode": "FLP0288"
+      },
+      "_id": "6883b27535738384e78f1477"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aspergillus-specific IgG (Precipitin)",
+        "field": "custom",
+        "units": "",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "e168f195-687a-484d-af54-47d4fd261dd4",
+        "flabsCode": "FLP0289"
+      },
+      "_id": "6883b27535738384e78f1478"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Absolute Eosinophil Count",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "500",
+            "female-range-max": "500",
+            "female-range-min": "0",
+            "child-range-max": "500",
+            "child-range-min": "0"
+          }
+        },
+        "units": "cells/μL",
+        "formulaId": "2bab1106-f1e1-47a0-b4d8-d571ced87b58",
+        "flabsCode": "FLP2121"
+      },
+      "_id": "6883b27535738384e78f1479"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c58f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1331",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.452Z",
+  "updatedAt": "2025-07-21T19:17:57.452Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

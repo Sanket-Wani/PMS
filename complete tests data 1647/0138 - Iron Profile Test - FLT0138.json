@@ -1,0 +1,141 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b6a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Iron Profile Test",
+  "code": "IRON",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Test Name</div></th><th><div>Normal Range</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Serum Iron</div></td><td><div>60-170 mcg/dL</div></td><td><div>Measures the amount of iron in the blood.</div></td></tr><tr><td><div>Total Iron Binding Capacity (TIBC)</div></td><td><div>240-450 mcg/dL</div></td><td><div>Measures the total amount of iron that can be carried in the blood.</div></td></tr><tr><td><div>Transferrin Saturation</div></td><td><div>20-50%</div></td><td><div>Measures the percentage of transferrin that is carrying iron.</div></td></tr></tbody></table><p style=\"text-align: start\">Interpretation:</p><ul><li>If serum iron levels are high and transferrin saturation is high, it may indicate hemochromatosis or iron overload.</li><li>If serum iron levels are low and transferrin saturation is low, it may indicate iron deficiency anemia.</li><li>If TIBC is high and transferrin saturation is low, it may indicate iron deficiency anemia.</li><li>If TIBC is low and transferrin saturation is high, it may indicate hemochromatosis or iron overload.</li><li>In cases where serum iron levels are low but transferrin saturation is high, it may indicate a chronic inflammatory condition.</li></ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "_id": "641ba41f063818086a8d0bd8",
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Iron",
+        "field": "numeric",
+        "units": "mcg/dL",
+        "range": {
+          "default": {
+            "female-range-max": "160",
+            "child-range-min": "27",
+            "child-range-max": "140",
+            "male-range-max": "180",
+            "male-range-min": "50",
+            "female-range-min": "40"
+          }
+        }
+      }
+    },
+    {
+      "_id": "641ba41f063818086a8d0bd9",
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "male-range-max": "440",
+            "male-range-min": "220",
+            "female-range-min": "220",
+            "female-range-max": "440",
+            "child-range-min": "250",
+            "child-range-max": "450"
+          }
+        },
+        "name": "Total Iron Binding Capacity",
+        "field": "numeric",
+        "units": "mcg/dL"
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "units": "%",
+        "formula": "({Serum_Iron}/ {Total_Iron_Binding_Capacity})*100",
+        "range": {
+          "default": {
+            "male-range-max": "60",
+            "male-range-min": "30",
+            "female-range-min": "20",
+            "female-range-max": "50",
+            "child-range-min": "20",
+            "child-range-max": "50"
+          }
+        },
+        "name": "Transferrin saturation",
+        "field": "numeric"
+      },
+      "_id": "641ba41f063818086a8d0bda"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641ba41f063818086a8d0bd7",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0138",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.359Z",
+  "updatedAt": "2026-08-14T17:59:51.359Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

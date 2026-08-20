@@ -1,0 +1,144 @@
+{
+  "_id": "6a86ccbf5953b1dd0a1990a5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MPN REFLEX PANEL",
+  "code": "MPNRP",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "JAK2 Mutation Analysis",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "defaultOption": null,
+        "rangeReport": "Expected findings: Negative",
+        "formulaId": "5bb01420-9973-40c1-a1a3-e9b8b56f2126",
+        "flabsCode": "FLP1287"
+      },
+      "_id": "68a645c9a2dcc291a91b6457"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CALR Mutation Analysis",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "defaultOption": null,
+        "rangeReport": "Expected findings: Negative",
+        "formulaId": "88beefaa-3968-4583-9932-6cbcc3232faf",
+        "flabsCode": "FLP0422"
+      },
+      "_id": "68a645c9a2dcc291a91b6458"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MPL Mutation Analysis",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "defaultOption": null,
+        "rangeReport": "Expected findings: Negative",
+        "formulaId": "be179324-68a0-4ae9-b1b4-f13393c493ae",
+        "flabsCode": "FLP1409"
+      },
+      "_id": "68a645c9a2dcc291a91b6459"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a6461df80b66611e3c513e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FFFF00",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1202",
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-20T22:03:09.475Z",
+  "updatedAt": "2025-08-20T22:03:09.475Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

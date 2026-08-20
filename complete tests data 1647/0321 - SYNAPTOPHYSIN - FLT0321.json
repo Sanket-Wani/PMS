@@ -1,0 +1,166 @@
+{
+  "_id": "6a86cbae5953b1dd0a16fb37",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SYNAPTOPHYSIN",
+  "code": "1366",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1379\" data-end=\"1493\">\n<p data-start=\"1381\" data-end=\"1493\"><strong data-start=\"1381\" data-end=\"1394\">ositive:</strong> Indicates neuroendocrine differentiation (e.g., Neuroendocrine tumors, small cell carcinoma, etc.)</p>\n</li>\n<li data-start=\"1494\" data-end=\"1553\">\n<p data-start=\"1496\" data-end=\"1553\"><strong data-start=\"1496\" data-end=\"1509\">Negative:</strong> Absence of neuroendocrine differentiation</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Antibody Used",
+        "field": "custom",
+        "options": [
+          "Synaptophysin"
+        ],
+        "formulaId": "843baa08-3e8d-4592-96fc-b6f58d1363f8"
+      },
+      "_id": "688269a4124d8484d887aed4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clone",
+        "field": "text",
+        "formulaId": "1766b4d6-eaa1-4659-8b95-010c50f332d1"
+      },
+      "_id": "688269a4124d8484d887aed5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Intensity",
+        "field": "text",
+        "formulaId": "945e7b66-d63c-41b9-87c3-050ca59ac897",
+        "flabsCode": "FLP2032"
+      },
+      "_id": "688269a4124d8484d887aed6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Pattern",
+        "field": "text",
+        "formulaId": "9b20362e-ab2c-46b8-8d36-76349d821400",
+        "flabsCode": "FLP2033"
+      },
+      "_id": "688269a4124d8484d887aed7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "numeric",
+        "units": "%",
+        "formulaId": "b07f806b-93a0-41b4-abb6-3eb4ee6aba92",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "688269a4124d8484d887aed8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Localization",
+        "field": "text",
+        "formulaId": "e39f366b-04ee-45ef-9cc4-0380ae380db1",
+        "flabsCode": "FLP1375"
+      },
+      "_id": "688269a4124d8484d887aed9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Internal Control",
+        "field": "text",
+        "formulaId": "09f8b8b4-101d-4b5a-b9b6-7f9de246ccb1"
+      },
+      "_id": "688269a4124d8484d887aeda"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "External Control",
+        "field": "custom",
+        "options": [
+          "Reactive",
+          "Non-reactive"
+        ],
+        "formulaId": "91169591-5228-4a64-9c69-e87fe1c89659",
+        "flabsCode": "FLP0865"
+      },
+      "_id": "688269a4124d8484d887aedb"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c216",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0321",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.166Z",
+  "updatedAt": "2025-07-21T19:17:53.166Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

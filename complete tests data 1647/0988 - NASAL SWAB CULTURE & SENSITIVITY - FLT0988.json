@@ -1,0 +1,285 @@
+{
+  "_id": "6a86cc7692e2891d948dfce5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NASAL SWAB CULTURE & SENSITIVITY",
+  "code": "2209",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopy",
+        "categories": [
+          {
+            "key": 6,
+            "field": "text",
+            "name": "Organism Isolated",
+            "formulaId": "8058f68b-16f5-4b20-bfc8-2eeede1ba4d8",
+            "flabsCode": "FLP0338"
+          },
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "Pus cells",
+            "units": "/hpf",
+            "formulaId": "119a59d6-41bf-46fc-adb9-68a2f24a1f73",
+            "flabsCode": "FLP1803"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Epithelial cells",
+            "units": "/hpf",
+            "formulaId": "9d0efbc1-5b56-4921-8e6e-8f639943c916",
+            "flabsCode": "FLP0830"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Gram-positive cocci",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "18cdaae2-d07b-4b55-8cbf-fbb44586b5bb",
+            "flabsCode": "FLP1051"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Gram-negative bacilli",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "4d567fee-0059-47aa-a966-968ee52cc813",
+            "flabsCode": "FLP1049"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Yeast cells",
+            "options": [
+              "Present",
+              "Absent"
+            ],
+            "formulaId": "5feb5c5c-0d67-41c8-a038-fff54113db3e",
+            "flabsCode": "FLP2296"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Fungal elements",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "c20e9188-fd07-4fe7-9fa8-77d71fb40784",
+            "flabsCode": "FLP0977"
+          }
+        ]
+      },
+      "_id": "688266fd124d8484d8872b0f"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Antibiotics",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Amoxicillin-Clavulanate",
+            "options": [
+              "Resistant",
+              "Intermediate",
+              "Sensitive"
+            ],
+            "formulaId": "c3d0032e-e257-46a8-ab59-1163963a62b7",
+            "flabsCode": "FLP0199"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Azithromycin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "4ab50eb7-f990-4690-9590-4736c6f295a4",
+            "flabsCode": "FLP0297"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Erythromycin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "e0aabe3c-307d-4f7b-8816-c4e484bd520c",
+            "flabsCode": "FLP0835"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Ciprofloxacin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "a15bd681-dfdf-4269-9b23-c4e07dc34f72",
+            "flabsCode": "FLP0603"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Gentamicin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "d1f1def5-6b08-4e7d-b8db-6697f5c5fe09",
+            "flabsCode": "FLP1023"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Linezolid",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "be3d497d-69f6-4089-8886-7c6f48aeba85",
+            "flabsCode": "FLP1366"
+          },
+          {
+            "key": 6,
+            "field": "custom",
+            "name": "Vancomycin",
+            "options": [
+              "Sensitive",
+              "Intermediate",
+              "Resistant"
+            ],
+            "formulaId": "a15cd798-978e-4c56-926b-cf8fb61d1a87",
+            "flabsCode": "FLP2252"
+          },
+          {
+            "key": 7,
+            "field": "custom",
+            "name": "Clindamycin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "dcc819f8-64f0-4396-bac1-ca7d7fcab19a",
+            "flabsCode": "FLP0613"
+          },
+          {
+            "key": 8,
+            "field": "custom",
+            "name": "Cefuroxime",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "510cdb6a-7d6f-4ae0-8a43-a0539cccbc61",
+            "flabsCode": "FLP0557"
+          },
+          {
+            "key": 9,
+            "field": "custom",
+            "name": "Doxycycline",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "b30f3955-7714-4877-b82a-c9e721539448",
+            "flabsCode": "FLP0782"
+          }
+        ]
+      },
+      "_id": "688268c1124d8484d8878c9b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c44d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0988",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.012Z",
+  "updatedAt": "2025-07-21T19:17:56.012Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,220 @@
+{
+  "_id": "6a86cc035953b1dd0a17b485",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BONE MARROW BIOPSY",
+  "code": "1646",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "GROSS EXAMINATION",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Specimen Received",
+            "formulaId": "48fcb3be-91f5-4296-a6db-f9a57936d353",
+            "flabsCode": "FLP1943"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Size\t",
+            "units": "cm",
+            "formulaId": "68a45e13-a543-4ad2-a4ad-83372784a0eb",
+            "flabsCode": "FLP0623"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Consistency",
+            "formulaId": "fdb9ebbb-b525-41f3-8913-f73fdf7b07aa",
+            "flabsCode": "FLP2274"
+          },
+          {
+            "key": 3,
+            "field": "numeric",
+            "name": "Fixation",
+            "formulaId": "4adfc8bd-2da3-445c-9942-718eedaa0d42",
+            "flabsCode": "FLP0944"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Processing",
+            "formulaId": "bbbd6f41-bf91-4fc1-acbe-90e6f7e557be"
+          }
+        ]
+      },
+      "_id": "68827374124d8484d88a5c81"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "MICROSCOPIC EXAMINATION",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Adequacy of Biopsy",
+            "formulaId": "ad75e1c8-50d2-4088-8b39-367865819cd3",
+            "flabsCode": "FLP0160"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Marrow Cellularity",
+            "formulaId": "6cfd75e3-c566-41b8-a5fa-162184d678a1",
+            "flabsCode": "FLP1433"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Erythropoiesis",
+            "formulaId": "e77c8177-e32a-4e24-8c11-a7b49bd23e30",
+            "flabsCode": "FLP0837"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Myelopoiesis",
+            "formulaId": "1e1c293c-3e1a-4b2a-8523-4fb571af4b0b",
+            "flabsCode": "FLP1520"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Megakaryocytes",
+            "formulaId": "1415c937-01a0-41ef-a886-b394c8209e9a",
+            "flabsCode": "FLP1447"
+          },
+          {
+            "key": 5,
+            "field": "text",
+            "name": "Lymphoid Cells",
+            "formulaId": "25e11efe-0960-4d0c-a61c-79b76df51587",
+            "flabsCode": "FLP1384"
+          },
+          {
+            "key": 6,
+            "field": "numeric_unbound",
+            "name": "Plasma Cells",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "5"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "5"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "5"
+                }
+              }
+            },
+            "units": "%",
+            "formulaId": "b34f1c04-56d5-46f5-8079-a5ea23e65690",
+            "flabsCode": "FLP1732"
+          },
+          {
+            "key": 7,
+            "field": "text",
+            "name": "Fibrosis",
+            "formulaId": "1cadaa28-6dab-4713-87a7-70a461ffdba9",
+            "flabsCode": "FLP0940"
+          },
+          {
+            "key": 8,
+            "field": "text",
+            "name": "Abnormal Cells / Infiltrate",
+            "formulaId": "dda980ce-acaf-4f5c-8c2a-c98e04f0930b",
+            "flabsCode": "FLP0143"
+          },
+          {
+            "key": 9,
+            "field": "text",
+            "name": "Granulomas / Necrosis / Others",
+            "formulaId": "a63db13c-e9dd-4a0c-81d1-78db96713164",
+            "flabsCode": "FLP1054"
+          }
+        ]
+      },
+      "_id": "68827374124d8484d88a5c82"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2ed",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0573",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.106Z",
+  "updatedAt": "2025-07-21T19:17:54.106Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

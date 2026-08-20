@@ -1,0 +1,200 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a4ce",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HEAVY METALS PROFILE-I (URINE)",
+  "code": "1113",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1291\" data-end=\"1828\">\n<li data-start=\"1291\" data-end=\"1395\">\n<p data-start=\"1293\" data-end=\"1326\"><span style=\"font-size: 11px;\"><strong data-start=\"1293\" data-end=\"1324\">Normal / Background Levels:</strong></span></p>\n<ul data-start=\"1329\" data-end=\"1395\">\n<li style=\"font-size: 11px;\" data-start=\"1329\" data-end=\"1395\">\n<p data-start=\"1331\" data-end=\"1395\"><span style=\"font-size: 11px;\">Metals within above ranges indicate <strong data-start=\"1367\" data-end=\"1394\">no significant exposure</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"1397\" data-end=\"1646\">\n<p data-start=\"1399\" data-end=\"1421\"><span style=\"font-size: 11px;\"><strong data-start=\"1399\" data-end=\"1419\">Elevated Levels:</strong></span></p>\n<ul data-start=\"1424\" data-end=\"1646\">\n<li style=\"font-size: 11px;\" data-start=\"1424\" data-end=\"1507\">\n<p data-start=\"1426\" data-end=\"1507\"><span style=\"font-size: 11px;\">Suggest <strong data-start=\"1434\" data-end=\"1504\">occupational or environmental exposure, contamination, or toxicity</strong>.</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"1510\" data-end=\"1646\">\n<p data-start=\"1512\" data-end=\"1646\"><span style=\"font-size: 11px;\">Specific thresholds (e.g., Lead &gt;20 &micro;g/L, Mercury &gt;50 &micro;g/L, Arsenic &gt;50 &micro;g/L) suggest <strong data-start=\"1598\" data-end=\"1645\">significant exposure requiring intervention</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"1648\" data-end=\"1828\">\n<p data-start=\"1650\" data-end=\"1677\"><span style=\"font-size: 11px;\"><strong data-start=\"1650\" data-end=\"1675\">Clinical Correlation:</strong></span></p>\n<ul data-start=\"1680\" data-end=\"1828\">\n<li style=\"font-size: 11px;\" data-start=\"1680\" data-end=\"1828\">\n<p data-start=\"1682\" data-end=\"1828\"><span style=\"font-size: 11px;\">Must be correlated with <strong data-start=\"1706\" data-end=\"1827\">symptoms (neurologic, renal, GI), exposure history, and confirmatory tests (blood levels, 24-hr urine, hair analysis)</strong>.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lead (Pb) – Urine",
+        "field": "numeric_unbound",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "373eb806-ca33-4256-a371-6e2acb778ad0",
+        "flabsCode": "FLP1345"
+      },
+      "_id": "688556064c9e1585202dc899"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mercury (Hg) – Urine",
+        "field": "numeric_unbound",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "10"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "10"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "10"
+            }
+          }
+        },
+        "formulaId": "a7aa28dc-9b16-47fd-a867-0c5ef783d296",
+        "flabsCode": "FLP1453"
+      },
+      "_id": "688556064c9e1585202dc89a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Arsenic (As) – Urine",
+        "field": "numeric_unbound",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "35"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "35"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "35"
+            }
+          }
+        },
+        "formulaId": "636d1b17-7d42-4862-8a17-e92f993ec509",
+        "flabsCode": "FLP0277"
+      },
+      "_id": "688556064c9e1585202dc89b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cadmium (Cd) – Urine",
+        "field": "numeric_unbound",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "2"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "2"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "2"
+            }
+          }
+        },
+        "formulaId": "0d72c4ba-1f26-4cc7-ac74-c2e73925587a",
+        "flabsCode": "FLP0532"
+      },
+      "_id": "688556064c9e1585202dc89c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urinary Creatinine (for correction)",
+        "field": "text",
+        "units": "g/L",
+        "formulaId": "824d1cf6-03aa-4346-b2e0-40734a954db6",
+        "flabsCode": "FLP2207"
+      },
+      "_id": "688556064c9e1585202dc89d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c18a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0128",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.519Z",
+  "updatedAt": "2025-07-21T19:17:52.519Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

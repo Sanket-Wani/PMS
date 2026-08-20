@@ -1,0 +1,241 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b614",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FATTY ACIDS WITH VERY LONG CHAINS C22 TO C26",
+  "code": "1084",
+  "cost": 0,
+  "interpretation": "<table class=\"border-borderMain my-[1em] w-full table-auto border\">\n<thead class=\"bg-offset\">\n<tr>\n<th class=\"border-borderMain px-sm py-sm dark:border-borderMainDark break-normal border text-left align-top\"><span style=\"font-size: 10px;\">Analyte</span></th>\n<th class=\"border-borderMain px-sm py-sm dark:border-borderMainDark break-normal border text-left align-top\"><span style=\"font-size: 10px;\">Interpretation</span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">VLCFA results within reference limits</span></td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">No laboratory evidence of a peroxisomal disorder</span></td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">&uarr; C26:0 or &uarr; ratios (C24:0/C22:0, C26:0/C22:0)</span></td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">Suggestive of peroxisomal disorder (e.g., X-linked adrenoleukodystrophy, Zellweger spectrum)&nbsp;</span></td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">&uarr; Phytanic/Pristanic acid</span></td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">May indicate Refsum disease or other rare peroxisomal disorders&nbsp;</span></td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">Mildly increased VLCFA</span></td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\"><span style=\"font-size: 10px;\">May occur in heterozygous carriers or with improper fasting</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "C22:0 (Behenic Acid)",
+        "field": "numeric",
+        "units": "µmol/L",
+        "formulaId": "7ca9c6ec-f12d-4698-9613-c4cbe753e2ea",
+        "flabsCode": "FLP0404"
+      },
+      "_id": "68834910854b0c2c6987ae1b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "C24:0 (Lignoceric Acid)",
+        "field": "numeric",
+        "units": "µmol/L",
+        "formulaId": "93464509-e3a3-423b-a251-a634f0b2da75",
+        "flabsCode": "FLP0405"
+      },
+      "_id": "68834910854b0c2c6987ae1c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "C26:0 (Hexacosanoic Acid)",
+        "field": "numeric",
+        "units": "µmol",
+        "range": {
+          "default": {
+            "male-range-min": "0.24",
+            "male-range-max": "1.19",
+            "female-range-max": "1.19",
+            "female-range-min": "0.24",
+            "child-range-max": "1.19",
+            "child-range-min": "0.24"
+          }
+        },
+        "formulaId": "8641f5df-a4c1-4cf0-8964-56cbd716eae8",
+        "flabsCode": "FLP0407"
+      },
+      "_id": "68834910854b0c2c6987ae1d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "C24:0/C22:0 Ratio",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "1.06"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "1.06"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "1.06"
+            }
+          }
+        },
+        "formulaId": "497dd025-96c0-4f37-b328-5d8fdc04647b",
+        "flabsCode": "FLP0406"
+      },
+      "_id": "68834910854b0c2c6987ae1e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "C26:0/C22:0 Ratio",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "0.021"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "0.021"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.021"
+            }
+          }
+        },
+        "formulaId": "f23d9b2b-2143-4133-839e-51b94ed452a6",
+        "flabsCode": "FLP0408"
+      },
+      "_id": "68834910854b0c2c6987ae1f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pristanic Acid",
+        "field": "numeric_unbound",
+        "units": "µmol",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "1.4"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "1.4"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "1.4"
+            }
+          }
+        },
+        "formulaId": "bf8e67fc-4eb8-4e95-9821-ae157c568ea1",
+        "flabsCode": "FLP1782"
+      },
+      "_id": "68834910854b0c2c6987ae20"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Phytanic Acid",
+        "field": "numeric_unbound",
+        "units": "µmol/L",
+        "rangeReport": "<12.3 µmol/L (age-specific)",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "12.3"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "12.3"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "12.3"
+            }
+          }
+        },
+        "formulaId": "20b65eec-cc4e-4f0a-a154-a7d3a950da19",
+        "flabsCode": "FLP1722"
+      },
+      "_id": "68834910854b0c2c6987ae21"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pristanic/Phytanic Acid Ratio",
+        "field": "numeric",
+        "formulaId": "46728306-b678-4e86-943b-0e501bedc43a",
+        "flabsCode": "FLP1783"
+      },
+      "_id": "68834910854b0c2c6987ae22"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c16e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0095",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.396Z",
+  "updatedAt": "2025-07-21T19:17:52.396Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

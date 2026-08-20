@@ -1,0 +1,288 @@
+{
+  "_id": "6a86cb7aba46c74c6d42f9c0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "RENAL FUNCTION TESTS",
+  "code": "1192",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 99.9506%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td>Urea / BUN</td>\n<td>Elevated in kidney dysfunction, dehydration, high protein intake</td>\n</tr>\n<tr>\n<td>Creatinine</td>\n<td>High levels indicate impaired kidney filtration</td>\n</tr>\n<tr>\n<td>BUN/Creatinine Ratio</td>\n<td>Helps differentiate kidney vs. non-kidney causes of elevation</td>\n</tr>\n<tr>\n<td>Uric Acid</td>\n<td>May be high in kidney disease, gout, or certain cancers</td>\n</tr>\n<tr>\n<td>Electrolytes (Na⁺, K⁺, Cl⁻, HCO₃⁻)</td>\n<td>Show kidney&rsquo;s ability to maintain fluid and acid-base balance</td>\n</tr>\n<tr>\n<td>eGFR</td>\n<td>Most reliable measure of kidney function. Lower values = reduced kidney performance</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Blood Urea",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "15",
+            "male-range-max": "45",
+            "female-range-max": "45",
+            "female-range-min": "15",
+            "child-range-max": "45",
+            "child-range-min": "15"
+          }
+        },
+        "formulaId": "7a85c1fd-8769-4676-9949-9641610843c4",
+        "flabsCode": "FLP0380"
+      },
+      "_id": "6883c56c35738384e793ab39"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Creatinine",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "0.6",
+            "male-range-max": "1.3",
+            "female-range-max": "1.3",
+            "female-range-min": "0.6",
+            "child-range-max": "1.3",
+            "child-range-min": "0.6"
+          }
+        },
+        "formulaId": "45dab409-b462-414d-807a-b4846f7d490c",
+        "flabsCode": "FLP1980"
+      },
+      "_id": "6883c56c35738384e793ab3a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urea Nitrogen (BUN)",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "7",
+            "male-range-max": "20",
+            "female-range-max": "20",
+            "female-range-min": "7",
+            "child-range-max": "20",
+            "child-range-min": "7"
+          }
+        },
+        "formulaId": "38ddda5c-ee6c-4543-b644-0ee692b021f2",
+        "flabsCode": "FLP2203"
+      },
+      "_id": "6883c56c35738384e793ab3b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BUN/Creatinine Ratio",
+        "field": "numeric",
+        "units": "Ratio",
+        "range": {
+          "default": {
+            "male-range-min": "10:1",
+            "male-range-max": "20:1",
+            "female-range-max": "20:1",
+            "female-range-min": "10:1",
+            "child-range-max": "20:1",
+            "child-range-min": "10:1"
+          }
+        },
+        "formulaId": "c507b91a-e893-43da-8b30-8a2fcd62744f",
+        "flabsCode": "FLP0337"
+      },
+      "_id": "6883c56c35738384e793ab3c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Uric Acid",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "3.4",
+            "male-range-max": "7.0",
+            "female-range-max": "7.0",
+            "female-range-min": "3.4",
+            "child-range-max": "7.0",
+            "child-range-min": "3.4"
+          }
+        },
+        "formulaId": "070ae9de-73f9-4c68-9c42-9a50796af29b",
+        "flabsCode": "FLP1994"
+      },
+      "_id": "6883c56c35738384e793ab3d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Sodium (Na⁺)",
+        "field": "numeric",
+        "units": "mmol/L",
+        "range": {
+          "default": {
+            "male-range-min": "135",
+            "male-range-max": "145",
+            "female-range-max": "145",
+            "female-range-min": "135",
+            "child-range-max": "145",
+            "child-range-min": "135"
+          }
+        },
+        "formulaId": "1ea71b68-7971-4ed0-8d4c-4e5d3e7c7170",
+        "flabsCode": "FLP1988"
+      },
+      "_id": "6883c56c35738384e793ab3e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Potassium (K⁺)",
+        "field": "numeric",
+        "units": "mmol/L",
+        "range": {
+          "default": {
+            "male-range-min": "3.5",
+            "male-range-max": "5.1",
+            "female-range-max": "5.1",
+            "female-range-min": "3.5",
+            "child-range-max": "5.1",
+            "child-range-min": "3.5"
+          }
+        },
+        "formulaId": "8cdd6595-30c9-4ebb-a71c-67c686705fa5",
+        "flabsCode": "FLP1986"
+      },
+      "_id": "6883c56c35738384e793ab3f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Chloride (Cl⁻)",
+        "field": "numeric",
+        "units": "mmol/L",
+        "range": {
+          "default": {
+            "male-range-min": "96",
+            "male-range-max": "106",
+            "female-range-max": "106",
+            "female-range-min": "96",
+            "child-range-max": "106",
+            "child-range-min": "96"
+          }
+        },
+        "formulaId": "71582254-a629-4d1d-9877-73a031d68c2b",
+        "flabsCode": "FLP1978"
+      },
+      "_id": "6883c56c35738384e793ab40"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Bicarbonate (HCO₃⁻)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "22",
+            "male-range-max": "29",
+            "female-range-max": "29",
+            "female-range-min": "22",
+            "child-range-max": "29",
+            "child-range-min": "22"
+          }
+        },
+        "units": "mmol/L",
+        "formulaId": "09efd0b9-d7b3-4b83-bb1e-2e770f0378e1",
+        "flabsCode": "FLP1976"
+      },
+      "_id": "6883c56c35738384e793ab41"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Estimated GFR (eGFR)",
+        "field": "multiple_ranges",
+        "units": "mL/min/1.73m²",
+        "range": {
+          "default": {
+            "male-range": "> 90 = Normal",
+            "female-range": "> 90 = Normal",
+            "child-range": "> 90 = Normal"
+          }
+        },
+        "formulaId": "90a956aa-74c0-493c-b517-593abb2a8587",
+        "flabsCode": "FLP0839"
+      },
+      "_id": "6883c56c35738384e793ab42"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1cc",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0201",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.824Z",
+  "updatedAt": "2025-07-21T19:17:52.824Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

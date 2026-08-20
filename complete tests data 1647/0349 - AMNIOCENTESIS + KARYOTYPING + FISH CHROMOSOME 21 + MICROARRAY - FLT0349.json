@@ -1,0 +1,199 @@
+{
+  "_id": "6a86cbbbba46c74c6d435f67",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AMNIOCENTESIS + KARYOTYPING + FISH CHROMOSOME 21 + MICROARRAY",
+  "code": "1392",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2302\" data-end=\"2507\">\n<p data-start=\"2305\" data-end=\"2327\"><span style=\"font-size: 10px;\"><strong data-start=\"2305\" data-end=\"2325\">Normal Findings:</strong></span></p>\n<ul data-start=\"2331\" data-end=\"2507\">\n<li style=\"font-size: 10px;\" data-start=\"2331\" data-end=\"2404\">\n<p data-start=\"2333\" data-end=\"2404\"><span style=\"font-size: 10px;\">Karyotype: 46,XX or 46,XY (No numerical or structural abnormalities).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2408\" data-end=\"2461\">\n<p data-start=\"2410\" data-end=\"2461\"><span style=\"font-size: 10px;\">FISH: Two signals for Chromosome 21 (no trisomy).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2465\" data-end=\"2507\">\n<p data-start=\"2467\" data-end=\"2507\"><span style=\"font-size: 10px;\">Microarray: No pathogenic CNVs detected.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2509\" data-end=\"2769\">\n<p data-start=\"2512\" data-end=\"2536\"><span style=\"font-size: 10px;\"><strong data-start=\"2512\" data-end=\"2534\">Abnormal Findings:</strong></span></p>\n<ul data-start=\"2540\" data-end=\"2769\">\n<li style=\"font-size: 10px;\" data-start=\"2540\" data-end=\"2636\">\n<p data-start=\"2542\" data-end=\"2636\"><span style=\"font-size: 10px;\"><strong data-start=\"2542\" data-end=\"2573\">Trisomy 21 (Down Syndrome):</strong> Three signals in FISH and confirmed by karyotype/microarray.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2640\" data-end=\"2769\">\n<p data-start=\"2642\" data-end=\"2769\"><span style=\"font-size: 10px;\"><strong data-start=\"2642\" data-end=\"2678\">Other Chromosomal Abnormalities:</strong> Structural rearrangements, duplications, deletions, or microdeletions noted by microarray.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2771\" data-end=\"2966\">\n<p data-start=\"2774\" data-end=\"2801\"><span style=\"font-size: 10px;\"><strong data-start=\"2774\" data-end=\"2799\">Clinical Correlation:</strong></span></p>\n<ul data-start=\"2805\" data-end=\"2966\">\n<li style=\"font-size: 10px;\" data-start=\"2805\" data-end=\"2899\">\n<p data-start=\"2807\" data-end=\"2899\"><span style=\"font-size: 10px;\">Results must be correlated with ultrasound, maternal history, and other prenatal findings.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2903\" data-end=\"2966\">\n<p data-start=\"2905\" data-end=\"2966\"><span style=\"font-size: 10px;\">Genetic counseling is advised if any abnormality is detected.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cell Culture Success",
+        "field": "custom",
+        "options": [
+          "Successful ",
+          "Unsuccessful"
+        ],
+        "formulaId": "6577126d-26cc-42f2-b901-ed953a9fd957",
+        "flabsCode": "FLP0558"
+      },
+      "_id": "6885356d4c9e1585202d5bc4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Karyotype Result",
+        "field": "text",
+        "formulaId": "09e79a54-6eda-4b57-a685-bbe8dc8e0d25",
+        "flabsCode": "FLP1302"
+      },
+      "_id": "6885356d4c9e1585202d5bc5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome Count",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "46 (Normal)",
+            "female-range": "46 (Normal)",
+            "child-range": "46 (Normal)"
+          }
+        },
+        "formulaId": "6531aad5-9e30-4c3e-9cbf-7042756b2126",
+        "flabsCode": "FLP0599"
+      },
+      "_id": "6885356d4c9e1585202d5bc6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Structural Abnormalities",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "720f6512-17f7-44aa-beec-6581ae9599d6",
+        "flabsCode": "FLP2039"
+      },
+      "_id": "6885356d4c9e1585202d5bc7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH – Chromosome 21",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "5cffe27e-182a-4251-be69-d87295fe232b",
+        "flabsCode": "FLP0889"
+      },
+      "_id": "6885356d4c9e1585202d5bc8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Microarray ",
+        "field": "text",
+        "formulaId": "5d3182e1-c11c-46fb-9fd1-e276d96f930d",
+        "flabsCode": "FLP1474"
+      },
+      "_id": "6885356d4c9e1585202d5bc9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Microarray Resolution\t",
+        "field": "numeric",
+        "units": "kb",
+        "range": {
+          "default": {
+            "male-range-min": "50",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "50",
+            "child-range-max": "100",
+            "child-range-min": "50"
+          }
+        },
+        "formulaId": "4eb858aa-b4c1-4cc9-8ee3-9354a7142a1d",
+        "flabsCode": "FLP1475"
+      },
+      "_id": "6885356d4c9e1585202d5bca"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensitivity of Test",
+        "field": "text",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": "Detects aneuploidies ≥10–20% mosaicism and CNVs ≥50 kb",
+            "female-range": "Detects aneuploidies ≥10–20% mosaicism and CNVs ≥50 kb",
+            "child-range": "Detects aneuploidies ≥10–20% mosaicism and CNVs ≥50 kb"
+          }
+        },
+        "formulaId": "eff2787e-4caa-45d8-8dd6-59789f69acae",
+        "flabsCode": "FLP1959"
+      },
+      "_id": "6885356d4c9e1585202d5bcb"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c229",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0349",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.249Z",
+  "updatedAt": "2025-07-21T19:17:53.249Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

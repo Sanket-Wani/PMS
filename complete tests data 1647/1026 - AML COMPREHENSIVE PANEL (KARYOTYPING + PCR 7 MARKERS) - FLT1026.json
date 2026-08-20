@@ -1,0 +1,161 @@
+{
+  "_id": "6a86cc815953b1dd0a189efc",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AML COMPREHENSIVE PANEL (KARYOTYPING + PCR 7 MARKERS)",
+  "code": "2265",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1532\" data-end=\"1654\">\n<p data-start=\"1534\" data-end=\"1654\"><span style=\"font-size: 9px;\">This comprehensive AML panel helps in <strong data-start=\"1572\" data-end=\"1626\">diagnosis, prognostication, and treatment planning</strong> for Acute Myeloid Leukemia.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1655\" data-end=\"1761\">\n<p data-start=\"1657\" data-end=\"1761\"><span style=\"font-size: 9px;\"><strong data-start=\"1657\" data-end=\"1672\">Karyotyping</strong> identifies chromosomal abnormalities such as translocations, deletions, or duplications.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1762\" data-end=\"2096\">\n<p data-start=\"1764\" data-end=\"1823\"><span style=\"font-size: 9px;\"><strong data-start=\"1764\" data-end=\"1779\">PCR markers</strong> detect common molecular alterations in AML:</span></p>\n<ul data-start=\"1826\" data-end=\"2096\">\n<li style=\"font-size: 9px;\" data-start=\"1826\" data-end=\"1912\">\n<p data-start=\"1828\" data-end=\"1912\"><span style=\"font-size: 9px;\"><strong data-start=\"1828\" data-end=\"1845\">RUNX1-RUNX1T1</strong> and <strong data-start=\"1850\" data-end=\"1864\">CBFB-MYH11</strong>: Good prognosis (core-binding factor leukemias)</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1915\" data-end=\"1974\">\n<p data-start=\"1917\" data-end=\"1974\"><span style=\"font-size: 9px;\"><strong data-start=\"1917\" data-end=\"1929\">PML-RARA</strong>: Confirms Acute Promyelocytic Leukemia (APL)</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1977\" data-end=\"2029\">\n<p data-start=\"1979\" data-end=\"2029\"><span style=\"font-size: 9px;\"><strong data-start=\"1979\" data-end=\"1997\">FLT3 mutations</strong>: Associated with poor prognosis</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"2032\" data-end=\"2096\">\n<p data-start=\"2034\" data-end=\"2096\"><span style=\"font-size: 9px;\"><strong data-start=\"2034\" data-end=\"2052\">NPM1 and CEBPA</strong>: Favorable prognosis if FLT3 is not mutated</span></p>\n<p data-start=\"2098\" data-end=\"2111\"><strong><span style=\"font-size: 9px;\">&nbsp; &nbsp;deal for:</span></strong></p>\n</li>\n</ul>\n</li>\n</ul>\n<ul>\n<li style=\"list-style-type: none;\">\n<ul>\n<li style=\"list-style-type: none;\">\n<ul data-start=\"2112\" data-end=\"2242\">\n<li style=\"font-size: 9px;\" data-start=\"2112\" data-end=\"2146\">\n<p data-start=\"2114\" data-end=\"2146\"><span style=\"font-size: 9px;\">Baseline workup of new AML cases</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"2147\" data-end=\"2190\">\n<p data-start=\"2149\" data-end=\"2190\"><span style=\"font-size: 9px;\">Monitoring minimal residual disease (MRD)</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"2191\" data-end=\"2242\">\n<p data-start=\"2193\" data-end=\"2242\"><span style=\"font-size: 9px;\">Guiding therapy decisions (e.g., FLT3 inhibitors)</span></p>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Karyotyping",
+        "field": "text",
+        "formulaId": "ebd4793b-68f3-4ebf-b7ca-39d42259ad5f",
+        "flabsCode": "FLP0662"
+      },
+      "_id": "688512f70a49ec91807ff027"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RUNX1-RUNX1T1 (AML1-ETO)\t",
+        "field": "numeric",
+        "formulaId": "5af27d5b-d6dc-4bf9-b04a-4cb71b6529bc",
+        "flabsCode": "FLP1835"
+      },
+      "_id": "688512f70a49ec91807ff028"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CBFB-MYH11\t",
+        "field": "numeric",
+        "formulaId": "434fbb19-b6fd-4b34-b6b1-e16c5720cfd5",
+        "flabsCode": "FLP0427"
+      },
+      "_id": "688512f70a49ec91807ff029"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PML-RARA\t",
+        "field": "numeric",
+        "formulaId": "4a169dc7-0cad-42ea-b9c8-d3d25339812d",
+        "flabsCode": "FLP1654"
+      },
+      "_id": "688512f70a49ec91807ff02a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "NPM1 Mutation\t",
+        "field": "numeric",
+        "formulaId": "3dff185f-fe45-4992-b1b6-305377ee5520",
+        "flabsCode": "FLP1538"
+      },
+      "_id": "688512f70a49ec91807ff02b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FLT3-ITD Mutation\t",
+        "field": "numeric",
+        "formulaId": "44add5a1-9f24-4358-ae42-714d0acc43fb",
+        "flabsCode": "FLP0892"
+      },
+      "_id": "688512f70a49ec91807ff02c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FLT3-TKD Mutation\t",
+        "field": "numeric",
+        "formulaId": "9378312f-5e7e-4f86-9b63-8817038ec26d",
+        "flabsCode": "FLP0893"
+      },
+      "_id": "688512f70a49ec91807ff02d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CEBPA Mutation\t",
+        "field": "numeric",
+        "formulaId": "d78ef5fa-ba9f-4404-b193-162baf784c6a",
+        "flabsCode": "FLP0451"
+      },
+      "_id": "688512f70a49ec91807ff02e"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c465",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1026",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.107Z",
+  "updatedAt": "2025-07-21T19:17:56.107Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

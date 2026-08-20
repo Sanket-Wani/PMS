@@ -1,0 +1,130 @@
+{
+  "_id": "6a86cca292e2891d948eb4fd",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HCV COMBO",
+  "code": "2360",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 10px;\">*Due to either low/no viral load</span></p>\n<p><br><span style=\"font-size: 10px;\"><strong>INTERPRETATION :</strong></span></p>\n<ul>\n<li style=\"font-size: 10px;\">\n<p><span style=\"font-size: 10px;\">A \"DETECTED\" result indicates the degree of active HCV viral replication in the patient.</span></p>\n</li>\n<li style=\"font-size: 10px;\">\n<p><span style=\"font-size: 10px;\">A \"NOT - DETECTED\" result indicates that either absence of HCV RNA in patients specimen or HCV RNA level is below the limit of quantification of this assay.</span></p>\n</li>\n</ul>\n<p><span style=\"font-size: 10px;\"><strong>NOTE</strong></span></p>\n<ul>\n<li><span style=\"font-size: 10px;\">Conversion factor: Result (Copies/ml) = Result (IU/ml) X 1.0</span></li>\n<li><span style=\"font-size: 10px;\">Limit of Quantification: 50 IU/ml</span></li>\n<li><span style=\"font-size: 10px;\">Linear range: 50 - 5 X 10<sup>6&nbsp;</sup>IU/mL</span></li>\n</ul>\n<p><span style=\"font-size: 10px;\"><strong>METHODOLOGY DETAILS :</strong></span><br><span style=\"font-size: 10px;\">HCV RNA is extracted from serum/plasma by automatic extraction machine based on magnetic bead technology.</span><br><span style=\"font-size: 10px;\">Purified RNA is then amplified and quantified using real time PCR technology.</span><br><span style=\"font-size: 10px;\">Extraction and Amplification Controls (IC) are incorporated in each run to ensure more accurate and precise detection of RNA.</span><br><br><span style=\"font-size: 10px;\"><strong>PATHOGEN INFORMATION :</strong></span><br><span style=\"font-size: 10px;\">Hepatitis C is an infectious disease caused by Hepatitis C virus (HCV), which can lead to inflammation and significant damage in the liver. Although it predominantly infects the cells of the liver, it can also affect other parts of the body. During the acute phase following the initial infection of HCV, it is generally asymptomatic and clinically undetectable. About 85 % of the acute infections become chronic and the remaining naturally get cured. In rare cases, acute hepatitis is accompanied by jaundice, malaise, weakness and anorexia. It is estimated that 74 to 86 % of individuals with the acute infection develop persistent viremia, which subsequently leads to chronic infection and possibly to cirrhosis or hepatocellular carcinoma. The conventional diagnostic methods include serological testing and liver biopsy. Since HCV cannot be cultured in the clinical laboratory, a sensitive molecular testing is needed to confirm the presence of the virus such as quantitative real-time PCR.</span><br><br><span style=\"font-size: 10px;\"><strong>Clinical Significance:</strong></span></p>\n<ul>\n<li><span style=\"font-size: 10px;\">This test is useful in predicting the prognosis in patients with chronic hepatitis C (HCV) infection.</span></li>\n<li><span style=\"font-size: 10px;\">HCV genotype determination is useful to guide antiviral therapy in patients with HCV.</span></li>\n<li><span style=\"font-size: 10px;\">Isolates of HCV are grouped into six major genotypes (Genotype 1-6). These genotypes are sub-typed according to sequence characteristics.</span></li>\n</ul>\n<p><span style=\"font-size: 10px;\"><strong>Test Details: </strong></span></p>\n<ul>\n<li><span style=\"font-size: 10px;\">The test allows accurate detection and differentiation of major HCV subtypes i.e. HCV 1, 1a, 2 (2a/2b), 3, 4, 5a and 6.</span></li>\n<li><span style=\"font-size: 10px;\">The test is highly sensitive to detect HCV genotypes in clinical samples with viral load &ndash; sensitivity of HCV genotyping &ndash; 500 IU/ml.</span></li>\n</ul>\n<p><span style=\"font-size: 10px;\"><strong>Limitations:</strong></span></p>\n<ul>\n<li><span style=\"font-size: 10px;\">This test should not be used for screening of blood or blood products or as a diagnostic test to confirm the presence of HCV infection.</span></li>\n<li><span style=\"font-size: 10px;\">Indeterminate result indicates inability to classify the sample provided due to presence of inhibitors, low viral load, probe reactivity with multiple genotypes, variations in HCV genotype target sequence. Sanger sequencing is recommended in such cases.</span></li>\n<li><span style=\"font-size: 10px;\">Although all precautions are taken during RNA tests, the currently available data indicates that the technical error rate for all types of RNA analysis is approximately 2%. It is important that all clinicians or persons requesting RNA diagnostic tests are aware of these data before acting upon these results.</span></li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "HCV-RNA BY RT-PCR (QUANTITATIVE)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "RESULT",
+            "options": [
+              "Detected",
+              "Not-Detected"
+            ],
+            "formulaId": "adec6ff4-7ed3-4a7c-8776-3e71c5b4927b"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Value",
+            "units": "IU/ml",
+            "formulaId": "f32c4a56-7e61-42e6-b20d-3fde0f4ba0da"
+          },
+          {
+            "key": 2,
+            "field": "numeric",
+            "name": "Log",
+            "units": "Log IU/ml",
+            "formulaId": "3b4df62d-213b-43ae-9791-a0816643a0ce"
+          }
+        ]
+      },
+      "_id": "678e1410e7a517858e33d191"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "HEPATITIS C VIRUS (HCV) GENOTYPE",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "HCV GENOTYPE",
+            "formulaId": "b8a5313c-d203-469c-b618-6b17910f0137",
+            "flabsCode": "FLP1075"
+          }
+        ]
+      },
+      "_id": "678e1410e7a517858e33d192"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4c1",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1118",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.522Z",
+  "updatedAt": "2025-07-21T19:17:56.522Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,154 @@
+{
+  "_id": "6a86ccf2ba46c74c6d45f223",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY DRUG-LIDOCAINE, HAS",
+  "code": "2631",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2327\" data-end=\"2400\">\n<p data-start=\"2329\" data-end=\"2400\"><strong data-start=\"2329\" data-end=\"2340\">Result:</strong> Positive / Negative for hypersensitivity to <strong data-start=\"2385\" data-end=\"2398\">Lidocaine</strong></p>\n</li>\n<li data-start=\"2401\" data-end=\"2481\">\n<p data-start=\"2403\" data-end=\"2481\">Clinical correlation advised with patient's history and prior drug exposure.</p>\n</li>\n<li data-start=\"2482\" data-end=\"2680\">\n<p data-start=\"2484\" data-end=\"2505\"><strong data-start=\"2484\" data-end=\"2503\">Recommendation:</strong></p>\n<ul data-start=\"2508\" data-end=\"2680\">\n<li data-start=\"2508\" data-end=\"2569\">\n<p data-start=\"2510\" data-end=\"2569\">Avoid use of Lidocaine in future procedures (if positive)</p>\n</li>\n<li data-start=\"2572\" data-end=\"2643\">\n<p data-start=\"2574\" data-end=\"2643\">Consider alternate local anesthetics (e.g., Bupivacaine, Articaine)</p>\n</li>\n<li data-start=\"2646\" data-end=\"2680\">\n<p data-start=\"2648\" data-end=\"2680\">Allergy card advised for patient.</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Skin Prick Test",
+        "field": "text",
+        "formulaId": "d6854cf2-b49d-419b-84eb-4a2bc4391f3e",
+        "flabsCode": "FLP2006"
+      },
+      "_id": "68826c17124d8484d888118b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Intradermal Test",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "0e008517-4e39-416d-b6da-95b56066577a",
+        "flabsCode": "FLP1276"
+      },
+      "_id": "68826c17124d8484d888118c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Control (Histamine)",
+        "field": "numeric",
+        "units": "mm",
+        "formulaId": "9c2cef80-fa90-4144-8e32-a1563b9cdf76",
+        "flabsCode": "FLP0659"
+      },
+      "_id": "68826c17124d8484d888118d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Control (Saline)",
+        "field": "numeric",
+        "units": "mm",
+        "formulaId": "f71f8f36-fd3a-41a2-9980-1636808dea92",
+        "flabsCode": "FLP0660"
+      },
+      "_id": "68826c17124d8484d888118e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specific IgE to Lidocaine",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.35"
+            }
+          }
+        },
+        "units": "kU/L",
+        "formulaId": "ebac7f66-c5de-44ed-9108-4ebb82036b42",
+        "flabsCode": "FLP2023"
+      },
+      "_id": "68826c17124d8484d888118f"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5a9",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1357",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.553Z",
+  "updatedAt": "2025-07-21T19:17:57.553Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

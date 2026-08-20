@@ -1,0 +1,224 @@
+{
+  "_id": "6a86cc91ba46c74c6d4531a5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "COMMON NEUROLOGICAL/NEUROMUSCULAR DISEASES GENE PANEL",
+  "code": "2309",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DMD",
+        "field": "text",
+        "flabsCode": "FLP0737"
+      },
+      "_id": "68811f1a7ff2db489c2edb02"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SMN1",
+        "field": "text",
+        "flabsCode": "FLP1917"
+      },
+      "_id": "68811f1a7ff2db489c2edb03"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PMP22",
+        "field": "text",
+        "flabsCode": "FLP1656"
+      },
+      "_id": "68811f1a7ff2db489c2edb04"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "GAA",
+        "field": "text",
+        "flabsCode": "FLP0984"
+      },
+      "_id": "68811f1a7ff2db489c2edb05"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CACNA1A",
+        "field": "text",
+        "flabsCode": "FLP0418"
+      },
+      "_id": "68811f1a7ff2db489c2edb06"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "POLG",
+        "field": "text",
+        "flabsCode": "FLP1658"
+      },
+      "_id": "68811f1a7ff2db489c2edb07"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CPT2",
+        "field": "text",
+        "flabsCode": "FLP0506"
+      },
+      "_id": "68811f1a7ff2db489c2edb08"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RYR1",
+        "field": "text",
+        "flabsCode": "FLP1836"
+      },
+      "_id": "68811f1a7ff2db489c2edb09"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "COL6A1, COL6A2, COL6A3",
+        "field": "text",
+        "flabsCode": "FLP0488"
+      },
+      "_id": "68811f1a7ff2db489c2edb0a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MFN2",
+        "field": "text",
+        "flabsCode": "FLP1398"
+      },
+      "_id": "68811f1a7ff2db489c2edb0b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SPG4 (SPASt)",
+        "field": "text",
+        "flabsCode": "FLP1928"
+      },
+      "_id": "68811f1a7ff2db489c2edb0c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SLC2A1",
+        "field": "text",
+        "flabsCode": "FLP1913"
+      },
+      "_id": "68811f1a7ff2db489c2edb0d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "VCP",
+        "field": "text",
+        "flabsCode": "FLP2232"
+      },
+      "_id": "68811f1a7ff2db489c2edb0e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TK2\t",
+        "field": "text",
+        "flabsCode": "FLP2056"
+      },
+      "_id": "68811f1a7ff2db489c2edb0f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MT-ATP6",
+        "field": "text",
+        "flabsCode": "FLP1413"
+      },
+      "_id": "68811f1a7ff2db489c2edb10"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ATP7A",
+        "field": "text",
+        "flabsCode": "FLP0141"
+      },
+      "_id": "68811f1a7ff2db489c2edb11"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c490",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1069",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.291Z",
+  "updatedAt": "2025-07-21T19:17:56.291Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

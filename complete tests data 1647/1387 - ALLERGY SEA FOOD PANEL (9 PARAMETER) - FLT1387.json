@@ -1,0 +1,279 @@
+{
+  "_id": "6a86ccf3ba46c74c6d45f455",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY SEA FOOD PANEL (9 PARAMETER)",
+  "code": "2658",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1719\" data-end=\"2060\">\n<li data-start=\"1719\" data-end=\"1767\">\n<p data-start=\"1721\" data-end=\"1767\"><span style=\"font-size: 10px;\"><strong data-start=\"1721\" data-end=\"1737\">&lt;0.35 kUA/L:</strong> Negative (No sensitization)</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1768\" data-end=\"1826\">\n<p data-start=\"1770\" data-end=\"1826\"><span style=\"font-size: 10px;\"><strong data-start=\"1770\" data-end=\"1790\">0.35&ndash;0.70 kUA/L:</strong> Low / Doubtful clinical relevance</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1827\" data-end=\"1902\">\n<p data-start=\"1829\" data-end=\"1902\"><span style=\"font-size: 10px;\"><strong data-start=\"1829\" data-end=\"1849\">0.70&ndash;3.50 kUA/L:</strong> Moderate sensitization (possible clinical allergy)</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1903\" data-end=\"1973\">\n<p data-start=\"1905\" data-end=\"1973\"><span style=\"font-size: 10px;\"><strong data-start=\"1905\" data-end=\"1926\">3.50&ndash;17.50 kUA/L:</strong> High sensitization (likely clinical allergy)</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1974\" data-end=\"2060\">\n<p data-start=\"1976\" data-end=\"2060\"><span style=\"font-size: 10px;\"><strong data-start=\"1976\" data-end=\"1993\">&gt;17.50 kUA/L:</strong> Very high sensitization (strong likelihood of clinical symptoms)</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Shrimp (IgE)",
+        "field": "custom",
+        "units": "kUA/L",
+        "range": {
+          "default": {
+            "male-range": "<0.35 (Negative)\n",
+            "female-range": "<0.35 (Negative)\n",
+            "child-range": "<0.35 (Negative)\n"
+          }
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "072687a8-99b2-448e-ba5e-fad153b00af5",
+        "flabsCode": "FLP2000"
+      },
+      "_id": "688539f04c9e1585202d9e3e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Crab (IgE)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "units": "kUA/L",
+        "formulaId": "39357155-9451-43cc-a311-ef8e1033a5c7",
+        "flabsCode": "FLP0685"
+      },
+      "_id": "688539f04c9e1585202d9e3f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lobster (IgE)",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "units": "kUA/L",
+        "formulaId": "b1819320-894a-4297-9be9-06763aff8c71",
+        "flabsCode": "FLP1374"
+      },
+      "_id": "688539f04c9e1585202d9e40"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Prawn (IgE)",
+        "field": "custom",
+        "units": "kUA/L",
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "5948fa3c-ecd9-49f7-9196-fb98746ef49f",
+        "flabsCode": "FLP1767"
+      },
+      "_id": "688539f04c9e1585202d9e41"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clam (IgE)",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "units": "kUA/L",
+        "formulaId": "b802de7a-2439-493b-9a69-1a1518a89912",
+        "flabsCode": "FLP0609"
+      },
+      "_id": "688539f04c9e1585202d9e42"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mussel (IgE)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "units": "kUA/L",
+        "formulaId": "944ac4a9-6fad-4816-8e93-a0ef2e22be3e",
+        "flabsCode": "FLP1508"
+      },
+      "_id": "688539f04c9e1585202d9e43"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Oyster (IgE)",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "units": "kUA/L",
+        "formulaId": "1e0c6f14-ff74-46b9-a5a3-f47d727cac25",
+        "flabsCode": "FLP1608"
+      },
+      "_id": "688539f04c9e1585202d9e44"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Squid (IgE)",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "units": "kUA/L",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "ab6ddce4-3362-4fe6-9d56-459be19aeaa3",
+        "flabsCode": "FLP2031"
+      },
+      "_id": "688539f04c9e1585202d9e45"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Scallop (IgE)",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L (Negative)",
+            "female-range": "<0.35 kUA/L (Negative)",
+            "child-range": "<0.35 kUA/L (Negative)"
+          }
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "units": "kUA/L",
+        "formulaId": "097e6166-ad26-4ffd-96f3-9854c24af3d1",
+        "flabsCode": "FLP1947"
+      },
+      "_id": "688539f04c9e1585202d9e46"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5c3",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1387",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.654Z",
+  "updatedAt": "2025-07-21T19:17:57.654Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

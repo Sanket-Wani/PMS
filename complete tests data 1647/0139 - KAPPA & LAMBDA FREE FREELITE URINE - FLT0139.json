@@ -1,0 +1,156 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a4fd",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "KAPPA & LAMBDA FREE FREELITE URINE",
+  "code": "1124",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"844\" data-end=\"1024\">\n<p data-start=\"846\" data-end=\"932\"><span style=\"font-size: 9px;\">Measures <strong data-start=\"855\" data-end=\"893\">free kappa and lambda light chains</strong> in urine to help diagnose and monitor:</span></p>\n<ul data-start=\"935\" data-end=\"1024\">\n<li style=\"font-size: 9px;\" data-start=\"935\" data-end=\"957\">\n<p data-start=\"937\" data-end=\"957\"><span style=\"font-size: 9px;\"><strong data-start=\"937\" data-end=\"957\">Multiple Myeloma</strong></span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"960\" data-end=\"999\">\n<p data-start=\"962\" data-end=\"999\"><span style=\"font-size: 9px;\"><strong data-start=\"962\" data-end=\"999\">Light Chain (Bence-Jones) Myeloma</strong></span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1002\" data-end=\"1024\">\n<p data-start=\"1004\" data-end=\"1024\"><span style=\"font-size: 9px;\"><strong data-start=\"1004\" data-end=\"1024\">Amyloidosis (AL)</strong></span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1025\" data-end=\"1127\">\n<p data-start=\"1027\" data-end=\"1127\"><span style=\"font-size: 9px;\">Abnormal levels or skewed ratio may indicate <strong data-start=\"1072\" data-end=\"1097\">monoclonal gammopathy</strong> or <strong data-start=\"1101\" data-end=\"1126\">plasma cell dyscrasia</strong>.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1128\" data-end=\"1244\">\n<p data-start=\"1130\" data-end=\"1244\"><span style=\"font-size: 9px;\">Often used with <strong data-start=\"1146\" data-end=\"1178\">serum free light chain assay</strong> and <strong data-start=\"1183\" data-end=\"1223\">urine protein electrophoresis (UPEP)</strong> for full evaluation.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free Kappa Light Chain",
+        "field": "numeric_unbound",
+        "units": "mg/L\t",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "5.0",
+              "op": "<"
+            },
+            "female-range": {
+              "value": "5.0",
+              "op": "<"
+            },
+            "child-range": {
+              "value": "5.0",
+              "op": "<"
+            }
+          }
+        },
+        "formulaId": "705b2221-011f-4b5b-aa64-00ad7d51bd34",
+        "flabsCode": "FLP0962"
+      },
+      "_id": "688509480a49ec91807e2f2c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free Lambda Light Chain",
+        "field": "numeric_unbound",
+        "units": "mg/L\t",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "7.5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "7.5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "7.5"
+            }
+          }
+        },
+        "formulaId": "3b132ed4-e5de-4949-bd75-920481832023",
+        "flabsCode": "FLP0965"
+      },
+      "_id": "688509480a49ec91807e2f2d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Kappa/Lambda Ratio",
+        "field": "numeric",
+        "rangeReport": "",
+        "range": {
+          "default": {
+            "male-range-min": "0,26",
+            "male-range-max": "1.65",
+            "female-range-max": "1.65",
+            "female-range-min": "0,26",
+            "child-range-max": "1.65",
+            "child-range-min": "0,26"
+          }
+        },
+        "formulaId": "da243947-42dc-4fee-a818-60b087e76689",
+        "flabsCode": "FLP1301"
+      },
+      "_id": "688509480a49ec91807e2f2e"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c193",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0139",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.560Z",
+  "updatedAt": "2025-07-21T19:17:52.560Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

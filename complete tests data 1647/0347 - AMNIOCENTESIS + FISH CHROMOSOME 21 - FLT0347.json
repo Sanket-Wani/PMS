@@ -1,0 +1,133 @@
+{
+  "_id": "6a86cbbbba46c74c6d435f36",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AMNIOCENTESIS + FISH CHROMOSOME 21",
+  "code": "1390",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"2009\" data-end=\"2503\">\n<li data-start=\"2009\" data-end=\"2107\">\n<p data-start=\"2011\" data-end=\"2036\"><span style=\"font-size: 10px;\"><strong data-start=\"2011\" data-end=\"2034\">Normal (Disomy 21):</strong></span></p>\n<ul data-start=\"2039\" data-end=\"2107\">\n<li style=\"font-size: 10px;\" data-start=\"2039\" data-end=\"2079\">\n<p data-start=\"2041\" data-end=\"2079\"><span style=\"font-size: 10px;\">Two fluorescent signals per nucleus.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2082\" data-end=\"2107\">\n<p data-start=\"2084\" data-end=\"2107\"><span style=\"font-size: 10px;\">No evidence of trisomy.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2109\" data-end=\"2344\">\n<p data-start=\"2111\" data-end=\"2141\"><span style=\"font-size: 10px;\"><strong data-start=\"2111\" data-end=\"2139\">Positive for Trisomy 21:</strong></span></p>\n<ul data-start=\"2144\" data-end=\"2344\">\n<li style=\"font-size: 10px;\" data-start=\"2144\" data-end=\"2227\">\n<p data-start=\"2146\" data-end=\"2227\"><span style=\"font-size: 10px;\">Three fluorescent signals per nucleus in the majority (&gt;70%) of cells analyzed.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2230\" data-end=\"2344\">\n<p data-start=\"2232\" data-end=\"2344\"><span style=\"font-size: 10px;\">Indicates <strong data-start=\"2242\" data-end=\"2259\">Down Syndrome</strong> &ndash; must be confirmed with <strong data-start=\"2285\" data-end=\"2305\">full karyotyping</strong> (to detect translocations, mosaicism).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2346\" data-end=\"2503\">\n<p data-start=\"2348\" data-end=\"2379\"><span style=\"font-size: 10px;\"><strong data-start=\"2348\" data-end=\"2377\">Mosaicism (Intermediate):</strong></span></p>\n<ul data-start=\"2382\" data-end=\"2503\">\n<li style=\"font-size: 10px;\" data-start=\"2382\" data-end=\"2439\">\n<p data-start=\"2384\" data-end=\"2439\"><span style=\"font-size: 10px;\">Mixed population of cells with disomy and trisomy 21.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2442\" data-end=\"2503\">\n<p data-start=\"2444\" data-end=\"2503\"><span style=\"font-size: 10px;\">Requires further genetic counseling and confirmatory tests.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Nuclei Analyzed",
+        "field": "text",
+        "units": "Count",
+        "formulaId": "6dfb46b3-17da-4c05-9706-2b800a76e601",
+        "flabsCode": "FLP1577"
+      },
+      "_id": "6885eaaf082b26291de3a3ba"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Trisomy 21 Detection",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "7b7a787e-db01-4d18-ba3f-8ed57b468898",
+        "flabsCode": "FLP2166"
+      },
+      "_id": "6885eaaf082b26291de3a3bb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Abnormal Cells",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "70",
+              "op": ">"
+            },
+            "female-range": {
+              "value": "70",
+              "op": ">"
+            },
+            "child-range": {
+              "value": "70",
+              "op": ">"
+            }
+          }
+        },
+        "formulaId": "503291a8-ca09-4644-8a8e-3865b9e36496",
+        "flabsCode": "FLP1706"
+      },
+      "_id": "6885eaaf082b26291de3a3bc"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c227",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0347",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.242Z",
+  "updatedAt": "2025-07-21T19:17:53.242Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

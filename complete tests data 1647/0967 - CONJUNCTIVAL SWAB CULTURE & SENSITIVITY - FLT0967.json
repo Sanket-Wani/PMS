@@ -1,0 +1,264 @@
+{
+  "_id": "6a86cc68ba46c74c6d44d5a3",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CONJUNCTIVAL SWAB CULTURE & SENSITIVITY",
+  "code": "2183",
+  "cost": 0,
+  "interpretation": "<table style=\"width: 73.2422%; height: 252.8px;\">\n<thead>\n<tr style=\"height: 34px;\">\n<th style=\"width: 38.093%;\"><span style=\"font-size: 10px;\"><strong>Finding</strong></span></th>\n<th style=\"width: 56.4787%;\"><span style=\"font-size: 10px;\"><strong>Interpretation</strong></span></th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 38.093%;\"><span style=\"font-size: 10px;\">No Growth</span></td>\n<td style=\"width: 56.4787%;\"><span style=\"font-size: 10px;\">No infection or suppressed by prior antibiotics</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 38.093%;\"><span style=\"font-size: 10px;\">Single Pathogen Isolated</span></td>\n<td style=\"width: 56.4787%;\"><span style=\"font-size: 10px;\">Likely cause of conjunctival infection</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 38.093%;\"><span style=\"font-size: 10px;\">Mixed Growth</span></td>\n<td style=\"width: 56.4787%;\"><span style=\"font-size: 10px;\">Possible contamination / co-infection</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 38.093%;\"><span style=\"font-size: 10px;\">Fungal Elements Found</span></td>\n<td style=\"width: 56.4787%;\"><span style=\"font-size: 10px;\">Indicates fungal conjunctivitis</span></td>\n</tr>\n<tr style=\"height: 52.8px;\">\n<td style=\"width: 38.093%;\"><span style=\"font-size: 10px;\">Sensitive to Common Antibiotics</span></td>\n<td style=\"width: 56.4787%;\"><span style=\"font-size: 10px;\">Routine topical antibiotics effective</span></td>\n</tr>\n<tr style=\"height: 33.2px;\">\n<td style=\"width: 38.093%;\"><span style=\"font-size: 10px;\">Resistant Pattern Seen</span></td>\n<td style=\"width: 56.4787%;\"><span style=\"font-size: 10px;\">Adjust therapy; consider ophthalmologist advice</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopy",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Pus Cells",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "8c5e6593-8fc6-4e3c-8bbc-4c559a498a80",
+            "flabsCode": "FLP1803"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Epithelial Cells",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "47a0c603-a48e-4cc6-aee4-d40cbaec3cd2",
+            "flabsCode": "FLP0830"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Organisms Seen",
+            "formulaId": "c496202a-dc10-4152-8f0c-99176f711b40",
+            "flabsCode": "FLP0823"
+          }
+        ]
+      },
+      "_id": "6883c25335738384e79369db"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Organism Isolated",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Bacterial Growth",
+            "formulaId": "dffa0e2a-00f9-4cbf-a2a9-382127594347"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Fungal Growth",
+            "formulaId": "bc70676a-07fe-4f25-a24b-3bb86db229d4",
+            "flabsCode": "FLP0975"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Type of Growth",
+            "formulaId": "a0d0e100-0e01-4b84-8898-16e87196d3c1",
+            "flabsCode": "FLP0661"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Gram Reaction",
+            "formulaId": "263282a4-5968-442a-8272-982fe2032c68",
+            "options": [
+              "Gram Positive",
+              "Gram Negative"
+            ],
+            "flabsCode": "FLP1046"
+          }
+        ]
+      },
+      "_id": "6883c25335738384e79369dc"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Antibiotic Sensitivity",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Moxifloxacin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "56b4a777-5af6-4ff1-8e8c-06f79f056de4",
+            "flabsCode": "FLP1502"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Ciprofloxacin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "064e4f74-61c1-4def-a08f-4a48da847fb0",
+            "flabsCode": "FLP0603"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Tobramycin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "e20cbcad-a692-42a0-a4d7-411635b95b3e",
+            "flabsCode": "FLP2111"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Gentamicin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "56e81f12-e79e-4f4b-aac4-5572fac03d43",
+            "flabsCode": "FLP1023"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Chloramphenicol",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "44c4f27d-f13a-4ed6-85a3-c92e12a86224",
+            "flabsCode": "FLP0578"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Ofloxacin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "de9edc7b-f5da-4117-a004-394a9670cd0f",
+            "flabsCode": "FLP1590"
+          },
+          {
+            "key": 6,
+            "field": "custom",
+            "name": "Azithromycin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "17c2a7cb-96ff-474a-9591-d68bf514ee77",
+            "flabsCode": "FLP0297"
+          },
+          {
+            "key": 7,
+            "field": "custom",
+            "name": "Cefuroxime",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "02328865-5741-4b1e-8e30-236ea23a1003",
+            "flabsCode": "FLP0557"
+          }
+        ]
+      },
+      "_id": "6883c2e135738384e793798e"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c439",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0967",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.933Z",
+  "updatedAt": "2025-07-21T19:17:55.933Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

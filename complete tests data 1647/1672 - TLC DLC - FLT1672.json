@@ -1,0 +1,202 @@
+{
+  "_id": "6a86cd475953b1dd0a1aad18",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TLC DLC",
+  "code": "TLDLC",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"390\" data-end=\"524\">\n<p data-start=\"392\" data-end=\"524\"><strong data-start=\"392\" data-end=\"423\">Total Leukocyte Count (TLC)</strong> indicates the total number of white blood cells and helps identify infections or immune disorders.</p>\n</li>\n<li data-start=\"525\" data-end=\"710\">\n<p data-start=\"527\" data-end=\"710\"><strong data-start=\"527\" data-end=\"565\">Differential Leukocyte Count (DLC)</strong> provides the percentage of different types of white blood cells to help differentiate between bacterial, viral, allergic, or parasitic causes.</p>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Parameter</th>\n<th>Interpretation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Total Leukocyte Count (TLC)</strong></td>\n<td>High TLC (leukocytosis) suggests infection, inflammation, or stress response. Low TLC (leukopenia) may occur in viral infections, bone marrow suppression, or certain medications.</td>\n</tr>\n<tr>\n<td><strong>Neutrophils</strong></td>\n<td>Increased in bacterial infections, stress, or inflammation. Decreased in viral infections or bone marrow suppression.</td>\n</tr>\n<tr>\n<td><strong>Lymphocytes</strong></td>\n<td>Increased in viral infections and lymphocytic leukemia. Decreased in stress, corticosteroid use, or immunodeficiency.</td>\n</tr>\n<tr>\n<td><strong>Eosinophils</strong></td>\n<td>Increased in allergic reactions, asthma, and parasitic infections.</td>\n</tr>\n<tr>\n<td><strong>Monocytes</strong></td>\n<td>Increased in chronic infections such as tuberculosis or inflammatory conditions.</td>\n</tr>\n<tr>\n<td><strong>Basophils</strong></td>\n<td>Increased in allergic reactions, myeloproliferative disorders, or chronic inflammation.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": true,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Leukocyte Count (TLC)",
+        "field": "numeric",
+        "units": "cells/cumm",
+        "range": {
+          "default": {
+            "male-range-min": "4000",
+            "male-range-max": "11000",
+            "female-range-max": "11000",
+            "female-range-min": "4000",
+            "child-range-max": "11000",
+            "child-range-min": "4000"
+          }
+        },
+        "test_method": "erba h360 automated hematology analyzer ",
+        "formulaId": "a12c8454-cd9c-4b8f-8753-8fd8a1687696",
+        "flabsCode": "FLP2127"
+      },
+      "_id": "68827b15100272a75a65a2cb"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "DLC",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "Neutrophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "40",
+                "male-range-max": "75",
+                "female-range-max": "75",
+                "female-range-min": "40",
+                "child-range-max": "75",
+                "child-range-min": "40"
+              }
+            },
+            "formulaId": "b0777dca-fca2-474a-a288-6a4a0e013e32",
+            "flabsCode": "FLP1545"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Lymphocytes",
+            "range": {
+              "default": {
+                "male-range-min": "20",
+                "male-range-max": "40",
+                "female-range-max": "40",
+                "female-range-min": "20",
+                "child-range-max": "40",
+                "child-range-min": "20"
+              }
+            },
+            "units": "%",
+            "formulaId": "cdc9bf7e-9bbc-4562-bf96-0fb4f5d8f7db",
+            "flabsCode": "FLP1383"
+          },
+          {
+            "key": 2,
+            "field": "numeric",
+            "name": "Monocytes",
+            "range": {
+              "default": {
+                "male-range-min": "2",
+                "male-range-max": "10",
+                "female-range-max": "10",
+                "female-range-min": "2",
+                "child-range-max": "10",
+                "child-range-min": "2"
+              }
+            },
+            "units": "%",
+            "formulaId": "210b9c26-2600-404a-9dd7-22af16edf7bd",
+            "flabsCode": "FLP1493"
+          },
+          {
+            "key": 3,
+            "field": "numeric",
+            "name": "Eosinophils\t",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "1",
+                "male-range-max": "6",
+                "female-range-max": "6",
+                "female-range-min": "1",
+                "child-range-max": "6",
+                "child-range-min": "1"
+              }
+            },
+            "formulaId": "2a4d9995-ef0c-451c-b8d6-a88deb72df3a",
+            "flabsCode": "FLP0824"
+          },
+          {
+            "key": 4,
+            "field": "numeric",
+            "name": "Basophils",
+            "range": {
+              "default": {
+                "male-range-min": "0",
+                "male-range-max": "1",
+                "female-range-max": "1",
+                "female-range-min": "0",
+                "child-range-max": "1",
+                "child-range-min": "0"
+              }
+            },
+            "units": "%",
+            "formulaId": "bceae682-8b6a-4ce9-aca3-2ed5e6b83dc4",
+            "flabsCode": "FLP0353"
+          }
+        ]
+      },
+      "_id": "68827b15100272a75a65a2cc"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68efd7b639a08b8cce3545db",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT1672",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-10-15T17:19:50.987Z",
+  "updatedAt": "2025-10-15T17:19:50.987Z",
+  "__v": 0
+}

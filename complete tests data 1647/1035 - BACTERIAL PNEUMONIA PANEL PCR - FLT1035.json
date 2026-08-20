@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cc825953b1dd0a189f74",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BACTERIAL PNEUMONIA PANEL PCR",
+  "code": "2274",
+  "cost": 0,
+  "interpretation": "<p><strong>Test Method(s)</strong><br><strong>BACTERIAL PNEUMONIAE PANEL-Multiplex DNA Polymerase Chain Reaction.</strong></p>\n<p><strong>Clinical Utility :</strong><br>It is a rapid, sensitive &amp; specific test for diagnosing lower respiratory tract infections by three most common<br>respiratory pathogens i.e. Mycoplasma pneumoniae, Streptococcus pneumoniae and Chlamydia pneumoniae<br>With no suitable method to culture, this is the best test to identify Chlamydia pneumoniae and Mycoplasma<br>pneumoniae directly in clinical specimens<br>It is also a useful test to document eradication of the pathogen after appropriate treatment.</p>\n<p>Presence of target specific bands indicates either Mycoplasma pneumoniae, Streptococcus pneumoniae or Chlamydia&nbsp;pneumoniae in the given specimen.&nbsp;No target specific amplification indicates absence of Mycoplasma pneumoniae, Chlamydia pneumoniae, or Streptococcus&nbsp;pneumoniae in the given specimen.&nbsp;All the results should always be correlated with clinical status and history of the patient.</p>\n<p>Limitations :<br>PCR is a highly sensitive technique common reasons for paradoxical results are contamination during specimen collection,&nbsp;selection of inappropriate specimens and inherent PCR inhibitors in the specimen.</p>",
+  "showInterpretation": false,
+  "sampleType": "sputum",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MYCOPLASMA PNEUMONIAE DNA ",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "bfdabe1a-45e4-4d82-9c20-c75d20fcfac8",
+        "flabsCode": "FLP1421"
+      },
+      "_id": "678b93443807bb1dee197c21"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "STREPTOCOCCUS PNEUMONIAE DNA",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          " Detected"
+        ],
+        "formulaId": "df1d0f03-9337-4f4d-a980-1f2396cdcf9e",
+        "flabsCode": "FLP1936"
+      },
+      "_id": "678b93443807bb1dee197c22"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CHLAMYDIA GENUS DNA",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "a16b914f-7120-4944-b7c8-d9139e90545a",
+        "flabsCode": "FLP0459"
+      },
+      "_id": "678b93443807bb1dee197c23"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c46e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1035",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.143Z",
+  "updatedAt": "2025-07-21T19:17:56.143Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,120 @@
+{
+  "_id": "6a86ccb392e2891d948ee873",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "INFLUENZA-A H1N1 AND H3N2",
+  "code": "2408",
+  "cost": 0,
+  "interpretation": "<p><strong>TEST INFORMATION</strong><br>Influenza Virus: Influenza virus (family orthomyxoviridae) is single stranded RNA genome that is present in 8 separate&nbsp;segments of ribonucleoprotein. This segmentation of the genome is rare among viruses and it may contribute to a rapid&nbsp;development of new influenza strains through the interchange of gene segments between viruses infecting the normal cell.&nbsp;There are 3 types of influenza viruses: A, B &amp; C. A and B viruses are most common among three. Especially Type A virus is&nbsp;known to be common for infecting not only human, but also birds and various types of mammals. Among the influenza&nbsp;viruses that invade humans, H1N1 and H3N2 are becoming problem for infecting children and elders. Type B and C are&nbsp;limited to affecting human only. The symptoms for having influenza is nasal discharge, nasal congestion, chill and muscle&nbsp;pain, which are severe than regular cold. Characteristically, influenza symptom include high fever and develop complications<br>due to bacterial infections.&nbsp;</p>\n<p><strong>Seasonal Influenza:</strong> Seasonal influenza is an acute viral infection caused by an influenza virus. Type A influenza viruses are further divided into subtypes according to the combinations of viral surface proteins. Among many subtypes of influenza A virus, H1N1 and H3N2 subtypes are the recent ones circulating among humans. Influenza viruses circulate in every part of the world. Type C influenza virus cases occur much less frequently than type A and B. That is why only influenza A and B viruses are included in seasonal influenza vaccines. Influenza epidemics occur yearly during autumn and winter in the temperate regions. Illnesses result in hospitalizations and deaths mainly among high-risk groups (infant, elderly or chronically ill). Worldwide, these annual epidemics result in about three to five million cases of severe illness, and about 250,000 to 500,000 deaths. Most deaths associated with influenza in industrialized countries occur among people age 65 or older.</p>\n<p><strong>Swine-Origin influenza A virus H1N1 Subtype (H1pdm09):</strong> H1N1, a subtype of influenza A virus, is the most common cause of influenza (flu) in humans. Some strains of H1N1 are endemic and are also responsible for a small portion of all influenza-like illness and a large portion of all seasonal influenza. For instance, in 2006, H1N1 strains caused roughly half of all human flu infections. Other strains of H1N1 are endemic in pigs (swine influenza) and in bird (avian influenza). In June 2009, the World Health Organization (WHO) declared that a new strain of swine-origin H1N1 was responsible for the 2009&nbsp;flu pandemic and raised the alert level to phase 6; this was the 1st pandemic since the 1968 Hong Kong flu. This strain is&nbsp;commonly called &lsquo;&rsquo;swine flu&rsquo;&rsquo; by the public media. The swine-origin H1pdm09 isolated from patients in the United States was&nbsp;found to be made up of genetic elements from four different flu viruses-North American Mexican influenza, North American&nbsp;avian influenza, human influenza, and swine influenza virus typically found in Asia and European: &ldquo;an unusually mongrelized&nbsp;mix of genetic sequences&rdquo;. This new strain appears to be a result of re-assortment of human and swine influenza viruses in&nbsp;all four different strains of subtype H1N1.</p>",
+  "showInterpretation": false,
+  "sampleType": "nasopharyngeal swab",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Influenza A (Flu A)",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "flabsCode": "FLP1255"
+      },
+      "_id": "67b7134edf54c780154dcafe"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "New Influenza A H1N1/Influenza A H1pdm09 (Swine Flu)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "flabsCode": "FLP1547"
+      },
+      "_id": "67b7134edf54c780154dcaff"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Influenza A, Subtype A H3N2",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "flabsCode": "FLP1256"
+      },
+      "_id": "67b7134edf54c780154dcb00"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4f0",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1169",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.737Z",
+  "updatedAt": "2025-07-21T19:17:56.737Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

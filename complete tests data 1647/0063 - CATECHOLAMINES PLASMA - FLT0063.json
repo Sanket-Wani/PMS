@@ -1,0 +1,130 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b559",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CATECHOLAMINES PLASMA",
+  "code": "1053",
+  "cost": 0,
+  "interpretation": "<p data-start=\"120\" data-end=\"374\">The <strong data-start=\"124\" data-end=\"149\">Plasma Catecholamines</strong> test measures the levels of <strong data-start=\"178\" data-end=\"206\">epinephrine (adrenaline)</strong>, <strong data-start=\"208\" data-end=\"242\">norepinephrine (noradrenaline)</strong>, and sometimes <strong data-start=\"258\" data-end=\"270\">dopamine</strong> in the blood. These are stress-related hormones released by the adrenal medulla and sympathetic nerves.</p>\n<p data-start=\"376\" data-end=\"407\">This test is primarily used to:</p>\n<ul data-start=\"409\" data-end=\"705\">\n<li data-start=\"409\" data-end=\"505\">\n<p data-start=\"411\" data-end=\"505\">Diagnose <strong data-start=\"420\" data-end=\"454\">catecholamine-secreting tumors</strong> such as <strong data-start=\"463\" data-end=\"483\">pheochromocytoma</strong> and <strong data-start=\"488\" data-end=\"505\">paraganglioma</strong></p>\n</li>\n<li data-start=\"506\" data-end=\"639\">\n<p data-start=\"508\" data-end=\"589\">Evaluate <strong data-start=\"517\" data-end=\"555\">episodic or sustained hypertension</strong>, especially when associated with:</p>\n<ul data-start=\"592\" data-end=\"639\">\n<li data-start=\"592\" data-end=\"605\">\n<p data-start=\"594\" data-end=\"605\">Headaches</p>\n</li>\n<li data-start=\"608\" data-end=\"620\">\n<p data-start=\"610\" data-end=\"620\">Sweating</p>\n</li>\n<li data-start=\"623\" data-end=\"639\">\n<p data-start=\"625\" data-end=\"639\">Palpitations</p>\n</li>\n</ul>\n</li>\n<li data-start=\"640\" data-end=\"705\">\n<p data-start=\"642\" data-end=\"705\">Monitor response to treatment or recurrence after tumor removal</p>\n</li>\n</ul>\n<p>Elevated Levels &ndash; Clinical Implications</p>\n<table>\n<thead>\n<tr>\n<th><strong>Condition / Cause</strong></th>\n<th><strong>Clinical Significance</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Pheochromocytoma / Paraganglioma</strong></td>\n<td>High levels of norepinephrine and/or epinephrine strongly suggest these tumors</td>\n</tr>\n<tr>\n<td><strong>Neuroblastoma (in children)</strong></td>\n<td>May present with elevated plasma catecholamines, especially dopamine</td>\n</tr>\n<tr>\n<td><strong>Severe stress or trauma</strong></td>\n<td>Acute stress, pain, or trauma can transiently raise catecholamines</td>\n</tr>\n<tr>\n<td><strong>Heart failure or myocardial infarction</strong></td>\n<td>Sympathetic activation may increase levels</td>\n</tr>\n<tr>\n<td><strong>Obstructive sleep apnea (OSA)</strong></td>\n<td>Chronic sympathetic overactivity can cause elevated plasma catecholamines</td>\n</tr>\n<tr>\n<td><strong>Withdrawal or rebound from medications</strong></td>\n<td>E.g., stopping clonidine or beta-blockers abruptly</td>\n</tr>\n<tr>\n<td><strong>Hypoglycemia</strong></td>\n<td>Triggers a sympathetic response, increasing catecholamine release</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Adernaline ",
+        "field": "numeric_unbound",
+        "units": "pg/mL ",
+        "test_method": "elisa",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "100"
+            },
+            "female-range": "<=100",
+            "child-range": "<=100"
+          }
+        },
+        "formulaId": "53af53e1-b721-4a3d-8732-0ce8bc96d51b",
+        "flabsCode": "FLP0162"
+      },
+      "_id": "678e2490175f4c94e53886f6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Nor-Adernaline",
+        "field": "numeric_unbound",
+        "units": "pg/mL ",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "600"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "600"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "600"
+            }
+          }
+        },
+        "formulaId": "24b0d34d-740b-4c55-96e7-9d003ca34c54",
+        "flabsCode": "FLP1559"
+      },
+      "_id": "678e2490175f4c94e53886f7"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c154",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0063",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.270Z",
+  "updatedAt": "2025-07-21T19:17:52.270Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

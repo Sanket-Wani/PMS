@@ -1,0 +1,225 @@
+{
+  "_id": "6a86cc7692e2891d948dfd58",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LINE PROBE ASSAY FOR XDR-TB (SECOND LINE DRUG RESISTANCE))",
+  "code": "LPA_XDR_TB",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Drug Group Tested</strong></th>\n<th><strong>Target Gene(s) on LPA</strong></th>\n<th><strong>Resistance Indicated if Mutation Detected</strong></th>\n<th><strong>Clinical Significance</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Fluoroquinolones (FQs)</strong> (e.g., Levofloxacin, Moxifloxacin, Ofloxacin)</td>\n<td><strong>gyrA, gyrB</strong></td>\n<td>Mutation = FQ resistance</td>\n<td>Confirms resistance to key second-line oral drugs</td>\n</tr>\n<tr>\n<td><strong>Second-line Injectable Agents (SLI)</strong> (e.g., Amikacin, Kanamycin, Capreomycin)</td>\n<td><strong>rrs, eis promoter</strong></td>\n<td>Mutation = SLI resistance</td>\n<td>Loss of effectiveness of injectable group</td>\n</tr>\n<tr>\n<td><strong>XDR-TB Confirmation</strong></td>\n<td>&ndash;</td>\n<td>Resistance to <strong>both</strong> FQs <strong>and</strong> at least <strong>one SLI</strong></td>\n<td>Defines <strong>Extensively Drug-Resistant TB (XDR-TB)</strong></td>\n</tr>\n</tbody>\n</table>\n<ul data-start=\"918\" data-end=\"1289\">\n<li data-start=\"918\" data-end=\"1039\">\n<p data-start=\"920\" data-end=\"959\"><strong data-start=\"920\" data-end=\"957\">Sensitive (No mutation detected):</strong></p>\n<ul data-start=\"962\" data-end=\"1039\">\n<li data-start=\"962\" data-end=\"1039\">\n<p data-start=\"964\" data-end=\"1039\">Wild-type bands present, no resistance mutations &rarr; drug likely effective.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1040\" data-end=\"1171\">\n<p data-start=\"1042\" data-end=\"1078\"><strong data-start=\"1042\" data-end=\"1076\">Resistant (Mutation detected):</strong></p>\n<ul data-start=\"1081\" data-end=\"1171\">\n<li data-start=\"1081\" data-end=\"1171\">\n<p data-start=\"1083\" data-end=\"1171\">Loss of wild-type band and/or presence of mutant band &rarr; resistance to that drug group.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1172\" data-end=\"1289\">\n<p data-start=\"1174\" data-end=\"1204\"><strong data-start=\"1174\" data-end=\"1202\">Indeterminate / Invalid:</strong></p>\n<ul data-start=\"1207\" data-end=\"1289\">\n<li data-start=\"1207\" data-end=\"1289\">\n<p data-start=\"1209\" data-end=\"1289\">Faint, missing, or unclear bands &rarr; repeat test or confirm with another method.</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": true,
+  "sampleType": "sputum",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "rifA",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Wild-type",
+          "Mutant"
+        ],
+        "defaultOption": "Wild-type",
+        "rangeReport": "Expected findings: Wild-type or mutant",
+        "formulaId": "6096a3fc-b7c5-49e6-8277-353e4e4b5383",
+        "flabsCode": "FLP2333"
+      },
+      "_id": "68a65a28a2dcc291a91b9b9b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "rpoB",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Wild-type",
+          "Mutant"
+        ],
+        "defaultOption": "Wild-type",
+        "rangeReport": "Expected findings: Wild-type or mutant",
+        "formulaId": "c0bb551e-70ac-4b5c-a03f-a7f78f86221c",
+        "flabsCode": "FLP2334"
+      },
+      "_id": "68a65a28a2dcc291a91b9b9c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "katG",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Wild-type",
+          "Mutant"
+        ],
+        "defaultOption": "Wild-type",
+        "rangeReport": "Expected findings: Wild-type or mutant",
+        "formulaId": "07747da9-e930-43c1-b9e4-def7edc2ce63",
+        "flabsCode": "FLP2325"
+      },
+      "_id": "68a65a28a2dcc291a91b9b9d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "inhA",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Wild-type",
+          "Mutant"
+        ],
+        "defaultOption": "Wild-type",
+        "rangeReport": "Expected findings: Wild-type or mutant",
+        "formulaId": "5fdf3392-cd6c-4f4a-a7be-ce648412af10",
+        "flabsCode": "FLP2324"
+      },
+      "_id": "68a65a28a2dcc291a91b9b9e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "gyrA",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Wild-type",
+          "Mutant"
+        ],
+        "defaultOption": "Wild-type",
+        "rangeReport": "Expected findings: Wild-type or mutant",
+        "formulaId": "c37feab3-defe-44a0-8aee-953647996bfe",
+        "flabsCode": "FLP2323"
+      },
+      "_id": "68a65a28a2dcc291a91b9b9f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "parC",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Wild-type",
+          "Mutant"
+        ],
+        "defaultOption": "Wild-type",
+        "rangeReport": "Expected findings: Wild-type or mutant",
+        "formulaId": "bb81b8f2-8a2c-4066-9f08-43d2bc5711cc",
+        "flabsCode": "FLP2332"
+      },
+      "_id": "68a65a28a2dcc291a91b9ba0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Resistance Pattern",
+        "field": "text",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "Normal findings: No resistance detected. Abnormal findings: Resistance to rifampicin, isoniazid, fluoroquinolones, or second-line drugs.",
+        "formulaId": "8e2f264e-a58d-453a-a02f-388493225380"
+      },
+      "_id": "68a65a28a2dcc291a91b9ba1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a65a28a2dcc291a91b9b9a",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FFFFFF",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT1015",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-20T23:28:40.689Z",
+  "updatedAt": "2025-08-20T23:28:40.689Z",
+  "__v": 0
+}

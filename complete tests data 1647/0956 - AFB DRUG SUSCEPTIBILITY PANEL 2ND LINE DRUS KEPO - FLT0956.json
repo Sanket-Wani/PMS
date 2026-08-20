@@ -1,0 +1,141 @@
+{
+  "_id": "6a86cc68ba46c74c6d44d573",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AFB DRUG SUSCEPTIBILITY PANEL 2ND LINE DRUS KEPO",
+  "code": "2174",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1531\" data-end=\"1620\">\n<p data-start=\"1533\" data-end=\"1620\"><strong data-start=\"1533\" data-end=\"1547\">Sensitive:</strong> The isolate is susceptible to the drug at standard therapeutic levels.</p>\n</li>\n<li data-start=\"1621\" data-end=\"1696\">\n<p data-start=\"1623\" data-end=\"1696\"><strong data-start=\"1623\" data-end=\"1637\">Resistant:</strong> The isolate is resistant; alternate therapy recommended.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "sputum",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Kanamycin",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant"
+        ],
+        "units": "μg/mL",
+        "formulaId": "2f86df25-3adf-43d8-b749-4600a7bb4069",
+        "flabsCode": "FLP1300"
+      },
+      "_id": "6883fe5135738384e796a4db"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ethionamide",
+        "field": "custom",
+        "units": "μg/mL",
+        "options": [
+          "Sensitive",
+          "Resistant"
+        ],
+        "formulaId": "18d9285f-5207-4979-ba84-52d58f0cb7fa",
+        "flabsCode": "FLP0842"
+      },
+      "_id": "6883fe5135738384e796a4dc"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PAS",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant"
+        ],
+        "units": "μg/mL",
+        "formulaId": "01675b7a-b83f-401f-9cb0-3f872aea9118",
+        "flabsCode": "FLP1625"
+      },
+      "_id": "6883fe5135738384e796a4dd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ofloxacin",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant"
+        ],
+        "units": "μg/mL",
+        "formulaId": "a49f5ddd-e7dd-40c7-a7a0-ab598eb2da80",
+        "flabsCode": "FLP1590"
+      },
+      "_id": "6883fe5135738384e796a4de"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c430",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0956",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.894Z",
+  "updatedAt": "2025-07-21T19:17:55.894Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

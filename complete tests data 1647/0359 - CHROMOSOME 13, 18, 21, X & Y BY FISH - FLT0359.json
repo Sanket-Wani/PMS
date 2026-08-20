@@ -1,0 +1,184 @@
+{
+  "_id": "6a86cbbbba46c74c6d436048",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHROMOSOME 13, 18, 21, X & Y BY FISH",
+  "code": "1403",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1169\" data-end=\"1307\">\n<p data-start=\"1171\" data-end=\"1307\"><span style=\"font-size: 9px;\"><strong data-start=\"1171\" data-end=\"1202\">Trisomy 13 (Patau syndrome)</strong>, <strong data-start=\"1204\" data-end=\"1237\">Trisomy 18 (Edwards syndrome)</strong>, and <strong data-start=\"1243\" data-end=\"1273\">Trisomy 21 (Down syndrome)</strong> are common aneuploidies screened.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1308\" data-end=\"1409\">\n<p data-start=\"1310\" data-end=\"1409\"><span style=\"font-size: 9px;\"><strong data-start=\"1310\" data-end=\"1341\">Sex chromosome aneuploidies</strong> such as Turner (45,X), Klinefelter (47,XXY) can also be identified.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1410\" data-end=\"1475\">\n<p data-start=\"1412\" data-end=\"1475\"><span style=\"font-size: 9px;\">FISH provides rapid prenatal or postnatal aneuploidy detection.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1476\" data-end=\"1553\">\n<p data-start=\"1478\" data-end=\"1553\"><span style=\"font-size: 9px;\">Confirmation with <strong data-start=\"1496\" data-end=\"1511\">karyotyping</strong> or <strong data-start=\"1515\" data-end=\"1536\">molecular testing</strong> may be required.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome 13 (Trisomy 13)\t",
+        "field": "custom",
+        "options": [
+          "Disomy ",
+          "Trisomy ",
+          "Monosomy"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Disomy ",
+            "female-range": "Disomy ",
+            "child-range": "Disomy "
+          }
+        },
+        "formulaId": "a6330f66-e8e3-4aa1-89ad-8f945e2ca553",
+        "flabsCode": "FLP0590"
+      },
+      "_id": "68851eaa0a49ec918081e897"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome 18 (Trisomy 18)\t",
+        "field": "custom",
+        "rangeReport": "Disomy ",
+        "options": [
+          "Disomy ",
+          "Trisomy ",
+          "Monosomy"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Disomy ",
+            "female-range": "Disomy ",
+            "child-range": "Disomy "
+          }
+        },
+        "formulaId": "4e6e1b71-69c7-4e84-83ad-02fd47566a70",
+        "flabsCode": "FLP0593"
+      },
+      "_id": "68851eaa0a49ec918081e898"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome 21 (Trisomy 21)\t",
+        "field": "custom",
+        "options": [
+          "Disomy ",
+          "Trisomy ",
+          "Monosomy"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Disomy ",
+            "female-range": "Disomy ",
+            "child-range": "Disomy "
+          }
+        },
+        "formulaId": "124d2dc2-7870-486d-b5c1-f9340fd260af",
+        "flabsCode": "FLP0597"
+      },
+      "_id": "68851eaa0a49ec918081e899"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome X\t",
+        "field": "text",
+        "units": "copies ",
+        "range": {
+          "default": {
+            "male-range": "\\Female: 2 signals, Male: 1 signal",
+            "female-range": "\\Female: 2 signals, Male: 1 signal",
+            "child-range": "\\Female: 2 signals, Male: 1 signal"
+          }
+        },
+        "formulaId": "258019ee-89b8-4d0a-aed5-26bb25225b29",
+        "flabsCode": "FLP0600"
+      },
+      "_id": "68851eaa0a49ec918081e89a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome Y\t",
+        "field": "text",
+        "units": "copies ",
+        "range": {
+          "default": {
+            "male-range": "Male: 1 signal, Female: 0 signal",
+            "female-range": "Male: 1 signal, Female: 0 signal",
+            "child-range": "Male: 1 signal, Female: 0 signal"
+          }
+        },
+        "formulaId": "5b3f73d7-658c-4a90-a776-3a5cf019704f",
+        "flabsCode": "FLP0601"
+      },
+      "_id": "68851eaa0a49ec918081e89b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c234",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0359",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.309Z",
+  "updatedAt": "2025-07-21T19:17:53.309Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

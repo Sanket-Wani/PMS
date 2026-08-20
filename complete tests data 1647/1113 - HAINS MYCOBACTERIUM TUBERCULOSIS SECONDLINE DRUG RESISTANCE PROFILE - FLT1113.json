@@ -1,0 +1,180 @@
+{
+  "_id": "6a86cca292e2891d948eb49e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HAINS MYCOBACTERIUM TUBERCULOSIS SECONDLINE DRUG RESISTANCE PROFILE",
+  "code": "2355",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 99%; border-width: 1px; border-spacing: 0px;\" border=\"1\" cellspacing=\"0\" data-cke-table-faked-selection-table=\"\">\n<tbody>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\"><strong>RESULT</strong></span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\"><strong>MTB COMPLEX</strong></span></td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\">Inhibition</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\">Indicates presence of inherent inhibitors in the sample submitted</span></td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\">Resistance Detected</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\">Possible resistance of Mycobacterium tuberculosis complex to the drug</span></td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\">Resistance Not detected</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 11px;\">Possible sensitivity of Mycobacterium tuberculosis complex to the drug&nbsp;</span></td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li><span style=\"font-size: 11px;\">&nbsp;This Qualitative assay based on Line probe technology is used for molecular genetic identification of M. tuberculosis complex which includes M. tuberculosis, M. africanum, M. bovis subsp. bovis,M. bovis subsp. caprae, M. bovis BCG, M. microti, M. canettii &amp; M. pinnipedii</span></li>\n<li><span style=\"font-size: 11px;\">Resistance can be detected by either the absence of binding of the amplified fragment to the wild type probes or binding to the mutation probes</span></li>\n<li><span style=\"font-size: 11px;\">Ambiguous results may be seen in cases of mixed infection, infection with more than one strain of Mycobacterium and heteroresistant strains. This depends on the ratio of mutated and non-mutated sequences.</span></li>\n<li><span style=\"font-size: 11px;\">The limit of detection of the assay is 103 bacteria/ml</span></li>\n<li><span style=\"font-size: 11px;\">It is recommended to verify the mono-resistant results to individual drugs by phenotypic results</span></li>\n<li><span style=\"font-size: 11px;\">This assay detects only the listed mutations. Mutations of other genes / gene regions shall not be detected by the assay</span><span style=\"font-size: 11px;\">&nbsp; &nbsp; </span></li>\n<li><span style=\"font-size: 11px;\">All results must be correlated with clinical findings and other investigations</span></li>\n<li><span style=\"font-size: 11px;\">Mycobacterium culture is recommended in case inhibition is detected</span><br><br><span style=\"font-size: 11px;\"><strong>Comment</strong></span><br><span style=\"font-size: 11px;\">This assay can detect the following mutations:</span></li>\n<li><span style=\"font-size: 11px;\">Subunit A of DNA gyrase (gyrA locus) - G88A, G88C, A90V, S91P, D94A, D94N, D94Y, D94G mutations confer resistance to Fluoroquinolones.</span></li>\n<li><span style=\"font-size: 11px;\">16srRNA gene detects resistance to Aminoglycosides. A1401G mutation confers resistance to Capreomycin, Amikacin &amp; Kanamycin ; C1402T mutation confers resistance to Capreomycin,Viomycin &amp; Kanamycin; G1484T mutation confers resistance to Capreomycin, Amikacin , Viomycin &amp; Kanamycin.</span></li>\n<li><span style=\"font-size: 11px;\">Arabinosyltransferase (embB locus) - M306I / M306V mutations confer resistance to Ethambutol.</span><br><br><span style=\"font-size: 11px;\"><strong>Usage</strong></span><br><span style=\"font-size: 11px;\">Multidrug-resistance (MDR-TB) shows resistance to two of the core Antitubercular drugs Isoniazid &amp; Rifampicin. XDR - TB or extensively drug-resistant tuberculosis in addition shows resistance to any of the Fluoroquinolones and to at least one of three injectable second-line drugs like Amikacin, Capreomycin or Kanamycin.</span></li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "sputum",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mycobacterium Tuberculosis Complex",
+        "field": "custom",
+        "options": [
+          "Not-Detected",
+          "Detected"
+        ],
+        "test_method": "pcr, line probe assay",
+        "formulaId": "1534c8b0-125c-4a3e-8261-9e87d0262e22",
+        "flabsCode": "FLP1514"
+      },
+      "_id": "678df4f108c92fccf7d11973"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fluoroquinolones",
+        "field": "custom",
+        "options": [
+          "Not-Detected",
+          "Detected"
+        ],
+        "formulaId": "f2ff94aa-82bf-4221-8422-15501f499c20",
+        "flabsCode": "FLP0953"
+      },
+      "_id": "678df4f108c92fccf7d11974"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "D94H Capreomycin ",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not-Detected"
+        ],
+        "formulaId": "d8140a61-e5a7-4948-8421-cc0ee0c7e6c3",
+        "flabsCode": "FLP0727"
+      },
+      "_id": "678df4f108c92fccf7d11975"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Viomycin ",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not-Detected"
+        ],
+        "formulaId": "d5afcc66-06a3-4688-a498-dbd53c5ac002",
+        "flabsCode": "FLP2272"
+      },
+      "_id": "678df4f108c92fccf7d11976"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Amikacin",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not-Detected"
+        ],
+        "formulaId": "308ac69f-8bba-409c-880b-2c16e7517824",
+        "flabsCode": "FLP0193"
+      },
+      "_id": "678df4f108c92fccf7d11977"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Kanamycin",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not-Detected"
+        ],
+        "formulaId": "caebce1b-5687-482c-888f-13b64c315653",
+        "flabsCode": "FLP1300"
+      },
+      "_id": "678df4f108c92fccf7d11978"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Type of Smaple",
+        "field": "custom",
+        "options": [
+          "SPUTUM"
+        ],
+        "defaultOption": "sputum",
+        "formulaId": "60002c39-1c89-40e1-ba69-5fe815761c92",
+        "flabsCode": "FLP1945"
+      },
+      "_id": "678df4f108c92fccf7d11979"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4bc",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1113",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.497Z",
+  "updatedAt": "2025-07-21T19:17:56.497Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,162 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c69",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CD8 Count",
+  "code": "CD8",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>CD8 Count (cells/µL or cells/mm³)</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Normal Levels</div></td><td><div>Normal CD8 count levels can vary depending on the laboratory's reference range. In adults, typical normal CD8 count levels range from 200 to 1,000 cells/µL (or 0.2 to 1.0 x 10⁹ cells/L). In healthy individuals, normal CD8 count levels indicate a well-functioning immune system.</div></td></tr><tr><td><div>Elevated Levels</div></td><td><div>Elevated CD8 count levels may be seen in response to certain infections, particularly viral infections, or during periods of immune activation. Additionally, CD8 count levels may be elevated in some autoimmune disorders, such as rheumatoid arthritis or multiple sclerosis. Further evaluation and additional tests may be required to determine the underlying cause of the elevation.</div></td></tr><tr><td><div>Low Levels</div></td><td><div>Low CD8 count levels can be associated with various conditions that suppress the immune system, such as HIV/AIDS, certain cancers, immunosuppressive therapies, or bone marrow disorders. A decreased CD8 count may indicate a weakened immune response and increased susceptibility to infections. Additional testing and clinical assessment are necessary to identify the cause of the low CD8 count.</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD8 ( Suppressor T Cells)Percent",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-max": "41",
+            "female-range-max": "41",
+            "female-range-min": "18",
+            "child-range-max": "38",
+            "child-range-min": "12",
+            "male-range-min": "18"
+          }
+        }
+      },
+      "_id": "64c4ead25ffdd82674d32c4e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Absolute CD8 ( Suppressor T Cells)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-max": "980",
+            "female-range-max": "980",
+            "female-range-min": "198",
+            "child-range-max": "955",
+            "child-range-min": "169",
+            "male-range-min": "192"
+          }
+        },
+        "units": "/uL"
+      },
+      "_id": "64c4ead25ffdd82674d32c4f"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64c4ead25ffdd82674d32c4d",
+  "ageRanges": [
+    {
+      "_id": "64c4eae45ffdd82674d32c64",
+      "from": "0Y-0M-0D",
+      "to": "0Y-2M-0D"
+    },
+    {
+      "_id": "64c4eaee5ffdd82674d32c6c",
+      "from": "0Y-3M-0D",
+      "to": "0Y-5M-0D"
+    },
+    {
+      "_id": "64c4eaf75ffdd82674d32c76",
+      "from": "0Y-6M-0D",
+      "to": "0Y-11M-0D"
+    },
+    {
+      "_id": "64c4eb035ffdd82674d32c82",
+      "from": "1Y-0M-0D",
+      "to": "2Y-0M-0D"
+    },
+    {
+      "_id": "64c4eb0f5ffdd82674d32c93",
+      "from": "2Y-0M-1D",
+      "to": "5Y-0M-0D"
+    },
+    {
+      "_id": "64c4eb1a5ffdd82674d32cab",
+      "from": "6Y-0M-0D",
+      "to": "17Y-0M-0D"
+    },
+    {
+      "_id": "64c4eb2f5ffdd82674d32cd1",
+      "from": "18Y-0M-0D",
+      "to": "55Y-0M-0D"
+    },
+    {
+      "_id": "64c4eb3a5ffdd82674d32ce5",
+      "from": "56Y-0M-0D",
+      "to": "120Y-0M-0D"
+    }
+  ],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0461",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.704Z",
+  "updatedAt": "2026-08-14T17:59:51.704Z",
+  "comment": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

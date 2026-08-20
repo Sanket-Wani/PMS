@@ -1,0 +1,128 @@
+{
+  "_id": "6a86cb6d92e2891d948be566",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LEAD URINE SPOT",
+  "code": "1140",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1288\" data-end=\"1650\">\n<li data-start=\"1288\" data-end=\"1360\">\n<p data-start=\"1290\" data-end=\"1360\">Elevated urine lead levels may indicate recent exposure to lead.</p>\n</li>\n<li data-start=\"1361\" data-end=\"1445\">\n<p data-start=\"1363\" data-end=\"1445\">Creatinine correction helps normalize concentration due to hydration status.</p>\n</li>\n<li data-start=\"1446\" data-end=\"1533\">\n<p data-start=\"1448\" data-end=\"1533\">Clinical correlation and blood lead levels are recommended for exposure assessment.</p>\n</li>\n<li data-start=\"1534\" data-end=\"1650\">\n<p data-start=\"1536\" data-end=\"1650\">Occupational exposure, environmental source investigation, or chelation therapy may be considered based on levels.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lead (Spot Urine)",
+        "field": "multiple_ranges",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range": "< 40 µg/L (adults, typical)",
+            "female-range": "< 40 µg/L (adults, typical)",
+            "child-range": "< 40 µg/L (adults, typical)"
+          }
+        },
+        "formulaId": "0cf47954-c78e-47cf-bc6a-46dd3e8025d6",
+        "flabsCode": "FLP1346"
+      },
+      "_id": "6883ef9535738384e7965444"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine Creatinine",
+        "field": "text",
+        "units": "mg/dL",
+        "formulaId": "e89f8900-43b3-4abc-8853-4c730c492f71",
+        "flabsCode": "FLP2213"
+      },
+      "_id": "6883ef9535738384e7965445"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lead / Creatinine Ratio",
+        "field": "multiple_ranges",
+        "units": "µg/g creatinine",
+        "range": {
+          "default": {
+            "male-range": "< 50 µg/g (preferred)",
+            "female-range": "< 50 µg/g (preferred)",
+            "child-range": "< 50 µg/g (preferred)"
+          }
+        },
+        "formulaId": "ede099ef-dce5-4330-bcd2-1fb064de532d",
+        "flabsCode": "FLP1347"
+      },
+      "_id": "6883ef9535738384e7965446"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c19d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0151",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.605Z",
+  "updatedAt": "2025-07-21T19:17:52.605Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

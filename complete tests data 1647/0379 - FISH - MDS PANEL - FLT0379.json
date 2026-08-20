@@ -1,0 +1,136 @@
+{
+  "_id": "6a86cbcb5953b1dd0a175a72",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FISH - MDS PANEL",
+  "code": "1423",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Probe / Abnormality</strong></th>\n<th><strong>Result</strong></th>\n<th><strong>% Abnormal Cells</strong></th>\n<th><strong>Reference Cut-off</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>del(5q)</td>\n<td>Detected / Not Detected</td>\n<td>&nbsp; &nbsp; &nbsp; &nbsp;%</td>\n<td>&lt;6%</td>\n</tr>\n<tr>\n<td>-7 / del(7q)</td>\n<td>Detected / Not Detected</td>\n<td>&nbsp; &nbsp; &nbsp; &nbsp;%</td>\n<td>&lt;5%</td>\n</tr>\n<tr>\n<td>+8 (trisomy 8)</td>\n<td>Detected / Not Detected</td>\n<td>&nbsp; &nbsp; &nbsp; %</td>\n<td>&lt;3%</td>\n</tr>\n<tr>\n<td>del(20q)</td>\n<td>Detected / Not Detected</td>\n<td>&nbsp; &nbsp; &nbsp; &nbsp;%</td>\n<td>&lt;4%</td>\n</tr>\n<tr>\n<td>TP53 (17p deletion)</td>\n<td>Detected / Not Detected</td>\n<td>&nbsp; &nbsp; &nbsp; &nbsp;%</td>\n<td>&lt;5%</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cells Analyzed",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥200 nuclei",
+            "female-range": "≥200 nuclei",
+            "child-range": "≥200 nuclei"
+          }
+        },
+        "formulaId": "9c6be648-9de4-4da0-a0a6-422d0a8571a3",
+        "flabsCode": "FLP0561"
+      },
+      "_id": "6885f924236c87794adc27ce"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Signal Quality",
+        "field": "custom",
+        "options": [
+          "Pass",
+          "Fail"
+        ],
+        "range": {
+          "default": {
+            "male-range": "PASS",
+            "female-range": "PASS",
+            "child-range": "PASS"
+          }
+        },
+        "formulaId": "bb5ec67d-7c42-4fc3-8529-2b6de3b4f8ad"
+      },
+      "_id": "6885f924236c87794adc27cf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cut-off for Abnormality",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "As per lab threshold",
+            "female-range": "As per lab threshold",
+            "child-range": "As per lab threshold"
+          }
+        },
+        "units": "%",
+        "formulaId": "21d46c11-0c97-4138-bdf4-a0cfa251062a",
+        "flabsCode": "FLP0703"
+      },
+      "_id": "6885f924236c87794adc27d0"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c248",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0379",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.392Z",
+  "updatedAt": "2025-07-21T19:17:53.392Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,131 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c4c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Gene Expert",
+  "code": "XPERT",
+  "cost": 0,
+  "interpretation": "<ol><li><p>Positive Result:</p><ul><li>A positive GeneXpert test result indicates the presence of the target genetic sequence(s) associated with the specific infectious agent or disease. For example, in the case of TB, a positive result would suggest the presence of Mycobacterium tuberculosis, the bacterium responsible for TB infection. Positive results may also include information about drug resistance, if applicable.</li></ul></li><li><p>Negative Result:</p><ul><li>A negative GeneXpert test result indicates that the target genetic sequence(s) associated with the specific infectious agent or disease were not detected in the sample. However, a negative result does not completely rule out the possibility of infection or disease, especially in cases with a low number of microorganisms or if the sample was not collected correctly.</li></ul></li><li><p>Indeterminate Result:</p><ul><li>In some instances, the GeneXpert test may yield an indeterminate result, which means that the test did not provide a clear positive or negative result. This may occur due to technical issues with the test or an insufficient amount of genetic material in the sample.</li></ul></li></ol>",
+  "showInterpretation": false,
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "data": {
+        "name": "Method",
+        "field": "text"
+      },
+      "_id": "64bc3d81f48dacc91bb70281",
+      "type": "testDetails"
+    },
+    {
+      "_id": "64bc3d81f48dacc91bb70282",
+      "type": "testDetails",
+      "data": {
+        "name": "Equipment",
+        "field": "text"
+      }
+    },
+    {
+      "_id": "64bc3d81f48dacc91bb70283",
+      "type": "testDetails",
+      "data": {
+        "field": "custom",
+        "options": [
+          "CSF",
+          "Tissue",
+          "Ascitic Fluid",
+          "Pus",
+          "Urine",
+          "Bodily Fluid",
+          "Bronchial Lavage"
+        ],
+        "name": "Specimen"
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mycobacterium Tuberculosis",
+        "field": "text"
+      },
+      "_id": "64bc3d81f48dacc91bb70284"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "text",
+        "name": "Rifampicin Resistance"
+      },
+      "_id": "64bc3d81f48dacc91bb70285"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64bc3d81f48dacc91bb70280",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1105",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.670Z",
+  "updatedAt": "2026-08-14T17:59:51.670Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

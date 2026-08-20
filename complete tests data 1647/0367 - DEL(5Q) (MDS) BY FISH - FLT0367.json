@@ -1,0 +1,162 @@
+{
+  "_id": "6a86cbbbba46c74c6d4360bc",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "DEL(5Q) (MDS) BY FISH",
+  "code": "1411",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative (Normal 5q)</span></td>\n<td><span style=\"font-size: 10px;\">Two signals in &gt;95% nuclei; no deletion detected.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive (Del(5q))</span></td>\n<td><span style=\"font-size: 10px;\">One signal (deletion) in &ge;5% nuclei; consistent with MDS or related myeloid neoplasm.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Mosaic/Low-Level Clone</span></td>\n<td><span style=\"font-size: 10px;\">Deletion in &lt;5% of cells; correlate with bone marrow findings, morphology, and karyotype.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Nuclei Analyzed",
+        "field": "numeric_unbound",
+        "units": "Cells",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "200"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "200"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "200"
+            }
+          }
+        },
+        "formulaId": "61f0392d-6f9b-46ef-a47f-373f7c4143f1",
+        "flabsCode": "FLP1577"
+      },
+      "_id": "6883d88235738384e7956ac0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Signal Pattern (5q)",
+        "field": "custom",
+        "options": [
+          "Normal (2 signals)",
+          " Deletion (1 signal)"
+        ],
+        "formulaId": "df5ffede-f65e-4f28-975a-77ce5ab124d1",
+        "flabsCode": "FLP2002"
+      },
+      "_id": "6883d88235738384e7956ac1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "% Cells Showing Deletion",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "5"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "5"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "16160c93-a4ff-410c-9c5d-9ce30746fabb",
+        "flabsCode": "FLP0010"
+      },
+      "_id": "6883d88235738384e7956ac2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Final FISH Result\t",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "d4dc6691-e31e-4ca7-abbe-a25a4d50e4ff"
+      },
+      "_id": "6883d88235738384e7956ac3"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c23c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0367",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.339Z",
+  "updatedAt": "2025-07-21T19:17:53.339Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

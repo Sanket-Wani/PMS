@@ -1,0 +1,164 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b48",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "WIDAL Test",
+  "code": "WIDAL",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Antibody</div></th><th><div>Interpretation</div></th><th><div>Positive Result</div></th><th><div>Negative Result</div></th></tr></thead><tbody><tr><td><div>S. typhi O</div></td><td><div>Recent infection with S. typhi</div></td><td><div>≥ 1:160 titer</div></td><td><div>&lt; 1:160 titer</div></td></tr><tr><td><div>S. typhi H</div></td><td><div>Current or past infection with S. typhi</div></td><td><div>≥ 1:160 titer</div></td><td><div>&lt; 1:160 titer</div></td></tr><tr><td><div>S. paratyphi AH</div></td><td><div>Current or past infection with S. paratyphi A</div></td><td><div>≥ 1:80 titer</div></td><td><div>&lt; 1:80 titer</div></td></tr><tr><td><div>S. paratyphi BH</div></td><td><div>Current or past infection with S. paratyphi B</div></td><td><div>≥ 1:80 titer</div></td><td><div>&lt; 1:80 titer</div></td></tr></tbody></table><p><br></p><p>In general, a positive result for a particular antibody indicates that the individual has been infected with the corresponding bacteria in the past or present, while a negative result suggests that the person has not been exposed to the bacteria or has not produced a detectable immune response. It's important to note that the interpretation of the Widal test results should be done in conjunction with clinical symptoms and other laboratory findings to accurately diagnose a patient with typhoid fever or paratyphoid fever.</p><div><br></div><div><svg><path></path></svg><svg><path></path></svg><svg><path></path></svg></div><p><br></p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "_id": "641b3c34063818086a8cf214",
+      "type": "testDetails",
+      "data": {
+        "formulaId": "819b7638-6841-4043-b4f8-d0debfa40627",
+        "name": "S. Typhi Antigen O",
+        "field": "custom",
+        "options": [
+          "negative",
+          "1:20",
+          "1:40",
+          "1:80",
+          "1:160",
+          "1:320"
+        ]
+      }
+    },
+    {
+      "data": {
+        "formulaId": "653c453e-1f42-4a9e-b01c-87b40723ff3e",
+        "name": "S. Typhi Antigen H",
+        "field": "custom",
+        "options": [
+          "negative",
+          "1:20",
+          "1:40",
+          "1:80",
+          "1:160",
+          "1:320"
+        ]
+      },
+      "_id": "641b3c34063818086a8cf215",
+      "type": "testDetails"
+    },
+    {
+      "_id": "641b3c34063818086a8cf216",
+      "type": "testDetails",
+      "data": {
+        "name": "S. ParaTyphi Antigen AH",
+        "field": "custom",
+        "options": [
+          "negative",
+          "1:20",
+          "1:40",
+          "1:80",
+          "1:160",
+          "1:320"
+        ],
+        "formulaId": "da93e8ed-bd94-47e1-bc8a-2025b664323a"
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "S. ParaTyphi Antigen BH",
+        "field": "custom",
+        "options": [
+          "negative",
+          "1:20",
+          "1:40",
+          "1:80",
+          "1:160",
+          "1:320"
+        ],
+        "formulaId": "78fa91ce-dc55-4f9e-a372-ed67e4a479c3"
+      },
+      "_id": "641b3c34063818086a8cf217"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Result",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive",
+          "Weakly Positive"
+        ]
+      },
+      "_id": "66c73c1b14e0b4e155cfd489"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641b3c34063818086a8cf213",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1639",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.323Z",
+  "updatedAt": "2026-08-14T17:59:51.323Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

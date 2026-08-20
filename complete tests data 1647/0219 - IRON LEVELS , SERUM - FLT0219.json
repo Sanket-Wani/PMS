@@ -1,0 +1,145 @@
+{
+  "_id": "6a86cb7aba46c74c6d42fa17",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IRON LEVELS , SERUM",
+  "code": "1202",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"703\" data-end=\"808\">\n<p data-start=\"705\" data-end=\"808\"><span style=\"font-size: 10px;\"><strong data-start=\"705\" data-end=\"724\">Low Serum Iron:</strong> Suggestive of Iron Deficiency / Chronic Disease (correlate with Ferritin &amp; TIBC).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"812\" data-end=\"904\">\n<p data-start=\"814\" data-end=\"904\"><span style=\"font-size: 10px;\"><strong data-start=\"814\" data-end=\"834\">High Serum Iron:</strong> May indicate Hemochromatosis, Hemolysis, or Excess supplementation.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "test_method": "ferrozine ",
+        "name": "Serum Iron",
+        "units": "µg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "65",
+            "male-range-max": "175",
+            "female-range-min": "50",
+            "female-range-max": "170",
+            "child-range-max": "170",
+            "child-range-min": "50"
+          }
+        },
+        "formulaId": "8099b709-1a4a-47d5-b2a4-5b1ee9542b7c",
+        "flabsCode": "FLP1984"
+      },
+      "_id": "68812d5be4bce8187711e43a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Iron Binding Capacity (TIBC)",
+        "field": "numeric",
+        "units": "µg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "250",
+            "male-range-max": "450",
+            "female-range-max": "450",
+            "female-range-min": "250",
+            "child-range-max": "450",
+            "child-range-min": "250"
+          }
+        },
+        "formulaId": "540e27ff-9e7b-4af5-b8e2-7e7c3a61fd33",
+        "flabsCode": "FLP2125"
+      },
+      "_id": "68812d5be4bce8187711e43b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Transferrin Saturation",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "20",
+            "male-range-max": "50",
+            "female-range-max": "50",
+            "female-range-min": "20",
+            "child-range-max": "50",
+            "child-range-min": "20"
+          }
+        },
+        "formulaId": "8b8ff8e7-55a6-499f-b92b-2885e8b39c3e",
+        "flabsCode": "FLP2155"
+      },
+      "_id": "68812d5be4bce8187711e43c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1d5",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0219",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.868Z",
+  "updatedAt": "2025-07-21T19:17:52.868Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

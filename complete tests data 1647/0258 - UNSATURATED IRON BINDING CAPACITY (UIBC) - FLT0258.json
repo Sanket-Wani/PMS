@@ -1,0 +1,144 @@
+{
+  "_id": "6a86cb87ba46c74c6d43104b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "UNSATURATED IRON BINDING CAPACITY (UIBC)",
+  "code": "UIBC",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Parameter</strong></th>\n<th><strong>Normal Range</strong> (Adults)</th>\n<th><strong>Increased UIBC</strong></th>\n<th><strong>Decreased UIBC</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>UIBC</strong> (Unsaturated Iron Binding Capacity)</td>\n<td><strong>150 &ndash; 375 &micro;g/dL</strong> (may vary by lab)</td>\n<td>- Iron deficiency anemia (early stage) - Pregnancy - Acute/Chronic blood loss</td>\n<td>- Hemochromatosis (iron overload) - Hemolytic anemia - Chronic liver disease - Sideroblastic anemia - Chronic infections/inflammation</td>\n</tr>\n</tbody>\n</table>\n<ul data-start=\"645\" data-end=\"1002\">\n<li data-start=\"645\" data-end=\"749\">\n<p data-start=\"647\" data-end=\"749\"><strong data-start=\"647\" data-end=\"655\">UIBC</strong> measures the <strong data-start=\"669\" data-end=\"712\">reserve binding capacity of transferrin</strong> (how much more iron it can carry).</p>\n</li>\n<li data-start=\"750\" data-end=\"1002\">\n<p data-start=\"752\" data-end=\"850\">It is typically interpreted <strong data-start=\"780\" data-end=\"847\">together with serum iron and TIBC (Total Iron Binding Capacity)</strong>:</p>\n<ul data-start=\"853\" data-end=\"1002\">\n<li data-start=\"853\" data-end=\"913\">\n<p data-start=\"855\" data-end=\"913\"><strong data-start=\"855\" data-end=\"911\">High UIBC + Low serum iron &rarr; Iron deficiency anemia.</strong></p>\n</li>\n<li data-start=\"916\" data-end=\"1002\">\n<p data-start=\"918\" data-end=\"1002\"><strong data-start=\"918\" data-end=\"1000\">Low UIBC + High serum iron &rarr; Iron overload conditions (e.g., hemochromatosis).</strong></p>\n</li>\n</ul>\n</li>\n</ul>\n<p data-start=\"1004\" data-end=\"1153\" data-is-last-node=\"\" data-is-only-node=\"\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SERUM IRON LEVELS",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "65",
+            "male-range-max": "175",
+            "female-range-max": "175",
+            "female-range-min": "65",
+            "child-range-max": "175",
+            "child-range-min": "65"
+          }
+        },
+        "units": "ug/dl",
+        "formulaId": "4b8ca488-77c8-4cda-8a9b-1eb0678490c9",
+        "flabsCode": "FLP1904"
+      },
+      "_id": "679b1ec9f6dcbdbf63f93192"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TOTAL IRON BINDING CAPACITY\t",
+        "field": "numeric",
+        "units": "ugm/dl",
+        "range": {
+          "default": {
+            "male-range-min": "250",
+            "male-range-max": "450",
+            "female-range-max": "450",
+            "female-range-min": "250",
+            "child-range-max": "450",
+            "child-range-min": "250"
+          }
+        },
+        "formulaId": "9efd5197-cddf-4a91-ba23-540745a7d851",
+        "flabsCode": "FLP2064"
+      },
+      "_id": "679b1ec9f6dcbdbf63f93193"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "UIBC",
+        "field": "numeric",
+        "units": "µg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "150",
+            "male-range-max": "375",
+            "female-range-max": "375",
+            "female-range-min": "150",
+            "child-range-max": "336",
+            "child-range-min": "130"
+          }
+        },
+        "formulaId": "f7d44765-c462-45d1-9d3f-b2b976ee77a9",
+        "flabsCode": "FLP2176"
+      },
+      "_id": "679b1ec9f6dcbdbf63f93194"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c697",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0258",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.487Z",
+  "updatedAt": "2025-07-21T19:17:58.487Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

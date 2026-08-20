@@ -1,0 +1,230 @@
+{
+  "_id": "6a86cbbbba46c74c6d435ee3",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AML Cytogenetics PANEL(KARYOTYPING + FISH)",
+  "code": "1386",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"2114\" data-end=\"2464\">\n<li data-start=\"2114\" data-end=\"2323\">\n<p data-start=\"2116\" data-end=\"2323\"><span style=\"font-size: 9px;\"><strong data-start=\"2116\" data-end=\"2154\">Abnormal Karyotype / FISH Positive</strong>: Suggests presence of cytogenetic changes associated with <strong data-start=\"2213\" data-end=\"2245\">Acute Myeloid Leukemia (AML)</strong>. Used for <strong data-start=\"2256\" data-end=\"2269\">diagnosis</strong>, <strong data-start=\"2271\" data-end=\"2294\">risk stratification</strong>, and <strong data-start=\"2300\" data-end=\"2322\">treatment planning</strong>.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"2324\" data-end=\"2464\">\n<p data-start=\"2326\" data-end=\"2464\"><span style=\"font-size: 9px;\"><strong data-start=\"2326\" data-end=\"2343\">Normal Result</strong>: No chromosomal abnormalities detected. Does not rule out AML; molecular testing (e.g., FLT3, NPM1) may still be needed.</span></p>\n</li>\n</ul>\n<p data-start=\"2473\" data-end=\"2655\"><span style=\"font-size: 9px;\"><strong data-start=\"2473\" data-end=\"2481\">Note</strong>: This test combines <strong data-start=\"2502\" data-end=\"2542\">classical cytogenetics (karyotyping)</strong> and <strong data-start=\"2547\" data-end=\"2571\">targeted FISH probes</strong> to provide a comprehensive genetic profile in suspected or diagnosed <strong data-start=\"2641\" data-end=\"2648\">AML</strong> cases.</span></p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Conventional Karyotyping (GTG Banding)",
+        "field": "custom",
+        "rangeReport": "Normal Karyotype",
+        "options": [
+          "Normal ",
+          "Abnormal"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Normal Karyotype",
+            "female-range": "Normal Karyotype",
+            "child-range": "Normal Karyotype"
+          }
+        },
+        "formulaId": "07185928-f201-4d0d-8273-012928740043",
+        "flabsCode": "FLP0662"
+      },
+      "_id": "68839d6135738384e78c9b4e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH for t(8;21)(q22;q22)\t",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "50781748-5d18-4474-8a5b-75a056ba3132",
+        "flabsCode": "FLP0888"
+      },
+      "_id": "68839d6135738384e78c9b4f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH for inv(16)/t(16;16)\t",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "d4363d7a-ef31-469e-bc2d-30e23ac17bf8",
+        "flabsCode": "FLP0886"
+      },
+      "_id": "68839d6135738384e78c9b50"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH for t(15;17)(q24;q21)\t",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "fdd1e8bc-9b6a-4349-992d-167f36a72a75",
+        "flabsCode": "FLP0887"
+      },
+      "_id": "68839d6135738384e78c9b51"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH for MLL rearrangement (11q23)\t",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "f03da91f-2101-4161-a821-9d71cb338403",
+        "flabsCode": "FLP0883"
+      },
+      "_id": "68839d6135738384e78c9b52"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH for Trisomy 8 (+8)\t",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "4407f2af-c239-430b-a35e-546adb294d9f",
+        "flabsCode": "FLP0884"
+      },
+      "_id": "68839d6135738384e78c9b53"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH for del(5q), del(7q)\t",
+        "field": "custom",
+        "rangeReport": "",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "7a4bf35f-9b5c-4824-8787-bc3159396380",
+        "flabsCode": "FLP0885"
+      },
+      "_id": "68839d6135738384e78c9b54"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c223",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0342",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.224Z",
+  "updatedAt": "2025-07-21T19:17:53.224Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

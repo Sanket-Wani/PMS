@@ -1,0 +1,619 @@
+{
+  "_id": "6a86cbe9ba46c74c6d43a72c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "COMPLETE HAEMOGRAM",
+  "code": "CBP",
+  "cost": 0,
+  "interpretation": "<p>&nbsp;</p>\n<table>\n<thead>\n<tr>\n<th>\n<div>CBC Test Parameter</div>\n</th>\n<th>\n<div>General Interpretation</div>\n</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<div>White Blood Cell Count (WBC)</div>\n</td>\n<td>\n<div>High count may indicate infection or inflammation; low count may indicate a weakened immune system</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Red Blood Cell Count (RBC)</div>\n</td>\n<td>\n<div>Low count may indicate anemia; high count may indicate dehydration or other medical conditions</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Hemoglobin (Hb)</div>\n</td>\n<td>\n<div>Low levels may indicate anemia</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Hematocrit (Hct)</div>\n</td>\n<td>\n<div>Low levels may indicate anemia; high levels may indicate dehydration or other medical conditions</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Platelet Count</div>\n</td>\n<td>\n<div>Low count may indicate a bleeding disorder; high count may indicate a clotting disorder</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Mean Corpuscular Volume (MCV)</div>\n</td>\n<td>\n<div>High MCV may indicate anemia caused by a vitamin deficiency or other medical condition</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Mean Corpuscular Hemoglobin (MCH)</div>\n</td>\n<td>\n<div>High MCH may indicate anemia caused by a vitamin deficiency or other medical condition</div>\n</td>\n</tr>\n<tr>\n<td>\n<div>Mean Corpuscular Hemoglobin Concentration (MCHC)</div>\n</td>\n<td>\n<div>Low MCHC may indicate anemia caused by a vitamin deficiency or other medical condition</div>\n</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Haemoglobin ",
+        "field": "numeric",
+        "units": "gm%",
+        "range": {
+          "default": {
+            "male-range-max": "18.0",
+            "male-range-min": "11.5",
+            "female-range-min": "11.0",
+            "female-range-max": "16.0",
+            "child-range-min": "11",
+            "child-range-max": "14"
+          }
+        },
+        "formulaId": "813b06c3-afc5-49c4-b75c-69d6775dbd12",
+        "flabsCode": "FLP1151"
+      },
+      "_id": "68a8b4e444053e7482c460a7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Leucocyte Count ",
+        "field": "numeric",
+        "units": "/cumm",
+        "range": {
+          "default": {
+            "male-range-max": "10000",
+            "male-range-min": "4000",
+            "female-range-min": "4000",
+            "female-range-max": "10000",
+            "child-range-min": "5000",
+            "child-range-max": "15000"
+          }
+        },
+        "formulaId": "10300923-bb69-44e4-8501-e7898e61aeff",
+        "flabsCode": "FLP2127"
+      },
+      "_id": "68a8b4e444053e7482c460a8"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Differential Leucocyte Count",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "Neutrophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-max": "80",
+                "male-range-min": "40",
+                "female-range-max": "80",
+                "female-range-min": "40",
+                "child-range-max": "60",
+                "child-range-min": "25"
+              }
+            },
+            "key": 0,
+            "formulaId": "b7c0c6a5-4c7d-4133-946b-697d3c7eb89e",
+            "flabsCode": "FLP1545"
+          },
+          {
+            "field": "numeric",
+            "name": "Lymphocytes",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-max": "40",
+                "male-range-min": "20",
+                "female-range-max": "40",
+                "female-range-min": "20",
+                "child-range-max": "60",
+                "child-range-min": "30"
+              }
+            },
+            "key": 1,
+            "formulaId": "399856ac-28de-4bf9-9f9f-580536acfe34",
+            "flabsCode": "FLP1383"
+          },
+          {
+            "field": "numeric",
+            "name": "Eosinophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-max": "6",
+                "male-range-min": "1",
+                "female-range-max": "6",
+                "female-range-min": "1",
+                "child-range-max": "6",
+                "child-range-min": "1"
+              }
+            },
+            "key": 2,
+            "formulaId": "5f5e9378-1997-4ae2-8c11-e4ed1cced1f8",
+            "flabsCode": "FLP0824"
+          },
+          {
+            "field": "numeric",
+            "name": "Monocytes",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-max": "10",
+                "male-range-min": "2",
+                "female-range-max": "10",
+                "female-range-min": "2",
+                "child-range-max": "10",
+                "child-range-min": "2"
+              }
+            },
+            "key": 3,
+            "formulaId": "0fe35e26-2747-489a-9983-166ac81d926e",
+            "flabsCode": "FLP1493"
+          },
+          {
+            "field": "numeric",
+            "name": "Basophils",
+            "units": "%",
+            "male-range": {
+              "op": "<",
+              "value": "1"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "1"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "1"
+            },
+            "formula": "100 - ({b7c0c6a5-4c7d-4133-946b-697d3c7eb89e}+ {399856ac-28de-4bf9-9f9f-580536acfe34}+ {5f5e9378-1997-4ae2-8c11-e4ed1cced1f8}+ {0fe35e26-2747-489a-9983-166ac81d926e})",
+            "range": {
+              "default": {
+                "male-range-max": "1",
+                "male-range-min": "0",
+                "female-range-max": "1",
+                "female-range-min": "0",
+                "child-range-max": "1",
+                "child-range-min": "0"
+              }
+            },
+            "key": 4,
+            "formulaChecked": true,
+            "flabsCode": "FLP0353"
+          }
+        ]
+      },
+      "_id": "68a8b4e444053e7482c460a9"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Absolute Leucocyte Count",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "Absolute Neutrophils",
+            "units": "/cumm",
+            "formula": "({10300923-bb69-44e4-8501-e7898e61aeff}* {b7c0c6a5-4c7d-4133-946b-697d3c7eb89e}) / 100",
+            "range": {
+              "default": {
+                "male-range-max": "7000",
+                "male-range-min": "2000",
+                "female-range-max": "7000",
+                "female-range-min": "2000",
+                "child-range-max": "8000",
+                "child-range-min": "1500"
+              }
+            },
+            "key": 0,
+            "formulaChecked": true,
+            "flabsCode": "FLP0148"
+          },
+          {
+            "field": "numeric",
+            "name": "Absolute Lymphocytes",
+            "units": "/cumm",
+            "formula": "{10300923-bb69-44e4-8501-e7898e61aeff}* {399856ac-28de-4bf9-9f9f-580536acfe34}/ 100",
+            "range": {
+              "default": {
+                "male-range-max": "3000",
+                "male-range-min": "1000",
+                "female-range-max": "3000",
+                "female-range-min": "1000",
+                "child-range-max": "9000",
+                "child-range-min": "6000"
+              }
+            },
+            "key": 1,
+            "formulaChecked": true,
+            "flabsCode": "FLP0146"
+          },
+          {
+            "field": "numeric",
+            "name": "Absolute Eosinophils",
+            "units": "/cumm",
+            "formula": "({10300923-bb69-44e4-8501-e7898e61aeff}* {5f5e9378-1997-4ae2-8c11-e4ed1cced1f8})/100",
+            "range": {
+              "default": {
+                "male-range-max": "500",
+                "male-range-min": "20",
+                "female-range-max": "500",
+                "female-range-min": "20",
+                "child-range-max": "1000",
+                "child-range-min": "100"
+              }
+            },
+            "key": 2,
+            "formulaChecked": true,
+            "flabsCode": "FLP0145"
+          },
+          {
+            "field": "numeric",
+            "name": "Absolute Monocytes",
+            "units": "/cumm",
+            "formula": "({10300923-bb69-44e4-8501-e7898e61aeff}* {0fe35e26-2747-489a-9983-166ac81d926e})/100",
+            "range": {
+              "default": {
+                "male-range-max": "1000",
+                "male-range-min": "200",
+                "female-range-max": "1000",
+                "female-range-min": "200",
+                "child-range-max": "1000",
+                "child-range-min": "200"
+              }
+            },
+            "key": 3,
+            "formulaChecked": true,
+            "flabsCode": "FLP0147"
+          },
+          {
+            "key": 4,
+            "field": "numeric",
+            "name": "Absolute Basophils",
+            "units": "/cumm",
+            "range": {
+              "default": {
+                "male-range-min": "00",
+                "male-range-max": "10",
+                "female-range-max": "10",
+                "female-range-min": "00",
+                "child-range-max": "10",
+                "child-range-min": "00"
+              }
+            },
+            "formulaId": "0a194566-88f4-4478-a28e-92050aa3b00e",
+            "flabsCode": "FLP0144"
+          }
+        ]
+      },
+      "_id": "68a8b4e444053e7482c460aa"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "RBC Indices",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "RBC Count",
+            "units": "Million/cumm",
+            "range": {
+              "default": {
+                "male-range-max": "5.5",
+                "male-range-min": "4.5",
+                "female-range-max": "4.8",
+                "female-range-min": "3.8",
+                "child-range-max": "5.2",
+                "child-range-min": "4.0"
+              }
+            },
+            "key": 0,
+            "formulaId": "8fc38f0b-b3b0-44ab-b29f-9464f0d74b16",
+            "flabsCode": "FLP1817"
+          },
+          {
+            "field": "numeric",
+            "name": "Hct",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-max": "50",
+                "male-range-min": "40",
+                "female-range-max": "46",
+                "female-range-min": "36",
+                "child-range-max": "40",
+                "child-range-min": "34"
+              }
+            },
+            "key": 1,
+            "formulaId": "c73080da-55ba-4b6d-b7b3-50c83d1c5bac",
+            "flabsCode": "FLP1163"
+          },
+          {
+            "field": "numeric",
+            "name": "MCV",
+            "units": "fL",
+            "formula": "({c73080da-55ba-4b6d-b7b3-50c83d1c5bac}/ {8fc38f0b-b3b0-44ab-b29f-9464f0d74b16}) * 10",
+            "range": {
+              "default": {
+                "male-range-max": "101",
+                "male-range-min": "81",
+                "female-range-max": "101",
+                "female-range-min": "81",
+                "child-range-max": "87",
+                "child-range-min": "75"
+              }
+            },
+            "key": 2,
+            "formulaChecked": true,
+            "flabsCode": "FLP1393"
+          },
+          {
+            "field": "numeric",
+            "name": "MCH",
+            "units": "pg",
+            "formula": "({813b06c3-afc5-49c4-b75c-69d6775dbd12}/ {8fc38f0b-b3b0-44ab-b29f-9464f0d74b16})*10",
+            "range": {
+              "default": {
+                "male-range-max": "32",
+                "male-range-min": "27",
+                "female-range-max": "32",
+                "female-range-min": "27",
+                "child-range-max": "30",
+                "child-range-min": "24"
+              }
+            },
+            "key": 3,
+            "formulaChecked": true,
+            "flabsCode": "FLP1391"
+          },
+          {
+            "field": "numeric",
+            "name": "MCHC",
+            "units": "g/dL",
+            "formula": "100 * ({813b06c3-afc5-49c4-b75c-69d6775dbd12}/ {c73080da-55ba-4b6d-b7b3-50c83d1c5bac})",
+            "range": {
+              "default": {
+                "male-range-max": "34.5",
+                "male-range-min": "31.5",
+                "female-range-max": "34.5",
+                "female-range-min": "31.5",
+                "child-range-max": "37",
+                "child-range-min": "31"
+              }
+            },
+            "key": 4,
+            "formulaChecked": true,
+            "flabsCode": "FLP1392"
+          },
+          {
+            "field": "numeric",
+            "name": "RDW-CV",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-max": "14.0",
+                "male-range-min": "11.6",
+                "female-range-max": "14.0",
+                "female-range-min": "11.6",
+                "child-range-max": "14.5",
+                "child-range-min": "11.5"
+              }
+            },
+            "key": 5,
+            "formulaId": "a6586359-308a-4c1e-b077-e3742fb5f22a",
+            "flabsCode": "FLP1823"
+          },
+          {
+            "field": "numeric",
+            "name": "RDW-SD",
+            "units": "fL",
+            "range": {
+              "default": {
+                "male-range-max": "46",
+                "male-range-min": "39",
+                "female-range-max": "46",
+                "female-range-min": "39",
+                "child-range-max": "46",
+                "child-range-min": "39"
+              }
+            },
+            "key": 6,
+            "formulaId": "634fca8a-7946-4c09-a20c-a2519051e3c3",
+            "flabsCode": "FLP1822"
+          }
+        ]
+      },
+      "_id": "68a8b4e444053e7482c460ab"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Platelets Indices",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "Platelet Count",
+            "units": "/cumm",
+            "range": {
+              "default": {
+                "male-range-max": "410000",
+                "male-range-min": "150000",
+                "female-range-max": "410000",
+                "female-range-min": "150000",
+                "child-range-max": "490000",
+                "child-range-min": "200000"
+              }
+            },
+            "key": 0,
+            "formulaId": "657a3fee-d072-4b6d-a186-d35e9720e7b1",
+            "flabsCode": "FLP1742"
+          },
+          {
+            "field": "numeric",
+            "name": "PCT",
+            "units": "%",
+            "male-range-min": "",
+            "male-range-max": "",
+            "female-range-max": "",
+            "female-range-min": "",
+            "child-range-max": "",
+            "child-range-min": "",
+            "key": 1,
+            "formulaId": "58a7ac03-b890-44dc-be69-032597762ad4",
+            "range": {
+              "default": {
+                "male-range-min": "0.18",
+                "male-range-max": "0.39",
+                "female-range-max": "0.39",
+                "female-range-min": "0.18",
+                "child-range-max": "0.39",
+                "child-range-min": "0.18"
+              }
+            },
+            "flabsCode": "FLP1631"
+          },
+          {
+            "field": "numeric",
+            "name": "MPV",
+            "units": "fL",
+            "range": {
+              "default": {
+                "male-range-max": "11.5",
+                "male-range-min": "7.5",
+                "female-range-max": "11.5",
+                "female-range-min": "7.5",
+                "child-range-max": "10.6",
+                "child-range-min": "7.2"
+              }
+            },
+            "key": 2,
+            "formulaId": "09e897c9-bcd1-47c2-9878-4617f8fbbe47",
+            "flabsCode": "FLP1411"
+          },
+          {
+            "field": "numeric",
+            "name": "PDW",
+            "key": 3,
+            "formulaId": "2aa1c383-0f2d-4713-8483-c90e10a1f6a6",
+            "units": "fL",
+            "range": {
+              "default": {
+                "male-range-min": "11.0",
+                "male-range-max": "15.5",
+                "female-range-max": "15.5",
+                "female-range-min": "11.0",
+                "child-range-max": "15.5",
+                "child-range-min": "11.0"
+              }
+            },
+            "flabsCode": "FLP1637"
+          },
+          {
+            "key": 4,
+            "field": "numeric",
+            "name": "P-LCR",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "11.0",
+                "male-range-max": "45.0",
+                "female-range-max": "45.0",
+                "female-range-min": "11.0",
+                "child-range-max": "45.0",
+                "child-range-min": "11.0"
+              }
+            },
+            "formulaId": "da13ecdb-19f4-420c-8e91-bb1a20f7facd",
+            "flabsCode": "FLP1610"
+          },
+          {
+            "key": 5,
+            "field": "numeric",
+            "name": "P-LCC",
+            "formulaId": "bed85975-fc19-4761-add7-160e03efa8f7",
+            "units": "10^3/uL",
+            "range": {
+              "default": {
+                "male-range-min": "30.0",
+                "male-range-max": "90.0",
+                "female-range-max": "90.0",
+                "female-range-min": "30.0",
+                "child-range-max": "90.0",
+                "child-range-min": "30.0"
+              }
+            },
+            "flabsCode": "FLP1609"
+          }
+        ]
+      },
+      "_id": "68a8b4e444053e7482c460ac"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Erythrocyte Sedimentation Rate",
+        "field": "numeric",
+        "units": "mm/hr",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "15",
+            "female-range-max": "15",
+            "female-range-min": "0",
+            "child-range-max": "15",
+            "child-range-min": "0"
+          }
+        },
+        "flabsCode": "FLP0833"
+      },
+      "_id": "68a8b5b344053e7482c470cb"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a8b4e444053e7482c460a6",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0496",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-05T19:57:26.277Z",
+  "updatedAt": "2025-08-05T19:57:26.277Z",
+  "__v": 0
+}

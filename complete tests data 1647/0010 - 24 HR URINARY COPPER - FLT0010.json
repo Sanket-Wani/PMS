@@ -1,0 +1,145 @@
+{
+  "_id": "6a86cb445953b1dd0a155c0c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "24 HR URINARY COPPER",
+  "code": "1008",
+  "cost": 0,
+  "interpretation": "<p>A 24-hour urinary copper test measures the amount of copper excreted in urine over a full day. It is mainly used to evaluate copper metabolism and to help diagnose and monitor conditions such as Wilson&rsquo;s disease.</p>\n<div>Elevated urinary copper:</div>\n<ul>\n<li>Seen in Wilson&rsquo;s disease (a genetic disorder causing copper accumulation), where values often exceed 100 &mu;g/24 hours, sometimes much higher.</li>\n<li>May also be elevated in obstructive biliary diseases (e.g., primary biliary cirrhosis), nephrotic syndrome, or due to chelation therapy and certain medication effects.</li>\n<li>Inflammation or steroid hormone therapy can increase urine copper excretion.</li>\n</ul>\n<div>&nbsp;</div>\n<div>Low copper excretion:</div>\n<div>\n<ul>\n<li>May suggest copper deficiency, malnutrition, or conditions like Menkes disease (a genetic disorder causing poor copper absorption)</li>\n</ul>\n</div>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "COPPER ",
+        "field": "numeric",
+        "units": "ug/L ",
+        "range": {
+          "default": {
+            "male-range-min": "2.00",
+            "male-range-max": "80.00",
+            "female-range-max": "80.00",
+            "female-range-min": "2.00",
+            "child-range-max": "80.00",
+            "child-range-min": "2.00"
+          }
+        },
+        "test_method": "(icpms)",
+        "formulaId": "bc3ed0dd-8c20-4733-8551-53ea982d4946",
+        "flabsCode": "FLP0492"
+      },
+      "_id": "67655a1842d9c02ca5610baf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "URINARY COPPER LEVEL IN 24 HOURS",
+        "field": "numeric",
+        "units": "ug/day",
+        "range": {
+          "default": {
+            "male-range-min": "3",
+            "male-range-max": "50",
+            "female-range-max": "50",
+            "female-range-min": "3",
+            "child-range-max": "50",
+            "child-range-min": "3"
+          }
+        },
+        "formulaId": "b1698234-387d-4d57-9083-60181da58642",
+        "flabsCode": "FLP2184"
+      },
+      "_id": "67655a1842d9c02ca5610bb0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "URINE VOLUME IN 24 HOURS",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "600.0",
+            "male-range-max": "1600.0",
+            "female-range-max": "1600.0",
+            "female-range-min": "600.0",
+            "child-range-max": "1600.0",
+            "child-range-min": "600.0"
+          }
+        },
+        "units": "mL/day ",
+        "formulaId": "5c82dd82-12ee-440b-a4a3-8a71e2e05107",
+        "flabsCode": "FLP2195"
+      },
+      "_id": "67655a1842d9c02ca5610bb1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c128",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0010",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.031Z",
+  "updatedAt": "2025-07-21T19:17:52.031Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

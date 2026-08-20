@@ -1,0 +1,127 @@
+{
+  "_id": "6a86ccf2ba46c74c6d45f327",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY DRUG-PIROXYCAM",
+  "code": "2642",
+  "cost": 0,
+  "interpretation": "<p data-start=\"54\" data-end=\"319\"><strong data-start=\"54\" data-end=\"67\">Piroxicam</strong> is a <strong data-start=\"73\" data-end=\"120\">nonsteroidal anti-inflammatory drug (NSAID)</strong> used to treat pain and inflammation in conditions like arthritis. An <strong data-start=\"190\" data-end=\"220\">allergy test for piroxicam</strong> helps determine whether a person has a <strong data-start=\"260\" data-end=\"280\">hypersensitivity</strong> or <strong data-start=\"284\" data-end=\"305\">allergic reaction</strong> to this drug.</p>\n<p data-start=\"1352\" data-end=\"1400\"><strong data-start=\"1356\" data-end=\"1400\">Possible Allergic Reactions to Piroxicam</strong></p>\n<ul data-start=\"1402\" data-end=\"1642\">\n<li data-start=\"1402\" data-end=\"1503\">\n<p data-start=\"1404\" data-end=\"1443\"><strong data-start=\"1404\" data-end=\"1443\">Immediate reactions (IgE-mediated):</strong></p>\n<ul data-start=\"1446\" data-end=\"1503\">\n<li data-start=\"1446\" data-end=\"1465\">\n<p data-start=\"1448\" data-end=\"1465\">Urticaria (hives)</p>\n</li>\n<li data-start=\"1468\" data-end=\"1480\">\n<p data-start=\"1470\" data-end=\"1480\">Angioedema</p>\n</li>\n<li data-start=\"1483\" data-end=\"1503\">\n<p data-start=\"1485\" data-end=\"1503\">Anaphylaxis (rare)</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1505\" data-end=\"1642\">\n<p data-start=\"1507\" data-end=\"1547\"><strong data-start=\"1507\" data-end=\"1547\">Delayed reactions (T-cell mediated):</strong></p>\n<ul data-start=\"1550\" data-end=\"1642\">\n<li data-start=\"1550\" data-end=\"1570\">\n<p data-start=\"1552\" data-end=\"1570\">Maculopapular rash</p>\n</li>\n<li data-start=\"1573\" data-end=\"1594\">\n<p data-start=\"1575\" data-end=\"1594\">Fixed drug eruption</p>\n</li>\n<li data-start=\"1597\" data-end=\"1642\">\n<p data-start=\"1599\" data-end=\"1642\">Stevens-Johnson syndrome (rare but serious)</p>\n</li>\n</ul>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th><strong>Test Result</strong></th>\n<th><strong>Interpretation</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Positive (Reactive)</strong></td>\n<td>Indicates <strong>allergic sensitization</strong> to piroxicam. Re-exposure may lead to allergic reactions; drug should be <strong>avoided</strong>.</td>\n</tr>\n<tr>\n<td><strong>Negative (Non-Reactive)</strong></td>\n<td>Suggests <strong>no current sensitization</strong> to piroxicam. However, clinical correlation is essential, especially if there is a <strong>history of past reaction</strong>.</td>\n</tr>\n<tr>\n<td><strong>Equivocal or Borderline</strong></td>\n<td>Results are unclear. May require <strong>repeat testing</strong> or <strong>alternative methods</strong> to confirm allergy.</td>\n</tr>\n</tbody>\n</table>\n<h3 data-start=\"326\" data-end=\"353\">&nbsp;</h3>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Piroxicam Specific IgE",
+        "field": "multiple_ranges",
+        "units": "kUA/L",
+        "range": {
+          "default": {
+            "male-range": "<0.35 kUA/L = Negative\n0.35–0.70 = Borderline\n>0.70 = Positive",
+            "female-range": "<0.35 kUA/L = Negative\n0.35–0.70 = Borderline\n>0.70 = Positive",
+            "child-range": "<0.35 kUA/L = Negative\n0.35–0.70 = Borderline\n>0.70 = Positive"
+          }
+        },
+        "formulaId": "6c86dedf-bbb1-47ae-902d-86fb5367f314",
+        "flabsCode": "FLP1727"
+      },
+      "_id": "68827a72100272a75a65985b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Skin Prick Test ",
+        "field": "multiple_ranges",
+        "units": "mm",
+        "range": {
+          "default": {
+            "male-range": "<3 mm = Negative\n>=3 mm = Positive",
+            "female-range": "<3 mm = Negative\n>=3 mm = Positive",
+            "child-range": "<3 mm = Negative\n>=3 mm = Positive"
+          }
+        },
+        "formulaId": "4b3a9f77-7059-41ba-9a3b-576aa956d094",
+        "flabsCode": "FLP2006"
+      },
+      "_id": "68827a72100272a75a65985c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Symptoms During Testing",
+        "field": "text",
+        "formulaId": "c9670be1-8758-42aa-a5bd-ec3025f73016",
+        "flabsCode": "FLP2044"
+      },
+      "_id": "68827a72100272a75a65985d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5b4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1368",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.592Z",
+  "updatedAt": "2025-07-21T19:17:57.592Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

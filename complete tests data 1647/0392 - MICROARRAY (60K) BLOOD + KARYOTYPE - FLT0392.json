@@ -1,0 +1,124 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175c64",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MICROARRAY (60K) BLOOD + KARYOTYPE",
+  "code": "1436",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"881\" data-end=\"1010\">\n<p data-start=\"883\" data-end=\"1010\"><span style=\"font-size: 9px;\"><strong data-start=\"883\" data-end=\"903\">Microarray (60K)</strong> detects copy number variations (microdeletions, microduplications) across the genome with high resolution.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1011\" data-end=\"1128\">\n<p data-start=\"1013\" data-end=\"1128\"><span style=\"font-size: 9px;\"><strong data-start=\"1013\" data-end=\"1026\">Karyotype</strong> detects large chromosomal abnormalities, aneuploidies, translocations, and structural rearrangements.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1129\" data-end=\"1310\">\n<p data-start=\"1131\" data-end=\"1310\"><span style=\"font-size: 9px;\">Combined approach improves diagnostic yield in developmental delay, intellectual disability, autism spectrum disorder, multiple congenital anomalies, and recurrent pregnancy loss.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1311\" data-end=\"1387\">\n<p data-start=\"1313\" data-end=\"1387\"><span style=\"font-size: 9px;\"><strong data-start=\"1313\" data-end=\"1330\">Normal result</strong> suggests no detectable pathogenic chromosomal imbalance.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1388\" data-end=\"1464\">\n<p data-start=\"1390\" data-end=\"1464\"><span style=\"font-size: 9px;\">Abnormal findings may require <strong data-start=\"1420\" data-end=\"1442\">genetic counseling</strong> and parental studies.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosomal Microarray (60K)",
+        "field": "custom",
+        "options": [
+          "Abnormal CNVs",
+          "Normal "
+        ],
+        "range": {
+          "default": {
+            "male-range": "No pathogenic CNVs detected",
+            "female-range": "No pathogenic CNVs detected",
+            "child-range": "No pathogenic CNVs detected"
+          }
+        },
+        "formulaId": "ac198ae1-041a-4a63-8283-ec5671a166e7",
+        "flabsCode": "FLP0588"
+      },
+      "_id": "68851fe40a49ec91808224ea"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Karyotype",
+        "field": "custom",
+        "options": [
+          "46,XX ",
+          "46,XY",
+          "Abnormal"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Normal: 46,XX (female) / 46,XY (male)",
+            "female-range": "Normal: 46,XX (female) / 46,XY (male)",
+            "child-range": "Normal: 46,XX (female) / 46,XY (male)"
+          }
+        },
+        "formulaId": "f11f74b7-06d9-4810-859b-30ca3373ccac",
+        "flabsCode": "FLP1302"
+      },
+      "_id": "68851fe40a49ec91808224eb"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c255",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0392",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.440Z",
+  "updatedAt": "2025-07-21T19:17:53.440Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

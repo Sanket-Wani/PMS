@@ -1,0 +1,166 @@
+{
+  "_id": "6a86cc035953b1dd0a17b566",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HISTOPATHOLOGICAL EXAMINATION OF SKIN BIOPSY WITH IMMUNOFLUORESCENCE IgG, IgM, IgA, C3 CIq",
+  "code": "1659",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Finding</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Possible Implication</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Linear IgG and/or C3 along BMZ</span></td>\n<td><span style=\"font-size: 10px;\">Bullous Pemphigoid / Linear IgA Disease</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Intercellular IgG (fish-net pattern)</span></td>\n<td><span style=\"font-size: 10px;\">Pemphigus Vulgaris / Pemphigus Foliaceus</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Granular IgA in Dermal Papillae</span></td>\n<td><span style=\"font-size: 10px;\">Dermatitis Herpetiformis</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Lupus Band (IgG, IgM, C3, C1q along BMZ)</span></td>\n<td><span style=\"font-size: 10px;\">Cutaneous or Systemic Lupus Erythematosus</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative DIF</span></td>\n<td><span style=\"font-size: 10px;\">No immune complex deposits detected; does not exclude all dermatoses -correlate clinically and with serology.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "skin biopsy sample",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Direct Immunofluorescence – IgG",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "841331d7-0dd2-4a9d-a0f1-56138f826f89",
+        "flabsCode": "FLP0769"
+      },
+      "_id": "6883c42635738384e79398b2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Direct Immunofluorescence – IgM",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "54ffed04-bb2a-4806-951c-ebe89aa17cb8",
+        "flabsCode": "FLP0770"
+      },
+      "_id": "6883c42635738384e79398b3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Direct Immunofluorescence – IgA\t",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "1d7d31fc-e598-4ced-a1e8-feac48bc82dc",
+        "flabsCode": "FLP0768"
+      },
+      "_id": "6883c42635738384e79398b4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Direct Immunofluorescence – C3",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "5a3fde1e-65ee-46de-8c22-2424dfaf81fb",
+        "flabsCode": "FLP0767"
+      },
+      "_id": "6883c42635738384e79398b5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Direct Immunofluorescence – C1q",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "ae5dbb75-756d-4eb1-9930-bdca2de8a9f2",
+        "flabsCode": "FLP0766"
+      },
+      "_id": "6883c42635738384e79398b6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pattern of Deposition",
+        "field": "custom",
+        "options": [
+          "Linear ",
+          "Granular ",
+          "Mixed"
+        ],
+        "formulaId": "f64bcb6b-fc43-4317-91fd-af8f1cf36cd3",
+        "flabsCode": "FLP1697"
+      },
+      "_id": "6883c42635738384e79398b7"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2f4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0580",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.139Z",
+  "updatedAt": "2025-07-21T19:17:54.139Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

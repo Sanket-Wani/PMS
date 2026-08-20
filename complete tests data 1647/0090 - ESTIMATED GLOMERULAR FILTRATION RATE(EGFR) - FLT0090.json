@@ -1,0 +1,159 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c78",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ESTIMATED GLOMERULAR FILTRATION RATE(EGFR)",
+  "code": "EGFR",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>AGE IN YEARS<br></div></th><th><div>​<span style=\"background-color: rgb(243, 243, 243)\">GFR IN mL/min/1.73m2</span>​<br></div></th></tr></thead><tbody><tr><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">20-29</span>​<br></div></td><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">116</span>​<br></div></td></tr><tr><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">30-39</span>​<br></div></td><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">107</span>​<br></div></td></tr><tr><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">40-49</span>​<br></div></td><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">99</span>​<br></div></td></tr><tr><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">50-59</span>​<br></div></td><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">93</span>​<br></div></td></tr><tr><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">60-69</span>​<br></div></td><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">85</span>​<br></div></td></tr><tr><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">≥70</span>​<br></div></td><td><div>​<span style=\"background-color: rgb(243, 243, 243)\">75</span>​<br></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "female-range-min": "0.5",
+            "child-range-max": "1.0",
+            "child-range-min": "0.5",
+            "male-range-min": "0.5",
+            "male-range-max": "1.0",
+            "female-range-max": "1.0"
+          }
+        },
+        "name": "Serum Creatinine",
+        "field": "numeric",
+        "units": "mg/dL"
+      },
+      "_id": "64ec5245b784de8b498466ef"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Blood Urea NItrogen(BUN)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "5",
+            "male-range-max": "25",
+            "female-range-max": "25",
+            "female-range-min": "5",
+            "child-range-max": "25",
+            "child-range-min": "5"
+          }
+        },
+        "units": "mg/dL"
+      },
+      "_id": "64ec5245b784de8b498466f0"
+    },
+    {
+      "data": {
+        "name": "Serum Albumin",
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "child-range-min": "3.5",
+            "male-range-min": "3.5",
+            "male-range-max": "5.4",
+            "female-range-max": "5.4",
+            "female-range-min": "3.5",
+            "child-range-max": "5.4"
+          }
+        }
+      },
+      "_id": "64ec5245b784de8b498466f1",
+      "type": "testDetails"
+    },
+    {
+      "data": {
+        "field": "numeric",
+        "units": "mL/min/1.73 m2 ",
+        "range": {
+          "default": {
+            "female-range-min": "90",
+            "child-range-max": "120",
+            "child-range-min": "90",
+            "male-range-min": "90",
+            "male-range-max": "120",
+            "female-range-max": "120"
+          }
+        },
+        "name": "GFR by MDRD Formula"
+      },
+      "_id": "64ec5245b784de8b498466f2",
+      "type": "testDetails"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64ec5245b784de8b498466ee",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0090",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.720Z",
+  "updatedAt": "2026-08-14T17:59:51.720Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

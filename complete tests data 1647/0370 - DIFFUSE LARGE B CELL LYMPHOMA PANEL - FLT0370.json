@@ -1,0 +1,177 @@
+{
+  "_id": "6a86cbbbba46c74c6d43611a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "DIFFUSE LARGE B CELL LYMPHOMA PANEL",
+  "code": "1414",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1131\" data-end=\"1406\">\n<p data-start=\"1133\" data-end=\"1153\"><span style=\"font-size: 8px;\">This panel helps in:</span></p>\n<ul data-start=\"1156\" data-end=\"1406\">\n<li style=\"font-size: 8px;\" data-start=\"1156\" data-end=\"1250\">\n<p data-start=\"1158\" data-end=\"1250\"><span style=\"font-size: 8px;\"><strong data-start=\"1158\" data-end=\"1188\">Classifying DLBCL subtypes</strong> (Germinal Center B-cell [GCB] vs Activated B-cell [ABC] type)</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1253\" data-end=\"1309\">\n<p data-start=\"1255\" data-end=\"1309\"><span style=\"font-size: 8px;\"><strong data-start=\"1255\" data-end=\"1274\">Prognostication</strong> and identifying high-risk patients</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1312\" data-end=\"1406\">\n<p data-start=\"1314\" data-end=\"1406\"><span style=\"font-size: 8px;\"><strong data-start=\"1314\" data-end=\"1338\">Therapeutic guidance</strong> (e.g., need for intensified regimens in double expressor lymphomas)</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1408\" data-end=\"1456\">\n<p data-start=\"1410\" data-end=\"1456\"><span style=\"font-size: 8px;\"><strong data-start=\"1410\" data-end=\"1418\">CD20</strong> positivity confirms B-cell lineage.</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1457\" data-end=\"1533\">\n<p data-start=\"1459\" data-end=\"1533\"><span style=\"font-size: 8px;\"><strong data-start=\"1459\" data-end=\"1483\">CD10, BCL6, and MUM1</strong> are used for <strong data-start=\"1497\" data-end=\"1530\">cell of origin classification</strong>.</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1534\" data-end=\"1596\">\n<p data-start=\"1536\" data-end=\"1596\"><span style=\"font-size: 8px;\"><strong data-start=\"1536\" data-end=\"1550\">High Ki-67</strong> indicates increased proliferative activity.</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1597\" data-end=\"1675\">\n<p data-start=\"1599\" data-end=\"1675\"><span style=\"font-size: 8px;\"><strong data-start=\"1599\" data-end=\"1626\">MYC and BCL2 positivity</strong> (Double expressor) suggests aggressive behavior.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD20",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "0d1fe629-f142-495c-bdab-1941f3f936c7",
+        "flabsCode": "FLP0437"
+      },
+      "_id": "68851c730a49ec918081a555"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD10",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "cf338b15-c14c-4158-9b6f-627e01c1d3c5",
+        "flabsCode": "FLP0430"
+      },
+      "_id": "68851c730a49ec918081a556"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BCL6",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "12883046-993e-4375-917f-2d6ffbaf714a",
+        "flabsCode": "FLP0307"
+      },
+      "_id": "68851c730a49ec918081a557"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MUM1",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "0a7dc50e-dc95-4a55-b82e-f96e95dfe4c0",
+        "flabsCode": "FLP1417"
+      },
+      "_id": "68851c730a49ec918081a558"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BCL2",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "04d2c44f-4848-494f-8555-93dde3eadefb",
+        "flabsCode": "FLP0305"
+      },
+      "_id": "68851c730a49ec918081a559"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ki-67 Proliferation Index\t",
+        "field": "numeric",
+        "rangeReport": "Normally <30–40% in reactive nodes",
+        "units": "%",
+        "formulaId": "351a0054-37c5-4827-b5cf-03c2e9a67b31",
+        "flabsCode": "FLP1307"
+      },
+      "_id": "68851c730a49ec918081a55a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MYC",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "6785f277-3258-48a6-adf5-c5555df59412",
+        "flabsCode": "FLP1419"
+      },
+      "_id": "68851c730a49ec918081a55b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c23f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0370",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.352Z",
+  "updatedAt": "2025-07-21T19:17:53.352Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

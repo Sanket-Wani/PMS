@@ -1,0 +1,155 @@
+{
+  "_id": "6a86cc7692e2891d948dfccd",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ENVIRONMENTAL SURVEILLANCE - SURFACE SWABS",
+  "code": "2198",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1236\" data-end=\"1414\">\n<li data-start=\"1236\" data-end=\"1268\">\n<p data-start=\"1238\" data-end=\"1268\"><strong data-start=\"1238\" data-end=\"1255\">&lt;10 CFU/swab:</strong> Acceptable</p>\n</li>\n<li data-start=\"1269\" data-end=\"1327\">\n<p data-start=\"1271\" data-end=\"1327\"><strong data-start=\"1271\" data-end=\"1290\">10&ndash;50 CFU/swab:</strong> Needs attention &ndash; cleaning advised</p>\n</li>\n<li data-start=\"1328\" data-end=\"1414\">\n<p data-start=\"1330\" data-end=\"1414\"><strong data-start=\"1330\" data-end=\"1367\">&gt;50 CFU/swab or Pathogen present:</strong> Unacceptable &ndash; Immediate corrective measures</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Colony Count (CFU/swab)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "<10 CFU/swab for critical areas (e.g., OT)",
+            "female-range": "<10 CFU/swab for critical areas (e.g., OT)",
+            "child-range": "<10 CFU/swab for critical areas (e.g., OT)"
+          }
+        },
+        "units": "CFU",
+        "formulaId": "a5b13f29-cbc5-4c9f-8edc-c417285de6a5",
+        "flabsCode": "FLP2119"
+      },
+      "_id": "68851be80a49ec91808198c6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gram Stain\t",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "e07e26db-f71c-4a5c-8aca-644db7faab22",
+        "flabsCode": "FLP1047"
+      },
+      "_id": "68851be80a49ec91808198c7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pathogenic Organism Isolation",
+        "field": "custom",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "formulaId": "0923d0f0-4644-46c7-b1d1-6804175ddebb",
+        "flabsCode": "FLP1694"
+      },
+      "_id": "68851be80a49ec91808198c8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fungal Growth",
+        "field": "custom",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "formulaId": "da3e3049-f585-4ece-9bfe-0768fe0f8327",
+        "flabsCode": "FLP0975"
+      },
+      "_id": "68851be80a49ec91808198c9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Environmental Organisms (Normal Flora)",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "b792f64a-88f0-49dd-bf7c-ea3f7591194e",
+        "flabsCode": "FLP0823"
+      },
+      "_id": "68851be80a49ec91808198ca"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c445",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0979",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.980Z",
+  "updatedAt": "2025-07-21T19:17:55.980Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

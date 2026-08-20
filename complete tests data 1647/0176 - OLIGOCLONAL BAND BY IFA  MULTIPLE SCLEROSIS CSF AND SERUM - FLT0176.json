@@ -1,0 +1,137 @@
+{
+  "_id": "6a86cb6d92e2891d948be6fe",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "OLIGOCLONAL BAND BY IFA  MULTIPLE SCLEROSIS CSF AND SERUM",
+  "code": "1168",
+  "cost": 0,
+  "interpretation": "<p>Oligoclonal bands (OCB) not seen both in CSF and serum.</p>\n<p><strong>Note:&nbsp;</strong></p>\n<p>1. Kappa Free Light Chain Index helps to identify Multiple Sclerosis in OCB negative patients, especially when clinical&nbsp;suspicion is high.<br>2. It also differentiates Multiple Sclerosis from other condition with increased intrathecal synthesis</p>\n<p><strong>Comment</strong></p>\n<p>Increased intrathecal synthesis of immunoglobulins, particularly IgG, occurs in demyelinating diseases like Multiple sclerosis.&nbsp;Oligoclonal bands are present in 90% of patients with clinically diagnosed Multiple sclerosis. Simultaneous Isoelectric&nbsp;focusing of serum and CSF samples helps to distinguish between the production of oligoclonal bands due to Peripheral&nbsp;gammopathy from that due to local production in the CNS. Oligoclonal bands are also seen in Subacute sclerosing&nbsp;panencephalitis, Inflammatory polyneuropathy, CNS lupus &amp; brain tumours.</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Oligoclonal Band by IEF Multiple Sclerosis CSF and Serum",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "IMMUNOGLOBULIN IgG, CSF",
+            "range": {
+              "default": {
+                "male-range": "<34.00",
+                "female-range": "<34.00",
+                "child-range": "<34.00"
+              }
+            },
+            "units": "mg/L ",
+            "formulaId": "df62c17c-f3e4-4ce1-8c45-6c71c5660728",
+            "flabsCode": "FLP1208"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Oligoclonal Bands, CSF ",
+            "formulaId": "8ffe65b7-c073-45f8-b9d2-98b56d88593c",
+            "flabsCode": "FLP1591"
+          },
+          {
+            "key": 2,
+            "field": "numeric",
+            "name": "Immunogloublin IgG, Serum",
+            "units": "mg/dL",
+            "range": {
+              "default": {
+                "male-range-min": "650.00",
+                "male-range-max": "1600.00",
+                "female-range-max": "1600.00",
+                "female-range-min": "650.00",
+                "child-range-max": "1600.00",
+                "child-range-min": "650.00"
+              }
+            },
+            "formulaId": "88c9a5f9-ba9a-409d-96c1-578ebca42853",
+            "flabsCode": "FLP1247"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "OLIGOCLONAL BANDS IgG,SERUM",
+            "formulaId": "c3efa7a2-431f-4cc9-99bc-09e6550ea424",
+            "flabsCode": "FLP1584"
+          }
+        ]
+      },
+      "_id": "678f5743fd24218873472d45"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1b4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0176",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.709Z",
+  "updatedAt": "2025-07-21T19:17:52.709Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

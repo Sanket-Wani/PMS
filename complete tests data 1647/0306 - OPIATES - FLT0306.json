@@ -1,0 +1,198 @@
+{
+  "_id": "6a86cbae5953b1dd0a16fad0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "OPIATES",
+  "code": "1355",
+  "cost": 0,
+  "interpretation": "<p>Preliminary positive results should be confirmed with a more specific method. HPLC are preferred for confirmatory results</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "OPIATES",
+        "categories": [
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "AMPHETAMINES ",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "79809fa9-09c9-49ff-b756-67cc72212c79",
+            "flabsCode": "FLP0115"
+          },
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "BARBITURATES",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "c024454c-e420-4e39-98d6-d354ca98021d",
+            "flabsCode": "FLP0301"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "COCAINE",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "37b8372d-2500-4999-9676-d92bb5d40a89",
+            "flabsCode": "FLP0486"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "BENZODIAZEPINE",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "78db0bf5-58cf-460a-824e-b9d5d101a85f",
+            "flabsCode": "FLP0311"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "MORPHINE/OPIATES ",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "da565ef4-3c52-4220-b53d-6bd502190884",
+            "flabsCode": "FLP1407"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "MARIJUANA/HASHISH ",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "b63ce230-bfb4-4518-b975-b9944760494d",
+            "flabsCode": "FLP1388"
+          }
+        ]
+      },
+      "_id": "678f870a703282cce3e55527"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c20b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0306",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.122Z",
+  "updatedAt": "2025-07-21T19:17:53.122Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

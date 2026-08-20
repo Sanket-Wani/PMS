@@ -1,0 +1,134 @@
+{
+  "_id": "6a86cbbbba46c74c6d436050",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHROMOSOME 21",
+  "code": "1404",
+  "cost": 0,
+  "interpretation": "<p>The chromosome 21 analysis reveals the presence of an extra copy of chromosome 21, consistent with&nbsp;Trisomy 21 (Down syndrome). This genetic finding confirms the diagnosis and is associated with developmental delay and characteristic clinical features. Genetic counseling is recommended to discuss prognosis and recurrence risk.</p>\n<p>Chromosome 21 analysis shows a&nbsp;normal chromosomal pattern, with no evidence of trisomy, deletions, or structural abnormalities. There is&nbsp;no indication of Down syndrome or related genetic changes.</p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome Count",
+        "field": "custom",
+        "options": [
+          "46 (Normal)",
+          "47 (Trisomy)"
+        ],
+        "formulaId": "8d4b1ec8-fca1-4f7a-b515-46332f518a78",
+        "flabsCode": "FLP0599"
+      },
+      "_id": "687fcb02ab7ae7de0ec2e73d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specific Finding",
+        "field": "custom",
+        "options": [
+          "No abnormality detected",
+          "Detected"
+        ],
+        "formulaId": "11a1e139-0a7c-4d5d-a477-e75af4ce75d4"
+      },
+      "_id": "687fcb02ab7ae7de0ec2e73e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome 21 (Structure/Copy)",
+        "field": "custom",
+        "options": [
+          "Normal ",
+          "Trisomy",
+          "Monosomy",
+          "Deletion",
+          "Ring"
+        ],
+        "formulaId": "ed87ade7-07ed-4cd9-b504-e18bcc684404",
+        "flabsCode": "FLP0596"
+      },
+      "_id": "687fcb02ab7ae7de0ec2e73f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Additional Remarks",
+        "field": "text",
+        "formulaId": "b2a5cc55-ca4a-4e77-9798-2e03fbe97690"
+      },
+      "_id": "687fcb02ab7ae7de0ec2e740"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c235",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0360",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.313Z",
+  "updatedAt": "2025-07-21T19:17:53.313Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

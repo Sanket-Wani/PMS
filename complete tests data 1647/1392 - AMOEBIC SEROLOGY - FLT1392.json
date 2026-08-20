@@ -1,0 +1,151 @@
+{
+  "_id": "6a86ccf3ba46c74c6d45f496",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AMOEBIC SEROLOGY",
+  "code": "AMOEB-001",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"626\" data-end=\"706\">\n<p data-start=\"628\" data-end=\"706\">Amoebic serology detects <strong data-start=\"653\" data-end=\"671\">IgG antibodies</strong> against <em data-start=\"680\" data-end=\"703\">Entamoeba histolytica</em>.</p>\n</li>\n<li data-start=\"707\" data-end=\"831\">\n<p data-start=\"709\" data-end=\"831\">Useful in diagnosing <strong data-start=\"730\" data-end=\"761\">extra-intestinal amoebiasis</strong> (especially liver abscess), since stool microscopy may be negative.</p>\n</li>\n<li data-start=\"832\" data-end=\"1168\">\n<p data-start=\"834\" data-end=\"852\"><strong data-start=\"834\" data-end=\"850\">Limitations:</strong></p>\n<ul data-start=\"855\" data-end=\"1168\">\n<li data-start=\"855\" data-end=\"968\">\n<p data-start=\"857\" data-end=\"968\">Antibodies may persist for <strong data-start=\"884\" data-end=\"903\">months to years</strong>, so a positive result does <strong data-start=\"931\" data-end=\"965\">not always mean active disease</strong>.</p>\n</li>\n<li data-start=\"971\" data-end=\"1045\">\n<p data-start=\"973\" data-end=\"1045\">Cannot distinguish between <strong data-start=\"1000\" data-end=\"1017\">past exposure</strong> and <strong data-start=\"1022\" data-end=\"1042\">active infection</strong>.</p>\n</li>\n<li data-start=\"1048\" data-end=\"1168\">\n<p data-start=\"1050\" data-end=\"1168\">Should be interpreted with <strong data-start=\"1077\" data-end=\"1165\">clinical findings, imaging (USG/CT for liver abscess), and stool antigen tests / PCR</strong>.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1169\" data-end=\"1263\">\n<p data-start=\"1171\" data-end=\"1263\"><strong data-start=\"1171\" data-end=\"1190\">Negative result</strong> does not exclude intestinal amoebiasis, especially early in infection.</p>\n</li>\n</ul>",
+  "showInterpretation": true,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgG Antibodies to Entamoeba histolytica",
+        "field": "numeric",
+        "units": "AU/mL",
+        "range": {
+          "default": {
+            "male-range-max": "0.9",
+            "male-range-min": "0",
+            "female-range-max": "0.9",
+            "female-range-min": "0",
+            "child-range-max": "0.9",
+            "child-range-min": "0"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0-0.9",
+        "formulaId": "9525403e-f5aa-4d7c-bba8-e4046fa02863",
+        "flabsCode": "FLP1232"
+      },
+      "_id": "68a65a83a2dcc291a91b9c60"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgM Antibodies to Entamoeba histolytica",
+        "field": "numeric",
+        "units": "AU/mL",
+        "range": {
+          "default": {
+            "male-range-max": "0.9",
+            "male-range-min": "0",
+            "female-range-max": "0.9",
+            "female-range-min": "0",
+            "child-range-max": "0.9",
+            "child-range-min": "0"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0-0.9",
+        "formulaId": "78ee2eb7-6146-4f3e-9a9e-6dfcb951653f",
+        "flabsCode": "FLP1239"
+      },
+      "_id": "68a65a83a2dcc291a91b9c61"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Entamoeba histolytica Antigen",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative",
+        "formulaId": "a8e03ef6-4c89-4bdc-98a8-5ed04d2895df",
+        "flabsCode": "FLP0817"
+      },
+      "_id": "68a65a83a2dcc291a91b9c62"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a65a83a2dcc291a91b9c5f",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FF0000",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT1392",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-20T23:30:11.744Z",
+  "updatedAt": "2025-08-20T23:30:11.744Z",
+  "__v": 0
+}

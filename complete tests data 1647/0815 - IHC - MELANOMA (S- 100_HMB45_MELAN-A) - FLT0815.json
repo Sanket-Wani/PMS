@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cc3e5953b1dd0a181c4b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - MELANOMA (S- 100/HMB45/MELAN-A)",
+  "code": "1926",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"940\" data-end=\"1065\">\n<p data-start=\"942\" data-end=\"1065\"><strong data-start=\"942\" data-end=\"951\">S-100</strong>:<br data-start=\"952\" data-end=\"955\">Highly sensitive but less specific. Positive in most melanomas, also in Langerhans cells, glial tumors, etc.</p>\n</li>\n<li data-start=\"1067\" data-end=\"1168\">\n<p data-start=\"1069\" data-end=\"1168\"><strong data-start=\"1069\" data-end=\"1079\">HMB-45</strong>:<br data-start=\"1080\" data-end=\"1083\">More specific to melanocytic tumors. Strong positivity supports melanoma diagnosis.</p>\n</li>\n<li data-start=\"1170\" data-end=\"1258\">\n<p data-start=\"1172\" data-end=\"1258\"><strong data-start=\"1172\" data-end=\"1183\">Melan-A</strong>:<br data-start=\"1184\" data-end=\"1187\">Specific for melanocytic origin. Helps confirm melanocytic neoplasms.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "S-100",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "1456c368-0aef-4fa6-8069-9b0b6999bc19",
+        "flabsCode": "FLP1875"
+      },
+      "_id": "6882fab68e199a0b920b8404"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HMB-45",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "d62859c3-126d-4ee2-87f2-1da4c180e671",
+        "flabsCode": "FLP1130"
+      },
+      "_id": "6882fab68e199a0b920b8405"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Melan-A",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "e2690667-8999-4f4e-a488-f152db9be16c",
+        "flabsCode": "FLP1448"
+      },
+      "_id": "6882fab68e199a0b920b8406"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c3b9",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0815",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.281Z",
+  "updatedAt": "2025-07-21T19:17:55.281Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

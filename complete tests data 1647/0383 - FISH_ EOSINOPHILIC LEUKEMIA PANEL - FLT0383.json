@@ -1,0 +1,203 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175b6d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FISH: EOSINOPHILIC LEUKEMIA PANEL",
+  "code": "1427",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"2233\" data-end=\"2808\">\n<li data-start=\"2233\" data-end=\"2614\">\n<p data-start=\"2235\" data-end=\"2292\"><span style=\"font-size: 10px;\"><strong data-start=\"2235\" data-end=\"2290\">Any Rearrangement Detected (PDGFRA, PDGFRB, FGFR1):</strong></span></p>\n<ul data-start=\"2295\" data-end=\"2614\">\n<li style=\"font-size: 10px;\" data-start=\"2295\" data-end=\"2408\">\n<p data-start=\"2297\" data-end=\"2408\"><span style=\"font-size: 10px;\">Supports diagnosis of <strong data-start=\"2319\" data-end=\"2405\">Myeloid/Eosinophilic Neoplasm with Tyrosine Kinase Fusion (per WHO classification)</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2411\" data-end=\"2508\">\n<p data-start=\"2413\" data-end=\"2508\"><span style=\"font-size: 10px;\">May predict response to <strong data-start=\"2437\" data-end=\"2505\">tyrosine kinase inhibitors (e.g., imatinib for PDGFRA/B fusions)</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2511\" data-end=\"2614\">\n<p data-start=\"2513\" data-end=\"2614\"><span style=\"font-size: 10px;\">Requires correlation with <strong data-start=\"2539\" data-end=\"2613\">clinical, morphological, and other molecular findings (NGS, karyotype)</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2616\" data-end=\"2808\">\n<p data-start=\"2618\" data-end=\"2650\"><span style=\"font-size: 10px;\"><strong data-start=\"2618\" data-end=\"2648\">No Rearrangement Detected:</strong></span></p>\n<ul data-start=\"2653\" data-end=\"2808\">\n<li style=\"font-size: 10px;\" data-start=\"2653\" data-end=\"2697\">\n<p data-start=\"2655\" data-end=\"2697\"><span style=\"font-size: 10px;\">No evidence of the tested fusion events.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2700\" data-end=\"2808\">\n<p data-start=\"2702\" data-end=\"2808\"><span style=\"font-size: 10px;\">Does not rule out other genetic abnormalities; additional <strong data-start=\"2760\" data-end=\"2790\">NGS or cytogenetic testing</strong> may be warranted.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cells Analyzed (Nuclei)",
+        "field": "numeric_unbound",
+        "units": "Count",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "200",
+              "op": ">="
+            },
+            "female-range": {
+              "value": "200",
+              "op": ">="
+            },
+            "child-range": {
+              "value": "200",
+              "op": ">="
+            }
+          }
+        },
+        "formulaId": "d48a765d-02d3-4859-8fb3-2df0365bd4eb",
+        "flabsCode": "FLP0562"
+      },
+      "_id": "688551fc4c9e1585202dc412"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PDGFRA (4q12) Rearrangement by FISH",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected "
+        ],
+        "formulaId": "4092dbc0-aca5-4392-bb3a-8f58407cbfbb",
+        "flabsCode": "FLP1634"
+      },
+      "_id": "688551fc4c9e1585202dc413"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PDGFRB (5q33) Rearrangement by FISH\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "95b32fcf-09ee-4d1e-a1ec-0c8f3bd04314",
+        "flabsCode": "FLP1635"
+      },
+      "_id": "688551fc4c9e1585202dc414"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FGFR1 (8p11) Rearrangement by FISH",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "d7fb6bce-daeb-483b-91d4-8b3edc993fa7",
+        "flabsCode": "FLP0874"
+      },
+      "_id": "688551fc4c9e1585202dc415"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BCR-ABL1 (t(9;22)) by FISH (if included)\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "b037db3a-0234-4c7c-abc0-c0f4420afcf0",
+        "flabsCode": "FLP0308"
+      },
+      "_id": "688551fc4c9e1585202dc416"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "80d5ca37-691b-4323-a704-b451604afb62",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "688551fc4c9e1585202dc417"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Analytical Sensitivity of Assay",
+        "field": "numeric",
+        "units": "%",
+        "rangeReport": "Detects rearrangements ≥1–5% (assay/platform dependent)",
+        "formulaId": "182a4c70-6073-41bf-a6e4-8eba490a922c",
+        "flabsCode": "FLP0215"
+      },
+      "_id": "688551fc4c9e1585202dc418"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c24c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0383",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.405Z",
+  "updatedAt": "2025-07-21T19:17:53.405Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

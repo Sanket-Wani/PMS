@@ -1,0 +1,122 @@
+{
+  "_id": "6a86cc105953b1dd0a17cc5c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IRON STAIN",
+  "code": "1714",
+  "cost": 0,
+  "interpretation": "<p>\"Adequate iron stores (2+).\"<br>- \"Absent iron stores &ndash; consistent with iron deficiency.\"<br>- \"Markedly increased iron (5+) with ringed sideroblasts &ndash; suggestive of sideroblastic anemia or overload.\"</p>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Presence of Iron Stores",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "f00c2ca1-9bbd-43dc-9d50-17da37c73f6a",
+        "flabsCode": "FLP1776"
+      },
+      "_id": "6882758b124d8484d88b705d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Grading of Iron",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "0 to 6 scale",
+            "female-range": "0 to 6 scale",
+            "child-range": "0 to 6 scale"
+          }
+        },
+        "formulaId": "9d08591f-64e8-43db-a99e-0cdd136b6247",
+        "flabsCode": "FLP1043"
+      },
+      "_id": "6882758b124d8484d88b705e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Presence of Sideroblasts",
+        "field": "text",
+        "formulaId": "dcb29524-83ec-44b1-b47f-333f71152ea2",
+        "flabsCode": "FLP1777"
+      },
+      "_id": "6882758b124d8484d88b705f"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c319",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0617",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.320Z",
+  "updatedAt": "2025-07-21T19:17:54.320Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

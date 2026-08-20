@@ -1,0 +1,136 @@
+{
+  "_id": "6a86cc4e92e2891d948dcdb1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - UROPLAKIN",
+  "code": "1960",
+  "cost": 0,
+  "interpretation": "<ul>\n<li style=\"font-size: 10px;\" data-start=\"593\" data-end=\"644\"><span style=\"font-size: 10px;\">Suggestive of <strong data-start=\"607\" data-end=\"628\">Urothelial Origin</strong> (if positive)</span></li>\n<li style=\"font-size: 10px;\" data-start=\"648\" data-end=\"680\"><span style=\"font-size: 10px;\">Not suggestive (if negative)</span></li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Uroplakin Expression",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "e6c1b215-dc50-41af-9adc-bc3a556daec5",
+        "flabsCode": "FLP2229"
+      },
+      "_id": "688127d37ff2db489c3003cd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Pattern",
+        "field": "text",
+        "formulaId": "bd286687-141f-432a-9817-e296195cbcc5",
+        "flabsCode": "FLP2033"
+      },
+      "_id": "688127d37ff2db489c3003ce"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Intensity",
+        "field": "text",
+        "formulaId": "ba3f38b9-85e5-4de0-a8ca-f28713667090",
+        "flabsCode": "FLP2032"
+      },
+      "_id": "688127d37ff2db489c3003cf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "0",
+            "child-range-max": "100",
+            "child-range-min": "0"
+          }
+        },
+        "formulaId": "676bd054-3082-4c27-8365-5bd7a57ef6e8",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "688127d37ff2db489c3003d0"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c3db",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0849",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.503Z",
+  "updatedAt": "2025-07-21T19:17:55.503Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

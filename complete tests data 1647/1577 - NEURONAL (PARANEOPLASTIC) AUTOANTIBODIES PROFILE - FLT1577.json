@@ -1,0 +1,198 @@
+{
+  "_id": "6a86cd2b92e2891d94905b39",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NEURONAL (PARANEOPLASTIC) AUTOANTIBODIES PROFILE",
+  "code": "2814",
+  "cost": 0,
+  "interpretation": "<p>1. It is recommended to confirm all positive results by Indirect Immunofluorescence<br>2. Negative results do not exclude the possibility of Paraneoplastic syndromes.</p>\n<p><strong>Comments</strong></p>\n<p>Paraneoplastic autoimmune neurological disorders reflect a patient's humoral and cellular immune responses to cancer.&nbsp;Seropositive patients usually present with subacute neurological symptoms of Encephalopathy, Cerebellar ataxia,&nbsp;Radiculopathy, Myelopathy &amp; Neuromuscular transmission disorders. This assay is recommended in patients with past or&nbsp;family history of cancer, smoking and environmental exposure to carcinogens.</p>\n<table style=\"border-collapse: collapse; width: 99.9307%;\" border=\"1\"><colgroup><col style=\"width: 33.3799%;\"><col style=\"width: 33.3799%;\"><col style=\"width: 33.3799%;\"></colgroup>\n<tbody>\n<tr>\n<td>Antibodies</td>\n<td style=\"text-align: center;\">Neurological syndrome</td>\n<td>Typically associated tumors</td>\n</tr>\n<tr>\n<td>Anti-Hu (ANNA 1)</td>\n<td>\n<ul>\n<li>Sensory neuropathy</li>\n<li>Chronic Gastronitestinal pseudoobstruction</li>\n<li>Cerebellar degeneration</li>\n<li>Limbic encephalitis</li>\n</ul>\n</td>\n<td>Small cell bronchial carcinoma</td>\n</tr>\n<tr>\n<td>Anti-Yo</td>\n<td>\n<ul>\n<li>Cerebellar degeneration</li>\n</ul>\n</td>\n<td>Ovarian &amp; Brease Carcinoma</td>\n</tr>\n<tr>\n<td>Anti-CV2</td>\n<td>\n<ul>\n<li>Chorea</li>\n<li>Sensory neuropathy</li>\n<li>Chronic Gastronitestinal pseudoobstruction</li>\n<li>Cerebellar degeneration</li>\n<li>Limbic encephalitis</li>\n</ul>\n</td>\n<td>Small cell bronchial carcinoma Thymoma</td>\n</tr>\n<tr>\n<td>Anit-Ma2 (Ma/Ta)</td>\n<td>\n<ul>\n<li>Limbic encephalitis</li>\n<li>Brainstem encepalitis</li>\n<li>Cerebellar degeneration</li>\n</ul>\n</td>\n<td>Seminoma, Lung Carcinoma</td>\n</tr>\n<tr>\n<td>Anti-Ri (ANNA2)</td>\n<td>\n<ul>\n<li>Brainstem encepalitis</li>\n</ul>\n</td>\n<td>Breast &amp; Small cell bronchial carcinoma</td>\n</tr>\n<tr>\n<td>Anti-amphiphysin</td>\n<td>\n<ul>\n<li>Stiff-person syndrome</li>\n</ul>\n</td>\n<td>Breast &amp; Small cell bronchial carcinoma</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Uses</strong></p>\n<ul>\n<li>Serological evaluation of patients who present with a subacute neurological disorder of undetermined etiology,&nbsp;especially those with known risk factors for cancer</li>\n<li>Investigating neurological symptoms that appear in the course of, or after, cancer therapy, and are not explainable by&nbsp;metastasis</li>\n<li>To detect Occult malignancy</li>\n<li>Differentiating autoimmune neuropathies from neurotoxic effects of chemotherapy</li>\n<li>Monitoring the immune response of seropositive patients in the course of cancer therapy</li>\n<li>Detecting early evidence of cancer recurrence in previously seropositive patients</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Neuronal (Paraneoplastic) Autoantibodies Profile",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Anti - Amphiphysin ",
+            "options": [
+              "positive",
+              "negative"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "d6b47704-11b8-48da-bf05-016151af8cb9",
+            "flabsCode": "FLP0221"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Anti - CV2/CRMP5",
+            "options": [
+              "positive",
+              "negative"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "cfe10fae-e4d8-4429-9ef5-6c86b02b97aa",
+            "flabsCode": "FLP0223"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Anti - PNMA2 / (Ma 2 / Ta)",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "8d764348-a8b1-43b5-98ca-c4c6889e91d3",
+            "flabsCode": "FLP0225"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Anti - Ri/ANNA - 2",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "d0a66a72-cee6-43ff-814d-c2734656ed85",
+            "flabsCode": "FLP0226"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Anti - Yo/PCA - 1 ",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "9cc3ffa5-b240-4625-9e99-f97bff83b979",
+            "flabsCode": "FLP1314"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Anti - Hu/ ANNA - 1",
+            "options": [
+              "negative",
+              "positive"
+            ],
+            "range": {
+              "default": {
+                "male-range": "Negative",
+                "female-range": "Negative",
+                "child-range": "Negative"
+              }
+            },
+            "formulaId": "aaca2768-7fff-45e2-987c-75cc7f94c7a6",
+            "flabsCode": "FLP0224"
+          }
+        ]
+      },
+      "_id": "678b959100b1e4b2835f59b1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c65c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1577",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.253Z",
+  "updatedAt": "2025-07-21T19:17:58.253Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

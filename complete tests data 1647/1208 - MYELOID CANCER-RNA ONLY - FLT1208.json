@@ -1,0 +1,180 @@
+{
+  "_id": "6a86ccbf5953b1dd0a1990c0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MYELOID CANCER-RNA ONLY",
+  "code": "2446",
+  "cost": 0,
+  "interpretation": "<ol data-start=\"2053\" data-end=\"2639\">\n<li data-start=\"2053\" data-end=\"2234\">\n<p data-start=\"2056\" data-end=\"2092\"><span style=\"font-size: 10px;\"><strong data-start=\"2056\" data-end=\"2090\">No Fusion Transcript Detected:</strong></span></p>\n<ul data-start=\"2096\" data-end=\"2234\">\n<li style=\"font-size: 10px;\" data-start=\"2096\" data-end=\"2165\">\n<p data-start=\"2098\" data-end=\"2165\"><span style=\"font-size: 10px;\">Suggests absence of common myeloid malignancy-associated fusions.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2169\" data-end=\"2234\">\n<p data-start=\"2171\" data-end=\"2234\"><span style=\"font-size: 10px;\">Correlate with morphology, cytogenetics, and clinical findings.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2236\" data-end=\"2482\">\n<p data-start=\"2239\" data-end=\"2272\"><span style=\"font-size: 10px;\"><strong data-start=\"2239\" data-end=\"2270\">Fusion Transcript Detected:</strong></span></p>\n<ul data-start=\"2276\" data-end=\"2482\">\n<li style=\"font-size: 10px;\" data-start=\"2276\" data-end=\"2401\">\n<p data-start=\"2278\" data-end=\"2401\"><span style=\"font-size: 10px;\">Indicates a specific molecular subtype of Myeloid Malignancy (e.g., AML with t(8;21), inv(16), or BCR-ABL1 positive CML).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2405\" data-end=\"2482\">\n<p data-start=\"2407\" data-end=\"2482\"><span style=\"font-size: 10px;\">Guides prognosis and therapy (e.g., targeted therapy, risk stratification).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2484\" data-end=\"2639\">\n<p data-start=\"2487\" data-end=\"2517\"><span style=\"font-size: 10px;\"><strong data-start=\"2487\" data-end=\"2515\">Quantitative Monitoring:</strong></span></p>\n<ul data-start=\"2521\" data-end=\"2639\">\n<li style=\"font-size: 10px;\" data-start=\"2521\" data-end=\"2584\">\n<p data-start=\"2523\" data-end=\"2584\"><span style=\"font-size: 10px;\">Rising transcript levels on follow-up may indicate relapse.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2588\" data-end=\"2639\">\n<p data-start=\"2590\" data-end=\"2639\"><span style=\"font-size: 10px;\">Falling or undetectable levels suggest remission.</span></p>\n</li>\n</ul>\n</li>\n</ol>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RNA Quality (RIN or Ct Value)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "RIN ≥7.0 or Ct ≤30",
+            "female-range": "RIN ≥7.0 or Ct ≤30",
+            "child-range": "RIN ≥7.0 or Ct ≤30"
+          }
+        },
+        "formulaId": "94d93ba6-c067-4fc7-87ff-4e8334a70bed",
+        "flabsCode": "FLP1829"
+      },
+      "_id": "688531bd4c9e1585202d1959"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fusion Transcript Detected (Yes/No)",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "0ad4fa17-840a-4513-940d-94b0966c5bdb",
+        "flabsCode": "FLP0978"
+      },
+      "_id": "688531bd4c9e1585202d195a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specific Fusion Genes",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "0a1f58be-69a7-4d1b-b82d-d04e0297d700",
+        "flabsCode": "FLP2021"
+      },
+      "_id": "688531bd4c9e1585202d195b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Quantitative Transcript Level (if applicable)",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "0.01",
+              "op": "<="
+            },
+            "female-range": {
+              "value": "0.01",
+              "op": "<="
+            },
+            "child-range": {
+              "value": "0.01",
+              "op": "<="
+            }
+          }
+        },
+        "formulaId": "e0e146e3-c452-4623-aa86-e3b8ac11dc0c",
+        "flabsCode": "FLP1808"
+      },
+      "_id": "688531bd4c9e1585202d195c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensitivity of Assay",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.01"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.01"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.01"
+            }
+          }
+        },
+        "formulaId": "850b2b20-769a-443e-a060-626042c3b6b6",
+        "flabsCode": "FLP0215"
+      },
+      "_id": "688531bd4c9e1585202d195d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c516",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1208",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.908Z",
+  "updatedAt": "2025-07-21T19:17:56.908Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

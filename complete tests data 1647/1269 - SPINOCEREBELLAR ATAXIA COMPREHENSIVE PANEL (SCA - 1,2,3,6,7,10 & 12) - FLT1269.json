@@ -1,0 +1,200 @@
+{
+  "_id": "6a86ccccba46c74c6d459c62",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SPINOCEREBELLAR ATAXIA COMPREHENSIVE PANEL (SCA - 1,2,3,6,7,10 & 12)",
+  "code": "2516",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1964\" data-end=\"2013\">\n<p data-start=\"1966\" data-end=\"2013\"><strong data-start=\"1966\" data-end=\"1977\">Normal:</strong> Repeat count within normal range.</p>\n</li>\n<li data-start=\"2014\" data-end=\"2110\">\n<p data-start=\"2016\" data-end=\"2110\"><strong data-start=\"2016\" data-end=\"2041\">Pathogenic Expansion:</strong> Repeat count exceeds pathogenic threshold (indicates SCA subtype).</p>\n</li>\n<li data-start=\"2111\" data-end=\"2199\">\n<p data-start=\"2113\" data-end=\"2199\"><strong data-start=\"2113\" data-end=\"2144\">Intermediate / Premutation:</strong> Repeat count between normal and full mutation range.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SCA1 (ATXN1)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 35 repeats",
+            "female-range": "≤ 35 repeats",
+            "child-range": "≤ 35 repeats"
+          }
+        },
+        "formulaId": "120e6ff8-0176-40e2-8aac-6036ec3d8f11",
+        "flabsCode": "FLP1887"
+      },
+      "_id": "688507250a49ec91807d5336"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SCA2 (ATXN2)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 31 repeats",
+            "female-range": "≤ 31 repeats",
+            "child-range": "≤ 31 repeats"
+          }
+        },
+        "formulaId": "8a23ac6b-fdd4-410f-a832-befee96759d8",
+        "flabsCode": "FLP1890"
+      },
+      "_id": "688507250a49ec91807d5337"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SCA3 (ATXN3)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 44 repeats",
+            "female-range": "≤ 44 repeats",
+            "child-range": "≤ 44 repeats"
+          }
+        },
+        "formulaId": "e4cb1c16-aae2-4196-a1cf-e80501a43e81",
+        "flabsCode": "FLP1891"
+      },
+      "_id": "688507250a49ec91807d5338"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SCA6 (CACNA1A",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 18 repeats",
+            "female-range": "≤ 18 repeats",
+            "child-range": "≤ 18 repeats"
+          }
+        },
+        "formulaId": "8b307d9c-cd63-47af-a264-0b656ae613ce",
+        "flabsCode": "FLP1892"
+      },
+      "_id": "688507250a49ec91807d5339"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SCA7 (ATXN7)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 19 repeats",
+            "female-range": "≤ 19 repeats",
+            "child-range": "≤ 19 repeats"
+          }
+        },
+        "formulaId": "53d5ffab-ca35-418c-9dec-0f39f2fdcaf4",
+        "flabsCode": "FLP1893"
+      },
+      "_id": "688507250a49ec91807d533a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SCA10 (ATXN10)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 32 repeats",
+            "female-range": "≤ 32 repeats",
+            "child-range": "≤ 32 repeats"
+          }
+        },
+        "formulaId": "cecd19a3-b31a-48cd-866b-ba9ccd2a89a2",
+        "flabsCode": "FLP1888"
+      },
+      "_id": "688507250a49ec91807d533b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SCA12 (PPP2R2B)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 32 repeats",
+            "female-range": "≤ 32 repeats",
+            "child-range": "≤ 32 repeats"
+          }
+        },
+        "formulaId": "37f0ea7c-352b-4d42-a8e5-b6105f4395a2",
+        "flabsCode": "FLP1889"
+      },
+      "_id": "688507250a49ec91807d533c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c553",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1269",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.214Z",
+  "updatedAt": "2025-07-21T19:17:57.214Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

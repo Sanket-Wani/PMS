@@ -1,0 +1,186 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a4f0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IMMUNOGLOBULIN IgG SUBCLASSES",
+  "code": "1120",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1468\" data-end=\"1663\">\n<p data-start=\"1470\" data-end=\"1534\"><strong data-start=\"1470\" data-end=\"1484\">Low levels</strong> of one or more subclasses may be associated with:</p>\n<ul data-start=\"1537\" data-end=\"1663\">\n<li data-start=\"1537\" data-end=\"1581\">\n<p data-start=\"1539\" data-end=\"1581\">Recurrent infections (e.g., sinopulmonary)</p>\n</li>\n<li data-start=\"1584\" data-end=\"1625\">\n<p data-start=\"1586\" data-end=\"1625\">Common Variable Immunodeficiency (CVID)</p>\n</li>\n<li data-start=\"1628\" data-end=\"1663\">\n<p data-start=\"1630\" data-end=\"1663\">Selective IgG subclass deficiency</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1664\" data-end=\"1790\">\n<p data-start=\"1666\" data-end=\"1707\"><strong data-start=\"1666\" data-end=\"1683\">Elevated IgG4</strong> may be associated with:</p>\n<ul data-start=\"1710\" data-end=\"1790\">\n<li data-start=\"1710\" data-end=\"1742\">\n<p data-start=\"1712\" data-end=\"1742\">IgG4-Related Disease (IgG4-RD)</p>\n</li>\n<li data-start=\"1745\" data-end=\"1790\">\n<p data-start=\"1747\" data-end=\"1790\">Allergic conditions or chronic inflammation</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "gG1 Subclass",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "240",
+            "male-range-max": "910",
+            "female-range-max": "910",
+            "female-range-min": "240",
+            "child-range-max": "910",
+            "child-range-min": "240"
+          }
+        },
+        "formulaId": "9232e74f-01f6-4a51-bd05-3014f85dfa90",
+        "flabsCode": "FLP2319"
+      },
+      "_id": "6884195a35738384e796f104"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgG2 Subclass",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "110",
+            "male-range-max": "610",
+            "female-range-max": "610",
+            "female-range-min": "110",
+            "child-range-max": "610",
+            "child-range-min": "110"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "3292b9e4-93dd-4ad2-9e83-390db4ccf24b",
+        "flabsCode": "FLP1234"
+      },
+      "_id": "6884195a35738384e796f105"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgG3 Subclass",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "20",
+            "male-range-max": "120",
+            "female-range-max": "120",
+            "female-range-min": "20",
+            "child-range-max": "120",
+            "child-range-min": "20"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "4afc5493-94c4-4925-b98f-938282222eaf",
+        "flabsCode": "FLP1235"
+      },
+      "_id": "6884195a35738384e796f106"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgG4 Subclas",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "8",
+            "male-range-max": "140",
+            "female-range-max": "140",
+            "female-range-min": "8",
+            "child-range-max": "140",
+            "child-range-min": "8"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "91e7c0be-f770-455c-adbe-dd5c61aaf43c",
+        "flabsCode": "FLP1237"
+      },
+      "_id": "6884195a35738384e796f107"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total IgG",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "700",
+            "male-range-max": "1600",
+            "female-range-max": "1600",
+            "female-range-min": "700",
+            "child-range-max": "1600",
+            "child-range-min": "700"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "d7dafdb1-7350-4587-a94d-cd64ae22d151",
+        "flabsCode": "FLP2124"
+      },
+      "_id": "6884195a35738384e796f108"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c191",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0136",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.550Z",
+  "updatedAt": "2025-07-21T19:17:52.550Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

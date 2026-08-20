@@ -1,0 +1,150 @@
+{
+  "_id": "6a86cc115953b1dd0a17cd74",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FSH AND LH STIMULATION BY GONADOTROPIN RELEASING HORMONE(GNRH)",
+  "code": "1761",
+  "cost": 0,
+  "interpretation": "<p data-start=\"95\" data-end=\"377\"><strong data-start=\"95\" data-end=\"120\">GnRH stimulation test</strong> assesses the <strong data-start=\"134\" data-end=\"238\">pituitary gland's ability to release FSH (Follicle-Stimulating Hormone) and LH (Luteinizing Hormone)</strong> in response to synthetic GnRH. It helps evaluate disorders of <strong data-start=\"301\" data-end=\"312\">puberty</strong>, <strong data-start=\"314\" data-end=\"339\">reproductive function</strong>, and <strong data-start=\"345\" data-end=\"376\">pituitary&ndash;hypothalamic axis</strong>.</p>\n<p data-start=\"679\" data-end=\"707\"><strong data-start=\"683\" data-end=\"707\">Clinical Indications</strong></p>\n<ol data-start=\"708\" data-end=\"914\">\n<li data-start=\"708\" data-end=\"730\">\n<p data-start=\"711\" data-end=\"730\"><strong data-start=\"711\" data-end=\"730\">Delayed puberty</strong></p>\n</li>\n<li data-start=\"731\" data-end=\"756\">\n<p data-start=\"734\" data-end=\"756\"><strong data-start=\"734\" data-end=\"756\">Precocious puberty</strong></p>\n</li>\n<li data-start=\"757\" data-end=\"817\">\n<p data-start=\"760\" data-end=\"817\"><strong data-start=\"760\" data-end=\"817\">Differentiating hypothalamic vs pituitary dysfunction</strong></p>\n</li>\n<li data-start=\"818\" data-end=\"854\">\n<p data-start=\"821\" data-end=\"854\"><strong data-start=\"821\" data-end=\"854\">Hypogonadotropic hypogonadism</strong></p>\n</li>\n<li data-start=\"855\" data-end=\"914\">\n<p data-start=\"858\" data-end=\"914\"><strong data-start=\"858\" data-end=\"914\">Congenital GnRH deficiency (e.g., Kallmann syndrome)</strong></p>\n</li>\n</ol>\n<p>&nbsp;</p>\n<table>\n<thead>\n<tr>\n<th><strong>Condition</strong></th>\n<th><strong>FSH/LH Response to GnRH</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Central precocious puberty (CPP)</strong></td>\n<td><strong>Exaggerated rise</strong>, especially in <strong>LH</strong></td>\n</tr>\n<tr>\n<td><strong>Peripheral precocious puberty</strong></td>\n<td><strong>No significant rise</strong> (pituitary not involved)</td>\n</tr>\n<tr>\n<td><strong>Constitutional delay of puberty</strong></td>\n<td><strong>Blunted response</strong>, but may improve with age</td>\n</tr>\n<tr>\n<td><strong>Hypogonadotropic hypogonadism</strong></td>\n<td><strong>Absent or minimal response</strong></td>\n</tr>\n<tr>\n<td><strong>Hypergonadotropic hypogonadism</strong></td>\n<td><strong>Elevated baseline LH/FSH</strong>, exaggerated or normal response</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "value": "<table style=\"border-collapse: collapse; width: 99%; border-width: 1px; border-spacing: 0px;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\" data-cke-table-faked-selection-table=\"\">\n<tbody>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><strong>Test Name</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><strong>Results</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><strong>Units</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><strong>Bio. Ref. Range</strong></td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\" colspan=\"4\"><strong>FSH &amp; LH STIMULATION BY GONADOTROPIN RELEASING HORMONE (GnRH), SERUM</strong><br>(CLIA)</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\" colspan=\"4\">FSH &amp; LH Basal</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">FSH Basal</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">76.46</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">mIU/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">LH Basal</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">28.28</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">mIU/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\" colspan=\"4\">30 min post GnRH stimulation</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">FSH</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">68.21</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">mIU/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">LH</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">26.49</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">mIU/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\" colspan=\"4\">60 min post GnRH stimulation</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">FSH</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">66.95</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">mIU/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">LH</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">27.79</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">mIU/mL</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><strong>FSH &amp; LH STIMULATION BY GONADOTROPIN RELEASING HORMONE (GnRH), SERUM</strong></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">Sample Not Received&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+        "name": "FSH & LH Basal",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "FSH Basal",
+            "units": "mIU/mL",
+            "flabsCode": "FLP0914"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "LH Basal ",
+            "units": "mIU/mL"
+          }
+        ]
+      },
+      "_id": "678ca65e00b1e4b283a390c0"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "30 min post GnRH stimulation",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "FSH",
+            "units": "mIU/mL",
+            "flabsCode": "FLP0911"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "LH",
+            "units": "mIU/mL",
+            "flabsCode": "FLP1329"
+          }
+        ]
+      },
+      "_id": "6892a1e1841a10838c780c4b"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "60 min post GnRH stimulation",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "FSH ",
+            "units": "mIU/mL",
+            "flabsCode": "FLP0911"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "LH ",
+            "units": "mIU/mL",
+            "flabsCode": "FLP1329"
+          }
+        ]
+      },
+      "_id": "6892a1e1841a10838c780c4c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c340",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0675",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.484Z",
+  "updatedAt": "2025-07-21T19:17:54.484Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

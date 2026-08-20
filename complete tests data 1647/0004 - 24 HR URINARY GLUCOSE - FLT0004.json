@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cb445953b1dd0a155bda",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "24 HR URINARY GLUCOSE",
+  "code": "1003",
+  "cost": 0,
+  "interpretation": "<p>A 24-hour urinary glucose test measures the total amount of glucose excreted in the urine over a full day. Normally, there is very little to no glucose in urine because the kidneys reabsorb glucose efficiently.</p>\n<p>Elevated glucose levels in urine (glucosuria) indicate:</p>\n<p>&nbsp;&bull; Increased blood glucose exceeding kidney reabsorption threshold, as seen in uncontrolled or poorly controlled diabetes mellitus.<br>&nbsp;&bull; Gestational diabetes during pregnancy.<br>&nbsp;&bull; Rare kidney disorders like renal glycosuria, where kidneys release glucose regardless of blood glucose levels.</p>\n<p>Clinical significance:</p>\n<p>&nbsp;&bull; Presence of glucose in urine is a marker of hyperglycemia or kidney tubular dysfunction.<br>&nbsp;&bull; Normal urine glucose does not rule out diabetes if blood glucose is high because glucose appears in urine only after blood glucose crosses a certain renal threshold (~160-180 mg/dL).<br>&nbsp;&bull; Slight, transient increases in urine glucose may occur after large meals or during stress.</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urinary Glucose",
+        "field": "numeric",
+        "units": "mg/dl",
+        "formulaId": "f150a21e-b179-42bf-8444-3431ae60301a",
+        "flabsCode": "FLP2208"
+      },
+      "_id": "676f90358b28fef5d7d34e57"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine Volume in 24 Hours",
+        "field": "text",
+        "units": "ml",
+        "formulaId": "233cda42-a42c-44c7-85c1-525f593b58d8",
+        "flabsCode": "FLP2224"
+      },
+      "_id": "676f90358b28fef5d7d34e58"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Urinary Glucose 24 Hours",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "15"
+            },
+            "female-range": "0.5g/24 Hrs",
+            "child-range": "0.5g/24 Hrs"
+          }
+        },
+        "formulaId": "1622a8a1-3f54-42bf-8d36-6675d02d64b6",
+        "flabsCode": "FLP2140"
+      },
+      "_id": "676f90358b28fef5d7d34e59"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c123",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0004",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.009Z",
+  "updatedAt": "2025-07-21T19:17:52.009Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

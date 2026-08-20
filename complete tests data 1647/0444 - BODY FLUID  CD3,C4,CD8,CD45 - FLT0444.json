@@ -1,0 +1,158 @@
+{
+  "_id": "6a86cbd892e2891d948cbef7",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BODY FLUID  CD3,C4,CD8,CD45",
+  "code": "1490",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1730\" data-end=\"1968\">\n<p data-start=\"1733\" data-end=\"1752\"><span style=\"font-size: 10px;\"><strong data-start=\"1733\" data-end=\"1750\">CD3/CD8/CD45:</strong></span></p>\n<ul data-start=\"1756\" data-end=\"1968\">\n<li style=\"font-size: 10px;\" data-start=\"1756\" data-end=\"1859\">\n<p data-start=\"1758\" data-end=\"1859\"><span style=\"font-size: 10px;\">Increased <strong data-start=\"1768\" data-end=\"1790\">T-cell percentages</strong> may indicate <strong data-start=\"1804\" data-end=\"1856\">inflammation, infection, or lymphoma involvement</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1863\" data-end=\"1968\">\n<p data-start=\"1865\" data-end=\"1968\"><span style=\"font-size: 10px;\"><strong data-start=\"1865\" data-end=\"1873\">CD45</strong> confirms <strong data-start=\"1883\" data-end=\"1922\">leukocytic vs non-leukocytic origin</strong> (helps identify malignant vs reactive cells).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1970\" data-end=\"2164\">\n<p data-start=\"1973\" data-end=\"1989\"><span style=\"font-size: 10px;\"><strong data-start=\"1973\" data-end=\"1987\">C4 Levels:</strong></span></p>\n<ul data-start=\"1993\" data-end=\"2164\">\n<li style=\"font-size: 10px;\" data-start=\"1993\" data-end=\"2098\">\n<p data-start=\"1995\" data-end=\"2098\"><span style=\"font-size: 10px;\">Low levels can be seen in <strong data-start=\"2021\" data-end=\"2075\">immune complex-mediated diseases (SLE, vasculitis)</strong> even in body fluids.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2102\" data-end=\"2164\">\n<p data-start=\"2104\" data-end=\"2164\"><span style=\"font-size: 10px;\">Compare with <strong data-start=\"2117\" data-end=\"2133\">serum levels</strong> for meaningful interpretation.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2166\" data-end=\"2265\">\n<p data-start=\"2169\" data-end=\"2204\"><span style=\"font-size: 10px;\">Final diagnosis should integrate:</span></p>\n<ul data-start=\"2208\" data-end=\"2265\">\n<li style=\"font-size: 10px;\" data-start=\"2208\" data-end=\"2265\">\n<p data-start=\"2210\" data-end=\"2265\"><span style=\"font-size: 10px;\"><strong data-start=\"2210\" data-end=\"2265\">Cytology, cultures, imaging, and clinical findings.</strong></span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "67631e3524f8fa88510fdb69",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD3+ T-Lymphocytes\t",
+        "field": "text",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": "CSF/Pleural/Ascitic Fluid: Typically <5–10% (varies by fluid and clinical context)",
+            "female-range": "CSF/Pleural/Ascitic Fluid: Typically <5–10% (varies by fluid and clinical context)",
+            "child-range": "CSF/Pleural/Ascitic Fluid: Typically <5–10% (varies by fluid and clinical context)"
+          }
+        },
+        "formulaId": "1e1fbf32-866e-4b3d-b8a0-c5c029920bed",
+        "flabsCode": "FLP0440"
+      },
+      "_id": "6885e65f236c87794ab1d3c1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD8+ Cytotoxic T-Cells",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "f5d83188-a6c8-456e-aef1-a597228e1632",
+        "flabsCode": "FLP0449"
+      },
+      "_id": "6885e65f236c87794ab1d3c2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD45",
+        "field": "text",
+        "units": "%",
+        "formulaId": "0e728b54-3591-4ed8-9f4f-94abd86de320",
+        "flabsCode": "FLP0446"
+      },
+      "_id": "6885e65f236c87794ab1d3c3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Complement C4 Level\t",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "10",
+            "male-range-max": "40",
+            "female-range-max": "40",
+            "female-range-min": "10",
+            "child-range-max": "40",
+            "child-range-min": "10"
+          }
+        },
+        "formulaId": "504f573e-4ab7-4a1e-96ce-1bd0dc95f359",
+        "flabsCode": "FLP0645"
+      },
+      "_id": "6885e65f236c87794ab1d3c4"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c287",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0444",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.667Z",
+  "updatedAt": "2025-07-21T19:17:53.667Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

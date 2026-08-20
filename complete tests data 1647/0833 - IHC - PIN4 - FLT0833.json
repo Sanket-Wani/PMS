@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cc4d92e2891d948dcd47",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - PIN4",
+  "code": "1944",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1446\" data-end=\"1558\">\n<p data-start=\"1448\" data-end=\"1478\"><span style=\"font-size: 10px;\"><strong data-start=\"1448\" data-end=\"1476\">Benign Prostatic Glands:</strong></span></p>\n<ul data-start=\"1481\" data-end=\"1558\">\n<li style=\"font-size: 10px;\" data-start=\"1481\" data-end=\"1533\">\n<p data-start=\"1483\" data-end=\"1533\"><span style=\"font-size: 10px;\">p63 and HMWCK <strong data-start=\"1497\" data-end=\"1531\">positive (basal cells present)</strong></span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1536\" data-end=\"1558\">\n<p data-start=\"1538\" data-end=\"1558\"><span style=\"font-size: 10px;\">AMACR <strong data-start=\"1544\" data-end=\"1556\">negative</strong></span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1560\" data-end=\"1687\">\n<p data-start=\"1562\" data-end=\"1593\"><span style=\"font-size: 10px;\"><strong data-start=\"1562\" data-end=\"1591\">Prostatic Adenocarcinoma:</strong></span></p>\n<ul data-start=\"1596\" data-end=\"1687\">\n<li style=\"font-size: 10px;\" data-start=\"1596\" data-end=\"1648\">\n<p data-start=\"1598\" data-end=\"1648\"><span style=\"font-size: 10px;\">p63 and HMWCK <strong data-start=\"1612\" data-end=\"1646\">negative (loss of basal layer)</strong></span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1651\" data-end=\"1687\">\n<p data-start=\"1653\" data-end=\"1687\"><span style=\"font-size: 10px;\">AMACR <strong data-start=\"1659\" data-end=\"1685\">positive (tumor cells)</strong></span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1689\" data-end=\"1801\">\n<p data-start=\"1691\" data-end=\"1725\"><span style=\"font-size: 10px;\"><strong data-start=\"1691\" data-end=\"1723\">Suspicious / Atypical (PIN):</strong></span></p>\n<ul data-start=\"1728\" data-end=\"1801\">\n<li style=\"font-size: 10px;\" data-start=\"1728\" data-end=\"1801\">\n<p data-start=\"1730\" data-end=\"1801\"><span style=\"font-size: 10px;\">Mixed staining; requires <strong data-start=\"1755\" data-end=\"1800\">correlation with H&amp;E and clinical context</strong>.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "p63 (Basal Cell Marker)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "9d681242-6bea-4c44-98a3-44e5ec297021",
+        "flabsCode": "FLP2329"
+      },
+      "_id": "688550454c9e1585202dc1ae"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HMWCK (34βE12)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "d3074ee8-bda3-4eac-842a-66f02a38fc09",
+        "flabsCode": "FLP1131"
+      },
+      "_id": "688550454c9e1585202dc1af"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "AMACR (Racemase)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "eb878869-872e-4ae5-8f7c-6a604ef2b232",
+        "flabsCode": "FLP0110"
+      },
+      "_id": "688550454c9e1585202dc1b0"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c3cb",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0833",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.411Z",
+  "updatedAt": "2025-07-21T19:17:55.411Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

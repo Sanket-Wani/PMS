@@ -1,0 +1,170 @@
+{
+  "_id": "6a86ccb392e2891d948ee8b5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LIQUID BIOPSY COMPREHENSIVE PANEL",
+  "code": "2423",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Gene</strong></th>\n<th><strong>Variant Detected</strong></th>\n<th><strong>Exon</strong></th>\n<th><strong>Variant Type</strong></th>\n<th><strong>VAF (%)</strong></th>\n<th><strong>Clinical Significance</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>EGFR</td>\n<td>L858R</td>\n<td>21</td>\n<td>Missense</td>\n<td>______</td>\n<td>Eligible for EGFR TKIs</td>\n</tr>\n<tr>\n<td>KRAS</td>\n<td>Not Detected</td>\n<td>&mdash;</td>\n<td>&mdash;</td>\n<td>-</td>\n<td>No activating mutation</td>\n</tr>\n<tr>\n<td>BRAF</td>\n<td>V600E</td>\n<td>15</td>\n<td>Missense</td>\n<td>______</td>\n<td>Targeted therapy available</td>\n</tr>\n<tr>\n<td>TP53</td>\n<td>p.R273C</td>\n<td>8</td>\n<td>Missense</td>\n<td>_____</td>\n<td>Tumor suppressor mutation</td>\n</tr>\n<tr>\n<td>PIK3CA</td>\n<td>Not Detected</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>Wild-type</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DNA Quantity (ng)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥10 ng",
+            "female-range": "≥10 ng",
+            "child-range": "≥10 ng"
+          }
+        },
+        "formulaId": "4e802378-2e97-4485-9895-5c831b126898",
+        "flabsCode": "FLP0741"
+      },
+      "_id": "6885212a0a49ec9180823378"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Library QC",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "PASS",
+            "female-range": "PASS",
+            "child-range": "PASS"
+          }
+        },
+        "formulaId": "e70710fc-5697-4475-9ad6-6118bf9dd18c",
+        "flabsCode": "FLP1363"
+      },
+      "_id": "6885212a0a49ec9180823379"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sequencing Depth",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥2000X",
+            "female-range": "≥2000X",
+            "child-range": "≥2000X"
+          }
+        },
+        "units": "X",
+        "formulaId": "3bc48fff-1f0f-404c-afa2-5b675aff0b38",
+        "flabsCode": "FLP1970"
+      },
+      "_id": "6885212a0a49ec918082337a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "% Bases ≥ Q30",
+        "field": "multiple_ranges",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": "≥80%",
+            "female-range": "≥80%",
+            "child-range": "≥80%"
+          }
+        },
+        "formulaId": "bb19c560-d76d-4c3b-beee-af5af735a586",
+        "flabsCode": "FLP0008"
+      },
+      "_id": "6885212a0a49ec918082337b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LOD",
+        "field": "multiple_ranges",
+        "rangeReport": "≤1%",
+        "range": {
+          "default": {
+            "male-range": "≤1%",
+            "female-range": "≤1%",
+            "child-range": "≤1%"
+          }
+        },
+        "units": "%",
+        "formulaId": "94dc10e9-3d94-4fce-a01c-37f804d2a176",
+        "flabsCode": "FLP0291"
+      },
+      "_id": "6885212a0a49ec918082337c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4ff",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1184",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.798Z",
+  "updatedAt": "2025-07-21T19:17:56.798Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

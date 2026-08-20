@@ -1,0 +1,159 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175c91",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MYEOV/IgH (MM)",
+  "code": "1441",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1513\" data-end=\"1907\">\n<p data-start=\"1515\" data-end=\"1554\"><span style=\"font-size: 10px;\"><strong data-start=\"1515\" data-end=\"1552\">MYEOV/IgH Rearrangement Detected:</strong></span></p>\n<ul data-start=\"1557\" data-end=\"1907\">\n<li style=\"font-size: 10px;\" data-start=\"1557\" data-end=\"1686\">\n<p data-start=\"1559\" data-end=\"1686\"><span style=\"font-size: 10px;\">Indicates <strong data-start=\"1569\" data-end=\"1618\">MYEOV gene involvement with IgH translocation</strong>, associated with <strong data-start=\"1636\" data-end=\"1683\">multiple myeloma and plasma cell dyscrasias</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1689\" data-end=\"1767\">\n<p data-start=\"1691\" data-end=\"1767\"><span style=\"font-size: 10px;\">May have <strong data-start=\"1700\" data-end=\"1727\">prognostic implications</strong> (often linked to aggressive disease).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1770\" data-end=\"1907\">\n<p data-start=\"1772\" data-end=\"1907\"><span style=\"font-size: 10px;\">Should be correlated with <strong data-start=\"1798\" data-end=\"1906\">clinical findings, bone marrow morphology, other cytogenetics (t(11;14), del(17p), etc.), and NGS panels</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1909\" data-end=\"2037\">\n<p data-start=\"1911\" data-end=\"1930\"><span style=\"font-size: 10px;\"><strong data-start=\"1911\" data-end=\"1928\">Not Detected:</strong></span></p>\n<ul data-start=\"1933\" data-end=\"2037\">\n<li style=\"font-size: 10px;\" data-start=\"1933\" data-end=\"1976\">\n<p data-start=\"1935\" data-end=\"1976\"><span style=\"font-size: 10px;\">No evidence of MYEOV/IgH rearrangement.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1979\" data-end=\"2037\">\n<p data-start=\"1981\" data-end=\"2037\"><span style=\"font-size: 10px;\">Does not exclude other myeloma-associated abnormalities.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cells Analyzed (Nuclei)",
+        "field": "numeric_unbound",
+        "units": "Count",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "200",
+              "op": ">="
+            },
+            "female-range": {
+              "value": "200",
+              "op": ">="
+            },
+            "child-range": {
+              "value": "200",
+              "op": ">="
+            }
+          }
+        },
+        "formulaId": "a572f496-b399-4028-9409-eb158b8ea127",
+        "flabsCode": "FLP0562"
+      },
+      "_id": "688548d74c9e1585202dbc1e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FISH Probe Used",
+        "field": "text",
+        "formulaId": "1f18d5a7-0ff5-470f-b707-8dfe4376cd20",
+        "flabsCode": "FLP0882"
+      },
+      "_id": "688548d74c9e1585202dbc1f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MYEOV/IgH Rearrangement",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "83fb41c8-6f60-4000-a4f6-acdde3c1b69d",
+        "flabsCode": "FLP1422"
+      },
+      "_id": "688548d74c9e1585202dbc20"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "units": "%",
+        "formulaId": "5f26aade-b8c3-4399-ab6c-51b63a50239d",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "688548d74c9e1585202dbc21"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c25a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0397",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.461Z",
+  "updatedAt": "2025-07-21T19:17:53.461Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a4f7",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IMMUNOGLOBULIN PROFILE SERUM",
+  "code": "1121",
+  "cost": 0,
+  "interpretation": "<p data-start=\"187\" data-end=\"529\">The serum immunoglobulin profile measures the levels of the major classes of immunoglobulins: IgG, IgA, and IgM. These antibodies are critical components of the humoral immune system and are produced in response to infections, immune stimuli, or underlying disorders. This test is primarily used to:</p>\n<ul data-start=\"530\" data-end=\"789\">\n<li data-start=\"530\" data-end=\"556\">\n<p data-start=\"532\" data-end=\"556\">Assess immune function</p>\n</li>\n<li data-start=\"557\" data-end=\"622\">\n<p data-start=\"559\" data-end=\"622\">Detect immunodeficiencies or excess immunoglobulin production</p>\n</li>\n<li data-start=\"623\" data-end=\"728\">\n<p data-start=\"625\" data-end=\"728\">Evaluate chronic infections, autoimmune diseases, and plasma cell dyscrasias (e.g., multiple myeloma)</p>\n</li>\n<li data-start=\"729\" data-end=\"789\">\n<p data-start=\"731\" data-end=\"789\">Monitor response to treatment in immune-related conditions</p>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th>Immunoglobulin</th>\n<th>Elevated Levels May Indicate</th>\n<th>Decreased Levels May Indicate</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>IgG</strong></td>\n<td>Chronic infections, autoimmune diseases (e.g., lupus, rheumatoid arthritis), liver disease, multiple myeloma</td>\n<td>Primary or secondary immunodeficiency (e.g., CVID), nephrotic syndrome, protein-losing enteropathy</td>\n</tr>\n<tr>\n<td><strong>IgA</strong></td>\n<td>Chronic liver disease, chronic mucosal infections, autoimmune diseases, IgA myeloma</td>\n<td>Selective IgA deficiency, congenital immunodeficiencies, nephrotic syndrome</td>\n</tr>\n<tr>\n<td><strong>IgM</strong></td>\n<td>Acute infections, autoimmune diseases, Waldenstr&ouml;m&rsquo;s macroglobulinemia, chronic liver disease</td>\n<td>Selective IgM deficiency, certain leukemias/lymphomas, immunosuppressive therapy</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgG",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "700",
+            "male-range-max": "1600",
+            "female-range-max": "1600",
+            "female-range-min": "700",
+            "child-range-max": "1600",
+            "child-range-min": "700"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "dc642b63-c63c-4526-8351-0ca20a6578a8",
+        "flabsCode": "FLP1231"
+      },
+      "_id": "6883e96d35738384e7963aff"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgA",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "70",
+            "male-range-max": "400",
+            "female-range-max": "400",
+            "female-range-min": "70",
+            "child-range-max": "400",
+            "child-range-min": "70"
+          }
+        },
+        "formulaId": "df698562-247b-4546-a677-6f3d6f020333",
+        "flabsCode": "FLP1228"
+      },
+      "_id": "6883e96d35738384e7963b00"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgM",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "40",
+            "male-range-max": "230",
+            "female-range-max": "230",
+            "female-range-min": "40",
+            "child-range-max": "230",
+            "child-range-min": "40"
+          }
+        },
+        "units": "mg/dL",
+        "formulaId": "95209d5b-91e0-4d56-9285-5ff11efe0314",
+        "flabsCode": "FLP1238"
+      },
+      "_id": "6883e96d35738384e7963b01"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgE",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 100 IU/mL (varies by age)",
+            "female-range": "< 100 IU/mL (varies by age)",
+            "child-range": "< 100 IU/mL (varies by age)"
+          }
+        },
+        "units": "IU/mL",
+        "formulaId": "e83357ce-caa1-47c0-9e39-a595c68d1bb0",
+        "flabsCode": "FLP1229"
+      },
+      "_id": "6883e96d35738384e7963b02"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c192",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0137",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.556Z",
+  "updatedAt": "2025-07-21T19:17:52.556Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cc2c5953b1dd0a17fd45",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - CD-31",
+  "code": "1874",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1324\" data-end=\"1741\">\n<li data-start=\"1324\" data-end=\"1539\">\n<p data-start=\"1326\" data-end=\"1346\"><span style=\"font-size: 10px;\"><strong data-start=\"1326\" data-end=\"1344\">CD31 Positive:</strong></span></p>\n<ul data-start=\"1349\" data-end=\"1539\">\n<li style=\"font-size: 10px;\" data-start=\"1349\" data-end=\"1453\">\n<p data-start=\"1351\" data-end=\"1453\"><span style=\"font-size: 10px;\">Confirms <strong data-start=\"1360\" data-end=\"1392\">endothelial origin of lesion</strong> (seen in <strong data-start=\"1402\" data-end=\"1449\">hemangiomas, angiosarcoma, Kaposi&rsquo;s sarcoma</strong>).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1456\" data-end=\"1539\">\n<p data-start=\"1458\" data-end=\"1539\"><span style=\"font-size: 10px;\">Also used to assess <strong data-start=\"1478\" data-end=\"1522\">tumor angiogenesis (microvessel density)</strong> in solid tumors.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1541\" data-end=\"1625\">\n<p data-start=\"1543\" data-end=\"1563\"><span style=\"font-size: 10px;\"><strong data-start=\"1543\" data-end=\"1561\">CD31 Negative:</strong></span></p>\n<ul data-start=\"1566\" data-end=\"1625\">\n<li style=\"font-size: 10px;\" data-start=\"1566\" data-end=\"1625\">\n<p data-start=\"1568\" data-end=\"1625\"><span style=\"font-size: 10px;\">Excludes vascular origin (lesion likely non-endothelial).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1627\" data-end=\"1741\">\n<p data-start=\"1629\" data-end=\"1741\"><span style=\"font-size: 10px;\">Must be interpreted <strong data-start=\"1649\" data-end=\"1740\">with H&amp;E morphology, other IHC markers (e.g., CD34, Factor VIII), and clinical findings</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD31 (Endothelial Cell Marker)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "7b95f656-75f1-44c8-9564-c48ed958961d",
+        "flabsCode": "FLP0441"
+      },
+      "_id": "6885b6ccc900df4d07fb0b0e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Pattern",
+        "field": "custom",
+        "options": [
+          "Membranous ",
+          "Cytoplasmic"
+        ],
+        "formulaId": "dcca7320-11ba-4bbe-b067-4094451fac06",
+        "flabsCode": "FLP2033"
+      },
+      "_id": "6885b6ccc900df4d07fb0b0f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Control",
+        "field": "custom",
+        "options": [
+          "Adequate",
+          "Inadequate"
+        ],
+        "formulaId": "5790bb2c-e7a0-4c51-927d-931f054c7b73",
+        "flabsCode": "FLP0865"
+      },
+      "_id": "6885b6ccc900df4d07fb0b10"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c385",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0763",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.889Z",
+  "updatedAt": "2025-07-21T19:17:54.889Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,151 @@
+{
+  "_id": "6a86cbd892e2891d948cbecf",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SCRAPINGS FOR CYTOLOGICAL EXAM",
+  "code": "1481",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2194\" data-end=\"2320\">\n<p data-start=\"2196\" data-end=\"2320\"><span style=\"font-size: 10px;\">Smear shows abundant superficial and intermediate squamous cells with mild inflammation. No evidence of malignancy.</span><br data-start=\"2311\" data-end=\"2314\"><span style=\"font-size: 10px;\">OR</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2323\" data-end=\"2401\">\n<p data-start=\"2325\" data-end=\"2401\"><span style=\"font-size: 10px;\">Atypical squamous cells present &ndash; Suspicious for high-grade lesion.</span><br data-start=\"2392\" data-end=\"2395\"><span style=\"font-size: 10px;\">OR</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2404\" data-end=\"2463\">\n<p data-start=\"2406\" data-end=\"2463\"><span style=\"font-size: 10px;\">Fungal hyphae seen &ndash; Suggestive of <strong data-start=\"2441\" data-end=\"2462\">Candida infection</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "skin biopsy sample",
+  "department": "6414fc0ef02dc1ebb6a097a7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Adequacy of Smear",
+        "field": "text",
+        "formulaId": "4b3f1188-8a20-4289-ad6e-11e75c8265f5",
+        "flabsCode": "FLP0161"
+      },
+      "_id": "68827ba8100272a75a65abd2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Background",
+        "field": "text",
+        "formulaId": "5122e91b-4a6a-4d6d-84f6-4b742dbd34f7"
+      },
+      "_id": "68827ba8100272a75a65abd3"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Cellular Morphology",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Squamous cells",
+            "formulaId": "8cbad8fc-f137-4a6e-8e13-c7f3d4e2322a",
+            "flabsCode": "FLP2029"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Inflammatory cells",
+            "formulaId": "a79ad567-6ec2-47f1-a864-301effb8114c",
+            "flabsCode": "FLP1253"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Organisms",
+            "formulaId": "24df9022-75d6-4ed1-8302-6545470727e7",
+            "flabsCode": "FLP0823"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Malignant cells",
+            "formulaId": "dc8afc48-b6f2-4f75-a879-a85c94d83c92",
+            "flabsCode": "FLP1429"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Cytoplasmic & nuclear features",
+            "formulaId": "d8314793-a7a9-48c8-8b59-f8db6f6b2ace",
+            "flabsCode": "FLP0724"
+          },
+          {
+            "key": 5,
+            "field": "text",
+            "name": "Special Stains Used (if any)",
+            "formulaId": "67d772a5-be64-4c41-88b7-95a832bf36c6",
+            "flabsCode": "FLP2018"
+          }
+        ]
+      },
+      "_id": "68827ba8100272a75a65abd4"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c27e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0434",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.630Z",
+  "updatedAt": "2025-07-21T19:17:53.630Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

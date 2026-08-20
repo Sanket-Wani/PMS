@@ -1,0 +1,183 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c4a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Wound Swab",
+  "code": "Wound",
+  "cost": 0,
+  "interpretation": "<p>Negative Result:<br>If no significant growth of microorganisms is observed in the wound swab culture, it indicates that there are no detectable pathogens causing infection in the wound. This result is considered negative, suggesting the wound is not currently infected.<br><br>Positive Result (with Identifiable Pathogens):<br>A positive result with identifiable pathogens indicates the presence of specific microorganisms in the wound. The report may specify the type of bacteria or fungi isolated from the sample. The sensitivity testing will also determine which antibiotics are effective against the identified pathogens.<br><br>Contaminated Result:<br>In some cases, the wound swab culture may show the growth of non-pathogenic bacteria or contaminants from the skin or environment. This is considered a contaminated result and may not be indicative of an actual wound infection.<br></p>",
+  "showInterpretation": false,
+  "sampleType": "wound swab",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gram Stain Result",
+        "field": "custom",
+        "options": [
+          "Gram-positive cocci",
+          "Gram-negative rods",
+          "Gram-positive rods",
+          "Mixed flora",
+          "No growth",
+          "Other"
+        ]
+      },
+      "_id": "64bc2d93f48dacc91bb6fa72"
+    },
+    {
+      "data": {
+        "name": "Culture Result",
+        "field": "custom",
+        "options": [
+          "No growth",
+          "Bacterial growth",
+          "Fungal growth",
+          "Mixed bacterial and fungal growth",
+          "Other"
+        ]
+      },
+      "_id": "64bc2fdef48dacc91bb6fa7a",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Bacterial Identification",
+        "field": "custom",
+        "options": [
+          "Staphylococcus aureus",
+          "Streptococcus pyogenes",
+          "Escherichia coli",
+          "Pseudomonas aeruginosa",
+          "Klebsiella pneumoniae",
+          "Proteus mirabilis",
+          "Other"
+        ]
+      },
+      "_id": "64bc2fdef48dacc91bb6fa7b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fungal Identification",
+        "field": "custom",
+        "options": [
+          "Candida albicans",
+          "Aspergillus fumigatus",
+          "Fusarium spp.",
+          "Other"
+        ]
+      },
+      "_id": "64bc33e0f48dacc91bb70171"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Antibiotic Sensitivity",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Intermediate",
+          "Resistant"
+        ]
+      },
+      "_id": "64bc33e0f48dacc91bb70172"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": " Colony Count",
+        "field": "numeric",
+        "units": "CFU/mL"
+      },
+      "_id": "64bc33e0f48dacc91bb70173"
+    },
+    {
+      "data": {
+        "units": "",
+        "options": [
+          "Redness",
+          "Swelling",
+          "Pus discharge",
+          "Pain",
+          "Other"
+        ],
+        "name": "Clinical Presentation",
+        "field": "custom"
+      },
+      "_id": "64bc33e0f48dacc91bb70174",
+      "type": "testDetails"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64bc2d93f48dacc91bb6fa71",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1008",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.668Z",
+  "updatedAt": "2026-08-14T17:59:51.668Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

@@ -1,0 +1,215 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c1c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY NON VEG REPORT",
+  "code": "ALLNV",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "isDefault": false,
+  "parentTest": "69118457bc9cae2cd4614da2",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "ALLERGY",
+  "flabsID": "FLT1379",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergyCategory": [
+    {
+      "isRequired": false,
+      "_id": "68b6bce1db4684ce637bbab3",
+      "allergenType": "NON VEG",
+      "unit": "IU/mL",
+      "ranges": [
+        {
+          "type": "numeric_unbound",
+          "name": "Normal",
+          "range": {
+            "operator": "<",
+            "value": "0.24"
+          },
+          "flag": false,
+          "key": 1
+        },
+        {
+          "type": "numeric",
+          "name": "BorderLine",
+          "range": "0.24-0.30",
+          "flag": false,
+          "key": 2
+        },
+        {
+          "name": "High",
+          "range": {
+            "operator": ">",
+            "value": "0.30"
+          },
+          "flag": true,
+          "key": 3,
+          "type": "numeric_unbound"
+        }
+      ],
+      "data": [
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbab4",
+          "name": "Egg",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-e1c34a64573340a18099142f.jpeg",
+          "secondName": "अंडा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbab5",
+          "name": "Shrimp",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-5e5144f30bc947059a11835f.jpeg",
+          "secondName": "झींगा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbab6",
+          "name": "Lobster",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-1fdb1532ec454bb6b053f2bf.jpeg",
+          "secondName": "झींगा मछली",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbab7",
+          "name": "Chicken",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-312eeee48de04c8caa07f234.jpeg",
+          "secondName": "चिकन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbab8",
+          "name": "Rabbit Meat",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-a986a2f943b44b53bfb61f3d.jpeg",
+          "secondName": "खरगोश का मांस",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbab9",
+          "name": "Fish (cod)",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-9d163c156cb34ed29055cf66.jpeg",
+          "secondName": "मछली (कॉड)",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbaba",
+          "name": "Tuna",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-b17cd2f627e8406897e23015.jpeg",
+          "secondName": "टूना",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbabb",
+          "name": "Pork",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-e5f40fc039ea4ff4af361436.jpeg",
+          "secondName": "पोर्क",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbabc",
+          "name": "Mutton",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-73325f2ac5c24b1fba316245.jpeg",
+          "secondName": "मटन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbabd",
+          "name": "Turkey",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-003c13ae199c4146ae15eacb.jpeg",
+          "secondName": "तुर्की",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbabe",
+          "name": "Crab",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-1b3cfd7de6bf402da7bf6fde.jpeg",
+          "secondName": "केकड़ा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6bce1db4684ce637bbabf",
+          "name": "Salmon",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-NON VEG-22c1c33cfa264d15bd539c41.jpeg",
+          "secondName": "सैल्मन",
+          "showSecondName": true
+        }
+      ]
+    }
+  ],
+  "allergy_show_second_name": true,
+  "allergy_second_name_language": "hi",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.614Z",
+  "updatedAt": "2026-08-14T17:59:51.614Z",
+  "testCategory": [],
+  "comment": [],
+  "ageRanges": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

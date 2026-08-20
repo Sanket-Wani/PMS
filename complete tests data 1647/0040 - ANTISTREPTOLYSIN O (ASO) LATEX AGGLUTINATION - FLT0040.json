@@ -1,0 +1,129 @@
+{
+  "_id": "6a86cb445953b1dd0a155cec",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ANTISTREPTOLYSIN O (ASO) LATEX AGGLUTINATION",
+  "code": "1035",
+  "cost": 0,
+  "interpretation": "<p data-start=\"175\" data-end=\"356\">The <strong data-start=\"179\" data-end=\"233\">ASO (Anti-Streptolysin O) Latex Agglutination Test</strong> detects <strong data-start=\"242\" data-end=\"256\">antibodies</strong> against <strong data-start=\"265\" data-end=\"283\">streptolysin O</strong>, a toxin produced by <strong data-start=\"305\" data-end=\"355\">Group A Streptococcus (Streptococcus pyogenes)</strong>.</p>\n<p data-start=\"358\" data-end=\"392\">This test is clinically used to:</p>\n<ul data-start=\"393\" data-end=\"709\">\n<li data-start=\"393\" data-end=\"504\">\n<p data-start=\"395\" data-end=\"504\">Detect a <strong data-start=\"404\" data-end=\"438\">recent streptococcal infection</strong>, especially when the infection is <strong data-start=\"473\" data-end=\"502\">not currently symptomatic</strong></p>\n</li>\n<li data-start=\"505\" data-end=\"709\">\n<p data-start=\"507\" data-end=\"575\">Support diagnosis of <strong data-start=\"528\" data-end=\"564\">post-streptococcal complications</strong> such as:</p>\n<ul data-start=\"578\" data-end=\"709\">\n<li data-start=\"578\" data-end=\"601\">\n<p data-start=\"580\" data-end=\"601\"><strong data-start=\"580\" data-end=\"599\">Rheumatic fever</strong></p>\n</li>\n<li data-start=\"604\" data-end=\"656\">\n<p data-start=\"606\" data-end=\"656\"><strong data-start=\"606\" data-end=\"654\">Post-streptococcal glomerulonephritis (PSGN)</strong></p>\n</li>\n<li data-start=\"659\" data-end=\"709\">\n<p data-start=\"661\" data-end=\"709\"><strong data-start=\"661\" data-end=\"678\">Scarlet fever</strong> or <strong data-start=\"682\" data-end=\"709\">streptococcal arthritis</strong></p>\n</li>\n</ul>\n</li>\n</ul>\n<p data-start=\"711\" data-end=\"847\">It is especially helpful when throat cultures are negative but symptoms of autoimmune complications appear weeks after initial infection.</p>\n<table>\n<thead>\n<tr>\n<th><strong>Condition</strong></th>\n<th><strong>Clinical Significance</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Recent streptococcal pharyngitis or skin infection</strong></td>\n<td>Antibody formation typically rises 1&ndash;3 weeks post-infection</td>\n</tr>\n<tr>\n<td><strong>Rheumatic fever</strong></td>\n<td>High ASO supports recent streptococcal trigger for autoimmune cardiac/joint damage</td>\n</tr>\n<tr>\n<td><strong>Post-streptococcal glomerulonephritis</strong></td>\n<td>Supports immune-mediated kidney damage following streptococcal infection</td>\n</tr>\n<tr>\n<td><strong>Streptococcal arthritis or scarlet fever</strong></td>\n<td>Indicates prior exposure in systemic immune response conditions</td>\n</tr>\n</tbody>\n</table>\n<blockquote data-start=\"1742\" data-end=\"1922\">\n<p data-start=\"1744\" data-end=\"1922\"><strong data-start=\"1744\" data-end=\"1753\">Note:</strong> A single ASO test has limited diagnostic value; <strong data-start=\"1802\" data-end=\"1819\">serial titres</strong> or paired samples may be used to confirm <strong data-start=\"1861\" data-end=\"1878\">rising titres</strong>, which are more diagnostically significant.</p>\n</blockquote>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ASO Titer",
+        "field": "numeric",
+        "units": "IU/mL",
+        "range": {
+          "default": {
+            "male-range": "",
+            "female-range": "<200 IU/mL (Adults) <400 IU/mL (Children)",
+            "child-range": "<200 IU/mL (Adults) <400 IU/mL (Children)",
+            "male-range-min": "0`",
+            "male-range-max": "200"
+          }
+        },
+        "formulaId": "a9ffc91a-640f-4efd-95aa-fd664f25ab0a",
+        "rangeReport": "<200 IU/mL (Adults) \n<400 IU/mL (Children)",
+        "flabsCode": "FLP0139"
+      },
+      "_id": "68853c7f4c9e1585202da527"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Analytical Sensitivity\t",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "25"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "25"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "25"
+            }
+          }
+        },
+        "units": "IU/mL",
+        "formulaId": "53fcc600-f116-419f-bf27-8d5cb6c7deea",
+        "flabsCode": "FLP0214"
+      },
+      "_id": "68853c7f4c9e1585202da528"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c142",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0040",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.173Z",
+  "updatedAt": "2025-07-21T19:17:52.173Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

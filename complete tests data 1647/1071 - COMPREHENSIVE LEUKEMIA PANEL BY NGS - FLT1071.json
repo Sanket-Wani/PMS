@@ -1,0 +1,216 @@
+{
+  "_id": "6a86cc91ba46c74c6d4531ba",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "COMPREHENSIVE LEUKEMIA PANEL BY NGS",
+  "code": "2312",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2851\" data-end=\"2959\">\n<p data-start=\"2853\" data-end=\"2959\">Mutation(s) detected in [list genes] indicating [prognostic implication, potential therapeutic targets].</p>\n</li>\n<li data-start=\"2960\" data-end=\"3008\">\n<p data-start=\"2962\" data-end=\"3008\">No mutations detected in other tested genes.</p>\n</li>\n<li data-start=\"3009\" data-end=\"3147\">\n<p data-start=\"3011\" data-end=\"3147\">Variants classified according to ACMG guidelines as Pathogenic, Likely Pathogenic, Variant of Uncertain Significance (VUS), or Benign.</p>\n</li>\n<li data-start=\"3148\" data-end=\"3183\">\n<p data-start=\"3150\" data-end=\"3183\">Clinical correlation recommended.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Internal Tandem Duplication (ITD), TKD point mutations",
+        "field": "custom",
+        "options": [
+          "Non-Detected",
+          "Detected"
+        ],
+        "units": "%",
+        "formulaId": "6022356c-18ba-478e-a601-fa529125568a",
+        "flabsCode": "FLP1273"
+      },
+      "_id": "6883e4c535738384e796245c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Frameshift mutations",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "units": "%",
+        "formulaId": "b7e235d7-dee9-4302-befe-936c7f8bdc34",
+        "flabsCode": "FLP0958"
+      },
+      "_id": "6883e4c535738384e796245d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Biallelic mutations",
+        "field": "custom",
+        "units": "%",
+        "options": [
+          "Non- Detected",
+          "Detected"
+        ],
+        "formulaId": "4c81371d-6248-43e2-8610-9a41f903094b",
+        "flabsCode": "FLP0372"
+      },
+      "_id": "6883e4c535738384e796245e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Missense, nonsense mutations",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "units": "%",
+        "formulaId": "777f5852-7b8d-4027-90d8-755bf228a153",
+        "flabsCode": "FLP1486"
+      },
+      "_id": "6883e4c535738384e796245f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Missense, frameshift",
+        "field": "custom",
+        "units": "%",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "80f3f834-3130-4de0-89e3-a0de9350ac30",
+        "flabsCode": "FLP1485"
+      },
+      "_id": "6883e4c535738384e7962460"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "R132 mutation",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "units": "%",
+        "formulaId": "596b1219-cac1-4340-8a4d-5f4e72df8f1c",
+        "flabsCode": "FLP1811"
+      },
+      "_id": "6883e4c535738384e7962461"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "R140, R172 mutations",
+        "field": "custom",
+        "options": [
+          "Non- Detected",
+          "Detected"
+        ],
+        "units": "%",
+        "formulaId": "79d2e300-60aa-4878-85c8-b44fcacd1c72",
+        "flabsCode": "FLP1812"
+      },
+      "_id": "6883e4c535738384e7962462"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Frameshift, nonsense",
+        "field": "custom",
+        "units": "%",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "f4a516c4-e776-49f0-b397-c7c63c519873",
+        "flabsCode": "FLP0959"
+      },
+      "_id": "6883e4c535738384e7962463"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Missense mutations",
+        "field": "custom",
+        "units": "%",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "5d080cac-646c-4b1e-87e9-abb26c9cd87a",
+        "flabsCode": "FLP1484"
+      },
+      "_id": "6883e4c535738384e7962464"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c492",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1071",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.298Z",
+  "updatedAt": "2025-07-21T19:17:56.298Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

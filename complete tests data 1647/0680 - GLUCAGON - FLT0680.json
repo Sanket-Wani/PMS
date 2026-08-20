@@ -1,0 +1,178 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e11a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "GLUCAGON",
+  "code": "GLUCN",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Parameter</strong></th>\n<th><strong>Normal Range</strong> (fasting, adults)*</th>\n<th><strong>Increased Glucagon</strong></th>\n<th><strong>Decreased Glucagon</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Glucagon</strong></td>\n<td><strong>50 &ndash; 150 pg/mL</strong> (varies by lab)</td>\n<td>- <strong>Glucagonoma</strong> (rare pancreatic &alpha;-cell tumor; associated with diabetes, weight loss, necrolytic migratory erythema) - Uncontrolled <strong>diabetes mellitus</strong> - Severe stress, sepsis, trauma, burns - Acute pancreatitis - Cushing&rsquo;s syndrome</td>\n<td>- Chronic pancreatitis (&alpha;-cell loss) - Pancreatic cancer (non-&alpha; cell destruction) - Cystic fibrosis (pancreatic insufficiency) - Post-pancreatectomy state - Rare congenital &alpha;-cell dysfunction</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li data-start=\"914\" data-end=\"1055\">\n<p data-start=\"916\" data-end=\"1055\"><strong data-start=\"916\" data-end=\"928\">Glucagon</strong> is a hormone secreted by pancreatic <strong data-start=\"965\" data-end=\"976\">&alpha;-cells</strong> that raises blood glucose by stimulating glycogenolysis and gluconeogenesis.</p>\n</li>\n<li data-start=\"1056\" data-end=\"1266\">\n<p data-start=\"1058\" data-end=\"1130\">The test is <strong data-start=\"1070\" data-end=\"1104\">not commonly ordered routinely</strong>; it is usually used to:</p>\n<ul data-start=\"1133\" data-end=\"1266\">\n<li data-start=\"1133\" data-end=\"1173\">\n<p data-start=\"1135\" data-end=\"1173\">Diagnose or monitor <strong data-start=\"1155\" data-end=\"1170\">glucagonoma</strong>.</p>\n</li>\n<li data-start=\"1176\" data-end=\"1218\">\n<p data-start=\"1178\" data-end=\"1218\">Evaluate <strong data-start=\"1187\" data-end=\"1215\">unexplained hypoglycemia</strong>.</p>\n</li>\n<li data-start=\"1221\" data-end=\"1266\">\n<p data-start=\"1223\" data-end=\"1266\">Assess <strong data-start=\"1230\" data-end=\"1263\">pancreatic endocrine function</strong>.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1267\" data-end=\"1427\">\n<p data-start=\"1269\" data-end=\"1427\">Interpretation should always be correlated with <strong data-start=\"1317\" data-end=\"1425\">clinical findings, glucose levels, and other pancreatic hormone assays (insulin, C-peptide, proinsulin).</strong></p>\n</li>\n</ul>",
+  "showInterpretation": true,
+  "sampleType": "plasma",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Glucagon",
+        "field": "numeric",
+        "units": "pg/mL",
+        "range": {
+          "default": {
+            "male-range-max": "100",
+            "male-range-min": "20",
+            "female-range-max": "100",
+            "female-range-min": "20",
+            "child-range-max": "50",
+            "child-range-min": "10"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "20-100",
+        "formulaId": "6f52f8cd-f7ab-48a7-bfc8-a92ba60ae21a",
+        "flabsCode": "FLP1032"
+      },
+      "_id": "68a6575fa2dcc291a91b8d19"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Insulin",
+        "field": "numeric",
+        "units": "μU/mL",
+        "range": {
+          "default": {
+            "male-range-max": "10",
+            "male-range-min": "2",
+            "female-range-max": "10",
+            "female-range-min": "2",
+            "child-range-max": "8",
+            "child-range-min": "2"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "2-10",
+        "formulaId": "1f0485e4-831c-40c7-8914-5b3f134d93a3",
+        "flabsCode": "FLP1262"
+      },
+      "_id": "68a6575fa2dcc291a91b8d1a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "C-peptide",
+        "field": "numeric",
+        "units": "ng/mL",
+        "range": {
+          "default": {
+            "male-range-max": "2.5",
+            "male-range-min": "0.5",
+            "female-range-max": "2.5",
+            "female-range-min": "0.5",
+            "child-range-max": "2.0",
+            "child-range-min": "0.5"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0.5-2.5",
+        "formulaId": "01253250-11a3-44fc-8970-366241d33162",
+        "flabsCode": "FLP0402"
+      },
+      "_id": "68a6575fa2dcc291a91b8d1b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Glucagon/Insulin Ratio",
+        "field": "numeric",
+        "units": "",
+        "range": {
+          "default": {
+            "male-range-max": "5.0",
+            "male-range-min": "0.5",
+            "female-range-max": "5.0",
+            "female-range-min": "0.5",
+            "child-range-max": "5.0",
+            "child-range-min": "1.0"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0.5-5.0",
+        "formulaId": "42f67e8b-dcd9-48f0-a3cc-7c915fcced85",
+        "flabsCode": "FLP1033"
+      },
+      "_id": "68a6575fa2dcc291a91b8d1c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a6575fa2dcc291a91b8d18",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#ADD8E6",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT0680",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-20T23:16:47.689Z",
+  "updatedAt": "2025-08-20T23:16:47.689Z",
+  "__v": 0
+}

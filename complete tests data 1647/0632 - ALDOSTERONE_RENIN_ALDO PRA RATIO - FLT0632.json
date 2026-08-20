@@ -1,0 +1,137 @@
+{
+  "_id": "6a86cc105953b1dd0a17cccb",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALDOSTERONE/RENIN/ALDO PRA RATIO",
+  "code": "1735",
+  "cost": 0,
+  "interpretation": "<p><strong>Interpretation (ALdosterone/PRA Ratio)</strong></p>\n<p><br>1. It is a mineralocorticoid secreted by adrenal gland (zona glomerulosa) and regulates electrolytes<br>&nbsp;(sodium and potassium) which control the blood pressure.<br>2. It is used for diagnosis of primary hyperaldosteronism, differential diagnosis of fluid and electrolyte disorders,<br>&nbsp;assessment of adrenal aldosterone production.<br>3. It is increased in primary and secondary hyper aldosteronism. Also increased in pregnancy and people on very<br>&nbsp;low sodium diet.<br>4. Decreased in congenital adrenal hyperplasia, hypoaldosteronism, Addisons disease, very high sodium diet.</p>\n<p><strong>Interpretation (PRA)-</strong></p>\n<p><br>1. PRA measure the activity of the plasma enzyme renin, which plays a major role in the bodys regulation of blood<br>&nbsp;pressure, thirst, and urine output.<br>2. Increase levels are seen in Addisons disease, Cirrhosis of the liver, Essential hypertension,<br>Hemorrhage,Hypokalemia,Malignant hypertension, Renin producing renal tumors, Renovascular hypertension.<br>3. Decrease levels are seen in vasopressin (ADH) therapy, Salt-retaining steroid therapy, Salt-sensitive essential<br>&nbsp;hypertension, Primary hyperaldosteronsim.</p>\n<p><strong>Limitations:</strong><br>1. Drugs that can affect renin measurements are contraceptive pills, anti hypertensives, diuretics, vasodilators.<br>2. Sodium content of diet.<br>3. Please correlate results with physiological variables such as time of collection, patients posture, and either sodium&nbsp;intake or 24 hr urine sodium excretion.</p>\n<table style=\"border-collapse: collapse; width: 100.035%; height: 131.043px;\" border=\"1\"><colgroup><col style=\"width: 33.2855%;\"><col style=\"width: 33.2855%;\"><col style=\"width: 33.2855%;\"></colgroup>\n<tbody>\n<tr style=\"height: 30.2031px;\">\n<td>Clinical Condition&nbsp;</td>\n<td>Plasma Renin Activity&nbsp;</td>\n<td>Aldosterone</td>\n</tr>\n<tr style=\"height: 33.6133px;\">\n<td>Primary hyperaldosteronism.&nbsp;</td>\n<td>Decreased</td>\n<td>Increased</td>\n</tr>\n<tr style=\"height: 33.6133px;\">\n<td>Malignant hypertension, Renovascular Increased<br>hypertension.</td>\n<td>Increased</td>\n<td>Increased</td>\n</tr>\n<tr style=\"height: 33.6133px;\">\n<td>Cushing syndrome, licorice ingestion, Decreased&nbsp;Exogenous mineralocorticoids, Liddles syndrome,&nbsp;congenital adrenal syndrome,congenital adrenal.hyperplasia</td>\n<td>Decreased</td>\n<td>Decreased</td>\n</tr>\n<tr>\n<td>Adrenal insufficiency (Addisons Increased&nbsp;disease), Late onset congenital adrenal&nbsp;hyperplasia, high sodium diet.</td>\n<td>Increased</td>\n<td>Decreased</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aldosterone",
+        "field": "multiple_ranges",
+        "units": "ng/dL ",
+        "test_method": "clia",
+        "range": {
+          "default": {
+            "male-range": "Upright: 2.52-39.2~Supine: 1.76-\n23.2~Kindly note change\nin~Reference range and Method",
+            "female-range": "Upright: 2.52-39.2~Supine: 1.76-\n23.2~Kindly note change\nin~Reference range and Method",
+            "child-range": "Upright: 2.52-39.2~Supine: 1.76-\n23.2~Kindly note change\nin~Reference range and Method"
+          }
+        },
+        "formulaId": "749a4e5e-8baa-41d0-af28-de06acad9de2",
+        "flabsCode": "FLP0173"
+      },
+      "_id": "676a9c41a82104ee170c9e3f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PRA",
+        "field": "multiple_ranges",
+        "units": "ng/ml/hr",
+        "test_method": "clia",
+        "range": {
+          "default": {
+            "male-range": "Lying Position: 0.15-\n2.33~Standing Position: 0.10-\n6.56~Note : Please note change\nin~reference Range (Kit\ninsert)~and method.",
+            "female-range": "Lying Position: 0.15-\n2.33~Standing Position: 0.10-\n6.56~Note : Please note change\nin~reference Range (Kit\ninsert)~and method.",
+            "child-range": "Lying Position: 0.15-\n2.33~Standing Position: 0.10-\n6.56~Note : Please note change\nin~reference Range (Kit\ninsert)~and method."
+          }
+        },
+        "formulaId": "4c6bcbfd-4ea6-44aa-8151-1b12e6725fc6",
+        "flabsCode": "FLP1667"
+      },
+      "_id": "676a9c41a82104ee170c9e40"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aldosterone/PRA Ratio",
+        "field": "multiple_ranges",
+        "test_method": "clia",
+        "range": {
+          "default": {
+            "male-range": "< 20~Ratio of >20 is suggestive\nof~hyperaldosteronism along\nwith~aldosterone >15ng/dl",
+            "female-range": "< 20~Ratio of >20 is suggestive\nof~hyperaldosteronism along\nwith~aldosterone >15ng/dl",
+            "child-range": "< 20~Ratio of >20 is suggestive\nof~hyperaldosteronism along\nwith~aldosterone >15ng/dl"
+          }
+        },
+        "formulaId": "945f1395-04a3-4df7-83e7-2d632d628257",
+        "flabsCode": "FLP0176"
+      },
+      "_id": "676a9c41a82104ee170c9e41"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c326",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0632",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.376Z",
+  "updatedAt": "2025-07-21T19:17:54.376Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

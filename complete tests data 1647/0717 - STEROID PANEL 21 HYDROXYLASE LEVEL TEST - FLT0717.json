@@ -1,0 +1,287 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e26c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "STEROID PANEL 21 HYDROXYLASE LEVEL TEST",
+  "code": "1791",
+  "cost": 0,
+  "interpretation": "<ul class=\"marker:text-textOff list-disc\">\n<li>\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>Elevated 17-Hydroxyprogesterone:</strong>&nbsp;Consistent with 21-hydroxylase deficiency (classic CAH) when confirmed by clinical context.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>Low/Nondetectable Cortisol:</strong>&nbsp;Suggests adrenal insufficiency.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>Abnormal Androgen Levels:</strong>&nbsp;May indicate androgen excess from adrenal origin.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>ACTH Levels:</strong>&nbsp;Elevated in primary adrenal insufficiency.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>21-Hydroxylase Antibody:</strong> Positive in autoimmune adrenalitis (if tested).</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "17-Hydroxyprogesterone",
+        "field": "numeric",
+        "units": "ng/dL",
+        "rangeReport": "Male: 27–199\nFemale: 20–170",
+        "range": {
+          "default": {
+            "male-range-min": "27",
+            "male-range-max": "199",
+            "female-range-min": "20",
+            "female-range-max": "170",
+            "child-range-max": "170",
+            "child-range-min": "20"
+          }
+        },
+        "formulaId": "b2c35390-cb77-4ede-b021-b5417e21451d",
+        "flabsCode": "FLP0023"
+      },
+      "_id": "688119907ff2db489c2da31b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "21-Deoxycortisol",
+        "field": "numeric_unbound",
+        "units": "ng/dL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "20"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "20"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "20"
+            }
+          }
+        },
+        "formulaId": "91ab8193-7632-495f-b993-725f0b359c37",
+        "flabsCode": "FLP0029"
+      },
+      "_id": "688119907ff2db489c2da31c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "11-Deoxycortisol",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "10",
+            "male-range-max": "60",
+            "female-range-max": "60",
+            "female-range-min": "10",
+            "child-range-max": "60",
+            "child-range-min": "10"
+          }
+        },
+        "units": "ng/dL",
+        "formulaId": "bd3f78e3-3b7c-4c9d-87da-626f2fd734dd",
+        "flabsCode": "FLP0019"
+      },
+      "_id": "688119907ff2db489c2da31d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cortisol",
+        "field": "numeric",
+        "units": "µg/dL",
+        "rangeReport": "AM: 5–25",
+        "range": {
+          "default": {
+            "male-range-min": "5",
+            "male-range-max": "25",
+            "female-range-max": "25",
+            "female-range-min": "5",
+            "child-range-max": "25",
+            "child-range-min": "5"
+          }
+        },
+        "formulaId": "bd3130ff-3c96-43d9-89f4-eef1386e82e5",
+        "flabsCode": "FLP0669"
+      },
+      "_id": "688119907ff2db489c2da31e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Androstenedione",
+        "field": "numeric",
+        "units": "ng/dL",
+        "rangeReport": "M: 27–125\nF: 24–220",
+        "range": {
+          "default": {
+            "male-range-min": "27",
+            "male-range-max": "125",
+            "female-range-min": "24",
+            "female-range-max": "2200",
+            "child-range-max": "2200",
+            "child-range-min": "24"
+          }
+        },
+        "formulaId": "2fc49bbf-e68d-4ea8-8880-e8fa336bd3dd",
+        "flabsCode": "FLP0216"
+      },
+      "_id": "688119907ff2db489c2da31f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ACTH",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "7",
+            "male-range-max": "63",
+            "female-range-max": "63",
+            "female-range-min": "7",
+            "child-range-max": "63",
+            "child-range-min": "7"
+          }
+        },
+        "units": "pg/mL",
+        "formulaId": "6c33a147-1b88-429b-aa35-a13894ad3157",
+        "flabsCode": "FLP0072"
+      },
+      "_id": "688119907ff2db489c2da320"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Testosterone (Total)",
+        "field": "numeric",
+        "units": "ng/dL",
+        "rangeReport": "M: 300–1,000\nF: 15–70",
+        "range": {
+          "default": {
+            "male-range-min": "300",
+            "male-range-max": "1000",
+            "female-range-min": "15",
+            "female-range-max": "70",
+            "child-range-max": "70",
+            "child-range-min": "15"
+          }
+        },
+        "formulaId": "65e97e89-1e68-4ac3-b0f7-178f3fafd23e",
+        "flabsCode": "FLP2094"
+      },
+      "_id": "688119907ff2db489c2da321"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DHEAS",
+        "field": "numeric",
+        "units": "µg/dL",
+        "rangeReport": "M: 80–560\nF: 35–430",
+        "range": {
+          "default": {
+            "male-range-min": "80",
+            "male-range-max": "560",
+            "female-range-min": "35",
+            "female-range-max": "430",
+            "child-range-max": "430",
+            "child-range-min": "35"
+          }
+        },
+        "formulaId": "90faabdd-b694-4f49-aff7-9063f9565c7c",
+        "flabsCode": "FLP0733"
+      },
+      "_id": "688119907ff2db489c2da322"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "21-Hydroxylase Antibody**",
+        "field": "numeric_unbound",
+        "units": "U/mL",
+        "range": {
+          "default": {
+            "female-range": {
+              "op": "<",
+              "value": "1.0"
+            },
+            "male-range": {
+              "op": "<",
+              "value": "1.0"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "1.0"
+            }
+          }
+        },
+        "formulaId": "dfb72fdd-814f-4525-beab-533ac215bbd4",
+        "flabsCode": "FLP0030"
+      },
+      "_id": "688119907ff2db489c2da323"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c35e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0717",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.629Z",
+  "updatedAt": "2025-07-21T19:17:54.629Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

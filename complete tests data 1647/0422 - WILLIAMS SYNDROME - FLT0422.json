@@ -1,0 +1,144 @@
+{
+  "_id": "6a86cbd892e2891d948cbe71",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "WILLIAMS SYNDROME",
+  "code": "1469",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 9px;\">Clinical Utility:</span></p>\n<ul>\n<li style=\"font-size: 9px;\" data-start=\"951\" data-end=\"1153\">\n<p data-start=\"953\" data-end=\"1022\"><span style=\"font-size: 9px;\">Confirms diagnosis of <strong data-start=\"975\" data-end=\"1003\">Williams-Beuren Syndrome</strong>, characterized by:</span></p>\n<ul data-start=\"1025\" data-end=\"1153\">\n<li style=\"font-size: 9px;\" data-start=\"1025\" data-end=\"1153\">\n<p data-start=\"1027\" data-end=\"1153\"><span style=\"font-size: 9px;\"><strong data-start=\"1027\" data-end=\"1043\">Elfin facies</strong>, <strong data-start=\"1045\" data-end=\"1068\">developmental delay</strong>, <strong data-start=\"1070\" data-end=\"1103\">supravalvular aortic stenosis</strong>, <strong data-start=\"1105\" data-end=\"1122\">hypercalcemia</strong>, and <strong data-start=\"1128\" data-end=\"1152\">friendly personality</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1154\" data-end=\"1243\">\n<p data-start=\"1156\" data-end=\"1243\"><span style=\"font-size: 9px;\">Useful for <strong data-start=\"1167\" data-end=\"1189\">genetic counseling</strong>, prenatal diagnosis, and risk assessment in families.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "7q11.23 Deletion (ELN gene region)\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Detected: Suggestive of Williams Syndrome",
+            "female-range": "Detected: Suggestive of Williams Syndrome",
+            "child-range": "Detected: Suggestive of Williams Syndrome"
+          }
+        },
+        "formulaId": "cafb7e7d-46a8-4435-995d-93237b72603e",
+        "flabsCode": "FLP0053"
+      },
+      "_id": "6883e35c35738384e7962174"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Size of Deletion",
+        "field": "numeric",
+        "units": "Mb",
+        "rangeReport": "Typical deletion spans ~1.4–1.8 Mb including the ELN gene",
+        "range": {
+          "default": {
+            "male-range-min": "1.4",
+            "male-range-max": "1.8",
+            "female-range-max": "1.8",
+            "female-range-min": "1.4",
+            "child-range-max": "1.8",
+            "child-range-min": "1.4"
+          }
+        },
+        "formulaId": "5e0bb4ba-9431-4250-b3c1-c32a8c75e47c"
+      },
+      "_id": "6883e35c35738384e7962175"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mode of Inheritance\t",
+        "field": "custom",
+        "options": [
+          "De novo",
+          "Inherited"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Most cases are de novo (sporadic)",
+            "female-range": "Most cases are de novo (sporadic)",
+            "child-range": "Most cases are de novo (sporadic)"
+          }
+        },
+        "formulaId": "f5e605c0-4f10-491a-9a8f-59149fb1d02c",
+        "flabsCode": "FLP1488"
+      },
+      "_id": "6883e35c35738384e7962176"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c275",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0422",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.589Z",
+  "updatedAt": "2025-07-21T19:17:53.589Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

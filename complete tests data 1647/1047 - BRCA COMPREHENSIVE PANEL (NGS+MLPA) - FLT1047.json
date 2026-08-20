@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cc825953b1dd0a18a079",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BRCA COMPREHENSIVE PANEL (NGS+MLPA)",
+  "code": "2286",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1650\" data-end=\"1710\">\n<p data-start=\"1652\" data-end=\"1710\">If positive &rarr; consult a genetic counselor or oncologist.</p>\n</li>\n<li data-start=\"1711\" data-end=\"1752\">\n<p data-start=\"1713\" data-end=\"1752\">Family members may also need testing.</p>\n</li>\n<li data-start=\"1753\" data-end=\"1811\">\n<p data-start=\"1755\" data-end=\"1811\">Discuss risk-reducing options or early cancer screening.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BRCA1",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "(Small & large changes)",
+            "female-range": "(Small & large changes)",
+            "child-range": "(Small & large changes)"
+          }
+        },
+        "formulaId": "2124dd31-08c8-4f93-8a4f-3c323a7fab11",
+        "flabsCode": "FLP0330"
+      },
+      "_id": "68841a8c35738384e796f23f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BRCA2",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Pathogenic mutation detected ",
+            "female-range": "Pathogenic mutation detected ",
+            "child-range": "Pathogenic mutation detected "
+          }
+        },
+        "formulaId": "41d065b5-5192-44c9-9470-0e56b49ffb9e",
+        "flabsCode": "FLP0333"
+      },
+      "_id": "68841a8c35738384e796f240"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c47a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1047",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.199Z",
+  "updatedAt": "2025-07-21T19:17:56.199Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

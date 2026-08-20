@@ -1,0 +1,145 @@
+{
+  "_id": "6a86cd475953b1dd0a1aad13",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Serum Bactericidal Test (SBT-13)",
+  "code": "SBT",
+  "cost": 0,
+  "showInterpretation": true,
+  "sampleType": "serum",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Bactericidal Activity",
+        "field": "text",
+        "units": "",
+        "range": {
+          "default": {
+            "male-range": null,
+            "female-range": null,
+            "child-range": null
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "",
+        "formulaId": "e74fd609-0bf7-4910-9989-51c2ccac7529"
+      },
+      "_id": "68c487d8d2fcda19564d32fe"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Minimum Bactericidal Concentration",
+        "field": "text",
+        "units": "",
+        "range": {
+          "default": {
+            "male-range": null,
+            "female-range": null,
+            "child-range": null
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "",
+        "formulaId": "76743b6e-f18b-4e94-9005-6bd4047ecf60"
+      },
+      "_id": "68c487d8d2fcda19564d32ff"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Bacteria Colony Count",
+        "field": "numeric",
+        "units": "CFU/mL",
+        "range": {
+          "default": {
+            "male-range-max": "10",
+            "male-range-min": "0",
+            "female-range-max": "10",
+            "female-range-min": "0",
+            "child-range-max": "10",
+            "child-range-min": "0"
+          }
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "0-10",
+        "formulaId": "360efe7a-3a5e-478d-83dd-a245835d6ce8",
+        "flabsCode": "FLP2119"
+      },
+      "_id": "68c487d8d2fcda19564d3300"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68c487d8d2fcda19564d32fd",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FF0000",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT1664",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-09-12T20:51:36.913Z",
+  "updatedAt": "2025-09-12T20:51:36.913Z",
+  "__v": 0
+}

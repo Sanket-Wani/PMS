@@ -1,0 +1,146 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c01",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Torch IgM",
+  "code": "TORCH IGM",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "null",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "units": "Antibody Index",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.2 Doubtful\n> 1.2 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.2 Doubtful\n> 1.2 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.2 Doubtful\n> 1.2 Positive"
+          }
+        },
+        "name": "Toxoplasma gondii - IgM",
+        "field": "multiple_ranges"
+      },
+      "_id": "64249b924ae0b2aab378ee5f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rubella Virus - IgM",
+        "field": "multiple_ranges",
+        "units": "Antibody Index",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive"
+          }
+        }
+      },
+      "_id": "64249b924ae0b2aab378ee60"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cytomegalovirus IgM",
+        "field": "multiple_ranges",
+        "units": "Antibody Index",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive"
+          }
+        }
+      },
+      "_id": "64249b924ae0b2aab378ee61"
+    },
+    {
+      "data": {
+        "name": "Herpes Simplex Virus 1 & 2 IgM",
+        "field": "multiple_ranges",
+        "units": "Antibody Index",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive\n\n",
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive\n\n",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive\n\n"
+          }
+        }
+      },
+      "_id": "64249b924ae0b2aab378ee62",
+      "type": "testDetails"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64249b924ae0b2aab378ee5e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0944",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.520Z",
+  "updatedAt": "2026-08-14T17:59:51.520Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

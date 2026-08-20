@@ -1,0 +1,178 @@
+{
+  "_id": "6a86ccd95953b1dd0a19b2c1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NERVE CONDUCTION VELOCITY (NCV) ONE LIMB",
+  "code": "2555",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1826\" data-end=\"1926\">\n<p data-start=\"1828\" data-end=\"1847\"><span style=\"font-size: 9px;\"><strong data-start=\"1828\" data-end=\"1845\">Normal Study:</strong></span></p>\n<ul data-start=\"1850\" data-end=\"1926\">\n<li style=\"font-size: 9px;\" data-start=\"1850\" data-end=\"1926\">\n<p data-start=\"1852\" data-end=\"1926\"><span style=\"font-size: 9px;\">Conduction velocities, amplitudes, and latencies within reference range.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1928\" data-end=\"2229\">\n<p data-start=\"1930\" data-end=\"1954\"><span style=\"font-size: 9px;\"><strong data-start=\"1930\" data-end=\"1952\">Abnormal Findings:</strong></span></p>\n<ul data-start=\"1957\" data-end=\"2229\">\n<li style=\"font-size: 9px;\" data-start=\"1957\" data-end=\"2041\">\n<p data-start=\"1959\" data-end=\"2041\"><span style=\"font-size: 9px;\"><strong data-start=\"1959\" data-end=\"1990\">Slowed conduction velocity:</strong> Suggests <strong data-start=\"2000\" data-end=\"2017\">demyelination</strong> (e.g., neuropathies).</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"2044\" data-end=\"2119\">\n<p data-start=\"2046\" data-end=\"2119\"><span style=\"font-size: 9px;\"><strong data-start=\"2046\" data-end=\"2069\">Reduced amplitudes:</strong> Indicates <strong data-start=\"2080\" data-end=\"2095\">axonal loss</strong> or severe neuropathy.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"2122\" data-end=\"2229\">\n<p data-start=\"2124\" data-end=\"2229\"><span style=\"font-size: 9px;\"><strong data-start=\"2124\" data-end=\"2166\">Prolonged latencies or F-wave changes:</strong> May suggest <strong data-start=\"2179\" data-end=\"2226\">proximal nerve involvement or radiculopathy</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"2231\" data-end=\"2313\">\n<p data-start=\"2233\" data-end=\"2313\"><span style=\"font-size: 9px;\">Should be interpreted along with <strong data-start=\"2266\" data-end=\"2288\">EMG (if performed)</strong> and clinical findings.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Motor Nerve Conduction Velocity",
+        "field": "numeric",
+        "units": "m/s",
+        "rangeReport": "Upper Limb: ≥50 m/s\nLower Limb: ≥40 m/s",
+        "formulaId": "1050ade6-4100-4be4-8901-9888649d9b26",
+        "flabsCode": "FLP1499"
+      },
+      "_id": "6885e3c6c900df4d071e7e2c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Compound Muscle Action Potential (CMAP) Amplitude",
+        "field": "numeric",
+        "units": "mV",
+        "rangeReport": "Nerve-specific reference values (e.g., >5 mV median, >3 mV peroneal)",
+        "formulaId": "6e6b738a-dca5-4180-8097-ed9210aae3ec",
+        "flabsCode": "FLP0648"
+      },
+      "_id": "6885e3c6c900df4d071e7e2d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Distal Latency",
+        "field": "numeric",
+        "units": "ms",
+        "rangeReport": "Nerve-specific (e.g., <4.4 ms median nerve, <6.5 ms tibial nerve)",
+        "formulaId": "caec07fd-40d7-4c45-9304-22f090a80fd4",
+        "flabsCode": "FLP0771"
+      },
+      "_id": "6885e3c6c900df4d071e7e2e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensory Nerve Action Potential (SNAP) Amplitude",
+        "field": "numeric_unbound",
+        "units": "µV",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "10",
+              "op": ">"
+            },
+            "female-range": {
+              "value": "10",
+              "op": ">"
+            },
+            "child-range": {
+              "value": "10",
+              "op": ">"
+            }
+          }
+        },
+        "formulaId": "5aa857ab-7994-44a4-8ab1-fabe644c84ec",
+        "flabsCode": "FLP1962"
+      },
+      "_id": "6885e3c6c900df4d071e7e2f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensory Nerve Conduction Velocity",
+        "field": "numeric",
+        "units": "m/s",
+        "rangeReport": "Upper Limb: ≥50 m/s\nLower Limb: ≥40 m/s",
+        "formulaId": "e817402d-9c06-4be9-be1d-3a582dcce89f",
+        "flabsCode": "FLP1966"
+      },
+      "_id": "6885e3c6c900df4d071e7e30"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "F-wave Latency",
+        "field": "numeric",
+        "units": "ms",
+        "rangeReport": "Nerve-specific (e.g., <32 ms upper limb, <56 ms lower limb)",
+        "formulaId": "ac588379-4bae-42d3-9705-c9a9ed1fe5f0",
+        "flabsCode": "FLP0866"
+      },
+      "_id": "6885e3c6c900df4d071e7e31"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Limb Tested",
+        "field": "text",
+        "formulaId": "3b6bfa84-921b-408d-8cfe-52d786d74cc6",
+        "flabsCode": "FLP1364"
+      },
+      "_id": "6885e3c6c900df4d071e7e32"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c57a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1308",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.364Z",
+  "updatedAt": "2025-07-21T19:17:57.364Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

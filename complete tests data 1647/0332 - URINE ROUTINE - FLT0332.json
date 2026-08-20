@@ -1,0 +1,530 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b1c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "URINE ROUTINE",
+  "code": "CUE",
+  "cost": 0,
+  "interpretation": "<p><br></p><p><br></p><p><br></p><p><br></p><table><thead><tr><th><div>Component</div></th><th><div>Normal Range</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Color and Appearance</div></td><td><div>Pale yellow to clear, clear and free of particles</div></td><td><div>Normal</div></td></tr><tr><td><div>pH</div></td><td><div>4.5 to 8.0</div></td><td><div>Slightly acidic (6.0 to 7.5) is optimal</div></td></tr><tr><td><div>Protein</div></td><td><div>Very low or undetectable</div></td><td><div>High levels may indicate kidney damage or disease</div></td></tr><tr><td><div>Glucose</div></td><td><div>Not present</div></td><td><div>Presence may indicate diabetes or high blood sugar</div></td></tr><tr><td><div>Ketones</div></td><td><div>Not present</div></td><td><div>Presence may indicate fat metabolism or certain medical conditions</div></td></tr><tr><td><div>Blood</div></td><td><div>Not present</div></td><td><div>Presence may indicate infection, kidney stones, or other medical conditions</div></td></tr><tr><td><div>Leukocytes</div></td><td><div>Not present</div></td><td><div>Presence may indicate inflammation or infection in the urinary tract</div></td></tr><tr><td><div>Nitrites</div></td><td><div>Not present</div></td><td><div>Presence may indicate bacterial infection in the urinary tract</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "6414fd83f02dc1ebb6a0980b",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Physical Examination",
+        "categories": [
+          {
+            "options": [
+              "STRAW",
+              "Pale Yellow",
+              "PALE STRAW",
+              "PALE YELLOW",
+              "Yellow",
+              "Dark yellow",
+              "Orange",
+              "Reddish",
+              "Milky"
+            ],
+            "range": {
+              "default": {
+                "child-range": "Pale Yellow",
+                "male-range": "Pale Yellow",
+                "female-range": "Pale Yellow"
+              }
+            },
+            "key": 0,
+            "formulaId": "bf419ebc-6475-46f4-9683-9953b49dde09",
+            "field": "custom",
+            "name": "Colour"
+          },
+          {
+            "field": "custom",
+            "name": "Deposit",
+            "options": [
+              "NOT FOUND",
+              "absent",
+              "present"
+            ],
+            "key": 1,
+            "formulaId": "0882b263-4071-49e1-8600-95ef7c87d497"
+          },
+          {
+            "field": "custom",
+            "name": "Transparency (Appearance)",
+            "options": [
+              "clear",
+              "Hazy",
+              "MIlky",
+              "Slightly Hazy",
+              "Turbid",
+              "Milky"
+            ],
+            "range": {
+              "default": {
+                "child-range": "Clear",
+                "male-range": "Clear",
+                "female-range": "Clear"
+              }
+            },
+            "key": 2,
+            "formulaId": "b6ad88a1-2511-4085-a63d-b857546f19b3"
+          },
+          {
+            "key": 3,
+            "formulaId": "67445e69-2bca-40b5-abcd-3f40ce78b79e",
+            "field": "custom",
+            "name": "Reaction (pH)",
+            "options": [
+              "ACIDIC",
+              "Alkaline",
+              "6.5",
+              "7.0",
+              "7.5",
+              "8.0"
+            ],
+            "range": {
+              "default": {
+                "male-range": "4.6 - 8.0",
+                "female-range": "4.6 - 8.0",
+                "child-range": "4.6 - 8.0"
+              }
+            }
+          },
+          {
+            "range": {
+              "default": {
+                "child-range-max": "1.030",
+                "child-range-min": "1.005",
+                "male-range-max": "1.030",
+                "male-range-min": "1.005",
+                "female-range-max": "1.030",
+                "female-range-min": "1.005"
+              }
+            },
+            "key": 4,
+            "formulaId": "1e104da7-f321-4fff-ac43-98ccfc484833",
+            "field": "numeric",
+            "name": "Specific Gravity"
+          },
+          {
+            "formulaId": "af153570-7d9e-4e73-ac42-0f3060fa5ad7",
+            "field": "custom",
+            "name": "Quantity",
+            "options": [
+              "10ml",
+              "20ml",
+              "30ml",
+              "40ml",
+              "50ml",
+              "60ml",
+              "70ml"
+            ],
+            "range": {
+              "default": {
+                "male-range": "ml",
+                "female-range": "ml",
+                "child-range": "ml"
+              }
+            },
+            "key": 5
+          }
+        ]
+      },
+      "_id": "641ecca7499a60e738414106"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Chemical Examination",
+        "categories": [
+          {
+            "key": 0,
+            "formulaId": "528c02eb-887d-4a1a-87fd-0226618ed2d2",
+            "field": "custom",
+            "name": "Urine Protein (Albumin)",
+            "options": [
+              "absent",
+              "Trace",
+              "Present(+)",
+              "Present(++)",
+              "Present(+++)",
+              "Present(++++)"
+            ],
+            "range": {
+              "default": {
+                "male-range": "absent",
+                "female-range": "absent",
+                "child-range": "absent"
+              }
+            }
+          },
+          {
+            "key": 1,
+            "formulaId": "a183e0bf-e266-431e-a361-af355f90678d",
+            "field": "custom",
+            "name": "Bile Salt",
+            "options": [
+              "absent",
+              "Trace",
+              "Present(+)",
+              "Present(++)",
+              "Present(+++)",
+              "Present(++++)"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Urine Glucose (Sugar)",
+            "options": [
+              "absent",
+              "Trace",
+              "NIL",
+              "Present(+)",
+              "Present(++)",
+              "Present(+++)",
+              "Present(++++)"
+            ],
+            "range": {
+              "default": {
+                "male-range": "absent",
+                "female-range": "absent",
+                "child-range": "absent"
+              }
+            },
+            "key": 2,
+            "formulaId": "e202eba4-6a80-460c-809f-cc5b88968905"
+          },
+          {
+            "name": "Urine Ketones (Acetone)",
+            "options": [
+              "absent",
+              "Present(+)",
+              "Traces",
+              "Present(++)",
+              "Present(+++)",
+              "Present(+++)",
+              "Present(++++)"
+            ],
+            "range": {
+              "default": {
+                "male-range": "absent",
+                "female-range": "absent",
+                "child-range": "absent"
+              }
+            },
+            "key": 3,
+            "formulaId": "1c682160-bf83-42ec-87e7-861e92af540d",
+            "field": "custom"
+          },
+          {
+            "field": "custom",
+            "name": "Bile Pigment",
+            "options": [
+              "absent",
+              "Present(+)",
+              "Present(++)",
+              "Present(+++)",
+              "Present(++++)"
+            ],
+            "key": 4,
+            "formulaId": "e07d3a8c-dcfd-46fe-8834-7e33c2e65617"
+          },
+          {
+            "field": "custom",
+            "name": "Occult Blood",
+            "options": [
+              "absent",
+              "Present(+)",
+              "Present(++)",
+              "Present(+++)",
+              "Present(++++)"
+            ],
+            "key": 5,
+            "formulaId": "3ef1d0cf-29c5-40d9-932b-23b266a16f80"
+          }
+        ]
+      },
+      "_id": "641ecca7499a60e738414107"
+    },
+    {
+      "_id": "641ed95a499a60e73841425e",
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopic Examination",
+        "categories": [
+          {
+            "field": "custom",
+            "name": "RBC's",
+            "options": [
+              "absent",
+              "NIL",
+              "Not seen",
+              "Occasional",
+              "1-2/hpf",
+              "2-3/hpf",
+              "2-4/hpf",
+              "4-6/hpf",
+              "6-8/hpf",
+              "8-12/hpf",
+              "15-20/hpf",
+              "20-25/hpf",
+              "30-40/hpf",
+              "40-60/hpf",
+              "60-80/hpf",
+              "80-100/hpf",
+              ">100/hpf",
+              "10-12/hpf"
+            ],
+            "range": {
+              "default": {
+                "male-range": "NIL",
+                "female-range": "NIL",
+                "child-range": "NIL"
+              }
+            },
+            "key": 0,
+            "formulaId": "8e86f8b3-08d3-44a6-b20a-5ab413fc4c6f"
+          },
+          {
+            "name": "Pus cells",
+            "options": [
+              "Not seen",
+              "Occasional",
+              "1-2/hpf",
+              "80-100/hpf",
+              ">100/hpf",
+              "2-3/hpf",
+              "4-6/hpf",
+              "6-8/hpf",
+              "8-12/hpf",
+              "15-20/hpf",
+              "20-25/hpf",
+              "30-40/hpf",
+              "40-60/hpf",
+              "60-80/hpf"
+            ],
+            "range": {
+              "default": {
+                "male-range": "0-3/hpf",
+                "female-range": "0-3/hpf",
+                "child-range": "0-3/hpf"
+              }
+            },
+            "key": 1,
+            "formulaId": "accd7d36-0167-43dd-aac8-2ec565318ce3",
+            "field": "custom"
+          },
+          {
+            "key": 2,
+            "formulaId": "59f8b1f4-13e4-4604-9df1-712e9125da34",
+            "field": "custom",
+            "name": "Epithelial Cells",
+            "options": [
+              "Not seen",
+              "Occasional",
+              "1-2/hpf",
+              "2-4/hpf",
+              "3-4/hpf",
+              "4-6/hpf",
+              "6-8/hpf",
+              "8-10/hpf",
+              "10-12/hpf"
+            ],
+            "range": {
+              "default": {
+                "male-range": "0-3/hpf",
+                "female-range": "0-3/hpf",
+                "child-range": "0-3/hpf"
+              }
+            }
+          },
+          {
+            "field": "custom",
+            "name": "Crystals",
+            "options": [
+              "NOT FOUND",
+              "absent",
+              "Ca Oxalate +",
+              "Uric Acid +",
+              "Triple Phosphates +"
+            ],
+            "defaultOption": "absent",
+            "range": {
+              "default": {
+                "male-range": "NOT FOUND",
+                "female-range": "NOT FOUND",
+                "child-range": "NOT FOUND"
+              }
+            },
+            "key": 3,
+            "formulaId": "deaf1aa8-81d4-4260-954c-8c1e692e1387"
+          },
+          {
+            "formulaId": "043e4abb-c3f2-4273-abcd-d92ea1fed010",
+            "field": "custom",
+            "name": "Casts",
+            "options": [
+              "NOT SEEN",
+              "absent",
+              "NOT FOUND",
+              "Granular Casts",
+              "Hyaline casts",
+              "Pus cell casts"
+            ],
+            "range": {
+              "default": {
+                "male-range": "NOT SEEN",
+                "female-range": "NOT SEEN",
+                "child-range": "NOT SEEN"
+              }
+            },
+            "key": 4
+          },
+          {
+            "name": "Amorphous Deposit",
+            "options": [
+              "NOT FOUND",
+              "absent",
+              "present"
+            ],
+            "key": 5,
+            "formulaId": "e2367182-a806-40b8-a3a7-fb44e0205b9b",
+            "field": "custom"
+          },
+          {
+            "key": 6,
+            "formulaId": "91e97633-0bd4-4808-907a-8d479ccb6dd4",
+            "field": "custom",
+            "name": "Bacteria",
+            "options": [
+              "NOT SEEN",
+              "SEEN(+)",
+              "SEEN(++)",
+              "absent"
+            ],
+            "range": {
+              "default": {
+                "male-range": "NOT SEEN",
+                "female-range": "NOT SEEN",
+                "child-range": "NOT SEEN"
+              }
+            }
+          },
+          {
+            "field": "custom",
+            "name": "Trichomonas Vaginalis",
+            "options": [
+              "NOT SEEN",
+              "absent",
+              "SEEN(+)",
+              "SEEN(++)"
+            ],
+            "key": 7,
+            "formulaId": "42a34a18-8c6f-4531-bb1b-ce93b266b679"
+          },
+          {
+            "field": "custom",
+            "name": "Yeast Cells",
+            "options": [
+              "absent",
+              "NOT SEEN",
+              "NOT FOUND",
+              "SEEN(+)",
+              "SEEN(++)"
+            ],
+            "range": {
+              "default": {
+                "male-range": "NOT SEEN",
+                "female-range": "NOT SEEN",
+                "child-range": "NOT SEEN"
+              }
+            },
+            "key": 8,
+            "formulaId": "fd1e02eb-dbf2-4d11-9600-867496c220dd"
+          },
+          {
+            "name": "Other Finding",
+            "options": [
+              "Trophozoites of T.Vaginalis seen",
+              "-"
+            ],
+            "key": 9,
+            "formulaId": "531e862c-9e03-4fa3-ba65-752493302932",
+            "field": "custom"
+          }
+        ]
+      }
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641a1d9aebe595f57b4fec8c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0332",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.274Z",
+  "updatedAt": "2026-08-14T17:59:51.274Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

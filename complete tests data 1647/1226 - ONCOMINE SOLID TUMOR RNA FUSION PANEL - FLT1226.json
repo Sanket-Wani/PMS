@@ -1,0 +1,156 @@
+{
+  "_id": "6a86ccbf5953b1dd0a19913b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ONCOMINE SOLID TUMOR RNA FUSION PANEL",
+  "code": "2464",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100.028%;\" border=\"1\"><colgroup><col style=\"width: 49.9303%;\"><col style=\"width: 49.9303%;\"></colgroup>\n<tbody>\n<tr>\n<td><strong><span style=\"font-size: 10px;\">Result Category</span></strong></td>\n<td><strong><span style=\"font-size: 10px;\">Description</span></strong></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Fusion Detected (Actionable)</span></td>\n<td><span style=\"font-size: 10px;\">Oncogenic fusion identified; may be targetable by approved or investigational therapies.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Fusion Detected (VUS)</span></td>\n<td><span style=\"font-size: 10px;\">Fusion detected but clinical significance unclear; consider further evaluation or research use.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">No Fusion Detected</span></td>\n<td><span style=\"font-size: 10px;\">No known oncogenic fusions identified; other alterations may still drive tumor growth.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RNA Quality",
+        "field": "text",
+        "formulaId": "2dfe6398-faa0-47e8-b8c5-18146cc1ae4f",
+        "flabsCode": "FLP1828"
+      },
+      "_id": "6883ace8854b0c2c69b4c570"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gene Fusion Detection",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not- Detected"
+        ],
+        "formulaId": "2a66847c-9354-4d02-acb7-974283d7a54b",
+        "flabsCode": "FLP1014"
+      },
+      "_id": "6883ace8854b0c2c69b4c571"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Identified Fusion Partner(s)",
+        "field": "text",
+        "formulaId": "7e0dc234-e1fe-4fb5-a886-ff3cf6c9b194",
+        "flabsCode": "FLP1225"
+      },
+      "_id": "6883ace8854b0c2c69b4c572"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fusion Transcript Expression Level\t",
+        "field": "text",
+        "units": "Copies/ng",
+        "formulaId": "9377b40a-c977-4150-b103-379ff61178b8",
+        "flabsCode": "FLP0979"
+      },
+      "_id": "6883ace8854b0c2c69b4c573"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Actionable Target Fusions",
+        "field": "text",
+        "formulaId": "f8d5db4e-e05e-4367-8aa7-70abce6d45a5",
+        "flabsCode": "FLP0152"
+      },
+      "_id": "6883ace8854b0c2c69b4c574"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variants of Unknown Significance (VUS)\t",
+        "field": "text",
+        "formulaId": "cffdb73d-5687-4e77-b3e6-c0b1b3276a73",
+        "flabsCode": "FLP2261"
+      },
+      "_id": "6883ace8854b0c2c69b4c575"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "QC Metrics (Read Depth, Coverage)",
+        "field": "text",
+        "formulaId": "51c35ec7-ecd3-4b51-9fec-e183fe0da84c",
+        "flabsCode": "FLP1807"
+      },
+      "_id": "6883ace8854b0c2c69b4c576"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c528",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1226",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.003Z",
+  "updatedAt": "2025-07-21T19:17:57.003Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

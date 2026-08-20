@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cd1192e2891d949026b6",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FLUORESCENT TREPONEMAL ANTIBODIES (FTA-ABS)",
+  "code": "2736",
+  "cost": 0,
+  "interpretation": "<p><strong>Reactive / Positive:</strong></p>\n<ul>\n<li>Indicates past or present infection with Treponema pallidum</li>\n<li>Remains positive even after treatment &mdash; not useful for monitoring treatment response</li>\n<li>Confirms syphilis after a positive non-treponemal test (e.g., RPR, VDRL)</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>Non-Reactive / Negative:</strong></p>\n<ul>\n<li>No detectable treponemal antibodies</li>\n<li>Rules out syphilis in most cases, unless early window period</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "FTA-ABS (IgG)",
+        "field": "custom",
+        "options": [
+          "Reactive",
+          "Non-reactive"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Positive = Treponemal infection",
+            "female-range": "Positive = Treponemal infection",
+            "child-range": "Positive = Treponemal infection"
+          }
+        },
+        "formulaId": "7085134d-0510-45ca-884f-b1b3752de903",
+        "flabsCode": "FLP0919"
+      },
+      "_id": "68819f99e4bce81877144e2d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pattern of Fluorescence (IFA)",
+        "field": "custom",
+        "options": [
+          "Moderate",
+          "Strong"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Indicates antibody presence",
+            "female-range": "Indicates antibody presence",
+            "child-range": "Indicates antibody presence"
+          }
+        },
+        "formulaId": "6961ea86-9e24-4423-942f-e68f13818f03",
+        "flabsCode": "FLP1698"
+      },
+      "_id": "68819f99e4bce81877144e2e"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c60f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1489",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.952Z",
+  "updatedAt": "2025-07-21T19:17:57.952Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

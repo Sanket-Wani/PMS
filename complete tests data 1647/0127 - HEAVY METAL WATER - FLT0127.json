@@ -1,0 +1,378 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a4c1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HEAVY METAL WATER",
+  "code": "1112",
+  "cost": 0,
+  "interpretation": "<p data-start=\"117\" data-end=\"425\">The <strong data-start=\"121\" data-end=\"147\">Heavy Metal Water Test</strong> is performed to detect the presence and concentration of toxic metals (such as <strong data-start=\"227\" data-end=\"284\">lead, arsenic, cadmium, mercury, chromium, and others</strong>) in water samples. It is essential for assessing <strong data-start=\"334\" data-end=\"359\">drinking water safety</strong>, especially in residential, industrial, or agricultural settings.</p>\n<p data-start=\"427\" data-end=\"474\"><strong data-start=\"430\" data-end=\"474\">Clinical and Environmental Significance:</strong></p>\n<ul data-start=\"475\" data-end=\"759\">\n<li data-start=\"475\" data-end=\"563\">\n<p data-start=\"477\" data-end=\"563\">Helps identify <strong data-start=\"492\" data-end=\"522\">contaminated water sources</strong> that may lead to long-term health risks.</p>\n</li>\n<li data-start=\"564\" data-end=\"669\">\n<p data-start=\"566\" data-end=\"669\">Crucial for <strong data-start=\"578\" data-end=\"606\">preventive public health</strong> and <strong data-start=\"611\" data-end=\"636\">regulatory compliance</strong> (e.g., WHO, EPA, BIS standards).</p>\n</li>\n<li data-start=\"670\" data-end=\"759\">\n<p data-start=\"672\" data-end=\"759\">Important for populations exposed to <strong data-start=\"709\" data-end=\"734\">industrial pollutants</strong> or using <strong data-start=\"744\" data-end=\"758\">well water</strong>.</p>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th><strong>Elevated Heavy Metals in Water</strong></th>\n<th><strong>Possible Health/Environmental Impact</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Lead</strong></td>\n<td>Neurological damage, especially in children; developmental delays</td>\n</tr>\n<tr>\n<td><strong>Arsenic</strong></td>\n<td>Skin changes, increased cancer risk, cardiovascular and neurological effects</td>\n</tr>\n<tr>\n<td><strong>Cadmium</strong></td>\n<td>Kidney damage, bone loss, increased cancer risk</td>\n</tr>\n<tr>\n<td><strong>Mercury</strong></td>\n<td>Neurological and developmental disorders, kidney toxicity</td>\n</tr>\n<tr>\n<td><strong>Chromium (especially Cr VI)</strong></td>\n<td>Skin irritation, carcinogenic effects</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lead (Pb)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.01"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.01"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.01"
+            }
+          }
+        },
+        "units": "mg/L",
+        "formulaId": "f76d2210-af17-4ead-8088-4e1013d9bdf4",
+        "flabsCode": "FLP1345"
+      },
+      "_id": "688274eb124d8484d88b5f80"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Arsenic (As)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.01"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.01"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.01"
+            }
+          }
+        },
+        "units": "mg/L",
+        "formulaId": "be03a156-9ed6-46cd-a48a-920e12adc14e",
+        "flabsCode": "FLP0276"
+      },
+      "_id": "688274eb124d8484d88b5f81"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cadmium (Cd)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.003"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.003"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.003"
+            }
+          }
+        },
+        "units": "mg/L",
+        "formulaId": "f8f2b08a-1726-46a0-8b02-839f8d97093b",
+        "flabsCode": "FLP0531"
+      },
+      "_id": "688274eb124d8484d88b5f82"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mercury (Hg)",
+        "field": "numeric_unbound",
+        "units": "mg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.001"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.001"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.001"
+            }
+          }
+        },
+        "formulaId": "62ee57f0-2c53-4fe0-8a79-a31fed30c48f",
+        "flabsCode": "FLP1451"
+      },
+      "_id": "688274eb124d8484d88b5f83"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromium (Cr) - Total",
+        "field": "numeric_unbound",
+        "units": "mg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.05"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.05"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.05"
+            }
+          }
+        },
+        "formulaId": "4c6dc4bb-c75e-45fb-bd62-589caae68d9d",
+        "flabsCode": "FLP0581"
+      },
+      "_id": "688274eb124d8484d88b5f84"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Nickel (Ni)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.02"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.02"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.02"
+            }
+          }
+        },
+        "units": "mg/L",
+        "formulaId": "e54a22b2-7121-4e90-9baf-b34c86831331",
+        "flabsCode": "FLP1548"
+      },
+      "_id": "688274eb124d8484d88b5f85"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Iron (Fe)",
+        "field": "numeric_unbound",
+        "units": "mg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.3"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.3"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.3"
+            }
+          }
+        },
+        "formulaId": "bc36ae9e-a9a0-4231-ad35-6f36fd792ea0",
+        "flabsCode": "FLP1279"
+      },
+      "_id": "688274eb124d8484d88b5f86"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Manganese (Mn)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.1"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.1"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.1"
+            }
+          }
+        },
+        "units": "mg/L",
+        "formulaId": "5b2c5b6e-2cb2-4ba9-8e03-54258280da17",
+        "flabsCode": "FLP1431"
+      },
+      "_id": "688274eb124d8484d88b5f87"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Copper (Cu)",
+        "field": "numeric_unbound",
+        "units": "mg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.05"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.05"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.05"
+            }
+          }
+        },
+        "formulaId": "ffdd78dc-5fb8-4e2f-8779-9de6e264ab7f",
+        "flabsCode": "FLP0663"
+      },
+      "_id": "688274eb124d8484d88b5f88"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zinc (Zn)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "5.0"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "5.0"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "5.0"
+            }
+          }
+        },
+        "units": "mg/L",
+        "formulaId": "6be48805-7672-4615-b67c-01cf54082f9b",
+        "flabsCode": "FLP2303"
+      },
+      "_id": "688274eb124d8484d88b5f89"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aluminium (Al)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "0.03"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "0.03"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "0.03"
+            }
+          }
+        },
+        "units": "mg/L",
+        "formulaId": "fe128ab2-2172-4477-844d-e4db42e81f85",
+        "flabsCode": "FLP0191"
+      },
+      "_id": "688274eb124d8484d88b5f8a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c189",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0127",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.514Z",
+  "updatedAt": "2025-07-21T19:17:52.514Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

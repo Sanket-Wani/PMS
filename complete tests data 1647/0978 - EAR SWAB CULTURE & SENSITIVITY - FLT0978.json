@@ -1,0 +1,271 @@
+{
+  "_id": "6a86cc7692e2891d948dfcc7",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "EAR SWAB CULTURE & SENSITIVITY",
+  "code": "2197",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopy (Gram Stain)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Pus cells",
+            "units": "",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "911f2268-8c8a-458c-8452-c1530d697fc6",
+            "flabsCode": "FLP1803"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Epithelial cells",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "1fc6cbfe-a43a-4573-8cac-e7724cbadd95",
+            "flabsCode": "FLP0830"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Gram Positive Cocci",
+            "options": [
+              "Seen",
+              "Not Seen"
+            ],
+            "formulaId": "73d91252-b8a8-4613-abda-8380bbc9a934",
+            "flabsCode": "FLP1045"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Gram Negative Bacilli",
+            "options": [
+              "Seen",
+              "Not Seen"
+            ],
+            "formulaId": "da7d0435-804f-4c7b-833a-0b5c3e4ee22b",
+            "flabsCode": "FLP1044"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Yeast cells",
+            "options": [
+              "Not Seen",
+              "Seen"
+            ],
+            "formulaId": "5376abad-1e3b-4ac6-875b-4ec4c0ddcd57",
+            "flabsCode": "FLP2296"
+          }
+        ]
+      },
+      "_id": "68834a7fd92e738f267fc399"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Organism Isolated",
+        "field": "text",
+        "formulaId": "18f50467-13bb-4412-979c-54e40e096df0",
+        "flabsCode": "FLP0338"
+      },
+      "_id": "68834a7fd92e738f267fc39a"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Antibiotic Sensitivity",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Amikacin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "b5d6f64f-eecf-4598-9e67-d6f731bd884d",
+            "flabsCode": "FLP0193"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Gentamicin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "3adf97b9-bf9e-4a8d-9d93-a8d2954d5a99",
+            "flabsCode": "FLP1023"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Ciprofloxacin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "5fd6fa64-869c-4f6f-80f4-7753250bdc7e",
+            "flabsCode": "FLP0603"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Ceftriaxone",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "72c2fcdd-2ee7-421c-be3e-19b0fc12088c",
+            "flabsCode": "FLP0556"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Ceftazidime",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "bed2289b-e506-4195-a8a9-c16bb9c53e64",
+            "flabsCode": "FLP0555"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Piperacillin-Tazobactam",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "bb5cff0d-a9d6-426b-977b-df3a8c4a3c3c",
+            "flabsCode": "FLP1724"
+          },
+          {
+            "key": 6,
+            "field": "custom",
+            "name": "Meropenem",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "93c3fdc7-c27b-4ad7-8f7a-ea1ce3a566df",
+            "flabsCode": "FLP1455"
+          },
+          {
+            "key": 7,
+            "field": "custom",
+            "name": "Vancomycin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "fbb40002-9d69-468d-b545-c3831f910105",
+            "flabsCode": "FLP2252"
+          },
+          {
+            "key": 8,
+            "field": "custom",
+            "name": "Clindamycin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "flabsCode": "FLP0613"
+          }
+        ]
+      },
+      "_id": "68834a7fd92e738f267fc39b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c444",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0978",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.977Z",
+  "updatedAt": "2025-07-21T19:17:55.977Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

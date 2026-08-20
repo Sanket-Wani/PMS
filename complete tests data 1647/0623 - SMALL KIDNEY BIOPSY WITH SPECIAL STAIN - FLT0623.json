@@ -1,0 +1,130 @@
+{
+  "_id": "6a86cc105953b1dd0a17cc91",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SMALL KIDNEY BIOPSY WITH SPECIAL STAIN",
+  "code": "1723",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1130\" data-end=\"1362\">\n<li data-start=\"1130\" data-end=\"1213\">\n<p data-start=\"1132\" data-end=\"1213\"><span style=\"font-size: 9px;\">This test is used to diagnose <strong data-start=\"1162\" data-end=\"1212\">glomerular, tubular, or interstitial pathology</strong>.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1214\" data-end=\"1362\">\n<p data-start=\"1216\" data-end=\"1245\"><span style=\"font-size: 9px;\">Special stains help identify:</span></p>\n<ul data-start=\"1248\" data-end=\"1362\">\n<li style=\"font-size: 9px;\" data-start=\"1248\" data-end=\"1296\">\n<p data-start=\"1250\" data-end=\"1296\"><span style=\"font-size: 9px;\"><strong data-start=\"1250\" data-end=\"1282\">Basement membrane thickening</strong> (PAS, Silver)</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1299\" data-end=\"1325\">\n<p data-start=\"1301\" data-end=\"1325\"><span style=\"font-size: 9px;\"><strong data-start=\"1301\" data-end=\"1313\">Fibrosis</strong> (Trichrome)</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1328\" data-end=\"1362\">\n<p data-start=\"1330\" data-end=\"1362\"><span style=\"font-size: 9px;\"><strong data-start=\"1330\" data-end=\"1350\">Amyloid deposits</strong> (Congo Red)</span></p>\n</li>\n</ul>\n</li>\n</ul>\n<h3 data-start=\"1369\" data-end=\"1397\"><span style=\"font-size: 9px;\"><strong data-start=\"1376\" data-end=\"1397\">Clinical Utility:</strong></span></h3>\n<ul data-start=\"1399\" data-end=\"1651\">\n<li style=\"font-size: 9px;\" data-start=\"1399\" data-end=\"1581\">\n<p data-start=\"1401\" data-end=\"1426\"><span style=\"font-size: 9px;\">Essential for evaluating:</span></p>\n<ul data-start=\"1429\" data-end=\"1581\">\n<li style=\"font-size: 9px;\" data-start=\"1429\" data-end=\"1463\">\n<p data-start=\"1431\" data-end=\"1463\"><span style=\"font-size: 9px;\"><strong data-start=\"1431\" data-end=\"1463\">Nephrotic/Nephritic syndrome</strong></span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1466\" data-end=\"1501\">\n<p data-start=\"1468\" data-end=\"1501\"><span style=\"font-size: 9px;\"><strong data-start=\"1468\" data-end=\"1501\">Unexplained renal dysfunction</strong></span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1504\" data-end=\"1581\">\n<p data-start=\"1506\" data-end=\"1581\"><span style=\"font-size: 9px;\"><strong data-start=\"1506\" data-end=\"1544\">Systemic diseases affecting kidney</strong> (e.g., lupus, diabetes, amyloidosis)</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1582\" data-end=\"1651\">\n<p data-start=\"1584\" data-end=\"1651\"><span style=\"font-size: 9px;\">Special stains <strong data-start=\"1599\" data-end=\"1630\">enhance diagnostic accuracy</strong> of glomerulopathies.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Histopathology Report\t",
+        "field": "text",
+        "formulaId": "7fdc6eee-bf1f-4bfb-a00c-2a05f34b3957"
+      },
+      "_id": "6885255b0a49ec9180828048"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PAS Stain\t",
+        "field": "text",
+        "formulaId": "0d66eec3-36a9-44c5-82e4-a1190ac56614",
+        "flabsCode": "FLP1626"
+      },
+      "_id": "6885255b0a49ec9180828049"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Silver Methenamine Stain\t",
+        "field": "text",
+        "formulaId": "cb27310f-fb3a-469a-a959-f91f4c3bf494",
+        "flabsCode": "FLP2003"
+      },
+      "_id": "6885255b0a49ec918082804a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Masson's Trichrome Stain\t",
+        "field": "text",
+        "formulaId": "8560028c-3063-4e59-8a16-9b7184a21576",
+        "flabsCode": "FLP1434"
+      },
+      "_id": "6885255b0a49ec918082804b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Congo Red (if done)\t",
+        "field": "text",
+        "formulaId": "6fb6b4b1-e83d-4ed1-8f44-6ebcb07c7e36",
+        "flabsCode": "FLP0652"
+      },
+      "_id": "6885255b0a49ec918082804c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c31e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0623",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.339Z",
+  "updatedAt": "2025-07-21T19:17:54.339Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

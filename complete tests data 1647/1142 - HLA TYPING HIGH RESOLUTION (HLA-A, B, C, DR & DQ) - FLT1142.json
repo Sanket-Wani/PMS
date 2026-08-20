@@ -1,0 +1,131 @@
+{
+  "_id": "6a86cca292e2891d948eb63f",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HLA TYPING HIGH RESOLUTION (HLA-A, B, C, DR & DQ)",
+  "code": "2381",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1738\" data-end=\"2113\">\n<li data-start=\"1738\" data-end=\"1843\">\n<p data-start=\"1740\" data-end=\"1843\"><strong data-start=\"1740\" data-end=\"1770\">igh-resolution HLA typing</strong> identifies specific <strong data-start=\"1791\" data-end=\"1814\">HLA allele subtypes</strong> (4-digit typing or greater).</p>\n</li>\n<li data-start=\"1844\" data-end=\"2113\">\n<p data-start=\"1846\" data-end=\"1859\">Critical for:</p>\n<ul data-start=\"1862\" data-end=\"2113\">\n<li data-start=\"1862\" data-end=\"1920\">\n<p data-start=\"1864\" data-end=\"1920\"><strong data-start=\"1864\" data-end=\"1905\">Organ and bone marrow transplantation</strong> (HLA matching)</p>\n</li>\n<li data-start=\"1923\" data-end=\"1997\">\n<p data-start=\"1925\" data-end=\"1997\"><strong data-start=\"1925\" data-end=\"1956\">Disease association studies</strong> (e.g., ankylosing spondylitis &ndash; HLA-B27)</p>\n</li>\n<li data-start=\"2000\" data-end=\"2071\">\n<p data-start=\"2002\" data-end=\"2071\"><strong data-start=\"2002\" data-end=\"2032\">Adverse drug reaction risk</strong> (e.g., HLA-B*15:02 with carbamazepine)</p>\n</li>\n<li data-start=\"2074\" data-end=\"2113\">\n<p data-start=\"2076\" data-end=\"2113\"><strong data-start=\"2076\" data-end=\"2113\">Autoimmune disease susceptibility</strong></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-A High Resolution\t",
+        "field": "text",
+        "formulaId": "64cf5908-ac14-4123-a31f-79b181a9e435",
+        "flabsCode": "FLP1112"
+      },
+      "_id": "6883b96d35738384e7919be9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-B High Resolution",
+        "field": "text",
+        "formulaId": "87aa9805-c8da-4393-a6b0-ce47ad4b99f9",
+        "flabsCode": "FLP1116"
+      },
+      "_id": "6883b96d35738384e7919bea"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-C High Resolution",
+        "field": "text",
+        "formulaId": "a970a789-9efc-462e-bd4b-a01d2a6b46eb",
+        "flabsCode": "FLP1120"
+      },
+      "_id": "6883b96d35738384e7919beb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-DRB1 High Resolution",
+        "field": "text",
+        "formulaId": "4b0ae736-b640-435c-85d8-11045123933a",
+        "flabsCode": "FLP1129"
+      },
+      "_id": "6883b96d35738384e7919bec"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-DQB1 High Resolution\t",
+        "field": "text",
+        "formulaId": "d57fb742-f2ba-4a03-b36a-7b94f94888e9",
+        "flabsCode": "FLP1124"
+      },
+      "_id": "6883b96d35738384e7919bed"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4d5",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1142",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.610Z",
+  "updatedAt": "2025-07-21T19:17:56.610Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

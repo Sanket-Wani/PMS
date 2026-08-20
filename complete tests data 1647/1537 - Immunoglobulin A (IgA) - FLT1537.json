@@ -1,0 +1,162 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c41",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Immunoglobulin A (IgA) ",
+  "code": "IgA",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>IgA Test Result</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>IgA Level within Normal Range</div></td><td><div>A normal IgA level indicates that the individual's immune system is functioning properly, and there is no significant deficiency or excess of IgA antibodies. It suggests that the person has a well-functioning immune response at mucosal surfaces.</div></td></tr><tr><td><div>Low IgA Level (IgA Deficiency)</div></td><td><div>A low IgA level may indicate IgA deficiency, a condition in which the person has reduced levels of IgA antibodies in the blood. IgA deficiency can lead to an increased risk of infections at mucosal surfaces and may be associated with other autoimmune or immunological disorders. Further evaluation and monitoring are necessary to assess the impact on the individual's health.</div></td></tr><tr><td><div>High IgA Level</div></td><td><div>An elevated IgA level is less common and may be seen in certain conditions, such as chronic infections, inflammatory disorders, or multiple myeloma (a type of blood cancer). Further investigation is required to determine the underlying cause of the high IgA level and its clinical significance.</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Immunoglobulin A (IgA) ",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "4y_0m_0d_-_12y_0m_0d": {
+            "female-range-min": "27",
+            "child-range-max": "204",
+            "child-range-min": "27",
+            "male-range-min": "27",
+            "male-range-max": "204",
+            "female-range-max": "204"
+          },
+          "13y_0m_0d_-_19y_0m_0d": {
+            "female-range-min": "54",
+            "child-range-max": "348",
+            "child-range-min": "54",
+            "male-range-min": "54",
+            "male-range-max": "348",
+            "female-range-max": "348"
+          },
+          "19y_0m_1d_-_120y_0m_0d": {
+            "male-range-max": "410",
+            "female-range-max": "410",
+            "female-range-min": "110",
+            "child-range-max": "410",
+            "child-range-min": "110",
+            "male-range-min": "110"
+          },
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "83"
+          },
+          "0y_0m_0d_-_1y_0m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "83",
+            "male-range-min": "0",
+            "male-range-max": "83"
+          },
+          "1y_0m_1d_-_3y_0m_0d": {
+            "child-range-min": "20",
+            "male-range-min": "20",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "20",
+            "child-range-max": "100"
+          }
+        }
+      },
+      "_id": "64bd2919f48dacc91bb99577"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64bd2919f48dacc91bb99576",
+  "ageRanges": [
+    {
+      "_id": "64bd2924f48dacc91bb995f8",
+      "from": "0Y-0M-0D",
+      "to": "1Y-0M-0D"
+    },
+    {
+      "_id": "64bd2946f48dacc91bb9977e",
+      "from": "1Y-0M-1D",
+      "to": "3Y-0M-0D"
+    },
+    {
+      "_id": "64bd2990a737d16813f26363",
+      "from": "4Y-0M-0D",
+      "to": "12Y-0M-0D"
+    },
+    {
+      "_id": "64bd29f9a737d16813f268f8",
+      "from": "13Y-0M-0D",
+      "to": "19Y-0M-0D"
+    },
+    {
+      "_id": "64bd2a30a737d16813f26929",
+      "from": "19Y-0M-1D",
+      "to": "120Y-0M-0D"
+    }
+  ],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1537",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.658Z",
+  "updatedAt": "2026-08-14T17:59:51.658Z",
+  "comment": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

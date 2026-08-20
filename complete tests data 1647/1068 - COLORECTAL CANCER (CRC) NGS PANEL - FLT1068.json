@@ -1,0 +1,156 @@
+{
+  "_id": "6a86cc91ba46c74c6d45319e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "COLORECTAL CANCER (CRC) NGS PANEL",
+  "code": "2308",
+  "cost": 0,
+  "interpretation": "<table>\n<thead data-start=\"238\" data-end=\"569\">\n<tr data-start=\"238\" data-end=\"569\">\n<th data-start=\"238\" data-end=\"264\" data-col-size=\"sm\">Parameter</th>\n<th data-start=\"264\" data-end=\"419\" data-col-size=\"lg\">Description</th>\n<th data-start=\"419\" data-end=\"439\" data-col-size=\"md\">Units</th>\n<th data-start=\"439\" data-end=\"569\" data-col-size=\"lg\">Reference Range / Normal Finding</th>\n</tr>\n</thead>\n</table>\n<table>\n<tbody>\n<tr data-start=\"899\" data-end=\"1253\">\n<td data-start=\"899\" data-end=\"925\" data-col-size=\"sm\">5q Deletion (del5q)</td>\n<td data-col-size=\"lg\" data-start=\"925\" data-end=\"1086\">Deletion (loss) of part of the long arm of chromosome 5, often involving the EGR1 gene. This is a common abnormality in MDS and may indicate better prognosis.</td>\n<td data-col-size=\"md\" data-start=\"1086\" data-end=\"1134\">Percentage of cells with deletion (usually %)</td>\n<td data-col-size=\"lg\" data-start=\"1134\" data-end=\"1253\">Normal: 0&ndash;5% cells show deletion (considered background/no deletion) <br>Abnormal: &gt;5% cells show deletion</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n<tr data-start=\"1254\" data-end=\"1563\">\n<td data-start=\"1254\" data-end=\"1290\" data-col-size=\"sm\">7q Deletion / Monosomy 7 (-7)</td>\n<td data-col-size=\"lg\" data-start=\"1290\" data-end=\"1444\">Deletion of part of chromosome 7 (7q) or loss of the entire chromosome 7. Seen in high-risk MDS and poor prognosis.</td>\n<td data-col-size=\"md\" data-start=\"1444\" data-end=\"1470\">Percentage of cells (%)</td>\n<td data-col-size=\"lg\" data-start=\"1470\" data-end=\"1563\">Normal: 0&ndash;5% cells show deletion/loss <br>Abnormal: &gt;5% cells show deletion/loss</td>\n</tr>\n</tbody>\n</table>\n<table style=\"width: 99.9731%;\">\n<tbody>\n<tr data-start=\"1564\" data-end=\"1850\">\n<td style=\"width: 13.2154%;\" data-start=\"1564\" data-end=\"1589\" data-col-size=\"sm\">Trisomy 8 (+8)</td>\n<td data-col-size=\"lg\" data-start=\"1589\" data-end=\"1743\">Extra copy of chromosome 8, common in MDS.</td>\n<td data-col-size=\"md\" data-start=\"1743\" data-end=\"1769\">Percentage of cells (%)</td>\n<td style=\"width: 28.8727%;\" data-col-size=\"lg\" data-start=\"1769\" data-end=\"1850\">Normal: 0&ndash;5% cells show trisomy <br>Abnormal: &gt;5% cells show trisomy</td>\n</tr>\n</tbody>\n</table>\n<table>\n<tbody>\n<tr data-start=\"1851\" data-end=\"2142\">\n<td data-start=\"1851\" data-end=\"1879\" data-col-size=\"sm\">20q Deletion (del20q)</td>\n<td data-col-size=\"lg\" data-start=\"1879\" data-end=\"2033\">Deletion in part of chromosome 20, often associated with low-risk MDS.</td>\n<td data-col-size=\"md\" data-start=\"2033\" data-end=\"2059\">Percentage of cells (%)</td>\n<td data-col-size=\"lg\" data-start=\"2059\" data-end=\"2142\">Normal: 0&ndash;5% cells with deletion <br>Abnormal: &gt;5% cells with deletion</td>\n</tr>\n</tbody>\n</table>\n<table style=\"width: 99.9731%;\">\n<tbody>\n<tr data-start=\"2143\" data-end=\"2446\">\n<td style=\"width: 8.76237%;\" data-start=\"2143\" data-end=\"2168\" data-col-size=\"sm\">Loss of Y (-Y)</td>\n<td data-col-size=\"lg\" data-start=\"2168\" data-end=\"2323\">Loss of the Y chromosome, typically found in older males and usually not clinically significant in MDS.</td>\n<td data-col-size=\"md\" data-start=\"2323\" data-end=\"2349\">Percentage of cells (%)</td>\n<td style=\"width: 27.149%;\" data-col-size=\"lg\" data-start=\"2349\" data-end=\"2446\">Normal: 0&ndash;5% cells with loss <br>Abnormal: &gt;5% cells with loss (usually age-related)</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "5q Deletion (del5q)",
+        "field": "custom",
+        "units": "5q31",
+        "options": [
+          "Normal ",
+          "Abnormal"
+        ],
+        "formulaId": "7154e1e4-5552-4125-8837-01ab10e54754",
+        "flabsCode": "FLP0050"
+      },
+      "_id": "6883a894b999cd54a340c171"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "7q Deletion / -7",
+        "field": "custom",
+        "units": "7q31",
+        "options": [
+          "Normal",
+          "Abnormal"
+        ],
+        "formulaId": "0508bd4c-b375-4e83-8085-7036d8f3299c",
+        "flabsCode": "FLP0052"
+      },
+      "_id": "6883a894b999cd54a340c172"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Trisomy 8 (+8)",
+        "field": "custom",
+        "units": "8q",
+        "options": [
+          "Normal",
+          "Abnormal"
+        ],
+        "formulaId": "145103a6-f016-4f30-a049-fa1d34c8dd00",
+        "flabsCode": "FLP2167"
+      },
+      "_id": "6883a894b999cd54a340c173"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "20q Deletion (del20q)",
+        "field": "custom",
+        "units": "20q12",
+        "options": [
+          "Normal",
+          "Abnormal"
+        ],
+        "formulaId": "1463bb11-7bc6-40ac-8af7-63168b9091f3",
+        "flabsCode": "FLP0027"
+      },
+      "_id": "6883a894b999cd54a340c174"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Loss of Y (-Y)",
+        "field": "custom",
+        "units": "Y chromosome",
+        "options": [
+          "Normal",
+          "Abnormal"
+        ],
+        "formulaId": "ab1053d3-224f-48de-b3c4-313adc3b8722",
+        "flabsCode": "FLP1378"
+      },
+      "_id": "6883a894b999cd54a340c175"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c48f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1068",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.285Z",
+  "updatedAt": "2025-07-21T19:17:56.285Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

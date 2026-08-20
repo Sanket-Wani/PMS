@@ -1,0 +1,150 @@
+{
+  "_id": "6a86cb6d92e2891d948be56f",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "24 HR URINARY LEAD",
+  "code": "1141",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1170\" data-end=\"1709\">\n<li data-start=\"1170\" data-end=\"1248\">\n<p data-start=\"1172\" data-end=\"1200\"><span style=\"font-size: 10px;\"><strong data-start=\"1172\" data-end=\"1198\">Normal Lead Excretion:</strong></span></p>\n<ul data-start=\"1203\" data-end=\"1248\">\n<li style=\"font-size: 10px;\" data-start=\"1203\" data-end=\"1248\">\n<p data-start=\"1205\" data-end=\"1248\"><span style=\"font-size: 10px;\">&lt;40 &micro;g/24 hrs in non-exposed individuals.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1250\" data-end=\"1468\">\n<p data-start=\"1252\" data-end=\"1288\"><span style=\"font-size: 10px;\"><strong data-start=\"1252\" data-end=\"1286\">Elevated Lead (&gt;80 &micro;g/24 hrs):</strong></span></p>\n<ul data-start=\"1291\" data-end=\"1468\">\n<li style=\"font-size: 10px;\" data-start=\"1291\" data-end=\"1359\">\n<p data-start=\"1293\" data-end=\"1359\"><span style=\"font-size: 10px;\">Indicates <strong data-start=\"1303\" data-end=\"1327\">significant exposure</strong> (occupational/environmental).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1362\" data-end=\"1468\">\n<p data-start=\"1364\" data-end=\"1468\"><span style=\"font-size: 10px;\">May require <strong data-start=\"1376\" data-end=\"1445\">clinical evaluation, removal from exposure, and chelation therapy</strong> (as per guidelines).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1470\" data-end=\"1594\">\n<p data-start=\"1472\" data-end=\"1500\"><span style=\"font-size: 10px;\"><strong data-start=\"1472\" data-end=\"1498\">Creatinine Correction:</strong></span></p>\n<ul data-start=\"1503\" data-end=\"1594\">\n<li style=\"font-size: 10px;\" data-start=\"1503\" data-end=\"1594\">\n<p data-start=\"1505\" data-end=\"1594\"><span style=\"font-size: 10px;\">Ensures validity of 24-hour collection; results can also be expressed as &micro;g/g creatinine.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1596\" data-end=\"1709\">\n<p data-start=\"1598\" data-end=\"1626\"><span style=\"font-size: 10px;\">Should be correlated with:</span></p>\n<ul data-start=\"1629\" data-end=\"1709\">\n<li style=\"font-size: 10px;\" data-start=\"1629\" data-end=\"1660\">\n<p data-start=\"1631\" data-end=\"1660\"><span style=\"font-size: 10px;\"><strong data-start=\"1631\" data-end=\"1658\">Blood Lead Levels (BLL)</strong></span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1663\" data-end=\"1709\">\n<p data-start=\"1665\" data-end=\"1709\"><span style=\"font-size: 10px;\">Clinical symptoms (neurologic, renal, GI).</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lead (Pb) – 24 Hour Urine",
+        "field": "numeric_unbound",
+        "units": "µg/24 hrs",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "40",
+              "op": "<"
+            },
+            "female-range": {
+              "value": "40",
+              "op": "<"
+            },
+            "child-range": {
+              "value": "40",
+              "op": "<"
+            }
+          }
+        },
+        "formulaId": "4057b416-25c8-40a9-9b18-8f20916ccde9",
+        "flabsCode": "FLP1345"
+      },
+      "_id": "6885e1533661fb0120c3c901"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine Volume Collected",
+        "field": "numeric",
+        "units": "mL/24 hrs",
+        "range": {
+          "default": {
+            "male-range-min": "800",
+            "male-range-max": "2000",
+            "female-range-max": "2000",
+            "female-range-min": "800",
+            "child-range-max": "2000",
+            "child-range-min": "800"
+          }
+        },
+        "formulaId": "4b8130fc-7b2a-4018-af51-15fa3f5c4c88",
+        "flabsCode": "FLP2223"
+      },
+      "_id": "6885e1533661fb0120c3c902"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urinary Creatinine (for QC)\t",
+        "field": "numeric",
+        "units": "g/24 hrs",
+        "range": {
+          "default": {
+            "male-range-min": "0.8",
+            "male-range-max": "2.0",
+            "female-range-max": "1.8",
+            "female-range-min": "0.6",
+            "child-range-max": "2.0",
+            "child-range-min": "0.8"
+          }
+        },
+        "formulaId": "e3c2ce30-574d-4584-9ca8-9476b661a2a3",
+        "flabsCode": "FLP2207"
+      },
+      "_id": "6885e1533661fb0120c3c903"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c19e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0152",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.609Z",
+  "updatedAt": "2025-07-21T19:17:52.609Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

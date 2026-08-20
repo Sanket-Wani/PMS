@@ -1,0 +1,151 @@
+{
+  "_id": "6a86cc5a5953b1dd0a1855bb",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - Ber-Ep4 (EPCAM)",
+  "code": "1982",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1367\" data-end=\"1624\">\n<p data-start=\"1369\" data-end=\"1392\"><span style=\"font-size: 10px;\"><strong data-start=\"1369\" data-end=\"1390\">Ber-EP4 Positive:</strong></span></p>\n<ul data-start=\"1395\" data-end=\"1624\">\n<li style=\"font-size: 10px;\" data-start=\"1395\" data-end=\"1539\">\n<p data-start=\"1397\" data-end=\"1539\"><span style=\"font-size: 10px;\">Typically indicates <strong data-start=\"1417\" data-end=\"1447\">epithelial origin of cells</strong>, useful for distinguishing <strong data-start=\"1475\" data-end=\"1489\">carcinomas</strong> from <strong data-start=\"1495\" data-end=\"1536\">mesothelioma, lymphomas, and sarcomas</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1542\" data-end=\"1624\">\n<p data-start=\"1544\" data-end=\"1624\"><span style=\"font-size: 10px;\">Often used in panels for identifying <strong data-start=\"1581\" data-end=\"1623\">adenocarcinoma vs. mesothelial lesions</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1626\" data-end=\"1746\">\n<p data-start=\"1628\" data-end=\"1651\"><span style=\"font-size: 10px;\"><strong data-start=\"1628\" data-end=\"1649\">Ber-EP4 Negative:</strong></span></p>\n<ul data-start=\"1654\" data-end=\"1746\">\n<li style=\"font-size: 10px;\" data-start=\"1654\" data-end=\"1746\">\n<p data-start=\"1656\" data-end=\"1746\"><span style=\"font-size: 10px;\">May favor <strong data-start=\"1666\" data-end=\"1719\">mesothelial, hematopoietic, or sarcomatous origin</strong> (depending on morphology).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1748\" data-end=\"1882\">\n<p data-start=\"1750\" data-end=\"1777\"><span style=\"font-size: 10px;\"><strong data-start=\"1750\" data-end=\"1775\">Clinical Correlation:</strong></span></p>\n<ul data-start=\"1780\" data-end=\"1882\">\n<li style=\"font-size: 10px;\" data-start=\"1780\" data-end=\"1882\">\n<p data-start=\"1782\" data-end=\"1882\"><span style=\"font-size: 10px;\">Must be interpreted along with <strong data-start=\"1813\" data-end=\"1858\">H&amp;E morphology and a panel of IHC markers</strong> for accurate diagnosis.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Marker Performed",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Detects epithelial cell adhesion molecule (EpCAM)",
+            "female-range": "Detects epithelial cell adhesion molecule (EpCAM)",
+            "child-range": "Detects epithelial cell adhesion molecule (EpCAM)"
+          }
+        },
+        "formulaId": "b3515926-c8d7-4c57-a51e-87b75d32b7fa",
+        "flabsCode": "FLP1432"
+      },
+      "_id": "688543744c9e1585202dade8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Pattern",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Membranous and/or cytoplasmic staining in epithelial cells (if positive)",
+            "female-range": "Membranous and/or cytoplasmic staining in epithelial cells (if positive)",
+            "child-range": "Membranous and/or cytoplasmic staining in epithelial cells (if positive)"
+          }
+        },
+        "formulaId": "62ff5d6e-9a4d-4efe-b900-f72f8d56aa85",
+        "flabsCode": "FLP2033"
+      },
+      "_id": "688543744c9e1585202dade9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Positive Cells",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "0",
+            "child-range-max": "100",
+            "child-range-min": "0"
+          }
+        },
+        "formulaId": "573628ac-5292-49cb-9e7c-e740496b6ec3",
+        "flabsCode": "FLP1713"
+      },
+      "_id": "688543744c9e1585202dadea"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Intensity",
+        "field": "custom",
+        "options": [
+          "Weak ",
+          "Moderate ",
+          "Strong"
+        ],
+        "formulaId": "b1ebfd0b-5ded-42ce-b437-13b2801b0136",
+        "flabsCode": "FLP2032"
+      },
+      "_id": "688543744c9e1585202dadeb"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c3f1",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0871",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.618Z",
+  "updatedAt": "2025-07-21T19:17:55.618Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,260 @@
+{
+  "_id": "6a86cd3a92e2891d9490744d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TORCH 10 WITH AVIDITY",
+  "code": "2854",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Toxoplasma IgG",
+        "field": "multiple_ranges",
+        "test_method": "clia",
+        "range": {
+          "default": {
+            "male-range": "Negative(Not Immune)<7.2 Equivocal (Doubtful): 7.2 - 8.8 Positive (Immune): >8.8",
+            "female-range": "Negative(Not Immune)<7.2 Equivocal (Doubtful): 7.2 - 8.8 Positive (Immune): >8.8",
+            "child-range": "Negative(Not Immune)<7.2 Equivocal (Doubtful): 7.2 - 8.8 Positive (Immune): >8.8"
+          }
+        },
+        "units": "IU/ml ",
+        "flabsCode": "FLP2150"
+      },
+      "_id": "679e612d9b8d71306edb70c9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rubella IgG ",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Negative (Not Immune): <5.0\nEquivocal (Doubtful): 5.0 - 10.0 Positive (Immune): >10.0",
+            "female-range": "Negative (Not Immune): <5.0\nEquivocal (Doubtful): 5.0 - 10.0 Positive (Immune): >10.0",
+            "child-range": "Negative (Not Immune): <5.0\nEquivocal (Doubtful): 5.0 - 10.0 Positive (Immune): >10.0"
+          }
+        },
+        "units": "IU/ml",
+        "test_method": "clia",
+        "flabsCode": "FLP1868"
+      },
+      "_id": "679e612d9b8d71306edb70ca"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cytomegalovirus IgG",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Negative(Not Immune): <12.0\nEquivocal (Doubtful): 12.0-14.0 Positive (Immune): >14.0\n",
+            "female-range": "Negative(Not Immune): <12.0\nEquivocal (Doubtful): 12.0-14.0 Positive (Immune): >14.0\n",
+            "child-range": "Negative(Not Immune): <12.0\nEquivocal (Doubtful): 12.0-14.0 Positive (Immune): >14.0\n"
+          }
+        },
+        "test_method": "clia",
+        "units": "U/ml",
+        "flabsCode": "FLP0719"
+      },
+      "_id": "679e612d9b8d71306edb70cb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Toxoplasma IgM ",
+        "field": "multiple_ranges",
+        "units": "AU/ml",
+        "range": {
+          "default": {
+            "male-range": "Negative: <6.0\nEquivocal: 6.0 - 8.0 \nPositive: >8.0",
+            "female-range": "Negative: <6.0\nEquivocal: 6.0 - 8.0 \nPositive: >8.0",
+            "child-range": "Negative: <6.0\nEquivocal: 6.0 - 8.0 \nPositive: >8.0"
+          }
+        },
+        "test_method": "clia",
+        "flabsCode": "FLP2151"
+      },
+      "_id": "679e612d9b8d71306edb70cc"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rubella IgM ",
+        "field": "multiple_ranges",
+        "test_method": "clia",
+        "units": "AU/ml",
+        "range": {
+          "default": {
+            "male-range": "Negative = <5\nPositive = >8\nEquivocal = 5-8",
+            "female-range": "Negative = <5\nPositive = >8\nEquivocal = 5-8",
+            "child-range": "Negative = <5\nPositive = >8\nEquivocal = 5-8"
+          }
+        },
+        "flabsCode": "FLP1871"
+      },
+      "_id": "679e612d9b8d71306edb70cd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cytomegalovirus IgM",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Negative: <8.0\nEquivocal: 8.0 - 12.0 \nPositive: >12.0",
+            "female-range": "Negative: <8.0\nEquivocal: 8.0 - 12.0 \nPositive: >12.0",
+            "child-range": "Negative: <8.0\nEquivocal: 8.0 - 12.0 \nPositive: >12.0"
+          }
+        },
+        "test_method": "clia",
+        "units": "AU/ml",
+        "flabsCode": "FLP0722"
+      },
+      "_id": "679e612d9b8d71306edb70ce"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HERPES I IgG",
+        "field": "multiple_ranges",
+        "test_method": "clia",
+        "range": {
+          "default": {
+            "male-range": "Negative : 14\nDoubtful : 14 - 19\nPositive : >19 AU/ml\n",
+            "female-range": "Negative : 14\nDoubtful : 14 - 19\nPositive : >19 AU/ml\n",
+            "child-range": "Negative : 14\nDoubtful : 14 - 19\nPositive : >19 AU/ml\n"
+          }
+        },
+        "units": "AU/ml",
+        "flabsCode": "FLP1086"
+      },
+      "_id": "679e612d9b8d71306edb70cf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HERPES I IgM ",
+        "field": "multiple_ranges",
+        "test_method": "clia",
+        "units": "AU/ml",
+        "range": {
+          "default": {
+            "male-range": "Negative : <6.0\nDoubtful : 6.0 - 10.0\nPositive : >10",
+            "female-range": "Negative : <6.0\nDoubtful : 6.0 - 10.0\nPositive : >10",
+            "child-range": "Negative : <6.0\nDoubtful : 6.0 - 10.0\nPositive : >10"
+          }
+        },
+        "flabsCode": "FLP1087"
+      },
+      "_id": "679e612d9b8d71306edb70d0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HERPES II IgG ",
+        "field": "multiple_ranges",
+        "test_method": "clia",
+        "units": "AU/ml",
+        "range": {
+          "default": {
+            "male-range": "Positive : >19 AU/ml",
+            "female-range": "Positive : >19 AU/ml",
+            "child-range": "Positive : >19 AU/ml"
+          }
+        },
+        "flabsCode": "FLP1089"
+      },
+      "_id": "679e612d9b8d71306edb70d1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HERPES II IgM ",
+        "field": "multiple_ranges",
+        "test_method": "clia",
+        "range": {
+          "default": {
+            "male-range": "Negative = <6\nPositive = >10\nEquivocal = 6 - 10",
+            "female-range": "Negative = <6\nPositive = >10\nEquivocal = 6 - 10",
+            "child-range": "Negative = <6\nPositive = >10\nEquivocal = 6 - 10"
+          }
+        },
+        "units": "AU/ml",
+        "flabsCode": "FLP1091"
+      },
+      "_id": "679e612d9b8d71306edb70d2"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c684",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1620",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.408Z",
+  "updatedAt": "2025-07-21T19:17:58.408Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,128 @@
+{
+  "_id": "6a86cc91ba46c74c6d453196",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CNL (CHRONIC NEUTROPHILIC LEUKEMIA) BY NGS",
+  "code": "2307",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1846\" data-end=\"2034\">\n<p data-start=\"1848\" data-end=\"1901\"><span style=\"font-size: 10px;\"><strong data-start=\"1848\" data-end=\"1899\">CSF3R Positive (with typical clinical picture):</strong></span></p>\n<ul data-start=\"1904\" data-end=\"2034\">\n<li style=\"font-size: 10px;\" data-start=\"1904\" data-end=\"1971\">\n<p data-start=\"1906\" data-end=\"1971\"><span style=\"font-size: 10px;\">Strongly supports <strong data-start=\"1924\" data-end=\"1944\">diagnosis of CNL</strong>, per WHO/ICC guidelines.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1974\" data-end=\"2034\">\n<p data-start=\"1976\" data-end=\"2034\"><span style=\"font-size: 10px;\">May guide use of <strong data-start=\"1993\" data-end=\"2033\">JAK inhibitors or targeted therapies</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2036\" data-end=\"2209\">\n<p data-start=\"2038\" data-end=\"2113\"><span style=\"font-size: 10px;\"><strong data-start=\"2038\" data-end=\"2111\">Negative for CSF3R but other myeloid mutations (SETBP1, ASXL1, JAK2):</strong></span></p>\n<ul data-start=\"2116\" data-end=\"2209\">\n<li style=\"font-size: 10px;\" data-start=\"2116\" data-end=\"2209\">\n<p data-start=\"2118\" data-end=\"2209\"><span style=\"font-size: 10px;\">May suggest <strong data-start=\"2130\" data-end=\"2191\">atypical CML or other myeloproliferative neoplasms (MPNs)</strong>; not classic CNL.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2211\" data-end=\"2339\">\n<p data-start=\"2213\" data-end=\"2252\"><span style=\"font-size: 10px;\"><strong data-start=\"2213\" data-end=\"2250\">No Pathogenic Mutations Detected:</strong></span></p>\n<ul data-start=\"2255\" data-end=\"2339\">\n<li style=\"font-size: 10px;\" data-start=\"2255\" data-end=\"2339\">\n<p data-start=\"2257\" data-end=\"2339\"><span style=\"font-size: 10px;\">Does not exclude diagnosis; <strong data-start=\"2285\" data-end=\"2338\">clinical and morphologic correlation is mandatory</strong>.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CSF3R Mutation",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "ositive: Present in ~80–90%",
+            "female-range": "ositive: Present in ~80–90%",
+            "child-range": "ositive: Present in ~80–90%"
+          }
+        },
+        "formulaId": "3389d8fb-24c1-43ff-8a8b-113583525c18",
+        "flabsCode": "FLP0522"
+      },
+      "_id": "6885eb96082b26291de3f7a1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Additional Myeloid Mutations",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "1cd94979-58a0-4734-a3fa-259e44443953",
+        "flabsCode": "FLP0155"
+      },
+      "_id": "6885eb96082b26291de3f7a2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variant Allele Frequency (VAF)",
+        "field": "numeric",
+        "units": "%",
+        "rangeReport": "VAF >2–5% usually considered positive",
+        "formulaId": "980e66d0-a367-4403-944e-caf8f25235b8",
+        "flabsCode": "FLP2259"
+      },
+      "_id": "6885eb96082b26291de3f7a3"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c48e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1067",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.282Z",
+  "updatedAt": "2025-07-21T19:17:56.282Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

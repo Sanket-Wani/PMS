@@ -1,0 +1,140 @@
+{
+  "_id": "6a86cbd892e2891d948cbe99",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ENDOMETRIAL ASPIRATION CYTOLOGY",
+  "code": "1473",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 10px;\">Clinical Utility:</span></p>\n<ul>\n<li style=\"font-size: 10px;\" data-start=\"1167\" data-end=\"1268\">\n<p data-start=\"1169\" data-end=\"1268\"><span style=\"font-size: 10px;\">Used for evaluating <strong data-start=\"1189\" data-end=\"1218\">abnormal uterine bleeding</strong>, <strong data-start=\"1220\" data-end=\"1235\">infertility</strong>, or <strong data-start=\"1240\" data-end=\"1265\">endometrial pathology</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1269\" data-end=\"1351\">\n<p data-start=\"1271\" data-end=\"1351\"><span style=\"font-size: 10px;\">Helps in <strong data-start=\"1280\" data-end=\"1321\">screening for endometrial hyperplasia</strong> or <strong data-start=\"1325\" data-end=\"1350\">endometrial carcinoma</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc0ef02dc1ebb6a097a7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cytological Findings\t",
+        "field": "custom",
+        "options": [
+          "Proliferative ",
+          "Secretory ",
+          "Atypical ",
+          "Malignant cells"
+        ],
+        "formulaId": "d13a4185-a606-4aca-9fa2-f5b9680fd5f9",
+        "flabsCode": "FLP0714"
+      },
+      "_id": "6883e15b35738384e79614dd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Endometrial Glandularity",
+        "field": "custom",
+        "options": [
+          "Normal ",
+          "Hyperplastic ",
+          "Absent"
+        ],
+        "formulaId": "c5109c22-8c4c-4bb5-ba31-6bfa31c64e6a",
+        "flabsCode": "FLP0815"
+      },
+      "_id": "6883e15b35738384e79614de"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Inflammatory Cells",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "56198acc-2223-4aff-a097-c93d1edfefdd",
+        "flabsCode": "FLP1253"
+      },
+      "_id": "6883e15b35738384e79614df"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Malignant Cells\t",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "b3536d32-dfff-4c85-86bd-c6a2f263cf0b",
+        "flabsCode": "FLP1429"
+      },
+      "_id": "6883e15b35738384e79614e0"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c278",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0425",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.605Z",
+  "updatedAt": "2025-07-21T19:17:53.605Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

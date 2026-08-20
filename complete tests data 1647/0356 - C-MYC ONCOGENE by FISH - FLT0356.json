@@ -1,0 +1,122 @@
+{
+  "_id": "6a86cbbbba46c74c6d436025",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "C-MYC ONCOGENE by FISH",
+  "code": "1400",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"2013\" data-end=\"2572\">\n<li data-start=\"2013\" data-end=\"2264\">\n<p data-start=\"2015\" data-end=\"2068\"><span style=\"font-size: 10px;\"><strong data-start=\"2015\" data-end=\"2066\">Positive for C-MYC Rearrangement/Amplification:</strong></span></p>\n<ul data-start=\"2071\" data-end=\"2264\">\n<li style=\"font-size: 10px;\" data-start=\"2071\" data-end=\"2190\">\n<p data-start=\"2073\" data-end=\"2190\"><span style=\"font-size: 10px;\">Suggestive of <strong data-start=\"2087\" data-end=\"2168\">aggressive B-cell lymphomas (e.g., Burkitt lymphoma, Double/Triple-hit DLBCL)</strong> or other neoplasms.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2193\" data-end=\"2264\">\n<p data-start=\"2195\" data-end=\"2264\"><span style=\"font-size: 10px;\">May indicate need for <strong data-start=\"2217\" data-end=\"2263\">intensive chemotherapy or targeted therapy</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2266\" data-end=\"2425\">\n<p data-start=\"2268\" data-end=\"2283\"><span style=\"font-size: 10px;\"><strong data-start=\"2268\" data-end=\"2281\">Negative:</strong></span></p>\n<ul data-start=\"2286\" data-end=\"2425\">\n<li style=\"font-size: 10px;\" data-start=\"2286\" data-end=\"2342\">\n<p data-start=\"2288\" data-end=\"2342\"><span style=\"font-size: 10px;\">No evidence of C-MYC rearrangement or amplification.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2345\" data-end=\"2425\">\n<p data-start=\"2347\" data-end=\"2425\"><span style=\"font-size: 10px;\">Does not exclude lymphoma; interpret with morphology and other genetic panels.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2427\" data-end=\"2572\">\n<p data-start=\"2429\" data-end=\"2463\"><span style=\"font-size: 10px;\"><strong data-start=\"2429\" data-end=\"2461\">Borderline / Mosaic Results:</strong></span></p>\n<ul data-start=\"2466\" data-end=\"2572\">\n<li style=\"font-size: 10px;\" data-start=\"2466\" data-end=\"2572\">\n<p data-start=\"2468\" data-end=\"2572\"><span style=\"font-size: 10px;\">If near threshold, recommend <strong data-start=\"2497\" data-end=\"2571\">repeat FISH or additional molecular testing (NGS, IHC for MYC protein)</strong>.</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "C-MYC Rearrangement / Amplification",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "830c0e53-732c-42ff-a24a-105862e9f431",
+        "flabsCode": "FLP0399"
+      },
+      "_id": "6885ee4a3661fb0120dc1cf3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Abnormal Cells",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "10"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "10"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "10"
+            }
+          }
+        },
+        "formulaId": "9d5cbb65-741c-4f8e-9b26-fb580140bdea",
+        "flabsCode": "FLP1706"
+      },
+      "_id": "6885ee4a3661fb0120dc1cf4"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c231",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0356",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.294Z",
+  "updatedAt": "2025-07-21T19:17:53.294Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

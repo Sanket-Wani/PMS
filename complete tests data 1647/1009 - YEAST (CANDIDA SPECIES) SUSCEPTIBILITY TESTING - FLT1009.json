@@ -1,0 +1,168 @@
+{
+  "_id": "6a86cc7692e2891d948dfd48",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "YEAST (CANDIDA SPECIES) SUSCEPTIBILITY TESTING",
+  "code": "2254",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2070\" data-end=\"2125\">\n<p data-start=\"2072\" data-end=\"2125\"><strong data-start=\"2072\" data-end=\"2090\">Sensitive (S):</strong> Antifungal likely to be effective.</p>\n</li>\n<li data-start=\"2126\" data-end=\"2209\">\n<p data-start=\"2128\" data-end=\"2209\"><strong data-start=\"2128\" data-end=\"2149\">Intermediate (I):</strong> May be effective at higher doses or in specific body sites.</p>\n</li>\n<li data-start=\"2210\" data-end=\"2277\">\n<p data-start=\"2212\" data-end=\"2277\"><strong data-start=\"2212\" data-end=\"2230\">Resistant (R):</strong> Not recommended; organism unlikely to respond.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Antifungal Susceptibility Results",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Fluconazole",
+            "options": [
+              "Sensitive",
+              "Intermediate",
+              "Resistant"
+            ],
+            "formulaId": "bc3cba29-fdd3-44ed-bc19-fdbc04410b80",
+            "flabsCode": "FLP0945"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Itraconazole",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "28d5fb1c-c450-498f-bc85-1293d08d7014",
+            "flabsCode": "FLP1284"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Voriconazole",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "0b57617c-2f0b-4738-85f6-3c235264d86b",
+            "flabsCode": "FLP2283"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Amphotericin B",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "8c691b84-6f8d-4110-8b05-2a97189704ac",
+            "flabsCode": "FLP0203"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Caspofungin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "40031eec-40eb-40ac-971f-3434b23caf76",
+            "flabsCode": "FLP0550"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Micafungin",
+            "options": [
+              "Sensitive",
+              "Resistant",
+              "Intermediate"
+            ],
+            "formulaId": "17416b69-d6a6-4fb4-af65-4660567ed466",
+            "flabsCode": "FLP1471"
+          },
+          {
+            "key": 6,
+            "field": "text",
+            "name": "Other",
+            "formulaId": "085d1739-87cd-44ea-8dd1-54168ef795fc"
+          }
+        ]
+      },
+      "_id": "6883c06435738384e79344a9"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c45a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1009",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.059Z",
+  "updatedAt": "2025-07-21T19:17:56.059Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,242 @@
+{
+  "_id": "6a86cbf692e2891d948d2151",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SYNOVIAL FLUID EXAMINATION WITH CRYSTALS",
+  "code": "1583",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Physical & Chemical Examination",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Color",
+            "formulaId": "aedfdeea-1e75-4484-9bba-ec787b393637",
+            "flabsCode": "FLP0516"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Appearance",
+            "formulaId": "f4757d14-27ef-468e-952a-5082443d3ebd",
+            "flabsCode": "FLP2158"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Volume",
+            "formulaId": "3c16d4f8-eddd-4e7e-a053-713acc6e2b80"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Viscosity",
+            "formulaId": "d4fe1e5e-2123-4798-9900-391bf59cecd3",
+            "flabsCode": "FLP2274"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Glucose",
+            "formulaId": "b66fc585-58c4-4a00-b6cf-fd54df5199c3",
+            "flabsCode": "FLP1034"
+          },
+          {
+            "key": 5,
+            "field": "text",
+            "name": "Protein",
+            "formulaId": "1821d4c0-a771-4d9e-94af-7fbe714b5807",
+            "flabsCode": "FLP1672"
+          }
+        ]
+      },
+      "_id": "68827824100272a75a6586c0"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopic Examination",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric_unbound",
+            "name": "Total Leukocyte Count",
+            "units": " /cmm",
+            "rangeReport": "< 200 WBCs/mm³ (non-inflammatory)",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "200"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "200"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "200"
+                }
+              }
+            },
+            "formulaId": "6665e380-7b6f-4797-ac09-ea27dd3f850a",
+            "flabsCode": "FLP2127"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Neutrophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range": {
+                  "value": ""
+                },
+                "female-range": {
+                  "value": ""
+                },
+                "child-range": {
+                  "value": ""
+                }
+              }
+            },
+            "formulaId": "d380a208-cfc9-4f66-833d-e8c9575e23aa",
+            "flabsCode": "FLP1545"
+          },
+          {
+            "key": 2,
+            "field": "numeric",
+            "name": "Lymphocytes",
+            "units": "%",
+            "formulaId": "a72e37e7-2cfd-41ca-8275-f4c203ed360b",
+            "flabsCode": "FLP1383"
+          },
+          {
+            "key": 3,
+            "field": "numeric",
+            "name": "Monocytes",
+            "units": "%",
+            "formulaId": "179ce36d-e619-427b-9712-2ddfd9d262e8",
+            "flabsCode": "FLP1493"
+          },
+          {
+            "key": 4,
+            "field": "numeric",
+            "name": "RBC Count",
+            "units": "/cmm",
+            "formulaId": "204221d2-54fe-439e-b215-21b3cccfa8b5",
+            "flabsCode": "FLP1817"
+          },
+          {
+            "key": 5,
+            "field": "text",
+            "name": "Crystals",
+            "formulaId": "6fd9c00d-6660-4d8b-bca7-cca87a03f48c",
+            "flabsCode": "FLP0378"
+          },
+          {
+            "key": 6,
+            "field": "text",
+            "name": "Type of Crystals",
+            "formulaId": "3ba6738f-4c3f-4025-b714-fbb4ce8ef581"
+          },
+          {
+            "key": 7,
+            "field": "text",
+            "name": "Crystal Shape",
+            "formulaId": "ec25078f-038d-49d4-b00e-325f37b6976b"
+          },
+          {
+            "key": 8,
+            "field": "text",
+            "name": "Birefringence",
+            "formulaId": "5a21bba7-15ca-4e8e-b42b-078da33846f2",
+            "flabsCode": "FLP0378"
+          },
+          {
+            "key": 9,
+            "field": "text",
+            "name": "Organisms (Gram Stain)",
+            "formulaId": "8fd40e2b-62e1-497c-9806-41303c6e76f1",
+            "flabsCode": "FLP1047"
+          }
+        ]
+      },
+      "_id": "68827824100272a75a6586c1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2e0",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0557",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.045Z",
+  "updatedAt": "2025-07-21T19:17:54.045Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

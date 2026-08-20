@@ -1,0 +1,137 @@
+{
+  "_id": "6a86cc045953b1dd0a17b7c1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - P57",
+  "code": "1706",
+  "cost": 0,
+  "interpretation": "<p>\"P57 Positive &ndash; Consistent with partial mole or non-molar gestation.\"<br>\"P57 Negative &ndash; Suggestive of complete mole (CHM). Correlate with morphology and clinical findings.\"</p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "P57",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "3e4b7c87-de63-48c9-b587-76405332b484",
+        "flabsCode": "FLP1618"
+      },
+      "_id": "688272dc124d8484d88a4f2f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Cells Stained",
+        "field": "text",
+        "units": "%",
+        "formulaId": "7b1ca19d-68c3-4d2c-9351-8b7a9a428066",
+        "flabsCode": "FLP1709"
+      },
+      "_id": "688272dc124d8484d88a4f30"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Intensity of Staining",
+        "field": "custom",
+        "options": [
+          "Weak ",
+          "Moderate ",
+          "Strong"
+        ],
+        "formulaId": "e7ec3b11-ce07-46f5-8cea-8420f9e8d2fd",
+        "flabsCode": "FLP0005"
+      },
+      "_id": "688272dc124d8484d88a4f31"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Localization",
+        "field": "custom",
+        "options": [
+          "Nuclear ",
+          "Cytoplasmic"
+        ],
+        "formulaId": "fbbdccd0-f814-4fc6-bd6e-67436523664b",
+        "flabsCode": "FLP1375"
+      },
+      "_id": "688272dc124d8484d88a4f32"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c311",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0609",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.290Z",
+  "updatedAt": "2025-07-21T19:17:54.290Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

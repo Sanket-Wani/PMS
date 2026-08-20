@@ -1,0 +1,201 @@
+{
+  "_id": "6a86cd1192e2891d949026cb",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FOOD INTOLERANCE - DAIRY ITEMS",
+  "code": "2740",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"2301\" data-end=\"2620\">\n<li data-start=\"2301\" data-end=\"2395\">\n<p data-start=\"2303\" data-end=\"2395\"><strong data-start=\"2303\" data-end=\"2322\">High IgG levels</strong> may indicate sensitivity or delayed intolerance to that dairy product.</p>\n</li>\n<li data-start=\"2396\" data-end=\"2517\">\n<p data-start=\"2398\" data-end=\"2517\"><strong data-start=\"2398\" data-end=\"2421\">Dietary elimination</strong> of high-reactive items may improve symptoms such as bloating, indigestion, or skin reactions.</p>\n</li>\n<li data-start=\"2518\" data-end=\"2620\">\n<p data-start=\"2520\" data-end=\"2620\">This is <strong data-start=\"2528\" data-end=\"2567\">not a diagnostic allergy (IgE) test</strong> and should be interpreted with clinical correlation.</p>\n</li>\n<li data-start=\"2518\" data-end=\"2620\">\n<p data-start=\"2520\" data-end=\"2620\">IgG food intolerance testing reflects possible immune response, not immediate hypersensitivity.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cow’s Milk",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Low",
+          "High"
+        ],
+        "formulaId": "783b8570-98a1-401d-b12e-b890576d090c",
+        "flabsCode": "FLP0681"
+      },
+      "_id": "6884176235738384e796ef4e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Goat’s Milk",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Low",
+          "High"
+        ],
+        "formulaId": "4e4dad40-45c3-4fc5-923e-cc7bc8d8fe8c",
+        "flabsCode": "FLP1039"
+      },
+      "_id": "6884176235738384e796ef4f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cheese (Cheddar)",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Low",
+          "High"
+        ],
+        "formulaId": "cdb16091-8606-473a-a5f2-0d5f64c1a862",
+        "flabsCode": "FLP0569"
+      },
+      "_id": "6884176235738384e796ef50"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cheese (Cottage)",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Low",
+          "High"
+        ],
+        "formulaId": "b797a6b2-5105-4c9c-be5d-9dfc6f4ec28a",
+        "flabsCode": "FLP0570"
+      },
+      "_id": "6884176235738384e796ef51"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cheese (Mozzarella)",
+        "field": "custom",
+        "options": [
+          "Low",
+          "High",
+          "Negative"
+        ],
+        "formulaId": "1d26b2e8-a71e-4772-a09c-82d26ffd4377",
+        "flabsCode": "FLP0571"
+      },
+      "_id": "6884176235738384e796ef52"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Casein",
+        "field": "custom",
+        "options": [
+          "Low",
+          "High",
+          "Negative"
+        ],
+        "formulaId": "c87959cc-f556-490e-a815-0887c5c51afb",
+        "flabsCode": "FLP0548"
+      },
+      "_id": "6884176235738384e796ef53"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Whey Protein",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "High",
+          "Low"
+        ],
+        "formulaId": "697390f0-8e19-433d-8718-86bf04f02053",
+        "flabsCode": "FLP2290"
+      },
+      "_id": "6884176235738384e796ef54"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Yogurt",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Low",
+          "High"
+        ],
+        "formulaId": "9f2bd534-5d3a-42a8-aecc-0967d489f2fd",
+        "flabsCode": "FLP2298"
+      },
+      "_id": "6884176235738384e796ef55"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c613",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1493",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.969Z",
+  "updatedAt": "2025-07-21T19:17:57.969Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

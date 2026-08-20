@@ -1,0 +1,132 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b02",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BLOOD SUGAR (PP)",
+  "code": "BSPP",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Blood Sugar PP Test Result</div></th><th><div>Blood Glucose Level</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Normal</div></td><td><div>Less than 140 mg/dL (7.8 mmol/L)</div></td><td><div>Blood glucose levels are within the normal range after a meal and there is no risk of diabetes</div></td></tr><tr><td><div>Pre-diabetes</div></td><td><div>140-199 mg/dL (7.8-11.0 mmol/L)</div></td><td><div>Impaired glucose tolerance and an increased risk of developing diabetes</div></td></tr><tr><td><div>Diabetes</div></td><td><div>200 mg/dL (11.1 mmol/L) or higher</div></td><td><div>Confirms a diagnosis of diabetes</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "fluoride plasma",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Post-Prandial Plasma Glucose",
+        "field": "numeric",
+        "units": "mg/dl",
+        "range": {
+          "default": {
+            "child-range-min": "70",
+            "child-range-max": "140",
+            "male-range-max": "160",
+            "male-range-min": "70",
+            "female-range-min": "70",
+            "female-range-max": "140"
+          }
+        }
+      },
+      "_id": "64189a21ebe595f57b4fd745"
+    },
+    {
+      "_id": "64189a21ebe595f57b4fd746",
+      "type": "testDetails",
+      "data": {
+        "name": "Post-Prandial Urine Glucose",
+        "field": "custom",
+        "options": [
+          "absent",
+          "present(+)",
+          "present(++)",
+          "present(+++)",
+          "present(++++)",
+          "-",
+          "trace",
+          "not received"
+        ]
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "After Taking",
+        "field": "custom",
+        "options": [
+          "75gm Glucose"
+        ]
+      },
+      "_id": "64189a21ebe595f57b4fd747"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64189a21ebe595f57b4fd744",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "barCodeSuffix": "P",
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0187",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.244Z",
+  "updatedAt": "2026-08-14T17:59:51.244Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

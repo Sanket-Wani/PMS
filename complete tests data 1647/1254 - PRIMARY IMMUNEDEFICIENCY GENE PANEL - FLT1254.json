@@ -1,0 +1,147 @@
+{
+  "_id": "6a86ccccba46c74c6d459bbf",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PRIMARY IMMUNEDEFICIENCY GENE PANEL",
+  "code": "2496",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th>Gene</th>\n<th>Variant Detected</th>\n<th>Zygosity</th>\n<th>VAF (%)</th>\n<th>Classification</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>BTK</td>\n<td>c.1234A&gt;G (p.Lys412Arg)</td>\n<td>Hemizygous</td>\n<td>48%</td>\n<td>Pathogenic (XLA -Agammaglobulinemia)</td>\n</tr>\n<tr>\n<td>RAG1</td>\n<td>Not Detected</td>\n<td>-</td>\n<td>-</td>\n<td>&mdash;</td>\n</tr>\n<tr>\n<td>STAT3</td>\n<td>c.214C&gt;T (p.Arg72Trp)</td>\n<td>Heterozygous</td>\n<td>52%</td>\n<td>Likely Pathogenic (AD-HIES)</td>\n</tr>\n<tr>\n<td>ADA</td>\n<td>Not Detected</td>\n<td>-</td>\n<td>-</td>\n<td>&mdash;</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DNA Quantity (ng)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥10 ng",
+            "female-range": "≥10 ng",
+            "child-range": "≥10 ng"
+          }
+        },
+        "formulaId": "149a7f9b-4f0c-48f8-95be-1d63b8b78585",
+        "flabsCode": "FLP0741"
+      },
+      "_id": "688521ee0a49ec9180824a00"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sequencing Coverage",
+        "field": "numeric",
+        "rangeReport": "≥100X",
+        "units": "X",
+        "formulaId": "ae8318f4-cd11-4365-8857-ad1ec78e97a3",
+        "flabsCode": "FLP1968"
+      },
+      "_id": "688521ee0a49ec9180824a01"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "% Bases ≥ Q30",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥80%",
+            "female-range": "≥80%",
+            "child-range": "≥80%"
+          }
+        },
+        "units": "%",
+        "formulaId": "6ddd80b8-c472-4086-8b76-bbc4ed9bacfd",
+        "flabsCode": "FLP0008"
+      },
+      "_id": "688521ee0a49ec9180824a02"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Assay Sensitivity (LOD)",
+        "field": "multiple_ranges",
+        "rangeReport": "≤1% VAF",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": "≤1% VAF",
+            "female-range": "≤1% VAF",
+            "child-range": "≤1% VAF"
+          }
+        },
+        "formulaId": "c2df8ec8-9d80-44fe-9222-743804278f91",
+        "flabsCode": "FLP0291"
+      },
+      "_id": "688521ee0a49ec9180824a03"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c544",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1254",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.127Z",
+  "updatedAt": "2025-07-21T19:17:57.127Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

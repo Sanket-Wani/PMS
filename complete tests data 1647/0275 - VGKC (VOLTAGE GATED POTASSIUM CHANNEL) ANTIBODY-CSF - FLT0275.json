@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cb87ba46c74c6d4310af",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "VGKC (VOLTAGE GATED POTASSIUM CHANNEL) ANTIBODY-CSF",
+  "code": "1336",
+  "cost": 0,
+  "interpretation": "<ul>\n<li>Auto Immune reactivity are not by themselves diagnostic and must be correlated with other laboratory<br>and clinical findings.</li>\n<li>Test conducted on undiluted CSF.</li>\n<li>Antigen substrate - transfected cells of EU-90.</li>\n</ul>\n<p><strong>Comments</strong> In ~80% cases of VGKC antibody- associated syndromes (autoimmune voltage- gated potassium<br>channelopathies) target antigens are LG1 and CASPR2. Autoantibodies against LGI1 are detected usually in<br>limbic encephalitis (89 - 100%). Autoantibosies against CASPR2 are detected in neuromyopathy and Morvan&rsquo;s<br>syndrome (~53%), limbic encephalitis (~37%) and isolated epilepsy (~11%).</p>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LGI 1 antibody",
+        "field": "custom",
+        "options": [
+          "positive",
+          "negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "efc3f7d5-9e97-48c9-8b82-c8b22b334e98",
+        "flabsCode": "FLP1328"
+      },
+      "_id": "679e40719999c648d5930968"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CASPR 2 antibody",
+        "field": "custom",
+        "options": [
+          "positive",
+          "negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "08462a0b-3a3d-4118-aac2-ee247cc09e35",
+        "flabsCode": "FLP0425"
+      },
+      "_id": "679e40719999c648d5930969"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c1fa",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0275",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.037Z",
+  "updatedAt": "2025-07-21T19:17:53.037Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

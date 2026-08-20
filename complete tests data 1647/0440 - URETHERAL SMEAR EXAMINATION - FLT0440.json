@@ -1,0 +1,153 @@
+{
+  "_id": "6a86cbd892e2891d948cbee5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "URETHERAL SMEAR EXAMINATION",
+  "code": "1487",
+  "cost": 0,
+  "interpretation": "<div class=\"group relative\">\n<div class=\"w-full overflow-x-auto md:max-w-[90vw] border-borderMain/50 ring-borderMain/50 divide-borderMain/50 dark:divide-borderMainDark/50 dark:ring-borderMainDark/50 dark:border-borderMainDark/50 bg-transparent\">\n<table class=\"border-borderMain my-[1em] w-full table-auto border\">\n<thead class=\"bg-offset\">\n<tr>\n<th class=\"border-borderMain px-sm py-sm dark:border-borderMainDark break-normal border text-left align-top\">Gram Stain Finding</th>\n<th class=\"border-borderMain px-sm py-sm dark:border-borderMainDark break-normal border text-left align-top\">Interpretation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Many polymorphonuclear leukocytes (PUS cells)</td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Indicates active&nbsp;inflammation, may suggest infection (e.g., bacterial urethritis).</td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Gram-negative intracellular diplococci</td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Highly suggestive of&nbsp;Neisseria gonorrhoeae&nbsp;(Gonorrhea). Confirm by culture or NAAT.</td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">No organisms seen, but many pus cells</td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Could indicate&nbsp;non-gonococcal urethritis (NGU)&nbsp;&mdash; often caused by&nbsp;Chlamydia trachomatis&nbsp;or&nbsp;Mycoplasma genitalium. Requires PCR confirmation.</td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Yeast-like organisms (budding/fungal forms)</td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Suggestive of&nbsp;candidal urethritis&nbsp;&mdash; uncommon, may occur in immunocompromised patients or diabetes.</td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Clue cells / Trichomonads</td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Trichomonas vaginalis may be noted; more commonly detected in vaginal smears. Rare in urethral swabs.</td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">No pus cells and no organisms</td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Normal findings. No evidence of inflammation or infection.</td>\n</tr>\n<tr>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">Gram-positive cocci (e.g., Staphylococcus spp.)</td>\n<td class=\"border-borderMain px-sm dark:border-borderMainDark min-w-[48px] break-normal border\">May represent contaminants or&nbsp;normal flora, unless clinically correlated with infection.</td>\n</tr>\n</tbody>\n</table>\n</div>\n<div class=\"px-two bg-background border-border shadow-subtle pointer-coarse:opacity-100 right-xs absolute bottom-0 flex gap-2 rounded-lg border py-px opacity-0 transition-opacity group-hover:opacity-100\">&nbsp;</div>\n</div>\n<p class=\"my-0\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fc0ef02dc1ebb6a097a7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Polymorphonuclear cells (PUS cells)",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Abundant",
+          "Absent",
+          "Moderate"
+        ],
+        "formulaId": "ae175327-0e73-475d-8664-d3ae14584139",
+        "flabsCode": "FLP1750"
+      },
+      "_id": "687fc6f1ab7ae7de0ec124ba"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gram-negative intracellular diplococci",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "eaad904e-94ec-46d9-87a5-ae5b43bb7cfe",
+        "flabsCode": "FLP1050"
+      },
+      "_id": "687fc6f1ab7ae7de0ec124bb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gram-positive cocci/bacilli",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent",
+          "Specify"
+        ],
+        "formulaId": "ae4cef70-cb33-4943-a228-d664c030e582",
+        "flabsCode": "FLP1052"
+      },
+      "_id": "687fc6f1ab7ae7de0ec124bc"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Yeast-like organisms",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "f7b023b7-514e-4e7f-a91e-8e51263f2671"
+      },
+      "_id": "687fc6f1ab7ae7de0ec124bd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clue cells / Trichomonads",
+        "field": "custom",
+        "options": [
+          "Non- Detected",
+          "Present"
+        ],
+        "formulaId": "b63ba447-e24b-47ae-af00-ef655b0f89c4",
+        "flabsCode": "FLP0626"
+      },
+      "_id": "687fc6f1ab7ae7de0ec124be"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c284",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0440",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.654Z",
+  "updatedAt": "2025-07-21T19:17:53.654Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

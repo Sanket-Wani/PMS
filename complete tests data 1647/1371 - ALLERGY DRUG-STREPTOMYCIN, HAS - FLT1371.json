@@ -1,0 +1,150 @@
+{
+  "_id": "6a86ccf2ba46c74c6d45f380",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY DRUG-STREPTOMYCIN, HAS",
+  "code": "2645",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative</span></td>\n<td><span style=\"font-size: 10px;\">Specific IgE &lt;0.35 KUA/L and HAS &le;15%; no significant sensitization to Streptomycin.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Borderline / Low Sensitization</span></td>\n<td><span style=\"font-size: 10px;\">IgE 0.35-0.70 KUA/L or mild HAS elevation; correlate with symptoms and history.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive (Sensitized)</span></td>\n<td><span style=\"font-size: 10px;\">IgE &gt;0.70 KUA/L and/or HAS &gt; 15%; indicates allergic sensitization.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specific IgE – Streptomycin",
+        "field": "multiple_ranges",
+        "units": "kUA/L",
+        "range": {
+          "default": {
+            "male-range": "Negative: <0.35 kUA/L\nBorderline: 0.35 – 0.70 kUA/L\nPositive: >0.70 kUA/L",
+            "female-range": "Negative: <0.35 kUA/L\nBorderline: 0.35 – 0.70 kUA/L\nPositive: >0.70 kUA/L",
+            "child-range": "Negative: <0.35 kUA/L\nBorderline: 0.35 – 0.70 kUA/L\nPositive: >0.70 kUA/L"
+          }
+        },
+        "formulaId": "c5a7d87d-b37b-4950-a4fb-f04b08b946cb",
+        "flabsCode": "FLP2026"
+      },
+      "_id": "6883c7b435738384e793f9e7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgE Class (RAST/ImmunoCAP)",
+        "field": "numeric",
+        "units": "Class ",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "6",
+            "female-range-max": "6",
+            "female-range-min": "0",
+            "child-range-max": "6",
+            "child-range-min": "0"
+          }
+        },
+        "rangeReport": "Class 0: Negative; Class 1–6: Increasing severity of sensitization",
+        "formulaId": "3049aef6-a4fd-40d8-98f4-b61ad5883da5",
+        "flabsCode": "FLP1230"
+      },
+      "_id": "6883c7b435738384e793f9e8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Histamine Release (HAS – Histamine Activation Score)",
+        "field": "multiple_ranges",
+        "units": "% Release",
+        "range": {
+          "default": {
+            "male-range": "Normal: ≤15%\nElevated: >15% (suggestive of hypersensitivity reaction)",
+            "female-range": "Normal: ≤15%\nElevated: >15% (suggestive of hypersensitivity reaction)",
+            "child-range": "Normal: ≤15%\nElevated: >15% (suggestive of hypersensitivity reaction)"
+          }
+        },
+        "formulaId": "8cc16b88-6058-4210-aa93-1db215b8f28e",
+        "flabsCode": "FLP1181"
+      },
+      "_id": "6883c7b435738384e793f9e9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total IgE",
+        "field": "numeric",
+        "units": "IU/mL",
+        "formulaId": "af61eba2-5919-4457-8a1a-434bbfa8f60c",
+        "flabsCode": "FLP2123"
+      },
+      "_id": "6883c7b435738384e793f9ea"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5b7",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1371",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.602Z",
+  "updatedAt": "2025-07-21T19:17:57.602Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

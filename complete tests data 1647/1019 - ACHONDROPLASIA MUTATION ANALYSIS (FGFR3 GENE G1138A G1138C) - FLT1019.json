@@ -1,0 +1,123 @@
+{
+  "_id": "6a86cc7692e2891d948dfd87",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ACHONDROPLASIA MUTATION ANALYSIS (FGFR3 GENE G1138A G1138C)",
+  "code": "2258",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive - Heterozygous (G1138A or G1138C)</span></td>\n<td><span style=\"font-size: 10px;\">Confirms achondroplasia diagnosis; usually associated with short-limbed dwarfism, normal intelligence, normal life expectancy.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive - Homozygous</span></td>\n<td><span style=\"font-size: 10px;\">Typically results in perinatal lethal skeletal dysplasia; urgent genetic counseling needed.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative</span></td>\n<td><span style=\"font-size: 10px;\">No G1138A/C variants detected; does not exclude other FGFR3-related skeletal dysplasias (further testing may be needed).</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Variant of Uncertain Significance (VUS)</span></td>\n<td><span style=\"font-size: 10px;\">Rare or novel FGFR3 change; clinical correlation and possibly parental studies recommended.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mutation Detected",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "15b715f7-ac95-4caa-961b-631d6f69a4cb",
+        "flabsCode": "FLP1511"
+      },
+      "_id": "6883cb8035738384e7943a21"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specific Variant",
+        "field": "custom",
+        "options": [
+          "G1138A ",
+          "G1138C ",
+          "None"
+        ],
+        "formulaId": "33f5d6a6-f0d1-460a-9e8e-fb5b3061254b"
+      },
+      "_id": "6883cb8035738384e7943a22"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zygosity",
+        "field": "custom",
+        "options": [
+          "Heterozygous ",
+          "Homozygous"
+        ],
+        "formulaId": "a8f17594-bcbf-4a21-9e99-1f493a4a026f",
+        "flabsCode": "FLP2306"
+      },
+      "_id": "6883cb8035738384e7943a23"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c45e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1019",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.077Z",
+  "updatedAt": "2025-07-21T19:17:56.077Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

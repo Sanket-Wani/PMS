@@ -1,0 +1,123 @@
+{
+  "_id": "6a86ccccba46c74c6d459b79",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PGD (SINGLE EMBRYO) WITH MATERNAL DNA CONTAMINATION CHECK",
+  "code": "2479",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1391\" data-end=\"1941\">\n<li data-start=\"1391\" data-end=\"1497\">\n<p data-start=\"1393\" data-end=\"1497\"><span style=\"font-size: 10px;\">Detects <strong data-start=\"1401\" data-end=\"1453\">monogenic disorders or chromosomal abnormalities</strong> in embryos before implantation during IVF</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1498\" data-end=\"1614\">\n<p data-start=\"1500\" data-end=\"1614\"><span style=\"font-size: 10px;\">Ensures <strong data-start=\"1508\" data-end=\"1572\">single embryo sample is free from maternal DNA contamination</strong>, which could affect diagnostic accuracy</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1615\" data-end=\"1941\">\n<p data-start=\"1617\" data-end=\"1634\"><span style=\"font-size: 10px;\"><strong data-start=\"1617\" data-end=\"1634\">Result Notes:</strong></span></p>\n<ul data-start=\"1637\" data-end=\"1941\">\n<li style=\"font-size: 10px;\" data-start=\"1637\" data-end=\"1697\">\n<p data-start=\"1639\" data-end=\"1697\"><span style=\"font-size: 10px;\"><strong data-start=\"1639\" data-end=\"1657\">\"Not Detected\"</strong> in contamination = result is reliable</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1700\" data-end=\"1813\">\n<p data-start=\"1702\" data-end=\"1813\"><span style=\"font-size: 10px;\"><strong data-start=\"1702\" data-end=\"1716\">\"Detected\"</strong> = indicates potential contamination; may compromise validity, consider re-sampling if possible</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1816\" data-end=\"1941\">\n<p data-start=\"1818\" data-end=\"1941\"><span style=\"font-size: 10px;\">Embryo genetic status: reported as <strong data-start=\"1853\" data-end=\"1921\">Normal / Affected / Carrier / Aneuploid / Balanced Translocation</strong>, based on test type</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Embryo Genetic Diagnosis\t",
+        "field": "custom",
+        "options": [
+          "Normal ",
+          "Abnormal"
+        ],
+        "range": {
+          "default": {
+            "male-range": "No abnormality detected",
+            "female-range": "No abnormality detected",
+            "child-range": "No abnormality detected"
+          }
+        },
+        "formulaId": "6c6760bd-10cd-42eb-a7f1-eca072fb246f",
+        "flabsCode": "FLP0812"
+      },
+      "_id": "68827c8f100272a75a662834"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Maternal DNA Contamination ",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "84cabb20-3d62-49ad-bea7-65e23b38255d",
+        "flabsCode": "FLP1438"
+      },
+      "_id": "68827c8f100272a75a662835"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c533",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1237",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.048Z",
+  "updatedAt": "2025-07-21T19:17:57.048Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

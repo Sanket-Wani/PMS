@@ -1,0 +1,158 @@
+{
+  "_id": "6a86cd1192e2891d94902718",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FOOD INTOLERANCE - SEA FOOD",
+  "code": "2744",
+  "cost": 0,
+  "interpretation": "<table class=\"w-fit min-w-(--thread-content-width)\" style=\"width: 86.9682%; height: 186.51px;\" data-start=\"1280\" data-end=\"1579\">\n<thead data-start=\"1280\" data-end=\"1329\">\n<tr style=\"height: 34.0495px;\" data-start=\"1280\" data-end=\"1329\">\n<th style=\"width: 38.8861%;\" data-start=\"1280\" data-end=\"1301\" data-col-size=\"sm\">IgG Level</th>\n<th style=\"width: 61.0511%;\" data-start=\"1301\" data-end=\"1329\" data-col-size=\"sm\">Interpretation</th>\n</tr>\n</thead>\n<tbody data-start=\"1380\" data-end=\"1579\">\n<tr style=\"height: 33.2161px;\" data-start=\"1380\" data-end=\"1429\">\n<td style=\"width: 38.8861%;\" data-start=\"1380\" data-end=\"1401\" data-col-size=\"sm\">&lt; 20 &micro;g/mL</td>\n<td style=\"width: 61.0511%;\" data-col-size=\"sm\" data-start=\"1401\" data-end=\"1429\">Negative (No reaction)</td>\n</tr>\n<tr style=\"height: 33.2161px;\" data-start=\"1430\" data-end=\"1479\">\n<td style=\"width: 38.8861%;\" data-start=\"1430\" data-end=\"1451\" data-col-size=\"sm\">20-50 &micro;g/mL</td>\n<td style=\"width: 61.0511%;\" data-col-size=\"sm\" data-start=\"1451\" data-end=\"1479\">Mild Reaction</td>\n</tr>\n<tr style=\"height: 52.8125px;\" data-start=\"1480\" data-end=\"1529\">\n<td style=\"width: 38.8861%;\" data-start=\"1480\" data-end=\"1501\" data-col-size=\"sm\">51-10 &micro;g/mL</td>\n<td style=\"width: 61.0511%;\" data-col-size=\"sm\" data-start=\"1501\" data-end=\"1529\">Moderate Reaction</td>\n</tr>\n<tr style=\"height: 33.2161px;\" data-start=\"1530\" data-end=\"1579\">\n<td style=\"width: 38.8861%;\" data-start=\"1530\" data-end=\"1551\" data-col-size=\"sm\">&gt;100 &micro;g/mL</td>\n<td style=\"width: 61.0511%;\" data-col-size=\"sm\" data-start=\"1551\" data-end=\"1579\">High Reaction</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Prawn (Shrimp)",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "29c70718-65d8-4b91-a091-421bf22dc0ff",
+        "flabsCode": "FLP1768"
+      },
+      "_id": "6883af5f854b0c2c69b522d0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Crab",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "755754cc-1539-479b-9702-1ad9996ce1b1",
+        "flabsCode": "FLP0684"
+      },
+      "_id": "6883af5f854b0c2c69b522d1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lobster",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "cd81b887-4277-42b7-b226-54cdd60f62dc",
+        "flabsCode": "FLP1373"
+      },
+      "_id": "6883af5f854b0c2c69b522d2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Squid (Calamari)",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "39146d6f-f24a-4426-9b81-9918f878ba8b",
+        "flabsCode": "FLP2030"
+      },
+      "_id": "6883af5f854b0c2c69b522d3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Octopus",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "f18320e5-f92a-449d-883a-0701c09d952a",
+        "flabsCode": "FLP1589"
+      },
+      "_id": "6883af5f854b0c2c69b522d4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clam",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "c2b5a0c8-b5fb-43a3-a3ac-49e9790b808e",
+        "flabsCode": "FLP0608"
+      },
+      "_id": "6883af5f854b0c2c69b522d5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mussel",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "12e48018-cd97-45ec-8a98-8320b37f280e",
+        "flabsCode": "FLP1507"
+      },
+      "_id": "6883af5f854b0c2c69b522d6"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c617",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1497",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.985Z",
+  "updatedAt": "2025-07-21T19:17:57.985Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

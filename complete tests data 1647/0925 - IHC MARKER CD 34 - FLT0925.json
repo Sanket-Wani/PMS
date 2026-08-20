@@ -1,0 +1,138 @@
+{
+  "_id": "6a86cc67ba46c74c6d44d43b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC MARKER CD 34",
+  "code": "2025",
+  "cost": 0,
+  "interpretation": "<p>\"CD34 Positive &ndash; Diffuse strong endothelial staining, consistent with vascular origin.\"<br>\"CD34 Negative &ndash; No specific endothelial/tumor cell expression (internal control positive).\"</p>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD34",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "6be284f8-bc7c-4379-874e-837b8b42b2bb",
+        "flabsCode": "FLP0443"
+      },
+      "_id": "68826e84124d8484d8889471"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Tumor/Cellular Positivity",
+        "field": "text",
+        "units": "%",
+        "formulaId": "d3c29fec-8864-477a-9953-4a59f843f801",
+        "flabsCode": "FLP1714"
+      },
+      "_id": "68826e84124d8484d8889472"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Intensity of Staining",
+        "field": "custom",
+        "options": [
+          "Weak ",
+          "Moderate ",
+          "Strong"
+        ],
+        "formulaId": "439ca186-6d5b-48d9-8fd4-494c4f8f5dcd",
+        "flabsCode": "FLP0005"
+      },
+      "_id": "68826e84124d8484d8889473"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Localization",
+        "field": "custom",
+        "options": [
+          "Membranous ",
+          "Cytoplasmic ",
+          "Endothelial"
+        ],
+        "formulaId": "9368c014-e885-49a8-9c8e-7e447283a84c",
+        "flabsCode": "FLP1375"
+      },
+      "_id": "68826e84124d8484d8889474"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c418",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0925",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.784Z",
+  "updatedAt": "2025-07-21T19:17:55.784Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

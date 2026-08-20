@@ -1,0 +1,193 @@
+{
+  "_id": "6a86cbd892e2891d948cbebb",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NASAL SMEAR R/M SMEAR",
+  "code": "1479",
+  "cost": 0,
+  "interpretation": "<p data-start=\"141\" data-end=\"335\"><span style=\"font-size: 10px;\">The nasal smear was examined microscopically to assess the presence of inflammatory cells, infectious agents, and mucus components. The following interpretations apply based on typical findings:</span></p>\n<ul data-start=\"337\" data-end=\"1329\">\n<li style=\"font-size: 10px;\" data-start=\"337\" data-end=\"531\">\n<p data-start=\"339\" data-end=\"531\"><span style=\"font-size: 10px;\"><strong data-start=\"339\" data-end=\"385\">Eosinophils present in significant numbers</strong> suggest <strong data-start=\"394\" data-end=\"415\">allergic rhinitis</strong> or <strong data-start=\"419\" data-end=\"441\">nasal eosinophilia</strong>. This is commonly associated with conditions like seasonal allergies or atopic disorders.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"535\" data-end=\"685\">\n<p data-start=\"537\" data-end=\"685\"><span style=\"font-size: 10px;\"><strong data-start=\"537\" data-end=\"562\">Increased neutrophils</strong> may indicate a <strong data-start=\"578\" data-end=\"601\">bacterial infection</strong> or non-specific inflammation of the nasal mucosa (e.g., acute rhinitis, sinusitis).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"687\" data-end=\"780\">\n<p data-start=\"689\" data-end=\"780\"><span style=\"font-size: 10px;\"><strong data-start=\"689\" data-end=\"717\">Lymphocytic predominance</strong> is often seen in <strong data-start=\"735\" data-end=\"779\">viral upper respiratory tract infections</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"782\" data-end=\"966\">\n<p data-start=\"784\" data-end=\"966\"><span style=\"font-size: 10px;\"><strong data-start=\"784\" data-end=\"808\">Presence of bacteria</strong> (without significant inflammatory response) may reflect colonization; however, if associated with neutrophils, it supports an active <strong data-start=\"942\" data-end=\"965\">bacterial infection</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"968\" data-end=\"1109\">\n<p data-start=\"970\" data-end=\"1109\"><span style=\"font-size: 10px;\"><strong data-start=\"970\" data-end=\"989\">Fungal elements</strong>, if detected, should be further investigated with special stains or cultures, especially in immunocompromised patients.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1111\" data-end=\"1220\">\n<p data-start=\"1113\" data-end=\"1220\"><span style=\"font-size: 10px;\"><strong data-start=\"1113\" data-end=\"1131\">Abundant mucus</strong> is a non-specific finding but is commonly seen in both allergic and infectious rhinitis.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1222\" data-end=\"1329\">\n<p data-start=\"1224\" data-end=\"1329\"><span style=\"font-size: 10px;\"><strong data-start=\"1224\" data-end=\"1250\">Red blood cells (RBCs)</strong> may be seen in cases of trauma, irritation, or ulceration of the nasal mucosa.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "nasopharyngeal swab",
+  "department": "6414fc0ef02dc1ebb6a097a7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Epithelial Cells",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "578cbf57-1b4a-4348-9804-14e4e77b262e",
+        "flabsCode": "FLP0830"
+      },
+      "_id": "6883b50e35738384e78f8f1b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Polymorphonuclear Cells (Neutrophils)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "3cd0f771-7e00-4930-8cd2-fb42ae7fe63b",
+        "flabsCode": "FLP1748"
+      },
+      "_id": "6883b50e35738384e78f8f1c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Eosinophils",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "76a05ffe-c497-4d28-9637-99d2f231a8d0",
+        "flabsCode": "FLP0824"
+      },
+      "_id": "6883b50e35738384e78f8f1d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lymphocytes",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "f3d7e57a-bd14-40a5-a17e-df9746c782e7",
+        "flabsCode": "FLP1383"
+      },
+      "_id": "6883b50e35738384e78f8f1e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Bacteria",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "0c61d818-de48-474d-b46c-c5076c54fb30",
+        "flabsCode": "FLP0338"
+      },
+      "_id": "6883b50e35738384e78f8f1f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fungal Elements",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "8f756b46-193f-49dc-93d2-7276cdd9eefb",
+        "flabsCode": "FLP0974"
+      },
+      "_id": "6883b50e35738384e78f8f20"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mucus",
+        "field": "custom",
+        "options": [
+          "Scanty",
+          "Moderate"
+        ],
+        "formulaId": "f421b615-8c59-422c-984c-bfb9351a9cff",
+        "flabsCode": "FLP1503"
+      },
+      "_id": "6883b50e35738384e78f8f21"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RBCs",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "738f1e3a-31df-4359-84d2-abfd685d04f7",
+        "flabsCode": "FLP1817"
+      },
+      "_id": "6883b50e35738384e78f8f22"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c27c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0431",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.620Z",
+  "updatedAt": "2025-07-21T19:17:53.620Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

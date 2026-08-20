@@ -1,0 +1,128 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175b15",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FISH X & Y",
+  "code": "1426",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1557\" data-end=\"1623\">\n<p data-start=\"1559\" data-end=\"1623\"><strong data-start=\"1559\" data-end=\"1588\">46,XY pattern (1 X, 1 Y):</strong> Consistent with <strong data-start=\"1605\" data-end=\"1621\">genetic male</strong></p>\n</li>\n<li data-start=\"1624\" data-end=\"1692\">\n<p data-start=\"1626\" data-end=\"1692\"><strong data-start=\"1626\" data-end=\"1655\">46,XX pattern (2 X, 0 Y):</strong> Consistent with <strong data-start=\"1672\" data-end=\"1690\">genetic female</strong></p>\n</li>\n<li data-start=\"1693\" data-end=\"1872\">\n<p data-start=\"1695\" data-end=\"1718\"><strong data-start=\"1695\" data-end=\"1716\">Abnormal results:</strong></p>\n<ul data-start=\"1721\" data-end=\"1872\">\n<li data-start=\"1721\" data-end=\"1747\">\n<p data-start=\"1723\" data-end=\"1747\">45,X &rarr; Turner Syndrome</p>\n</li>\n<li data-start=\"1750\" data-end=\"1783\">\n<p data-start=\"1752\" data-end=\"1783\">47,XXY &rarr; Klinefelter Syndrome</p>\n</li>\n<li data-start=\"1786\" data-end=\"1811\">\n<p data-start=\"1788\" data-end=\"1811\">47,XYY &rarr; XYY Syndrome</p>\n</li>\n<li data-start=\"1814\" data-end=\"1872\">\n<p data-start=\"1816\" data-end=\"1872\">Mosaicism or atypical signals may require full karyotype</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Nuclei Analyzed",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥ 100 Cells",
+            "female-range": "≥ 100 Cells",
+            "child-range": "≥ 100 Cells"
+          }
+        },
+        "units": "Cells",
+        "formulaId": "9caee0e5-da30-4c33-afb1-ab73b2052fc2",
+        "flabsCode": "FLP1568"
+      },
+      "_id": "68840d3335738384e796d83c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "X Chromosome Signal (DXZ1)",
+        "field": "text",
+        "formulaId": "809a23af-2f1d-4cbb-b550-56432bad91e6",
+        "flabsCode": "FLP2292"
+      },
+      "_id": "68840d3335738384e796d83d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Y Chromosome Signal (DYZ3)",
+        "field": "text",
+        "formulaId": "ca44b7ec-f951-4319-bd98-0b9f71e2f7d3",
+        "flabsCode": "FLP2294"
+      },
+      "_id": "68840d3335738384e796d83e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Signal Pattern Interpretation",
+        "field": "text",
+        "formulaId": "4cb213ac-ca74-4788-bc45-77a3b6fa53bd"
+      },
+      "_id": "68840d3335738384e796d83f"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c24b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0382",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.402Z",
+  "updatedAt": "2025-07-21T19:17:53.402Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

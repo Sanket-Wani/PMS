@@ -1,0 +1,150 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b551",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "24 HR URINARY CATECHOLAMINE",
+  "code": "1051",
+  "cost": 0,
+  "interpretation": "<p>This test measures the total amount of <strong data-start=\"166\" data-end=\"184\">catecholamines</strong> (dopamine, norepinephrine, epinephrine) excreted in the urine over 24 hours.</p>\n<p data-start=\"263\" data-end=\"287\">It is primarily used to:</p>\n<ul data-start=\"289\" data-end=\"602\">\n<li data-start=\"289\" data-end=\"427\">\n<p data-start=\"291\" data-end=\"344\">Diagnose <strong data-start=\"300\" data-end=\"334\">catecholamine-secreting tumors</strong>, such as:</p>\n<ul data-start=\"347\" data-end=\"427\">\n<li data-start=\"347\" data-end=\"369\">\n<p data-start=\"349\" data-end=\"369\"><strong data-start=\"349\" data-end=\"369\">Pheochromocytoma</strong></p>\n</li>\n<li data-start=\"372\" data-end=\"391\">\n<p data-start=\"374\" data-end=\"391\"><strong data-start=\"374\" data-end=\"391\">Paraganglioma</strong></p>\n</li>\n<li data-start=\"394\" data-end=\"427\">\n<p data-start=\"396\" data-end=\"427\"><strong data-start=\"396\" data-end=\"413\">Neuroblastoma</strong> (in children)</p>\n</li>\n</ul>\n</li>\n<li data-start=\"428\" data-end=\"552\">\n<p data-start=\"430\" data-end=\"456\">Evaluate symptoms such as:</p>\n<ul data-start=\"459\" data-end=\"552\">\n<li data-start=\"459\" data-end=\"496\">\n<p data-start=\"461\" data-end=\"496\"><strong data-start=\"461\" data-end=\"496\">Severe or episodic hypertension</strong></p>\n</li>\n<li data-start=\"499\" data-end=\"514\">\n<p data-start=\"501\" data-end=\"514\"><strong data-start=\"501\" data-end=\"514\">Headaches</strong></p>\n</li>\n<li data-start=\"517\" data-end=\"535\">\n<p data-start=\"519\" data-end=\"535\"><strong data-start=\"519\" data-end=\"535\">Palpitations</strong></p>\n</li>\n<li data-start=\"538\" data-end=\"552\">\n<p data-start=\"540\" data-end=\"552\"><strong data-start=\"540\" data-end=\"552\">Sweating</strong></p>\n</li>\n</ul>\n</li>\n<li data-start=\"553\" data-end=\"602\">\n<p data-start=\"555\" data-end=\"602\">Monitor treatment or recurrence of known tumors</p>\n</li>\n</ul>\n<p>Elevated Levels &ndash; Clinical Implications</p>\n<table>\n<thead>\n<tr>\n<th><strong>Condition</strong></th>\n<th><strong>Clinical Significance</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Pheochromocytoma / Paraganglioma</strong></td>\n<td>Tumors of adrenal or extra-adrenal chromaffin cells lead to excess catecholamine secretion</td>\n</tr>\n<tr>\n<td><strong>Neuroblastoma</strong> (pediatric)</td>\n<td>A malignant tumor of sympathetic tissue leading to increased urinary catecholamines</td>\n</tr>\n<tr>\n<td><strong>Stress or extreme physical activity</strong></td>\n<td>May cause temporary elevation due to sympathetic overactivity</td>\n</tr>\n<tr>\n<td><strong>Withdrawal from certain medications</strong></td>\n<td>E.g., <strong>clonidine withdrawal</strong> can cause increased catecholamines</td>\n</tr>\n<tr>\n<td><strong>Hypoglycemia or severe illness</strong></td>\n<td>Stress-induced sympathetic activation can elevate levels</td>\n</tr>\n<tr>\n<td><strong>Obstructive sleep apnea</strong></td>\n<td>Intermittent hypoxia may increase catecholamine excretion</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CATECHOLAMINE BY 24 HRS URINE",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "Epinephrine",
+            "range": {
+              "default": {
+                "male-range-min": "4.00",
+                "male-range-max": "20.00",
+                "female-range-max": "20.00",
+                "female-range-min": "4.00",
+                "child-range-max": "20.00",
+                "child-range-min": "4.00"
+              }
+            },
+            "units": "μg/24 hrs",
+            "formulaId": "05f810a5-7dfb-4e37-971b-c0f4ca6348b3",
+            "flabsCode": "FLP0828"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Norepinephrine",
+            "range": {
+              "default": {
+                "male-range-min": "23.0",
+                "male-range-max": "105.0",
+                "female-range-max": "105.0",
+                "female-range-min": "23.0",
+                "child-range-max": "105.0",
+                "child-range-min": "23.0"
+              }
+            },
+            "units": "μg/24 hrs",
+            "formulaId": "f1bd0242-a748-41f1-b791-c613753ce047",
+            "flabsCode": "FLP1561"
+          },
+          {
+            "key": 2,
+            "field": "numeric",
+            "name": "Dopamine",
+            "range": {
+              "default": {
+                "male-range-min": "62.0",
+                "male-range-max": "444.0",
+                "female-range-max": "444.0",
+                "female-range-min": "62.0",
+                "child-range-max": "444.0",
+                "child-range-min": "62.0"
+              }
+            },
+            "formulaId": "7e752237-36be-4ad7-98fc-a2ee32d07e32",
+            "flabsCode": "FLP0781"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Total Volume of Urine",
+            "formulaId": "3517a91d-919b-4b90-b302-adb919d5fc50",
+            "flabsCode": "FLP2143"
+          }
+        ]
+      },
+      "_id": "678e2e04e7a517858e4fff55"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c152",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0061",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.260Z",
+  "updatedAt": "2025-07-21T19:17:52.260Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

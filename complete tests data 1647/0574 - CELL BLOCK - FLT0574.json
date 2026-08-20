@@ -1,0 +1,153 @@
+{
+  "_id": "6a86cc035953b1dd0a17b4a0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CELL BLOCK",
+  "code": "1647",
+  "cost": 0,
+  "interpretation": "<div class=\"flex basis-auto flex-col -mb-(--composer-overlap-px) [--composer-overlap-px:55px] grow overflow-hidden\">\n<div class=\"relative h-full\">\n<div class=\"flex h-full flex-col overflow-y-auto [scrollbar-gutter:stable_both-edges] @[84rem]/thread:pt-(--header-height)\">\n<div class=\"@thread-xl/thread:pt-header-height flex flex-col text-sm pb-25\">\n<article class=\"text-token-text-primary w-full\" dir=\"auto\" data-testid=\"conversation-turn-32\" data-scroll-anchor=\"true\">\n<div class=\"text-base my-auto mx-auto pb-10 [--thread-content-margin:--spacing(4)] @[37rem]:[--thread-content-margin:--spacing(6)] @[72rem]:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)\">\n<div class=\"[--thread-content-max-width:32rem] @[34rem]:[--thread-content-max-width:40rem] @[64rem]:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\" tabindex=\"-1\">\n<div class=\"flex max-w-full flex-col grow\">\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"ac4cc45a-7b78-4dcc-91bf-f938391b3e97\" data-message-model-slug=\"gpt-4-1-mini\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\n<div class=\"markdown prose dark:prose-invert w-full break-words dark\">\n<div class=\"_tableContainer_80l1q_1\">\n<div class=\"_tableWrapper_80l1q_14 group flex w-fit flex-col-reverse\" tabindex=\"-1\">\n<table class=\"w-fit min-w-(--thread-content-width)\" data-start=\"169\" data-end=\"1196\">\n<thead data-start=\"169\" data-end=\"279\">\n<tr data-start=\"169\" data-end=\"279\">\n<th data-start=\"169\" data-end=\"200\" data-col-size=\"md\">Finding</th>\n<th data-start=\"200\" data-end=\"279\" data-col-size=\"md\">Meaning / Clinical Significance</th>\n</tr>\n</thead>\n<tbody data-start=\"390\" data-end=\"1196\">\n<tr data-start=\"390\" data-end=\"500\">\n<td data-start=\"390\" data-end=\"422\" data-col-size=\"md\">Adequate cellularity</td>\n<td data-col-size=\"md\" data-start=\"422\" data-end=\"500\">Sample has enough cells for reliable microscopic evaluation.</td>\n</tr>\n<tr data-start=\"501\" data-end=\"612\">\n<td data-start=\"501\" data-end=\"533\" data-col-size=\"md\">Inadequate cellularity</td>\n<td data-col-size=\"md\" data-start=\"533\" data-end=\"612\">Sample has too few cells; may need repeat sampling for accurate diagnosis.</td>\n</tr>\n<tr data-start=\"613\" data-end=\"726\">\n<td data-start=\"613\" data-end=\"647\" data-col-size=\"md\">Presence of malignant cells</td>\n<td data-col-size=\"md\" data-start=\"647\" data-end=\"726\">Cancer cells detected; indicates malignancy in the sampled fluid/tissue.</td>\n</tr>\n<tr data-start=\"727\" data-end=\"839\">\n<td data-start=\"727\" data-end=\"760\" data-col-size=\"md\">Absence of malignant cells</td>\n<td data-col-size=\"md\" data-start=\"760\" data-end=\"839\">No cancer cells found; may indicate benign or inflammatory condition.</td>\n</tr>\n<tr data-start=\"840\" data-end=\"951\">\n<td data-start=\"840\" data-end=\"873\" data-col-size=\"md\">Inflammatory cells present</td>\n<td data-col-size=\"md\" data-start=\"873\" data-end=\"951\">Suggests infection, inflammation, or reactive process.</td>\n</tr>\n<tr data-start=\"952\" data-end=\"1070\">\n<td data-start=\"952\" data-end=\"989\" data-col-size=\"md\">Specific cell types identified</td>\n<td data-col-size=\"md\" data-start=\"989\" data-end=\"1070\">Helps in diagnosing specific diseases (e.g., mesothelial cells, lymphocytes).</td>\n</tr>\n<tr data-start=\"1071\" data-end=\"1196\">\n<td data-start=\"1071\" data-end=\"1119\" data-col-size=\"md\">Other findings (e.g., necrosis, fibrosis)</td>\n<td data-col-size=\"md\" data-start=\"1119\" data-end=\"1196\">Provides clues about disease processes or chronicity.</td>\n</tr>\n</tbody>\n</table>\n<div class=\"sticky end-(--thread-content-margin) h-0 self-end select-none\">\n<div class=\"absolute end-0 flex items-end\">&nbsp;</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</article>\n</div>\n</div>\n</div>\n</div>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cellularity",
+        "field": "custom",
+        "options": [
+          "Inadequate",
+          "Adequate"
+        ],
+        "formulaId": "f6e55095-3f54-4447-ab1a-64fb1da827e0",
+        "flabsCode": "FLP0563"
+      },
+      "_id": "6883ad0d35738384e78e8407"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cell Type(s) Present",
+        "field": "text",
+        "formulaId": "00919aa0-08fd-4572-8cc3-690e07d89812",
+        "flabsCode": "FLP0560"
+      },
+      "_id": "6883ad0d35738384e78e8408"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Morphological Features",
+        "field": "text",
+        "formulaId": "5f5f6cd4-c0eb-45e3-8ed7-fc3e2ed832c0",
+        "flabsCode": "FLP1494"
+      },
+      "_id": "6883ad0d35738384e78e8409"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Inflammatory Cells",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "a9cd00b9-1b6f-43c7-a4ea-86d729d5e031",
+        "flabsCode": "FLP1253"
+      },
+      "_id": "6883ad0d35738384e78e840a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Malignant Cells",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "2e841e48-6f41-4c3c-b951-3b08c28db396",
+        "flabsCode": "FLP1429"
+      },
+      "_id": "6883ad0d35738384e78e840b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Other Findings",
+        "field": "text",
+        "formulaId": "2ffc5c6a-81c9-4d76-bffb-f4ac773af431",
+        "flabsCode": "FLP1951"
+      },
+      "_id": "6883ad0d35738384e78e840c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2ee",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0574",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.112Z",
+  "updatedAt": "2025-07-21T19:17:54.112Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,200 @@
+{
+  "_id": "6a86cc68ba46c74c6d44d568",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AFB DRUG SUSCEPTIBILITY ORAL BEDAQUILINE PANEL BY MGIT",
+  "code": "2173",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1155\" data-end=\"1437\">\n<li data-start=\"1155\" data-end=\"1265\">\n<p data-start=\"1157\" data-end=\"1265\"><strong data-start=\"1157\" data-end=\"1170\">Sensitive</strong>: Mycobacterium tuberculosis complex is susceptible to the drug at standard therapeutic levels.</p>\n</li>\n<li data-start=\"1266\" data-end=\"1346\">\n<p data-start=\"1268\" data-end=\"1346\"><strong data-start=\"1268\" data-end=\"1281\">Resistant</strong>: Indicates likely treatment failure with the corresponding drug.</p>\n</li>\n<li data-start=\"1347\" data-end=\"1437\">\n<p data-start=\"1349\" data-end=\"1437\">Results must be correlated clinically and with molecular testing (e.g., GeneXpert, LPA).</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "sputum",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Bedaquiline",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "23f8903e-9080-47e4-868a-add2710d4d53",
+        "flabsCode": "FLP0354"
+      },
+      "_id": "6883ae18d92e738f26aa2015"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Levofloxacin",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "d5b222c5-f103-4c01-8447-598c17736dba",
+        "flabsCode": "FLP1362"
+      },
+      "_id": "6883ae18d92e738f26aa2016"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Moxifloxacin",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "c9f93f6b-115c-4492-afe6-453b9c320902",
+        "flabsCode": "FLP1502"
+      },
+      "_id": "6883ae18d92e738f26aa2017"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Linezolid",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "fc4dad1d-9215-4db6-88a0-cb1d7a9aa2e1",
+        "flabsCode": "FLP1366"
+      },
+      "_id": "6883ae18d92e738f26aa2018"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clofazimine",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "d3a9174c-bdf9-471e-8bc9-e45f86d0e0bd",
+        "flabsCode": "FLP0616"
+      },
+      "_id": "6883ae18d92e738f26aa2019"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Delamanid",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "c6f9f97f-3adb-47f0-b086-294df5daa290"
+      },
+      "_id": "6883ae18d92e738f26aa201a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Amikacin",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "5e2565ab-ced0-491a-8f06-d7cbe706c060",
+        "flabsCode": "FLP0193"
+      },
+      "_id": "6883ae18d92e738f26aa201b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Kanamycin",
+        "field": "custom",
+        "options": [
+          "Sensitive",
+          "Resistant",
+          "Intermediate"
+        ],
+        "formulaId": "22f906bd-3e15-41c2-94e4-f7169c139f2d",
+        "flabsCode": "FLP1300"
+      },
+      "_id": "6883ae18d92e738f26aa201c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c42f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0955",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.889Z",
+  "updatedAt": "2025-07-21T19:17:55.889Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

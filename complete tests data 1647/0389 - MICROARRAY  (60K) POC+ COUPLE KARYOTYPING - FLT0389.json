@@ -1,0 +1,169 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175c44",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MICROARRAY  (60K) POC+ COUPLE KARYOTYPING",
+  "code": "1433",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Normal POC &amp; Parental Karyotype</span></td>\n<td><span style=\"font-size: 10px;\">No chromosomal abnormality; suggests non-genetic cause of pregnancy loss (though other etiologies may exist).</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Abnormal POC (Aneuploidy/CNV)</span></td>\n<td><span style=\"font-size: 10px;\">Chromosomal abnormality explains pregnancy loss; recurrence risk depends on parental karyotype.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Balanced Parental Rearrangement</span></td>\n<td><span style=\"font-size: 10px;\">Parent carries balanced translocation/inversion; increases recurrence risk; genetic counseling and IVF with PGT may be discussed.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Variant of Uncertain Significance (VUS)</span></td>\n<td><span style=\"font-size: 10px;\">Detected CNV with unclear impact; parental inheritance testing and literature review recommended.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Methodology – POC",
+        "field": "text",
+        "formulaId": "55a5d3a8-a96f-4bb8-9377-d213b8e96293",
+        "flabsCode": "FLP1465"
+      },
+      "_id": "6883de1c35738384e795f6e6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Methodology – Parents",
+        "field": "text",
+        "formulaId": "eac22073-cf6f-436e-b9ff-cf73fa035680",
+        "flabsCode": "FLP1466"
+      },
+      "_id": "6883de1c35738384e795f6e7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aneuploidy (POC)",
+        "field": "custom",
+        "options": [
+          "Normal ",
+          "Abnormal"
+        ],
+        "formulaId": "9eff290f-a67b-4f19-a62b-46a160cacc90",
+        "flabsCode": "FLP0219"
+      },
+      "_id": "6883de1c35738384e795f6e8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Microdeletions / Microduplications (POC)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "ab98064f-17e7-45e0-9215-d3da02907258",
+        "flabsCode": "FLP1476"
+      },
+      "_id": "6883de1c35738384e795f6e9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Parental Karyotype – Mother",
+        "field": "text",
+        "formulaId": "b136c108-3400-4ed2-9f21-e8cdf9b862b6",
+        "flabsCode": "FLP1687"
+      },
+      "_id": "6883de1c35738384e795f6ea"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Parental Karyotype – Father",
+        "field": "text",
+        "formulaId": "1b8b5f12-0ed6-42da-bea9-90c7def46758",
+        "flabsCode": "FLP1686"
+      },
+      "_id": "6883de1c35738384e795f6eb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pathogenic / Likely Pathogenic CNVs (POC)",
+        "field": "text",
+        "formulaId": "6be53708-6ba9-4fb5-81a1-37cab7adb524",
+        "flabsCode": "FLP1692"
+      },
+      "_id": "6883de1c35738384e795f6ec"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variants of Uncertain Significance (VUS) (POC)\t",
+        "field": "text",
+        "formulaId": "ac9dc664-1947-47a8-b965-bb40c6448d18",
+        "flabsCode": "FLP2262"
+      },
+      "_id": "6883de1c35738384e795f6ed"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c252",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0389",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.430Z",
+  "updatedAt": "2025-07-21T19:17:53.430Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

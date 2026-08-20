@@ -1,0 +1,137 @@
+{
+  "_id": "6a86cc5b5953b1dd0a1856b6",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "GASTROINTENSINAL VIRUS ASSAY",
+  "code": "2012",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1885\" data-end=\"2311\">\n<li data-start=\"1885\" data-end=\"2071\">\n<p data-start=\"1887\" data-end=\"1926\"><span style=\"font-size: 8px;\"><strong data-start=\"1887\" data-end=\"1924\">Positive for one or more viruses:</strong></span></p>\n<ul data-start=\"1929\" data-end=\"2071\">\n<li style=\"font-size: 8px;\" data-start=\"1929\" data-end=\"1982\">\n<p data-start=\"1931\" data-end=\"1982\"><span style=\"font-size: 8px;\">Indicates active or recent viral gastroenteritis.</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"1985\" data-end=\"2071\">\n<p data-start=\"1987\" data-end=\"2071\"><span style=\"font-size: 8px;\">Co-infections are possible, especially in outbreaks or immunocompromised patients.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"2073\" data-end=\"2211\">\n<p data-start=\"2075\" data-end=\"2094\"><span style=\"font-size: 8px;\"><strong data-start=\"2075\" data-end=\"2092\">All Negative:</strong></span></p>\n<ul data-start=\"2097\" data-end=\"2211\">\n<li style=\"font-size: 8px;\" data-start=\"2097\" data-end=\"2131\">\n<p data-start=\"2099\" data-end=\"2131\"><span style=\"font-size: 8px;\">No detectable viral pathogens.</span></p>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"2134\" data-end=\"2211\">\n<p data-start=\"2136\" data-end=\"2211\"><span style=\"font-size: 8px;\">Consider <strong data-start=\"2145\" data-end=\"2195\">bacterial, parasitic, or non-infectious causes</strong> for symptoms.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 8px;\" data-start=\"2213\" data-end=\"2311\">\n<p data-start=\"2215\" data-end=\"2311\"><span style=\"font-size: 8px;\">Clinical correlation is essential with <strong data-start=\"2254\" data-end=\"2308\">stool culture, parasite exams, and patient history</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "stool",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rotavirus Antigen / RNA (PCR)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "1ce3c9cb-7373-49cd-bbb4-43af3ce21b56",
+        "flabsCode": "FLP1867"
+      },
+      "_id": "6885e70a082b26291ddf9587"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Norovirus (GI/GII) RNA (PCR)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "24384f8e-01e5-4245-8519-7af09cf060ad",
+        "flabsCode": "FLP1565"
+      },
+      "_id": "6885e70a082b26291ddf9588"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Adenovirus (Enteric type 40/41) DNA",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "b1b62ee1-3586-4f73-9c70-dd138d12e07e",
+        "flabsCode": "FLP0157"
+      },
+      "_id": "6885e70a082b26291ddf9589"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Astrovirus RNA (PCR)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "fc39522d-8ec1-4c46-b3c9-7577defb3b05",
+        "flabsCode": "FLP0293"
+      },
+      "_id": "6885e70a082b26291ddf958a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c40b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0903",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.728Z",
+  "updatedAt": "2025-07-21T19:17:55.728Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

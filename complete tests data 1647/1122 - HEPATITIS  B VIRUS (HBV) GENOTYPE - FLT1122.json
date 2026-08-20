@@ -1,0 +1,150 @@
+{
+  "_id": "6a86cca292e2891d948eb50a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HEPATITIS  B VIRUS (HBV) GENOTYPE",
+  "code": "2362",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1297\" data-end=\"1381\">\n<p data-start=\"1299\" data-end=\"1381\"><strong data-start=\"1299\" data-end=\"1314\">Genotype A:</strong> Common in Africa, North America &ndash; better response to interferon.</p>\n</li>\n<li data-start=\"1382\" data-end=\"1459\">\n<p data-start=\"1384\" data-end=\"1459\"><strong data-start=\"1384\" data-end=\"1399\">Genotype B:</strong> Common in Asia &ndash; better prognosis, lower HCC risk than C.</p>\n</li>\n<li data-start=\"1460\" data-end=\"1544\">\n<p data-start=\"1462\" data-end=\"1544\"><strong data-start=\"1462\" data-end=\"1477\">Genotype C:</strong> Common in Asia &ndash; associated with higher viral load and HCC risk.</p>\n</li>\n<li data-start=\"1545\" data-end=\"1619\">\n<p data-start=\"1547\" data-end=\"1619\"><strong data-start=\"1547\" data-end=\"1562\">Genotype D:</strong> Common in India, Middle East &ndash; intermediate prognosis.</p>\n</li>\n<li data-start=\"1620\" data-end=\"1667\">\n<p data-start=\"1622\" data-end=\"1667\"><strong data-start=\"1622\" data-end=\"1642\">Other genotypes:</strong> Rare, region-specific.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HBV DNA Detected",
+        "field": "custom",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "formulaId": "155ea938-1af7-4026-9150-376ab719a7f7",
+        "flabsCode": "FLP1070"
+      },
+      "_id": "688510470a49ec91807f8431"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Viral Load",
+        "field": "text",
+        "units": "IU/mL",
+        "formulaId": "77a5267f-d665-476a-a13c-92c39e6a1d9a",
+        "flabsCode": "FLP2273"
+      },
+      "_id": "688510470a49ec91807f8432"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Genotype Identified",
+        "field": "custom",
+        "options": [
+          "B",
+          "A",
+          "C",
+          "D",
+          "E",
+          "G",
+          "F",
+          "H"
+        ],
+        "formulaId": "f0fcd1e0-c5d3-44ac-b8f7-ad7d69cd3f4a",
+        "flabsCode": "FLP1022"
+      },
+      "_id": "688510470a49ec91807f8433"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sub-genotype",
+        "field": "text",
+        "formulaId": "cd400ea4-a3f1-4c2f-a76a-58687009b318",
+        "flabsCode": "FLP2040"
+      },
+      "_id": "688510470a49ec91807f8434"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mutations Detected",
+        "field": "custom",
+        "options": [
+          "Specify",
+          "None"
+        ],
+        "formulaId": "ae08edb0-ea4f-4c3b-a355-46f99587249d",
+        "flabsCode": "FLP1511"
+      },
+      "_id": "688510470a49ec91807f8435"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4c3",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1122",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.533Z",
+  "updatedAt": "2025-07-21T19:17:56.533Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

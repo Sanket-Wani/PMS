@@ -1,0 +1,210 @@
+{
+  "_id": "6a86ccb392e2891d948ee834",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HUMAN IMMUNODEFECIENCY VIRUS -1 (HIV-1) DRUG RESISTANCE GENOTYPE",
+  "code": "2399",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100.028%;\" border=\"1\"><colgroup><col style=\"width: 49.9303%;\"><col style=\"width: 49.9303%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Susceptible</span></td>\n<td><span style=\"font-size: 10px;\">No major resistance mutations detected; drug is likely to be effective.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Intermediate Resistance</span></td>\n<td><span style=\"font-size: 10px;\">Some resistance-associated mutations present; partial drug activity may remain.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Resistant</span></td>\n<td><span style=\"font-size: 10px;\">Major resistance mutations detected; drug is likely ineffective.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Low Viral Load (&lt;1,000 copies/mL)</span></td>\n<td><span style=\"font-size: 10px;\">Genotyping may not yield reliable results due to insufficient viral RNA levels.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HIV-1 RNA",
+        "field": "numeric_unbound",
+        "units": "copies/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "1000"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "1000"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "1000"
+            }
+          }
+        },
+        "formulaId": "72d304c1-7ad5-4f13-92dd-9379df5668bb",
+        "flabsCode": "FLP1102"
+      },
+      "_id": "6883aa7a0ef0de43f600ca1a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Protease Gene Mutations (PR)",
+        "field": "custom",
+        "options": [
+          "Not-Detected",
+          "Detected"
+        ],
+        "formulaId": "8a033082-88e1-4b8e-b29a-bb9631e7442b",
+        "flabsCode": "FLP1794"
+      },
+      "_id": "6883aa7a0ef0de43f600ca1b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Reverse Transcriptase Gene Mutations (RT)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not- Detected"
+        ],
+        "formulaId": "aea79b52-4612-48a5-8bdd-3d74d9dffe80",
+        "flabsCode": "FLP1853"
+      },
+      "_id": "6883aa7a0ef0de43f600ca1c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Integrase Gene Mutations (IN)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not- Detected"
+        ],
+        "formulaId": "2c6a5156-eabf-4332-a5e3-c1c7653c8720",
+        "flabsCode": "FLP1267"
+      },
+      "_id": "6883aa7a0ef0de43f600ca1d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Predicted Resistance -NRTIs",
+        "field": "custom",
+        "options": [
+          "Susceptible",
+          "Intermediate",
+          "Resistant"
+        ],
+        "formulaId": "35bb0e9b-c847-40a8-9c35-3425f9756206",
+        "flabsCode": "FLP1774"
+      },
+      "_id": "6883aa7a0ef0de43f600ca1e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Predicted Resistance - NNRTIs ",
+        "field": "custom",
+        "options": [
+          "Susceptible",
+          "Intermediate ",
+          "Resistant"
+        ],
+        "formulaId": "b0f86aa3-a4f2-4b1d-a14a-c7d2ef97328c",
+        "flabsCode": "FLP1772"
+      },
+      "_id": "6883aa7a0ef0de43f600ca1f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Predicted Resistance - PIs",
+        "field": "custom",
+        "options": [
+          "Susceptible ",
+          "Intermediate ",
+          "Resistant"
+        ],
+        "formulaId": "f6e5d84c-fda4-447a-b7af-a69f21dfdeee",
+        "flabsCode": "FLP1773"
+      },
+      "_id": "6883aa7a0ef0de43f600ca20"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Predicted Resistance - INSTIs",
+        "field": "custom",
+        "options": [
+          "Susceptible ",
+          "Intermediate ",
+          "Resistant"
+        ],
+        "formulaId": "2e1eb302-65f7-424f-92d5-8760c55c84f0",
+        "flabsCode": "FLP1771"
+      },
+      "_id": "6883aa7a0ef0de43f600ca21"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4e7",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1160",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.681Z",
+  "updatedAt": "2025-07-21T19:17:56.681Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

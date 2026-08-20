@@ -1,0 +1,247 @@
+{
+  "_id": "6a86cc67ba46c74c6d44d54c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "WESTERN BLOT TEST FOR HIV.",
+  "code": "WBHIV",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Result</strong></th>\n<th><strong>Criteria / Findings</strong></th>\n<th><strong>Interpretation</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Positive</strong></td>\n<td>Presence of antibodies to <strong>at least two of the following HIV proteins</strong>: gp120/gp160, gp41, p24 (bands seen on blot)</td>\n<td>Confirmed HIV infection</td>\n</tr>\n<tr>\n<td><strong>Negative</strong></td>\n<td>No HIV-specific bands detected</td>\n<td>No evidence of HIV infection (if test done after window period)</td>\n</tr>\n<tr>\n<td><strong>Indeterminate</strong></td>\n<td>Some bands present but do not meet criteria for positivity (e.g., single band p24 or gp41 only)</td>\n<td>Inconclusive &ndash; may represent early seroconversion, cross-reactivity, or non-specific binding. Repeat testing recommended after 2&ndash;4 weeks and/or confirm with other methods (HIV RNA PCR, p24 antigen).</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li data-start=\"846\" data-end=\"948\">\n<p data-start=\"848\" data-end=\"948\">Western Blot was historically the <strong data-start=\"882\" data-end=\"903\">confirmatory test</strong> for HIV after a positive ELISA/rapid test.</p>\n</li>\n<li data-start=\"949\" data-end=\"1038\">\n<p data-start=\"951\" data-end=\"1038\">A <strong data-start=\"953\" data-end=\"972\">positive result</strong> requires reactivity against <strong data-start=\"1001\" data-end=\"1035\">multiple specific HIV antigens</strong>.</p>\n</li>\n<li data-start=\"1039\" data-end=\"1128\">\n<p data-start=\"1041\" data-end=\"1128\"><strong data-start=\"1041\" data-end=\"1066\">Indeterminate results</strong> require follow-up with repeat testing or molecular methods.</p>\n</li>\n<li data-start=\"1129\" data-end=\"1326\">\n<p data-start=\"1131\" data-end=\"1326\">Now, WHO and CDC guidelines recommend <strong data-start=\"1169\" data-end=\"1243\">4th-generation HIV Ag/Ab assays + HIV-1/2 differentiation immunoassays</strong> instead of Western blot for confirmation, but some labs still report WB results.</p>\n</li>\n</ul>",
+  "showInterpretation": true,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "p24",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative or Positive",
+        "formulaId": "d04cf92f-ac5f-4f3f-bf27-807b1c59c571",
+        "flabsCode": "FLP2326"
+      },
+      "_id": "68a6587fa2dcc291a91b934f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "p31",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative or Positive",
+        "formulaId": "28b186c8-49bf-4eec-aef1-82bbc14c5d14",
+        "flabsCode": "FLP2327"
+      },
+      "_id": "68a6587fa2dcc291a91b9350"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "p55",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative or Positive",
+        "formulaId": "f28158a4-2c85-4003-b1ea-fd8873039367",
+        "flabsCode": "FLP2328"
+      },
+      "_id": "68a6587fa2dcc291a91b9351"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "p66",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative or Positive",
+        "formulaId": "e7acafff-c9ba-49ac-af22-ee9027bb6138",
+        "flabsCode": "FLP2330"
+      },
+      "_id": "68a6587fa2dcc291a91b9352"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "gp41",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative or Positive",
+        "formulaId": "9409a3a7-7d62-4858-b86f-ce5f35609583",
+        "flabsCode": "FLP2322"
+      },
+      "_id": "68a6587fa2dcc291a91b9353"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "gp120",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative or Positive",
+        "formulaId": "35653473-629a-4b43-8de9-b335f6870b22",
+        "flabsCode": "FLP2320"
+      },
+      "_id": "68a6587fa2dcc291a91b9354"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "gp160",
+        "field": "custom",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "defaultOption": "Negative",
+        "rangeReport": "Expected findings: Negative or Positive",
+        "formulaId": "e9da3c60-3b22-43be-9bc2-5ba0b90c2b54",
+        "flabsCode": "FLP2321"
+      },
+      "_id": "68a6587fa2dcc291a91b9355"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Western Blot Interpretation",
+        "field": "text",
+        "units": "",
+        "range": {
+          "default": null,
+          "numeric_unbound": null
+        },
+        "options": null,
+        "defaultOption": null,
+        "rangeReport": "Normal findings: Negative result. Positive result indicates active HIV infection. Indeterminate result may require repeat testing.",
+        "formulaId": "edb6737c-d5af-4ea1-84e1-a23b2e85c02e",
+        "flabsCode": "FLP2289"
+      },
+      "_id": "68a6587fa2dcc291a91b9356"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "68a6587fa2dcc291a91b934e",
+  "comment": [],
+  "ageRanges": [],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "sampleColor": "#FF0000",
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergyCategory": [],
+  "flabsID": "FLT0950",
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "cultureReporting": false,
+  "isCreatedByAi": true,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-08-20T23:21:35.088Z",
+  "updatedAt": "2025-08-20T23:21:35.088Z",
+  "__v": 0
+}

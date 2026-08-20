@@ -1,0 +1,278 @@
+{
+  "_id": "6a86cbf692e2891d948d214c",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SYNOVIAL FLUID EXAMINATION",
+  "code": "1582",
+  "cost": 0,
+  "interpretation": "<table class=\"w-fit min-w-(--thread-content-width)\" style=\"width: 99.9731%;\" data-start=\"248\" data-end=\"1349\">\n<thead data-start=\"248\" data-end=\"400\">\n<tr data-start=\"248\" data-end=\"400\">\n<th style=\"width: 14.1194%;\" data-start=\"248\" data-end=\"270\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Type</span></th>\n<th style=\"width: 18.5929%;\" data-start=\"270\" data-end=\"291\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Appearance</span></th>\n<th style=\"width: 15.3776%;\" data-start=\"291\" data-end=\"314\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">WBC Count (/mm&sup3;)</span></th>\n<th style=\"width: 14.5388%;\" data-start=\"314\" data-end=\"336\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Neutrophils (%)</span></th>\n<th style=\"width: 14.5388%;\" data-start=\"336\" data-end=\"357\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Glucose</span></th>\n<th style=\"width: 22.9266%;\" data-start=\"357\" data-end=\"400\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Interpretation</span></th>\n</tr>\n</thead>\n<tbody data-start=\"559\" data-end=\"1349\">\n<tr data-start=\"559\" data-end=\"716\">\n<td style=\"width: 14.1194%;\" data-start=\"559\" data-end=\"581\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Normal</span></td>\n<td style=\"width: 18.5929%;\" data-col-size=\"sm\" data-start=\"581\" data-end=\"605\"><span style=\"font-size: 9px;\">Clear, high viscosity</span></td>\n<td style=\"width: 15.3776%;\" data-col-size=\"sm\" data-start=\"605\" data-end=\"627\"><span style=\"font-size: 9px;\">&lt; 200</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"627\" data-end=\"649\"><span style=\"font-size: 9px;\">&lt; 25%</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"649\" data-end=\"671\"><span style=\"font-size: 9px;\">Equal to serum</span></td>\n<td style=\"width: 22.9266%;\" data-col-size=\"sm\" data-start=\"671\" data-end=\"716\"><span style=\"font-size: 9px;\">Normal synovial fluid</span></td>\n</tr>\n<tr data-start=\"717\" data-end=\"874\">\n<td style=\"width: 14.1194%;\" data-start=\"717\" data-end=\"739\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Non-inflammatory</span></td>\n<td style=\"width: 18.5929%;\" data-col-size=\"sm\" data-start=\"739\" data-end=\"763\"><span style=\"font-size: 9px;\">Clear, high viscosity</span></td>\n<td style=\"width: 15.3776%;\" data-col-size=\"sm\" data-start=\"763\" data-end=\"785\"><span style=\"font-size: 9px;\">&lt; 2,000</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"785\" data-end=\"807\"><span style=\"font-size: 9px;\">&lt; 25%</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"807\" data-end=\"829\"><span style=\"font-size: 9px;\">Normal</span></td>\n<td style=\"width: 22.9266%;\" data-col-size=\"sm\" data-start=\"829\" data-end=\"874\"><span style=\"font-size: 9px;\">Osteoarthritis, trauma</span></td>\n</tr>\n<tr data-start=\"875\" data-end=\"1032\">\n<td style=\"width: 14.1194%;\" data-start=\"875\" data-end=\"897\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Inflammatory</span></td>\n<td style=\"width: 18.5929%;\" data-col-size=\"sm\" data-start=\"897\" data-end=\"921\"><span style=\"font-size: 9px;\">Cloudy, low viscosity</span></td>\n<td style=\"width: 15.3776%;\" data-col-size=\"sm\" data-start=\"921\" data-end=\"943\"><span style=\"font-size: 9px;\">2,000-75,000</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"943\" data-end=\"965\"><span style=\"font-size: 9px;\">&gt; 50%</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"965\" data-end=\"987\"><span style=\"font-size: 9px;\">mild to moderate</span></td>\n<td style=\"width: 22.9266%;\" data-col-size=\"sm\" data-start=\"987\" data-end=\"1032\"><span style=\"font-size: 9px;\">Rheumatoid arthritis, gout, lupus</span></td>\n</tr>\n<tr data-start=\"1033\" data-end=\"1190\">\n<td style=\"width: 14.1194%;\" data-start=\"1033\" data-end=\"1055\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Septic</span></td>\n<td style=\"width: 18.5929%;\" data-col-size=\"sm\" data-start=\"1055\" data-end=\"1079\"><span style=\"font-size: 9px;\">Turbid/purulent</span></td>\n<td style=\"width: 15.3776%;\" data-col-size=\"sm\" data-start=\"1079\" data-end=\"1101\"><span style=\"font-size: 9px;\">&gt; 50,000-100,000+</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"1101\" data-end=\"1123\"><span style=\"font-size: 9px;\">&gt; 75%</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"1123\" data-end=\"1145\"><span style=\"font-size: 9px;\">very low</span></td>\n<td style=\"width: 22.9266%;\" data-col-size=\"sm\" data-start=\"1145\" data-end=\"1190\"><span style=\"font-size: 9px;\">Bacterial septic arthritis</span></td>\n</tr>\n<tr data-start=\"1191\" data-end=\"1349\">\n<td style=\"width: 14.1194%;\" data-start=\"1191\" data-end=\"1213\" data-col-size=\"sm\"><span style=\"font-size: 9px;\">Hemorrhagic</span></td>\n<td style=\"width: 18.5929%;\" data-col-size=\"sm\" data-start=\"1213\" data-end=\"1237\"><span style=\"font-size: 9px;\">Bloody</span></td>\n<td style=\"width: 15.3776%;\" data-col-size=\"sm\" data-start=\"1237\" data-end=\"1260\"><span style=\"font-size: 9px;\">Variable</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"1260\" data-end=\"1282\"><span style=\"font-size: 9px;\">Variable</span></td>\n<td style=\"width: 14.5388%;\" data-col-size=\"sm\" data-start=\"1282\" data-end=\"1304\"><span style=\"font-size: 9px;\">Normal</span></td>\n<td style=\"width: 22.9266%;\" data-col-size=\"sm\" data-start=\"1304\" data-end=\"1349\"><span style=\"font-size: 9px;\">Trauma, hemophilia, anticoagulant use</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "PHYSICAL EXAMINATION",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Appearance",
+            "options": [
+              "Clear",
+              "Cloudy",
+              "Bloody",
+              "Turbid"
+            ],
+            "formulaId": "3caf3ffd-040e-462c-bb73-c645d18e9555",
+            "flabsCode": "FLP2158"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Color",
+            "options": [
+              "Colorless",
+              "Pale Yellow",
+              "Yellow",
+              "Red"
+            ],
+            "formulaId": "f0534dcb-543f-418c-85c4-52e75203fd53",
+            "flabsCode": "FLP0516"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Viscosity",
+            "options": [
+              "Normal",
+              "Low",
+              "High"
+            ],
+            "formulaId": "e856d12f-8144-44bc-a6cb-5a841cacf219",
+            "flabsCode": "FLP2274"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Volume",
+            "units": "mL",
+            "formulaId": "5710c1ea-b8c7-4a2c-93ea-577bcf5cafaa"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Clot Formation",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "8ef61e6a-842a-4f32-ab17-3762d869dd88",
+            "flabsCode": "FLP0621"
+          }
+        ]
+      },
+      "_id": "6883a250d92e738f26a92d00"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "MICROSCOPIC EXAMINATION",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Total WBC Count",
+            "units": "cells/mm³",
+            "formulaId": "b5a71573-c033-4ce5-aa7d-0a62df128980",
+            "flabsCode": "FLP2144"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Neutrophils: ",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range": ""
+              }
+            },
+            "formulaId": "a9fd3696-3cc2-4043-ad81-defb43b5268d",
+            "flabsCode": "FLP1545"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Lymphocytes",
+            "units": "%",
+            "formulaId": "d2cf9e6d-5bcd-43d8-bb09-6b2944b5cfa0",
+            "flabsCode": "FLP1383"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Monocytes",
+            "units": "%",
+            "formulaId": "5c2f36f0-01dd-469f-a4e0-2d36a0d24cd6",
+            "flabsCode": "FLP1493"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "RBC Count",
+            "units": "cells/mm³",
+            "formulaId": "9a5ce3f9-4c69-420d-9381-8c25edd1e7b9",
+            "flabsCode": "FLP1817"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Crystals",
+            "units": "Type",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "0700eced-5f09-4731-8826-f04b4a6a7de1",
+            "flabsCode": "FLP0378"
+          },
+          {
+            "key": 6,
+            "field": "custom",
+            "name": "Organisms Seen",
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "formulaId": "6191c00d-ba2d-4007-9a1e-e369b9b6d92e",
+            "flabsCode": "FLP0823"
+          }
+        ]
+      },
+      "_id": "6883a250d92e738f26a92d01"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CHEMICAL EXAMINATION",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Glucose",
+            "units": "mg/dL",
+            "range": {
+              "default": {
+                "male-range": "Should be near Serum Level",
+                "female-range": "Should be near Serum Level",
+                "child-range": "Should be near Serum Level"
+              }
+            },
+            "formulaId": "528879f1-d591-4879-8144-ebbc8efd2b23",
+            "flabsCode": "FLP1034"
+          },
+          {
+            "key": 1,
+            "field": "multiple_ranges",
+            "name": "Protein",
+            "range": {
+              "default": {
+                "male-range": "Typically < 3.0 g/dL",
+                "female-range": "Typically < 3.0 g/dL",
+                "child-range": "Typically < 3.0 g/dL"
+              }
+            },
+            "units": "g/dL",
+            "formulaId": "c57ee9dc-a5ff-4ca6-a8cf-1e1d92d50338",
+            "flabsCode": "FLP1672"
+          },
+          {
+            "key": 2,
+            "field": "numeric",
+            "name": "Lactate Dehydrogenase (LDH)",
+            "units": "U/L",
+            "formulaId": "e02d7a47-7837-4ad1-ad4c-b70d13b3c8ca",
+            "flabsCode": "FLP1337"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Uric Acid (if tested)",
+            "units": "mg/dL",
+            "formulaId": "353c3e16-6e61-4d76-9f0c-1b6c7e894f58",
+            "flabsCode": "FLP2204"
+          }
+        ]
+      },
+      "_id": "6883a3a80ef0de43f6004c7a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2df",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0556",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.041Z",
+  "updatedAt": "2025-07-21T19:17:54.041Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

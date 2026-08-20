@@ -1,0 +1,146 @@
+{
+  "_id": "6a86cb6d92e2891d948be5d6",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MERCURY URINE SPOT",
+  "code": "1153",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"838\" data-end=\"965\">\n<p data-start=\"840\" data-end=\"875\"><span style=\"font-size: 12px;\"><strong data-start=\"840\" data-end=\"873\">Normal / Background Exposure:</strong></span></p>\n<ul data-start=\"878\" data-end=\"965\">\n<li style=\"font-size: 12px;\" data-start=\"878\" data-end=\"913\">\n<p data-start=\"880\" data-end=\"913\"><span style=\"font-size: 12px;\">Mercury &lt;10 &micro;g/L in spot urine.</span></p>\n</li>\n<li style=\"font-size: 12px;\" data-start=\"916\" data-end=\"965\">\n<p data-start=\"918\" data-end=\"965\"><span style=\"font-size: 12px;\">Typically reflects <strong data-start=\"937\" data-end=\"964\">no significant exposure</strong>.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 12px;\" data-start=\"967\" data-end=\"1243\">\n<p data-start=\"969\" data-end=\"999\"><span style=\"font-size: 12px;\"><strong data-start=\"969\" data-end=\"997\">Elevated Mercury Levels:</strong></span></p>\n<ul data-start=\"1002\" data-end=\"1243\">\n<li style=\"font-size: 12px;\" data-start=\"1002\" data-end=\"1108\">\n<p data-start=\"1004\" data-end=\"1108\"><span style=\"font-size: 12px;\"><strong data-start=\"1004\" data-end=\"1019\">10&ndash;50 &micro;g/L:</strong> May indicate <strong data-start=\"1033\" data-end=\"1075\">occupational or environmental exposure</strong> &ndash; clinical correlation needed.</span></p>\n</li>\n<li style=\"font-size: 12px;\" data-start=\"1111\" data-end=\"1243\">\n<p data-start=\"1113\" data-end=\"1243\"><span style=\"font-size: 12px;\"><strong data-start=\"1113\" data-end=\"1126\">&gt;50 &micro;g/L:</strong> Suggestive of <strong data-start=\"1141\" data-end=\"1177\">significant exposure or toxicity</strong>; consider <strong data-start=\"1188\" data-end=\"1216\">24-hour urine collection</strong> and clinical evaluation.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 12px;\" data-start=\"1245\" data-end=\"1366\">\n<p data-start=\"1247\" data-end=\"1275\"><span style=\"font-size: 12px;\"><strong data-start=\"1247\" data-end=\"1273\">Creatinine Correction:</strong></span></p>\n<ul data-start=\"1278\" data-end=\"1366\">\n<li style=\"font-size: 12px;\" data-start=\"1278\" data-end=\"1366\">\n<p data-start=\"1280\" data-end=\"1366\"><span style=\"font-size: 12px;\">Ensures accuracy by accounting for urine dilution; values reported as &micro;g/g creatinine.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 12px;\" data-start=\"1368\" data-end=\"1487\">\n<p data-start=\"1370\" data-end=\"1487\"><span style=\"font-size: 12px;\">Should be correlated with <strong data-start=\"1396\" data-end=\"1486\">clinical symptoms (neuro, renal, GI), exposure history, and other heavy metals testing</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mercury (Hg) – Spot Urine",
+        "field": "numeric_unbound",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "10"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "10"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "10"
+            }
+          }
+        },
+        "formulaId": "863934fa-c02c-4b35-911e-3f36e976a9cb",
+        "flabsCode": "FLP1452"
+      },
+      "_id": "688554cd4c9e1585202dc76c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine Creatinine (for correction)",
+        "field": "numeric",
+        "units": "mg/dL",
+        "formulaId": "aab728a1-d593-4d16-b8f7-6330475a8128",
+        "flabsCode": "FLP2213"
+      },
+      "_id": "688554cd4c9e1585202dc76d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mercury (Creatinine-Corrected)\t",
+        "field": "numeric_unbound",
+        "units": "µg/g creatinine",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "20"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "20"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "20"
+            }
+          }
+        },
+        "formulaId": "90c926dc-9713-462e-b522-740987238d00",
+        "flabsCode": "FLP1450"
+      },
+      "_id": "688554cd4c9e1585202dc76e"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1a6",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0162",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.648Z",
+  "updatedAt": "2025-07-21T19:17:52.648Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

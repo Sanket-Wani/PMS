@@ -1,0 +1,149 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b7e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Quadruple Marker Test",
+  "code": "QMT",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>Marker</div></th><th><div>Normal Range</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Beta hCG</div></td><td><div>&lt; 5 mIU/mL</div></td><td><div>Elevated levels may indicate multiple gestations, molar pregnancy or chromosomal abnormalities</div></td></tr><tr><td><div>Alpha-Fetoprotein</div></td><td><div>&lt; 15 ng/mL</div></td><td><div>Elevated levels may indicate neural tube defects or abdominal wall defects</div></td></tr><tr><td><div>Unconjugated Estriol (uE3)</div></td><td><div>Varies by gestational age</div></td><td><div>Low levels may indicate chromosomal abnormalities or fetal demise</div></td></tr><tr><td><div>Inhibin A</div></td><td><div>Varies by gestational age</div></td><td><div>Elevated levels may indicate Down syndrome or neural tube defects</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "child-range": {
+              "value": "2.5",
+              "op": "<"
+            },
+            "male-range": {
+              "op": "<",
+              "value": "2.5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "name": "Beta hCG total",
+        "field": "numeric_unbound",
+        "units": "mIU/mL"
+      },
+      "_id": "641c91f1063818086a8d1856"
+    },
+    {
+      "_id": "641c91f1063818086a8d1857",
+      "type": "testDetails",
+      "data": {
+        "name": "Alpha-fetoprotein (AFP)",
+        "field": "numeric_unbound",
+        "units": "ng/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "15"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "15"
+            },
+            "child-range": {
+              "value": "15",
+              "op": "<"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Unconjugated Estriol (uE3)",
+        "field": "numeric"
+      },
+      "_id": "641c91f1063818086a8d1858"
+    },
+    {
+      "data": {
+        "name": "Inhibin A",
+        "field": "numeric"
+      },
+      "_id": "641c951a063818086a8d18b3",
+      "type": "testDetails"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641c948e063818086a8d1899",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0711",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.380Z",
+  "updatedAt": "2026-08-14T17:59:51.380Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

@@ -1,0 +1,134 @@
+{
+  "_id": "6a86cc3e5953b1dd0a181a92",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - ER PR & HER2 NEU PANEL",
+  "code": "1899",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1455\" data-end=\"1595\">\n<p data-start=\"1457\" data-end=\"1480\"><strong data-start=\"1457\" data-end=\"1478\">ER &amp; PR Positive:</strong></p>\n<ul data-start=\"1483\" data-end=\"1595\">\n<li data-start=\"1483\" data-end=\"1595\">\n<p data-start=\"1485\" data-end=\"1595\">Suggests hormone-driven tumor; may benefit from <strong data-start=\"1533\" data-end=\"1554\">endocrine therapy</strong> (e.g., tamoxifen, aromatase inhibitors).</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1597\" data-end=\"1743\">\n<p data-start=\"1599\" data-end=\"1628\"><strong data-start=\"1599\" data-end=\"1626\">HER2/neu 3+ (Positive):</strong></p>\n<ul data-start=\"1631\" data-end=\"1743\">\n<li data-start=\"1631\" data-end=\"1743\">\n<p data-start=\"1633\" data-end=\"1743\">Indicates <strong data-start=\"1643\" data-end=\"1670\">HER2 gene amplification</strong>; eligible for <strong data-start=\"1685\" data-end=\"1742\">HER2-targeted therapy (trastuzumab, pertuzumab, etc.)</strong>.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1745\" data-end=\"1849\">\n<p data-start=\"1747\" data-end=\"1777\"><strong data-start=\"1747\" data-end=\"1775\">HER2/neu 2+ (Equivocal):</strong></p>\n<ul data-start=\"1780\" data-end=\"1849\">\n<li data-start=\"1780\" data-end=\"1849\">\n<p data-start=\"1782\" data-end=\"1849\">Requires <strong data-start=\"1791\" data-end=\"1816\">confirmatory FISH/ISH</strong> to determine gene amplification.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1851\" data-end=\"1999\">\n<p data-start=\"1853\" data-end=\"1893\"><strong data-start=\"1853\" data-end=\"1891\">Triple Negative (ER-, PR-, HER2-):</strong></p>\n<ul data-start=\"1896\" data-end=\"1999\">\n<li data-start=\"1896\" data-end=\"1999\">\n<p data-start=\"1898\" data-end=\"1999\">Suggests <strong data-start=\"1907\" data-end=\"1946\">non-hormonal, non-HER2-driven tumor</strong>, may need chemotherapy or novel targeted approaches.</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "ffpe tissue block",
+  "department": "67631e5624f8fa88510fdb6d",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Estrogen Receptor (ER)",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Positive: ≥1% nuclei stained\nNegative: <1% nuclei stained",
+            "female-range": "Positive: ≥1% nuclei stained\nNegative: <1% nuclei stained",
+            "child-range": "Positive: ≥1% nuclei stained\nNegative: <1% nuclei stained"
+          }
+        },
+        "units": "%",
+        "formulaId": "0dfc8354-1848-4f9d-8eba-7f4c40bb89cb",
+        "flabsCode": "FLP0840"
+      },
+      "_id": "688552914c9e1585202dc4ef"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Progesterone Receptor (PR)",
+        "field": "text",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": "Positive: ≥1% nuclei stained\nNegative: <1% nuclei stained",
+            "female-range": "Positive: ≥1% nuclei stained\nNegative: <1% nuclei stained",
+            "child-range": "Positive: ≥1% nuclei stained\nNegative: <1% nuclei stained"
+          }
+        },
+        "formulaId": "81de9619-099f-4536-a6b0-a9b7d3b54ff3",
+        "flabsCode": "FLP1789"
+      },
+      "_id": "688552914c9e1585202dc4f0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HER2/neu (IHC) Score",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "0–1+: Negative\n2+: Equivocal (FISH/ISH testing advised)\n3+: Positive",
+            "female-range": "0–1+: Negative\n2+: Equivocal (FISH/ISH testing advised)\n3+: Positive",
+            "child-range": "0–1+: Negative\n2+: Equivocal (FISH/ISH testing advised)\n3+: Positive"
+          }
+        },
+        "formulaId": "b577c8ef-6a97-4b45-9430-8fc97878a0f0",
+        "flabsCode": "FLP1085"
+      },
+      "_id": "688552914c9e1585202dc4f1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c39e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0788",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.100Z",
+  "updatedAt": "2025-07-21T19:17:55.100Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

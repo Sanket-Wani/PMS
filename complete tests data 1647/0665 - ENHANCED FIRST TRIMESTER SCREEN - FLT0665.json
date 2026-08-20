@@ -1,0 +1,132 @@
+{
+  "_id": "6a86cc115953b1dd0a17cd3e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ENHANCED FIRST TRIMESTER SCREEN",
+  "code": "1754",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 99.9506%;\" border=\"1\"><colgroup><col style=\"width: 25%;\"><col style=\"width: 25%;\"><col style=\"width: 25%;\"><col style=\"width: 25%;\"></colgroup>\n<tbody>\n<tr>\n<td>Condition Screened</td>\n<td>Result</td>\n<td>Screen Status</td>\n<td>Interpretation</td>\n</tr>\n<tr>\n<td>Trisomy 21 (Down Syndrome)</td>\n<td>1 in 750</td>\n<td>Negative</td>\n<td>Low risk. No further testing usually required.</td>\n</tr>\n<tr>\n<td>Trisomy 18 (Edwards Syndrome)</td>\n<td>1 in 4000</td>\n<td>Negative</td>\n<td>Very low risk. No evidence of abnormality</td>\n</tr>\n<tr>\n<td>Trisomy 13 (Patau Syndrome)</td>\n<td>1 in 8500</td>\n<td>Negative</td>\n<td>Very low risk. No indication of this condition</td>\n</tr>\n<tr>\n<td>Positive Result (if shown)</td>\n<td>1 in &lt;250</td>\n<td>Positive</td>\n<td>High risk. Further confirmatory testing such as <strong data-start=\"1167\" data-end=\"1175\">NIPT</strong>, <strong data-start=\"1177\" data-end=\"1184\">CVS</strong>, or <strong data-start=\"1189\" data-end=\"1206\">Amniocentesis</strong> recommended.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free Beta-hCG (blood)",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Normal varies with gestational age",
+            "female-range": "Normal varies with gestational age",
+            "child-range": "Normal varies with gestational age"
+          }
+        },
+        "formulaId": "cddd2f00-3cb0-48db-ace6-78de5ccd6eb5",
+        "flabsCode": "FLP0961"
+      },
+      "_id": "6883b72f35738384e790646e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PAPP-A (blood)",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Higher is better (>0.5 MoM)",
+            "female-range": "Higher is better (>0.5 MoM)",
+            "child-range": "Higher is better (>0.5 MoM)"
+          }
+        },
+        "formulaId": "1cc9423b-ce88-4800-8090-e1f8b9674808",
+        "flabsCode": "FLP1620"
+      },
+      "_id": "6883b72f35738384e790646f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "NT (Nuchal Translucency) (ultrasound)",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Less than 3.5 mm",
+            "female-range": "Less than 3.5 mm",
+            "child-range": "Less than 3.5 mm"
+          }
+        },
+        "formulaId": "ee852456-dbf7-476a-90d3-a27a5a848d5b",
+        "flabsCode": "FLP1540"
+      },
+      "_id": "6883b72f35738384e7906470"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c339",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0665",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.455Z",
+  "updatedAt": "2025-07-21T19:17:54.455Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

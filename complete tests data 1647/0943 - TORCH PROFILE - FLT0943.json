@@ -1,0 +1,202 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b40",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TORCH PROFILE",
+  "code": "TORCH PROFILE",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div><span style=\"font-size: 10px;\">TORCH Infection</span></div></th><th><div><span style=\"font-size: 10px;\">Antibody Type</span></div></th><th><div><span style=\"font-size: 10px;\">Interpretation</span></div></th></tr></thead><tbody><tr><td><div><span style=\"font-size: 10px;\">Toxoplasmosis</span></div></td><td><div><span style=\"font-size: 10px;\">IgG</span></div></td><td><div><span style=\"font-size: 10px;\">Positive: indicates a past or current infection with Toxoplasma gondii, which may pose a risk to the developing fetus. Negative: indicates no previous exposure to Toxoplasma gondii.</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\"><br></span></div></td><td><div><span style=\"font-size: 10px;\">IgM</span></div></td><td><div><span style=\"font-size: 10px;\">Positive: may indicate a recent infection with Toxoplasma gondii. Negative: no recent infection.</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Rubella</span></div></td><td><div><span style=\"font-size: 10px;\">IgG</span></div></td><td><div><span style=\"font-size: 10px;\">Positive: indicates immunity to rubella, which protects the fetus from infection. Negative: indicates</span></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Toxoplasma gondii - IgG",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 0.7 Negative\n0.7-1.3 Doubtful\n> 1.3 Positive",
+            "female-range": "< 0.7 Negative\n0.7-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.7 Negative\n0.7-1.3 Doubtful\n> 1.3 Positive"
+          }
+        }
+      },
+      "_id": "6420053056867e2be547a296"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Toxoplasma gondii - IgM",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.2 Doubtful\n> 1.2 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.2 Doubtful\n> 1.2 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.2 Doubtful\n> 1.2 Positive"
+          }
+        }
+      },
+      "_id": "6420053056867e2be547a297"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rubella Virus - IgG",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 0.7 Negative\n0.7-1.2 Doubtful\n> 1.2 Positive",
+            "female-range": "< 0.7 Negative\n0.7-1.2 Doubtful\n> 1.2 Positive",
+            "child-range": "< 0.7 Negative\n0.7-1.2 Doubtful\n> 1.2 Positive"
+          }
+        }
+      },
+      "_id": "6420053056867e2be547a298"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive"
+          }
+        },
+        "name": "Rubella Virus - IgM",
+        "field": "multiple_ranges"
+      },
+      "_id": "6420053056867e2be547a299"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cytomegalovirus IgG Antibody",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive"
+          }
+        }
+      },
+      "_id": "6420053056867e2be547a29a"
+    },
+    {
+      "_id": "6420053056867e2be547a29b",
+      "type": "testDetails",
+      "data": {
+        "name": "Cytomegalovirus IgM Antibody",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive"
+          }
+        }
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Herpes Simplex Virus 1 & 2 IgG",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive"
+          }
+        }
+      },
+      "_id": "6420053056867e2be547a29c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Herpes Simplex Virus 1 & 2 IgM",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "female-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive",
+            "child-range": "< 0.8 Negative\n0.8-1.3 Doubtful\n> 1.3 Positive"
+          }
+        }
+      },
+      "_id": "6420053056867e2be547a29d"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641a6f1c063818086a8ce0d4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0943",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.314Z",
+  "updatedAt": "2026-08-14T17:59:51.314Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

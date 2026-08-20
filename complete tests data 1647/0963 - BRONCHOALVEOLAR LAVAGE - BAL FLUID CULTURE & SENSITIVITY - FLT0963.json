@@ -1,0 +1,197 @@
+{
+  "_id": "6a86cc68ba46c74c6d44d590",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BRONCHOALVEOLAR LAVAGE - BAL FLUID CULTURE & SENSITIVITY",
+  "code": "2180",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Volume",
+        "field": "numeric",
+        "units": "mL",
+        "range": {
+          "default": {
+            "male-range-min": "20",
+            "male-range-max": "150",
+            "female-range-max": "150",
+            "female-range-min": "20",
+            "child-range-max": "150",
+            "child-range-min": "20"
+          }
+        },
+        "formulaId": "b897aaf9-d785-4dd6-af59-97f2a30bc769"
+      },
+      "_id": "688111d9fab924fb6280816a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Colony Count",
+        "field": "numeric_unbound",
+        "units": "CFU/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">",
+              "value": "10000"
+            },
+            "female-range": {
+              "op": ">",
+              "value": "10000"
+            },
+            "child-range": {
+              "op": ">",
+              "value": "10000"
+            }
+          }
+        },
+        "formulaId": "3404f20d-a13f-46cc-9522-12cfe97bb41f",
+        "flabsCode": "FLP2119"
+      },
+      "_id": "688111d9fab924fb6280816b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Polymorphonuclear Leukocytes",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "25",
+            "male-range-max": "30",
+            "female-range-max": "30",
+            "female-range-min": "25",
+            "child-range-max": "30",
+            "child-range-min": "25"
+          }
+        },
+        "formulaId": "a2a70031-b762-4ac4-9f21-da50a2f7973e",
+        "flabsCode": "FLP1749"
+      },
+      "_id": "688111d9fab924fb6280816c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Epithelial Cells",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "10"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "10"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "10"
+            }
+          }
+        },
+        "rangeReport": "<5-10",
+        "formulaId": "1bd14bdf-9b61-4309-90b9-68419ef07c76",
+        "flabsCode": "FLP0830"
+      },
+      "_id": "688111d9fab924fb6280816d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Culture Growth",
+        "field": "text",
+        "formulaId": "7ab360e2-9dae-4401-b9f8-5df414db87d5",
+        "flabsCode": "FLP0699"
+      },
+      "_id": "688111d9fab924fb6280816e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MIC (Minimum Inhibitory Concentration)",
+        "field": "text",
+        "units": "µg/mL",
+        "formulaId": "06644b64-8fe4-4915-a52f-044ad5089c0e",
+        "flabsCode": "FLP1399"
+      },
+      "_id": "688111d9fab924fb6280816f"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c436",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0963",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.919Z",
+  "updatedAt": "2025-07-21T19:17:55.919Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

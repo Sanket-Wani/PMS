@@ -1,0 +1,147 @@
+{
+  "_id": "6a86cb6d92e2891d948be5dd",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "METANEPHRINE PLASMA",
+  "code": "1154",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "value": "<table border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td><strong>TEST NAME</strong></td>\n<td><strong>RESULT</strong></td>\n<td><strong>UNIT</strong></td>\n<td><strong>BIO REF. RANGE</strong></td>\n</tr>\n<tr>\n<td>METANEPHRINE -PLASMA FREE</td>\n<td>37.00</td>\n<td>ng/L</td>\n<td>7.90-88.70</td>\n</tr>\n<tr>\n<td>NON-METANEPHRINE -PLASMA FREE</td>\n<td><strong>243.00</strong></td>\n<td>ng/L</td>\n<td>20.10-135.40</td>\n</tr>\n<tr>\n<td>3-METHOXYTYRAMINE</td>\n<td>6.03</td>\n<td>ng/L</td>\n<td>&lt;18.40</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Note</strong><br>1. Recommended method to measure metanephrines is LC-MS/MS or HPLC with ECD to establish diagnosis of Phechromocytoma and Paraganglionoma (PPGL).<br>2. Certain drugs (Isoproterenol, Ephedrine and methamphetamine) may interfere with assay &amp; produce false negative results.<br><br><strong>Comment</strong><br>Metanephrines and Normetanephrines collectively called Metanephrines are metabolites of Epinephrine and Norepinephrine respectively. They are elevated in catecholamine secreting tumors like Pheochromocytomas and in tumors derived from neural crest cells like Paraganglioma and Neuroblastoma. Measurement of plasma free metanephrines appears to be the best test for excluding pheochromocytoma as the test' sensitivity is approximately 96-99 %. It offers a specificity between 80-100 % and therefore relatively high rate of false positive results may be found. Several preanalytical factors may affect the test results such as exercise, posture, food, stress, hypoglycemia and certain medications etc.<br><br>Due to the low prevalence of pheochromocytomas and related tumors, it is recommended to confirm<br>elevated plasma free metanephrines with a second line test. The recommended second -line test is<br>measurement of fractionated 24-hour urinary metanephrines. Tumoural production of 3-methoxytyramine is associated with presence of an underlying SDHB mutation and may be a biomarker of malignancy.<br><br>Following patients with or without hypertension should be investigated for Pheochromocytoma:<br>&bull; Previous history of tumor<br>&bull; Adrenal incidentaloma<br>&bull; Hereditary predisposition</p>",
+        "field": "numeric",
+        "name": "METANEPHRINE PLASMA - FREE",
+        "units": "ng/L",
+        "range": {
+          "default": {
+            "male-range-min": "7.90",
+            "male-range-max": "88.70",
+            "female-range-max": "88.70",
+            "female-range-min": "7.90",
+            "child-range-max": "88.70",
+            "child-range-min": "7.90"
+          }
+        },
+        "flabsCode": "FLP1396"
+      },
+      "_id": "67b85b8068c798e68b0b3615"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "NON METANEPHRINE PLASMA - FREE",
+        "field": "numeric",
+        "units": "ng/L",
+        "range": {
+          "default": {
+            "male-range-min": "20.10",
+            "male-range-max": "135.40",
+            "female-range-max": "135.40",
+            "female-range-min": "20.10",
+            "child-range-max": "135.40",
+            "child-range-min": "20.10"
+          }
+        },
+        "flabsCode": "FLP1536"
+      },
+      "_id": "688ec9e24f3f1b57a6c48ca3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "3-METHOXYTYRAMINE",
+        "field": "numeric_unbound",
+        "units": "ng/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "18.40"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "18.40"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "18.40"
+            }
+          }
+        },
+        "flabsCode": "FLP0044"
+      },
+      "_id": "688ec9e24f3f1b57a6c48ca4"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1a7",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0163",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.652Z",
+  "updatedAt": "2025-07-21T19:17:52.652Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

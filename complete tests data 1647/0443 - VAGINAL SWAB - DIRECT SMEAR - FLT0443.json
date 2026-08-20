@@ -1,0 +1,182 @@
+{
+  "_id": "6a86cbd892e2891d948cbeef",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "VAGINAL SWAB - DIRECT SMEAR",
+  "code": "1489",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1036\" data-end=\"1296\">\n<li data-start=\"1036\" data-end=\"1085\">\n<p data-start=\"1038\" data-end=\"1085\"><span style=\"font-size: 9px;\"><strong data-start=\"1038\" data-end=\"1052\">Clue Cells</strong> suggest <em data-start=\"1061\" data-end=\"1082\">Bacterial Vaginosis</em>.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1086\" data-end=\"1135\">\n<p data-start=\"1088\" data-end=\"1135\"><span style=\"font-size: 9px;\"><strong data-start=\"1088\" data-end=\"1103\">Yeast Cells</strong> indicate <em data-start=\"1113\" data-end=\"1132\">Candida infection</em>.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1136\" data-end=\"1191\">\n<p data-start=\"1138\" data-end=\"1191\"><span style=\"font-size: 9px;\"><strong data-start=\"1138\" data-end=\"1153\">Trichomonas</strong> presence confirms <em data-start=\"1172\" data-end=\"1188\">Trichomoniasis</em>.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1192\" data-end=\"1296\">\n<p data-start=\"1194\" data-end=\"1296\"><span style=\"font-size: 9px;\"><strong data-start=\"1194\" data-end=\"1210\">Lactobacilli</strong> are part of normal vaginal flora; their depletion may suggest infection or imbalance.</span></p>\n</li>\n</ul>\n<h3 data-start=\"1303\" data-end=\"1327\"><span style=\"font-size: 9px;\"><strong data-start=\"1310\" data-end=\"1327\">Clinical Use:</strong></span></h3>\n<ul data-start=\"1329\" data-end=\"1498\">\n<li style=\"font-size: 9px;\" data-start=\"1329\" data-end=\"1427\">\n<p data-start=\"1331\" data-end=\"1427\"><span style=\"font-size: 9px;\">Detects <strong data-start=\"1339\" data-end=\"1368\">common vaginal infections</strong> like Bacterial Vaginosis, Candidiasis, and Trichomoniasis.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1428\" data-end=\"1498\">\n<p data-start=\"1430\" data-end=\"1498\"><span style=\"font-size: 9px;\">Assists in evaluating <strong data-start=\"1452\" data-end=\"1497\">vaginal discharge, itching, or discomfort</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "vaginal swab",
+  "department": "6414fc0ef02dc1ebb6a097a7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Few",
+            "female-range": "Few",
+            "child-range": "Few"
+          }
+        },
+        "units": "/hpf",
+        "name": "Epithelial Cells",
+        "formulaId": "bc54d647-a144-4c66-8ea8-f8ad2cfafda7",
+        "flabsCode": "FLP0830"
+      },
+      "_id": "6885191a0a49ec9180814583"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pus Cells (WBCs)",
+        "field": "numeric",
+        "units": "/hpf\t",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "5",
+            "female-range-max": "5",
+            "female-range-min": "0",
+            "child-range-max": "5",
+            "child-range-min": "0"
+          }
+        },
+        "formulaId": "5f7fd74c-a432-4fd1-93e8-d17aa56db6f4",
+        "flabsCode": "FLP1804"
+      },
+      "_id": "6885191a0a49ec9180814584"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clue Cells",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Absent",
+            "female-range": "Absent",
+            "child-range": "Absent"
+          }
+        },
+        "formulaId": "7f80510a-3320-45a7-a396-22f7a247a7e4",
+        "flabsCode": "FLP0626"
+      },
+      "_id": "6885191a0a49ec9180814585"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Yeast-like Cells\t",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Absent",
+            "female-range": "Absent",
+            "child-range": "Absent"
+          }
+        },
+        "formulaId": "0f74e80c-d9d0-4942-b253-6adb63982fa9",
+        "flabsCode": "FLP2296"
+      },
+      "_id": "6885191a0a49ec9180814586"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Trichomonas Vaginalis\t",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Not Seen",
+            "female-range": "Not Seen",
+            "child-range": "Not Seen"
+          }
+        },
+        "formulaId": "b6071edc-5d23-4e99-8d82-fa6faba7eb79",
+        "flabsCode": "FLP2161"
+      },
+      "_id": "6885191a0a49ec9180814587"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "text",
+        "rangeReport": "Lactobacilli Dominant",
+        "name": "Bacterial Morphology",
+        "formulaId": "454b65df-3a65-4e7e-b932-6c10f5855060",
+        "flabsCode": "FLP0341"
+      },
+      "_id": "6885191a0a49ec9180814588"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c286",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0443",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.662Z",
+  "updatedAt": "2025-07-21T19:17:53.662Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,131 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b62",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FREE PSA:TOTAL PSA RATIO",
+  "code": " PSA ",
+  "cost": 0,
+  "interpretation": "<p><strong>Test Usage:</strong></p><p>The percentage of measured PSA existing in the free form (free:total PSA ratio) is useful in assessing the risk of prostate cancer in patients with borderline or moderately increased total PSA (4-10 ng/mL).</p><p><strong>Reference Range:</strong></p><p>When total PSA is in the range of 4.0-10.0 ng/mL, a free:total PSA ratio &lt; or =0.10 indicates 49% to 65% risk of prostate cancer depending on age; a free:total PSA ratio &gt;0.25 indicates a 9% to 16% risk of prostate cancer, depending on age.</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total PSA",
+        "field": "numeric",
+        "units": "ng/ml",
+        "range": {
+          "default": {
+            "child-range-max": "0.65",
+            "male-range-max": "0.65",
+            "male-range-min": "0.3",
+            "female-range-min": "0.3",
+            "female-range-max": "0.65",
+            "child-range-min": "0.3"
+          }
+        }
+      },
+      "_id": "641b704f063818086a8d02aa"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "units": " ng/ml",
+        "range": {
+          "default": {
+            "female-range-min": "0",
+            "female-range-max": "0.5",
+            "child-range-min": "0",
+            "child-range-max": "0.5",
+            "male-range-max": "0.5",
+            "male-range-min": "0"
+          }
+        },
+        "name": "Free PSA",
+        "field": "numeric"
+      },
+      "_id": "641b704f063818086a8d02ab"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Free PSA:Total PSA Ratio",
+        "field": "numeric",
+        "units": "%",
+        "formula": "({Free_PSA}/{Total_PSA})*100"
+      },
+      "_id": "641b704f063818086a8d02ac"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641b704f063818086a8d02a9",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1669",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.352Z",
+  "updatedAt": "2026-08-14T17:59:51.352Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

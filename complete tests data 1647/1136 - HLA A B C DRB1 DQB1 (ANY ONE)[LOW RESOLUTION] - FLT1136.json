@@ -1,0 +1,148 @@
+{
+  "_id": "6a86cca292e2891d948eb5b5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HLA A B C DRB1 DQB1 (ANY ONE)[LOW RESOLUTION]",
+  "code": "2375",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1278\" data-end=\"1338\">\n<p data-start=\"1280\" data-end=\"1338\">Low-resolution HLA typing identifies major antigen groups.</p>\n</li>\n<li data-start=\"1339\" data-end=\"1444\">\n<p data-start=\"1341\" data-end=\"1444\">Used primarily for disease association, drug hypersensitivity, or <strong data-start=\"1407\" data-end=\"1443\">preliminary transplant screening</strong>.</p>\n</li>\n<li data-start=\"1445\" data-end=\"1519\">\n<p data-start=\"1447\" data-end=\"1519\">High-resolution typing is recommended for donor-recipient compatibility.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-A (Low Res)",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "",
+            "female-range": "Varies by population",
+            "child-range": "Varies by population"
+          }
+        },
+        "test_method": "PCR-SSP",
+        "formulaId": "773ccb5e-967a-40a1-8bba-b87e071e4191",
+        "flabsCode": "FLP1111"
+      },
+      "_id": "6883b46135738384e78f5a8f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-B (Low Res)",
+        "field": "text",
+        "test_method": "pcr-ssp",
+        "formulaId": "4a783da1-074e-4d3b-8760-56a1bdf2d7c0",
+        "flabsCode": "FLP1115"
+      },
+      "_id": "6883b46135738384e78f5a90"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-C (Low Res)",
+        "field": "text",
+        "test_method": "pcr-ssp",
+        "formulaId": "f38153e0-4a8b-44bd-846a-e8147c302d59",
+        "flabsCode": "FLP1119"
+      },
+      "_id": "6883b46135738384e78f5a91"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-DRB1 (Low Res)",
+        "field": "text",
+        "test_method": "pcr-ssp",
+        "formulaId": "289059c1-bd4c-4dd7-992a-ad3533940b21",
+        "flabsCode": "FLP1128"
+      },
+      "_id": "6883b46135738384e78f5a92"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HLA-DQB1 (Low Res)",
+        "field": "text",
+        "test_method": "pcr-ssp",
+        "range": {
+          "default": {
+            "male-range": ""
+          }
+        },
+        "formulaId": "e0a7b431-f995-4f76-b454-ab1cb0659b22",
+        "flabsCode": "FLP1123"
+      },
+      "_id": "6883b46135738384e78f5a93"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4cf",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1136",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.587Z",
+  "updatedAt": "2025-07-21T19:17:56.587Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,195 @@
+{
+  "_id": "6a86cbbbba46c74c6d435f8e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AMNIOCENTESIS + PND KARYOTYPING",
+  "code": "1395",
+  "cost": 0,
+  "interpretation": "<ol data-start=\"2277\" data-end=\"2907\">\n<li data-start=\"2277\" data-end=\"2437\">\n<p data-start=\"2280\" data-end=\"2303\"><span style=\"font-size: 10px;\"><strong data-start=\"2280\" data-end=\"2301\">Normal Karyotype:</strong></span></p>\n<ul data-start=\"2307\" data-end=\"2437\">\n<li style=\"font-size: 10px;\" data-start=\"2307\" data-end=\"2388\">\n<p data-start=\"2309\" data-end=\"2388\"><span style=\"font-size: 10px;\">46,XX (female) or 46,XY (male) without numerical or structural abnormalities.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2392\" data-end=\"2437\">\n<p data-start=\"2394\" data-end=\"2437\"><span style=\"font-size: 10px;\">Indicates no major chromosomal abnormality.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2439\" data-end=\"2714\">\n<p data-start=\"2442\" data-end=\"2467\"><span style=\"font-size: 10px;\"><strong data-start=\"2442\" data-end=\"2465\">Abnormal Karyotype:</strong></span></p>\n<ul data-start=\"2471\" data-end=\"2714\">\n<li style=\"font-size: 10px;\" data-start=\"2471\" data-end=\"2554\">\n<p data-start=\"2473\" data-end=\"2554\"><span style=\"font-size: 10px;\">Numerical abnormalities (e.g., Trisomy 21, Trisomy 18, Trisomy 13, Monosomy X).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2558\" data-end=\"2629\">\n<p data-start=\"2560\" data-end=\"2629\"><span style=\"font-size: 10px;\">Structural changes (e.g., translocations, deletions, duplications).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2633\" data-end=\"2714\">\n<p data-start=\"2635\" data-end=\"2714\"><span style=\"font-size: 10px;\">Requires genetic counseling and correlation with ultrasound/maternal screening.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2716\" data-end=\"2907\">\n<p data-start=\"2719\" data-end=\"2740\"><span style=\"font-size: 10px;\"><strong data-start=\"2719\" data-end=\"2738\">Clinical Notes:</strong></span></p>\n<ul data-start=\"2744\" data-end=\"2907\">\n<li style=\"font-size: 10px;\" data-start=\"2744\" data-end=\"2831\">\n<p data-start=\"2746\" data-end=\"2831\"><span style=\"font-size: 10px;\">Negative result does not exclude all genetic disorders (e.g., single gene defects).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2835\" data-end=\"2907\">\n<p data-start=\"2837\" data-end=\"2907\"><span style=\"font-size: 10px;\">Consider additional testing (FISH/microarray) if clinically indicated.</span></p>\n</li>\n</ul>\n</li>\n</ol>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cell Culture Success",
+        "field": "custom",
+        "options": [
+          "Successful ",
+          "Unsuccessful"
+        ],
+        "formulaId": "a9bb1c89-4ff0-4e4c-8530-530eb8f4e3aa",
+        "flabsCode": "FLP0558"
+      },
+      "_id": "688536514c9e1585202d60d3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Metaphases Analyzed",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "20",
+              "op": ">="
+            },
+            "female-range": {
+              "value": "20",
+              "op": ">="
+            },
+            "child-range": {
+              "value": "20",
+              "op": ">="
+            }
+          }
+        },
+        "formulaId": "54cca194-6e6a-458a-b073-047e45756d2b",
+        "flabsCode": "FLP1576"
+      },
+      "_id": "688536514c9e1585202d60d4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome Count",
+        "field": "numeric",
+        "formulaId": "ad99bd25-0dc1-407a-a697-a07fbbe42769",
+        "flabsCode": "FLP0599"
+      },
+      "_id": "688536514c9e1585202d60d5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Karyotype Result",
+        "field": "numeric",
+        "formulaId": "8aaaa1b8-b782-41f1-8384-beecc3b9350e",
+        "flabsCode": "FLP1302"
+      },
+      "_id": "688536514c9e1585202d60d6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Numerical Abnormalities",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "379222e9-0a4c-47eb-bd51-b1d3ea372909",
+        "flabsCode": "FLP1582"
+      },
+      "_id": "688536514c9e1585202d60d7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Structural Abnormalities",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "95d8f868-62bc-4c16-ab6f-f8ca74677223",
+        "flabsCode": "FLP2039"
+      },
+      "_id": "688536514c9e1585202d60d8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Maternal Cell Contamination",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "ce77e845-770b-4db6-843d-036967b5746c",
+        "flabsCode": "FLP1437"
+      },
+      "_id": "688536514c9e1585202d60d9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensitivity of Detection",
+        "field": "numeric",
+        "units": "%",
+        "rangeReport": "Detects mosaicism ≥10–20%",
+        "formulaId": "450a6b8b-60ec-4faa-bfa8-76ffb41bbfe2",
+        "flabsCode": "FLP1958"
+      },
+      "_id": "688536514c9e1585202d60da"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c22c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0352",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.261Z",
+  "updatedAt": "2025-07-21T19:17:53.261Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

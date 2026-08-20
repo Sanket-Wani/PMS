@@ -1,0 +1,139 @@
+{
+  "_id": "6a86ccf3ba46c74c6d45f466",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY SPECIFIC IgG PIGEON FEATHERS AND DROPPING",
+  "code": "2659",
+  "cost": 0,
+  "interpretation": "<p>The level of serum Igg rises during childhood and reaches adult levels during the teens. Igg is the mediator of<br>the allergic response. Patients with atopic disease, including allergic asthama, allergic rhinitis, and atopic<br>dermatitis commonly have moderately elevated serum IgE levels. Total serum IgE levels may also be elevated in<br>the presence of some clinical conditions that are not related to allergy. These include parasitic infections,<br>immunodeficiency states, autoimmune diseases, Hodgkins disease, bronchopulmonary aspergillosis, IgE<br>myeloma, and Sezary syndrome.&nbsp;</p>\n<table style=\"border-collapse: collapse; width: 99.9989%;\" border=\"1\"><colgroup><col style=\"width: 33.2869%;\"><col style=\"width: 33.2869%;\"><col style=\"width: 33.2869%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 15px;\"><strong>Concentration of IgG in IU/ml</strong></span></td>\n<td><span style=\"font-size: 15px;\"><strong>Class</strong></span></td>\n<td><span style=\"font-size: 15px;\"><strong>Level of The specific IgG</strong></span></td>\n</tr>\n<tr>\n<td>&lt;1.0</td>\n<td>0</td>\n<td>Cilinically insignificant</td>\n</tr>\n<tr>\n<td>1.0 - 2.0&nbsp;</td>\n<td>0-1</td>\n<td>Low</td>\n</tr>\n<tr>\n<td>&gt; 2.0 - 3.3&nbsp;</td>\n<td>1</td>\n<td>Medium</td>\n</tr>\n<tr>\n<td>&gt; 3.5</td>\n<td>&gt;1</td>\n<td>High</td>\n</tr>\n</tbody>\n</table>\n<p><strong><span style=\"font-size: 15px;\">Comments:</span></strong><br>Presence of small amount of Igg antibody to allergen in body may give False positive results. One may contact<br>the Allergen and experience no allergic reaction at all. Cross Reactivity is reported in food proteins and similar<br>proteins in environmental allergens like Tree Pollens. False Positive results may occur in such scenario. Intake of&nbsp;steroids and antihistaminic Drugs may result in false Negative results Assay Results shall be correlated clinically.</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "EPITHELIUM INHALANTS",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric_unbound",
+            "name": "PIGEON FEATHERS",
+            "units": "IU/mL",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "1.00"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "1.00"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "1.00"
+                }
+              }
+            },
+            "formulaId": "69d32a09-0503-42f0-9637-f3cbb2b4308e",
+            "test_method": "elisa",
+            "flabsCode": "FLP1641"
+          },
+          {
+            "key": 1,
+            "field": "numeric_unbound",
+            "name": "PIGEON DROPPINGS",
+            "units": "IU/mL",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "1.00"
+                },
+                "female-range": {
+                  "op": "",
+                  "value": "1.00"
+                },
+                "child-range": {
+                  "op": "",
+                  "value": "1.00"
+                }
+              }
+            },
+            "formulaId": "46f4a2ad-a6ca-4d06-897f-38d0e8d6e936",
+            "flabsCode": "FLP1640"
+          }
+        ]
+      },
+      "_id": "676e505e0a16e71b7d677dd2"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5c4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1388",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.657Z",
+  "updatedAt": "2025-07-21T19:17:57.657Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

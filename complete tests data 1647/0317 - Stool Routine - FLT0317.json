@@ -1,0 +1,247 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b84",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Stool Routine",
+  "code": "SR",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div><span style=\"font-size: 10px;\">Parameter</span></div></th><th><div><span style=\"font-size: 10px;\">Interpretation</span></div></th></tr></thead><tbody><tr><td><div><span style=\"font-size: 10px;\">Color</span></div></td><td><div><span style=\"font-size: 10px;\">Normal color varies from light to dark brown</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Consistency</span></div></td><td><div><span style=\"font-size: 10px;\">Normal consistency should be formed or semi-formed</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Mucus</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of mucus may indicate inflammation or irritation in the intestinal lining</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Blood</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of blood may indicate bleeding in the gastrointestinal tract</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Occult Blood</span></div></td><td><div><span style=\"font-size: 10px;\">Positive result may indicate bleeding in the gastrointestinal tract</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">pH</span></div></td><td><div><span style=\"font-size: 10px;\">Normal pH range is 6.0 to 7.5</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Reducing Substances</span></div></td><td><div><span style=\"font-size: 10px;\">Positive result may indicate malabsorption of carbohydrates</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Ova and Parasites</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of ova or parasites may indicate a parasitic infection</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Cysts</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of cysts may indicate a protozoal infection</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Trophozoites</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of trophozoites may indicate a protozoal infection</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Worms</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of worms may indicate a helminthic infection</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Vegetative Forms</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of vegetative forms may indicate bacterial infection</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">RBCs</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of RBCs may indicate bleeding in the gastrointestinal tract</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Pus Cells</span></div></td><td><div><span style=\"font-size: 10px;\">Presence of pus cells may indicate inflammation or infection in the gastrointestinal tract</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Epithelial Cells</span></div></td><td><div><span style=\"font-size: 10px;\">Normal finding, may indicate contamination from skin</span></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "stool",
+  "department": "6414fd62f02dc1ebb6a09803",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "General Examinations",
+        "categories": [
+          {
+            "field": "custom",
+            "name": "Reaction(pH)",
+            "options": [
+              "Alkaline",
+              "Neutral",
+              "Acidic"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Reducing substances",
+            "options": [
+              "absent",
+              "present"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Occult Blood",
+            "options": [
+              "absent",
+              "Trace",
+              "Present(+)",
+              "Present(++)",
+              "Present(+++)"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Colour",
+            "options": [
+              "Brownish",
+              "Yellowish",
+              "Greenish",
+              "Blackish",
+              "Creamish",
+              "Reddish"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Consistency",
+            "options": [
+              "Semisolid",
+              "Solid",
+              "Semi-formed",
+              "Semi-liquid",
+              "Liquid"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Mucus",
+            "options": [
+              "absent",
+              "Traces",
+              "present"
+            ]
+          }
+        ]
+      },
+      "_id": "641c9dd5063818086a8d19e3"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopic Examination",
+        "categories": [
+          {
+            "name": "Pus Cells(Leucocytes)",
+            "options": [
+              "Occasional/hpf",
+              "1-2/hpf",
+              "2-4/hpf",
+              "4-6/hpf",
+              "6-8/hpf",
+              "8-10",
+              "10-20/hpf",
+              "20-30",
+              "30-40",
+              "40-50/hpf",
+              "50-60/hpf",
+              "60-70/hpf",
+              "70-80/hpf",
+              "80-90/hpf",
+              "90-100",
+              ">100/hpf"
+            ],
+            "field": "custom"
+          },
+          {
+            "field": "custom",
+            "name": "Epithelial cells",
+            "options": [
+              "Occasional/hpf",
+              "1-2/hpf"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "RBC's",
+            "options": [
+              "Not Seen",
+              "Occasional/hpf",
+              "1-2/hpf",
+              "2-4/hpf",
+              "6-8/hpf",
+              "10-12/hpf",
+              "20-30/hpf",
+              "40-60/hpf",
+              ">100/hpf"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Ova",
+            "options": [
+              "Not Seen",
+              "Eggs of A.lumbricoides seen"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Cysts",
+            "options": [
+              "Not Seen",
+              "Cysts of E.histolytica seen"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Fat Globules",
+            "options": [
+              "absent",
+              "present"
+            ]
+          },
+          {
+            "field": "custom",
+            "name": "Macrophages",
+            "options": [
+              "Not seen",
+              "Seen few"
+            ]
+          },
+          {
+            "options": [
+              "Not Seen",
+              "Seen(+)",
+              "Seen(++)"
+            ],
+            "field": "custom",
+            "name": "Yeasts"
+          }
+        ]
+      },
+      "_id": "641c9dd5063818086a8d19e4"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641c9dd5063818086a8d19e2",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0317",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.387Z",
+  "updatedAt": "2026-08-14T17:59:51.387Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

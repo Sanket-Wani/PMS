@@ -1,0 +1,130 @@
+{
+  "_id": "6a86cc045953b1dd0a17b6f0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HISTOPATHOLOGY SLIDE TISSUE OF DUPLICATE SLIDES",
+  "code": "1666",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1542\" data-end=\"1619\">\n<p data-start=\"1544\" data-end=\"1619\"><span style=\"font-size: 10px;\">This is <strong data-start=\"1552\" data-end=\"1587\">not a diagnostic test by itself</strong> but a <strong data-start=\"1594\" data-end=\"1616\">processing service</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1620\" data-end=\"1681\">\n<p data-start=\"1622\" data-end=\"1681\"><span style=\"font-size: 10px;\">Slides are prepared from <strong data-start=\"1647\" data-end=\"1678\">existing FFPE tissue blocks</strong>.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1682\" data-end=\"1766\">\n<p data-start=\"1684\" data-end=\"1695\"><span style=\"font-size: 10px;\">Used for:</span></p>\n<ul data-start=\"1698\" data-end=\"1766\">\n<li style=\"font-size: 10px;\" data-start=\"1698\" data-end=\"1717\">\n<p data-start=\"1700\" data-end=\"1717\"><span style=\"font-size: 10px;\">Second opinions</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1720\" data-end=\"1742\">\n<p data-start=\"1722\" data-end=\"1742\"><span style=\"font-size: 10px;\">External referrals</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1745\" data-end=\"1766\">\n<p data-start=\"1747\" data-end=\"1766\"><span style=\"font-size: 10px;\">Archival purposes</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Slides Prepared",
+        "field": "text",
+        "units": "Count",
+        "formulaId": "595843c6-e7fe-42c2-86f1-5c2202683f42",
+        "flabsCode": "FLP1579"
+      },
+      "_id": "6885f19f3661fb0120e146e9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Source of Tissue",
+        "field": "text",
+        "formulaId": "8900c6f7-e47e-4135-b850-cc5f3c290ba0",
+        "flabsCode": "FLP2016"
+      },
+      "_id": "6885f19f3661fb0120e146ea"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Type of Section",
+        "field": "text",
+        "formulaId": "fc3f9487-49dc-4524-936e-bdc7bc1768e5"
+      },
+      "_id": "6885f19f3661fb0120e146eb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Purpose",
+        "field": "text",
+        "formulaId": "5153b971-6b5f-439c-ad4d-d4b819a6b85f",
+        "flabsCode": "FLP1802"
+      },
+      "_id": "6885f19f3661fb0120e146ec"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Remarks",
+        "field": "text",
+        "formulaId": "7f4cfc13-9293-4c88-9938-4eac75ddabf4"
+      },
+      "_id": "6885f19f3661fb0120e146ed"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2fb",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0587",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.168Z",
+  "updatedAt": "2025-07-21T19:17:54.168Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

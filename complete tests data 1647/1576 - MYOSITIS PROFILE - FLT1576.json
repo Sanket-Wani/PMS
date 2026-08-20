@@ -1,0 +1,235 @@
+{
+  "_id": "6a86cd2b92e2891d94905b26",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MYOSITIS PROFILE",
+  "code": "2813",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%; height: 165.26px;\" border=\"1\"><colgroup><col style=\"width: 33.2402%;\"><col style=\"width: 33.2402%;\"><col style=\"width: 33.2402%;\"></colgroup>\n<tbody>\n<tr style=\"height: 33.0521px;\">\n<td>CLASS&nbsp;</td>\n<td>RESULT</td>\n<td>INTERPRETATION</td>\n</tr>\n<tr style=\"height: 33.0521px;\">\n<td>0&nbsp;</td>\n<td>Negative</td>\n<td>Negative</td>\n</tr>\n<tr style=\"height: 33.0521px;\">\n<td>(+)&nbsp;</td>\n<td>Borderline</td>\n<td>Increased but negative</td>\n</tr>\n<tr style=\"height: 33.0521px;\">\n<td>+ &amp; ++</td>\n<td>Positive + &amp; positive ++</td>\n<td>Positive</td>\n</tr>\n<tr style=\"height: 33.0521px;\">\n<td>+++&nbsp;</td>\n<td>Positive +++&nbsp;</td>\n<td>Strong positive</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Note</strong></p>\n<p>1. Results should be correlated with indirect immunofluorescence (IFA)<br>2. Antibodies against cytoplasmic antigens (Jo-1, SRP, PL-7,PL-12, EJ and OJ) are sometimes not detectable<br>by IFA</p>\n<p><strong>Comments</strong></p>\n<p>Myositis is an inflammatory disease of the skeletal muscle. It may be hereditary, caused by infection, autoimmunity or toxins.&nbsp;The detection of Myositis associated antibodies is essential in the diagnosis of dermato/polymyositis in controlling the course of&nbsp;disease &amp; in therapy management</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mi-2",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "6c289f3a-b965-406a-881a-8c75ae5fe7b8",
+        "flabsCode": "FLP1470"
+      },
+      "_id": "678b57f33807bb1deeeab7a5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ku",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "936eef42-1112-408d-8f76-77235b12ec69",
+        "flabsCode": "FLP1310"
+      },
+      "_id": "678b57f33807bb1deeeab7a6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PM-Scl 100",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "2e200438-7071-44ae-9b77-dce0ade15f8c",
+        "flabsCode": "FLP1651"
+      },
+      "_id": "678b57f33807bb1deeeab7a7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PM-Scl 75",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "939a62f6-62a6-4ffe-b77f-791279fab683",
+        "flabsCode": "FLP1652"
+      },
+      "_id": "678b57f33807bb1deeeab7a8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Jo-1",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "fe214521-d631-4a63-811f-ad3f9eb3b372",
+        "flabsCode": "FLP1294"
+      },
+      "_id": "678b57f33807bb1deeeab7a9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SRP",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "7a2bad89-8aed-4125-8acf-9e15eecf270b",
+        "flabsCode": "FLP1929"
+      },
+      "_id": "678b57f33807bb1deeeab7aa"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PL-7",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "214c9b6b-fc3e-4384-bcdc-86264ec5cea9",
+        "flabsCode": "FLP1645"
+      },
+      "_id": "678b57f33807bb1deeeab7ab"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PL-12",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "0abc145c-4680-4801-98dd-7c7bb012e986",
+        "flabsCode": "FLP1644"
+      },
+      "_id": "678b57f33807bb1deeeab7ac"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "EJ",
+        "field": "custom",
+        "options": [
+          "negative",
+          "positive"
+        ],
+        "formulaId": "66d54726-0cbf-401b-bc92-d3e3474c0eae",
+        "flabsCode": "FLP0792"
+      },
+      "_id": "678b57f33807bb1deeeab7ad"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "OJ",
+        "field": "custom",
+        "options": [
+          "positive",
+          "negative"
+        ],
+        "formulaId": "b2cbd2a3-40ce-4649-9aa0-dc4cf8b9cf78",
+        "flabsCode": "FLP1583"
+      },
+      "_id": "678b57f33807bb1deeeab7ae"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ro-52",
+        "field": "custom",
+        "options": [
+          "positive",
+          "negative"
+        ],
+        "formulaId": "f8633d55-206f-4624-b2dc-59483fbccb80",
+        "flabsCode": "FLP1864"
+      },
+      "_id": "678b57f33807bb1deeeab7af"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92667bf95259b913c65b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1576",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:58.249Z",
+  "updatedAt": "2025-07-21T19:17:58.249Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,160 @@
+{
+  "_id": "6a86cbbbba46c74c6d436088",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CORD BLOOD POSTNATAL KARYOTYPING",
+  "code": "1409",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1669\" data-end=\"1699\">\n<p data-start=\"1671\" data-end=\"1699\"><strong data-start=\"1671\" data-end=\"1682\">Normal:</strong> 46,XX or 46,XY</p>\n</li>\n<li data-start=\"1700\" data-end=\"1828\">\n<p data-start=\"1702\" data-end=\"1828\"><strong data-start=\"1702\" data-end=\"1715\">Abnormal:</strong> Aneuploidy (e.g., Trisomy 21, Monosomy X), structural rearrangements (deletions, duplications, translocations)</p>\n</li>\n<li data-start=\"1829\" data-end=\"1885\">\n<p data-start=\"1831\" data-end=\"1885\"><strong data-start=\"1831\" data-end=\"1845\">Mosaicism:</strong> Percentage of abnormal cells reported</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome Count",
+        "field": "text",
+        "formulaId": "8b1e0990-70f9-4567-9710-663edd7aaae2",
+        "flabsCode": "FLP0599"
+      },
+      "_id": "68850ef90a49ec91807f5bb5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sex Chromosomes",
+        "field": "text",
+        "formulaId": "2fdce457-3161-4386-9cff-94fe27f8b943",
+        "flabsCode": "FLP1996"
+      },
+      "_id": "68850ef90a49ec91807f5bb6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Karyotype",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "46,XX (Normal Female) / 46,XY (Normal Male)",
+            "female-range": "46,XX (Normal Female) / 46,XY (Normal Male)",
+            "child-range": "46,XX (Normal Female) / 46,XY (Normal Male)"
+          }
+        },
+        "formulaId": "f5c08175-ca28-49f6-9666-e0b31d200b3b",
+        "flabsCode": "FLP1302"
+      },
+      "_id": "68850ef90a49ec91807f5bb7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Numerical Abnormalities",
+        "field": "custom",
+        "options": [
+          "None- Detected",
+          "Present"
+        ],
+        "formulaId": "f60d7214-5ad5-43b1-ac13-92f220ce7311",
+        "flabsCode": "FLP1582"
+      },
+      "_id": "68850ef90a49ec91807f5bb8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Structural Abnormalities",
+        "field": "custom",
+        "options": [
+          "Non- Detected",
+          "Present"
+        ],
+        "formulaId": "e648e581-b3e7-42c2-8f5d-3f88c6386e64",
+        "flabsCode": "FLP2039"
+      },
+      "_id": "68850ef90a49ec91807f5bb9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mosaicism",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "3a4d656c-2a89-411b-aeb6-82a809851a25",
+        "flabsCode": "FLP1495"
+      },
+      "_id": "68850ef90a49ec91807f5bba"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c23a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0365",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.331Z",
+  "updatedAt": "2025-07-21T19:17:53.331Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,157 @@
+{
+  "_id": "6a86cb6d92e2891d948be597",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LIPOPROTEIN ELECTROPHORESIS",
+  "code": "1145",
+  "cost": 0,
+  "interpretation": "<ul class=\"marker:text-textOff list-disc\">\n<li>\n<p class=\"my-0\"><strong>Normal Pattern:</strong>&nbsp;Clear serum with predominant Beta-lipoprotein band; faint Pre-Beta and Alpha bands; negligible or absent chylomicrons.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Type II Hyperlipoproteinemia:</strong>&nbsp;Elevated Beta (LDL) band; associated with hypercholesterolemia.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Type III (Broad Beta) Pattern:</strong>&nbsp;Broad Beta band with presence of abnormal lipoprotein (&ldquo;floating Beta&rdquo;); elevated cholesterol and triglycerides; plasma may be turbid.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Type IV Pattern:</strong>&nbsp;Increased Pre-Beta (VLDL); elevated triglycerides; Alpha and Beta bands usually normal.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Chylomicrons Present:</strong>&nbsp;Suggests postprandial lipemia or Type I hyperlipoproteinemia.</p>\n</li>\n<li>\n<p class=\"my-0\"><strong>Additional Comments:</strong> Abnormal lipoprotein patterns may be primary (genetic) or secondary to metabolic disorders (e.g., diabetes, hypothyroidism, nephrotic syndrome)</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chylomicrons",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "32f06084-4f3a-4b33-bda8-12af4867d6b8",
+        "flabsCode": "FLP0602"
+      },
+      "_id": "688122d87ff2db489c2f4926"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pre-Beta Lipoprotein (VLDL)",
+        "field": "numeric",
+        "units": "%",
+        "formulaId": "80b2e87e-4882-4199-905e-0a5a2cf15af4",
+        "flabsCode": "FLP1769"
+      },
+      "_id": "688122d87ff2db489c2f4927"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Beta Lipoprotein (LDL)",
+        "field": "numeric",
+        "units": "%",
+        "formulaId": "03e041fc-4a70-41be-9fa3-7afc2fb839b2",
+        "flabsCode": "FLP0362"
+      },
+      "_id": "688122d87ff2db489c2f4928"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Alpha Lipoprotein (HDL)",
+        "field": "numeric",
+        "units": "%",
+        "formulaId": "0cf1a57d-a3b9-4d0a-93db-dcbb3e3f00f9",
+        "flabsCode": "FLP0187"
+      },
+      "_id": "688122d87ff2db489c2f4929"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lp(a) Band",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "21452f97-5056-4931-bfb5-3c6132217e67",
+        "flabsCode": "FLP1379"
+      },
+      "_id": "688122d87ff2db489c2f492a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Appearance of Serum",
+        "field": "custom",
+        "options": [
+          "Clear",
+          "Turbid",
+          "Lipemic"
+        ],
+        "formulaId": "b940c0c2-f618-4bd6-ab28-c117b959b8b2",
+        "flabsCode": "FLP0271"
+      },
+      "_id": "688122d87ff2db489c2f492b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1a1",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0156",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.624Z",
+  "updatedAt": "2025-07-21T19:17:52.624Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

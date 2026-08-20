@@ -1,0 +1,141 @@
+{
+  "_id": "6a86cce55953b1dd0a19c1de",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "REPETITIVE NERVE STIMULATION (RNS) LOWER LIMB",
+  "code": "2563",
+  "cost": 0,
+  "interpretation": "<h3 data-start=\"1324\" data-end=\"1349\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1328\" data-end=\"1347\">Interpretation:</strong></span></h3>\n<ul data-start=\"1350\" data-end=\"1642\">\n<li style=\"font-size: 9.38px;\" data-start=\"1350\" data-end=\"1445\">\n<p data-start=\"1352\" data-end=\"1445\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1352\" data-end=\"1363\">Normal:</strong> No significant decrement (&le;10%) in CMAP amplitude after repetitive stimulation.</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1446\" data-end=\"1564\">\n<p data-start=\"1448\" data-end=\"1564\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1448\" data-end=\"1461\">Abnormal:</strong> &gt;10% decrement in CMAP amplitude suggests neuromuscular junction disorder (e.g., Myasthenia Gravis).</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1565\" data-end=\"1642\">\n<p data-start=\"1567\" data-end=\"1642\"><span style=\"font-size: 9.38px;\">Post-exercise increments may indicate presynaptic disorders (e.g., LEMS).</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Baseline CMAP Amplitude",
+        "field": "text",
+        "units": "mV",
+        "formulaId": "76b076ac-761a-45e8-8928-a2ff94f223c5",
+        "flabsCode": "FLP0350"
+      },
+      "_id": "6882547bff8c9af0b6055920"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Post-Exercise CMAP",
+        "field": "text",
+        "units": "mV",
+        "formulaId": "dfbaedbd-2756-4de2-9f95-6d4082cef1ba",
+        "flabsCode": "FLP1760"
+      },
+      "_id": "6882547bff8c9af0b6055921"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage Decrement",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "10"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "10"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "10"
+            }
+          }
+        },
+        "formulaId": "1acb8420-d874-4642-ac28-9b3661e0d781",
+        "flabsCode": "FLP1704"
+      },
+      "_id": "6882547bff8c9af0b6055922"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Frequency of Stimulation",
+        "field": "text",
+        "units": "Hz",
+        "formulaId": "cc748f4a-6c1d-473d-bd62-a447f8875aa4",
+        "flabsCode": "FLP0970"
+      },
+      "_id": "6882547bff8c9af0b6055923"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c581",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1316",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.388Z",
+  "updatedAt": "2025-07-21T19:17:57.388Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

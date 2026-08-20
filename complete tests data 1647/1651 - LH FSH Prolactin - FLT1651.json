@@ -1,0 +1,132 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381bf1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LH FSH Prolactin ",
+  "code": "LH FSH PRO",
+  "cost": 0,
+  "showInterpretation": false,
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LH",
+        "field": "multiple_ranges",
+        "units": "mIU/mL",
+        "range": {
+          "default": {
+            "male-range": "\n7.7-58.5 : Post Menopause\n14-95.6 : Mid Cycle\n1.0-11.4 : Leutal Phase\n2.4-12.6 : Follicular Phase\n\n",
+            "female-range": "\n7.7-58.5 : Post Menopause\n14-95.6 : Mid Cycle\n1.0-11.4 : Leutal Phase\n2.4-12.6 : Follicular Phase\n\n",
+            "child-range": "\n7.7-58.5 : Post Menopause\n14-95.6 : Mid Cycle\n1.0-11.4 : Leutal Phase\n2.4-12.6 : Follicular Phase\n\n"
+          }
+        }
+      },
+      "_id": "64247e3a4ae0b2aab378ec27"
+    },
+    {
+      "data": {
+        "field": "multiple_ranges",
+        "units": "mIU/mL",
+        "range": {
+          "default": {
+            "male-range": "\n3.5-12.5 : Follicular Phase\n4.7-21.5 : Ovulation Phase\n1.7-7.7 : Luteal Phase\n25.8-134.8 : Post Menopause\n\n",
+            "female-range": "\n3.5-12.5 : Follicular Phase\n4.7-21.5 : Ovulation Phase\n1.7-7.7 : Luteal Phase\n25.8-134.8 : Post Menopause\n\n",
+            "child-range": "\n3.5-12.5 : Follicular Phase\n4.7-21.5 : Ovulation Phase\n1.7-7.7 : Luteal Phase\n25.8-134.8 : Post Menopause\n\n"
+          }
+        },
+        "name": "FSH"
+      },
+      "_id": "64247e3a4ae0b2aab378ec28",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "male-range-max": "15.2",
+            "male-range-min": "4.04",
+            "female-range-min": "4.04",
+            "female-range-max": "15.2",
+            "child-range-min": "4.04",
+            "child-range-max": "15.2"
+          }
+        },
+        "name": "Prolactin",
+        "field": "numeric",
+        "units": "ng/ml"
+      },
+      "_id": "64247ee54ae0b2aab378eccf"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64247e3a4ae0b2aab378ec26",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1651",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.501Z",
+  "updatedAt": "2026-08-14T17:59:51.501Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

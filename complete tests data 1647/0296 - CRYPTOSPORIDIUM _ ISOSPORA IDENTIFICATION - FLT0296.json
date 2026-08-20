@@ -1,0 +1,144 @@
+{
+  "_id": "6a86cbae5953b1dd0a16faa4",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CRYPTOSPORIDIUM / ISOSPORA IDENTIFICATION",
+  "code": "1347",
+  "cost": 0,
+  "interpretation": "<article class=\"text-token-text-primary w-full\" dir=\"auto\" data-testid=\"conversation-turn-44\" data-scroll-anchor=\"true\">\n<div class=\"text-base my-auto mx-auto pb-10 [--thread-content-margin:--spacing(4)] @[37rem]:[--thread-content-margin:--spacing(6)] @[72rem]:[--thread-content-margin:--spacing(16)] px-(--thread-content-margin)\">\n<div class=\"[--thread-content-max-width:32rem] @[34rem]:[--thread-content-max-width:40rem] @[64rem]:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\" tabindex=\"-1\">\n<div class=\"flex max-w-full flex-col grow\">\n<div class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal [.text-message+&amp;]:mt-5\" dir=\"auto\" data-message-author-role=\"assistant\" data-message-id=\"cf816cf5-d5c3-47ec-be51-c5d35b37e3e8\" data-message-model-slug=\"gpt-4o\">\n<div class=\"flex w-full flex-col gap-1 empty:hidden first:pt-[3px]\">\n<div class=\"markdown prose dark:prose-invert w-full break-words dark\">\n<h3 data-start=\"851\" data-end=\"866\"><span style=\"font-size: 9.38px;\"><strong data-start=\"855\" data-end=\"866\">Method:</strong></span></h3>\n<ul data-start=\"867\" data-end=\"985\">\n<li style=\"font-size: 9.38px;\" data-start=\"867\" data-end=\"928\">\n<p data-start=\"869\" data-end=\"928\"><span style=\"font-size: 9.38px;\"><strong data-start=\"869\" data-end=\"926\">Microscopy after Modified Ziehl-Neelsen (ZN) staining</strong></span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"929\" data-end=\"985\">\n<p data-start=\"931\" data-end=\"985\"><span style=\"font-size: 9.38px;\">Oocysts appear <strong data-start=\"946\" data-end=\"961\">pink to red</strong> against blue background</span></p>\n</li>\n</ul>\n<h3 data-start=\"992\" data-end=\"1030\"><span style=\"font-size: 9.38px;\"><strong data-start=\"996\" data-end=\"1030\">Clinical Use / Interpretation:</strong></span></h3>\n<ul data-start=\"1032\" data-end=\"1263\">\n<li style=\"font-size: 9.38px;\" data-start=\"1032\" data-end=\"1203\">\n<p data-start=\"1034\" data-end=\"1203\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1034\" data-end=\"1053\">Cryptosporidium</strong> and <strong data-start=\"1058\" data-end=\"1076\">Isospora belli</strong> are <strong data-start=\"1081\" data-end=\"1104\">coccidian parasites</strong> causing gastrointestinal infection, especially in <strong data-start=\"1155\" data-end=\"1185\">immunocompromised patients</strong> (e.g., HIV/AIDS).</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1204\" data-end=\"1263\">\n<p data-start=\"1206\" data-end=\"1263\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1206\" data-end=\"1225\">Positive result</strong> indicates active parasitic infection.</span></p>\n</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n<div class=\"mx-[var(--mini-thread-content-inset)]\">&nbsp;</div>\n<div class=\"mt-3 w-full empty:hidden\">&nbsp;</div>\n</div>\n</div>\n</article>",
+  "showInterpretation": false,
+  "sampleType": "stool",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cryptosporidium Oocyst",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "693042b3-09b8-4a16-9f88-9c58656072dd",
+        "flabsCode": "FLP0696"
+      },
+      "_id": "68825680ff8c9af0b605c6df"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Isospora Oocyst",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "c5e8ab27-dc01-43f2-ac79-18810b2a37b5",
+        "flabsCode": "FLP1283"
+      },
+      "_id": "68825680ff8c9af0b605c6e0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Modified ZN Stain Observation",
+        "field": "custom",
+        "options": [
+          "Oocyst Seen",
+          " Not Seen"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Seen",
+            "female-range": "Not Seen",
+            "child-range": "Not Seen"
+          }
+        },
+        "formulaId": "b6ef419b-bb5f-4ad6-b87c-4aa33d683a58",
+        "flabsCode": "FLP1491"
+      },
+      "_id": "68825680ff8c9af0b605c6e1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c203",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0296",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.085Z",
+  "updatedAt": "2025-07-21T19:17:53.085Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

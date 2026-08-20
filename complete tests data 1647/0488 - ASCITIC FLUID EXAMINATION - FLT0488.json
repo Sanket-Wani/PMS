@@ -1,0 +1,205 @@
+{
+  "_id": "6a86cbe9ba46c74c6d43a713",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ASCITIC FLUID EXAMINATION",
+  "code": "1533",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "PHYSICAL EXAMINATION",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "VOLUME",
+            "units": "ML",
+            "formulaId": "b6a83bcc-ee22-411e-8cef-b03f6a037c5e",
+            "flabsCode": "FLP2194"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "COLOUR",
+            "formulaId": "54d62864-931f-4e57-8390-f2547c1b5375",
+            "flabsCode": "FLP0516"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Appearance",
+            "formulaId": "45397c57-25d8-4109-bfeb-5a4a6df2de91",
+            "flabsCode": "FLP2158"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "COAGULUM",
+            "options": [
+              "absent",
+              "present"
+            ],
+            "formulaId": "2af8737e-8c23-4739-a895-62978d289c38",
+            "flabsCode": "FLP0485"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "BLOOD",
+            "formulaId": "05893d7f-3200-4810-86bd-ccdcd567b430",
+            "flabsCode": "FLP0380"
+          }
+        ]
+      },
+      "_id": "679a0ef076d698939674b1d6"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CHEMICAL ANALYSIS",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "PROTEIN",
+            "units": "gm/dl",
+            "test_method": "biuret ",
+            "formulaId": "94a1c233-0d86-4ee9-a57b-315fb604f51d",
+            "flabsCode": "FLP1672"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "SUGAR",
+            "units": "mg/dl",
+            "range": {
+              "default": {
+                "male-range": ""
+              }
+            },
+            "test_method": "glucose oxidase/peroxidase",
+            "formulaId": "62141cd5-1bf9-4691-8a86-16749facfd3b",
+            "flabsCode": "FLP1937"
+          }
+        ]
+      },
+      "_id": "679a0ef076d698939674b1d7"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CYTOLOGY",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "TLC ",
+            "units": "cells/cumm",
+            "formulaId": "25418420-2999-4918-a106-ad7d73312fbc",
+            "flabsCode": "FLP2058"
+          }
+        ]
+      },
+      "_id": "679a0ef076d698939674b1d8"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "DLC",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "POLYMORPH",
+            "units": "%",
+            "flabsCode": "FLP1659",
+            "formulaId": "a4235f44-99e0-4b83-8ff7-31f510f8d4a1"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "LYMPHOCYTES",
+            "units": "%",
+            "flabsCode": "FLP1336",
+            "formulaId": "b0b0a905-f7f2-4d50-b32f-957cc96f463f"
+          }
+        ]
+      },
+      "_id": "679a114076d698939677ba48"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c2b1",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0488",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.844Z",
+  "updatedAt": "2025-07-21T19:17:53.844Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

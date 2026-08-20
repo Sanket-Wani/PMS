@@ -1,0 +1,242 @@
+{
+  "_id": "6a86cc7692e2891d948dfd68",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "3 GENE NGS PANEL",
+  "code": "2255",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1816\" data-end=\"1899\">\n<p data-start=\"1818\" data-end=\"1899\"><strong data-start=\"1818\" data-end=\"1832\">Wild-type:</strong> No clinically significant mutation detected in EGFR, KRAS, NRAS.</p>\n</li>\n<li data-start=\"1900\" data-end=\"1975\">\n<p data-start=\"1902\" data-end=\"1975\"><strong data-start=\"1902\" data-end=\"1924\">Mutation Detected:</strong> Actionable based on current clinical guidelines.</p>\n</li>\n<li data-start=\"1976\" data-end=\"2045\">\n<p data-start=\"1978\" data-end=\"2045\"><strong data-start=\"1978\" data-end=\"1996\">Low VAF (&lt;1%):</strong> Below reportable limit (likely insignificant).</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sample Quality (DNA Quantity)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥ 10 ng (Minimum for library prep)",
+            "female-range": "≥ 10 ng (Minimum for library prep)",
+            "child-range": "≥ 10 ng (Minimum for library prep)"
+          }
+        },
+        "formulaId": "c92ac4a9-8b3b-4f60-9abf-135910d599f2",
+        "flabsCode": "FLP1942"
+      },
+      "_id": "68851d680a49ec918081bb72"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DNA Purity (A260/A280)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "1.8",
+            "male-range-max": "2.0",
+            "female-range-max": "2.0",
+            "female-range-min": "1.8",
+            "child-range-max": "2.0",
+            "child-range-min": "1.8"
+          }
+        },
+        "formulaId": "33c5d1e4-e06c-4b76-891e-c000b7794037",
+        "flabsCode": "FLP0739"
+      },
+      "_id": "68851d680a49ec918081bb73"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sequencing Coverage (Depth)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥ 500X for tissue, ≥ 2000X for cfDNA",
+            "female-range": "≥ 500X for tissue, ≥ 2000X for cfDNA",
+            "child-range": "≥ 500X for tissue, ≥ 2000X for cfDNA"
+          }
+        },
+        "formulaId": "aab5c6a3-ebae-44fb-9ba8-0f932484b338",
+        "flabsCode": "FLP1969"
+      },
+      "_id": "68851d680a49ec918081bb74"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Bases ≥ Q30",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≥ 80%",
+            "female-range": "≥ 80%",
+            "child-range": "≥ 80%"
+          }
+        },
+        "formulaId": "c9dfb2bd-840a-4e7e-8c86-21f98e594cd6",
+        "flabsCode": "FLP1707"
+      },
+      "_id": "68851d680a49ec918081bb75"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Limit of Detection (LOD)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "≤ 1% Variant Allele Frequency (VAF)",
+            "female-range": "≤ 1% Variant Allele Frequency (VAF)",
+            "child-range": "≤ 1% Variant Allele Frequency (VAF)"
+          }
+        },
+        "formulaId": "b14e26b4-d1ce-4881-9e9a-6ca7192feff1",
+        "flabsCode": "FLP1365"
+      },
+      "_id": "68851d680a49ec918081bb76"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gene 1 (e.g., EGFR) Mutation",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "3dc2036c-f33c-4611-af6c-91570d792e5d",
+        "flabsCode": "FLP1009"
+      },
+      "_id": "68851d680a49ec918081bb77"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gene 2 (e.g., KRAS) Mutation",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "e42a7b5b-1844-49d4-a08c-2a82a72d3cf2",
+        "flabsCode": "FLP1011"
+      },
+      "_id": "68851d680a49ec918081bb78"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gene 3 (e.g., NRAS) Mutation",
+        "field": "custom",
+        "options": [
+          "Non- Detected",
+          "Detected"
+        ],
+        "formulaId": "e1828d8b-2e77-49f5-9807-d0c3023f4893",
+        "flabsCode": "FLP1013"
+      },
+      "_id": "68851d680a49ec918081bb79"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Allele Frequency (if mutation)",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Significant if ≥ 1% VAF (per assay sensitivity)",
+            "female-range": "Significant if ≥ 1% VAF (per assay sensitivity)",
+            "child-range": "Significant if ≥ 1% VAF (per assay sensitivity)"
+          }
+        },
+        "formulaId": "7d444270-b876-4c79-a4ba-c53ec8ddffff",
+        "flabsCode": "FLP0180"
+      },
+      "_id": "68851d680a49ec918081bb7a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Actionable",
+        "field": "custom",
+        "options": [
+          "Actionable",
+          "None"
+        ],
+        "formulaId": "4bcceb22-a203-47bb-99f2-626820161888",
+        "flabsCode": "FLP0152"
+      },
+      "_id": "68851d680a49ec918081bb7b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c45b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1016",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.065Z",
+  "updatedAt": "2025-07-21T19:17:56.065Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

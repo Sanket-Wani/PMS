@@ -1,0 +1,471 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c87",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY (DRUGS)",
+  "code": "ALLDG",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "isDefault": false,
+  "parentTest": "69118421bc9cae2cd4614da1",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "ALLERGY",
+  "flabsID": "FLT1351",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergyCategory": [
+    {
+      "isRequired": false,
+      "_id": "68b6dd2ec6c4c056a16e49f9",
+      "allergenType": "ALLERGY DRUGS",
+      "unit": "IU/mL",
+      "ranges": [
+        {
+          "type": "numeric_unbound",
+          "name": "Normal",
+          "range": {
+            "operator": "<",
+            "value": "0.24"
+          },
+          "flag": false,
+          "key": 1
+        },
+        {
+          "key": 2,
+          "type": "numeric",
+          "name": "BorderLine",
+          "range": "0.24-0.30",
+          "flag": false
+        },
+        {
+          "key": 3,
+          "type": "numeric_unbound",
+          "name": "High",
+          "range": {
+            "operator": ">",
+            "value": "0.30"
+          },
+          "flag": false
+        }
+      ],
+      "data": [
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e49fa",
+          "name": "Penicillin G",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-5649e66408bd469c9cb060e5.jpeg",
+          "secondName": "पेनिसिलिन जी",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e49fb",
+          "name": "Analgin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-09c8620ceae84640ac857639.jpeg",
+          "secondName": "एनालगिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e49fc",
+          "name": "Streptomycin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-0f3f7b78ead148648b74405b.jpeg",
+          "secondName": "स्ट्रेप्टोमाइसिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e49fd",
+          "name": "Tetanus Toxoid",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-740e992d2c0d428abe6abf21.jpeg",
+          "secondName": "टेटनस टोक्सोइड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e49fe",
+          "name": "Amoxicillin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-0a82e58d28d342e9bd98f2f8.jpeg",
+          "secondName": "अमोक्सिसिलिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e49ff",
+          "name": "Dexomethazole",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-eaa941ef6f20497fa582ff26.jpeg",
+          "secondName": "डेक्सोमेथाज़ोल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a00",
+          "name": "Cephalexin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-5ad94bb1173640499944b0a5.jpeg",
+          "secondName": "सेफैलेक्सिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a01",
+          "name": "Paracetamol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-30c0e897e7444c628b708973.jpeg",
+          "secondName": "पेरासिटामोल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a02",
+          "name": "Ceprofloxacilin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-2e99a5deea0b4ce08f14ad3c.jpeg",
+          "secondName": "सेप्रोफ्लॉक्सासिलिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a03",
+          "name": "Metamizol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b4a2cc573a1e4b49848fdaa7.jpeg",
+          "secondName": "मेटामिज़ोल",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a04",
+          "name": "Penicillin V",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-29089b26f6804373b58c45f5.jpeg",
+          "secondName": "पेनिसिलिन V",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a05",
+          "name": "Human Insulin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-a2b3da7eac314532a80fdcc8.jpeg",
+          "secondName": "ह्यूमन इंसुलिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a06",
+          "name": "Ofloxacin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-2f91b381a0cb4e3aa36bf391.jpeg",
+          "secondName": "ओफ़्लॉक्सासिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a07",
+          "name": "Succinylcholine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-37d4d5c477a440a0867f310e.jpeg",
+          "secondName": "Succinylcholine",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a08",
+          "name": "Tetracycline",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-8a32a6be0e774138a5354259.jpeg",
+          "secondName": "टेट्रासाइक्लिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a09",
+          "name": "Sulpha",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-cfee1cfccd954d4eb05042b0.jpeg",
+          "secondName": "सुलफा",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a0a",
+          "name": "Tetrazine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-57e667e2530f442aa35ec946.jpeg",
+          "secondName": "टेट्राज़िन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a0b",
+          "name": "Levofloxacin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-3287f4c98efc449ea30fba9f.jpeg",
+          "secondName": "लेवोफ़्लॉक्सासिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a0c",
+          "name": "Trimethoprim",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b1615afcb5f34650ad1d2937.jpeg",
+          "secondName": "त्रिमेथोप्रिम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a0d",
+          "name": "Brufen",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-c7754fca9ada4249ade1466b.jpeg",
+          "secondName": "ब्रूफेन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a0e",
+          "name": "Chloroquine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-999e5522cede42ce80b58c52.jpeg",
+          "secondName": "क्लोरोक्विन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a0f",
+          "name": "Phenacetin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-aa59e269eda542c382149bfa.jpeg",
+          "secondName": "फेनासेटिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a10",
+          "name": "Ampicillin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-582a6f739325414c9486c178.jpeg",
+          "secondName": "एम्पीसिलीन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a11",
+          "name": "Cephalosporin C",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-193b58883ccc4a368d5bb15e.jpeg",
+          "secondName": "Translation error",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a12",
+          "name": "Aspirin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-662c62041b0a4a6daaa165c6.jpeg",
+          "secondName": "एस्पिरिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a13",
+          "name": "Erythromycin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-82203b7a0edc464a9bcc61c8.jpeg",
+          "secondName": "इरिथ्रोमाइसिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a14",
+          "name": "Pyrozolone",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-320e6b63ad574ab3afe7f9a9.jpeg",
+          "secondName": "पायरोज़ोलोन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a15",
+          "name": "Diclofenac",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-d8d29edae91c450d92a983ce.jpeg",
+          "secondName": "डिक्लोफेनाक",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a16",
+          "name": "Mefenemic acid",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-44dad784a8c5414cb2ecf4b9.jpeg",
+          "secondName": "मेफेनेमिक एसिड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a17",
+          "name": "Naproxen",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-d32dc03a34d84bb983811376.jpeg",
+          "secondName": "नेपरोक्सन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a18",
+          "name": "Etoricoxib",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-062a0660e24e4db98075cae5.jpeg",
+          "secondName": "एटोरिकॉक्सीब",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a19",
+          "name": "Prednisone",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-417ead7af9714de1a8c685bc.jpeg",
+          "secondName": "प्रेडनिसोन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a1a",
+          "name": "Zenflox OZ",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-1647245e787b492ca424dd94.jpeg",
+          "secondName": "ज़ेनफ्लॉक्स ओजेड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a1b",
+          "name": "Pantoprozone",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-9ed41eb48c2b4981b26ab353.jpeg",
+          "secondName": "पैंटोप्रोज़ोन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a1c",
+          "name": "Doxycyclin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-f7a03d0e3d8b40ecb0e96e80.jpeg",
+          "secondName": "डोक्सीसाइक्लिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a1d",
+          "name": "Intagesic MR",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-85aa6c3015cd462a962d42a9.jpeg",
+          "secondName": "इंटैजेसिक एमआर",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a1e",
+          "name": "Xylocaine",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b5fbfcb920d94a439beb37ba.jpeg",
+          "secondName": "जाइलोकेन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a1f",
+          "name": "Ambroxol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-3438af1915f14e0db97ab992.jpeg",
+          "secondName": "Ambroxol",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a20",
+          "name": "Acetylcystein",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-0fd4227d238f41b0bf743ec0.jpeg",
+          "secondName": "एसिटाइलसिस्टीन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a21",
+          "name": "Gentamycin",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-986edbab4f1e40f389626341.jpeg",
+          "secondName": "जेंटामाइसिन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a22",
+          "name": "Piroxicam",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-7dc8c05511564150a883de30.jpeg",
+          "secondName": "पिरॉक्सिकैम",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a23",
+          "name": "Nimuslide",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-b5457e33595a4c28af419d7d.jpeg",
+          "secondName": "निमुस्लाइड",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a24",
+          "name": "Ondestron",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-35df4f5f3b3a4773b87244c4.jpeg",
+          "secondName": "ऑनडेस्ट्रॉन",
+          "showSecondName": true
+        },
+        {
+          "isRequired": false,
+          "_id": "68b6dd2ec6c4c056a16e4a25",
+          "name": "Tinidazol",
+          "image": "https://flabs-lab.s3.ap-south-1.amazonaws.com/allergy_images/68b1584d669c50cb73268bbd-ALLERGY DRUGS-76048f3ff60843a0a5bb8c81.jpeg",
+          "secondName": "टिनिडाज़ोल",
+          "showSecondName": true
+        }
+      ]
+    }
+  ],
+  "allergy_show_second_name": true,
+  "allergy_second_name_language": "hi",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.738Z",
+  "updatedAt": "2026-08-14T17:59:51.738Z",
+  "testCategory": [],
+  "comment": [],
+  "ageRanges": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

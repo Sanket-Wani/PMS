@@ -1,0 +1,155 @@
+{
+  "_id": "6a86cbbbba46c74c6d436064",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHROMOSOMES 13 18 & 21 BY FISH",
+  "code": "1406",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%; height: 219.844px;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr style=\"height: 33.375px;\">\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr style=\"height: 52.9688px;\">\n<td><span style=\"font-size: 10px;\">Normal Disomy</span></td>\n<td><span style=\"font-size: 10px;\">Two signals for each chromosome (13, 18, 21); no aneuploidy detected.</span></td>\n</tr>\n<tr style=\"height: 33.375px;\">\n<td><span style=\"font-size: 10px;\">Trisomy 21 (Down Syndrome)</span></td>\n<td><span style=\"font-size: 10px;\">Three signals for chromosome 21; confirm by karyotype if needed.</span></td>\n</tr>\n<tr style=\"height: 33.375px;\">\n<td><span style=\"font-size: 10px;\">Trisomy 18 (Edwards Syndrome)</span></td>\n<td><span style=\"font-size: 10px;\">Three signals for chromosome 18; confirm by karyotype.</span></td>\n</tr>\n<tr style=\"height: 33.375px;\">\n<td><span style=\"font-size: 10px;\">Trisomy 13 (Patau Syndrome)</span></td>\n<td><span style=\"font-size: 10px;\">Three signals for chromosome 13; confirm by karyotype.</span></td>\n</tr>\n<tr style=\"height: 33.375px;\">\n<td><span style=\"font-size: 10px;\">Mosaicism</span></td>\n<td><span style=\"font-size: 10px;\">Mixed cell populations; percentage of abnormal cells reported, clinical correlation required.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Nuclei Analyzed",
+        "field": "numeric",
+        "units": "Cells",
+        "range": {
+          "default": {
+            "male-range-min": "50",
+            "male-range-max": "200",
+            "female-range-max": "200",
+            "female-range-min": "50",
+            "child-range-max": "200",
+            "child-range-min": "50"
+          }
+        },
+        "formulaId": "27c2c6da-c58d-4917-b28a-7d91283cfc64",
+        "flabsCode": "FLP1577"
+      },
+      "_id": "6883d60735738384e7952320"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome 13 Signal Pattern",
+        "field": "custom",
+        "options": [
+          "2 signals",
+          "3 signals"
+        ],
+        "formulaId": "25b9b27d-539d-4264-9b83-7afa954b128d",
+        "flabsCode": "FLP0591"
+      },
+      "_id": "6883d60735738384e7952321"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome 18 Signal Pattern",
+        "field": "custom",
+        "options": [
+          "2 signals",
+          "3 signals"
+        ],
+        "formulaId": "ee990318-2199-4f9a-8ef8-7da56ec4ad84",
+        "flabsCode": "FLP0594"
+      },
+      "_id": "6883d60735738384e7952322"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosome 21 Signal Pattern",
+        "field": "custom",
+        "options": [
+          "2 signals",
+          "3 signals"
+        ],
+        "formulaId": "8a2202f9-3dea-47dc-a754-6a809b763f86",
+        "flabsCode": "FLP0598"
+      },
+      "_id": "6883d60735738384e7952323"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Abnormal Cells",
+        "field": "numeric",
+        "units": "%",
+        "formulaId": "84dce391-8b80-49df-b758-067878b97da5",
+        "flabsCode": "FLP1706"
+      },
+      "_id": "6883d60735738384e7952324"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c237",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0362",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.320Z",
+  "updatedAt": "2025-07-21T19:17:53.320Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

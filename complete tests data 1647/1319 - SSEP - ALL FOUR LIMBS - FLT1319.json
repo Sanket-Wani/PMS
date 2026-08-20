@@ -1,0 +1,233 @@
+{
+  "_id": "6a86cce55953b1dd0a19c208",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SSEP - ALL FOUR LIMBS",
+  "code": "2566",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1118\" data-end=\"1434\">\n<li data-start=\"1118\" data-end=\"1180\">\n<p data-start=\"1120\" data-end=\"1180\"><strong data-start=\"1120\" data-end=\"1130\">Normal</strong>: Latencies and amplitudes within expected limits.</p>\n</li>\n<li data-start=\"1181\" data-end=\"1434\">\n<p data-start=\"1183\" data-end=\"1434\"><strong data-start=\"1183\" data-end=\"1195\">Abnormal</strong>: Delayed latencies or reduced amplitudes suggest possible <strong data-start=\"1254\" data-end=\"1295\">demyelination, compression, or lesion</strong> in somatosensory pathways, commonly used in evaluating <strong data-start=\"1351\" data-end=\"1433\">Multiple Sclerosis, Myelopathy, Spinal Cord Injury, or Peripheral Neuropathies</strong>.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "N9 (Upper Limb - Peripheral Nerve)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "10"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "10"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "10"
+            }
+          }
+        },
+        "units": "Milliseconds (ms)",
+        "formulaId": "b919ee67-e137-4d43-b39c-fa728fe68944",
+        "flabsCode": "FLP1529"
+      },
+      "_id": "6883a86f854b0c2c69b4662f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "N13 (Upper Limb - Cervical Cord)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "15"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "15"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "15"
+            }
+          }
+        },
+        "units": "ms",
+        "formulaId": "450b0f23-8cd9-4514-a2d2-9a64f13d0afa",
+        "flabsCode": "FLP1524"
+      },
+      "_id": "6883a86f854b0c2c69b46630"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "N20 (Upper Limb - Cortical)",
+        "field": "numeric_unbound",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "22"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "22"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "22"
+            }
+          }
+        },
+        "formulaId": "694b01b0-2c20-4f36-bea4-b5c8d793ace4",
+        "flabsCode": "FLP1525"
+      },
+      "_id": "6883a86f854b0c2c69b46631"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "N22 (Lower Limb - Spinal Cord)",
+        "field": "numeric_unbound",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "25"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "25"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "25"
+            }
+          }
+        },
+        "formulaId": "c0568e33-3e83-4e0f-a643-59f04155f45c",
+        "flabsCode": "FLP1526"
+      },
+      "_id": "6883a86f854b0c2c69b46632"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "P40 (Lower Limb - Cortical)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "25"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "25"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "25"
+            }
+          }
+        },
+        "units": "ms",
+        "formulaId": "9fe2907c-67d0-48a9-8fc0-f295c36e71bf",
+        "flabsCode": "FLP1617"
+      },
+      "_id": "6883a86f854b0c2c69b46633"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Amplitude of all waves",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "µV (microvolts)",
+            "female-range": "µV (microvolts)",
+            "child-range": "µV (microvolts)"
+          }
+        },
+        "formulaId": "08286048-b860-4ff8-8954-94d1c3e3de17",
+        "flabsCode": "FLP0208"
+      },
+      "_id": "6883a86f854b0c2c69b46634"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c584",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1319",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.398Z",
+  "updatedAt": "2025-07-21T19:17:57.398Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

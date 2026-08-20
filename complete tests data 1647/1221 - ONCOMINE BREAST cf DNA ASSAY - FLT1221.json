@@ -1,0 +1,188 @@
+{
+  "_id": "6a86ccbf5953b1dd0a199125",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ONCOMINE BREAST cf DNA ASSAY",
+  "code": "2459",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1887\" data-end=\"2091\">\n<li data-start=\"1887\" data-end=\"1946\">\n<p data-start=\"1889\" data-end=\"1946\"><strong data-start=\"1889\" data-end=\"1911\">Normal / Negative:</strong> No actionable mutation detected.</p>\n</li>\n<li data-start=\"1947\" data-end=\"2015\">\n<p data-start=\"1949\" data-end=\"2015\"><strong data-start=\"1949\" data-end=\"1962\">Positive:</strong> Detected mutation(s) with therapeutic implication.</p>\n</li>\n<li data-start=\"2016\" data-end=\"2091\">\n<p data-start=\"2018\" data-end=\"2091\"><strong data-start=\"2018\" data-end=\"2091\">Clinical correlation advised with treatment history and tumor burden.</strong></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "cfDNA Quantity",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": "Sufficient ≥ 5 ng for analysis",
+            "female-range": "Sufficient ≥ 5 ng for analysis",
+            "child-range": "Sufficient ≥ 5 ng for analysis"
+          }
+        },
+        "formulaId": "bdb00f04-e2c8-403a-becb-b5e506b4553c",
+        "flabsCode": "FLP2312"
+      },
+      "_id": "68851a2e0a49ec9180817273"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ESR1 Mutation (e.g., D538G)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "66158097-7bc8-4e6d-961b-1a831147581a",
+        "flabsCode": "FLP0805"
+      },
+      "_id": "68851a2e0a49ec9180817274"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PIK3CA Mutation (e.g., H1047R)",
+        "field": "custom",
+        "options": [
+          "Non- Detected",
+          "Detected"
+        ],
+        "formulaId": "05d800ac-3e6a-4cc4-8129-705c5042d768",
+        "flabsCode": "FLP1642"
+      },
+      "_id": "68851a2e0a49ec9180817275"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ERBB2 Amplification",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "a9c5e669-6a6f-4d32-8682-6331e374b854",
+        "flabsCode": "FLP0800"
+      },
+      "_id": "68851a2e0a49ec9180817276"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "AKT1 Mutation (E17K)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "9c91fe2a-cce1-449e-a9ad-126e3ff669d4",
+        "flabsCode": "FLP0086"
+      },
+      "_id": "68851a2e0a49ec9180817277"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TP53 Mutation",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "88f19535-1a9b-4acd-9ab9-7f0ed9a862cb",
+        "flabsCode": "FLP2073"
+      },
+      "_id": "68851a2e0a49ec9180817278"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Allele Frequency (for detected variant)",
+        "field": "text",
+        "formulaId": "0d25bcde-04e3-41a1-a511-fc5e650bc6b1",
+        "flabsCode": "FLP0179"
+      },
+      "_id": "68851a2e0a49ec9180817279"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Limit of Detection (LOD)",
+        "field": "text",
+        "formulaId": "54dc610b-0e34-445e-a22b-c96a5016ce45",
+        "flabsCode": "FLP1365"
+      },
+      "_id": "68851a2e0a49ec918081727a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c523",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1221",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.966Z",
+  "updatedAt": "2025-07-21T19:17:56.966Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

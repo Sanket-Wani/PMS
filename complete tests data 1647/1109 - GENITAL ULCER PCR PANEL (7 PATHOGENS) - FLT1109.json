@@ -1,0 +1,178 @@
+{
+  "_id": "6a86cca292e2891d948eb464",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "GENITAL ULCER PCR PANEL (7 PATHOGENS)",
+  "code": "2351",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1835\" data-end=\"1902\">\n<p data-start=\"1837\" data-end=\"1902\"><strong data-start=\"1837\" data-end=\"1850\">Detected:</strong> Indicates presence of pathogen DNA in the sample.</p>\n</li>\n<li data-start=\"1903\" data-end=\"1999\">\n<p data-start=\"1905\" data-end=\"1999\"><strong data-start=\"1905\" data-end=\"1922\">Not Detected:</strong> Pathogen DNA not found (does not rule out infection in early/late stages).</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HSV-1 (Herpes Simplex Virus 1)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "d2820044-e5f4-42a0-85cd-3d2e0ca03dc4",
+        "flabsCode": "FLP1142"
+      },
+      "_id": "688509400a49ec91807e2d96"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HSV-2 (Herpes Simplex Virus 2)",
+        "field": "custom",
+        "options": [
+          "Non-Detected",
+          "Detected"
+        ],
+        "formulaId": "a0c70870-e430-4e07-ae93-1568351508f8",
+        "flabsCode": "FLP1146"
+      },
+      "_id": "688509400a49ec91807e2d97"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Treponema pallidum (Syphilis)",
+        "field": "custom",
+        "options": [
+          "Non-Detected",
+          "Detected"
+        ],
+        "formulaId": "b407e041-d60c-4ed5-a1b0-563776165e15",
+        "flabsCode": "FLP2159"
+      },
+      "_id": "688509400a49ec91807e2d98"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Haemophilus ducreyi (Chancroid)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "7783a5d5-4c50-4693-8c51-df1d89803b59",
+        "flabsCode": "FLP1153"
+      },
+      "_id": "688509400a49ec91807e2d99"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chlamydia trachomatis (LGV)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "251915a2-09d6-49d1-a9d0-82f30a0fefb3",
+        "flabsCode": "FLP0577"
+      },
+      "_id": "688509400a49ec91807e2d9a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Klebsiella granulomatis (Donovanosis)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "f24bb9c8-1515-47e5-899c-b840862998cc",
+        "flabsCode": "FLP1309"
+      },
+      "_id": "688509400a49ec91807e2d9b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Varicella Zoster Virus (VZV)",
+        "field": "custom",
+        "options": [
+          "Non- Detected"
+        ],
+        "formulaId": "454da61b-1db4-490a-bbe1-c5cc402180e5",
+        "flabsCode": "FLP2266"
+      },
+      "_id": "688509400a49ec91807e2d9c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4b8",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1109",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.475Z",
+  "updatedAt": "2025-07-21T19:17:56.475Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

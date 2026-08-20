@@ -1,0 +1,166 @@
+{
+  "_id": "6a86ccb392e2891d948ee8a1",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LEUKEMIA PANEL BY NGS-DNA ONLY",
+  "code": "2419",
+  "cost": 0,
+  "interpretation": "<ol data-start=\"1700\" data-end=\"2409\">\n<li data-start=\"1700\" data-end=\"1896\">\n<p data-start=\"1703\" data-end=\"1741\"><span style=\"font-size: 10px;\"><strong data-start=\"1703\" data-end=\"1739\">No Pathogenic Variants Detected:</strong></span></p>\n<ul data-start=\"1745\" data-end=\"1896\">\n<li style=\"font-size: 10px;\" data-start=\"1745\" data-end=\"1808\">\n<p data-start=\"1747\" data-end=\"1808\"><span style=\"font-size: 10px;\">No DNA mutations found in the targeted leukemia gene panel.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1812\" data-end=\"1896\">\n<p data-start=\"1814\" data-end=\"1896\"><span style=\"font-size: 10px;\">Correlate with clinical, morphological, cytogenetic, and other molecular findings.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1898\" data-end=\"2189\">\n<p data-start=\"1901\" data-end=\"1954\"><span style=\"font-size: 10px;\"><strong data-start=\"1901\" data-end=\"1952\">Pathogenic/Likely Pathogenic Variants Detected:</strong></span></p>\n<ul data-start=\"1958\" data-end=\"2189\">\n<li style=\"font-size: 10px;\" data-start=\"1958\" data-end=\"2061\">\n<p data-start=\"1960\" data-end=\"2061\"><span style=\"font-size: 10px;\">Indicates the presence of <strong data-start=\"1986\" data-end=\"2006\">driver mutations</strong> associated with leukemia (e.g., AML, ALL, MDS, CML).</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2065\" data-end=\"2189\">\n<p data-start=\"2067\" data-end=\"2189\"><span style=\"font-size: 10px;\">Used for <strong data-start=\"2076\" data-end=\"2148\">diagnosis, prognosis, risk stratification, and therapeutic decisions</strong> (e.g., FLT3 inhibitors, IDH inhibitors).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2191\" data-end=\"2409\">\n<p data-start=\"2194\" data-end=\"2215\"><span style=\"font-size: 10px;\"><strong data-start=\"2194\" data-end=\"2213\">Clinical Notes:</strong></span></p>\n<ul data-start=\"2219\" data-end=\"2409\">\n<li style=\"font-size: 10px;\" data-start=\"2219\" data-end=\"2318\">\n<p data-start=\"2221\" data-end=\"2318\"><span style=\"font-size: 10px;\">VAF trends over time may help assess <strong data-start=\"2258\" data-end=\"2292\">minimal residual disease (MRD)</strong> and treatment response.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2322\" data-end=\"2409\">\n<p data-start=\"2324\" data-end=\"2409\"><span style=\"font-size: 10px;\">Further testing (RNA fusion panels, cytogenetics, flow cytometry) may be recommended.</span></p>\n</li>\n</ul>\n</li>\n</ol>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DNA Quality (A260/280 or RIN Equivalent)",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "≥1.8 (Good Quality)",
+            "female-range": "≥1.8 (Good Quality)",
+            "child-range": "≥1.8 (Good Quality)"
+          }
+        },
+        "formulaId": "f7af4b51-085b-49eb-b159-7b7416a3d140",
+        "flabsCode": "FLP0740"
+      },
+      "_id": "68853dc44c9e1585202da6d3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Genes Analyzed (Common Panel)",
+        "field": "text",
+        "formulaId": "fd583834-e6be-41ec-9ac1-ada5be90477e",
+        "flabsCode": "FLP1016"
+      },
+      "_id": "68853dc44c9e1585202da6d4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pathogenic / Likely Pathogenic Variants\t",
+        "field": "custom",
+        "options": [
+          "Not Detected ",
+          "Detected "
+        ],
+        "formulaId": "140f9b98-ba0d-4678-b047-b63ed1e4084a",
+        "flabsCode": "FLP1693"
+      },
+      "_id": "68853dc44c9e1585202da6d5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variant Allele Frequency (VAF)",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "Reported if ≥1–2% (assay sensitivity)",
+            "female-range": "Reported if ≥1–2% (assay sensitivity)",
+            "child-range": "Reported if ≥1–2% (assay sensitivity)"
+          }
+        },
+        "formulaId": "09a7e746-cddb-438e-bb16-399fada50697",
+        "flabsCode": "FLP2259"
+      },
+      "_id": "68853dc44c9e1585202da6d6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Copy Number Alterations",
+        "field": "text",
+        "formulaId": "e8de7faf-6432-44ac-9509-06f2bf7ae46d",
+        "flabsCode": "FLP0666"
+      },
+      "_id": "68853dc44c9e1585202da6d7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensitivity of Detection",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "≥1–2% VAF for SNVs/Indels; ≥10% for CNVs (platform-dependent)",
+            "female-range": "≥1–2% VAF for SNVs/Indels; ≥10% for CNVs (platform-dependent)",
+            "child-range": "≥1–2% VAF for SNVs/Indels; ≥10% for CNVs (platform-dependent)"
+          }
+        },
+        "formulaId": "e0d24b9d-2ff0-40f6-8db9-4f3b701b2662",
+        "flabsCode": "FLP1958"
+      },
+      "_id": "68853dc44c9e1585202da6d8"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4fb",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1180",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.781Z",
+  "updatedAt": "2025-07-21T19:17:56.781Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

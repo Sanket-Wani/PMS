@@ -1,0 +1,140 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b10",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Thyroid Function Test (TFT)",
+  "code": "TFT",
+  "cost": 0,
+  "interpretation": "<table><tbody><tr><td><div><span style=\"font-size:10px\"><strong>TSH</strong></span></div></td><td><div><span style=\"font-size:10px\"><strong>T3 / FT3</strong></span></div></td><td><div><span style=\"font-size:10px\"><strong>T4 / FT4</strong></span></div></td><td><div><span style=\"font-size:10px\"><strong>Suggested Interpretation for the Thyroid Function Tests Pattern</strong></span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Within Range</span></div></td><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">Within Range</span></div></td><td><div><span style=\"font-size:10px\">• Isolated Low T3-often seen in elderly &amp; associated Non-Thyroidal illness. In elderly the drop in T3 level can be upto 25%.</span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Raised</span></div></td><td><div><span style=\"font-size:10px\">Within Range</span></div></td><td><div><span style=\"font-size:10px\">Within Range</span></div></td><td><div><span style=\"font-size:10px\">•Isolated High TSHespecially in the range of 4.7 to 15 mIU/ml is commonly associated with Physiological &amp; Biological TSH Variability.<br>•Subclinical Autoimmune Hypothyroidism<br>•Intermittent T4 therapy for hypothyroidism<br>•Recovery phase after Non-Thyroidal illness\"</span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Raised</span></div></td><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">•Chronic Autoimmune Thyroiditis<br>•Post thyroidectomy,Post radioiodine<br>•Hypothyroid phase of transient thyroiditis\"</span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Raised or<br>within Range</span></div></td><td><div><span style=\"font-size:10px\">Raised</span></div></td><td><div><span style=\"font-size:10px\">Raised or within<br>Range</span></div></td><td><div><span style=\"font-size:10px\">•Interfering antibodies to thyroid hormones (anti-TPO antibodies)<br>•Intermittent T4 therapy or T4 overdose<br>•Drug interference- Amiodarone, Heparin,Beta blockers,steroids,anti-epileptics\"</span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">Raised or within<br>Range</span></div></td><td><div><span style=\"font-size:10px\">Raised or within<br>Range</span></div></td><td><div><span style=\"font-size:10px\">•Isolated Low TSH -especially in the range of 0.1 to 0.4 often seen in elderly &amp;<br>associated with Non-Thyroidal illness<br>•Subclinical Hyperthyroidism<br>•Thyroxine ingestion\"</span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">•Central Hypothyroidism<br>•Non-Thyroidal illness<br>•Recent treatment for Hyperthyroidism (TSH remains suppressed)\"</span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Decreased</span></div></td><td><div><span style=\"font-size:10px\">Raised</span></div></td><td><div><span style=\"font-size:10px\">Raised</span></div></td><td><div><span style=\"font-size:10px\">•Primary Hyperthyroidism (Graves’ disease),Multinodular goitre,<br>Toxic nodule<br>•Transient thyroiditis:Postpartum, Silent (lymphocytic), Postviral (granulomatous,subacute, DeQuervain’s),Gestational thyrotoxicosis with hyperemesis gravidarum\"</span></div></td></tr><tr><td><div><span style=\"font-size:10px\">Decreased or<br>within Range</span></div></td><td><div><span style=\"font-size:10px\">Raised</span></div></td><td><div><span style=\"font-size:10px\">Within Range</span></div></td><td><div><span style=\"font-size:10px\">•T3 toxicosis<br>•Non-Thyroidal illness</span></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "_id": "6419fb1cebe595f57b4fea39",
+      "type": "testDetails",
+      "data": {
+        "name": "T3",
+        "field": "numeric",
+        "units": "ng/dl",
+        "range": {
+          "default": {
+            "child-range-max": "2.33",
+            "male-range-max": "2.33",
+            "male-range-min": "0.92",
+            "female-range-min": "0.92",
+            "female-range-max": "2.33",
+            "child-range-min": "0.92"
+          }
+        }
+      }
+    },
+    {
+      "_id": "6419fb1cebe595f57b4fea3a",
+      "type": "testDetails",
+      "data": {
+        "name": "T4",
+        "field": "numeric",
+        "units": "ng/dl",
+        "range": {
+          "default": {
+            "female-range-min": "60",
+            "female-range-max": "120",
+            "child-range-min": "60",
+            "child-range-max": "120",
+            "male-range-max": "120",
+            "male-range-min": "60"
+          }
+        }
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "male-range-max": "4.5",
+            "male-range-min": "0.45",
+            "female-range-min": "0.45",
+            "female-range-max": "4.5",
+            "child-range-min": "0.45",
+            "child-range-max": "4.5"
+          }
+        },
+        "name": "TSH(Serum)",
+        "field": "numeric",
+        "units": "ng/dl"
+      },
+      "_id": "6419fb1cebe595f57b4fea3b"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "6419fb1cebe595f57b4fea38",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0722",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.259Z",
+  "updatedAt": "2026-08-14T17:59:51.259Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

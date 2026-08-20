@@ -1,0 +1,185 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c1d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ORAL GLUCOSE TOLERANCE TEST (OGTT)",
+  "code": "OGTT",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>OGTT Result Interpretation</div></th><th><div>Glucose Level</div></th></tr></thead><tbody><tr><td><div>Normal fasting glucose</div></td><td><div>&lt; 100 mg/dL</div></td></tr><tr><td><div>Normal 2-hour postprandial glucose</div></td><td><div>&lt; 140 mg/dL</div></td></tr><tr><td><div>Impaired glucose tolerance</div></td><td><div>140-199 mg/dL at 2 hours</div></td></tr><tr><td><div>Diabetes</div></td><td><div>200 mg/dL or higher at 2 hours</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "fluoride plasma",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Bloood sugar fasting ",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-max": "106",
+            "male-range-min": "74",
+            "female-range-min": "74",
+            "female-range-max": "106",
+            "child-range-min": "74",
+            "child-range-max": "106"
+          }
+        }
+      },
+      "_id": "642ead73f57930aa8c0d6701"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine sugar fasting",
+        "options": [
+          "Nil",
+          "Trace",
+          "+",
+          "++",
+          "+++"
+        ],
+        "field": "custom"
+      },
+      "_id": "644f663c2e4348aa5e5e009a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "child-range-min": "74",
+            "child-range-max": "106",
+            "male-range-max": "140",
+            "male-range-min": "110",
+            "female-range-min": "74",
+            "female-range-max": "106"
+          }
+        },
+        "name": "Blood sugar 1h (O-GTT, 1h)",
+        "field": "numeric",
+        "units": "mg/dL"
+      },
+      "_id": "642ead73f57930aa8c0d6702"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine sugar  1h (O-GTT, 1h)",
+        "options": [
+          "NIl",
+          "Trace",
+          "+",
+          "++",
+          "+++"
+        ],
+        "field": "custom"
+      },
+      "_id": "644f663c2e4348aa5e5e009c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "child-range-max": "106",
+            "male-range-max": "140",
+            "male-range-min": "110",
+            "female-range-min": "74",
+            "female-range-max": "106",
+            "child-range-min": "74"
+          }
+        },
+        "name": "Blood sugar 2h (O-GTT, 2h)",
+        "field": "numeric",
+        "units": "mg/dL"
+      },
+      "_id": "642ead73f57930aa8c0d6703"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "custom",
+        "options": [
+          "Nil",
+          "Trace",
+          "+",
+          "++",
+          "+++"
+        ],
+        "name": "Urine sugar 2h (O-GTT, 2h)"
+      },
+      "_id": "644f663c2e4348aa5e5e009e"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "642ead73f57930aa8c0d6700",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0122",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.614Z",
+  "updatedAt": "2026-08-14T17:59:51.614Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

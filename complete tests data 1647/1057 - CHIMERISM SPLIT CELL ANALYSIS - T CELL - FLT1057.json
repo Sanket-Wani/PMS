@@ -1,0 +1,210 @@
+{
+  "_id": "6a86cc825953b1dd0a18a0c6",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHIMERISM SPLIT CELL ANALYSIS - T CELL",
+  "code": "2297",
+  "cost": 0,
+  "interpretation": "<ol data-start=\"1755\" data-end=\"2313\">\n<li data-start=\"1755\" data-end=\"1901\">\n<p data-start=\"1758\" data-end=\"1783\"><span style=\"font-size: 10px;\"><strong data-start=\"1758\" data-end=\"1781\">Complete Chimerism:</strong></span></p>\n<ul data-start=\"1787\" data-end=\"1901\">\n<li style=\"font-size: 10px;\" data-start=\"1787\" data-end=\"1829\">\n<p data-start=\"1789\" data-end=\"1829\"><span style=\"font-size: 10px;\">Donor Cells &ge;95%, Recipient Cells &le;5%.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1833\" data-end=\"1901\">\n<p data-start=\"1835\" data-end=\"1901\"><span style=\"font-size: 10px;\">Suggests full donor engraftment (desired outcome post-transplant).</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1903\" data-end=\"2055\">\n<p data-start=\"1906\" data-end=\"1928\"><span style=\"font-size: 10px;\"><strong data-start=\"1906\" data-end=\"1926\">Mixed Chimerism:</strong></span></p>\n<ul data-start=\"1932\" data-end=\"2055\">\n<li style=\"font-size: 10px;\" data-start=\"1932\" data-end=\"1977\">\n<p data-start=\"1934\" data-end=\"1977\"><span style=\"font-size: 10px;\">Donor Cells 5&ndash;95%, Recipient Cells 5&ndash;95%.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"1981\" data-end=\"2055\">\n<p data-start=\"1983\" data-end=\"2055\"><span style=\"font-size: 10px;\">May indicate early engraftment, graft instability, or impending relapse.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2057\" data-end=\"2203\">\n<p data-start=\"2060\" data-end=\"2095\"><span style=\"font-size: 10px;\"><strong data-start=\"2060\" data-end=\"2093\">Recipient Dominant Chimerism:</strong></span></p>\n<ul data-start=\"2099\" data-end=\"2203\">\n<li style=\"font-size: 10px;\" data-start=\"2099\" data-end=\"2124\">\n<p data-start=\"2101\" data-end=\"2124\"><span style=\"font-size: 10px;\">Recipient Cells &gt;50%.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2128\" data-end=\"2203\">\n<p data-start=\"2130\" data-end=\"2203\"><span style=\"font-size: 10px;\">Suggests graft failure or disease relapse; requires clinical correlation.</span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2205\" data-end=\"2313\">\n<p data-start=\"2208\" data-end=\"2231\"><span style=\"font-size: 10px;\"><strong data-start=\"2208\" data-end=\"2229\">Trend Monitoring:</strong></span></p>\n<ul data-start=\"2235\" data-end=\"2313\">\n<li style=\"font-size: 10px;\" data-start=\"2235\" data-end=\"2313\">\n<p data-start=\"2237\" data-end=\"2313\"><span style=\"font-size: 10px;\">Serial testing is recommended to track engraftment and detect early relapse.</span></p>\n</li>\n</ul>\n</li>\n</ol>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Donor Chimerism (T Cells)\t",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "95",
+              "op": ">"
+            },
+            "female-range": {
+              "value": "95",
+              "op": ">"
+            },
+            "child-range": {
+              "value": "95",
+              "op": ">"
+            }
+          }
+        },
+        "formulaId": "4677788b-c1e3-45d0-b838-4ed169897773",
+        "flabsCode": "FLP0777"
+      },
+      "_id": "6885301a0a49ec91808347b1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Recipient Chimerism (T Cells)",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "301619ef-7af5-4714-826e-217c2d74f725",
+        "flabsCode": "FLP1842"
+      },
+      "_id": "6885301a0a49ec91808347b2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Donor Chimerism (All Cells)\t",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">",
+              "value": "95"
+            },
+            "female-range": {
+              "op": ">",
+              "value": "95"
+            },
+            "child-range": {
+              "op": ">",
+              "value": "95"
+            }
+          }
+        },
+        "formulaId": "0357ae3c-1ebc-4099-9586-8d66dbb42000",
+        "flabsCode": "FLP2120"
+      },
+      "_id": "6885301a0a49ec91808347b3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Recipient Chimerism\t",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "745d1597-1144-4c62-949f-7e32c82d8cf9",
+        "flabsCode": "FLP2136"
+      },
+      "_id": "6885301a0a49ec91808347b4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensitivity of Detection",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "1",
+            "male-range-max": "2",
+            "female-range-max": "2",
+            "female-range-min": "1",
+            "child-range-max": "2",
+            "child-range-min": "1"
+          }
+        },
+        "formulaId": "72ed5f8d-4f37-4960-8a5b-a28b0be19725",
+        "flabsCode": "FLP1958"
+      },
+      "_id": "6885301a0a49ec91808347b5"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c484",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1057",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.239Z",
+  "updatedAt": "2025-07-21T19:17:56.239Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

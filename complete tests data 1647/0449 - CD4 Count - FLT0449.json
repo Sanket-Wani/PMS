@@ -1,0 +1,140 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b0b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CD4 Count",
+  "code": "CD4",
+  "cost": 0,
+  "interpretation": "<p>The CD4 count test is a blood test that measures the number of CD4 T cells in the blood. CD4 T cells are a type of white blood cell that play a critical role in the immune system's response to infections, particularly viral infections such as HIV.<br></p><ul><li>Normal range: The normal CD4 count range for adults is between 500 and 1,500 cells/mm3. CD4 counts above 500 are generally considered to indicate a healthy immune system, while counts below 500 may indicate some level of immune compromise.&nbsp;</li><li>Low count: A low CD4 count, typically less than 200 cells/mm3, indicates significant immune suppression and an increased risk of opportunistic infections. This level of immune suppression is generally considered an AIDS-defining condition and is an indication to start ART to improve immune function and reduce the risk of infections and other complications.&nbsp;</li><li>High count: A high CD4 count, typically above 500 cells/mm3, indicates a healthy immune system and a low risk of opportunistic infections. In some cases, particularly during the early stages of HIV infection, CD4 counts may remain high even though HIV is present in the body. In these cases, additional testing may be necessary to confirm the diagnosis.<br></li></ul>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "units": "Cells/cumm",
+        "range": {
+          "default": {
+            "child-range-min": "400",
+            "child-range-max": "1200",
+            "male-range-max": "1500",
+            "male-range-min": "500",
+            "female-range-min": "400",
+            "female-range-max": "1200"
+          }
+        },
+        "name": "Absolute CD Count",
+        "field": "numeric"
+      },
+      "_id": "6418f6e9ebe595f57b4fdd88"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD4+ T Helper Cells",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "female-range-min": "28",
+            "female-range-max": "58",
+            "child-range-min": "28",
+            "child-range-max": "58",
+            "male-range-max": "58",
+            "male-range-min": "28"
+          }
+        }
+      },
+      "_id": "6418f6e9ebe595f57b4fdd89"
+    },
+    {
+      "data": {
+        "name": "Haemoglobin (Hb)",
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "male-range-min": "13",
+            "female-range-min": "13.5",
+            "female-range-max": "17.5",
+            "child-range-min": "13.5",
+            "child-range-max": "17.5",
+            "male-range-max": "18"
+          }
+        }
+      },
+      "_id": "6418f6e9ebe595f57b4fdd8a",
+      "type": "testDetails"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "6418f6e9ebe595f57b4fdd87",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0449",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.253Z",
+  "updatedAt": "2026-08-14T17:59:51.253Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

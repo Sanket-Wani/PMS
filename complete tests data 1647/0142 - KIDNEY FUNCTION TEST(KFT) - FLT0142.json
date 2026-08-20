@@ -1,0 +1,281 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b05",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "KIDNEY FUNCTION TEST(KFT)",
+  "code": "KFT",
+  "cost": 0,
+  "interpretation": "<p>Blood urea nitrogen (BUN) and creatinine are waste products that are filtered out of the blood by the kidneys. Elevated levels of BUN and creatinine in the blood can indicate decreased kidney function. The glomerular filtration rate (GFR) is a measure of how well your kidneys are filtering waste products from your blood. A low GFR can indicate decreased kidney function. The urine albumin-to-creatinine ratio (ACR) is a measure of the amount of albumin (a type of protein) in your urine relative to the amount of creatinine. Elevated levels of ACR can indicate damage to the kidneys.<br></p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "child-range-min": "10",
+            "child-range-max": "50",
+            "male-range-max": "50",
+            "male-range-min": "10",
+            "female-range-min": "10",
+            "female-range-max": "50"
+          }
+        },
+        "name": "UREA SERUM"
+      },
+      "_id": "642532b903f8539a520eed89"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CREATININE SERUM",
+        "field": "numeric",
+        "units": " mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "0.40",
+            "female-range-min": "0.40",
+            "female-range-max": "1.20",
+            "child-range-min": "0.40",
+            "child-range-max": "1.20",
+            "male-range-max": "1.20"
+          }
+        }
+      },
+      "_id": "642532b903f8539a520eed8a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "BUN",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "7",
+            "female-range-min": "7",
+            "female-range-max": "25",
+            "child-range-min": "7",
+            "child-range-max": "25",
+            "male-range-max": "25"
+          }
+        }
+      },
+      "_id": "642532b903f8539a520eed8b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "RATIO",
+        "formula": "{BUN}/{CREATININE_SERUM}",
+        "range": {
+          "default": {
+            "child-range-max": "20.0",
+            "male-range-max": "20.0",
+            "male-range-min": "10.0",
+            "female-range-min": "10.0",
+            "female-range-max": "20.0",
+            "child-range-min": "10.0"
+          }
+        },
+        "name": "BUN /  CREATININE"
+      },
+      "_id": "642532b903f8539a520eed8c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "UREA / CREATININE",
+        "field": "numeric",
+        "units": " RATIO",
+        "formula": "{UREA_SERUM}/{CREATININE_SERUM}"
+      },
+      "_id": "642532b903f8539a520eed8d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "URIC ACID",
+        "field": "numeric",
+        "units": "mg/dL ",
+        "range": {
+          "default": {
+            "child-range-min": "2.5",
+            "child-range-max": "6.8",
+            "male-range-max": "6.8",
+            "male-range-min": "2.5",
+            "female-range-min": "2.5",
+            "female-range-max": "6.8"
+          }
+        }
+      },
+      "_id": "642532b903f8539a520eed8e"
+    },
+    {
+      "_id": "642532b903f8539a520eed8f",
+      "type": "testDetails",
+      "data": {
+        "units": "mg/dL ",
+        "range": {
+          "default": {
+            "male-range-min": "8.5",
+            "female-range-min": "8.5",
+            "female-range-max": "10.6",
+            "child-range-min": "8.5",
+            "child-range-max": "10.6",
+            "male-range-max": "10.6"
+          }
+        },
+        "name": "CALCIUM",
+        "field": "numeric"
+      }
+    },
+    {
+      "_id": "642532b903f8539a520eed90",
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-max": "4.7",
+            "male-range-min": "3.0",
+            "female-range-min": "3.0",
+            "female-range-max": "4.7",
+            "child-range-min": "3.0",
+            "child-range-max": "4.7"
+          }
+        },
+        "name": "PHOSPHOROUS"
+      }
+    },
+    {
+      "_id": "642532b903f8539a520eed91",
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "ELECTROLYTES",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "SODIUM",
+            "units": "mmol/L",
+            "range": {
+              "default": {
+                "female-range-min": "135",
+                "child-range-max": "150",
+                "child-range-min": "135",
+                "male-range-max": "150",
+                "male-range-min": "135",
+                "female-range-max": "150"
+              }
+            }
+          },
+          {
+            "field": "numeric",
+            "name": "POTASSIUM",
+            "units": "mmol/L",
+            "range": {
+              "default": {
+                "child-range-min": "3.5",
+                "male-range-max": "5.0",
+                "male-range-min": "3.5",
+                "female-range-max": "5.0",
+                "female-range-min": "3.5",
+                "child-range-max": "5.0"
+              }
+            }
+          },
+          {
+            "field": "numeric",
+            "name": "CHLORIDE",
+            "units": "mmol/L ",
+            "range": {
+              "default": {
+                "female-range-min": "90",
+                "child-range-max": "110",
+                "child-range-min": "90",
+                "male-range-max": "110",
+                "male-range-min": "90",
+                "female-range-max": "110"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "6418cac9ebe595f57b4fdcb1",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0142",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.245Z",
+  "updatedAt": "2026-08-14T17:59:51.245Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

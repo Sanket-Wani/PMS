@@ -1,0 +1,129 @@
+{
+  "_id": "6a86ccbf5953b1dd0a1990e0",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NOTCH3 MUTATION DETECTION CEDASIL",
+  "code": "2453",
+  "cost": 0,
+  "interpretation": "<ul class=\"marker:text-textOff list-disc\">\n<li>\n<p class=\"my-0\"><span style=\"font-size: 10px;\"><strong>Positive:</strong></span><br><span style=\"font-size: 10px;\">Pathogenic/likely pathogenic NOTCH3 gene variant detected (e.g., c.1234G&gt;A, p.Cys412Tyr), confirming diagnosis of&nbsp;<strong>CADASIL</strong>. Associated with autosomal dominant inheritance; first-degree relatives have a 50% risk.</span></p>\n</li>\n<li style=\"font-size: 10px;\">\n<p class=\"my-0\"><span style=\"font-size: 10px;\"><strong>Negative:</strong></span><br><span style=\"font-size: 10px;\">No pathogenic NOTCH3 variant detected in tested regions; CADASIL unlikely, but not fully excluded if clinical suspicion remains.</span></p>\n</li>\n<li style=\"font-size: 10px;\">\n<p class=\"my-0\"><span style=\"font-size: 10px;\"><strong>Variant of Uncertain Significance (VUS):</strong></span><br><span style=\"font-size: 10px;\">A variation was found but significance is unclear; clinical and familial correlation needed.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "NOTCH3 Mutation Detected",
+        "field": "custom",
+        "options": [
+          "YES",
+          "NO"
+        ],
+        "formulaId": "0dd7044c-b0df-427a-bef2-5a81e1c61da5",
+        "flabsCode": "FLP1537"
+      },
+      "_id": "688117d47ff2db489c2d3177"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mutation Description",
+        "field": "text",
+        "formulaId": "14bb397b-3494-48fe-8f0c-908367ae8278",
+        "flabsCode": "FLP1510"
+      },
+      "_id": "688117d47ff2db489c2d3178"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon",
+        "field": "text",
+        "formulaId": "097a1486-19b8-4bba-ae3c-7e519585785a",
+        "flabsCode": "FLP0845"
+      },
+      "_id": "688117d47ff2db489c2d3179"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zygosity",
+        "field": "custom",
+        "options": [
+          "Heterozygous",
+          "Homozygous"
+        ],
+        "formulaId": "eb75e7e1-27b8-4b4e-800d-0899e3590805",
+        "flabsCode": "FLP2306"
+      },
+      "_id": "688117d47ff2db489c2d317a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c51d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1215",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.934Z",
+  "updatedAt": "2025-07-21T19:17:56.934Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,233 @@
+{
+  "_id": "6a86cc105953b1dd0a17cc62",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LIVER BIOPSY WITH SPECIAL STAINS",
+  "code": "1715",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Gross Examination",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Specimen",
+            "formulaId": "fcc20be3-0c96-4321-9fb1-74ddd7bd6c9d",
+            "flabsCode": "FLP1543"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Size",
+            "units": "cm",
+            "formulaId": "7aa954df-6c37-412c-8fa6-80161bb724a2",
+            "flabsCode": "FLP0623"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Appearance",
+            "formulaId": "cd1e77e4-ed37-4e5e-9b23-f7b4981c9025",
+            "flabsCode": "FLP2158"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Processin",
+            "formulaId": "5f7a610d-364c-408e-b84b-00d2bb147303"
+          }
+        ]
+      },
+      "_id": "68826e82124d8484d8889443"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopic Examination (H&E)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Liver Architecture\t",
+            "formulaId": "67cf84b0-a9bc-4e25-b242-a7c2a6d8ae1d",
+            "flabsCode": "FLP1372"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Hepatocytes",
+            "formulaId": "4b5e4911-22cc-479e-891e-8885f7d0877f",
+            "flabsCode": "FLP1172"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Portal Tracts",
+            "formulaId": "e2b4ade4-d595-46f8-ad77-834aa875fc68",
+            "flabsCode": "FLP1755"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Inflammation",
+            "formulaId": "b2528321-8b1f-46b4-a755-33a08869223e",
+            "flabsCode": "FLP1252"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Fibrosis",
+            "formulaId": "30bd467f-0a56-4a2d-b9dc-519cdaa53fc5",
+            "flabsCode": "FLP0940"
+          },
+          {
+            "key": 5,
+            "field": "text",
+            "name": "Steatosis / Cholestasis",
+            "formulaId": "7b75051e-01a3-4f28-8889-be6b235fbbcd",
+            "flabsCode": "FLP2035"
+          },
+          {
+            "key": 6,
+            "field": "text",
+            "name": "Granulomas / Necrosis",
+            "formulaId": "cef784c8-6e33-43bc-95e9-dfdc61e8c70a",
+            "flabsCode": "FLP1053"
+          },
+          {
+            "key": 7,
+            "field": "text",
+            "name": "Malignancy / Viral Cytopathy",
+            "formulaId": "abb6da57-e160-4e6e-97a5-1a3779302fba",
+            "flabsCode": "FLP1428"
+          }
+        ]
+      },
+      "_id": "68826e82124d8484d8889444"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Special Stains",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "PAS",
+            "formulaId": "02e36935-1be0-43c8-ae9c-35b8f7b498c1",
+            "flabsCode": "FLP1625"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "PAS-D (Diastase)\t",
+            "formulaId": "f1e2ed57-2b16-457e-9478-e39a7d039857",
+            "flabsCode": "FLP1627"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Reticulin",
+            "formulaId": "0286378a-9aec-4b28-9566-6eb0a1eeaba5",
+            "flabsCode": "FLP1850"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Masson’s Trichrome",
+            "formulaId": "344f6d0e-ddd0-4e5f-b735-e775508a955f",
+            "flabsCode": "FLP1435"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Perl’s Prussian Blue (Iron)",
+            "formulaId": "afa5f511-60e9-4205-ad7d-1f7c29b4dd4c",
+            "flabsCode": "FLP1717"
+          },
+          {
+            "key": 5,
+            "field": "text",
+            "name": "Orcein / Shikata",
+            "formulaId": "ce5d1657-1166-4b90-bd65-26b3e845aa76",
+            "flabsCode": "FLP1594"
+          }
+        ]
+      },
+      "_id": "68826e82124d8484d8889445"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c31a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0618",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.325Z",
+  "updatedAt": "2025-07-21T19:17:54.325Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

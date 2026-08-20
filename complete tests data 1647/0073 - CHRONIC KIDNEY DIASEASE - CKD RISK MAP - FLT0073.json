@@ -1,0 +1,280 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b588",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CHRONIC KIDNEY DIASEASE - CKD RISK MAP",
+  "code": "1062",
+  "cost": 0,
+  "interpretation": "<p>eGFR is decreased (Stage G3b) and UACR is severely elevated (A3), indicating <strong data-start=\"1400\" data-end=\"1418\">Very High Risk</strong> of progression to end-stage renal disease and cardiovascular complications.&nbsp;Close monitoring, nephrology referral, and strict control of blood pressure, sugar, and protein intake are advised.</p>\n<p><img src=\"https://media.springernature.com/lw685/springer-static/image/art%3A10.1186%2Fs12882-023-03340-w/MediaObjects/12882_2023_3340_Fig1_HTML.png\"></p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "MICROALBUMIN/ALBUMIN 1ST MORNING/RANDOM URINE",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric_unbound",
+            "name": "ALBUMIN, URINE",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "30"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "30"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "30"
+                }
+              }
+            },
+            "units": "mg/L",
+            "formulaId": "056c73f5-0b32-4b16-ae98-1a8cdef206ec",
+            "flabsCode": "FLP0088"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "CREATININE, URINE",
+            "units": "mg/dL",
+            "range": {
+              "default": {
+                "male-range-min": "24",
+                "male-range-max": "392",
+                "female-range-max": "392",
+                "female-range-min": "24",
+                "child-range-max": "392",
+                "child-range-min": "24"
+              }
+            },
+            "formulaId": "a98da6e6-39f1-4e89-9869-3655c076e117",
+            "flabsCode": "FLP0511"
+          },
+          {
+            "key": 2,
+            "field": "numeric_unbound",
+            "name": "ALBUMIN:CREATININE RATIO",
+            "units": "mg/g Creatinine",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "30"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "30"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "30"
+                }
+              }
+            },
+            "formulaId": "dfb1621c-2017-4f5f-8d52-12575f85cd38",
+            "flabsCode": "FLP0089"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "ACR CATEGORY",
+            "options": [
+              "A1 ( NORMAL TO MILDLY INCREASED)",
+              "A2 (MODERATELY INCREASED)",
+              "A3 (SEVERELY INCREASED)"
+            ],
+            "formulaId": "1fea919e-6c8d-4a0f-a7c5-1b80a96d93ab",
+            "flabsCode": "FLP0070"
+          }
+        ]
+      },
+      "_id": "6887d9cdcd62e2ce86d18267"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "ESTIMATED GLOMERULAR FILTRATION RATE",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "CREATININE, SERUM",
+            "range": {
+              "default": {
+                "male-range-min": "0.70",
+                "male-range-max": "1.30",
+                "female-range-max": "1.30",
+                "female-range-min": "0.70",
+                "child-range-max": "1.30",
+                "child-range-min": "0.70"
+              }
+            },
+            "units": "mg/dL",
+            "formulaId": "2e861c7a-68ac-4083-a65f-aeffb0a679cb",
+            "flabsCode": "FLP0509"
+          },
+          {
+            "key": 1,
+            "field": "numeric_unbound",
+            "name": "GFR, ESTIMATED",
+            "units": "mL/min/1.73m2",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": ">",
+                  "value": "59"
+                },
+                "female-range": {
+                  "op": ">",
+                  "value": "52"
+                },
+                "child-range": {
+                  "op": ">",
+                  "value": "52"
+                }
+              }
+            },
+            "formulaId": "33dede68-e47d-4127-b344-cc4221114c31",
+            "flabsCode": "FLP0839"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "GFR CATEGORY",
+            "options": [
+              "G1",
+              "G2",
+              "G3a",
+              "G3b",
+              "G4",
+              "G5"
+            ],
+            "formulaId": "106a0b8f-73a9-4f13-88d4-cbf61a2f6359",
+            "flabsCode": "FLP0839"
+          }
+        ]
+      },
+      "_id": "6887d9cdcd62e2ce86d18268"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CKD RISK MAP",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "ACR CATEGORY ",
+            "options": [
+              "A1",
+              "A2",
+              "A3"
+            ],
+            "flabsCode": "FLP0070"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "GFR CATEGORY ",
+            "options": [
+              "G1",
+              "G2",
+              "G3a",
+              "G3b",
+              "G4",
+              "G5"
+            ],
+            "flabsCode": "FLP0839"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "CKD CLASSIFICATION",
+            "flabsCode": "FLP0470"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "RISK OF PROGRESSION",
+            "flabsCode": "FLP1826"
+          }
+        ]
+      },
+      "_id": "6887db7ecd62e2ce86d190a3"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c15d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0073",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.307Z",
+  "updatedAt": "2025-07-21T19:17:52.307Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

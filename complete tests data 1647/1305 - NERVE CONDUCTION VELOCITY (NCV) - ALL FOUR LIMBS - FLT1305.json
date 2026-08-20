@@ -1,0 +1,221 @@
+{
+  "_id": "6a86ccd95953b1dd0a19b2a4",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "NERVE CONDUCTION VELOCITY (NCV) - ALL FOUR LIMBS",
+  "code": "2552",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 9px;\">UL = Upper Limbs, LL = Lower Limbs</span></p>\n<p><span style=\"font-size: 9px;\">Clinical Use:</span></p>\n<ul>\n<li style=\"font-size: 9px;\" data-start=\"1430\" data-end=\"1477\">\n<p data-start=\"1432\" data-end=\"1477\"><span style=\"font-size: 9px;\">Evaluation of <strong data-start=\"1446\" data-end=\"1475\">peripheral nerve function</strong></span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1478\" data-end=\"1566\">\n<p data-start=\"1480\" data-end=\"1566\"><span style=\"font-size: 9px;\">Helps diagnose <strong data-start=\"1495\" data-end=\"1509\">neuropathy</strong>, <strong data-start=\"1511\" data-end=\"1528\">radiculopathy</strong>, <strong data-start=\"1530\" data-end=\"1560\">nerve entrapment syndromes</strong>, etc</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Motor Nerve Conduction (UL)\t",
+        "field": "numeric_unbound",
+        "units": "m/s\t",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "50"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "50"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "50"
+            }
+          }
+        },
+        "formulaId": "24041a38-00d0-4504-bdf3-e8b4c9f2ea5c",
+        "flabsCode": "FLP1498"
+      },
+      "_id": "6883d83535738384e79565b5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensory Nerve Conduction (UL)\t",
+        "field": "numeric_unbound",
+        "units": "m/s\t",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "50"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "50"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "50"
+            }
+          }
+        },
+        "formulaId": "31d5b349-20e3-4c3e-930f-710d8740ed90",
+        "flabsCode": "FLP1965"
+      },
+      "_id": "6883d83535738384e79565b6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Motor Nerve Conduction (LL)\t",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "40"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "40"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "40"
+            }
+          }
+        },
+        "units": "m/s\t",
+        "formulaId": "1177339d-c878-402b-9b26-92a07ca9cb5b",
+        "flabsCode": "FLP1497"
+      },
+      "_id": "6883d83535738384e79565b7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sensory Nerve Conduction (LL)\t",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "40"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "40"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "40"
+            }
+          }
+        },
+        "units": "m/s\t",
+        "formulaId": "802d3c7d-fb50-418d-93f8-d651a7c8181a",
+        "flabsCode": "FLP1964"
+      },
+      "_id": "6883d83535738384e79565b8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "F-Wave Latency (UL/LL)\t",
+        "field": "numeric",
+        "units": "ms\t",
+        "rangeReport": "Within normal limits (lab defined)",
+        "formulaId": "7caee808-56ec-4624-951c-c3eeb828fed4",
+        "flabsCode": "FLP0868"
+      },
+      "_id": "6883d83535738384e79565b9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CMAP Amplitude\t",
+        "field": "numeric",
+        "formulaId": "3e755719-629d-414c-9d7b-c8c98d7d0e54",
+        "flabsCode": "FLP0473"
+      },
+      "_id": "6883d83535738384e79565ba"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SNAP Amplitude\t",
+        "field": "numeric",
+        "formulaId": "058c6f11-4e42-43ec-b8ba-cb1c87bba4b7",
+        "flabsCode": "FLP1922"
+      },
+      "_id": "6883d83535738384e79565bb"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c577",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1305",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.353Z",
+  "updatedAt": "2025-07-21T19:17:57.353Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

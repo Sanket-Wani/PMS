@@ -1,0 +1,172 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b78",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Interferon Gamma Release Assay - TB Gold QuantiFERON",
+  "code": "IGRA",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div><span style=\"font-size: 10px;\">Result</span></div></th><th><div><span style=\"font-size: 10px;\">Interpretation</span></div></th></tr></thead><tbody><tr><td><div><span style=\"font-size: 10px;\">Positive</span></div></td><td><div><span style=\"font-size: 10px;\">Indicates a significant IFN-gamma response to the TB antigens, which may suggest active TB infection or latent TB infection.</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Negative</span></div></td><td><div><span style=\"font-size: 10px;\">Indicates no significant IFN-gamma response to the TB antigens, which may suggest the patient has not been exposed to TB or has not developed an immune response to it.</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Indeterminate</span></div></td><td><div><span style=\"font-size: 10px;\">Can occur due to technical error in the testing process or when the IFN-gamma response falls within a certain range that does not allow for a clear interpretation of the result. In these cases, the test may need to be repeated.</span></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "heparinised blood",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "female-range-max": "10.0",
+            "child-range-min": "0.1",
+            "child-range-max": "10.0",
+            "male-range-max": "10.0",
+            "male-range-min": "0.1",
+            "female-range-min": "0.1"
+          }
+        },
+        "name": "TB Antigen Tube",
+        "field": "numeric",
+        "units": "IU/ml"
+      },
+      "_id": "641c78e8063818086a8d17c5"
+    },
+    {
+      "_id": "641c78e8063818086a8d17c6",
+      "type": "testDetails",
+      "data": {
+        "units": "IU/ml",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "8"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "8"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "8"
+            }
+          }
+        },
+        "name": "Nil Tube",
+        "field": "numeric_unbound"
+      }
+    },
+    {
+      "_id": "641c78e8063818086a8d17c7",
+      "type": "testDetails",
+      "data": {
+        "name": "Mitogen Tube",
+        "field": "numeric_unbound",
+        "units": "IU/ml",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "0.5"
+            },
+            "female-range": {
+              "value": "0.5",
+              "op": ">="
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "0.5"
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Final Result",
+        "field": "custom",
+        "options": [
+          "positive",
+          "negative",
+          "Intermediate"
+        ],
+        "range": {
+          "default": {
+            "male-range": " < 0.35  : Negative\n  0.35 - 0.7 : Intermediate \n> 0.7 : Positive",
+            "female-range": " < 0.35  : Negative\n>  0.35  : Positive",
+            "child-range": " < 0.35  : Negative\n>  0.35  : Positive"
+          }
+        }
+      },
+      "_id": "641c78e8063818086a8d17c8"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641c78e8063818086a8d17c4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1595",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.375Z",
+  "updatedAt": "2026-08-14T17:59:51.375Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

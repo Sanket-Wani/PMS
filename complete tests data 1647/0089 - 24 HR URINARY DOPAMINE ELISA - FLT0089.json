@@ -1,0 +1,119 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b607",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "24 HR URINARY DOPAMINE ELISA",
+  "code": "1077",
+  "cost": 0,
+  "interpretation": "<p data-start=\"130\" data-end=\"311\">The <strong data-start=\"134\" data-end=\"167\">24-hour urinary dopamine test</strong> measures the total amount of <strong data-start=\"197\" data-end=\"209\">dopamine</strong>, a catecholamine neurotransmitter, excreted in urine over a full day. This test is primarily used to:</p>\n<ul data-start=\"313\" data-end=\"652\">\n<li data-start=\"313\" data-end=\"383\">\n<p data-start=\"315\" data-end=\"383\"><strong data-start=\"315\" data-end=\"383\">Evaluate adrenal medulla and sympathetic nervous system function</strong></p>\n</li>\n<li data-start=\"384\" data-end=\"490\">\n<p data-start=\"386\" data-end=\"490\">Monitor or diagnose <strong data-start=\"406\" data-end=\"426\">pheochromocytoma</strong>, <strong data-start=\"428\" data-end=\"445\">neuroblastoma</strong>, or other <strong data-start=\"456\" data-end=\"490\">catecholamine-secreting tumors</strong></p>\n</li>\n<li data-start=\"491\" data-end=\"568\">\n<p data-start=\"493\" data-end=\"568\">Investigate causes of <strong data-start=\"515\" data-end=\"531\">hypertension</strong>, especially if episodic or resistant</p>\n</li>\n<li data-start=\"569\" data-end=\"652\">\n<p data-start=\"571\" data-end=\"652\">Study <strong data-start=\"577\" data-end=\"600\">dopamine metabolism</strong> in certain metabolic or neuropsychiatric conditions</p>\n</li>\n</ul>\n<p data-start=\"654\" data-end=\"796\">Dopamine is a precursor to norepinephrine and epinephrine and plays roles in cardiovascular regulation, renal function, and neurotransmission.</p>\n<p data-start=\"654\" data-end=\"796\">Elevated 24-hour urinary dopamine levels may indicate:</p>\n<table>\n<thead>\n<tr>\n<th><strong>Condition</strong></th>\n<th><strong>Explanation</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Pheochromocytoma or paraganglioma</strong></td>\n<td>Tumors of the adrenal medulla or sympathetic chain that secrete catecholamines</td>\n</tr>\n<tr>\n<td><strong>Neuroblastoma</strong></td>\n<td>Malignant tumor common in children, often secreting dopamine</td>\n</tr>\n<tr>\n<td><strong>Stress or acute illness</strong></td>\n<td>May transiently raise catecholamine levels, including dopamine</td>\n</tr>\n<tr>\n<td><strong>Use of certain medications</strong></td>\n<td>E.g., levodopa, MAO inhibitors, amphetamines, which increase dopamine levels</td>\n</tr>\n<tr>\n<td><strong>Hypertensive crisis or autonomic dysregulation</strong></td>\n<td>Seen in rare syndromes or acute states</td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"654\" data-end=\"796\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "DOPAMINE ELISA URINE 24 HR",
+        "field": "numeric_unbound",
+        "formulaId": "61f48992-38d8-4761-8a0b-d2149b12e97e",
+        "units": "µg/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "600"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "600"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "600"
+            }
+          }
+        },
+        "flabsCode": "FLP0743"
+      },
+      "_id": "678b46c83807bb1deede33a9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "URINE VOLUME IN 24 HR",
+        "field": "numeric",
+        "units": "ml",
+        "formulaId": "90c14804-b087-420c-9ff3-8903e0f12965",
+        "flabsCode": "FLP2195"
+      },
+      "_id": "678b46c83807bb1deede33ab"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c16a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0089",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.374Z",
+  "updatedAt": "2025-07-21T19:17:52.374Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

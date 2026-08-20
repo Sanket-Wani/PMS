@@ -1,0 +1,522 @@
+{
+  "_id": "6a86cb445953b1dd0a155c88",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AMINO ACID QUANTITATIVE PLASMA",
+  "code": "1028",
+  "cost": 0,
+  "interpretation": "<p data-start=\"220\" data-end=\"357\">The <strong data-start=\"224\" data-end=\"263\">Amino Acid Quantitative Plasma Test</strong> measures the levels of various <strong data-start=\"295\" data-end=\"310\">amino acids</strong> in the bloodstream. It is primarily used to:</p>\n<ul data-start=\"358\" data-end=\"695\">\n<li data-start=\"358\" data-end=\"526\">\n<p data-start=\"360\" data-end=\"410\">Diagnose <strong data-start=\"369\" data-end=\"400\">inborn errors of metabolism</strong>, such as:</p>\n<ul data-start=\"413\" data-end=\"526\">\n<li data-start=\"413\" data-end=\"440\">\n<p data-start=\"415\" data-end=\"440\"><strong data-start=\"415\" data-end=\"440\">Phenylketonuria (PKU)</strong></p>\n</li>\n<li data-start=\"443\" data-end=\"481\">\n<p data-start=\"445\" data-end=\"481\"><strong data-start=\"445\" data-end=\"481\">Maple syrup urine disease (MSUD)</strong></p>\n</li>\n<li data-start=\"484\" data-end=\"504\">\n<p data-start=\"486\" data-end=\"504\"><strong data-start=\"486\" data-end=\"504\">Homocystinuria</strong></p>\n</li>\n<li data-start=\"507\" data-end=\"526\">\n<p data-start=\"509\" data-end=\"526\"><strong data-start=\"509\" data-end=\"526\">Citrullinemia</strong></p>\n</li>\n</ul>\n</li>\n<li data-start=\"527\" data-end=\"582\">\n<p data-start=\"529\" data-end=\"582\">Monitor patients with <strong data-start=\"551\" data-end=\"580\">known metabolic disorders</strong></p>\n</li>\n<li data-start=\"583\" data-end=\"695\">\n<p data-start=\"585\" data-end=\"695\">Evaluate <strong data-start=\"594\" data-end=\"622\">nutritional deficiencies</strong>, malabsorption, or liver/kidney dysfunction in certain clinical settings</p>\n</li>\n</ul>\n<p data-start=\"697\" data-end=\"864\">Each amino acid has a distinct clinical implication when elevated, and patterns of abnormalities often point to specific <strong data-start=\"818\" data-end=\"863\">metabolic pathways or enzyme deficiencies</strong>.</p>\n<table>\n<thead>\n<tr>\n<th><strong>Amino Acid Elevated</strong></th>\n<th><strong>Associated Condition</strong></th>\n<th><strong>Clinical Significance / Notes</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Phenylalanine</strong></td>\n<td>Phenylketonuria (PKU)</td>\n<td>Intellectual disability if untreated; enzyme: phenylalanine hydroxylase</td>\n</tr>\n<tr>\n<td><strong>Leucine, Isoleucine, Valine</strong></td>\n<td>Maple Syrup Urine Disease (MSUD)</td>\n<td>Newborn crisis; sweet-smelling urine; neurotoxicity</td>\n</tr>\n<tr>\n<td><strong>Homocysteine</strong></td>\n<td>Homocystinuria</td>\n<td>Vascular disease risk, lens dislocation, developmental delay</td>\n</tr>\n<tr>\n<td><strong>Citrulline</strong></td>\n<td>Citrullinemia</td>\n<td>Urea cycle disorder; risk of hyperammonemia</td>\n</tr>\n<tr>\n<td><strong>Argininosuccinic acid</strong></td>\n<td>Argininosuccinic aciduria</td>\n<td>Urea cycle disorder; leads to lethargy, vomiting, coma</td>\n</tr>\n<tr>\n<td><strong>Tyrosine</strong></td>\n<td>Tyrosinemia (Type I, II)</td>\n<td>Liver/kidney dysfunction, neurologic complications</td>\n</tr>\n<tr>\n<td><strong>Methionine</strong></td>\n<td>Homocystinuria or Liver Dysfunction</td>\n<td>Marker for disturbed methylation/metabolism pathways</td>\n</tr>\n<tr>\n<td><strong>Ornithine</strong></td>\n<td>HHH Syndrome (Hyperornithinemia-Hyperammonemia-Homocitrullinuria)</td>\n<td>Rare urea cycle disorder causing ammonia buildup</td>\n</tr>\n<tr>\n<td><strong>Glycine</strong></td>\n<td>Nonketotic Hyperglycinemia</td>\n<td>Severe neonatal encephalopathy; glycine cleavage defect</td>\n</tr>\n<tr>\n<td><strong>Histidine</strong></td>\n<td>Histidinemia</td>\n<td>Usually benign; rare metabolic disorder</td>\n</tr>\n<tr>\n<td><strong>Alanine</strong></td>\n<td>May increase in liver disease or pyruvate metabolism errors</td>\n<td>Non-specific; can be secondary to metabolic or hepatic stress</td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"697\" data-end=\"864\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "sodium citrate 3.2 % plasma specimen",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Alanine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "150",
+            "male-range-max": "550",
+            "female-range-max": "550",
+            "female-range-min": "150",
+            "child-range-max": "550",
+            "child-range-min": "150"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "97210002-4844-4e10-9002-6392f7cc1f5c",
+        "flabsCode": "FLP0167"
+      },
+      "_id": "6883d60b35738384e7952347"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Arginine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "10",
+            "male-range-max": "140",
+            "female-range-max": "140",
+            "female-range-min": "10",
+            "child-range-max": "140",
+            "child-range-min": "10"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "eb26b217-8f45-4dce-953d-a1a56c944b26",
+        "flabsCode": "FLP0272"
+      },
+      "_id": "6883d60b35738384e7952348"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Asparagine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "15",
+            "male-range-max": "80",
+            "female-range-max": "80",
+            "female-range-min": "15",
+            "child-range-max": "80",
+            "child-range-min": "15"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "03536070-b24c-4582-87ff-bbcf990289f6",
+        "flabsCode": "FLP0282"
+      },
+      "_id": "6883d60b35738384e7952349"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Aspartic acid",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "10",
+            "female-range-max": "10",
+            "female-range-min": "0",
+            "child-range-max": "10",
+            "child-range-min": "0"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "6c93abb5-7d2a-45aa-a8be-aa67849de137",
+        "flabsCode": "FLP0283"
+      },
+      "_id": "6883d60b35738384e795234a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Citrulline",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "10",
+            "male-range-max": "45",
+            "female-range-max": "45",
+            "female-range-min": "10",
+            "child-range-max": "45",
+            "child-range-min": "10"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "c6248eda-cf4d-40b9-b649-bcfb409cac87",
+        "flabsCode": "FLP0607"
+      },
+      "_id": "6883d60b35738384e795234b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Glutamic acid",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "10",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "10",
+            "child-range-max": "100",
+            "child-range-min": "10"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "d6c357c1-dfe0-417b-8fa7-393894313ab8",
+        "flabsCode": "FLP1035"
+      },
+      "_id": "6883d60b35738384e795234c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Glutamine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "400",
+            "male-range-max": "700",
+            "female-range-max": "700",
+            "female-range-min": "400",
+            "child-range-max": "700",
+            "child-range-min": "400"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "d693274b-edca-41ca-b1f1-4a0c4212f46c",
+        "flabsCode": "FLP1036"
+      },
+      "_id": "6883d60b35738384e795234d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Glycine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "200",
+            "male-range-max": "550",
+            "female-range-max": "550",
+            "female-range-min": "200",
+            "child-range-max": "550",
+            "child-range-min": "200"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "1f3af070-25d3-4c08-85ad-62747683282b",
+        "flabsCode": "FLP1038"
+      },
+      "_id": "6883d60b35738384e795234e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Histidine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "60",
+            "male-range-max": "130",
+            "female-range-max": "130",
+            "female-range-min": "60",
+            "child-range-max": "130",
+            "child-range-min": "60"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "6f3a5412-7ba7-4f04-ba25-cc4bf1526078",
+        "flabsCode": "FLP1182"
+      },
+      "_id": "6883d60b35738384e795234f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Isoleucine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "40",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "40",
+            "child-range-max": "100",
+            "child-range-min": "40"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "741ca5ae-f2cd-4252-861e-0a5fcecaf171",
+        "flabsCode": "FLP1280"
+      },
+      "_id": "6883d60b35738384e7952350"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Leucine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "60",
+            "male-range-max": "140",
+            "female-range-max": "140",
+            "female-range-min": "60",
+            "child-range-max": "140",
+            "child-range-min": "60"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "c26b7dbc-35b6-4607-8d97-223abeaa6b4d",
+        "flabsCode": "FLP1358"
+      },
+      "_id": "6883d60b35738384e7952351"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Lysine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "100",
+            "male-range-max": "240",
+            "female-range-max": "240",
+            "female-range-min": "100",
+            "child-range-max": "240",
+            "child-range-min": "100"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "ef896a97-2be7-48eb-8a24-33ca06915882",
+        "flabsCode": "FLP1385"
+      },
+      "_id": "6883d60b35738384e7952352"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Methionine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "15",
+            "male-range-max": "50",
+            "female-range-max": "50",
+            "female-range-min": "15",
+            "child-range-max": "50",
+            "child-range-min": "15"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "8b894942-b1ae-4c84-9aa9-3c7d9319b400",
+        "flabsCode": "FLP1463"
+      },
+      "_id": "6883d60b35738384e7952353"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ornithine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "20",
+            "male-range-max": "110",
+            "female-range-max": "110",
+            "female-range-min": "20",
+            "child-range-max": "110",
+            "child-range-min": "20"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "3f4ed356-5b6f-4f68-84d5-f3c610478332",
+        "flabsCode": "FLP1597"
+      },
+      "_id": "6883d60b35738384e7952354"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Phenylalanine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "30",
+            "male-range-max": "90",
+            "female-range-max": "90",
+            "female-range-min": "30",
+            "child-range-max": "90",
+            "child-range-min": "30"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "582028ac-023a-4f42-a543-ae5707fe59a7",
+        "flabsCode": "FLP1720"
+      },
+      "_id": "6883d60b35738384e7952355"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Proline",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "90",
+            "male-range-max": "300",
+            "female-range-max": "300",
+            "female-range-min": "90",
+            "child-range-max": "300",
+            "child-range-min": "90"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "32ecdf98-b9ef-4eba-a3c9-a50a6dbd59f9",
+        "flabsCode": "FLP1792"
+      },
+      "_id": "6883d60b35738384e7952356"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "70",
+            "male-range-max": "160",
+            "female-range-max": "160",
+            "female-range-min": "70",
+            "child-range-max": "160",
+            "child-range-min": "70"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "9327b5a6-2e86-420c-b7e2-1fb37ba6e54a",
+        "flabsCode": "FLP1971"
+      },
+      "_id": "6883d60b35738384e7952357"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Threonine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "60",
+            "male-range-max": "150",
+            "female-range-max": "150",
+            "female-range-min": "60",
+            "child-range-max": "150",
+            "child-range-min": "60"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "2307a98b-d85d-461c-8b8d-faa08365a787",
+        "flabsCode": "FLP2100"
+      },
+      "_id": "6883d60b35738384e7952358"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Tryptophan",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "30",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "30",
+            "child-range-max": "100",
+            "child-range-min": "30"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "c50862cf-abf5-40db-a70f-24bb6ce923da",
+        "flabsCode": "FLP2171"
+      },
+      "_id": "6883d60b35738384e7952359"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Tyrosine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "30",
+            "male-range-max": "120",
+            "female-range-max": "120",
+            "female-range-min": "30",
+            "child-range-max": "120",
+            "child-range-min": "30"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "7048a202-6d51-4cfc-9c4d-5aa10f5267cf",
+        "flabsCode": "FLP2174"
+      },
+      "_id": "6883d60b35738384e795235a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Valine",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "150",
+            "male-range-max": "300",
+            "female-range-max": "300",
+            "female-range-min": "150",
+            "child-range-max": "300",
+            "child-range-min": "150"
+          }
+        },
+        "units": "µmol/L",
+        "formulaId": "1384d63d-0099-4295-923f-72835ef697ae",
+        "flabsCode": "FLP2251"
+      },
+      "_id": "6883d60b35738384e795235b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c13c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0034",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.141Z",
+  "updatedAt": "2025-07-21T19:17:52.141Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

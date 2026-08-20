@@ -1,0 +1,194 @@
+{
+  "_id": "6a86cbf692e2891d948d2075",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FLUID DLC",
+  "code": "1553",
+  "cost": 0,
+  "interpretation": "<p data-start=\"94\" data-end=\"406\">Fluid DLC is performed on body fluids like pleural, peritoneal (ascitic), pericardial, or cerebrospinal fluid to determine the types and percentages of white blood cells present. This helps differentiate between infectious, inflammatory, or malignant causes of fluid accumulation.</p>\n<table>\n<thead>\n<tr>\n<th>Cell Type</th>\n<th>Normal Range in Fluids</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Neutrophils</td>\n<td>&lt; 25%</td>\n</tr>\n<tr>\n<td>Lymphocytes</td>\n<td>&gt; 50%</td>\n</tr>\n<tr>\n<td>Monocytes/Macrophages</td>\n<td>Variable</td>\n</tr>\n<tr>\n<td>Eosinophils</td>\n<td>&lt; 5%</td>\n</tr>\n<tr>\n<td>Basophils</td>\n<td>Rare</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<table>\n<thead>\n<tr>\n<th>Predominant Cells</th>\n<th>Possible Indication</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Neutrophils</td>\n<td>Acute bacterial infection, empyema, early TB</td>\n</tr>\n<tr>\n<td>Lymphocytes</td>\n<td>Tuberculosis, viral infection, malignancy, chronic inflammation</td>\n</tr>\n<tr>\n<td>Eosinophils</td>\n<td>Parasitic infection, drug reaction, air/blood in cavity</td>\n</tr>\n<tr>\n<td>Macrophages</td>\n<td>Chronic inflammation, resolving infection, malignancy</td>\n</tr>\n<tr>\n<td>Mesothelial Cells</td>\n<td>Reactive/inflammatory changes or malignancy (usually reported separately)</td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"1469\" data-end=\"1495\"><strong data-start=\"1473\" data-end=\"1495\">Example Scenarios:</strong></p>\n<ul data-start=\"1497\" data-end=\"1745\">\n<li data-start=\"1497\" data-end=\"1572\">\n<p data-start=\"1499\" data-end=\"1572\"><strong data-start=\"1499\" data-end=\"1539\">Pleural fluid with &gt; 70% neutrophils</strong> : Suggests <strong data-start=\"1551\" data-end=\"1572\">bacterial empyema</strong></p>\n</li>\n<li data-start=\"1573\" data-end=\"1660\">\n<p data-start=\"1575\" data-end=\"1660\"><strong data-start=\"1575\" data-end=\"1621\">Ascitic fluid with predominant lymphocytes</strong> : Consider <strong data-start=\"1633\" data-end=\"1660\">tuberculous peritonitis</strong></p>\n</li>\n<li data-start=\"1661\" data-end=\"1745\">\n<p data-start=\"1663\" data-end=\"1745\"><strong data-start=\"1663\" data-end=\"1692\">CSF with high lymphocytes</strong> : Could indicate <strong data-start=\"1710\" data-end=\"1745\">viral or tuberculous meningitis</strong></p>\n</li>\n</ul>\n<hr data-start=\"1747\" data-end=\"1750\">\n<h3 data-start=\"1752\" data-end=\"1776\">&nbsp;</h3>\n<div role=\"presentation\">&nbsp;</div>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "DIFFERENTIAL LEUCOCYTE COUNT",
+        "categories": [
+          {
+            "key": 1,
+            "field": "numeric_unbound",
+            "name": "LYMPHOCYTES",
+            "units": "%",
+            "formulaId": "819cfe45-3c44-4033-8748-ab8c6391482a",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": ">",
+                  "value": "50"
+                },
+                "female-range": {
+                  "op": ">",
+                  "value": "50"
+                },
+                "child-range": {
+                  "op": ">",
+                  "value": "50"
+                }
+              }
+            },
+            "flabsCode": "FLP1531"
+          },
+          {
+            "key": 5,
+            "field": "numeric_unbound",
+            "name": "BASOPHILS",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "==",
+                  "value": "0"
+                },
+                "female-range": {
+                  "op": "==",
+                  "value": "0"
+                },
+                "child-range": {
+                  "op": "==",
+                  "value": "0"
+                }
+              }
+            },
+            "units": "%",
+            "formulaId": "7d2318d3-dcea-4bf4-8ab5-28de14f905d4",
+            "flabsCode": "FLP0303"
+          },
+          {
+            "key": 4,
+            "field": "numeric_unbound",
+            "name": "EOSINOPHILS",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "5"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "5"
+                },
+                "child-range": {
+                  "op": "<",
+                  "value": "5"
+                }
+              }
+            },
+            "formulaId": "0120abf4-5a58-4bcd-ba3b-b41e75ce8a8b",
+            "flabsCode": "FLP1531"
+          },
+          {
+            "key": 3,
+            "field": "numeric",
+            "name": "MONOCYTES",
+            "units": "%",
+            "rangeReport": "VARIABLE",
+            "formulaId": "37c9413e-5a3b-4766-984b-b9eec49af8fc",
+            "flabsCode": "FLP1406"
+          },
+          {
+            "name": "NEUTROPHILS",
+            "field": "numeric_unbound",
+            "units": "%",
+            "rangeReport": "< 40",
+            "range": {
+              "default": {
+                "male-range": {
+                  "op": "<",
+                  "value": "40"
+                },
+                "female-range": {
+                  "op": "<",
+                  "value": "40"
+                }
+              }
+            },
+            "formulaId": "4d356c43-6bc6-4ceb-bd27-15f1a3cd19a3",
+            "key": 4,
+            "flabsCode": "FLP1531"
+          }
+        ]
+      },
+      "_id": "678ce578af0b85d8491e9376"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c2c5",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0516",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.927Z",
+  "updatedAt": "2025-07-21T19:17:53.927Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

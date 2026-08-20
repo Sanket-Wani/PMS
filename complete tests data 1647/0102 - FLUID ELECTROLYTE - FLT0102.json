@@ -1,0 +1,147 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a46d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FLUID ELECTROLYTE",
+  "code": "1092",
+  "cost": 0,
+  "interpretation": "<p data-start=\"115\" data-end=\"226\"><strong data-start=\"115\" data-end=\"154\">Electrolyte analysis in body fluids</strong> (such as pleural, peritoneal/ascitic, or cerebrospinal fluid) helps in:</p>\n<ul data-start=\"228\" data-end=\"555\">\n<li data-start=\"228\" data-end=\"291\">\n<p data-start=\"230\" data-end=\"291\">Differentiating <strong data-start=\"246\" data-end=\"262\">transudative</strong> from <strong data-start=\"268\" data-end=\"281\">exudative</strong> effusions</p>\n</li>\n<li data-start=\"292\" data-end=\"382\">\n<p data-start=\"294\" data-end=\"382\">Identifying <strong data-start=\"306\" data-end=\"320\">infectious</strong>, <strong data-start=\"322\" data-end=\"335\">malignant</strong>, or <strong data-start=\"340\" data-end=\"353\">traumatic</strong> causes of fluid accumulation</p>\n</li>\n<li data-start=\"383\" data-end=\"457\">\n<p data-start=\"385\" data-end=\"457\">Assessing <strong data-start=\"395\" data-end=\"431\">acid-base and osmotic imbalances</strong> in localized compartments</p>\n</li>\n<li data-start=\"458\" data-end=\"555\">\n<p data-start=\"460\" data-end=\"555\">Detecting <strong data-start=\"470\" data-end=\"487\">urine leakage</strong> when compared with serum electrolytes (especially in ascitic fluid)</p>\n</li>\n</ul>\n<p data-start=\"557\" data-end=\"680\">&nbsp;Elevated Levels &ndash; Clinical Implications</p>\n<table>\n<thead>\n<tr>\n<th><strong>Electrolyte</strong></th>\n<th><strong>Clinical Indication When Elevated in Fluid</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Sodium</strong></td>\n<td>May suggest contamination with <strong>hypertonic urine</strong> (e.g., urinary ascites), or dehydration-related transudate</td>\n</tr>\n<tr>\n<td><strong>Potassium</strong></td>\n<td>May indicate <strong>cellular breakdown</strong> (e.g., malignancy, hemolysis), or <strong>urinary leakage</strong></td>\n</tr>\n<tr>\n<td><strong>Chloride</strong></td>\n<td>Can be elevated in <strong>transudative effusions</strong>, or <strong>saline contamination</strong></td>\n</tr>\n<tr>\n<td><strong>Bicarbonate</strong></td>\n<td>Rarely high in fluid; may suggest <strong>alkaline contamination</strong> or processing error</td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"557\" data-end=\"680\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fluid Sodium",
+        "field": "numeric",
+        "test_method": "ise ",
+        "units": "mmol/L",
+        "formulaId": "47181ce3-eaae-40cf-9b1a-a4cfcbe19f58",
+        "range": {
+          "default": {
+            "male-range-min": "135",
+            "male-range-max": "145",
+            "female-range-max": "145",
+            "female-range-min": "135",
+            "child-range-max": "145",
+            "child-range-min": "135"
+          }
+        },
+        "flabsCode": "FLP0949"
+      },
+      "_id": "678ce526e698bd793c4d5e99"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fluid Potassium",
+        "field": "numeric",
+        "units": "mmol/L",
+        "test_method": "ise ",
+        "formulaId": "59c31659-7527-4485-8f6d-d32605518c7e",
+        "range": {
+          "default": {
+            "male-range-min": "3.5",
+            "male-range-max": "5.0",
+            "female-range-max": "5.0",
+            "female-range-min": "3.5",
+            "child-range-max": "5.0",
+            "child-range-min": "3.5"
+          }
+        },
+        "flabsCode": "FLP0948"
+      },
+      "_id": "678ce526e698bd793c4d5e9a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fluid Chloride",
+        "field": "numeric",
+        "test_method": "ise ",
+        "units": "mmol/L",
+        "formulaId": "b503fe14-868d-4878-92bc-c5dfaa1adc82",
+        "range": {
+          "default": {
+            "male-range-min": "98",
+            "male-range-max": "107",
+            "female-range-max": "107",
+            "female-range-min": "98",
+            "child-range-max": "107",
+            "child-range-min": "98"
+          }
+        },
+        "flabsCode": "FLP0947"
+      },
+      "_id": "678ce526e698bd793c4d5e9b"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c175",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0102",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.425Z",
+  "updatedAt": "2025-07-21T19:17:52.425Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

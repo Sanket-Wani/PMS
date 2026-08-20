@@ -1,0 +1,193 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c4b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Dehydroepiandrosterone Sulphate (DHEAS)",
+  "code": "DHEAS",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div>DHEAS Level (mcg/dL or nmol/L)</div></th><th><div>Interpretation</div></th></tr></thead><tbody><tr><td><div>Normal Levels</div></td><td><div>Normal DHEAS levels indicate that the adrenal glands are functioning properly, and there are no significant abnormalities in DHEAS production.</div></td></tr><tr><td><div>Elevated Levels</div></td><td><div>Elevated DHEAS levels may be seen in conditions such as adrenal tumors (e.g., adrenal adenoma or adrenal carcinoma) or polycystic ovary syndrome (PCOS) in women. High DHEAS levels in women can cause symptoms such as excessive hair growth (hirsutism), acne, and irregular menstrual periods. Further evaluation and testing are required to determine the underlying cause of high DHEAS levels.</div></td></tr><tr><td><div>Low Levels</div></td><td><div>Low DHEAS levels are less common and may be associated with adrenal insufficiency or certain hormonal disorders. Adrenal insufficiency is a condition in which the adrenal glands do not produce enough hormones, leading to various symptoms and complications. Further evaluation is necessary to identify the underlying cause of low DHEAS levels.</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fc53f02dc1ebb6a097b9",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "range": {
+          "31y_0m_0d_-_40y_0m_0d": {
+            "male-range-min": "106",
+            "male-range-max": "464",
+            "female-range-min": "23",
+            "female-range-max": "266"
+          },
+          "41y_0m_0d_-_50y_0m_0d": {
+            "male-range-min": "70",
+            "male-range-max": "495",
+            "female-range-min": "19",
+            "female-range-max": "231"
+          },
+          "51y_0m_0d_-_60y_0m_0d": {
+            "female-range-min": "8",
+            "female-range-max": "188",
+            "male-range-min": "38",
+            "male-range-max": "313"
+          },
+          "61y_0m_0d_-_70y_0m_0d": {
+            "male-range-min": "24",
+            "male-range-max": "244",
+            "female-range-min": "12",
+            "female-range-max": "133"
+          },
+          "71y_0m_00d_-_110y_0m_0d": {
+            "child-range-min": "7",
+            "male-range-min": "5",
+            "male-range-max": "252",
+            "female-range-min": "7",
+            "female-range-max": "177",
+            "child-range-max": "177"
+          },
+          "default": {
+            "female-range-min": "51",
+            "female-range-max": "321",
+            "child-range-max": "177",
+            "child-range-min": "7",
+            "male-range-min": "24",
+            "male-range-max": "537"
+          },
+          "0y_0m_0d_-_18y_0m_0d": {
+            "male-range-min": "24",
+            "male-range-max": "537",
+            "female-range-min": "51",
+            "female-range-max": "321"
+          },
+          "21y_0m_1d_-_30y_0m_0d": {
+            "female-range-min": "18",
+            "female-range-max": "391",
+            "male-range-min": "85",
+            "male-range-max": "690"
+          },
+          "18y_0m_1d_-_21y_0m_0d": {
+            "male-range-min": "24",
+            "male-range-max": "537",
+            "female-range-min": "51",
+            "female-range-max": "321"
+          }
+        },
+        "units": "mg/dL",
+        "name": "DHEAS Sulphate-Dehydroepiandrosterone Sulphate"
+      },
+      "_id": "64bd48a1a737d16813f2aec8"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64bd48a1a737d16813f2aec7",
+  "ageRanges": [
+    {
+      "_id": "64bd48a9a737d16813f2aeea",
+      "from": "0Y-0M-0D",
+      "to": "18Y-0M-0D"
+    },
+    {
+      "_id": "64bd48b6a737d16813f2af40",
+      "from": "18Y-0M-1D",
+      "to": "21Y-0M-0D"
+    },
+    {
+      "_id": "64bd48c4a737d16813f2af5e",
+      "from": "21Y-0M-1D",
+      "to": "30Y-0M-0D"
+    },
+    {
+      "_id": "64bd48d6a737d16813f2af89",
+      "from": "31Y-0M-0D",
+      "to": "40Y-0M-0D"
+    },
+    {
+      "_id": "64bd48e7a737d16813f2af9a",
+      "from": "41Y-0M-0D",
+      "to": "50Y-0M-0D"
+    },
+    {
+      "_id": "64bd48eea737d16813f2afac",
+      "from": "51Y-0M-0D",
+      "to": "60Y-0M-0D"
+    },
+    {
+      "_id": "64bd48fca737d16813f2afbe",
+      "from": "61Y-0M-0D",
+      "to": "70Y-0M-0D"
+    },
+    {
+      "_id": "64bd490ea737d16813f2aff1",
+      "from": "71Y-0M-00D",
+      "to": "110Y-0M-0D"
+    }
+  ],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0662",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.670Z",
+  "updatedAt": "2026-08-14T17:59:51.670Z",
+  "comment": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

@@ -1,0 +1,258 @@
+{
+  "_id": "6a86cce55953b1dd0a19c221",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "VEP",
+  "code": "2569",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1930\" data-end=\"2066\">\n<p data-start=\"1932\" data-end=\"1949\"><strong data-start=\"1932\" data-end=\"1947\">Normal VEP:</strong></p>\n<ul data-start=\"1952\" data-end=\"2066\">\n<li data-start=\"1952\" data-end=\"2006\">\n<p data-start=\"1954\" data-end=\"2006\">Symmetrical latencies and amplitudes in both eyes.</p>\n</li>\n<li data-start=\"2009\" data-end=\"2066\">\n<p data-start=\"2011\" data-end=\"2066\">P100 latency within normal limits (&le;115 ms for adults).</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2068\" data-end=\"2281\">\n<p data-start=\"2070\" data-end=\"2089\"><strong data-start=\"2070\" data-end=\"2087\">Abnormal VEP:</strong></p>\n<ul data-start=\"2092\" data-end=\"2281\">\n<li data-start=\"2092\" data-end=\"2190\">\n<p data-start=\"2094\" data-end=\"2190\"><strong data-start=\"2094\" data-end=\"2115\">Prolonged latency</strong> (often in <strong data-start=\"2126\" data-end=\"2186\">optic neuritis, demyelination such as multiple sclerosis</strong>).</p>\n</li>\n<li data-start=\"2193\" data-end=\"2281\">\n<p data-start=\"2195\" data-end=\"2281\"><strong data-start=\"2195\" data-end=\"2216\">Reduced amplitude</strong> or <strong data-start=\"2220\" data-end=\"2233\">asymmetry</strong> between eyes (may indicate conduction defects).</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2283\" data-end=\"2349\">\n<p data-start=\"2285\" data-end=\"2349\">Must be interpreted with <strong data-start=\"2310\" data-end=\"2348\">clinical findings and neuroimaging</strong>.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "P100 Latency (Right Eye)",
+        "field": "numeric_unbound",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "115"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "115"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "115"
+            }
+          }
+        },
+        "formulaId": "74a3feef-44e6-4a7a-9c8b-f0101813839d",
+        "flabsCode": "FLP1615"
+      },
+      "_id": "688553a44c9e1585202dc628"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "P100 Latency (Left Eye)",
+        "field": "numeric_unbound",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "115"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "115"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "115"
+            }
+          }
+        },
+        "formulaId": "e13df680-9a52-496d-8d9c-45840e170ecd",
+        "flabsCode": "FLP1614"
+      },
+      "_id": "688553a44c9e1585202dc629"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "N75 Latency (Right Eye)",
+        "field": "numeric",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range-min": "60",
+            "male-range-max": "70",
+            "female-range-max": "70",
+            "female-range-min": "60",
+            "child-range-max": "70",
+            "child-range-min": "60"
+          }
+        },
+        "formulaId": "092d42b7-b86c-4e1f-957b-c8ecc7591fbf",
+        "flabsCode": "FLP1528"
+      },
+      "_id": "688553a44c9e1585202dc62a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "N75 Latency (Left Eye)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "60",
+            "male-range-max": "75",
+            "female-range-max": "75",
+            "female-range-min": "60",
+            "child-range-max": "75",
+            "child-range-min": "60"
+          }
+        },
+        "units": "ms",
+        "formulaId": "0e87d745-c296-46cb-80f4-3cac6a04fcea",
+        "flabsCode": "FLP1527"
+      },
+      "_id": "688553a44c9e1585202dc62b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "P100 Amplitude (Right Eye)",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "5",
+              "op": ">"
+            },
+            "female-range": {
+              "value": "5",
+              "op": ">"
+            },
+            "child-range": {
+              "value": "5",
+              "op": ">"
+            }
+          }
+        },
+        "units": "µV",
+        "formulaId": "cd220c0f-2403-43e7-80b3-41b60790dc19",
+        "flabsCode": "FLP1613"
+      },
+      "_id": "688553a44c9e1585202dc62c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "P100 Amplitude (Left Eye)\t",
+        "field": "numeric_unbound",
+        "units": "µV",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">",
+              "value": "5"
+            },
+            "female-range": {
+              "op": ">",
+              "value": "5"
+            },
+            "child-range": {
+              "op": ">",
+              "value": "5"
+            }
+          }
+        },
+        "formulaId": "b9357576-190a-4a19-9193-227474f660be",
+        "flabsCode": "FLP1612"
+      },
+      "_id": "688553a44c9e1585202dc62d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Interocular P100 Latency Difference",
+        "field": "numeric_unbound",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "10",
+              "op": "<="
+            },
+            "female-range": {
+              "value": "10",
+              "op": "<="
+            },
+            "child-range": {
+              "value": "10",
+              "op": "<="
+            }
+          }
+        },
+        "formulaId": "efb1478e-3e2a-4250-ad80-4763dda1a25a",
+        "flabsCode": "FLP1274"
+      },
+      "_id": "688553a44c9e1585202dc62e"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c587",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1322",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.408Z",
+  "updatedAt": "2025-07-21T19:17:57.408Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

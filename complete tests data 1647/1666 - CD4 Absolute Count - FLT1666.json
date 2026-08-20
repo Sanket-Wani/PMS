@@ -1,0 +1,216 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b1a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CD4 Absolute Count",
+  "code": "CD4ABS",
+  "cost": 0,
+  "interpretation": "<ul><li>Low count: A low Absolute CD4 Count indicates that the individual's immune function is compromised, and they may be at increased risk for infections and other complications. The severity of immune suppression depends on the degree of CD4 T-lymphocyte depletion, with severe immune suppression typically associated with counts below 200 cells per microliter. Low Absolute CD4 Counts are commonly seen in individuals with HIV/AIDS and other conditions that affect the immune system.</li><li>High count: A high Absolute CD4 Count is rare and may indicate a hyperactive immune system, such as in certain autoimmune disorders or chronic infections.</li></ul>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Leucocyte Count‎(‎WBC‎)‎",
+        "field": "numeric",
+        "units": "/cumm",
+        "range": {
+          "default": {
+            "male-range-max": "11000",
+            "male-range-min": "4000",
+            "female-range-min": "4000",
+            "female-range-max": "11000",
+            "child-range-min": "4000",
+            "child-range-max": "11000"
+          }
+        }
+      },
+      "_id": "641a1bd9ebe595f57b4fec5b"
+    },
+    {
+      "data": {
+        "name": "CD‎45 ‎(‎Lymphocyte‎) ‎Percentage‎",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "child-range-max": "40",
+            "male-range-max": "40",
+            "male-range-min": "20",
+            "female-range-min": "20",
+            "female-range-max": "40",
+            "child-range-min": "20"
+          }
+        }
+      },
+      "_id": "641a244eebe595f57b4fed10",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD‎45 ‎(‎Lymphocyte‎) ‎Absolute",
+        "field": "numeric",
+        "units": "/cumm",
+        "range": {
+          "default": {
+            "child-range-min": "1000",
+            "child-range-max": "4000",
+            "male-range-max": "4000",
+            "male-range-min": "1000",
+            "female-range-min": "1000",
+            "female-range-max": "4000"
+          }
+        }
+      },
+      "_id": "641a244eebe595f57b4fed11"
+    },
+    {
+      "_id": "641a244eebe595f57b4fed12",
+      "type": "testDetails",
+      "data": {
+        "units": "%",
+        "range": {
+          "default": {
+            "female-range-max": "83",
+            "child-range-min": "59",
+            "child-range-max": "83",
+            "male-range-max": "83",
+            "male-range-min": "59",
+            "female-range-min": "59"
+          }
+        },
+        "name": "CD‎3 ‎(‎Total T Cells‎) ‎Percentage‎",
+        "field": "numeric"
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD‎3 ‎(‎Total T Cells‎) ‎Absolute‎",
+        "field": "numeric",
+        "units": "/cumm",
+        "range": {
+          "default": {
+            "child-range-max": "2383",
+            "male-range-max": "2383",
+            "male-range-min": "677",
+            "female-range-min": "677",
+            "female-range-max": "2383",
+            "child-range-min": "677"
+          }
+        }
+      },
+      "_id": "641a244eebe595f57b4fed13"
+    },
+    {
+      "data": {
+        "range": {
+          "default": {
+            "male-range-max": "59",
+            "male-range-min": "31",
+            "female-range-min": "31",
+            "female-range-max": "59",
+            "child-range-min": "31",
+            "child-range-max": "59"
+          }
+        },
+        "name": "CD‎4 ‎(‎Helper T Cells‎) ‎Percentage‎",
+        "field": "numeric",
+        "units": "%"
+      },
+      "_id": "641a244eebe595f57b4fed14",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD‎4 ‎(‎Helper T Cells‎) ‎Absolute",
+        "field": "numeric",
+        "units": "/cumm",
+        "range": {
+          "default": {
+            "male-range-max": "1509",
+            "male-range-min": "424",
+            "female-range-min": "424",
+            "female-range-max": "1509",
+            "child-range-min": "424",
+            "child-range-max": "1509"
+          }
+        }
+      },
+      "_id": "641a244eebe595f57b4fed15"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641a1bd9ebe595f57b4fec5a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1666",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.271Z",
+  "updatedAt": "2026-08-14T17:59:51.271Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

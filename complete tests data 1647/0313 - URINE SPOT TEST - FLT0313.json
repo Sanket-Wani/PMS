@@ -1,0 +1,296 @@
+{
+  "_id": "6a86cbae5953b1dd0a16faf9",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "URINE SPOT TEST",
+  "code": "1360",
+  "cost": 0,
+  "interpretation": "<ul>\n<li><span style=\"font-size: 10px;\">Normal urine shows clear appearance, specific gravity within normal range, no protein, glucose, or ketones, and minimal or absent cells/bacteria.</span></li>\n<li><span style=\"font-size: 10px;\">Abnormal findings indicate **UTI, renal disease, diabetes, or other pathology**, requiring correlation with clinical context.</span></li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Color & Appearance ",
+        "field": "text",
+        "formulaId": "fe3fd837-ae3e-493f-b13a-78045ac7575c"
+      },
+      "_id": "68826af7124d8484d887f3df"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specific Gravity",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "1.005",
+            "male-range-max": "1.030",
+            "female-range-max": "1.030",
+            "female-range-min": "1.005",
+            "child-range-max": "1.030",
+            "child-range-min": "1.005"
+          }
+        },
+        "formulaId": "0c7dd44f-accd-455b-90ef-6c6b7e8a2644"
+      },
+      "_id": "68826af7124d8484d887f3e0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "pH",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "4.5",
+            "male-range-max": "8.0",
+            "female-range-max": "8.0",
+            "female-range-min": "4.5",
+            "child-range-max": "8.0",
+            "child-range-min": "4.5"
+          }
+        },
+        "formulaId": "51cc0eb2-c59f-4b67-81af-d34b05bad6e1",
+        "flabsCode": "FLP1838"
+      },
+      "_id": "68826af7124d8484d887f3e1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Protein",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Trace ",
+          "+",
+          "++",
+          "+++"
+        ],
+        "formulaId": "e5825412-a212-4f44-aba0-eaff9d3e5962",
+        "flabsCode": "FLP1672"
+      },
+      "_id": "68826af7124d8484d887f3e2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Glucose",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Present"
+        ],
+        "formulaId": "4efa9a38-3468-49f9-ad8d-f0924d2f36cd",
+        "flabsCode": "FLP1034"
+      },
+      "_id": "68826af7124d8484d887f3e3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ketones",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Present"
+        ],
+        "formulaId": "559c1ba3-d201-4899-84f9-1e8b23c8e49d",
+        "flabsCode": "FLP1305"
+      },
+      "_id": "68826af7124d8484d887f3e4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Blood",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Present"
+        ],
+        "formulaId": "680f2afc-ad67-45bd-a062-21f5c2f4d429",
+        "flabsCode": "FLP0380"
+      },
+      "_id": "68826af7124d8484d887f3e5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Leukocyte Esterase",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Present"
+        ],
+        "formulaId": "9711acea-fbf8-4e62-8339-47e4fd91b3f6",
+        "flabsCode": "FLP1359"
+      },
+      "_id": "68826af7124d8484d887f3e6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Nitrite",
+        "field": "custom",
+        "options": [
+          "Negative",
+          "Positive"
+        ],
+        "formulaId": "79e4e010-36a3-468f-88ad-5adda2f2a3a4",
+        "flabsCode": "FLP1554"
+      },
+      "_id": "68826af7124d8484d887f3e7"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopy: ",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "RBCs",
+            "range": {
+              "default": {
+                "male-range-min": "0",
+                "male-range-max": "2",
+                "female-range-max": "2",
+                "female-range-min": "0",
+                "child-range-max": "2",
+                "child-range-min": "0"
+              }
+            },
+            "units": "/HPF",
+            "formulaId": "6abb5957-39c3-40eb-bae7-e6aca061c5d5",
+            "flabsCode": "FLP1817"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "WBCs",
+            "units": "/HPF",
+            "range": {
+              "default": {
+                "male-range-min": "0",
+                "male-range-max": "5",
+                "female-range-max": "5",
+                "female-range-min": "0",
+                "child-range-max": "5",
+                "child-range-min": "0"
+              }
+            },
+            "formulaId": "264c0078-c834-460d-b746-7c651d86f57f",
+            "flabsCode": "FLP2285"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Epithelial Cells",
+            "units": "/HPF",
+            "formulaId": "83e3e88b-a282-4e5e-beb3-45de288757b3",
+            "flabsCode": "FLP0830"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Casts ",
+            "formulaId": "c9eaadc8-f4ad-48ea-958a-d64fb9f2a92b",
+            "flabsCode": "FLP0551"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Crystals",
+            "formulaId": "75284ee2-2dfa-4ffc-ba9d-0e89fcea0b4b",
+            "flabsCode": "FLP0378"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Bacteria ",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "a553b8ac-185c-48d9-a213-e343a7e7cb60",
+            "flabsCode": "FLP0338"
+          }
+        ]
+      },
+      "_id": "68826af7124d8484d887f3e8"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c210",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "consentForm": "",
+  "lmpRequired": false,
+  "preCollectionGuidelines": "",
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0313",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.141Z",
+  "updatedAt": "2025-07-21T19:17:53.141Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

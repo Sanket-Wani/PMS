@@ -1,0 +1,149 @@
+{
+  "_id": "6a86cbbbba46c74c6d436070",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CLL Cytogenetics PANEL (KARYOTYPING + FISH )",
+  "code": "1407",
+  "cost": 0,
+  "interpretation": "<h3 data-start=\"2688\" data-end=\"2707\"><span style=\"font-size: 10px;\"><strong data-start=\"2692\" data-end=\"2705\">COMMENTS:</strong></span></h3>\n<ul data-start=\"2708\" data-end=\"2922\">\n<li style=\"font-size: 10px;\" data-start=\"2708\" data-end=\"2787\">\n<p data-start=\"2710\" data-end=\"2787\"><span style=\"font-size: 10px;\">FISH analysis increases detection sensitivity for common CLL abnormalities.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2788\" data-end=\"2855\">\n<p data-start=\"2790\" data-end=\"2855\"><span style=\"font-size: 10px;\">Normal karyotype does not rule out CLL-related genetic changes.</span></p>\n</li>\n<li style=\"font-size: 10px;\" data-start=\"2856\" data-end=\"2922\">\n<p data-start=\"2858\" data-end=\"2922\"><span style=\"font-size: 10px;\">Prognostic implications may guide therapeutic decision-making.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "bone marrow",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "KARYOTYPING",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Result",
+            "formulaId": "590596ce-33b9-4afb-9ba8-e1eb998b59b0"
+          }
+        ]
+      },
+      "_id": "6882fdd6b63d47381de8c167"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "FISH ANALYSIS",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "del(13q14)",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "ee85fcc8-ff55-4c08-8869-41ec406b718e",
+            "flabsCode": "FLP2315"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "trisomy 12",
+            "options": [
+              "Present",
+              "Absent"
+            ],
+            "formulaId": "679188e1-ad4a-4ac0-b930-5bc60c0ea237",
+            "flabsCode": "FLP2338"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "del(11q22.3) (ATM)",
+            "options": [
+              "Present",
+              "Absent"
+            ],
+            "formulaId": "12f28de4-28cf-4668-b1ee-4b9dad9961ff",
+            "flabsCode": "FLP2314"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "del(17p13.1) (TP53)",
+            "options": [
+              "Absent",
+              "Present"
+            ],
+            "formulaId": "fe0fed52-8b29-42fc-b196-0aa34ec715c9",
+            "flabsCode": "FLP2316"
+          }
+        ]
+      },
+      "_id": "6882fdd6b63d47381de8c168"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c238",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0363",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.324Z",
+  "updatedAt": "2025-07-21T19:17:53.324Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

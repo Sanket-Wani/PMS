@@ -1,0 +1,130 @@
+{
+  "_id": "6a86ccb392e2891d948ee87b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "JAK2 EXON 12 MUTATION DETECTION",
+  "code": "2410",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"2099\" data-end=\"2250\">\n<p data-start=\"2101\" data-end=\"2250\"><span style=\"font-size: 12px;\"><strong data-start=\"2101\" data-end=\"2123\">Mutation Detected:</strong> Consistent with <strong data-start=\"2140\" data-end=\"2179\">myeloproliferative neoplasms (MPNs)</strong>, especially <strong data-start=\"2192\" data-end=\"2218\">Polycythemia Vera (PV)</strong> in JAK2 V617F-negative cases.</span></p>\n</li>\n<li style=\"font-size: 12px;\" data-start=\"2251\" data-end=\"2348\">\n<p data-start=\"2253\" data-end=\"2348\"><span style=\"font-size: 12px;\"><strong data-start=\"2253\" data-end=\"2278\">No Mutation Detected:</strong> Does not rule out all causes of MPN; clinical correlation required.</span></p>\n</li>\n<li style=\"font-size: 12px;\" data-start=\"2349\" data-end=\"2472\">\n<p data-start=\"2351\" data-end=\"2472\"><span style=\"font-size: 12px;\">Should be interpreted along with <strong data-start=\"2384\" data-end=\"2405\">clinical features</strong>, <strong data-start=\"2407\" data-end=\"2414\">CBC</strong>, <strong data-start=\"2416\" data-end=\"2438\">bone marrow biopsy</strong>, and <strong data-start=\"2444\" data-end=\"2471\">other molecular markers</strong>.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "JAK2 Exon 12 Mutation",
+        "field": "text",
+        "formulaId": "ff3b22fa-e932-4b8b-891a-0cb1b70032a7",
+        "flabsCode": "FLP1286"
+      },
+      "_id": "6882755c124d8484d88b6bd4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variant Identified",
+        "field": "text",
+        "formulaId": "cdd9687d-037d-4a94-b168-18c80739099e"
+      },
+      "_id": "6882755c124d8484d88b6bd5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Protein Change",
+        "field": "text",
+        "formulaId": "1ebcaa31-215a-482b-b80c-c9cf5b3ac0bb",
+        "flabsCode": "FLP1797"
+      },
+      "_id": "6882755c124d8484d88b6bd6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zygosity",
+        "field": "text",
+        "formulaId": "93da0249-517e-4a27-9d8a-f944176a83c1",
+        "flabsCode": "FLP2306"
+      },
+      "_id": "6882755c124d8484d88b6bd7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variant Allele Frequency (VAF)",
+        "field": "text",
+        "formulaId": "f9065007-8d7a-42ec-9e03-b0ad0d918663",
+        "flabsCode": "FLP2259"
+      },
+      "_id": "6882755c124d8484d88b6bd8"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4f2",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1171",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.746Z",
+  "updatedAt": "2025-07-21T19:17:56.746Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

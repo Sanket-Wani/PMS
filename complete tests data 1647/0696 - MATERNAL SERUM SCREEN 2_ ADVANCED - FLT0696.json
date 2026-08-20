@@ -1,0 +1,178 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e1b9",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MATERNAL SERUM SCREEN 2: ADVANCED",
+  "code": "1777",
+  "cost": 0,
+  "interpretation": "<p>1.The test is valid between 10 - 13.6 Weeks of gestation, but ideal sample time is between 10-13 weeks gestation.</p>\n<p>2.First trimester screening for prenatal disorders (Trisomy 21. 18 &amp; 13) is essential to identify those women at sufficient risk for a congenital anomaly in the fetus to warrant evaluation and follow up. These are screening procedures which cannot discriminate all affected pregnancies from all unaffected pregnancies. Screening cutoffs are established by using mom values that maximize the detection rate minimize false positives. A combination of nuchal translucency, Nasal bone visualization and biochemical tests (Combined test) increase the detection rate of Down&rsquo;s syndrome to 85%.</p>\n<p>3.These screening tests are based on statistical analysis of patient demographic and biochemical data. They simply&nbsp;indicate a high or low risk category. Confirmation of screen positive is recommended by chorionic villous sampling (CVS).</p>\n<p>4.The interpretive unit is MoM (Multiples of median) which takes into account variables such as gestation age (Ultrasound),&nbsp;Maternal weight, race , insulin dependent diabetes, multiple gestation, IVF ( Data of birth of donor, if applicable), Smoking&nbsp;and previous history of Down syndrome. Accurate availability of this data for risk calculation is critical. Soft ware used for&nbsp;risk calculation is Benetech PRA</p>\n<p>5. Twin pregnancies&nbsp;As per guidelines in twin pregnancies , only pseudo risk for overall pregnancy is calculated in cases without NT&nbsp;evaluation. In dichorionic twins where one baby is affected and other is not, the performance is poorer due to&nbsp;markers being less discriminatory . Detection rate is only 40-50 % for screen positive rate of 3 % when using 1 in 150&nbsp;cut off at term. Risk of down syndrome is also high in dichorionic twins as compared to singleton pregnancy&nbsp;Larger fetus biometric is used for gestational age calculation. as per ISUOG( International Society of Ultrasound in&nbsp;Obstetrics and Gynecology)</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "B-HCG",
+        "field": "numeric",
+        "units": "mIU/ml",
+        "test_method": "clia",
+        "formulaId": "16534d1a-dadc-4bdc-a07b-48315333019b",
+        "flabsCode": "FLP0300"
+      },
+      "_id": "67b86b7f68c798e68b27549d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PAPP-A",
+        "field": "numeric",
+        "units": "ng/mL",
+        "formulaId": "7b513fee-5b16-43b2-8247-051764b82700",
+        "flabsCode": "FLP1619"
+      },
+      "_id": "67b86b7f68c798e68b27549e"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "RISK CALCULATION (FOETUS 1)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "multiple_ranges",
+            "name": "TRISOMY 21 SCREENING WITH NT",
+            "range": {
+              "default": {
+                "male-range": "Risk cut off 1:250",
+                "female-range": "Risk cut off 1:250",
+                "child-range": "Risk cut off 1:250"
+              }
+            },
+            "formulaId": "9c85c0c3-0516-4076-afb7-0c6a82d5a06b",
+            "flabsCode": "FLP2081"
+          },
+          {
+            "key": 1,
+            "field": "multiple_ranges",
+            "name": "TRISOMY 13/18 SCREENING WITH NT",
+            "range": {
+              "default": {
+                "male-range": "Risk Cut Off 1:100",
+                "female-range": "Risk Cut Off 1:100",
+                "child-range": "Risk Cut Off 1:100"
+              }
+            },
+            "formulaId": "e1285535-c83a-4abf-b1bf-3b9baa3a7147",
+            "flabsCode": "FLP2079"
+          }
+        ]
+      },
+      "_id": "67b86b7f68c798e68b27549f"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "RISK INTERPRETATION (FOETUS 1)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "TRISOMY 21 SCREENING WITH NT. ",
+            "range": {
+              "default": {
+                "male-range": "SCREEN NEGATIVE",
+                "female-range": "SCREEN NEGATIVE",
+                "child-range": "SCREEN NEGATIVE"
+              }
+            },
+            "formulaId": "50f200a0-79ca-4845-b278-7be070f138c6",
+            "flabsCode": "FLP2082"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "range": {
+              "default": {
+                "male-range": "SCREEN NEGATIVE",
+                "female-range": "SCREEN NEGATIVE",
+                "child-range": "SCREEN NEGATIVE"
+              }
+            },
+            "name": "TRISOMY 13/TRISOMY 18 SCREENING WITH NT",
+            "formulaId": "798b70de-25d7-48ad-959d-74c1af27f9df",
+            "flabsCode": "FLP2080"
+          }
+        ]
+      },
+      "_id": "67b86c1268c798e68b283067"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c350",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0696",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.554Z",
+  "updatedAt": "2025-07-21T19:17:54.554Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

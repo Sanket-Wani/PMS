@@ -1,0 +1,168 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175c52",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "MICROARRAY (60K) AMNIOTIC FLUID WITH KARYOTYPE & FISH 21",
+  "code": "1434",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1821\" data-end=\"1950\">\n<p data-start=\"1823\" data-end=\"1950\"><span style=\"font-size: 11px;\"><strong data-start=\"1823\" data-end=\"1841\">If All Normal:</strong></span><br data-start=\"1841\" data-end=\"1844\"><span style=\"font-size: 11px;\">No chromosomal abnormality detected on microarray, conventional karyotyping, and FISH for chromosome 21.</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"1952\" data-end=\"2128\">\n<p data-start=\"1954\" data-end=\"2128\"><span style=\"font-size: 11px;\"><strong data-start=\"1954\" data-end=\"1981\">If Trisomy 21 Detected:</strong></span><br data-start=\"1981\" data-end=\"1984\"><span style=\"font-size: 11px;\">Findings are consistent with <strong data-start=\"2015\" data-end=\"2045\">Trisomy 21 (Down Syndrome)</strong> confirmed by microarray, karyotyping, and FISH. Genetic counseling is recommended.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "MICROARRAY ANALYSIS",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Genome Build",
+            "formulaId": "c1700e18-18f8-4b21-a0db-c56399c0ec61",
+            "flabsCode": "FLP1020"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Resolution",
+            "formulaId": "0edbd218-d881-486b-8d0f-b229219b606f",
+            "flabsCode": "FLP0342"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Result",
+            "formulaId": "c89df9f8-2aa7-4926-bcfc-9be28bd5da84"
+          }
+        ]
+      },
+      "_id": "688352bab999cd54a318fbb1"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "KARYOTYPING (GTG Banding)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "No. of Metaphases Analyzed",
+            "formulaId": "77dd68aa-830d-4712-af90-98ad7d150c33",
+            "flabsCode": "FLP1556"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Banding Resolution",
+            "formulaId": "f7cfd9d8-62c0-47ca-925f-39d296d69269",
+            "flabsCode": "FLP0342"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Result",
+            "formulaId": "c89df9f8-2aa7-4926-bcfc-9be28bd5da84"
+          }
+        ]
+      },
+      "_id": "688352bab999cd54a318fbb2"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "FISH FOR CHROMOSOME 21",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Probe Used",
+            "formulaId": "52b88aeb-c5f2-4789-9008-3f414f8567ab",
+            "flabsCode": "FLP1786"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Cells Analyzed",
+            "formulaId": "b62c5d60-da62-49ae-b6ef-531b3fe905b3",
+            "flabsCode": "FLP0561"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Result",
+            "formulaId": "c89df9f8-2aa7-4926-bcfc-9be28bd5da84"
+          }
+        ]
+      },
+      "_id": "688352bab999cd54a318fbb3"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c253",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0390",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.434Z",
+  "updatedAt": "2025-07-21T19:17:53.434Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

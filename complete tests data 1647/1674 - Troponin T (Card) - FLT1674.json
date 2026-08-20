@@ -1,0 +1,120 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381be3",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Troponin T (Card)",
+  "code": "TROP",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 10px;\">The Troponin T test is a blood test used to diagnose and monitor heart muscle damage, such as in a heart attack. Troponin T is a protein found primarily in the heart muscle, and elevated levels may indicate damage to the heart muscle.<br></span></p><table><thead><tr><th><div><span style=\"font-size: 10px;\">Troponin T Level</span></div></th><th><div><span style=\"font-size: 10px;\">Interpretation</span></div></th></tr></thead><tbody><tr><td><div><span style=\"font-size: 10px;\">Less than 0.01 ng/mL (nanograms per milliliter)</span></div></td><td><div><span style=\"font-size: 10px;\">Normal</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Slightly elevated levels</span></div></td><td><div><span style=\"font-size: 10px;\">May be seen in people with mild heart muscle damage or in other conditions that affect the heart</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Moderately elevated levels</span></div></td><td><div><span style=\"font-size: 10px;\">Indicates significant heart muscle damage, such as in a heart attack</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Rapidly rising levels</span></div></td><td><div><span style=\"font-size: 10px;\">Indicates ongoing heart muscle damage, such as in an acute heart attack</span></div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fce6f02dc1ebb6a097e3",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Troponin T",
+        "field": "numeric_unbound",
+        "units": "ng/ml",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "0.01"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "0.01"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.01"
+            }
+          }
+        }
+      },
+      "_id": "64227889152ef77257ee13ee"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "custom",
+        "options": [
+          "positive",
+          "negative"
+        ],
+        "name": "Result"
+      },
+      "_id": "647ee74431bb08606d5cd1b2"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64227889152ef77257ee13ed",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT1674",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.487Z",
+  "updatedAt": "2026-08-14T17:59:51.487Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

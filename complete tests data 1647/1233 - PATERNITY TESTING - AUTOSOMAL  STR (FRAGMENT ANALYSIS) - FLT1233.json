@@ -1,0 +1,148 @@
+{
+  "_id": "6a86ccccba46c74c6d459b5d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PATERNITY TESTING - AUTOSOMAL  STR (FRAGMENT ANALYSIS)",
+  "code": "2471",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1696\" data-end=\"1831\">\n<p data-start=\"1698\" data-end=\"1741\"><strong data-start=\"1698\" data-end=\"1739\">Inclusion (Biological Father Likely):</strong></p>\n<ul data-start=\"1744\" data-end=\"1831\">\n<li data-start=\"1744\" data-end=\"1831\">\n<p data-start=\"1746\" data-end=\"1831\"><strong data-start=\"1746\" data-end=\"1781\">&ge;99.9% Probability of Paternity</strong> with concordant STR results across tested loci.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1833\" data-end=\"1971\">\n<p data-start=\"1835\" data-end=\"1875\"><strong data-start=\"1835\" data-end=\"1873\">Exclusion (Not Biological Father):</strong></p>\n<ul data-start=\"1878\" data-end=\"1971\">\n<li data-start=\"1878\" data-end=\"1971\">\n<p data-start=\"1880\" data-end=\"1971\"><strong data-start=\"1880\" data-end=\"1914\">&lt;0.1% Probability of Paternity</strong> with &ge;2 mismatched loci (not explainable by mutation).</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1973\" data-end=\"2057\">\n<p data-start=\"1975\" data-end=\"1997\"><strong data-start=\"1975\" data-end=\"1995\">Mother&rsquo;s Sample:</strong></p>\n<ul data-start=\"2000\" data-end=\"2057\">\n<li data-start=\"2000\" data-end=\"2057\">\n<p data-start=\"2002\" data-end=\"2057\">Recommended for improved accuracy, but not mandatory.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2059\" data-end=\"2234\">\n<p data-start=\"2061\" data-end=\"2083\"><strong data-start=\"2061\" data-end=\"2081\">Legal Reporting:</strong></p>\n<ul data-start=\"2086\" data-end=\"2234\">\n<li data-start=\"2086\" data-end=\"2160\">\n<p data-start=\"2088\" data-end=\"2160\">Must follow <strong data-start=\"2100\" data-end=\"2120\">chain of custody</strong> if required for court/legal purposes.</p>\n</li>\n<li data-start=\"2163\" data-end=\"2234\">\n<p data-start=\"2165\" data-end=\"2234\">Report signed by a <strong data-start=\"2184\" data-end=\"2231\">qualified geneticist or molecular biologist</strong>.</p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of STR Loci Analyzed",
+        "field": "numeric_unbound",
+        "units": "Count",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "15"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "15"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "15"
+            }
+          }
+        },
+        "formulaId": "2c9e62a2-41da-4e2f-b53f-50ae9aeeea7e",
+        "flabsCode": "FLP1578"
+      },
+      "_id": "688559334c9e1585202dcb1f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Combined Paternity Index (CPI)",
+        "field": "numeric",
+        "units": "Ratio",
+        "rangeReport": "CPI ≥1000:1 strongly supports paternity",
+        "formulaId": "dfab7855-67f3-49df-b07a-18d797e3e9c8",
+        "flabsCode": "FLP0639"
+      },
+      "_id": "688559334c9e1585202dcb20"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Probability of Paternity",
+        "field": "text",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": "≥99.9% = Inclusion; <0.1% = Exclusion",
+            "female-range": "≥99.9% = Inclusion; <0.1% = Exclusion",
+            "child-range": "≥99.9% = Inclusion; <0.1% = Exclusion"
+          }
+        },
+        "formulaId": "202e1783-aa31-49d0-9e62-c97b3dbf93cd",
+        "flabsCode": "FLP1784"
+      },
+      "_id": "688559334c9e1585202dcb21"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Allele Concordance (Per Locus)\t",
+        "field": "text",
+        "formulaId": "9aab44a3-a629-42db-9c5d-18455e302c16",
+        "flabsCode": "FLP0178"
+      },
+      "_id": "688559514c9e1585202dcb79"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c52f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1233",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.032Z",
+  "updatedAt": "2025-07-21T19:17:57.032Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

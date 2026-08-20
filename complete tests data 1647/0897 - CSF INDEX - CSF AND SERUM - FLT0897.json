@@ -1,0 +1,159 @@
+{
+  "_id": "6a86cc5b5953b1dd0a18569d",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CSF INDEX - CSF AND SERUM",
+  "code": "2006",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1451\" data-end=\"1523\"><strong data-start=\"1451\" data-end=\"1471\">IgG Index &gt; 0.70</strong>: Suggests <strong data-start=\"1482\" data-end=\"1511\">intrathecal IgG synthesis</strong>, seen in:</li>\n<li style=\"list-style-type: none;\">\n<ul data-start=\"1526\" data-end=\"1674\">\n<li data-start=\"1526\" data-end=\"1552\">\n<p data-start=\"1528\" data-end=\"1552\"><strong data-start=\"1528\" data-end=\"1550\">Multiple sclerosis</strong></p>\n</li>\n<li data-start=\"1555\" data-end=\"1618\">\n<p data-start=\"1557\" data-end=\"1618\"><strong data-start=\"1557\" data-end=\"1616\">Chronic CNS infections (e.g., neuro-syphilis, neuro-TB)</strong></p>\n</li>\n<li data-start=\"1621\" data-end=\"1674\">\n<p data-start=\"1623\" data-end=\"1674\"><strong data-start=\"1623\" data-end=\"1672\">Autoimmune diseases (e.g., SLE involving CNS)</strong></p>\n</li>\n</ul>\n</li>\n<li data-start=\"1676\" data-end=\"1818\">\n<p data-start=\"1678\" data-end=\"1757\"><strong data-start=\"1678\" data-end=\"1701\">Albumin Index &gt; 9.0</strong>: Suggests <strong data-start=\"1712\" data-end=\"1745\">blood-CSF barrier dysfunction</strong>, seen in:</p>\n<ul data-start=\"1760\" data-end=\"1818\">\n<li data-start=\"1760\" data-end=\"1818\">\n<p data-start=\"1762\" data-end=\"1818\"><strong data-start=\"1762\" data-end=\"1776\">Meningitis</strong>, <strong data-start=\"1778\" data-end=\"1794\">Encephalitis</strong>, <strong data-start=\"1796\" data-end=\"1806\">Tumors</strong>, <strong data-start=\"1808\" data-end=\"1818\">Trauma</strong></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CSF Albumin",
+        "field": "text",
+        "units": "mg/dL",
+        "formulaId": "74c1b36d-6d61-4f7c-b8c6-5c81f54ba338",
+        "flabsCode": "FLP0515"
+      },
+      "_id": "68819e42e4bce81877143f87"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Albumin",
+        "field": "text",
+        "units": "g/dL",
+        "formulaId": "28243df0-b102-42f0-b027-dfde39d8aee6",
+        "flabsCode": "FLP1974"
+      },
+      "_id": "68819e42e4bce81877143f88"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CSF IgG",
+        "field": "text",
+        "units": "mg/dL",
+        "formulaId": "f8491275-03e3-4595-9138-7a414986c852",
+        "flabsCode": "FLP0518"
+      },
+      "_id": "68819e42e4bce81877143f89"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum IgG",
+        "field": "text",
+        "units": "g/dL",
+        "formulaId": "5d5a3cbe-3b78-4f5c-b44a-f153d1ee1b8c",
+        "flabsCode": "FLP1982"
+      },
+      "_id": "68819e42e4bce81877143f8a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Albumin Index",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "< 9.0 (Adults)",
+            "female-range": "< 9.0 (Adults)",
+            "child-range": "< 9.0 (Adults)"
+          }
+        },
+        "formulaId": "aa8e1b4a-db80-4820-bf11-14af6a1646fe",
+        "flabsCode": "FLP0169"
+      },
+      "_id": "68819e42e4bce81877143f8b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "IgG Index",
+        "field": "text",
+        "range": {
+          "default": {
+            "male-range": "< 0.70",
+            "female-range": "< 0.70",
+            "child-range": "< 0.70"
+          }
+        },
+        "formulaId": "21bbc8b8-fc65-4c32-85c4-fcb3189996b7",
+        "flabsCode": "FLP1233"
+      },
+      "_id": "68819e42e4bce81877143f8c"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c406",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0897",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.706Z",
+  "updatedAt": "2025-07-21T19:17:55.706Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

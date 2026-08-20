@@ -1,0 +1,149 @@
+{
+  "_id": "6a86cc7692e2891d948dfcbe",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "DIALYSIS WATER CULTURE",
+  "code": "2196",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "swab",
+  "department": "6414fcf8f02dc1ebb6a097e7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Specimen",
+        "field": "text",
+        "formulaId": "bd864720-5b18-41e2-89da-f334c2375c3e",
+        "flabsCode": "FLP1543"
+      },
+      "_id": "6882476bff8c9af0b602e6cf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Period of Incubation",
+        "field": "text",
+        "formulaId": "1003f1a5-7eef-4d87-b9b0-22525630a936",
+        "flabsCode": "FLP1716"
+      },
+      "_id": "6882476bff8c9af0b602e6d0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Organism",
+        "field": "text",
+        "formulaId": "f1c53a4f-9535-4df5-8bdd-261100f3768c",
+        "flabsCode": "FLP1226"
+      },
+      "_id": "6882476bff8c9af0b602e6d1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "NAME OF DRUGS",
+        "field": "text",
+        "formulaId": "5a6ca5aa-9878-4681-a51b-a49c5fc4bcf1",
+        "flabsCode": "FLP1530"
+      },
+      "_id": "6882476bff8c9af0b602e6d2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ampicillin",
+        "field": "text",
+        "formulaId": "6ec143f5-ee4e-4e28-ba17-4f50c784367e",
+        "flabsCode": "FLP0205"
+      },
+      "_id": "6882476bff8c9af0b602e6d3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Ampicillin+ Sulbactam\t",
+        "field": "text",
+        "formulaId": "fa22de28-71c5-406d-9246-92f23a505cf8"
+      },
+      "_id": "6882476bff8c9af0b602e6d4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Azithromycin",
+        "field": "text",
+        "formulaId": "478745dd-4fcf-474c-8b9b-baa7f1313f74",
+        "flabsCode": "FLP0297"
+      },
+      "_id": "6882476bff8c9af0b602e6d5"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92637bf95259b913c443",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0977",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:55.972Z",
+  "updatedAt": "2025-07-21T19:17:55.972Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

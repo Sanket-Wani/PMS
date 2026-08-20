@@ -1,0 +1,189 @@
+{
+  "_id": "6a86cce55953b1dd0a19c21b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "SSSEP LOWER LIMBS",
+  "code": "2568",
+  "cost": 0,
+  "interpretation": "<h3 data-start=\"1033\" data-end=\"1051\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1040\" data-end=\"1051\">Method:</strong></span></h3>\n<ul data-start=\"1052\" data-end=\"1237\">\n<li style=\"font-size: 9.38px;\" data-start=\"1052\" data-end=\"1117\">\n<p data-start=\"1054\" data-end=\"1117\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1054\" data-end=\"1087\">Surface electrode stimulation</strong> of <strong data-start=\"1091\" data-end=\"1117\">posterior tibial nerve</strong></span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1118\" data-end=\"1181\">\n<p data-start=\"1120\" data-end=\"1181\"><span style=\"font-size: 9.38px;\">Recording from <strong data-start=\"1135\" data-end=\"1155\">scalp electrodes</strong> over somatosensory cortex</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1182\" data-end=\"1237\">\n<p data-start=\"1184\" data-end=\"1237\"><span style=\"font-size: 9.38px;\">Signal averaging used for accurate waveform detection</span></p>\n</li>\n</ul>\n<h3 data-start=\"1244\" data-end=\"1285\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1251\" data-end=\"1285\">Clinical Use / Interpretation:</strong></span></h3>\n<ul data-start=\"1286\" data-end=\"1589\">\n<li style=\"font-size: 9.38px;\" data-start=\"1286\" data-end=\"1336\">\n<p data-start=\"1288\" data-end=\"1336\"><span style=\"font-size: 9.38px;\">Assesses <strong data-start=\"1297\" data-end=\"1336\">integrity of somatosensory pathways</strong></span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1337\" data-end=\"1484\">\n<p data-start=\"1339\" data-end=\"1375\"><span style=\"font-size: 9.38px;\">Used in diagnosis and monitoring of:</span></p>\n<ul data-start=\"1378\" data-end=\"1484\">\n<li style=\"font-size: 9.38px;\" data-start=\"1378\" data-end=\"1402\">\n<p data-start=\"1380\" data-end=\"1402\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1380\" data-end=\"1402\">Multiple sclerosis</strong></span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1405\" data-end=\"1431\">\n<p data-start=\"1407\" data-end=\"1431\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1407\" data-end=\"1431\">Spinal cord injuries</strong></span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1434\" data-end=\"1463\">\n<p data-start=\"1436\" data-end=\"1463\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1436\" data-end=\"1463\">Peripheral neuropathies</strong></span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1466\" data-end=\"1484\">\n<p data-start=\"1468\" data-end=\"1484\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1468\" data-end=\"1484\">Myelopathies</strong></span></p>\n</li>\n</ul>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1485\" data-end=\"1589\">\n<p data-start=\"1487\" data-end=\"1589\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1487\" data-end=\"1508\">Prolonged latency</strong> or <strong data-start=\"1512\" data-end=\"1533\">reduced amplitude</strong> may indicate <strong data-start=\"1547\" data-end=\"1589\">neural conduction delay or dysfunction</strong></span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Latency – Tibial Nerve (Right)",
+        "field": "numeric_unbound",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "45"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "45"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "45"
+            }
+          }
+        },
+        "formulaId": "15e5eb75-768d-42c6-903b-3b6d13998e09",
+        "flabsCode": "FLP1341"
+      },
+      "_id": "6882677b124d8484d88755bf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Latency – Tibial Nerve (Left)",
+        "field": "numeric_unbound",
+        "units": "ms",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<=",
+              "value": "45"
+            },
+            "female-range": {
+              "op": "<=",
+              "value": "45"
+            },
+            "child-range": {
+              "op": "<=",
+              "value": "45"
+            }
+          }
+        },
+        "formulaId": "2e4900b9-c01b-4a04-a504-72dd93a813ce",
+        "flabsCode": "FLP1340"
+      },
+      "_id": "6882677b124d8484d88755c0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Amplitude – Right",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">",
+              "value": "1.0"
+            },
+            "female-range": {
+              "op": ">",
+              "value": "1.0"
+            },
+            "child-range": {
+              "op": ">",
+              "value": "1.0"
+            }
+          }
+        },
+        "units": "µV",
+        "formulaId": "55f4b69f-786a-41a4-b3c7-0b56c26f687a",
+        "flabsCode": "FLP0210"
+      },
+      "_id": "6882677b124d8484d88755c1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Amplitude – Left",
+        "field": "numeric_unbound",
+        "units": "µV",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">",
+              "value": "1.0"
+            },
+            "female-range": {
+              "op": ">",
+              "value": "1.0"
+            },
+            "child-range": {
+              "op": ">",
+              "value": "1.0"
+            }
+          }
+        },
+        "formulaId": "b99395a1-50db-4d4a-85e8-6d36ee248f0b",
+        "flabsCode": "FLP0209"
+      },
+      "_id": "6882677b124d8484d88755c2"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c586",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1321",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.405Z",
+  "updatedAt": "2025-07-21T19:17:57.405Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

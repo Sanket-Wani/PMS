@@ -1,0 +1,161 @@
+{
+  "_id": "6a86cc1d5953b1dd0a17e149",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HE4 HUMAN EPIDIDYMIS PROTEIN 4",
+  "code": "1764",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "value": "<p><span style=\"font-size: 10px;\"><strong>HE4 with ROMA index - Epithelial Ovarian Cancer Serum</strong></span><br><span style=\"font-size: 10px;\">Sample type - Serum</span><br><span style=\"font-size: 10px;\">Method : &nbsp; &nbsp; &nbsp; CMIA</span></p>\n<table style=\"border-collapse: collapse; width: 99%; border-width: 1px; border-spacing: 0px;\" border=\"1\" cellspacing=\"0\" cellpadding=\"0\" data-cke-table-faked-selection-table=\"\">\n<tbody>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">Investigation</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">Observed Value</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">Unit</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">Bio. Ref. Interval</span></td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\"><strong>CA-125 &nbsp;(Cancer Antigen-125)</strong></span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\"><strong>35.3</strong></span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">U/mL</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">0 - 35</span><br><span style=\"font-size: 10px;\">*Premenopausal &lt;200</span><br><span style=\"font-size: 10px;\">*Postmenopausal &lt; 35</span></td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\"><strong>HE4-Human epididymis protein</strong></span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">&nbsp;</span><br><span style=\"font-size: 10px;\">40.3</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">pmol/L</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">Premenopausal: &lt;= 70 Postmenopausal: &lt;= 140&nbsp;</span></td>\n</tr>\n<tr>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">&nbsp;</span><br><span style=\"font-size: 10px;\">&nbsp;</span><br><span style=\"font-size: 10px;\"><strong>ROMA Value</strong></span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">&nbsp;</span><br><span style=\"font-size: 10px;\">&nbsp;</span><br><span style=\"font-size: 10px;\">16.28</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">&nbsp;</span><br><span style=\"font-size: 10px;\">&nbsp;</span><br><span style=\"font-size: 10px;\">%</span></td>\n<td class=\"cke_table-faked-selection\" style=\"padding: 1px;\"><span style=\"font-size: 10px;\">Premenopausal &gt; or = 7.4 : High Risk</span><br><span style=\"font-size: 10px;\">Postmenopausal &lt;7.4 : Low Risk</span><br><span style=\"font-size: 10px;\">&gt;or=25.3 : High Risk</span><br><span style=\"font-size: 10px;\">&lt;25.3 : Low Risk</span></td>\n</tr>\n<tr>\n<td style=\"padding: 1px;\" colspan=\"4\"><span style=\"font-size: 10px;\"><strong>Medical Remarks :&nbsp; Premenopausal</strong></span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+        "field": "numeric",
+        "name": "CA-125  (Cancer Antigen-125)",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "35",
+            "female-range-max": "35",
+            "female-range-min": "0",
+            "child-range-max": "35",
+            "child-range-min": "0"
+          }
+        },
+        "rangeReport": "Premenopausal <200\nPostmenopausal < 35",
+        "units": "U/mL",
+        "flabsCode": "FLP0416"
+      },
+      "_id": "688272d0124d8484d88a4e2e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HE4 HUMAN EPIDIDYMIS PROTEIN",
+        "field": "numeric",
+        "units": "pmol/L",
+        "rangeReport": "Premenopausal: <= 70\nPostmenopausal: <= 140",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "70",
+            "female-range-max": "70",
+            "female-range-min": "0",
+            "child-range-max": "70",
+            "child-range-min": "0"
+          }
+        },
+        "flabsCode": "FLP1081"
+      },
+      "_id": "6892a40a841a10838c781018"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ROMA Value ",
+        "field": "numeric_unbound",
+        "units": "%",
+        "rangeReport": "Premenopausal > = 7.4 : High Risk\nPostmenopausal <7.4 : Low Risk\n>=25.3 : High Risk\n<25.3 : Low Risk",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "25.3"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "25.3"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "25.3"
+            }
+          }
+        }
+      },
+      "_id": "6892a40a841a10838c781019"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Type",
+        "field": "custom",
+        "options": [
+          "Premenopause",
+          "Postmenopause"
+        ]
+      },
+      "_id": "6892a40a841a10838c78101a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c343",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0683",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.499Z",
+  "updatedAt": "2025-07-21T19:17:54.499Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

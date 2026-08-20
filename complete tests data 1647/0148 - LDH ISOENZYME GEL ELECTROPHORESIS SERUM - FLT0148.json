@@ -1,0 +1,190 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a519",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LDH ISOENZYME GEL ELECTROPHORESIS SERUM",
+  "code": "1138",
+  "cost": 0,
+  "interpretation": "<table class=\"w-fit min-w-(--thread-content-width)\" data-start=\"1857\" data-end=\"2470\">\n<thead data-start=\"1857\" data-end=\"1959\">\n<tr data-start=\"1857\" data-end=\"1959\">\n<th data-start=\"1857\" data-end=\"1900\" data-col-size=\"sm\">Finding</th>\n<th data-start=\"1900\" data-end=\"1959\" data-col-size=\"md\">Possible Clinical Indication</th>\n</tr>\n</thead>\n<tbody data-start=\"2062\" data-end=\"2470\">\n<tr data-start=\"2062\" data-end=\"2164\">\n<td data-start=\"2062\" data-end=\"2106\" data-col-size=\"sm\">LDH-1 &gt; LDH-2 (\"Flipped pattern\")</td>\n<td data-col-size=\"md\" data-start=\"2106\" data-end=\"2164\">Suggests Myocardial Infarction</td>\n</tr>\n<tr data-start=\"2165\" data-end=\"2266\">\n<td data-start=\"2165\" data-end=\"2208\" data-col-size=\"sm\">LDH-5</td>\n<td data-col-size=\"md\" data-start=\"2208\" data-end=\"2266\">Suggests Liver or Skeletal Muscle Injury</td>\n</tr>\n<tr data-start=\"2267\" data-end=\"2368\">\n<td data-start=\"2267\" data-end=\"2310\" data-col-size=\"sm\">LDH-3</td>\n<td data-col-size=\"md\" data-start=\"2310\" data-end=\"2368\">Suggests Lung Disease / Lymphoma</td>\n</tr>\n<tr data-start=\"2369\" data-end=\"2470\">\n<td data-start=\"2369\" data-end=\"2412\" data-col-size=\"sm\">All Isoenzymes</td>\n<td data-col-size=\"md\" data-start=\"2412\" data-end=\"2470\">Seen in widespread tissue damage or hemolysis</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LDH-1 (H4)",
+        "field": "numeric",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "17",
+            "male-range-max": "27",
+            "female-range-max": "27",
+            "female-range-min": "17",
+            "child-range-max": "27",
+            "child-range-min": "17"
+          }
+        },
+        "formulaId": "3f6b6af8-cbde-4d0e-ad91-ea79cc738035",
+        "flabsCode": "FLP1316"
+      },
+      "_id": "6883b1280ef0de43f6018026"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LDH-2 (H3M1)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "27",
+            "male-range-max": "37",
+            "female-range-max": "37",
+            "female-range-min": "27",
+            "child-range-max": "37",
+            "child-range-min": "27"
+          }
+        },
+        "units": "%",
+        "formulaId": "e9ad40bc-7b0d-471b-ae3c-b287fd36f578",
+        "flabsCode": "FLP1317"
+      },
+      "_id": "6883b1280ef0de43f6018027"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LDH-3 (H2M2)",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "18",
+            "male-range-max": "25",
+            "female-range-max": "25",
+            "female-range-min": "18",
+            "child-range-max": "25",
+            "child-range-min": "18"
+          }
+        },
+        "formulaId": "d150c07b-09c4-413c-8571-18511227b070",
+        "flabsCode": "FLP1318"
+      },
+      "_id": "6883b1280ef0de43f6018028"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LDH-4 (H1M3)",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "8",
+            "male-range-max": "16",
+            "female-range-max": "16",
+            "female-range-min": "8",
+            "child-range-max": "16",
+            "child-range-min": "8"
+          }
+        },
+        "formulaId": "fc9ca452-64e7-496c-a5e7-08487fb2ed33",
+        "flabsCode": "FLP1319"
+      },
+      "_id": "6883b1280ef0de43f6018029"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "%",
+        "name": "LDH-5 (M4)",
+        "range": {
+          "default": {
+            "male-range-min": "5",
+            "male-range-max": "15",
+            "female-range-max": "15",
+            "female-range-min": "5",
+            "child-range-max": "15",
+            "child-range-min": "5"
+          }
+        },
+        "formulaId": "38f2a97f-cb47-4ef2-8695-74015f405cb9",
+        "flabsCode": "FLP1320"
+      },
+      "_id": "6883b1280ef0de43f601802a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c19b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0148",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.596Z",
+  "updatedAt": "2025-07-21T19:17:52.596Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,161 @@
+{
+  "_id": "6a86ccd95953b1dd0a19b214",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "WHOLE EXOME SEQUENCING (TRIO)",
+  "code": "2532",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive (Pathogenic/Likely Pathogenic Variant)</span></td>\n<td><span style=\"font-size: 10px;\">Variant(s) identified consistent with the proband's clinical phenotype; confirms molecular diagnosis.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Carrier / Recessive Findings</span></td>\n<td><span style=\"font-size: 10px;\">Proband heterozygous for pathogenic variant(s); may explain phenotype if biallelic (with parental contribution).</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative</span></td>\n<td><span style=\"font-size: 10px;\">No clinically significant variants detected; does not rule out deep intronic, low-level mosaic, or structural variants.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Variant of Uncertain Significance (VUS)</span></td>\n<td><span style=\"font-size: 10px;\">Variant detected with unclear clinical impact; may require parental studies, literature review, or reclassification over time.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mean Coverage",
+        "field": "text",
+        "formulaId": "3426278e-333b-4ad2-bf10-0395a16865d2",
+        "flabsCode": "FLP1444"
+      },
+      "_id": "6883c63835738384e793d904"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variants Detected (Proband)",
+        "field": "text",
+        "formulaId": "b7f0621c-fe5b-4a56-8e8d-2923b0de69bc",
+        "flabsCode": "FLP2260"
+      },
+      "_id": "6883c63835738384e793d905"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Mode of Inheritance Analysis",
+        "field": "custom",
+        "options": [
+          "De novo",
+          "Autosomal Dominant",
+          "Autosomal Recessive",
+          "X-linked"
+        ],
+        "formulaId": "ab9b2d0f-237c-4b8a-b2c6-0cccb8c06917",
+        "flabsCode": "FLP1489"
+      },
+      "_id": "6883c63835738384e793d906"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Parental Confirmation (Segregation)",
+        "field": "custom",
+        "options": [
+          "Variant Inherited from Father",
+          "Variant Inherited from Mother",
+          " De novo"
+        ],
+        "formulaId": "f9fd6ced-39bf-4e3e-8446-3a4bc18cc379",
+        "flabsCode": "FLP1685"
+      },
+      "_id": "6883c63835738384e793d907"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Zygosity (Proband)",
+        "field": "custom",
+        "options": [
+          "Heterozygous ",
+          "Homozygous ",
+          "Hemizygous"
+        ],
+        "formulaId": "ec73dbac-4d6b-45bc-b89e-1467b09b948b",
+        "flabsCode": "FLP2307"
+      },
+      "_id": "6883c63835738384e793d908"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Copy Number Variants (CNVs)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "87f93a87-97cb-45d0-8494-0b10b126e631",
+        "flabsCode": "FLP0667"
+      },
+      "_id": "6883c63835738384e793d909"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c563",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1285",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.283Z",
+  "updatedAt": "2025-07-21T19:17:57.283Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

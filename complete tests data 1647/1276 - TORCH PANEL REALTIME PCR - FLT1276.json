@@ -1,0 +1,188 @@
+{
+  "_id": "6a86ccd95953b1dd0a19b17b",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TORCH PANEL REALTIME PCR",
+  "code": "2523",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><span style=\"font-size: 9px;\"><strong>Test Parameter</strong></span></th>\n<th><span style=\"font-size: 9px;\"><strong>Result</strong></span></th>\n<th><span style=\"font-size: 9px;\"><strong>Unit</strong></span></th>\n<th><span style=\"font-size: 9px;\"><strong>Reference Range</strong></span></th>\n<th><span style=\"font-size: 9px;\"><strong>Interpretation Comment</strong></span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span style=\"font-size: 9px;\">Toxoplasma gondii DNA</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">copies/mL or Ct</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">No active Toxoplasma infection</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 9px;\">Rubella virus DNA</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">copies/mL or Ct</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">No active Rubella infection</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 9px;\">CMV (Cytomegalovirus) DNA</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">copies/mL or Ct</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">No active Cytomegalovirus infection</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 9px;\">HSV-1 (Herpes Simplex Virus-1) DNA</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">copies/mL or Ct</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">No active HSV-1 infection</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 9px;\">HSV-2 (Herpes Simplex Virus-2) DNA</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">copies/mL or Ct</span></td>\n<td><span style=\"font-size: 9px;\">Not Detected</span></td>\n<td><span style=\"font-size: 9px;\">No active HSV-2 infection</span></td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"1501\" data-end=\"1512\"><span style=\"font-size: 9px;\"><strong data-start=\"1501\" data-end=\"1510\">Note:</strong></span></p>\n<ul data-start=\"1513\" data-end=\"1724\">\n<li style=\"font-size: 9px;\" data-start=\"1513\" data-end=\"1625\">\n<p data-start=\"1515\" data-end=\"1625\"><span style=\"font-size: 9px;\">If <em data-start=\"1518\" data-end=\"1528\">Detected</em>, include <strong data-start=\"1538\" data-end=\"1550\">Ct value</strong> (Cycle threshold) and mention \"<strong data-start=\"1582\" data-end=\"1623\">Positive &ndash; Active Infection Suspected</strong>\".</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"1626\" data-end=\"1724\">\n<p data-start=\"1628\" data-end=\"1724\"><span style=\"font-size: 9px;\">Values like <code data-start=\"1640\" data-end=\"1649\">Ct &lt; 35</code> often suggest active viral replication (depending on kit &amp; lab protocols).</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Toxoplasma gondii DNA\t",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "f9ab418b-0c17-40ae-8d61-9f599c3a3e0d",
+        "flabsCode": "FLP2154"
+      },
+      "_id": "6882852c8e199a0b9208b6fa"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Rubella virus DNA\t",
+        "field": "custom",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "formulaId": "ed848c04-35a3-422c-99a8-746c5d4b4710",
+        "flabsCode": "FLP1874"
+      },
+      "_id": "6882852c8e199a0b9208b6fb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Cytomegalovirus (CMV) DNA\t",
+        "field": "custom",
+        "rangeReport": "Not Detected",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "a6ec32a7-efe4-4de3-a497-a78d888ef0ba",
+        "flabsCode": "FLP0718"
+      },
+      "_id": "6882852c8e199a0b9208b6fc"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Herpes Simplex Virus 1 DNA",
+        "field": "custom",
+        "options": [
+          "Not Detected",
+          "Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "3ffbbc0a-d48d-4a9f-96ca-cb91aa0a51f9",
+        "flabsCode": "FLP1175"
+      },
+      "_id": "6882852c8e199a0b9208b6fd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Herpes Simplex Virus 2 DNA",
+        "field": "custom",
+        "rangeReport": "",
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "formulaId": "6937820f-f854-4ff7-a8c6-8f19e2f5895a",
+        "flabsCode": "FLP1176"
+      },
+      "_id": "6882852c8e199a0b9208b6fe"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c55a",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1276",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.240Z",
+  "updatedAt": "2025-07-21T19:17:57.240Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

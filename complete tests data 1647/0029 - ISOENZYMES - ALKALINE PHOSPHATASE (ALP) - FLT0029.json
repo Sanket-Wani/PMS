@@ -1,0 +1,189 @@
+{
+  "_id": "6a86cb445953b1dd0a155c4f",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ISOENZYMES - ALKALINE PHOSPHATASE (ALP)",
+  "code": "1023",
+  "cost": 0,
+  "interpretation": "<p data-start=\"194\" data-end=\"614\"><span style=\"font-size: 13px;\">The <strong data-start=\"198\" data-end=\"220\">ALP isoenzyme test</strong> is used to <strong data-start=\"232\" data-end=\"260\">differentiate the source</strong> of elevated <strong data-start=\"273\" data-end=\"303\">alkaline phosphatase (ALP)</strong> levels in the blood. Total ALP is produced by several tissues, but the <strong data-start=\"375\" data-end=\"384\">liver</strong>, <strong data-start=\"386\" data-end=\"394\">bone</strong>, <strong data-start=\"396\" data-end=\"409\">intestine</strong>, and <strong data-start=\"415\" data-end=\"427\">placenta</strong> are the main contributors. When total ALP is elevated, this test helps pinpoint whether the elevation is due to <strong data-start=\"540\" data-end=\"549\">liver</strong>, <strong data-start=\"551\" data-end=\"559\">bone</strong>, or another source by identifying specific isoenzymes.</span></p>\n<p data-start=\"616\" data-end=\"672\"><span style=\"font-size: 13px;\">This is especially helpful when trying to distinguish:</span></p>\n<ul data-start=\"673\" data-end=\"841\">\n<li style=\"font-size: 13px;\" data-start=\"673\" data-end=\"720\">\n<p data-start=\"675\" data-end=\"720\"><span style=\"font-size: 13px;\"><strong data-start=\"675\" data-end=\"702\">Hepatic vs. bone origin</strong> of elevated ALP</span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"721\" data-end=\"763\">\n<p data-start=\"723\" data-end=\"763\"><span style=\"font-size: 13px;\"><strong data-start=\"723\" data-end=\"740\">Liver disease</strong> vs. <strong data-start=\"745\" data-end=\"761\">bone disease</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"764\" data-end=\"841\">\n<p data-start=\"766\" data-end=\"841\"><span style=\"font-size: 13px;\">ALP elevation due to <strong data-start=\"787\" data-end=\"797\">tumors</strong>, <strong data-start=\"799\" data-end=\"812\">pregnancy</strong>, or <strong data-start=\"817\" data-end=\"841\">intestinal disorders</strong></span></p>\n</li>\n</ul>\n<h3 data-start=\"848\" data-end=\"919\"><span style=\"font-size: 13px;\"><strong data-start=\"852\" data-end=\"919\">Clinically Significant Elevations of Specific ALP Isoenzymes</strong></span></h3>\n<h4 data-start=\"921\" data-end=\"967\"><span style=\"font-size: 13px;\"><strong data-start=\"926\" data-end=\"965\">1. Liver Isoenzyme (ALP-1) Elevated</strong></span></h4>\n<p data-start=\"968\" data-end=\"1037\"><span style=\"font-size: 13px;\">Suggests <strong data-start=\"977\" data-end=\"995\">hepatic origin</strong> of elevated ALP. Common causes include:</span></p>\n<ul data-start=\"1038\" data-end=\"1248\">\n<li style=\"font-size: 13px;\" data-start=\"1038\" data-end=\"1111\">\n<p data-start=\"1040\" data-end=\"1111\"><span style=\"font-size: 13px;\"><strong data-start=\"1040\" data-end=\"1069\">Obstructive liver disease</strong> (e.g., bile duct blockage, cholestasis)</span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1112\" data-end=\"1148\">\n<p data-start=\"1114\" data-end=\"1148\"><span style=\"font-size: 13px;\"><strong data-start=\"1114\" data-end=\"1127\">Hepatitis</strong> (acute or chronic)</span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1149\" data-end=\"1184\">\n<p data-start=\"1151\" data-end=\"1184\"><span style=\"font-size: 13px;\"><strong data-start=\"1151\" data-end=\"1182\">Primary biliary cholangitis</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1185\" data-end=\"1219\">\n<p data-start=\"1187\" data-end=\"1219\"><span style=\"font-size: 13px;\"><strong data-start=\"1187\" data-end=\"1217\">Liver metastases or tumors</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1220\" data-end=\"1248\">\n<p data-start=\"1222\" data-end=\"1248\"><span style=\"font-size: 13px;\">Use of hepatotoxic drugs</span></p>\n</li>\n</ul>\n<p data-start=\"1250\" data-end=\"1337\"><span style=\"font-size: 13px;\">Often elevated alongside <strong data-start=\"1275\" data-end=\"1282\">GGT</strong> and <strong data-start=\"1287\" data-end=\"1306\">5'-nucleotidase</strong>, confirming liver involvement.</span></p>\n<h4 data-start=\"1344\" data-end=\"1389\"><span style=\"font-size: 13px;\"><strong data-start=\"1349\" data-end=\"1387\">2. Bone Isoenzyme (ALP-2) Elevated</strong></span></h4>\n<p data-start=\"1390\" data-end=\"1452\"><span style=\"font-size: 13px;\">Indicates <strong data-start=\"1400\" data-end=\"1423\">bone-related causes</strong> of ALP elevation, such as:</span></p>\n<ul data-start=\"1453\" data-end=\"1665\">\n<li style=\"font-size: 13px;\" data-start=\"1453\" data-end=\"1484\">\n<p data-start=\"1455\" data-end=\"1484\"><span style=\"font-size: 13px;\"><strong data-start=\"1455\" data-end=\"1482\">Paget&rsquo;s disease of bone</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1485\" data-end=\"1516\">\n<p data-start=\"1487\" data-end=\"1516\"><span style=\"font-size: 13px;\"><strong data-start=\"1487\" data-end=\"1514\">Osteomalacia or rickets</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1517\" data-end=\"1563\">\n<p data-start=\"1519\" data-end=\"1563\"><span style=\"font-size: 13px;\"><strong data-start=\"1519\" data-end=\"1538\">Bone metastases</strong> or primary bone tumors</span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1564\" data-end=\"1591\">\n<p data-start=\"1566\" data-end=\"1591\"><span style=\"font-size: 13px;\"><strong data-start=\"1566\" data-end=\"1589\">Hyperparathyroidism</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1592\" data-end=\"1616\">\n<p data-start=\"1594\" data-end=\"1616\"><span style=\"font-size: 13px;\"><strong data-start=\"1594\" data-end=\"1614\">Fracture healing</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1617\" data-end=\"1665\">\n<p data-start=\"1619\" data-end=\"1665\"><span style=\"font-size: 13px;\"><strong data-start=\"1619\" data-end=\"1639\">Growing children</strong> (physiological elevation)</span></p>\n</li>\n</ul>\n<p data-start=\"1667\" data-end=\"1755\"><span style=\"font-size: 13px;\">Usually accompanied by elevated <strong data-start=\"1699\" data-end=\"1724\">bone turnover markers</strong> like P1NP or NTX in pathology.</span></p>\n<h4 data-start=\"1762\" data-end=\"1804\"><span style=\"font-size: 13px;\"><strong data-start=\"1767\" data-end=\"1802\">3. Placental Isoenzyme Elevated</strong></span></h4>\n<p data-start=\"1805\" data-end=\"1822\"><span style=\"font-size: 13px;\">Can be seen in:</span></p>\n<ul data-start=\"1823\" data-end=\"2022\">\n<li style=\"font-size: 13px;\" data-start=\"1823\" data-end=\"1863\">\n<p data-start=\"1825\" data-end=\"1863\"><span style=\"font-size: 13px;\"><strong data-start=\"1825\" data-end=\"1845\">Normal pregnancy</strong> (physiological)</span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"1864\" data-end=\"2022\">\n<p data-start=\"1866\" data-end=\"2022\"><span style=\"font-size: 13px;\"><strong data-start=\"1866\" data-end=\"1884\">Certain tumors</strong> (e.g., some ovarian, lung, or gastrointestinal cancers)</span><br data-start=\"1940\" data-end=\"1943\"><span style=\"font-size: 13px;\">Elevated placental ALP in non-pregnant individuals may indicate <strong data-start=\"2007\" data-end=\"2021\">malignancy</strong>.</span></p>\n</li>\n</ul>\n<h4 data-start=\"2029\" data-end=\"2072\"><span style=\"font-size: 13px;\"><strong data-start=\"2034\" data-end=\"2070\">4. Intestinal Isoenzyme Elevated</strong></span></h4>\n<p data-start=\"2073\" data-end=\"2103\"><span style=\"font-size: 13px;\">Seen in some individuals with:</span></p>\n<ul data-start=\"2104\" data-end=\"2220\">\n<li style=\"font-size: 13px;\" data-start=\"2104\" data-end=\"2153\">\n<p data-start=\"2106\" data-end=\"2153\"><span style=\"font-size: 13px;\"><strong data-start=\"2106\" data-end=\"2128\">Blood group B or O</strong> after a <strong data-start=\"2137\" data-end=\"2151\">fatty meal</strong></span></p>\n</li>\n<li style=\"font-size: 13px;\" data-start=\"2154\" data-end=\"2220\">\n<p data-start=\"2156\" data-end=\"2220\"><span style=\"font-size: 13px;\"><strong data-start=\"2156\" data-end=\"2179\">Intestinal ischemia</strong> or <strong data-start=\"2183\" data-end=\"2220\">inflammatory bowel disease (rare)</strong></span></p>\n</li>\n</ul>\n<p data-start=\"2222\" data-end=\"2302\"><span style=\"font-size: 13px;\">It is generally not a major contributor unless in specific GI-related pathology.</span></p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ALKALINE PHOSPHATASE",
+        "field": "numeric",
+        "test_method": "(agarose gel electrophoresis)",
+        "units": "U/L",
+        "range": {
+          "default": {
+            "male-range-min": "30",
+            "male-range-max": "120",
+            "female-range-max": "120",
+            "female-range-min": "30",
+            "child-range-max": "120",
+            "child-range-min": "30"
+          }
+        },
+        "formulaId": "6e4f4b1a-9d44-4c7f-84c7-f441b92212e4",
+        "flabsCode": "FLP0094"
+      },
+      "_id": "679b3a829bcb2428d843f2bb"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Placental",
+        "field": "numeric",
+        "units": "U/L ",
+        "formulaId": "d7830879-3f50-4eaa-bea3-0723fa9b442c",
+        "flabsCode": "FLP1729"
+      },
+      "_id": "679b3a829bcb2428d843f2bc"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Intestine",
+        "field": "numeric",
+        "units": "U/L",
+        "range": {
+          "default": {
+            "male-range-min": "00",
+            "male-range-max": "26.00",
+            "female-range-max": "26.00",
+            "female-range-min": "00",
+            "child-range-max": "26.00",
+            "child-range-min": "00"
+          }
+        },
+        "formulaId": "8a66fad1-71da-47b6-b3a5-dbf58a9683f5",
+        "flabsCode": "FLP1275"
+      },
+      "_id": "679b3a829bcb2428d843f2bd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Bone",
+        "field": "numeric_unbound",
+        "units": "U/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "52.00"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "52.00"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "52.00"
+            }
+          }
+        },
+        "formulaId": "5b7bb152-ee7d-465f-8559-af3cde9f3bfe",
+        "flabsCode": "FLP0387"
+      },
+      "_id": "679b3a829bcb2428d843f2be"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Liver",
+        "field": "numeric_unbound",
+        "units": "U/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "78.00"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "78.00"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "78.00"
+            }
+          }
+        },
+        "formulaId": "7adceb81-b6df-4d9a-9cf4-48967e8b2162",
+        "flabsCode": "FLP1371"
+      },
+      "_id": "679b3a829bcb2428d843f2bf"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c137",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0029",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.113Z",
+  "updatedAt": "2025-07-21T19:17:52.113Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

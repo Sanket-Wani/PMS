@@ -1,0 +1,235 @@
+{
+  "_id": "6a86cbe9ba46c74c6d43a747",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CSF EXAMINATION",
+  "code": "1537",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "PHYSICAL EXAMINATION",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "VOLUME ",
+            "units": "ML",
+            "flabsCode": "FLP2194"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "COLOR ",
+            "range": {
+              "default": {
+                "male-range": "WATERY",
+                "female-range": "WATERY",
+                "child-range": "WATERY"
+              }
+            },
+            "flabsCode": "FLP0516"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "APPEARANCE ",
+            "range": {
+              "default": {
+                "male-range": "CLEAR ",
+                "female-range": "CLEAR ",
+                "child-range": "CLEAR "
+              }
+            },
+            "flabsCode": "FLP2158"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "COAGULUM",
+            "range": {
+              "default": {
+                "male-range": "NOT PRESENT",
+                "female-range": "NOT PRESENT",
+                "child-range": "NOT PRESENT"
+              }
+            },
+            "flabsCode": "FLP0485"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "BLOOD",
+            "range": {
+              "default": {
+                "male-range": "Nil ",
+                "female-range": "Nil ",
+                "child-range": "Nil "
+              }
+            },
+            "flabsCode": "FLP0380"
+          }
+        ]
+      },
+      "_id": "678a2e22c79665e2688670f6"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CHEMICAL ANALYSIS",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "PROTEIN",
+            "units": "mg/dl ",
+            "range": {
+              "default": {
+                "male-range-min": "15",
+                "male-range-max": "45",
+                "female-range-max": "45",
+                "female-range-min": "15",
+                "child-range-max": "45",
+                "child-range-min": "15"
+              }
+            },
+            "flabsCode": "FLP1672"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "SUGAR",
+            "range": {
+              "default": {
+                "male-range-min": "40",
+                "male-range-max": "70",
+                "female-range-max": "70",
+                "female-range-min": "40",
+                "child-range-max": "70",
+                "child-range-min": "40"
+              }
+            },
+            "units": "mg/dl ",
+            "flabsCode": "FLP1937"
+          }
+        ]
+      },
+      "_id": "678a2e22c79665e2688670f7"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CYTOLOGY",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "TLC",
+            "range": {
+              "default": {
+                "male-range": ""
+              }
+            },
+            "units": "cells/cumm",
+            "flabsCode": "FLP2057"
+          }
+        ]
+      },
+      "_id": "678a2e22c79665e2688670f8"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "DLC",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "POLYMORPH",
+            "units": "%",
+            "flabsCode": "FLP1659"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "LYMPHOCYTES",
+            "units": "%",
+            "flabsCode": "FLP1336"
+          }
+        ]
+      },
+      "_id": "678a2e22c79665e2688670f9"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c2b5",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0497",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.860Z",
+  "updatedAt": "2025-07-21T19:17:53.860Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,172 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a4a9",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "GALACTOSEMIA PANEL-1",
+  "code": "1108",
+  "cost": 0,
+  "interpretation": "<p data-start=\"118\" data-end=\"278\">The <strong data-start=\"122\" data-end=\"146\">Galactosemia Panel-1</strong> test is a <strong data-start=\"157\" data-end=\"191\">comprehensive diagnostic panel</strong> used to assess <strong data-start=\"207\" data-end=\"254\">inherited disorders of galactose metabolism</strong>, primarily focusing on:</p>\n<ul data-start=\"280\" data-end=\"452\">\n<li data-start=\"280\" data-end=\"364\">\n<p data-start=\"282\" data-end=\"364\"><strong data-start=\"282\" data-end=\"332\">Galactose-1-phosphate uridyltransferase (GALT)</strong> activity (Classic Galactosemia)</p>\n</li>\n<li data-start=\"365\" data-end=\"402\">\n<p data-start=\"367\" data-end=\"402\"><strong data-start=\"367\" data-end=\"391\">Galactokinase (GALK)</strong> deficiency</p>\n</li>\n<li data-start=\"403\" data-end=\"452\">\n<p data-start=\"405\" data-end=\"452\"><strong data-start=\"405\" data-end=\"441\">UDP-galactose-4-epimerase (GALE)</strong> deficiency</p>\n</li>\n</ul>\n<p data-start=\"454\" data-end=\"491\">This test is especially important in:</p>\n<ul data-start=\"493\" data-end=\"685\">\n<li data-start=\"493\" data-end=\"544\">\n<p data-start=\"495\" data-end=\"544\"><strong data-start=\"495\" data-end=\"544\">Newborns with elevated blood galactose levels</strong></p>\n</li>\n<li data-start=\"545\" data-end=\"610\">\n<p data-start=\"547\" data-end=\"610\"><strong data-start=\"547\" data-end=\"578\">Confirming abnormal results</strong> from newborn screening programs</p>\n</li>\n<li data-start=\"611\" data-end=\"685\">\n<p data-start=\"613\" data-end=\"685\"><strong data-start=\"613\" data-end=\"654\">Differentiating types of galactosemia</strong> for proper clinical management</p>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th><strong>Enzyme Deficiency</strong></th>\n<th><strong>Likely Disorder</strong></th>\n<th><strong>Clinical Significance</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Low or absent GALT activity</strong></td>\n<td><strong>Classic Galactosemia</strong></td>\n<td>Most severe form. Leads to accumulation of galactose-1-phosphate. Requires lifelong dietary galactose restriction.</td>\n</tr>\n<tr>\n<td><strong>Low GALK activity</strong></td>\n<td><strong>Galactokinase Deficiency</strong></td>\n<td>Milder condition. Typically presents with <strong>cataracts</strong> in infancy; no liver or kidney involvement.</td>\n</tr>\n<tr>\n<td><strong>Low GALE activity</strong></td>\n<td><strong>Epimerase Deficiency Galactosemia</strong></td>\n<td>Variable severity. May affect red blood cells only (mild) or have systemic involvement (severe).</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Galactose-1-Phosphate Uridyltransferase (GALT) Activity",
+        "field": "numeric_unbound",
+        "units": "U/g",
+        "test_method": "lc-ms/ms ",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "3.5",
+              "op": ">="
+            },
+            "female-range": {
+              "value": "3.5",
+              "op": ">="
+            },
+            "child-range": {
+              "value": "3.5",
+              "op": ">="
+            }
+          }
+        },
+        "formulaId": "59d46143-a904-4989-abcc-f2d8f5565dba",
+        "flabsCode": "FLP1002"
+      },
+      "_id": "68812afc15bf2f12063e577a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Galactose-1-Phosphate Level",
+        "field": "numeric_unbound",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "1.0"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "1.0"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "1.0"
+            }
+          }
+        },
+        "formulaId": "17aa4771-36c3-4f82-ae2b-e56ccfd0ed11",
+        "flabsCode": "FLP1001"
+      },
+      "_id": "68812afc15bf2f12063e577b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Galactose (Galactose + Galactose-1-Phosphate)",
+        "field": "numeric_unbound",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "10"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "10"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "10"
+            }
+          }
+        },
+        "formulaId": "8f9f5166-d7f0-4999-99fb-c16caf987b35",
+        "flabsCode": "FLP2122"
+      },
+      "_id": "68812b5ce4bce8187711cf5c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Genetic Mutation",
+        "field": "text",
+        "formulaId": "5157ced0-f78f-4420-bf5d-e4d0df87eb64"
+      },
+      "_id": "68812b5ce4bce8187711cf5d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c185",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0118",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.495Z",
+  "updatedAt": "2025-07-21T19:17:52.495Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

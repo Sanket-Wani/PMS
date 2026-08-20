@@ -1,0 +1,144 @@
+{
+  "_id": "6a86ccd95953b1dd0a19b250",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ZN STAINING+RAPID AFB CULT+PCR",
+  "code": "2540",
+  "cost": 0,
+  "interpretation": "<h3 data-start=\"936\" data-end=\"954\"><span style=\"font-size: 9.38px;\"><strong data-start=\"943\" data-end=\"954\">Method:</strong></span></h3>\n<ul data-start=\"955\" data-end=\"1174\">\n<li style=\"font-size: 9.38px;\" data-start=\"955\" data-end=\"1023\">\n<p data-start=\"957\" data-end=\"1023\"><span style=\"font-size: 9.38px;\"><strong data-start=\"957\" data-end=\"972\">ZN Staining</strong> &ndash; Ziehl-Neelsen Microscopy for Acid-Fast Bacilli</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1024\" data-end=\"1093\">\n<p data-start=\"1026\" data-end=\"1093\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1026\" data-end=\"1043\">Rapid Culture</strong> &ndash; Liquid Culture System (e.g., BACTEC MGIT 960)</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1094\" data-end=\"1174\">\n<p data-start=\"1096\" data-end=\"1174\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1096\" data-end=\"1103\">PCR</strong> &ndash; Cartridge-Based Nucleic Acid Amplification Test (CBNAAT / GeneXpert)</span></p>\n</li>\n</ul>\n<h3 data-start=\"1181\" data-end=\"1222\"><span style=\"font-size: 9.38px;\"><strong data-start=\"1188\" data-end=\"1222\">Clinical Use / Interpretation:</strong></span></h3>\n<ul data-start=\"1223\" data-end=\"1403\">\n<li style=\"font-size: 9.38px;\" data-start=\"1223\" data-end=\"1403\">\n<p data-start=\"1225\" data-end=\"1277\"><span style=\"font-size: 9.38px;\">Detects <strong data-start=\"1233\" data-end=\"1263\">Mycobacterium tuberculosis</strong> and helps in:</span></p>\n<ul data-start=\"1280\" data-end=\"1403\">\n<li style=\"font-size: 9.38px;\" data-start=\"1280\" data-end=\"1300\">\n<p data-start=\"1282\" data-end=\"1300\"><span style=\"font-size: 9.38px;\">Rapid TB diagnosis</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1303\" data-end=\"1352\">\n<p data-start=\"1305\" data-end=\"1352\"><span style=\"font-size: 9.38px;\">Identifying <strong data-start=\"1317\" data-end=\"1342\">rifampicin resistance</strong> (via PCR)</span></p>\n</li>\n<li style=\"font-size: 9.38px;\" data-start=\"1355\" data-end=\"1403\">\n<p data-start=\"1357\" data-end=\"1403\"><span style=\"font-size: 9.38px;\">Differentiating viable organisms (via culture)</span></p>\n</li>\n</ul>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "sputum",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ZN Staining (AFB Microscopy)",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Negative",
+            "female-range": "Negative",
+            "child-range": "Negative"
+          }
+        },
+        "formulaId": "0cb387b6-31b1-49cb-9298-a66b39bfad96",
+        "flabsCode": "FLP2299"
+      },
+      "_id": "6882659b124d8484d886bbb7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "AFB Rapid Culture (BACTEC)",
+        "field": "custom",
+        "options": [
+          "Growth",
+          "No Growth"
+        ],
+        "range": {
+          "default": {
+            "male-range": "No Growth",
+            "female-range": "No Growth",
+            "child-range": "No Growth"
+          }
+        },
+        "formulaId": "b9b64072-d8df-4bd6-aa9b-a8d294272114",
+        "flabsCode": "FLP0083"
+      },
+      "_id": "6882659b124d8484d886bbb8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "MTB PCR (GeneXpert/CBNAAT)",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "14ade3bc-6ac7-43be-a7f1-7bf1a05a60ef",
+        "flabsCode": "FLP1416"
+      },
+      "_id": "6882659b124d8484d886bbb9"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c56b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1293",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.311Z",
+  "updatedAt": "2025-07-21T19:17:57.311Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

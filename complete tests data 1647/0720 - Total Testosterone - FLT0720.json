@@ -1,0 +1,237 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381bfd",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Total Testosterone",
+  "code": "TOTAL TESTOS",
+  "cost": 0,
+  "interpretation": "<ul><li>A total testosterone test measures the total amount of testosterone in the blood, including both free testosterone (not bound to proteins) and testosterone that is bound to proteins. The interpretation of total testosterone levels can vary depending on individual factors, such as age and gender, as well as the reason for the test.&nbsp;</li><li>Normal range: The normal range for total testosterone levels in adult males is typically between 300 and 1,000 ng/dL. In adult females, the normal range is typically between 15 and 70 ng/dL.</li><li>Low levels: Low levels of total testosterone can be caused by a variety of factors, including aging, certain medications, and medical conditions such as hypogonadism. Symptoms of low testosterone levels can include fatigue, low libido, erectile dysfunction, and muscle weakness.</li><li>High levels: High levels of total testosterone can be caused by medical conditions such as polycystic ovary syndrome (PCOS) or congenital adrenal hyperplasia (CAH). In males, high levels of testosterone can cause symptoms such as acne, excess hair growth, and infertility.</li></ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fcd2f02dc1ebb6a097df",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Testosterone",
+        "field": "numeric",
+        "units": "ng/dL",
+        "range": {
+          "default": {
+            "male-range-max": "1000",
+            "male-range-min": "300",
+            "female-range-min": "15",
+            "female-range-max": "70",
+            "child-range-min": "15",
+            "child-range-max": "70"
+          },
+          "0y_4m_1d_-_0y_6m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "13",
+            "male-range-min": "0",
+            "male-range-max": "59"
+          },
+          "13y_0m_1d_-_17y_0m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "40",
+            "male-range-min": "0",
+            "male-range-max": "1000"
+          },
+          "10y_0m_1d_-_11y_0m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "40",
+            "male-range-min": "0",
+            "male-range-max": "260"
+          },
+          "0y_0m_1d_-_0y_0m_30d": {
+            "male-range-max": "130",
+            "male-range-min": "0",
+            "female-range-max": "24",
+            "female-range-min": "0"
+          },
+          "0y_1m_0d_-_0y_2m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "17",
+            "male-range-min": "72",
+            "male-range-max": "344"
+          },
+          "0y_2m_1d_-_0y_4m_0d": {
+            "male-range-min": "0",
+            "male-range-max": "201",
+            "female-range-min": "0",
+            "female-range-max": "12"
+          },
+          "0y_6m_1d_-_0y_11m_0d": {
+            "male-range-min": "0",
+            "male-range-max": "16",
+            "female-range-min": "0",
+            "female-range-max": "11"
+          },
+          "0y_11m_1d_-_5y_0m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "8",
+            "male-range-min": "0",
+            "male-range-max": "5"
+          },
+          "5y_0m_1d_-_7y_0m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "20",
+            "male-range-min": "0",
+            "male-range-max": "25"
+          },
+          "7y_0m_1d_-_10y_0m_0d": {
+            "male-range-min": "0",
+            "male-range-max": "42",
+            "female-range-min": "0",
+            "female-range-max": "35"
+          },
+          "11y_0m_1d_-_13y_0m_0d": {
+            "female-range-min": "0",
+            "female-range-max": "40",
+            "male-range-min": "0",
+            "male-range-max": "420"
+          },
+          "17y_0m_1d_-_120y_0m_0d": {
+            "male-range-min": "175",
+            "male-range-max": "781",
+            "female-range-min": "10",
+            "female-range-max": "90",
+            "child-range-max": "90",
+            "child-range-min": "10"
+          }
+        }
+      },
+      "_id": "642496c94ae0b2aab378ee08"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "642496c94ae0b2aab378ee07",
+  "ageRanges": [
+    {
+      "_id": "64bcf517f48dacc91bb8a65d",
+      "from": "0Y-0M-1D",
+      "to": "0Y-0M-30D"
+    },
+    {
+      "_id": "64bcf566f48dacc91bb8a69b",
+      "from": "0Y-1M-0D",
+      "to": "0Y-2M-0D"
+    },
+    {
+      "_id": "64bcf576f48dacc91bb8a6e8",
+      "from": "0Y-2M-1D",
+      "to": "0Y-4M-0D"
+    },
+    {
+      "_id": "64bcf587f48dacc91bb8a6f7",
+      "from": "0Y-4M-1D",
+      "to": "0Y-6M-0D"
+    },
+    {
+      "_id": "64bcf860f48dacc91bb8b040",
+      "from": "0Y-6M-1D",
+      "to": "0Y-11M-0D"
+    },
+    {
+      "_id": "64bcf878f48dacc91bb8b14c",
+      "from": "0Y-11M-1D",
+      "to": "5Y-0M-0D"
+    },
+    {
+      "_id": "64bcf88df48dacc91bb8b15c",
+      "from": "5Y-0M-1D",
+      "to": "7Y-0M-0D"
+    },
+    {
+      "_id": "64bcf89df48dacc91bb8b18f",
+      "from": "7Y-0M-1D",
+      "to": "10Y-0M-0D"
+    },
+    {
+      "_id": "64bcf8c2f48dacc91bb8b2af",
+      "from": "10Y-0M-1D",
+      "to": "11Y-0M-0D"
+    },
+    {
+      "_id": "64bcf997f48dacc91bb8b441",
+      "from": "11Y-0M-1D",
+      "to": "13Y-0M-0D"
+    },
+    {
+      "_id": "64bcf9b6f48dacc91bb8b4bc",
+      "from": "13Y-0M-1D",
+      "to": "17Y-0M-0D"
+    },
+    {
+      "_id": "64bcf9c0f48dacc91bb8b4ff",
+      "from": "17Y-0M-1D",
+      "to": "120Y-0M-0D"
+    }
+  ],
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0720",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.515Z",
+  "updatedAt": "2026-08-14T17:59:51.515Z",
+  "comment": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

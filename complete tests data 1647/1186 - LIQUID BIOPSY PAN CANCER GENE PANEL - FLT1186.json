@@ -1,0 +1,177 @@
+{
+  "_id": "6a86ccb392e2891d948ee8d2",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LIQUID BIOPSY PAN CANCER GENE PANEL",
+  "code": "2425",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><strong>Gene</strong></th>\n<th><strong>Variant Detected</strong></th>\n<th><strong>Type</strong></th>\n<th><strong>VAF (%)</strong></th>\n<th><strong>Clinical Significance</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>EGFR</td>\n<td>p.L858R</td>\n<td>SNV</td>\n<td>3.2</td>\n<td>Pathogenic &ndash; Targetable (TKI)</td>\n</tr>\n<tr>\n<td>BRCA1</td>\n<td>c.5266dupC</td>\n<td>Frameshift</td>\n<td>2.1</td>\n<td>Pathogenic &ndash; PARP Inhibitor</td>\n</tr>\n<tr>\n<td>TP53</td>\n<td>p.R273H</td>\n<td>Missense</td>\n<td>1.4</td>\n<td>Pathogenic &ndash; Prognostic Marker</td>\n</tr>\n</tbody>\n</table>\n<ul data-start=\"1997\" data-end=\"2203\">\n<li data-start=\"1997\" data-end=\"2069\">\n<p data-start=\"1999\" data-end=\"2069\"><strong data-start=\"1999\" data-end=\"2036\">Positive for Actionable Mutation:</strong> Eligible for targeted therapy.</p>\n</li>\n<li data-start=\"2070\" data-end=\"2142\">\n<p data-start=\"2072\" data-end=\"2142\"><strong data-start=\"2072\" data-end=\"2108\">No Pathogenic Variants Detected:</strong> Standard treatment recommended.</p>\n</li>\n<li data-start=\"2143\" data-end=\"2203\">\n<p data-start=\"2145\" data-end=\"2203\"><strong data-start=\"2145\" data-end=\"2169\">High TMB / MSI-High:</strong> May benefit from immunotherapy.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta plasma",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Number of Genes Analyzed",
+        "field": "text",
+        "formulaId": "760e57df-b8fd-4dad-adce-42ca3dde221b",
+        "flabsCode": "FLP1575"
+      },
+      "_id": "6885018ebb840213426fce56"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Variants Detected",
+        "field": "text",
+        "formulaId": "aefd1c77-a4f6-4c97-9a11-f958d7f71b4f",
+        "flabsCode": "FLP2142"
+      },
+      "_id": "6885018ebb840213426fce57"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pathogenic Variants Identified",
+        "field": "custom",
+        "options": [
+          " No",
+          "Yes"
+        ],
+        "formulaId": "a69c079f-7dd4-4127-bfe9-8b1a46b1d6d7",
+        "flabsCode": "FLP1695"
+      },
+      "_id": "6885018ebb840213426fce58"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Clinically Actionable Variants",
+        "field": "custom",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "formulaId": "201b94cf-cf22-4edb-8a11-24ea4632b444",
+        "flabsCode": "FLP0615"
+      },
+      "_id": "6885018ebb840213426fce59"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Tumor Mutation Burden (TMB)",
+        "field": "text",
+        "formulaId": "883f92a5-831c-4358-bc26-3153cf00483c",
+        "flabsCode": "FLP2173"
+      },
+      "_id": "6885018ebb840213426fce5a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Microsatellite Instability (MSI) Status",
+        "field": "custom",
+        "options": [
+          "MSI-High",
+          "MSI-Stable"
+        ],
+        "formulaId": "977e8455-e3ab-4913-8532-fff3d075b056",
+        "flabsCode": "FLP1481"
+      },
+      "_id": "6885018ebb840213426fce5b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Circulating Tumor DNA (ctDNA) Detected",
+        "field": "custom",
+        "options": [
+          "Yes",
+          "No"
+        ],
+        "formulaId": "c1868113-6091-4a1f-9b50-b77411c224dd",
+        "flabsCode": "FLP0605"
+      },
+      "_id": "6885018ebb840213426fce5c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variant Allele Frequency (VAF) Range",
+        "field": "text",
+        "formulaId": "5156ef2f-749f-4d3d-a29f-2adebfe26eeb",
+        "flabsCode": "FLP2258"
+      },
+      "_id": "6885018ebb840213426fce5d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c501",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1186",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.812Z",
+  "updatedAt": "2025-07-21T19:17:56.812Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

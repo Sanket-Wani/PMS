@@ -1,0 +1,276 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c6a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "BLOOD GAS ANALYSIS, ARTERIAL",
+  "code": "ABG",
+  "cost": 0,
+  "showInterpretation": false,
+  "department": "6414fd0ef02dc1ebb6a097eb",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "pH",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-max": "7.45",
+            "female-range-max": "7.45",
+            "female-range-min": "7.35",
+            "child-range-max": "7.45",
+            "child-range-min": "7.35",
+            "male-range-min": "7.35"
+          }
+        }
+      },
+      "_id": "654df55b365e513cb8a6b2f2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PCO2",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "female-range-max": "45.00",
+            "female-range-min": "35.00",
+            "child-range-max": "45.00",
+            "child-range-min": "35.00",
+            "male-range-min": "35.00",
+            "male-range-max": "45.00"
+          }
+        },
+        "units": "mmHg"
+      },
+      "_id": "654df55b365e513cb8a6b2f3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Bicarbonate (HCO3)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-max": "28.00",
+            "female-range-max": "28.00",
+            "female-range-min": "21.00",
+            "child-range-max": "28.00",
+            "child-range-min": "21.00",
+            "male-range-min": "21.00"
+          }
+        },
+        "units": "mEq/L"
+      },
+      "_id": "654df55b365e513cb8a6b2f4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total CO2 Contents (TCO2)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "child-range-max": "27.00",
+            "child-range-min": "23.00",
+            "male-range-min": "23.00",
+            "male-range-max": "27.00",
+            "female-range-max": "27.00",
+            "female-range-min": "23.00"
+          }
+        },
+        "units": "mmol/L"
+      },
+      "_id": "654df55b365e513cb8a6b2f5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Standard Bicarbonate (SBC)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "child-range-min": "22.00",
+            "male-range-min": "22.00",
+            "male-range-max": "26.00",
+            "female-range-max": "26.0",
+            "female-range-min": "22.00",
+            "child-range-max": "26.0"
+          }
+        },
+        "units": "mEq/L"
+      },
+      "_id": "654df55b365e513cb8a6b2f6"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Base Excess",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "female-range-max": "3.00",
+            "female-range-min": "2.00",
+            "child-range-max": "3.00",
+            "child-range-min": "2.00",
+            "male-range-min": "2.00",
+            "male-range-max": "3.00"
+          }
+        },
+        "units": "mEq/L"
+      },
+      "_id": "654df55b365e513cb8a6b2f7"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PO2",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "83.00",
+            "male-range-max": "108.00",
+            "female-range-max": "108.00",
+            "female-range-min": "83.00",
+            "child-range-max": "108.00",
+            "child-range-min": "83.00"
+          }
+        },
+        "units": "mmHg"
+      },
+      "_id": "654df55b365e513cb8a6b2f8"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "child-range-min": "95.00",
+            "male-range-min": "95.00",
+            "male-range-max": "98.00",
+            "female-range-max": "98.00",
+            "female-range-min": "95.00",
+            "child-range-max": "98.00"
+          }
+        },
+        "units": "%",
+        "name": "Oxygen saturation capacity",
+        "field": "numeric"
+      },
+      "_id": "654df55b365e513cb8a6b2f9"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "female-range": {
+              "op": "<",
+              "value": "0.02"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.02"
+            },
+            "male-range": {
+              "op": "<",
+              "value": "0.02"
+            }
+          }
+        },
+        "units": "mEq/L",
+        "name": "Base Excess - Extracellular fluid"
+      },
+      "_id": "654df55b365e513cb8a6b2fa"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "units": "g/dL",
+        "name": "Hemoglobin",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "13.00",
+            "male-range-max": "18.00",
+            "female-range-max": "18.00",
+            "female-range-min": "13.00",
+            "child-range-max": "18.00",
+            "child-range-min": "13.00"
+          }
+        }
+      },
+      "_id": "654df55b365e513cb8a6b2fb"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "654df3ee365e513cb8a6a3dd",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0048",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.706Z",
+  "updatedAt": "2026-08-14T17:59:51.706Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

@@ -1,0 +1,225 @@
+{
+  "_id": "6a86cbbbba46c74c6d435f81",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "AMNIOCENTESIS + MICROARRAY + KARYOTYPING",
+  "code": "1394",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sample Type",
+        "field": "custom",
+        "options": [
+          "Amniotic Fluid"
+        ],
+        "formulaId": "f3077b35-2900-458d-ac4d-c46ebac2a240",
+        "flabsCode": "FLP1945"
+      },
+      "_id": "68826b9d124d8484d888068f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sample Collected On",
+        "field": "text",
+        "formulaId": "439aeb31-50d0-4b7b-920f-6d0e8a2f4e0f",
+        "flabsCode": "FLP1941"
+      },
+      "_id": "68826b9d124d8484d8880690"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sample Received On",
+        "field": "text",
+        "formulaId": "ee3c762e-72ad-403a-ba17-26cbef16f112",
+        "flabsCode": "FLP1943"
+      },
+      "_id": "68826b9d124d8484d8880691"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "AMNIOCENTESIS",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Amniotic Fluid Appearance",
+            "options": [
+              "Clear",
+              "Cloudy"
+            ],
+            "formulaId": "8fb60037-a9ac-416f-b18b-c93edb248f9d",
+            "flabsCode": "FLP0196"
+          }
+        ]
+      },
+      "_id": "68826b9d124d8484d8880692"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "CHROMOSOMAL MICROARRAY (CMA)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Technique Used",
+            "formulaId": "97ba2ed9-3423-4a1b-a77f-bf4c4532335f",
+            "flabsCode": "FLP2092"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Genome Build",
+            "formulaId": "a1d921d6-51be-4223-989a-e1bcdf90f0ba",
+            "flabsCode": "FLP1020"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Resolution",
+            "units": "kb",
+            "formulaId": "1597866b-a09f-43c7-b950-e8302b1696d2",
+            "flabsCode": "FLP0342"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "CNV Detected\t",
+            "formulaId": "b8bc7ec1-27dc-4d98-8f35-73fe93c75183",
+            "flabsCode": "FLP0483"
+          },
+          {
+            "key": 4,
+            "field": "text",
+            "name": "Regions of Homozygosity (ROH)",
+            "formulaId": "8e096714-3171-4a9c-9ce9-1c2d84ef07e2",
+            "flabsCode": "FLP1848"
+          }
+        ]
+      },
+      "_id": "68826b9d124d8484d8880693"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "KARYOTYPING",
+        "categories": [
+          {
+            "key": 0,
+            "field": "text",
+            "name": "Method Used",
+            "formulaId": "efa4ab35-720d-4853-9e97-8bef53878884",
+            "flabsCode": "FLP2092"
+          },
+          {
+            "key": 1,
+            "field": "text",
+            "name": "Chromosome Count",
+            "formulaId": "b72e0722-1c89-4318-95b0-37e52b51da36",
+            "flabsCode": "FLP0599"
+          },
+          {
+            "key": 2,
+            "field": "text",
+            "name": "Sex Chromosomes",
+            "formulaId": "d7cd0639-da76-4753-b2c1-d0885bc702a9",
+            "flabsCode": "FLP1996"
+          },
+          {
+            "key": 3,
+            "field": "text",
+            "name": "Karyotype Result",
+            "formulaId": "bc7baa90-614b-435e-a380-b383314d81e6",
+            "flabsCode": "FLP1302"
+          }
+        ]
+      },
+      "_id": "68826b9d124d8484d8880694"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Final Result",
+        "field": "text",
+        "formulaId": "f5304917-b25f-4f70-99dc-23c6e91e093c",
+        "flabsCode": "FLP0942"
+      },
+      "_id": "68826b9d124d8484d8880695"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c22b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0351",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.257Z",
+  "updatedAt": "2025-07-21T19:17:53.257Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

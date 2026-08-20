@@ -1,0 +1,151 @@
+{
+  "_id": "6a86ccccba46c74c6d459b92",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PIK3CA MUTATION ANALYSIS (EXON 7, 9 & 20)",
+  "code": "2485",
+  "cost": 0,
+  "interpretation": "<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\"><colgroup><col style=\"width: 50%;\"><col style=\"width: 50%;\"></colgroup>\n<tbody>\n<tr>\n<td><span style=\"font-size: 10px;\"><strong>Result Category</strong></span></td>\n<td><span style=\"font-size: 10px;\"><strong>Description</strong></span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Positive (Pathogenic Mutation Detected)</span></td>\n<td><span style=\"font-size: 10px;\">Activating PIK3CA mutation detected in Exon 7, 9, or 20; may indicate eligibility for PI3K-targeted therapy (e.g., Alpelisib in breast cancer).</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Negative</span></td>\n<td><span style=\"font-size: 10px;\">No clinically significant mutation detected in analyzed exons; other genomic alterations may still be present.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 10px;\">Variant of Uncertain Significance (VUS)</span></td>\n<td><span style=\"font-size: 10px;\">Mutation detected with unclear clinical impact; further studies or literature review recommended.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "tissue specimen (formalin)",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 7 Mutation (e.g., C420R)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "18ce7df0-2f9f-42c4-b75a-2024eb8529f5",
+        "flabsCode": "FLP0860"
+      },
+      "_id": "6883cf4135738384e7949731"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 9 Mutation (e.g., E542K, E545K)\t",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "27a8a0d9-6ed6-48b5-99a1-727ded11f6c7",
+        "flabsCode": "FLP0863"
+      },
+      "_id": "6883cf4135738384e7949732"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 20 Mutation (e.g., H1047R/L)",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "ffc45cd1-d1e3-4f48-9a7b-64b6f5021fa3",
+        "flabsCode": "FLP0854"
+      },
+      "_id": "6883cf4135738384e7949733"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Variant Allele Frequency (VAF, if NGS)",
+        "field": "numeric",
+        "units": "%",
+        "rangeReport": "Reported for quantitative assays (e.g., >2% for tumor tissue, >0.5% for plasma)",
+        "formulaId": "edee6926-3416-42d8-856d-7de21dd0f125",
+        "flabsCode": "FLP2259"
+      },
+      "_id": "6883cf4135738384e7949734"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Pathogenicity Classification",
+        "field": "custom",
+        "options": [
+          "Pathogenic ",
+          "Likely Pathogenic",
+          "VUS ",
+          "Benign"
+        ],
+        "formulaId": "ef5e3805-e738-44ff-8ff4-cebd45f65727",
+        "flabsCode": "FLP1696"
+      },
+      "_id": "6883cf4135738384e7949735"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c539",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1243",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.068Z",
+  "updatedAt": "2025-07-21T19:17:57.068Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

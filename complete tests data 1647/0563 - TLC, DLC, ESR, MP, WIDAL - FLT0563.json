@@ -1,0 +1,307 @@
+{
+  "_id": "6a86cbf692e2891d948d2160",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TLC, DLC, ESR, MP, WIDAL",
+  "code": "1588",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TLC",
+        "field": "numeric",
+        "units": "/cumm",
+        "range": {
+          "default": {
+            "male-range-min": "4,000",
+            "male-range-max": "11,000",
+            "female-range-max": "11,000",
+            "female-range-min": "4,000",
+            "child-range-max": "11,000",
+            "child-range-min": "4,000"
+          }
+        },
+        "formulaId": "3e7080b9-0fae-400f-9030-b8acfedfe7e6",
+        "flabsCode": "FLP2057"
+      },
+      "_id": "687fc376ab7ae7de0ebffa9c"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Differential Leukocyte Count (DLC)",
+        "categories": [
+          {
+            "key": 0,
+            "field": "numeric",
+            "name": "Neutrophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "40",
+                "male-range-max": "75",
+                "female-range-max": "75",
+                "female-range-min": "40",
+                "child-range-max": "75",
+                "child-range-min": "40"
+              }
+            },
+            "formulaId": "4d2ac924-abb5-4517-87e1-3bc9209e0373",
+            "flabsCode": "FLP1545"
+          },
+          {
+            "key": 1,
+            "field": "numeric",
+            "name": "Lymphocytes",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "20",
+                "male-range-max": "45",
+                "female-range-max": "45",
+                "female-range-min": "20",
+                "child-range-max": "45",
+                "child-range-min": "20"
+              }
+            },
+            "formulaId": "c3f6a92b-500a-4c61-9b3e-d2ffcea914a4",
+            "flabsCode": "FLP1383"
+          },
+          {
+            "key": 2,
+            "field": "numeric",
+            "name": "Monocytes",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "2",
+                "male-range-max": "8",
+                "female-range-max": "8",
+                "female-range-min": "2",
+                "child-range-max": "8",
+                "child-range-min": "2"
+              }
+            },
+            "formulaId": "d729f43a-e2e7-4a32-8c84-bbf8c1be43cb",
+            "flabsCode": "FLP1493"
+          },
+          {
+            "key": 3,
+            "field": "numeric",
+            "name": "Eosinophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "1",
+                "male-range-max": "6",
+                "female-range-max": "6",
+                "female-range-min": "1",
+                "child-range-max": "6",
+                "child-range-min": "1"
+              }
+            },
+            "formulaId": "4c843f5f-e348-4882-9442-acc07e0e225a",
+            "flabsCode": "FLP0824"
+          },
+          {
+            "key": 4,
+            "field": "numeric",
+            "name": "Basophils",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "0",
+                "male-range-max": "1",
+                "female-range-max": "1",
+                "female-range-min": "0",
+                "child-range-max": "1",
+                "child-range-min": "0"
+              }
+            },
+            "formulaId": "b891b2f8-bbef-4994-8b74-a8b0980fae17",
+            "flabsCode": "FLP0353"
+          }
+        ]
+      },
+      "_id": "687fc376ab7ae7de0ebffa9d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Erythrocyte Sedimentation Rate (ESR)",
+        "field": "numeric",
+        "units": "mm/hr",
+        "range": {
+          "default": {
+            "male-range-min": "0",
+            "male-range-max": "15",
+            "female-range-min": "0",
+            "female-range-max": "20",
+            "child-range-max": "20",
+            "child-range-min": "0"
+          }
+        },
+        "formulaId": "6b6aaacc-3ce3-4134-8311-1f362247be27",
+        "flabsCode": "FLP0833"
+      },
+      "_id": "687fc376ab7ae7de0ebffa9e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Malarial Parasite",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "441b4c3d-99ea-4063-9275-d21860c1b9bb",
+        "flabsCode": "FLP1426"
+      },
+      "_id": "687fc376ab7ae7de0ebffa9f"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "WIDAL Test ",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "S. Typhi ‘O’",
+            "options": [
+              "Negative",
+              "1:20",
+              "1:40",
+              "1:80",
+              "1:160",
+              "1:320",
+              "Positive"
+            ],
+            "formulaId": "34947058-b206-45df-bedc-41ce311353bf",
+            "flabsCode": "FLP1881"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "S. Typhi Antigen H",
+            "options": [
+              "Positive",
+              "Negative",
+              "1:20",
+              "1:40",
+              "1:80",
+              "1:160",
+              "1:320"
+            ],
+            "formulaId": "ff1bc1c9-c38f-47b8-861c-b065fb2a6821",
+            "flabsCode": "FLP1879"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "S. ParaTyphi Antigen AH",
+            "options": [
+              "Positive",
+              "Negative",
+              "1:20",
+              "1:40",
+              "1:80",
+              "1:160"
+            ],
+            "formulaId": "c52d5f5f-84db-4465-997a-d85286c7dfdd",
+            "flabsCode": "FLP1877"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "S. ParaTyphi Antigen BH",
+            "options": [
+              "Positive",
+              "Negative",
+              "1:20",
+              "1:40",
+              "1:80",
+              "1:160",
+              "1:320"
+            ],
+            "formulaId": "61880c77-9f77-4f87-85cd-34ca73883819",
+            "flabsCode": "FLP1878"
+          }
+        ]
+      },
+      "_id": "687fc376ab7ae7de0ebffaa0"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c2e5",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0563",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.065Z",
+  "updatedAt": "2025-07-21T19:17:54.065Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

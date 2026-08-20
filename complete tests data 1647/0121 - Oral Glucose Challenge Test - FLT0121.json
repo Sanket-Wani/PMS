@@ -1,0 +1,188 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c36",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Oral Glucose Challenge Test",
+  "code": "OGCT",
+  "cost": 0,
+  "interpretation": "<p><br></p><table><thead><tr><th><div>Test Parameter</div></th><th><div>Normal Range</div></th></tr></thead><tbody><tr><td><div>Fasting Blood Glucose</div></td><td><div>70-99 mg/dL</div></td></tr><tr><td><div>1-Hour Blood Glucose</div></td><td><div>Less than 180 mg/dL</div></td></tr><tr><td><div>2-Hour Blood Glucose</div></td><td><div>Less than 140 mg/dL</div></td></tr></tbody></table>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fasting Blood Glucose",
+        "field": "numeric",
+        "units": "mg/dl",
+        "range": {
+          "default": {
+            "male-range-max": "99",
+            "male-range-min": "70",
+            "female-range-min": "70",
+            "female-range-max": "99",
+            "child-range-min": "70",
+            "child-range-max": "99"
+          }
+        }
+      },
+      "_id": "64a2738b359415d343631ad5"
+    },
+    {
+      "data": {
+        "field": "numeric_unbound",
+        "units": "mg/dl",
+        "range": {
+          "default": {
+            "child-range": {
+              "value": "180",
+              "op": "<"
+            },
+            "male-range": {
+              "op": "<",
+              "value": "180"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "180"
+            }
+          }
+        },
+        "name": "1-Hour Blood Glucose"
+      },
+      "_id": "64a2738b359415d343631ad6",
+      "type": "testDetails"
+    },
+    {
+      "data": {
+        "field": "numeric_unbound",
+        "units": "mg/dl",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "140",
+              "op": "<"
+            },
+            "female-range": {
+              "value": "140",
+              "op": "<"
+            },
+            "child-range": {
+              "value": "140",
+              "op": "<"
+            }
+          }
+        },
+        "name": "2-Hour Blood Glucose"
+      },
+      "_id": "64a2738b359415d343631ad7",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gestational Diabetes Mellitus (GDM)",
+        "field": "custom",
+        "options": [
+          "absent",
+          "present"
+        ]
+      },
+      "_id": "64a275de359415d343631fbe"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Impaired Glucose Tolerance (IGT)",
+        "field": "custom",
+        "options": [
+          "absent",
+          "present"
+        ]
+      },
+      "_id": "64a275de359415d343631fbf"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Diabetes Mellitus (DM)",
+        "field": "custom",
+        "options": [
+          "absent",
+          "present"
+        ]
+      },
+      "_id": "64a275de359415d343631fc0"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64a2738b359415d343631ad4",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0121",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.646Z",
+  "updatedAt": "2026-08-14T17:59:51.646Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

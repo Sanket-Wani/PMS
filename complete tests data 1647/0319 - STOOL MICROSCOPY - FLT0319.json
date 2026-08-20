@@ -1,0 +1,179 @@
+{
+  "_id": "6a86cbae5953b1dd0a16fb2a",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "STOOL MICROSCOPY",
+  "code": "1364",
+  "cost": 0,
+  "interpretation": "<ul data-start=\"1746\" data-end=\"1931\">\n<li data-start=\"1746\" data-end=\"1815\">\n<p data-start=\"1748\" data-end=\"1815\">Presence of RBCs and WBCs may indicate inflammation or infection.</p>\n</li>\n<li data-start=\"1816\" data-end=\"1885\">\n<p data-start=\"1818\" data-end=\"1885\">Identification of parasites helps diagnose specific infestations.</p>\n</li>\n<li data-start=\"1886\" data-end=\"1931\">\n<p data-start=\"1888\" data-end=\"1931\">Other findings to be correlated clinically.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "stool",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Red Blood Cells (RBCs)",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "2bdf27b6-563a-4087-98a0-3e8011f9519b",
+        "flabsCode": "FLP1817"
+      },
+      "_id": "6884035c35738384e796bd57"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "White Blood Cells (WBCs)",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "10123a30-20c0-47d4-9472-2d588bc5e9ed",
+        "flabsCode": "FLP2291"
+      },
+      "_id": "6884035c35738384e796bd58"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Parasites (Trophozoites / Cysts / Ova)",
+        "field": "custom",
+        "options": [
+          "Non- Detected",
+          "Detected"
+        ],
+        "formulaId": "3333a424-c099-4758-93f6-f19fe7c4a03d",
+        "flabsCode": "FLP1683"
+      },
+      "_id": "6884035c35738384e796bd59"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fungal Elements",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "5ccde0fb-1a79-423c-a642-0c9d2517520e",
+        "flabsCode": "FLP0974"
+      },
+      "_id": "6884035c35738384e796bd5a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fat Globules",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "307b9b73-0719-4ad4-803b-a24ddf642ef6",
+        "flabsCode": "FLP0933"
+      },
+      "_id": "6884035c35738384e796bd5b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Muscle Fibers",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Absent"
+        ],
+        "formulaId": "956acd47-d6a0-4a28-98a6-9db2147a618c",
+        "flabsCode": "FLP1506"
+      },
+      "_id": "6884035c35738384e796bd5c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Yeast Cells",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "formulaId": "ed64a94e-8ba0-442d-83c7-5765768d83b6",
+        "flabsCode": "FLP2296"
+      },
+      "_id": "6884035c35738384e796bd5d"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c214",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0319",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.158Z",
+  "updatedAt": "2025-07-21T19:17:53.158Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

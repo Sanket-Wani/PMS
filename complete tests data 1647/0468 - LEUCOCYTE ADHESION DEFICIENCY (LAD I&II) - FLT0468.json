@@ -1,0 +1,150 @@
+{
+  "_id": "6a86cbe9ba46c74c6d43a5fd",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LEUCOCYTE ADHESION DEFICIENCY (LAD I&II)",
+  "code": "1514",
+  "cost": 0,
+  "interpretation": "<p><strong>If LAD I is detected:</strong>Flow cytometric analysis shows&nbsp;markedly reduced or absent expression&nbsp;of CD18 and associated integrins (CD11a/CD11b) on leukocytes. This pattern is consistent with&nbsp;Leukocyte Adhesion Deficiency Type I (LAD I). The findings support a diagnosis of a &beta;2 integrin (CD18) deficiency. Clinical features such as recurrent bacterial infections, delayed umbilical cord separation, and poor wound healing are usually present. Genetic confirmation is recommended.</p>\n<p><strong>If LAD II is detected:</strong>The test shows&nbsp;markedly reduced expression of CD15s (sialyl-Lewis X)&nbsp;on neutrophils with normal CD18 and CD11a/CD11b expression. These findings are suggestive of&nbsp;Leukocyte Adhesion Deficiency Type II (LAD II). Patients often present with recurrent infections, developmental delay, and abnormal leukocyte trafficking. Molecular studies for fucosylation pathway defects are advised.</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "67631e3524f8fa88510fdb69",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD18 (β2 integrin)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "98",
+            "male-range-max": "100",
+            "female-range-max": "100",
+            "female-range-min": "98",
+            "child-range-max": "100",
+            "child-range-min": "98"
+          }
+        },
+        "units": "%",
+        "test_method": "flow cytometry",
+        "rangeReport": "",
+        "formulaId": "cb3511e3-a8cc-49fa-a207-5d43e906e730",
+        "flabsCode": "FLP0435"
+      },
+      "_id": "687fce0bab7ae7de0ec36c0f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD11a, CD11b",
+        "field": "multiple_ranges",
+        "range": {
+          "default": {
+            "male-range": ">95",
+            "female-range": ">95",
+            "child-range": ">95"
+          }
+        },
+        "units": "%",
+        "formulaId": "2d79666f-de09-4370-9ccf-4cf8dfe010f3",
+        "flabsCode": "FLP0432"
+      },
+      "_id": "687fce0bab7ae7de0ec36c10"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CD15s (Sialyl-Lewis X)",
+        "field": "multiple_ranges",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": ">95",
+            "female-range": ">95",
+            "child-range": ">95"
+          }
+        },
+        "formulaId": "a9d4d923-3f33-49c9-af80-e64f854f26f4",
+        "flabsCode": "FLP0434"
+      },
+      "_id": "687fce0bab7ae7de0ec36c11"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "% Neutrophils expressing markers",
+        "field": "text",
+        "formulaId": "bbc65fd0-bfcb-4c1e-9412-ec5b8a7109ee",
+        "flabsCode": "FLP0011"
+      },
+      "_id": "687fce0bab7ae7de0ec36c12"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c29f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0468",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.769Z",
+  "updatedAt": "2025-07-21T19:17:53.769Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

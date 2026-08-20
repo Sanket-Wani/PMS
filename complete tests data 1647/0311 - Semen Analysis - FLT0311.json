@@ -1,0 +1,250 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381b57",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Semen Analysis",
+  "code": "SEMEN_ANA",
+  "cost": 0,
+  "interpretation": "<table><thead><tr><th><div><span style=\"font-size: 10px;\">Semen Analysis Test</span></div></th><th><div><span style=\"font-size: 10px;\">Reference Range</span></div></th></tr></thead><tbody><tr><td><div><span style=\"font-size: 10px;\">Volume</span></div></td><td><div><span style=\"font-size: 10px;\">1.5-5 milliliters (mL) per ejaculation</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Sperm Concentration</span></div></td><td><div><span style=\"font-size: 10px;\">15 million to greater than 200 million per mL</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Total Sperm Count</span></div></td><td><div><span style=\"font-size: 10px;\">39 million to greater than 1.2 billion per ejaculate</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Motility</span></div></td><td><div><span style=\"font-size: 10px;\">40% to greater than 81% of sperm should be motile</span></div></td></tr><tr><td><div><span style=\"font-size: 10px;\">Morphology</span></div></td><td><div><span style=\"font-size: 10px;\">At least 4% of sperm should have a normal shape or form</span></div></td></tr></tbody></table><p><span style=\"font-size: 10px;\">​</span></p>",
+  "showInterpretation": false,
+  "sampleType": "semen",
+  "department": "6414fbe1f02dc1ebb6a0979f",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Physical Examination",
+        "categories": [
+          {
+            "field": "text",
+            "name": "Time of Collection"
+          },
+          {
+            "field": "text",
+            "name": "Time of Examination"
+          },
+          {
+            "field": "text",
+            "name": "Duration of Abstinence"
+          },
+          {
+            "units": "ml",
+            "range": {
+              "default": {
+                "male-range-max": "5",
+                "male-range-min": "1.5",
+                "female-range-max": "5",
+                "female-range-min": "1.5",
+                "child-range-max": "5",
+                "child-range-min": "1.5"
+              }
+            },
+            "field": "numeric",
+            "name": "Quantity"
+          },
+          {
+            "field": "text",
+            "name": "Colour"
+          },
+          {
+            "field": "text",
+            "name": "Viscosity"
+          },
+          {
+            "field": "numeric",
+            "name": "Liquefaction Time",
+            "units": "Minutes",
+            "range": {
+              "default": {
+                "male-range-min": "30",
+                "female-range-max": "60",
+                "female-range-min": "30",
+                "child-range-max": "60",
+                "child-range-min": "30",
+                "male-range-max": "60"
+              }
+            }
+          },
+          {
+            "field": "numeric",
+            "name": "pH",
+            "range": {
+              "default": {
+                "female-range-max": "7.8",
+                "female-range-min": "7.2",
+                "child-range-max": "7.8",
+                "child-range-min": "7.2",
+                "male-range-max": "7.8",
+                "male-range-min": "7.2"
+              }
+            }
+          },
+          {
+            "field": "text",
+            "name": "Appearance "
+          }
+        ]
+      },
+      "_id": "641b5ee8063818086a8cf5af"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Microscopic Examination",
+        "categories": [
+          {
+            "range": {
+              "default": {
+                "male-range-max": "200",
+                "male-range-min": "15",
+                "female-range-max": "200",
+                "female-range-min": "15",
+                "child-range-max": "200",
+                "child-range-min": "15"
+              }
+            },
+            "field": "numeric",
+            "name": "Total Sperm Count",
+            "units": "Millions/ml"
+          },
+          {
+            "field": "numeric",
+            "name": "Percentage Motility",
+            "units": "%",
+            "range": {
+              "default": {
+                "male-range-min": "50",
+                "female-range-max": "100",
+                "female-range-min": "50",
+                "child-range-max": "100",
+                "child-range-min": "50",
+                "male-range-max": "100"
+              }
+            }
+          },
+          {
+            "field": "text",
+            "name": "Grade A"
+          },
+          {
+            "name": "Grade B",
+            "field": "text"
+          },
+          {
+            "field": "text",
+            "name": "Grade C"
+          },
+          {
+            "units": "/hpf",
+            "field": "text",
+            "name": "Pus cells"
+          },
+          {
+            "units": "/hpf",
+            "field": "text",
+            "name": "Red Blood Cells"
+          },
+          {
+            "units": "/hpf",
+            "field": "text",
+            "name": "Epithelial Cells"
+          }
+        ]
+      },
+      "_id": "641b5ee8063818086a8cf5b0"
+    },
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Morphology",
+        "categories": [
+          {
+            "field": "numeric",
+            "name": "Normal Morphology",
+            "units": "%",
+            "range": {
+              "default": {
+                "child-range-min": "4",
+                "male-range-max": "100",
+                "male-range-min": "4",
+                "female-range-max": "100",
+                "female-range-min": "4",
+                "child-range-max": "100"
+              }
+            }
+          }
+        ]
+      },
+      "_id": "641b5ee8063818086a8cf5b1"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "641b5ee8063818086a8cf5ae",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0311",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.338Z",
+  "updatedAt": "2026-08-14T17:59:51.338Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

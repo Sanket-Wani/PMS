@@ -1,0 +1,160 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a492",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FRACTIONAL EXCRETION OF SODIUM",
+  "code": "1103",
+  "cost": 0,
+  "interpretation": "<p>The <strong data-start=\"140\" data-end=\"182\">Fractional Excretion of Sodium (FeNa%)</strong> test measures the percentage of filtered sodium that is excreted in the urine. It is a valuable tool in distinguishing <strong data-start=\"302\" data-end=\"314\">prerenal</strong> causes of acute kidney injury (AKI) from <strong data-start=\"356\" data-end=\"375\">intrinsic renal</strong> causes (especially acute tubular necrosis - ATN).</p>\n<p>Elevated FeNa% &ndash; Clinical Implications :</p>\n<table>\n<thead>\n<tr>\n<th><strong>FeNa% Value</strong></th>\n<th><strong>Interpretation</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>&gt;2%</strong></td>\n<td>Suggests <strong>acute tubular necrosis (ATN)</strong> or intrinsic renal failure &ndash; the kidneys are unable to reabsorb sodium efficiently due to tubular damage.</td>\n</tr>\n<tr>\n<td><strong>1&ndash;2%</strong></td>\n<td>Indeterminate zone &ndash; may occur in evolving ATN, early recovery, or mixed picture.</td>\n</tr>\n<tr>\n<td><strong>&gt;2% in chronic kidney disease (CKD)</strong></td>\n<td>Not always diagnostic; CKD patients may have altered sodium handling.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "urine",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Sodium (Na+)",
+        "field": "numeric",
+        "units": "mmol/L",
+        "range": {
+          "default": {
+            "male-range-min": "135",
+            "male-range-max": "145",
+            "female-range-max": "145",
+            "female-range-min": "135",
+            "child-range-max": "145",
+            "child-range-min": "135"
+          }
+        },
+        "formulaId": "2b3ca530-1d12-48b2-8f0b-dd7b39176086",
+        "flabsCode": "FLP1988"
+      },
+      "_id": "687fd2e8ab7ae7de0ec40de0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine Sodium (Na+)",
+        "field": "numeric",
+        "units": "mmol/L",
+        "rangeReport": "Variable",
+        "formulaId": "f00e450d-0e9a-4852-ad5b-990d23758906",
+        "flabsCode": "FLP2221"
+      },
+      "_id": "687fd2e8ab7ae7de0ec40de1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Creatinine",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "0.6",
+            "male-range-max": "1.3",
+            "female-range-max": "1.3",
+            "female-range-min": "0.6",
+            "child-range-max": "1.3",
+            "child-range-min": "0.6"
+          }
+        },
+        "formulaId": "aea8bb09-d835-4783-875e-9105a7a426e9",
+        "flabsCode": "FLP1980"
+      },
+      "_id": "687fd2e8ab7ae7de0ec40de2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Urine Creatinine",
+        "field": "numeric",
+        "units": "mg/dL",
+        "rangeReport": "Variable",
+        "formulaId": "9824bd5b-5eeb-4989-ad26-faf5508e9042",
+        "flabsCode": "FLP2213"
+      },
+      "_id": "687fd2e8ab7ae7de0ec40de3"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Fractional Excretion of Sodium",
+        "field": "numeric",
+        "units": "%",
+        "rangeReport": "<1%: Prerenal\n>1%: Intrinsic Renal (ATN)",
+        "formulaChecked": true,
+        "formula": "(({f00e450d-0e9a-4852-ad5b-990d23758906}*{aea8bb09-d835-4783-875e-9105a7a426e9})/({2b3ca530-1d12-48b2-8f0b-dd7b39176086}*{9824bd5b-5eeb-4989-ad26-faf5508e9042}))*100",
+        "flabsCode": "FLP0957"
+      },
+      "_id": "687fd2e8ab7ae7de0ec40de4"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c180",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0113",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.466Z",
+  "updatedAt": "2025-07-21T19:17:52.466Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

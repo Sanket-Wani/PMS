@@ -1,0 +1,130 @@
+{
+  "_id": "6a86cb50ba46c74c6d42b5b9",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "CPK BB FRACTION",
+  "code": "1068",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><span style=\"font-size: 9px;\"><strong>CPK-BB Result</strong></span></th>\n<th><span style=\"font-size: 9px;\"><strong>Interpretation</strong></span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span style=\"font-size: 9px;\"><strong>Within Normal Limits</strong></span></td>\n<td><span style=\"font-size: 9px;\">No significant brain or lung injury; normal enzyme distribution.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 9px;\"><strong>Mildly Elevated</strong></span></td>\n<td><span style=\"font-size: 9px;\">May suggest minor neurological stress, mild cerebral trauma, or early CNS disease. Clinical correlation needed.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 9px;\"><strong>Significantly Elevated</strong></span></td>\n<td><span style=\"font-size: 9px;\">Indicates possible <strong>acute brain injury</strong>, such as stroke, trauma, brain tumor, seizure, or <strong>lung carcinoma</strong>. Further evaluation and imaging advised.</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 9px;\"><strong>High CPK Total with Low BB%</strong></span></td>\n<td><span style=\"font-size: 9px;\">Likely due to muscle or cardiac injury (CPK-MM or MB dominance), not CNS-related.</span></td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CPK - Total",
+        "field": "numeric",
+        "units": "U/L",
+        "rangeReport": "Male: 39 – 308\nFemale: 26 – 192",
+        "range": {
+          "default": {
+            "male-range-min": "39",
+            "male-range-max": "308",
+            "female-range-min": "26",
+            "female-range-max": "192",
+            "child-range-max": "192",
+            "child-range-min": "26"
+          }
+        },
+        "formulaId": "63641660-3e5e-484b-99e9-310ed45b62fd",
+        "flabsCode": "FLP0502"
+      },
+      "_id": "6887071d7719aa32e1918672"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CPK-BB (Brain type)",
+        "field": "numeric_unbound",
+        "units": "ng/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "2.7"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "2.7"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "2.7"
+            }
+          }
+        },
+        "formulaId": "c7d80ba6-6fd1-4ebc-9b9a-e449e2ca960c",
+        "flabsCode": "FLP0504"
+      },
+      "_id": "68870745b5b275b5b6d04b20"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c163",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0080",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.335Z",
+  "updatedAt": "2025-07-21T19:17:52.335Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

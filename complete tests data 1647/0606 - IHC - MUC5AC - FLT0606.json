@@ -1,0 +1,130 @@
+{
+  "_id": "6a86cc045953b1dd0a17b7b5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "IHC - MUC5AC",
+  "code": "1703",
+  "cost": 0,
+  "interpretation": "<table>\n<thead>\n<tr>\n<th><span style=\"font-size: 11px;\"><strong>Result</strong></span></th>\n<th><span style=\"font-size: 11px;\"><strong>Interpretation</strong></span></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><span style=\"font-size: 11px;\">Positive</span></td>\n<td><span style=\"font-size: 11px;\">Suggests mucinous/gastrointestinal epithelial origin; supports diagnosis of mucinous tumors</span></td>\n</tr>\n<tr>\n<td><span style=\"font-size: 11px;\">Negative</span></td>\n<td><span style=\"font-size: 11px;\">No significant MUC5AC expression; may rule out mucinous differentiation</span></td>\n</tr>\n</tbody>\n</table>\n<h3 data-start=\"2512\" data-end=\"2527\"><span style=\"font-size: 11px;\"><strong data-start=\"2516\" data-end=\"2527\">Remarks</strong></span></h3>\n<ul data-start=\"2529\" data-end=\"2875\">\n<li style=\"font-size: 11px;\" data-start=\"2529\" data-end=\"2595\">\n<p data-start=\"2531\" data-end=\"2595\"><span style=\"font-size: 11px;\">MUC5AC is <strong data-start=\"2541\" data-end=\"2594\">normally expressed in gastric foveolar epithelium</strong>.</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"2596\" data-end=\"2734\">\n<p data-start=\"2598\" data-end=\"2734\"><span style=\"font-size: 11px;\">Positive in <strong data-start=\"2610\" data-end=\"2637\">gastric adenocarcinomas</strong>, <strong data-start=\"2639\" data-end=\"2676\">pancreatic ductal adenocarcinomas</strong>, and some <strong data-start=\"2687\" data-end=\"2733\">colorectal and ovarian mucinous carcinomas</strong>.</span></p>\n</li>\n<li style=\"font-size: 11px;\" data-start=\"2735\" data-end=\"2875\">\n<p data-start=\"2737\" data-end=\"2875\"><span style=\"font-size: 11px;\">Should be interpreted along with <strong data-start=\"2770\" data-end=\"2815\">clinical, radiological, histopathological</strong>, and <strong data-start=\"2821\" data-end=\"2842\">other IHC markers</strong> like MUC2, CDX2, CK7, CK20, etc.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "tissue",
+  "department": "6414fcbef02dc1ebb6a097db",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Tumor Cell Positivity",
+        "field": "custom",
+        "options": [
+          "Positive",
+          "Negative"
+        ],
+        "formulaId": "cbb2fdff-b045-4db6-bac3-96678d679d6a",
+        "flabsCode": "FLP2172"
+      },
+      "_id": "6883d0af35738384e794b324"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Staining Pattern",
+        "field": "text",
+        "formulaId": "4f8ed98f-1277-4fc6-9e66-a444f2193afc",
+        "flabsCode": "FLP2033"
+      },
+      "_id": "6883d0af35738384e794b325"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Intensity",
+        "field": "custom",
+        "options": [
+          "Weak",
+          "Moderate",
+          "Strong"
+        ],
+        "formulaId": "6a07972b-d479-4e68-86c4-d7160951a222",
+        "flabsCode": "FLP1781"
+      },
+      "_id": "6883d0af35738384e794b326"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Percentage of Cells",
+        "field": "text",
+        "formulaId": "01d5cfa1-6ce9-4072-bd47-2a2e95e976f6",
+        "flabsCode": "FLP1708"
+      },
+      "_id": "6883d0af35738384e794b327"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92627bf95259b913c30e",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0606",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:54.276Z",
+  "updatedAt": "2025-07-21T19:17:54.276Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

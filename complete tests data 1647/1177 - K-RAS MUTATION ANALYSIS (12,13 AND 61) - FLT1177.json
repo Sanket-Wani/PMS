@@ -1,0 +1,123 @@
+{
+  "_id": "6a86ccb392e2891d948ee894",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "K-RAS MUTATION ANALYSIS (12,13 AND 61)",
+  "code": "2416",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1427\" data-end=\"1616\">\n<p data-start=\"1429\" data-end=\"1616\"><strong data-start=\"1429\" data-end=\"1451\">Mutation Detected:</strong> Presence of mutation(s) in K-RAS codons 12, 13, or 61 indicates potential resistance to anti-EGFR therapies and impacts prognosis in colorectal and other cancers.</p>\n</li>\n<li data-start=\"1617\" data-end=\"1721\">\n<p data-start=\"1619\" data-end=\"1721\"><strong data-start=\"1619\" data-end=\"1644\">No Mutation Detected:</strong> Wild-type K-RAS, patient may be eligible for anti-EGFR targeted therapies.</p>\n</li>\n<li data-start=\"1722\" data-end=\"1806\">\n<p data-start=\"1724\" data-end=\"1806\"><strong data-start=\"1724\" data-end=\"1733\">Note:</strong> Results must be correlated with clinical and histopathological findings.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "12",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "6c16d06c-353c-4a42-96e8-cfa251017782",
+        "flabsCode": "FLP0848"
+      },
+      "_id": "688411b735738384e796e5dc"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "13",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "31c894b1-3e1b-4c3b-b4a1-f578cb06ed07",
+        "flabsCode": "FLP0589"
+      },
+      "_id": "688411b735738384e796e5dd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "61",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Non- Detected"
+        ],
+        "formulaId": "60c2c88c-4167-467c-8b55-52893dd89762",
+        "flabsCode": "FLP1299"
+      },
+      "_id": "688411b735738384e796e5de"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c4f8",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1177",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.770Z",
+  "updatedAt": "2025-07-21T19:17:56.770Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

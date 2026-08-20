@@ -1,0 +1,123 @@
+{
+  "_id": "6a86ccccba46c74c6d459bb6",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PRENATAL SICKLE CELL MUTATION SCREENING",
+  "code": "2494",
+  "cost": 0,
+  "interpretation": "<p><span style=\"font-size: 9px;\">Clinical Utility:</span></p>\n<ul>\n<li style=\"font-size: 9px;\" data-start=\"815\" data-end=\"882\">\n<p data-start=\"817\" data-end=\"882\"><span style=\"font-size: 9px;\">Detects <strong data-start=\"825\" data-end=\"841\">HbS mutation</strong> in the <strong data-start=\"849\" data-end=\"862\">fetal DNA</strong> during pregnancy.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"883\" data-end=\"978\">\n<p data-start=\"885\" data-end=\"978\"><span style=\"font-size: 9px;\">Used in couples who are known carriers or have a family history of <strong data-start=\"952\" data-end=\"975\">sickle cell disease</strong>.</span></p>\n</li>\n<li style=\"font-size: 9px;\" data-start=\"979\" data-end=\"1051\">\n<p data-start=\"981\" data-end=\"1051\"><span style=\"font-size: 9px;\">Essential part of <strong data-start=\"999\" data-end=\"1030\">prenatal genetic counseling</strong> and decision-making.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Sickle Cell Mutation (HbS) – Fetus",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Not Detected",
+            "female-range": "Not Detected",
+            "child-range": "Not Detected"
+          }
+        },
+        "formulaId": "92760c66-7522-4cb8-8542-09780881ab86",
+        "flabsCode": "FLP2001"
+      },
+      "_id": "6883dee735738384e796000f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Maternal DNA Contamination (Optional)\t",
+        "field": "custom",
+        "options": [
+          "Absent",
+          "Present"
+        ],
+        "range": {
+          "default": {
+            "male-range": "Absent",
+            "female-range": "Absent",
+            "child-range": "Absent"
+          }
+        },
+        "formulaId": "c14b5124-0c24-489b-901c-20cb5e5c1c66",
+        "flabsCode": "FLP1438"
+      },
+      "_id": "6883dee735738384e7960010"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c542",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1252",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.119Z",
+  "updatedAt": "2025-07-21T19:17:57.119Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

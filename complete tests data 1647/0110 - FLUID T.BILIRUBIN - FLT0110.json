@@ -1,0 +1,156 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a487",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FLUID T.BILIRUBIN",
+  "code": "1100",
+  "cost": 0,
+  "interpretation": "<p data-start=\"119\" data-end=\"202\"><strong data-start=\"119\" data-end=\"153\">Total bilirubin in body fluids</strong> (commonly peritoneal or pleural) is measured to:</p>\n<ul data-start=\"204\" data-end=\"497\">\n<li data-start=\"204\" data-end=\"355\">\n<p data-start=\"206\" data-end=\"355\">Differentiate <strong data-start=\"220\" data-end=\"252\">causes of fluid accumulation</strong>, particularly in cases of suspected <strong data-start=\"289\" data-end=\"302\">bile leak</strong>, <strong data-start=\"304\" data-end=\"327\">biliary perforation</strong>, or <strong data-start=\"332\" data-end=\"355\">biliary peritonitis</strong></p>\n</li>\n<li data-start=\"356\" data-end=\"418\">\n<p data-start=\"358\" data-end=\"418\">Assess for <strong data-start=\"369\" data-end=\"395\">biliary tract injuries</strong> post-surgery or trauma</p>\n</li>\n<li data-start=\"419\" data-end=\"497\">\n<p data-start=\"421\" data-end=\"497\">Evaluate <strong data-start=\"430\" data-end=\"454\">bile-stained ascites</strong> or <strong data-start=\"458\" data-end=\"479\">pleural effusions</strong> of hepatic origin</p>\n</li>\n</ul>\n<p data-start=\"499\" data-end=\"584\">In normal circumstances, bilirubin levels in body fluids are <strong data-start=\"560\" data-end=\"583\">low or undetectable</strong>.</p>\n<p data-start=\"499\" data-end=\"584\">Elevated Levels &ndash; Clinical Implications :</p>\n<table>\n<thead>\n<tr>\n<th><strong>Condition</strong></th>\n<th><strong>Clinical Insight</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Bile leak / bile peritonitis</strong></td>\n<td>Significantly elevated fluid bilirubin; often due to trauma, surgery, or obstruction</td>\n</tr>\n<tr>\n<td><strong>Spontaneous biliary rupture</strong></td>\n<td>Rare, but leads to bile-stained ascitic fluid</td>\n</tr>\n<tr>\n<td><strong>Choleperitoneum / biliary fistula</strong></td>\n<td>High fluid bilirubin compared to serum levels; diagnostic in suspected fistula</td>\n</tr>\n<tr>\n<td><strong>Pancreatic pseudocyst rupture into biliary tract</strong></td>\n<td>May cause bile-stained fluid with high bilirubin</td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"499\" data-end=\"584\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "body fluid",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TOTAL BILIRUBIN.",
+        "field": "numeric",
+        "formulaId": "21af9d28-ba0a-415d-8aa0-fe7f9c90e216",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "0.2",
+            "male-range-max": "1.2",
+            "female-range-max": "1.2",
+            "female-range-min": "0.2",
+            "child-range-max": "1.2",
+            "child-range-min": "0.2"
+          }
+        },
+        "flabsCode": "FLP2061"
+      },
+      "_id": "678b74dca377266200d923ed"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CONJ (D.BILIRUBIN)",
+        "field": "numeric_unbound",
+        "formulaId": "a6825c32-fd7e-48d7-999b-1511bdab1a05",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "0.3"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "0.3"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.3"
+            }
+          }
+        },
+        "flabsCode": "FLP0490"
+      },
+      "_id": "678b74dca377266200d923ee"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "UNCONJ (I.D.BILIRUBIN)",
+        "field": "numeric_unbound",
+        "formulaId": "a6db616c-b19c-489e-adcd-faa29ea911c9",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "1.0"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "1.0"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "1.0"
+            }
+          }
+        },
+        "flabsCode": "FLP2177"
+      },
+      "_id": "678b74dca377266200d923ef"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c17d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0110",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.456Z",
+  "updatedAt": "2025-07-21T19:17:52.456Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "6a86cb6c92e2891d948be4f2",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "LDL/ HDL RATIO",
+  "code": "1139",
+  "cost": 0,
+  "interpretation": "<p data-start=\"43\" data-end=\"194\">The <strong data-start=\"47\" data-end=\"64\">LDL/HDL ratio</strong> is used to assess <strong data-start=\"83\" data-end=\"106\">cardiovascular risk</strong>. It compares the levels of <strong data-start=\"134\" data-end=\"161\">\"bad\" cholesterol (LDL)</strong> to <strong data-start=\"165\" data-end=\"193\">\"good\" cholesterol (HDL)</strong>.</p>\n<table>\n<thead>\n<tr>\n<th><strong>LDL/HDL Ratio</strong></th>\n<th><strong>Interpretation</strong></th>\n<th><strong>Risk Level</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>&lt; 2.0</strong></td>\n<td>Ideal / Excellent</td>\n<td>Low cardiovascular risk</td>\n</tr>\n<tr>\n<td><strong>2.0 &ndash; 3.5</strong></td>\n<td>Acceptable / Moderate</td>\n<td>Average risk</td>\n</tr>\n<tr>\n<td><strong>&gt; 3.5</strong></td>\n<td>High</td>\n<td>Increased risk</td>\n</tr>\n</tbody>\n</table>\n<p data-start=\"43\" data-end=\"194\">&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LDL Cholesterol",
+        "field": "numeric_unbound",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "100"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "100"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "100"
+            }
+          }
+        },
+        "formulaId": "500b7e20-872b-4adf-9d77-2abce61f7fe5",
+        "flabsCode": "FLP1323"
+      },
+      "_id": "687fcd4dab7ae7de0ec354a4"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "HDL Cholesterol",
+        "field": "numeric_unbound",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "40"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "50"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "50"
+            }
+          }
+        },
+        "formulaId": "8d6a3abe-7bd6-4f75-a661-2ff33dbbaa9c",
+        "flabsCode": "FLP1078"
+      },
+      "_id": "687fcd4dab7ae7de0ec354a5"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "LDL / HDL Ratio",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "3.5"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "3.5"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "3.5"
+            }
+          }
+        },
+        "units": "Ratio",
+        "formulaId": "6d688d2b-338f-4834-be12-53f390ccb8ff",
+        "flabsCode": "FLP1322"
+      },
+      "_id": "687fcd4dab7ae7de0ec354a6"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c19c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0150",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.601Z",
+  "updatedAt": "2025-07-21T19:17:52.601Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

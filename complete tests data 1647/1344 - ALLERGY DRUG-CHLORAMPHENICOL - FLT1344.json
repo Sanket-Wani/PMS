@@ -1,0 +1,139 @@
+{
+  "_id": "6a86cce65953b1dd0a19c293",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY DRUG-CHLORAMPHENICOL",
+  "code": "2618",
+  "cost": 0,
+  "interpretation": "<p>The <strong data-start=\"64\" data-end=\"101\">Chloramphenicol Drug Allergy Test</strong> is typically done to detect <strong data-start=\"130\" data-end=\"171\">hypersensitivity (allergic) reactions</strong> to <strong data-start=\"175\" data-end=\"194\">chloramphenicol</strong>, an antibiotic used to treat bacterial infections, especially in the eyes and ears.</p>\n<p data-start=\"1260\" data-end=\"1305\"><strong data-start=\"1264\" data-end=\"1305\">Types of Reactions to Chloramphenicol</strong></p>\n<ul data-start=\"1306\" data-end=\"1549\">\n<li data-start=\"1306\" data-end=\"1372\">\n<p data-start=\"1308\" data-end=\"1336\"><strong data-start=\"1308\" data-end=\"1335\">Mild allergic reactions</strong>:</p>\n<ul data-start=\"1339\" data-end=\"1372\">\n<li data-start=\"1339\" data-end=\"1350\">\n<p data-start=\"1341\" data-end=\"1350\">Skin rash</p>\n</li>\n<li data-start=\"1353\" data-end=\"1362\">\n<p data-start=\"1355\" data-end=\"1362\">Itching</p>\n</li>\n<li data-start=\"1365\" data-end=\"1372\">\n<p data-start=\"1367\" data-end=\"1372\">Hives</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1374\" data-end=\"1549\">\n<p data-start=\"1376\" data-end=\"1433\"><strong data-start=\"1376\" data-end=\"1403\">Serious adverse effects</strong> (not always allergy-related):</p>\n<ul data-start=\"1436\" data-end=\"1549\">\n<li data-start=\"1436\" data-end=\"1476\">\n<p data-start=\"1438\" data-end=\"1476\"><strong data-start=\"1438\" data-end=\"1457\">Aplastic anemia</strong> (rare but serious)</p>\n</li>\n<li data-start=\"1479\" data-end=\"1508\">\n<p data-start=\"1481\" data-end=\"1508\"><strong data-start=\"1481\" data-end=\"1508\">Bone marrow suppression</strong></p>\n</li>\n<li data-start=\"1511\" data-end=\"1549\">\n<p data-start=\"1513\" data-end=\"1549\"><strong data-start=\"1513\" data-end=\"1535\">Gray baby syndrome</strong> (in neonates)</p>\n</li>\n</ul>\n</li>\n</ul>\n<table>\n<thead>\n<tr>\n<th><strong>Test Result</strong></th>\n<th><strong>Interpretation</strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Positive (Reactive)</strong></td>\n<td>Indicates <strong>allergic sensitization</strong> to chloramphenicol. The patient may develop allergic reactions upon exposure. Avoid further use.</td>\n</tr>\n<tr>\n<td><strong>Negative (Non-Reactive)</strong></td>\n<td>Suggests <strong>no current sensitization</strong> to chloramphenicol. However, clinical judgment is still required if the patient has a strong history of reaction.</td>\n</tr>\n<tr>\n<td><strong>Equivocal/Borderline</strong></td>\n<td>Inconclusive result. May require <strong>repeat testing</strong>, <strong>clinical correlation</strong>, or <strong>alternative testing methods</strong>.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chloramphenicol-specific IgE",
+        "field": "numeric",
+        "units": "kU/L",
+        "formulaId": "e6662e50-1228-4b42-b2fc-49bfd219d6cc",
+        "flabsCode": "FLP0579"
+      },
+      "_id": "6882767a100272a75a65698c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Skin Prick Test",
+        "field": "text",
+        "formulaId": "488c9f70-b5e3-4394-8938-b3b45913f243",
+        "flabsCode": "FLP2006"
+      },
+      "_id": "6882767a100272a75a65698d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Patch Test",
+        "field": "text",
+        "formulaId": "c1dba368-5f5a-4173-923e-ab67ebe14349",
+        "flabsCode": "FLP1691"
+      },
+      "_id": "6882767a100272a75a65698e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total IgE",
+        "field": "numeric_unbound",
+        "units": "kU/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "100"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "100"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "100"
+            }
+          }
+        },
+        "formulaId": "258f1279-7fd9-4630-8a2a-53917d8e32be",
+        "flabsCode": "FLP2123"
+      },
+      "_id": "6882767a100272a75a65698f"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c59c",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1344",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.504Z",
+  "updatedAt": "2025-07-21T19:17:57.504Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

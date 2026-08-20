@@ -1,0 +1,256 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381c3e",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "Drug Screening",
+  "code": "DRUGS",
+  "cost": 0,
+  "showInterpretation": false,
+  "department": "6414fbc2f02dc1ebb6a0979b",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ALCOHOL",
+        "field": "numeric_unbound",
+        "units": "mg/mL",
+        "range": {
+          "default": {
+            "child-range": {
+              "value": "300",
+              "op": "<"
+            },
+            "male-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "300"
+            }
+          }
+        }
+      },
+      "_id": "64b6e83b494194cd3cab358e"
+    },
+    {
+      "_id": "64b6e83b494194cd3cab358f",
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "300"
+            }
+          }
+        },
+        "units": "mg/mL",
+        "name": "OPIATES - MORPHINE",
+        "field": "numeric_unbound"
+      }
+    },
+    {
+      "_id": "64b6e83b494194cd3cab3590",
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "300"
+            }
+          }
+        },
+        "name": "BARBITURATES",
+        "field": "numeric_unbound",
+        "units": "mg/mL"
+      }
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CANNABINOIDES",
+        "field": "numeric_unbound",
+        "units": "mg/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "300"
+            }
+          }
+        }
+      },
+      "_id": "64b6e83b494194cd3cab3591"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "AMPHETAMINE ",
+        "field": "numeric_unbound",
+        "units": "mg/mL",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "300"
+            }
+          }
+        }
+      },
+      "_id": "64b6e83b494194cd3cab3592"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "COCAINE",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "300"
+            }
+          }
+        },
+        "units": "mg/mL"
+      },
+      "_id": "64b6e83b494194cd3cab3593"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "PHENCYCLIDINE",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "child-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "male-range": {
+              "op": "<",
+              "value": "300"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "300"
+            }
+          }
+        },
+        "units": "mg/mL"
+      },
+      "_id": "64b6e83b494194cd3cab3594"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "64b6e83b494194cd3cab358d",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0249",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.654Z",
+  "updatedAt": "2026-08-14T17:59:51.654Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

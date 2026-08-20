@@ -1,0 +1,168 @@
+{
+  "_id": "6a86cbcc5953b1dd0a175ca4",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "PERIPHERAL BLOOD FOR HIGH RESOLUTION KARYOTYPING (COUPLE) MALE",
+  "code": "1446",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1743\" data-end=\"1840\">\n<p data-start=\"1745\" data-end=\"1773\"><strong data-start=\"1745\" data-end=\"1771\">Normal Result (46,XY):</strong></p>\n<ul data-start=\"1776\" data-end=\"1840\">\n<li data-start=\"1776\" data-end=\"1840\">\n<p data-start=\"1778\" data-end=\"1840\">No detectable structural or numerical chromosomal abnormality.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"1842\" data-end=\"2071\">\n<p data-start=\"1844\" data-end=\"1866\"><strong data-start=\"1844\" data-end=\"1864\">Abnormal Result:</strong></p>\n<ul data-start=\"1869\" data-end=\"2071\">\n<li data-start=\"1869\" data-end=\"1989\">\n<p data-start=\"1871\" data-end=\"1989\">May reveal <strong data-start=\"1882\" data-end=\"1935\">balanced translocations, inversions, or mosaicism</strong>, relevant to <strong data-start=\"1949\" data-end=\"1986\">infertility, RPL, or genetic risk</strong>.</p>\n</li>\n<li data-start=\"1992\" data-end=\"2071\">\n<p data-start=\"1994\" data-end=\"2071\">Requires <strong data-start=\"2003\" data-end=\"2070\">genetic counseling and possible couple testing (female partner)</strong>.</p>\n</li>\n</ul>\n</li>\n<li data-start=\"2073\" data-end=\"2179\">\n<p data-start=\"2075\" data-end=\"2179\">Results must be <strong data-start=\"2091\" data-end=\"2169\">reported in ISCN (International System for Human Cytogenomic Nomenclature)</strong> format.</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "heparinised blood",
+  "department": "6414fc22f02dc1ebb6a097ab",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Banding Resolution Achieved",
+        "field": "numeric_unbound",
+        "units": "Bands per haploid set",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "550"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "550"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "550"
+            }
+          }
+        },
+        "formulaId": "fb1fb4d0-7ce4-4cbb-b029-c222054b3a09",
+        "flabsCode": "FLP0343"
+      },
+      "_id": "6885574b4c9e1585202dc995"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Metaphases Analyzed\t",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": ">=",
+              "value": "20"
+            },
+            "female-range": {
+              "op": ">=",
+              "value": "20"
+            },
+            "child-range": {
+              "op": ">=",
+              "value": "20"
+            }
+          }
+        },
+        "units": "Count",
+        "formulaId": "17b70bfb-cf28-4faf-ae43-adfdd4e8d079",
+        "flabsCode": "FLP1459"
+      },
+      "_id": "6885574b4c9e1585202dc996"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Karyotype Result",
+        "field": "text",
+        "formulaId": "118888be-a0e1-43ea-9dd5-f72928284d31",
+        "flabsCode": "FLP1302"
+      },
+      "_id": "6885574b4c9e1585202dc997"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Chromosomal Abnormality",
+        "field": "custom",
+        "options": [
+          "Detected ",
+          "Not Detected"
+        ],
+        "formulaId": "096321e0-c966-4435-8a3f-343aa033f543",
+        "flabsCode": "FLP0586"
+      },
+      "_id": "6885574b4c9e1585202dc998"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "ISCN Nomenclature",
+        "field": "text",
+        "formulaId": "5914a8aa-d80a-44a6-92a4-719ddfe33679"
+      },
+      "_id": "6885574b4c9e1585202dc999"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92617bf95259b913c25f",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0402",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:53.489Z",
+  "updatedAt": "2025-07-21T19:17:53.489Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

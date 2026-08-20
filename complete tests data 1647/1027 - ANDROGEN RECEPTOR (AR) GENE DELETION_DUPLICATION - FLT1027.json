@@ -1,0 +1,189 @@
+{
+  "_id": "6a86cc815953b1dd0a189f17",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ANDROGEN RECEPTOR (AR) GENE DELETION/DUPLICATION",
+  "code": "2266",
+  "cost": 0,
+  "interpretation": "<ul>\n<li data-start=\"1151\" data-end=\"1263\">\n<p data-start=\"1153\" data-end=\"1263\"><strong data-start=\"1153\" data-end=\"1189\">No Deletion/Duplication Detected</strong>: The AR gene shows no evidence of exon-level deletions or duplications.</p>\n</li>\n<li data-start=\"1264\" data-end=\"1377\">\n<p data-start=\"1266\" data-end=\"1377\"><strong data-start=\"1266\" data-end=\"1285\">Abnormal Result</strong> (if applicable): [e.g., Deletion of Exon 2-4 detected, consistent with AR gene disruption.]</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd22f02dc1ebb6a097ef",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 1",
+        "field": "custom",
+        "options": [
+          "Detected",
+          "Present"
+        ],
+        "formulaId": "e2849b10-76b9-495e-ac94-f3ca1b8c3ca8",
+        "flabsCode": "FLP0846"
+      },
+      "_id": "6883c2bb35738384e7937573"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 2",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Detected"
+        ],
+        "formulaId": "a2e9f767-7bc9-4987-ac9f-3c796d6fb2ba",
+        "flabsCode": "FLP0853"
+      },
+      "_id": "6883c2bb35738384e7937574"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 3",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Detected"
+        ],
+        "formulaId": "ebcb313b-0e75-459b-9a0c-6f4efeb4fd78",
+        "flabsCode": "FLP0855"
+      },
+      "_id": "6883c2bb35738384e7937575"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 4",
+        "field": "numeric",
+        "formulaId": "e8abc7c8-a2ca-4345-aa89-7cf53ffacaf4",
+        "flabsCode": "FLP0856"
+      },
+      "_id": "6883c2bb35738384e7937576"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 5",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Detected"
+        ],
+        "formulaId": "11dcecd1-1c77-40d7-b92a-35b038618531",
+        "flabsCode": "FLP0857"
+      },
+      "_id": "6883c2bb35738384e7937577"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 6",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Detected"
+        ],
+        "formulaId": "5b28c90c-bf38-44f6-b4a6-2bfa4f96e191",
+        "flabsCode": "FLP0858"
+      },
+      "_id": "6883c2bb35738384e7937578"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 7",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Detected"
+        ],
+        "formulaId": "e94b532d-c793-479f-b6cd-327c2bd86a00",
+        "flabsCode": "FLP0859"
+      },
+      "_id": "6883c2bb35738384e7937579"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Exon 8",
+        "field": "custom",
+        "options": [
+          "Present",
+          "Detected"
+        ],
+        "formulaId": "f5c5fd82-0bd4-46f8-9729-fd9618aa7e42",
+        "flabsCode": "FLP0861"
+      },
+      "_id": "6883c2bb35738384e793757a"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92647bf95259b913c466",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1027",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:56.111Z",
+  "updatedAt": "2025-07-21T19:17:56.111Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

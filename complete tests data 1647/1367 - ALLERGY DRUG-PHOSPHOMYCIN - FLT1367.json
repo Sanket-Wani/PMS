@@ -1,0 +1,232 @@
+{
+  "_id": "6a86ccf2ba46c74c6d45f317",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "ALLERGY DRUG-PHOSPHOMYCIN",
+  "code": "2641",
+  "cost": 0,
+  "interpretation": "<ul class=\"marker:text-textOff list-disc\">\n<li>\n<p class=\"my-0\"><span style=\"font-size: 10px;\"><strong>Positive test:</strong>&nbsp;Indicates sensitization and supports clinical diagnosis of allergy/hypersensitivity to phosphomycin/fosfomycin.</span></p>\n</li>\n<li style=\"font-size: 10px;\">\n<p class=\"my-0\"><span style=\"font-size: 10px;\"><strong>Negative test:</strong>&nbsp;Does not conclusively rule out allergy; consider clinical correlation and additional tests if necessary.</span></p>\n</li>\n<li style=\"font-size: 10px;\">\n<p class=\"my-0\"><span style=\"font-size: 10px;\">Always interpret results along with clinical history and presentation</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "edta wb",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Skin Prick Test Wheal Size",
+        "field": "numeric_unbound",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "3"
+            }
+          }
+        },
+        "rangeReport": "Negative: <3 mm\nPositive: ≥3 mm",
+        "units": "mm",
+        "formulaId": "b0b381ce-f916-4e50-be16-afae2a5e5c26",
+        "flabsCode": "FLP2008"
+      },
+      "_id": "688114947ff2db489c2c25dc"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Skin Prick Test Flare Size",
+        "field": "numeric",
+        "units": "mm",
+        "formulaId": "13bef916-a8db-41bd-a6ed-f197be321545",
+        "flabsCode": "FLP2007"
+      },
+      "_id": "688114947ff2db489c2c25dd"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Intradermal Test Wheal Size",
+        "field": "numeric_unbound",
+        "units": "mm",
+        "rangeReport": "Positive: increase of ≥3 mm compared to baseline",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "3"
+            }
+          }
+        },
+        "formulaId": "f7a4fbb4-da4f-4289-86dd-4e63717d63ae",
+        "flabsCode": "FLP1277"
+      },
+      "_id": "688114947ff2db489c2c25de"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Specific IgE",
+        "field": "numeric_unbound",
+        "units": "kU/L",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "0.35"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "0.35"
+            }
+          }
+        },
+        "rangeReport": "Negative: <0.35\nPositive:≥0.35",
+        "formulaId": "b1a4b9f9-5a07-475f-ba57-a0e39f56c52d",
+        "flabsCode": "FLP1990"
+      },
+      "_id": "688114947ff2db489c2c25df"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Histamine Control (SPT)",
+        "field": "numeric_unbound",
+        "units": "mm",
+        "rangeReport": "≥3 mm (positive control)",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "3"
+            }
+          }
+        },
+        "formulaId": "0673c645-d466-404b-920b-58094135ee8d",
+        "flabsCode": "FLP1180"
+      },
+      "_id": "688114947ff2db489c2c25e0"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Saline Control (SPT)",
+        "field": "numeric_unbound",
+        "rangeReport": "<3 mm (negative control)",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "3"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "3"
+            }
+          }
+        },
+        "units": "mm",
+        "formulaId": "6e3a6079-4120-4b92-ae06-33dd2b8d32d9",
+        "flabsCode": "FLP1938"
+      },
+      "_id": "688114947ff2db489c2c25e1"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c5b3",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1367",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.589Z",
+  "updatedAt": "2025-07-21T19:17:57.589Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

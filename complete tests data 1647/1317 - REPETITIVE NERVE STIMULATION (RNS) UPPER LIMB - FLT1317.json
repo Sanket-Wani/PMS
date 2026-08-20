@@ -1,0 +1,186 @@
+{
+  "_id": "6a86cce55953b1dd0a19c1eb",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "REPETITIVE NERVE STIMULATION (RNS) UPPER LIMB",
+  "code": "2564",
+  "cost": 0,
+  "interpretation": "<p data-start=\"1303\" data-end=\"1327\"><strong data-start=\"1305\" data-end=\"1325\">Normal Response:</strong></p>\n<ul data-start=\"1328\" data-end=\"1427\">\n<li data-start=\"1328\" data-end=\"1386\">\n<p data-start=\"1330\" data-end=\"1386\">Decrement <strong data-start=\"1340\" data-end=\"1349\">&lt; 10%</strong> between 1st and 4th/5th responses.</p>\n</li>\n<li data-start=\"1387\" data-end=\"1427\">\n<p data-start=\"1389\" data-end=\"1427\">No significant change post-exercise.</p>\n</li>\n</ul>\n<p data-start=\"1429\" data-end=\"1484\"><strong data-start=\"1431\" data-end=\"1482\">Abnormal Response (Suggestive of NMJ Disorder):</strong></p>\n<ul data-start=\"1485\" data-end=\"1696\">\n<li data-start=\"1485\" data-end=\"1547\">\n<p data-start=\"1487\" data-end=\"1547\">Decrement <strong data-start=\"1497\" data-end=\"1506\">&gt; 10%</strong> in low-frequency stimulation (2&ndash;3 Hz).</p>\n</li>\n<li data-start=\"1548\" data-end=\"1623\">\n<p data-start=\"1550\" data-end=\"1623\"><strong data-start=\"1550\" data-end=\"1563\">Increment</strong> after exercise (seen in presynaptic disorders like LEMS).</p>\n</li>\n<li data-start=\"1624\" data-end=\"1696\">\n<p data-start=\"1626\" data-end=\"1696\"><strong data-start=\"1626\" data-end=\"1650\">Persistent decrement</strong> after exercise (seen in Myasthenia Gravis).</p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": null,
+  "department": "672b3eace681c385cc85aac5",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Baseline CMAP Amplitude (mV)",
+        "field": "custom",
+        "options": [
+          "Normal ",
+          "Abnormal",
+          "Others"
+        ],
+        "formulaId": "b15eac6e-5754-4fb9-9f03-f1f694d90641",
+        "flabsCode": "FLP0351"
+      },
+      "_id": "6884c998796e9092a48df29a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Baseline CMAP Area (mV·ms)",
+        "field": "custom",
+        "options": [
+          "Normal",
+          "Abnormal",
+          "Others"
+        ],
+        "formulaId": "ade20c0c-3022-4a35-a374-fa9a303d021f",
+        "flabsCode": "FLP0352"
+      },
+      "_id": "6884c998796e9092a48df29b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Decrement from 1st to 4th Response (%)",
+        "field": "custom",
+        "options": [
+          "Normal",
+          "Abnormal",
+          "Others"
+        ],
+        "formulaId": "3405fb60-48dc-44a8-bfb1-26b4099ea7ee",
+        "flabsCode": "FLP0745"
+      },
+      "_id": "6884c998796e9092a48df29c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Decrement from 1st to 5th Response (%)",
+        "field": "custom",
+        "options": [
+          "Normal",
+          "Abnormal",
+          "Others"
+        ],
+        "formulaId": "0a5e6bfe-4ffc-48ba-901c-e39dd9bfb4ee",
+        "flabsCode": "FLP0746"
+      },
+      "_id": "6884c998796e9092a48df29d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Post-Exercise Amplitude Change (%)",
+        "field": "custom",
+        "options": [
+          "Normal",
+          "Abnormal",
+          "Others"
+        ],
+        "formulaId": "2b0912e7-b0aa-41d5-aa94-ed5f85e0203e",
+        "flabsCode": "FLP1759"
+      },
+      "_id": "6884c998796e9092a48df29e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Post-Exercise Decrement at 1 min (%)",
+        "field": "custom",
+        "options": [
+          "Abnormal",
+          "Normal",
+          "Others"
+        ],
+        "formulaId": "550923e5-53ad-451d-b363-6e521c7ff4f5",
+        "flabsCode": "FLP1761"
+      },
+      "_id": "6884c998796e9092a48df29f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Post-Exercise Decrement at 3 min (%)",
+        "field": "custom",
+        "options": [
+          "Normal",
+          "Abnormal",
+          "Others"
+        ],
+        "formulaId": "65e635e6-65bb-47cb-93a8-794a763939f7",
+        "flabsCode": "FLP1762"
+      },
+      "_id": "6884c998796e9092a48df2a0"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c582",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1317",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.391Z",
+  "updatedAt": "2025-07-21T19:17:57.391Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

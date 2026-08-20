@@ -1,0 +1,143 @@
+{
+  "_id": "6a86cb7aba46c74c6d42fac7",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "TOTAL BILIRUBIN",
+  "code": "1215",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "TOTAL BILIRUBIN",
+        "field": "numeric",
+        "units": "mg/dl",
+        "range": {
+          "default": {
+            "male-range-min": "0.3",
+            "male-range-max": "1.2",
+            "female-range-max": "1.2",
+            "female-range-min": "0.3",
+            "child-range-max": "1.2",
+            "child-range-min": "0.3"
+          }
+        },
+        "test_method": "diazonium salt(colorimetric)/ jendrassik",
+        "flabsCode": "FLP2061"
+      },
+      "_id": "679b2e3e9bcb2428d8344fc1"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "CONJUGATED ( D. Bilirubin)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "0.00",
+            "male-range-max": "0.30",
+            "female-range-max": "0.30",
+            "female-range-min": "0.00",
+            "child-range-max": "0.30",
+            "child-range-min": "0.00"
+          }
+        },
+        "units": "mg/dl",
+        "test_method": "jendrassik & grof's",
+        "flabsCode": "FLP0491"
+      },
+      "_id": "679b2e3e9bcb2428d8344fc2"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "UNCONJUGATED ( I.D. Bilirubin)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "0.10",
+            "male-range-max": "1.00",
+            "female-range-max": "1.00",
+            "female-range-min": "0.10",
+            "child-range-max": "1.00",
+            "child-range-min": "0.10"
+          }
+        },
+        "units": "mg/dl",
+        "test_method": "calculated",
+        "flabsCode": "FLP2178"
+      },
+      "_id": "679b2e3e9bcb2428d8344fc3"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c1e2",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0243",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.925Z",
+  "updatedAt": "2025-07-21T19:17:52.925Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

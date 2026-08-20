@@ -1,0 +1,308 @@
+{
+  "deletedLabs": [],
+  "govtIds": [],
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "_id": "6a7f5797757ee51246381bfc",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HAEMOGLOBIN ELECTROPHORESIS (HPLC)",
+  "code": "HPLC",
+  "cost": 0,
+  "showInterpretation": false,
+  "department": "6414fcaaf02dc1ebb6a097d4",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "op": "<",
+              "value": "1.50"
+            },
+            "female-range": {
+              "op": "<",
+              "value": "1.50"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "1.50"
+            }
+          }
+        },
+        "name": "Hb F"
+      },
+      "_id": "65521f6a365e513cb8b7f446"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Peak 2",
+        "field": "numeric_unbound",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range": {
+              "value": "9.60",
+              "op": "<"
+            },
+            "female-range": {
+              "value": "9.60",
+              "op": "<"
+            },
+            "child-range": {
+              "op": "<",
+              "value": "9.60"
+            }
+          }
+        }
+      },
+      "_id": "65521f6a365e513cb8b7f447"
+    },
+    {
+      "data": {
+        "range": {
+          "default": {
+            "female-range-min": "83.24",
+            "child-range-max": "90.79",
+            "child-range-min": "83.24",
+            "male-range-min": "83.24",
+            "male-range-max": "90.79",
+            "female-range-max": "90.79"
+          }
+        },
+        "units": "%",
+        "name": "Hb Adult",
+        "field": "numeric"
+      },
+      "_id": "65521f6a365e513cb8b7f448",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-max": "3.50",
+            "female-range-max": "3.50",
+            "female-range-min": "1.50",
+            "child-range-max": "3.50",
+            "child-range-min": "1.50",
+            "male-range-min": "1.50"
+          }
+        },
+        "name": "Hb A2"
+      },
+      "_id": "65521f6a365e513cb8b7f449"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "range": {
+          "default": {
+            "child-range": {
+              "op": "<",
+              "value": "10.00"
+            },
+            "male-range": {
+              "op": "<",
+              "value": "10.00"
+            },
+            "female-range": {
+              "value": "10.00",
+              "op": "<"
+            }
+          }
+        },
+        "name": "Others (Non Specific)",
+        "field": "numeric_unbound",
+        "units": "%"
+      },
+      "_id": "65521f6a365e513cb8b7f44a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "units": "g/dL",
+        "range": {
+          "default": {
+            "male-range-min": "13.00",
+            "male-range-max": "17.00",
+            "female-range-max": "17.00",
+            "female-range-min": "13.00",
+            "child-range-max": "17.00",
+            "child-range-min": "13.00"
+          }
+        },
+        "name": "Hemoglobin"
+      },
+      "_id": "65521f6a365e513cb8b7f44b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RBC Count",
+        "field": "numeric",
+        "units": "mill/mm3",
+        "range": {
+          "default": {
+            "male-range-max": "5.50",
+            "female-range-max": "5.50",
+            "female-range-min": "4.50",
+            "child-range-max": "5.50",
+            "child-range-min": "4.50",
+            "male-range-min": "4.50"
+          }
+        }
+      },
+      "_id": "65521f6a365e513cb8b7f44c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "field": "numeric",
+        "range": {
+          "default": {
+            "female-range-max": "50.00",
+            "female-range-min": "40.00",
+            "child-range-max": "50.00",
+            "child-range-min": "40.00",
+            "male-range-min": "40.00",
+            "male-range-max": "50.00"
+          }
+        },
+        "units": "%",
+        "name": "Packed Cell Volume (PCV)"
+      },
+      "_id": "65521f6a365e513cb8b7f44d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "units": "fL",
+        "name": "MCV",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "83.00",
+            "male-range-max": "101.00",
+            "female-range-max": "101.00",
+            "female-range-min": "83.00",
+            "child-range-max": "101.00",
+            "child-range-min": "83.00"
+          }
+        }
+      },
+      "_id": "65521f6a365e513cb8b7f44e"
+    },
+    {
+      "data": {
+        "name": "MCH",
+        "field": "numeric",
+        "units": "pg",
+        "range": {
+          "default": {
+            "child-range-min": "27.00",
+            "male-range-min": "27.00",
+            "male-range-max": "32.00",
+            "female-range-max": "32.00",
+            "female-range-min": "27.00",
+            "child-range-max": "32.00"
+          }
+        }
+      },
+      "_id": "65521f6a365e513cb8b7f44f",
+      "type": "testDetails"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "RDW",
+        "field": "numeric",
+        "units": "%",
+        "range": {
+          "default": {
+            "male-range-min": "11.60",
+            "male-range-max": "14.00",
+            "female-range-max": "14.00",
+            "female-range-min": "11.60",
+            "child-range-max": "14.00",
+            "child-range-min": "11.60"
+          }
+        }
+      },
+      "_id": "65521f6a365e513cb8b7f450"
+    }
+  ],
+  "isDefault": false,
+  "parentTest": "65dc4e4588c62152fea19993",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "is_customization_enabled": false,
+  "testType": "DEFAULT",
+  "flabsID": "FLT0522",
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "cultureReporting": false,
+  "tatMinutes": "",
+  "urgentTatMinutes": "",
+  "preAnalyticalTatMinutes": "",
+  "createdAt": "2026-08-14T17:59:51.514Z",
+  "updatedAt": "2026-08-14T17:59:51.514Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": []
+}

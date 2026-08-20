@@ -1,0 +1,294 @@
+{
+  "_id": "6a86cd1192e2891d94902713",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "FOOD INTOLERANCE - NUTS",
+  "code": "2743",
+  "cost": 0,
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "6414fd49f02dc1ebb6a097f7",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetailsCategory",
+      "data": {
+        "name": "Food Allergen",
+        "categories": [
+          {
+            "key": 0,
+            "field": "custom",
+            "name": "Almond",
+            "options": [
+              "No",
+              "Low",
+              "Mderate",
+              "High"
+            ],
+            "formulaId": "d1a1a549-09fb-4007-afdb-6b877d493408",
+            "flabsCode": "FLP0184"
+          },
+          {
+            "key": 1,
+            "field": "custom",
+            "name": "Peanut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "e6dedabf-356a-4130-99c2-7a2920b7c142",
+            "flabsCode": "FLP1701"
+          },
+          {
+            "key": 2,
+            "field": "custom",
+            "name": "Cashew Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "bc627b85-189d-4247-be6d-8340aae81914",
+            "flabsCode": "FLP0549"
+          },
+          {
+            "key": 3,
+            "field": "custom",
+            "name": "Walnut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "fbb29641-3191-480b-a89a-a092e9c243c6",
+            "flabsCode": "FLP2286"
+          },
+          {
+            "key": 4,
+            "field": "custom",
+            "name": "Pistachio",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "44cd3a49-ef6f-415e-ac9a-417c95bb8f44",
+            "flabsCode": "FLP1728"
+          },
+          {
+            "key": 5,
+            "field": "custom",
+            "name": "Hazelnut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "eba31ccc-ec42-4f33-8634-c5a0d4bac733",
+            "flabsCode": "FLP1155"
+          },
+          {
+            "key": 6,
+            "field": "custom",
+            "name": "Brazil Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate"
+            ],
+            "formulaId": "f5e0215e-2c26-46a8-a9a7-4590415181ae",
+            "flabsCode": "FLP0389"
+          },
+          {
+            "key": 7,
+            "field": "custom",
+            "name": "Pecan Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "2e791f68-2f40-4b47-a3ab-7ccf25f8079f",
+            "flabsCode": "FLP1702"
+          },
+          {
+            "key": 8,
+            "field": "custom",
+            "name": "Chestnut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "678a7731-4f77-4c73-958b-c2b6f9e5daa5",
+            "flabsCode": "FLP0572"
+          },
+          {
+            "key": 9,
+            "field": "custom",
+            "name": "Macadamia Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "af888a8f-1d70-4828-8ff9-b233297fe002",
+            "flabsCode": "FLP1423"
+          },
+          {
+            "key": 10,
+            "field": "custom",
+            "name": "Pine Nut",
+            "options": [
+              "Moderate",
+              "No",
+              "Low",
+              "High"
+            ],
+            "formulaId": "ae3b9c06-7f28-4b11-aa3e-5304da1d935b",
+            "flabsCode": "FLP1723"
+          },
+          {
+            "key": 11,
+            "field": "custom",
+            "name": "Ginkgo Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "4802f72c-1772-46be-b5cf-be7137b63543",
+            "flabsCode": "FLP1028"
+          },
+          {
+            "key": 12,
+            "field": "custom",
+            "name": "Acorn",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "bc998e72-091a-483d-bd4f-c713c007df7c"
+          },
+          {
+            "key": 13,
+            "field": "custom",
+            "name": "Cola Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "6f547972-4aa3-4497-ab4c-d3781c60dc88"
+          },
+          {
+            "key": 14,
+            "field": "custom",
+            "name": "Betel Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "f49a1d27-c961-4bfc-aa9f-baa4b4bba481",
+            "flabsCode": "FLP0371"
+          },
+          {
+            "key": 15,
+            "field": "custom",
+            "name": "Shea Nut",
+            "options": [
+              "No",
+              "Low",
+              "Moderate",
+              "High"
+            ],
+            "formulaId": "79c47d7e-70ba-4344-8a15-18c6d1945ed4",
+            "flabsCode": "FLP1998"
+          }
+        ]
+      },
+      "_id": "688519020a49ec918081438e"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92657bf95259b913c616",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT1496",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:57.981Z",
+  "updatedAt": "2025-07-21T19:17:57.981Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}

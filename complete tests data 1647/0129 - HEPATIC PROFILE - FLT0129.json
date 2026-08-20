@@ -1,0 +1,261 @@
+{
+  "_id": "6a86cb5d5953b1dd0a15a4d5",
+  "lab": "6a7f5796eda1a5feaff0b458",
+  "name": "HEPATIC PROFILE",
+  "code": "1114",
+  "cost": 0,
+  "interpretation": "<ul class=\"marker:text-textOff list-disc\">\n<li>\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>Bilirubin:</strong>&nbsp;Elevated levels may indicate liver dysfunction, hemolysis, or bile duct obstruction.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>ALT (SGPT) and AST (SGOT):</strong>&nbsp;Elevated in hepatocellular injury (e.g., hepatitis, liver toxicity)</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>ALP:</strong>&nbsp;Raised levels may suggest cholestasis, bile duct obstruction, or bone disease.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>GGT:</strong>&nbsp;Elevated in liver disease, especially alcoholic liver disease and bile duct obstruction.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>Albumin:</strong>&nbsp;Decreased levels may reflect impaired liver synthetic function.</span></p>\n</li>\n<li style=\"font-size: 11px;\">\n<p class=\"my-0\"><span style=\"font-size: 11px;\"><strong>Total Protein and A/G Ratio:</strong> Helps assess liver synthetic ability and differential diagnosis between liver or other systemic diseases.</span></p>\n</li>\n</ul>",
+  "showInterpretation": false,
+  "sampleType": "serum",
+  "department": "64189267ebe595f57b4fd609",
+  "isActive": true,
+  "isOnboardedTest": false,
+  "testCategory": [
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Bilirubin",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "0.2",
+            "male-range-max": "1.2",
+            "female-range-max": "1.2",
+            "female-range-min": "0.2",
+            "child-range-max": "1.2",
+            "child-range-min": "0.2"
+          }
+        },
+        "formulaId": "80c2c9de-4bef-4968-9ea2-bfcab0302b9a",
+        "flabsCode": "FLP2112"
+      },
+      "_id": "688120337ff2db489c2f0319"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Direct (Conjugated) Bilirubin",
+        "field": "numeric",
+        "units": "mg/dL",
+        "range": {
+          "default": {
+            "male-range-min": "0.0",
+            "male-range-max": "0.3",
+            "female-range-max": "0.3",
+            "female-range-min": "0.0",
+            "child-range-max": "0.3",
+            "child-range-min": "0.0"
+          }
+        },
+        "formulaId": "314b4e38-3dee-4b29-bfca-1ce7f64906f1",
+        "flabsCode": "FLP0765"
+      },
+      "_id": "688120337ff2db489c2f031a"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Indirect (Unconjugated) Bilirubin",
+        "field": "numeric",
+        "units": "mg/dL",
+        "formulaChecked": true,
+        "formula": "{80c2c9de-4bef-4968-9ea2-bfcab0302b9a}-{314b4e38-3dee-4b29-bfca-1ce7f64906f1}",
+        "flabsCode": "FLP1251"
+      },
+      "_id": "688120337ff2db489c2f031b"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SGPT/ALT",
+        "field": "numeric",
+        "units": "U/L",
+        "range": {
+          "default": {
+            "male-range-min": "7",
+            "male-range-max": "56",
+            "female-range-max": "56",
+            "female-range-min": "7",
+            "child-range-max": "56",
+            "child-range-min": "7"
+          }
+        },
+        "formulaId": "add11b85-b6df-458f-8a8d-3cf7aedc4667",
+        "flabsCode": "FLP1910"
+      },
+      "_id": "688120337ff2db489c2f031c"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "SGOT/AST",
+        "field": "numeric",
+        "units": "U/L",
+        "range": {
+          "default": {
+            "male-range-min": "5",
+            "male-range-max": "40",
+            "female-range-max": "40",
+            "female-range-min": "5",
+            "child-range-max": "40",
+            "child-range-min": "5"
+          }
+        },
+        "formulaId": "dedb7f67-bf81-46f2-b7ea-a166cc06e431",
+        "flabsCode": "FLP1907"
+      },
+      "_id": "688120337ff2db489c2f031d"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Alkaline Phosphatase (ALP)",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "40",
+            "male-range-max": "129",
+            "female-range-max": "129",
+            "female-range-min": "40",
+            "child-range-max": "129",
+            "child-range-min": "40"
+          }
+        },
+        "units": "U/L",
+        "formulaId": "e09a91a0-02c9-429c-b43a-99b8ef36650f",
+        "flabsCode": "FLP0177"
+      },
+      "_id": "688120337ff2db489c2f031e"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Gamma Glutamyl Transferase (GGT)",
+        "field": "numeric",
+        "units": "U/L",
+        "range": {
+          "default": {
+            "male-range-min": "9",
+            "male-range-max": "48",
+            "female-range-max": "48",
+            "female-range-min": "9",
+            "child-range-max": "48",
+            "child-range-min": "9"
+          }
+        },
+        "formulaId": "15c2eda8-7955-4fbc-aaf0-4c7eb9f8335f",
+        "flabsCode": "FLP0988"
+      },
+      "_id": "688120337ff2db489c2f031f"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Serum Albumin",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "3.50",
+            "male-range-max": "5.0",
+            "female-range-max": "5.0",
+            "female-range-min": "3.50",
+            "child-range-max": "5.0",
+            "child-range-min": "3.50"
+          }
+        },
+        "units": "g/dL",
+        "formulaId": "66be2256-e12a-4dd3-9bf5-9716d5b10e69",
+        "flabsCode": "FLP1974"
+      },
+      "_id": "688120337ff2db489c2f0320"
+    },
+    {
+      "type": "testDetails",
+      "data": {
+        "name": "Total Protein",
+        "field": "numeric",
+        "range": {
+          "default": {
+            "male-range-min": "6.4",
+            "male-range-max": "8.3",
+            "female-range-max": "8.3",
+            "female-range-min": "6.4",
+            "child-range-max": "8.3",
+            "child-range-min": "6.4"
+          }
+        },
+        "units": "g/dL",
+        "formulaId": "88a73a10-d970-4e70-81e6-87b59bc1005f",
+        "flabsCode": "FLP2134"
+      },
+      "_id": "688120337ff2db489c2f0321"
+    }
+  ],
+  "deletedLabs": [],
+  "isDefault": false,
+  "parentTest": "687e92607bf95259b913c18b",
+  "isOutSource": false,
+  "isMacData": false,
+  "excludeSearch": false,
+  "shouldShowLogo": false,
+  "shouldShowColumnLogo": false,
+  "onlyBilling": false,
+  "startFromNextPage": false,
+  "govtIds": [],
+  "lmpRequired": false,
+  "showPreCollection": false,
+  "forGender": "empty",
+  "testType": "DEFAULT",
+  "allergy_show_second_name": false,
+  "allergy_second_name_language": "",
+  "flabsID": "FLT0129",
+  "cultureReporting": false,
+  "isCreatedByAi": false,
+  "isComplexOnboardingTest": false,
+  "isTestSearchEnabled": false,
+  "radiologyCategory": [],
+  "isPcpndt": false,
+  "modalityType": "",
+  "is_customization_enabled": false,
+  "report_tests_department_font_size": 0,
+  "report_tests_column_heading_font_size": 0,
+  "report_tests_text_font_size": 0,
+  "report_tests_parameter_font_size": 0,
+  "report_tests_method_font_size": 0,
+  "report_tests_method_italic": false,
+  "report_tests_method_color": "0",
+  "report_tests_sample_type_active": false,
+  "report_tests_sample_type_font_size": 0,
+  "report_tests_bar_code_active": false,
+  "report_tests_spacing_department": 0,
+  "report_tests_spacing_test_name": 0,
+  "report_tests_spacing_column_header": 0,
+  "report_tests_spacing_test_parameters": 0,
+  "report_parameter_comment_font_size": 0,
+  "report_parameter_comment_spacing": 0,
+  "report_tests_spacing_test_method": 0,
+  "report_tests_ref_range_first_position": false,
+  "report_interpretation_heading_font_size": 0,
+  "report_interpretation_content_font_size": 0,
+  "report_column_width_test_description": 0,
+  "report_column_width_result": 0,
+  "report_column_width_flag": 0,
+  "report_column_width_ref_range": 0,
+  "report_column_width_unit": 0,
+  "report_column_labelling_test_description": "0",
+  "report_column_labelling_result": "0",
+  "report_column_labelling_flag": "0",
+  "report_column_labelling_ref_range": "0",
+  "report_column_labelling_unit": "0",
+  "report_note_heading_font_size": 0,
+  "report_note_content_font_size": 0,
+  "createdAt": "2025-07-21T19:17:52.524Z",
+  "updatedAt": "2025-07-21T19:17:52.524Z",
+  "comment": [],
+  "ageRanges": [],
+  "allergyCategory": [],
+  "microBiologyCategory": [],
+  "noGrowthTemplates": [],
+  "__v": 0
+}
